@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "db:push": "prisma db push",
-    "db:seed": "tsx scripts/seed.ts",
-    "index:github": "tsx scripts/index-github.ts",
+    "db:seed": "tsx scripts/seed.mts",
+    "index:github": "tsx scripts/index-github.mts",
     "test:mcp": "tsx scripts/test-mcp.ts"
   },
   "dependencies": {

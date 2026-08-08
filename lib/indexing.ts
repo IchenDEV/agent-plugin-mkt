@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { stripControlChars } from "@/lib/format";
 import {
   authorDisplayName,
   repositoryUrl,
@@ -49,8 +50,9 @@ export interface UpsertPluginResult {
 
 /**
  * True when a path segment is safe to join under the plugin directory —
- * rejects empty, ".", "..", separators, and NUL so no component path can
- * escape the plugin directory.
+ * rejects empty, ".", "..", separators, and control characters (including
+ * NUL, newlines, and ANSI escapes) so no component path can escape the
+ * plugin directory or inject terminal/clipboard control sequences.
  */
 export function isSafePathSegment(segment: string): boolean {
   return (
@@ -59,30 +61,43 @@ export function isSafePathSegment(segment: string): boolean {
     segment !== ".." &&
     !segment.includes("/") &&
     !segment.includes("\\") &&
-    !segment.includes("\0")
+    stripControlChars(segment) === segment
   );
 }
 
+// Skill frontmatter requirements per the Agent Skills spec
+// (https://agentskills.io/specification): `name` is REQUIRED — 1-64 chars,
+// lowercase alphanumeric and hyphens, no leading/trailing/consecutive
+// hyphens, and MUST match the skill's parent directory name; `description`
+// is REQUIRED — non-empty, at most 1024 chars.
+const SKILL_NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const MAX_SKILL_NAME_LENGTH = 64;
+const MAX_SKILL_DESCRIPTION_LENGTH = 1024;
+
 /**
- * Build a SkillInput from a skills/<dirName>/SKILL.md frontmatter object,
- * per the spec: name = frontmatter.name when it is a non-empty string, else
- * the directory name; description = frontmatter.description when a string.
+ * Build a SkillInput from a skills/<dirName>/SKILL.md frontmatter object.
+ * Returns null when the frontmatter does not conform to the Agent Skills
+ * spec (see the rules above) — the Agent Plugins spec delegates SKILL.md
+ * validity to that spec and says non-conforming skills MUST be skipped.
  */
 export function skillFromFrontmatter(
   dirName: string,
   frontmatter: Record<string, unknown>
-): SkillInput {
-  const rawName = frontmatter["name"];
-  const rawDescription = frontmatter["description"];
-  return {
-    dirName,
-    name:
-      typeof rawName === "string" && rawName.trim().length > 0
-        ? rawName
-        : dirName,
-    description: typeof rawDescription === "string" ? rawDescription : null,
-    frontmatter,
-  };
+): SkillInput | null {
+  const name = frontmatter["name"];
+  const description = frontmatter["description"];
+  if (
+    typeof name !== "string" ||
+    name.length > MAX_SKILL_NAME_LENGTH ||
+    !SKILL_NAME_RE.test(name) ||
+    name !== dirName ||
+    typeof description !== "string" ||
+    description.length === 0 ||
+    description.length > MAX_SKILL_DESCRIPTION_LENGTH
+  ) {
+    return null;
+  }
+  return { dirName, name, description, frontmatter };
 }
 
 /**
@@ -146,7 +161,13 @@ export async function upsertPlugin(
     homepage: manifest.homepage ?? null,
     repository: repositoryUrl(manifest.repository),
     license: manifest.license ?? null,
-    keywords: JSON.stringify(manifest.keywords ?? []),
+    // Normalized (trimmed, lowercased, deduped) so the category filter's
+    // quoted-substring match agrees with the categories derived at read time.
+    keywords: JSON.stringify([
+      ...new Set(
+        (manifest.keywords ?? []).map((k) => k.trim().toLowerCase()).filter(Boolean)
+      ),
+    ]),
     manifest: input.manifestRaw,
     repoUrl: input.repoUrl,
     pluginPath: input.pluginPath,

@@ -262,7 +262,11 @@ export async function handleMcpPost(body: unknown): Promise<McpHandlerResult> {
     );
   }
   if (hasId && !idIsValid) {
-    return rpcError(null, -32600, 'Invalid request: "id" must be a string, number, or null', 400);
+    return rpcError(null, -32600, 'Invalid request: "id" must be a string or a number', 400);
+  }
+  // The MCP base protocol forbids null request ids.
+  if (hasId && rawId === null) {
+    return rpcError(null, -32600, 'Invalid request: "id" must not be null', 400);
   }
 
   // Notifications (no id) never get a response body. notifications/initialized
@@ -271,9 +275,14 @@ export async function handleMcpPost(body: unknown): Promise<McpHandlerResult> {
     return { status: 202 };
   }
 
-  // Preserve the id exactly, including 0, "" and null.
+  // Preserve the id exactly, including 0 and "".
   const id = rawId as JsonRpcId;
-  const method = typeof msg.method === "string" ? msg.method : "";
+  // A Request whose method member is absent or not a string is not a valid
+  // Request object — JSON-RPC 2.0 mandates -32600, not -32601, here.
+  if (typeof msg.method !== "string") {
+    return rpcError(id, -32600, 'Invalid request: "method" must be a string', 400);
+  }
+  const method = msg.method;
   const params =
     typeof msg.params === "object" && msg.params !== null && !Array.isArray(msg.params)
       ? (msg.params as Record<string, unknown>)

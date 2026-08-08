@@ -21,7 +21,12 @@ import {
   type RepoMetadata,
 } from "@/lib/github";
 import { parseFrontmatter } from "@/lib/frontmatter";
-import { parseMcpConfig, pluginManifestSchema } from "@/lib/validation";
+import { stripControlChars } from "@/lib/format";
+import {
+  manifestWarnings,
+  parseMcpConfig,
+  pluginManifestSchema,
+} from "@/lib/validation";
 import {
   isSafePathSegment,
   skillFromFrontmatter,
@@ -31,7 +36,18 @@ import {
 } from "@/lib/indexing";
 
 const MAX_MANIFEST_BYTES = 200 * 1024;
+// mcp.json and SKILL.md share the same size ceiling as plugin.json.
+const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
+// Per-plugin component caps so one crafted repo cannot exhaust the run's
+// rate-limit budget or balloon the database.
+const MAX_SKILLS_PER_PLUGIN = 50;
+const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
+
+/** Untrusted GitHub-sourced strings are stripped of control characters (ANSI escapes, newlines) before hitting the operator's terminal. */
+function safeLog(value: string): string {
+  return stripControlChars(value);
+}
 
 interface CliOptions {
   max: number;
@@ -117,6 +133,12 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
   }
   const manifest = parsed.data;
 
+  // Non-fatal issues (unknown top-level fields, non-object extensions) are
+  // reported and ignored, per the spec.
+  for (const warning of manifestWarnings(rawJson as Record<string, unknown>)) {
+    console.log(`  ${safeLog(warning)}`);
+  }
+
   // Plugin directory = directory of the manifest within the repo ("" = root).
   const pluginPath = item.path.includes("/")
     ? item.path.slice(0, item.path.lastIndexOf("/"))
@@ -131,8 +153,15 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     repo.defaultBranch
   );
   if (skillsDir) {
+    let skillDirsSeen = 0;
     for (const entry of skillsDir) {
       if (entry.type !== "dir") continue;
+      if (++skillDirsSeen > MAX_SKILLS_PER_PLUGIN) {
+        console.log(
+          `  skipping remaining skill directories: per-plugin cap of ${MAX_SKILLS_PER_PLUGIN} reached`
+        );
+        break;
+      }
       if (!isSafePathSegment(entry.name)) {
         console.log(`  skipped skill ${JSON.stringify(entry.name)}: unsafe directory name`);
         continue;
@@ -144,15 +173,28 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
         repo.defaultBranch
       );
       if (!skillFile) {
-        console.log(`  skipped skill "${entry.name}": no SKILL.md`);
+        console.log(`  skipped skill ${JSON.stringify(entry.name)}: no SKILL.md`);
+        continue;
+      }
+      if (skillFile.size > MAX_COMPONENT_FILE_BYTES) {
+        console.log(
+          `  skipped skill ${JSON.stringify(entry.name)}: SKILL.md too large (${skillFile.size} bytes > ${MAX_COMPONENT_FILE_BYTES})`
+        );
         continue;
       }
       const frontmatter = parseFrontmatter(skillFile.text);
       if (!frontmatter) {
-        console.log(`  skipped skill "${entry.name}": missing or malformed frontmatter`);
+        console.log(`  skipped skill ${JSON.stringify(entry.name)}: missing or malformed frontmatter`);
         continue;
       }
-      skills.push(skillFromFrontmatter(entry.name, frontmatter.data));
+      const skill = skillFromFrontmatter(entry.name, frontmatter.data);
+      if (!skill) {
+        console.log(
+          `  skipped skill ${JSON.stringify(entry.name)}: frontmatter does not conform to the Agent Skills spec (name must match the directory, description required)`
+        );
+        continue;
+      }
+      skills.push(skill);
     }
   }
 
@@ -164,25 +206,41 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     repo.defaultBranch
   );
   if (mcpFile) {
-    let mcpJson: unknown = null;
-    let mcpJsonOk = false;
-    try {
-      mcpJson = JSON.parse(mcpFile.text);
-      mcpJsonOk = true;
-    } catch {
-      console.log("  skipped mcp.json: not valid JSON");
-    }
-    if (mcpJsonOk) {
-      const { servers, skipped } = parseMcpConfig(mcpJson);
-      for (const s of skipped) {
-        console.log(`  skipped MCP server "${s.serverId}": ${s.reason}`);
+    if (mcpFile.size > MAX_COMPONENT_FILE_BYTES) {
+      console.log(
+        `  skipped mcp.json: too large (${mcpFile.size} bytes > ${MAX_COMPONENT_FILE_BYTES})`
+      );
+    } else {
+      let mcpJson: unknown = null;
+      let mcpJsonOk = false;
+      try {
+        mcpJson = JSON.parse(mcpFile.text);
+        mcpJsonOk = true;
+      } catch {
+        console.log("  skipped mcp.json: not valid JSON");
       }
-      for (const s of servers) {
-        mcpServers.push({
-          serverId: s.serverId,
-          transport: s.config.type,
-          config: s.config,
-        });
+      if (mcpJsonOk) {
+        const { servers, skipped, mcpDisabled } = parseMcpConfig(mcpJson);
+        if (mcpDisabled) {
+          console.log(
+            `  mcp.json invalid (${safeLog(mcpDisabled)}) — MCP disabled for this plugin per the spec`
+          );
+        }
+        for (const s of skipped) {
+          console.log(`  skipped MCP server ${JSON.stringify(s.serverId)}: ${safeLog(s.reason)}`);
+        }
+        for (const s of servers.slice(0, MAX_MCP_SERVERS_PER_PLUGIN)) {
+          mcpServers.push({
+            serverId: s.serverId,
+            transport: s.config.type,
+            config: s.config,
+          });
+        }
+        if (servers.length > MAX_MCP_SERVERS_PER_PLUGIN) {
+          console.log(
+            `  dropped ${servers.length - MAX_MCP_SERVERS_PER_PLUGIN} MCP server(s): per-plugin cap of ${MAX_MCP_SERVERS_PER_PLUGIN} reached`
+          );
+        }
       }
     }
   }
@@ -234,16 +292,16 @@ try {
         const outcome = await indexHit(item);
         if (outcome.ok) {
           indexed++;
-          console.log(`indexed ${outcome.name}@${item.repository.full_name}`);
+          console.log(`indexed ${outcome.name}@${safeLog(item.repository.full_name)}`);
         } else {
           skipped++;
-          console.log(`skipped ${key}: ${outcome.reason}`);
+          console.log(`skipped ${safeLog(key)}: ${safeLog(outcome.reason)}`);
         }
       } catch (err) {
         if (err instanceof RateLimitAbortError) throw err;
         errors++;
         const message = err instanceof Error ? err.message : String(err);
-        console.error(`error ${key}: ${message}`);
+        console.error(`error ${safeLog(key)}: ${safeLog(message)}`);
       }
     }
     if (processed >= max) break;

@@ -44,17 +44,17 @@ export const COMPONENT_TYPES: readonly ComponentType[] = ["skills", "mcp"];
 export const TRANSPORTS: readonly Transport[] = ["stdio", "streamable-http", "sse"];
 export const SORT_ORDERS: readonly SortOrder[] = ["stars", "updated", "recent"];
 
-/** `page` query param: integer, clamped to >= 1; anything unparsable is 1. */
+/** `page` query param: safe integer, clamped to >= 1; anything unparsable (or beyond Number.MAX_SAFE_INTEGER) is 1. */
 export function parsePage(raw: string | null): number {
   const n = Number.parseInt(raw ?? "", 10);
-  if (!Number.isFinite(n)) return 1;
+  if (!Number.isSafeInteger(n)) return 1;
   return Math.max(1, n);
 }
 
-/** `per_page` query param: integer clamped to 1..MAX_PER_PAGE; unparsable falls back to the default. */
+/** `per_page` query param: safe integer clamped to 1..MAX_PER_PAGE; unparsable falls back to the default. */
 export function parsePerPage(raw: string | null): number {
   const n = Number.parseInt(raw ?? "", 10);
-  if (!Number.isFinite(n)) return DEFAULT_PER_PAGE;
+  if (!Number.isSafeInteger(n)) return DEFAULT_PER_PAGE;
   return Math.min(MAX_PER_PAGE, Math.max(1, n));
 }
 

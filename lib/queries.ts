@@ -33,6 +33,9 @@ export interface PluginSummary {
   skillCount: number;
   mcpCount: number;
   transports: Transport[];
+  /** When the plugin first entered the index. */
+  createdAt: Date;
+  /** When the plugin was last (re-)indexed. */
   indexedAt: Date;
 }
 
@@ -85,13 +88,20 @@ function toSummary(plugin: PluginWithComponents): PluginSummary {
     skillCount: plugin.skillCount,
     mcpCount: plugin.mcpCount,
     transports: [...new Set(plugin.mcpServers.map((s) => s.transport as Transport))],
+    createdAt: plugin.createdAt,
     indexedAt: plugin.indexedAt,
   };
 }
 
 export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<PluginSummary>> {
-  const page = Math.max(1, Math.floor(filters.page ?? 1));
-  const perPage = Math.min(MAX_PER_PAGE, Math.max(1, Math.floor(filters.perPage ?? DEFAULT_PER_PAGE)));
+  // Clamp to safe integers here so no surface (REST, MCP, web) can push a
+  // skip value past the query engine's 64-bit integer range.
+  const rawPage = Math.floor(filters.page ?? 1);
+  const page = Number.isSafeInteger(rawPage) ? Math.max(1, rawPage) : 1;
+  const rawPerPage = Math.floor(filters.perPage ?? DEFAULT_PER_PAGE);
+  const perPage = Number.isSafeInteger(rawPerPage)
+    ? Math.min(MAX_PER_PAGE, Math.max(1, rawPerPage))
+    : DEFAULT_PER_PAGE;
 
   const where: Prisma.PluginWhereInput = {};
   const and: Prisma.PluginWhereInput[] = [];
@@ -107,9 +117,11 @@ export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<
       ],
     });
   }
-  if (filters.category) {
-    // Keywords are stored as a JSON array string; match the quoted element.
-    and.push({ keywords: { contains: JSON.stringify(filters.category) } });
+  const category = filters.category?.trim().toLowerCase();
+  if (category) {
+    // Keywords are stored normalized (trimmed, lowercased) as a JSON array
+    // string; normalize the filter the same way and match the quoted element.
+    and.push({ keywords: { contains: JSON.stringify(category) } });
   }
   if (filters.type === "skills") and.push({ skillCount: { gt: 0 } });
   if (filters.type === "mcp") and.push({ mcpCount: { gt: 0 } });
@@ -185,7 +197,8 @@ export async function getStats(): Promise<Stats> {
     prisma.plugin.count(),
     prisma.skill.count(),
     prisma.mcpServer.count(),
-    getCategories().then((c) => c.length),
+    // Count ALL distinct categories — never the display-capped default list.
+    getCategories(Number.POSITIVE_INFINITY).then((c) => c.length),
   ]);
   return { plugins, skills, mcpServers, categories };
 }

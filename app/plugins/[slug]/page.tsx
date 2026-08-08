@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Fragment, cache, type ReactNode } from "react";
 import { CopyButton } from "@/components/copy-button";
 import { Badge, Card, Container, transportBadgeVariant } from "@/components/ui";
-import { formatNumber, relativeTime } from "@/lib/format";
+import { formatNumber, relativeTime, stripControlChars } from "@/lib/format";
 import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
 
 export const dynamic = "force-dynamic";
@@ -44,8 +44,12 @@ function SectionHeading({ title, count }: { title: string; count?: number }) {
 }
 
 function InstallCard({ plugin }: { plugin: PluginDetail }) {
-  const pathHint = plugin.pluginPath ? `  # plugin at ${plugin.pluginPath}/` : "";
-  const command = `git clone ${plugin.repoUrl}${pathHint}`;
+  // Defense-in-depth: this string reaches the user's clipboard (and likely a
+  // terminal), so indexed data must never smuggle newlines or ANSI escapes
+  // that could break out of the shell comment.
+  const safePath = stripControlChars(plugin.pluginPath);
+  const pathHint = safePath ? `  # plugin at ${safePath}/` : "";
+  const command = `git clone ${stripControlChars(plugin.repoUrl)}${pathHint}`;
   return (
     <Card>
       <div className="flex items-center gap-3 px-4 py-3">
@@ -253,9 +257,16 @@ export default async function PluginPage({ params }: PluginPageProps) {
   const plugin = await getPlugin(slug);
   if (!plugin) notFound();
 
-  const hasPlaceholders = plugin.mcpServers.some((server) =>
-    JSON.stringify(server.config).includes("${PLUGIN_")
-  );
+  // The spec expands ${PLUGIN_*} placeholders only in args elements, env
+  // values, and cwd — never in url or headers — so only those fields count.
+  const hasPlaceholders = plugin.mcpServers.some(({ config }) => {
+    const fields: unknown[] = [config.cwd];
+    if (Array.isArray(config.args)) fields.push(...config.args);
+    if (config.env && typeof config.env === "object" && !Array.isArray(config.env)) {
+      fields.push(...Object.values(config.env));
+    }
+    return fields.some((value) => typeof value === "string" && value.includes("${PLUGIN_"));
+  });
 
   const meta: { key: string; node: ReactNode }[] = [];
   if (plugin.authorName) meta.push({ key: "author", node: <>by {plugin.authorName}</> });
@@ -375,7 +386,9 @@ export default async function PluginPage({ params }: PluginPageProps) {
                   <p className="text-xs leading-relaxed text-gray-500">
                     <code className="font-mono">{"${PLUGIN_ROOT}"}</code> and{" "}
                     <code className="font-mono">{"${PLUGIN_DATA}"}</code> are spec placeholders —
-                    agent clients expand them to real paths at runtime.
+                    agent clients expand them to real paths at runtime in{" "}
+                    <code className="font-mono">args</code>, <code className="font-mono">env</code>{" "}
+                    values, and <code className="font-mono">cwd</code> only.
                   </p>
                 ) : null}
               </div>

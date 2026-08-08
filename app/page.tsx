@@ -256,9 +256,9 @@ export default async function HomePage() {
                         </span>
                         <span
                           className="shrink-0 text-xs text-gray-500"
-                          title={plugin.indexedAt.toISOString()}
+                          title={plugin.createdAt.toISOString()}
                         >
-                          indexed {relativeTime(plugin.indexedAt)}
+                          indexed {relativeTime(plugin.createdAt)}
                         </span>
                       </Link>
                     </li>

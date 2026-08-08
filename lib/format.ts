@@ -1,3 +1,17 @@
+/**
+ * Remove ASCII control characters (C0 range + DEL) from untrusted text that
+ * is destined for a terminal, log line, or the clipboard — newlines and ANSI
+ * escape sequences in indexed repo paths must never reach those sinks.
+ */
+export function stripControlChars(value: string): string {
+  let out = "";
+  for (const ch of value) {
+    const code = ch.codePointAt(0) ?? 0;
+    if (code >= 0x20 && code !== 0x7f) out += ch;
+  }
+  return out;
+}
+
 export function formatNumber(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace(/\.0$/, "")}M`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1).replace(/\.0$/, "")}k`;

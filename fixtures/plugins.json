@@ -11,7 +11,7 @@
         "name": "review-sentinel",
         "version": "1.4.2",
         "description": "Code review skills for agent workflows: diff triage, test-gap detection, and API surface checks that run before a human ever opens the PR.",
-        "author": "Loomworks",
+        "author": { "name": "Loomworks" },
         "repository": "https://github.com/loomworks/review-sentinel",
         "license": "MIT",
         "keywords": ["code-review", "quality", "git"]
@@ -93,7 +93,7 @@
         "name": "commit-kit",
         "version": "2.1.0",
         "description": "Splits messy working trees into reviewable commits and writes Conventional Commits messages that actually describe the change.",
-        "author": "Mara Jensen <mara@tidyops.io>",
+        "author": { "name": "Mara Jensen", "email": "mara@tidyops.io" },
         "repository": "https://github.com/tidyops/commit-kit",
         "license": "MIT",
         "keywords": ["productivity", "git", "conventional-commits"]
@@ -125,7 +125,7 @@
         "name": "migration-lint",
         "version": "1.0.3",
         "description": "Reviews SQL migrations for lock-heavy DDL, missing indexes on new foreign keys, and irreversible operations before they hit production.",
-        "author": "Quiet River OSS",
+        "author": { "name": "Quiet River OSS" },
         "repository": "https://github.com/quietriver/migration-lint",
         "license": "BSD-3-Clause",
         "keywords": ["database", "sql", "migrations", "code-review"]
@@ -199,7 +199,7 @@
         "name": "pg.bridge",
         "version": "3.2.1",
         "description": "MCP server for Postgres: introspect schemas, explain query plans, and run read-only queries over stdio. No ORM, no magic.",
-        "author": "Statecraft",
+        "author": { "name": "Statecraft" },
         "homepage": "https://statecraft.io/pg-bridge",
         "repository": "https://github.com/statecraft-io/pg-bridge",
         "license": "Apache-2.0",
@@ -229,7 +229,7 @@
         "name": "gridwatch",
         "version": "1.7.0",
         "description": "Exposes dashboards, alert state, and SLO burn rates from your observability stack to agents over streamable HTTP.",
-        "author": "Nimbus Fleet",
+        "author": { "name": "Nimbus Fleet" },
         "repository": "https://github.com/nimbusfleet/gridwatch",
         "license": "MIT",
         "keywords": ["devops", "observability", "monitoring"]
@@ -257,7 +257,7 @@
         "name": "tracefeed",
         "version": "0.8.2",
         "description": "Streams distributed traces to agents over SSE so they can watch a deploy settle in real time. Pairs well with an incident-response skill.",
-        "author": "Opsmesh",
+        "author": { "name": "Opsmesh" },
         "repository": "https://github.com/opsmesh/tracefeed",
         "license": "MPL-2.0",
         "keywords": ["devops", "tracing", "monitoring"]
@@ -316,7 +316,7 @@
         "name": "ticketflow",
         "version": "1.1.4",
         "description": "Issue tracker integration for agents: search and file tickets over HTTP, with a local stdio cache server for offline triage.",
-        "author": "Harborline",
+        "author": { "name": "Harborline" },
         "repository": "https://github.com/harborline/ticketflow",
         "license": "ISC",
         "keywords": ["productivity", "issues", "triage"]
@@ -346,7 +346,7 @@
         "name": "test-pilot",
         "version": "4.0.1",
         "description": "Generates unit tests from real call sites, hunts flaky tests by rerunning suspects in isolation, and exposes coverage data over MCP.",
-        "author": "Skylark",
+        "author": { "name": "Skylark" },
         "homepage": "https://skylark.dev/test-pilot",
         "repository": "https://github.com/skylark-dev/test-pilot",
         "license": "MIT",
@@ -433,7 +433,7 @@
         "name": "frameshift",
         "version": "0.12.0",
         "description": "Data-wrangling skills backed by an embedded DuckDB MCP server. Profile a dataset first, then clean it column by column.",
-        "author": "Lanternworks",
+        "author": { "name": "Lanternworks" },
         "repository": "https://github.com/lanternworks/frameshift",
         "license": "MIT",
         "keywords": ["data", "duckdb", "etl"]
@@ -461,7 +461,7 @@
             "type": "stdio",
             "command": "frameshift-mcp",
             "args": ["--readonly"],
-            "cwd": "."
+            "cwd": "./"
           }
         }
       }
@@ -476,11 +476,8 @@
         "name": "deploy-captain",
         "version": "1.2.5",
         "description": "Rollout planning and incident notes as skills, plus an SSE feed of fleet deploy events so agents can see what shipped where.",
-        "author": "Mastline",
-        "repository": {
-          "type": "git",
-          "url": "https://github.com/mastline/agent-tools"
-        },
+        "author": { "name": "Mastline" },
+        "repository": "https://github.com/mastline/agent-tools",
         "license": "MIT",
         "keywords": ["devops", "deploy", "sre"]
       },

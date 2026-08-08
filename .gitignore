@@ -46,3 +46,6 @@ dev.db*
 
 # claude
 .claude/
+
+# playwright QA artifacts
+.playwright-mcp/

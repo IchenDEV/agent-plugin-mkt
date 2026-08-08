@@ -13,7 +13,11 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { prisma } from "@/lib/db";
-import { parseMcpConfig, pluginManifestSchema } from "@/lib/validation";
+import {
+  manifestWarnings,
+  parseMcpConfig,
+  pluginManifestSchema,
+} from "@/lib/validation";
 import {
   isSafePathSegment,
   skillFromFrontmatter,
@@ -92,6 +96,11 @@ try {
     }
     const manifest = manifestParsed.data;
 
+    // Non-fatal issues the spec says to report and ignore.
+    for (const warning of manifestWarnings(entry.manifest as Record<string, unknown>)) {
+      console.log(`  ${warning}`);
+    }
+
     // Skills: same boundary as the indexer — a bad skill skips only itself.
     const skills: SkillInput[] = [];
     for (const rawSkill of entry.skills) {
@@ -107,13 +116,25 @@ try {
         );
         continue;
       }
-      skills.push(skillFromFrontmatter(dirName, frontmatter));
+      const skill = skillFromFrontmatter(dirName, frontmatter);
+      if (!skill) {
+        console.log(
+          `  skipped skill ${JSON.stringify(dirName)} in ${manifest.name}: frontmatter does not conform to the Agent Skills spec`
+        );
+        continue;
+      }
+      skills.push(skill);
     }
 
     // MCP servers: parseMcpConfig already skips invalid servers non-fatally.
     const mcpServers: McpServerInput[] = [];
     if (entry.mcp !== undefined && entry.mcp !== null) {
-      const { servers, skipped } = parseMcpConfig(entry.mcp);
+      const { servers, skipped, mcpDisabled } = parseMcpConfig(entry.mcp);
+      if (mcpDisabled) {
+        console.log(
+          `  mcp.json invalid in ${manifest.name} (${mcpDisabled}) — MCP disabled for this plugin per the spec`
+        );
+      }
       for (const s of skipped) {
         console.log(
           `  skipped MCP server "${s.serverId}" in ${manifest.name}: ${s.reason}`

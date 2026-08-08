@@ -33,11 +33,15 @@ interface DayGroup {
   items: PluginSummary[];
 }
 
-/** Group plugins by the calendar day of indexedAt, preserving result order. */
+/**
+ * Group plugins by the calendar day of createdAt — the same field the
+ * sort:"recent" query orders by, and the day the plugin entered the index
+ * (indexedAt is bumped on every re-index run).
+ */
 function groupByDay(items: PluginSummary[]): DayGroup[] {
   const groups = new Map<string, PluginSummary[]>();
   for (const item of items) {
-    const day = formatDate(item.indexedAt);
+    const day = formatDate(item.createdAt);
     const bucket = groups.get(day);
     if (bucket) bucket.push(item);
     else groups.set(day, [item]);

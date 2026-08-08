@@ -242,7 +242,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
             </div>
           ) : null}
 
-          {results.items.length === 0 ? (
+          {results.total === 0 ? (
             <EmptyState
               title="No plugins match"
               hint="Clear the filters or try a broader term — the index only includes public repos with a valid plugin.json."
@@ -252,6 +252,19 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
                   className="inline-flex rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-iris"
                 >
                   Clear all filters
+                </Link>
+              }
+            />
+          ) : results.items.length === 0 ? (
+            <EmptyState
+              title="Nothing on this page"
+              hint="This page is past the end of the results — head back to page 1 with the filters kept."
+              action={
+                <Link
+                  href={hrefWith(active, { page: null })}
+                  className="inline-flex rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-iris"
+                >
+                  Back to page 1
                 </Link>
               }
             />

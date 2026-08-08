@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-plugin-marketplace",
+  "version": "0.1.0",
+  "description": "Registry for Agent Plugins: browse indexed skills and MCP servers on the web, or search the registry from an agent via its MCP endpoint.",
+  "license": "MIT",
+  "keywords": ["registry", "marketplace", "skills", "mcp"],
+  "homepage": "https://agent-plugins.org"
+}

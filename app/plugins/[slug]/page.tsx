@@ -1,0 +1,399 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Fragment, cache, type ReactNode } from "react";
+import { CopyButton } from "@/components/copy-button";
+import { Badge, Card, Container, transportBadgeVariant } from "@/components/ui";
+import { formatNumber, relativeTime } from "@/lib/format";
+import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
+
+export const dynamic = "force-dynamic";
+
+// Dedupes the query between generateMetadata and the page render.
+const getPlugin = cache(getPluginBySlug);
+
+type PluginPageProps = { params: Promise<{ slug: string }> };
+
+export async function generateMetadata({ params }: PluginPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const plugin = await getPlugin(slug);
+  if (!plugin) return { title: "Plugin not found" };
+  return {
+    title: plugin.name,
+    description: plugin.description ?? `${plugin.name} — an Agent Plugin indexed from GitHub.`,
+  };
+}
+
+function StarIcon() {
+  return (
+    <svg aria-hidden viewBox="0 0 16 16" className="size-3.5 fill-current">
+      <path d="M8 1.5l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.3l-3.8 2 .7-4.3-3.1-3 4.3-.6L8 1.5z" />
+    </svg>
+  );
+}
+
+function SectionHeading({ title, count }: { title: string; count?: number }) {
+  return (
+    <h2 className="font-display text-lg font-semibold tracking-tight">
+      {title}
+      {count !== undefined ? (
+        <span className="ml-2 text-sm font-medium text-gray-400">{count}</span>
+      ) : null}
+    </h2>
+  );
+}
+
+function InstallCard({ plugin }: { plugin: PluginDetail }) {
+  const pathHint = plugin.pluginPath ? `  # plugin at ${plugin.pluginPath}/` : "";
+  const command = `git clone ${plugin.repoUrl}${pathHint}`;
+  return (
+    <Card>
+      <div className="flex items-center gap-3 px-4 py-3">
+        <code className="min-w-0 flex-1 overflow-x-auto whitespace-nowrap font-mono text-[13px] text-gray-800">
+          <span aria-hidden className="select-none text-gray-400">
+            {"$ "}
+          </span>
+          git clone {plugin.repoUrl}
+          {pathHint ? <span className="text-gray-400">{pathHint}</span> : null}
+        </code>
+        <CopyButton text={command} label="Copy" />
+      </div>
+      <p className="border-t border-gray-100 px-4 py-2.5 text-xs leading-relaxed text-gray-500">
+        Clone into your agent client’s plugin directory — components are discovered from fixed
+        locations per the spec.
+        {plugin.pluginPath ? ` The plugin lives at ${plugin.pluginPath}/ within the repo.` : null}
+      </p>
+    </Card>
+  );
+}
+
+/** The signature element: the plugin’s real directory layout, from indexed data. */
+function DirectoryTree({ plugin }: { plugin: PluginDetail }) {
+  const entries: ("manifest" | "skills" | "mcp")[] = ["manifest"];
+  if (plugin.skills.length > 0) entries.push("skills");
+  if (plugin.mcpCount > 0) entries.push("mcp");
+
+  const rows: ReactNode[] = [];
+  entries.forEach((entry, i) => {
+    const last = i === entries.length - 1;
+    const connector = last ? "└── " : "├── ";
+    const childPrefix = last ? "    " : "│   ";
+    if (entry === "manifest") {
+      rows.push(<div key="plugin.json">{connector}plugin.json</div>);
+    } else if (entry === "skills") {
+      rows.push(<div key="skills">{connector}skills/</div>);
+      plugin.skills.forEach((skill, j) => {
+        const skillLast = j === plugin.skills.length - 1;
+        rows.push(
+          <div key={`${skill.dirName}/`}>
+            {childPrefix}
+            {skillLast ? "└── " : "├── "}
+            <span className="text-iris">{skill.dirName}/</span>
+          </div>
+        );
+        rows.push(
+          <div key={`${skill.dirName}/SKILL.md`}>
+            {childPrefix}
+            {skillLast ? "    " : "│   "}
+            {"└── "}
+            <span className="text-iris">SKILL.md</span>
+          </div>
+        );
+      });
+    } else {
+      rows.push(
+        <div key="mcp.json">
+          {connector}
+          <span className="text-teal-700">mcp.json</span>
+        </div>
+      );
+    }
+  });
+
+  const root = plugin.pluginPath ? `${plugin.pluginPath}/` : `${plugin.name}/`;
+
+  return (
+    <Card tab={root}>
+      <pre className="overflow-x-auto px-4 py-3.5 font-mono text-[13px] leading-6 text-gray-600">{rows}</pre>
+    </Card>
+  );
+}
+
+function McpServerCard({ server }: { server: PluginDetail["mcpServers"][number] }) {
+  const { config } = server;
+  const rows: { key: string; value: string }[] = [];
+  if (typeof config.command === "string") rows.push({ key: "command", value: config.command });
+  if (Array.isArray(config.args)) {
+    const args = config.args.filter((a): a is string => typeof a === "string");
+    if (args.length > 0) rows.push({ key: "args", value: args.join(" ") });
+  }
+  if (typeof config.url === "string") rows.push({ key: "url", value: config.url });
+  if (typeof config.cwd === "string") rows.push({ key: "cwd", value: config.cwd });
+  const env = config.env;
+  if (env && typeof env === "object" && !Array.isArray(env)) {
+    for (const [key, value] of Object.entries(env as Record<string, unknown>)) {
+      if (typeof value === "string") rows.push({ key: `env.${key}`, value });
+    }
+  }
+
+  return (
+    <Card>
+      <div className="flex flex-wrap items-center gap-2 border-b border-gray-100 px-4 py-2.5">
+        <span className="font-mono text-sm font-medium">{server.serverId}</span>
+        <Badge mono variant={transportBadgeVariant(server.transport)}>
+          {server.transport}
+        </Badge>
+      </div>
+      {rows.length > 0 ? (
+        <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-4 gap-y-1.5 px-4 py-3.5 font-mono text-[13px]">
+          {rows.map((row) => (
+            <Fragment key={row.key}>
+              <dt className="text-gray-400">{row.key}</dt>
+              <dd className="whitespace-pre-wrap break-all text-gray-700">{row.value}</dd>
+            </Fragment>
+          ))}
+        </dl>
+      ) : null}
+    </Card>
+  );
+}
+
+function ManifestCard({ manifest }: { manifest: string }) {
+  let pretty = manifest;
+  try {
+    pretty = JSON.stringify(JSON.parse(manifest), null, 2);
+  } catch {
+    // Not valid JSON as stored; show the raw text.
+  }
+  return (
+    <Card>
+      <div className="flex items-center justify-between gap-3 border-b border-gray-100 px-4 py-2.5">
+        <span className="font-mono text-xs text-gray-500">plugin.json</span>
+        <CopyButton text={pretty} label="Copy manifest" />
+      </div>
+      <pre className="max-h-[480px] overflow-x-auto overflow-y-auto px-4 py-3.5 font-mono text-xs leading-relaxed text-gray-700">{pretty}</pre>
+    </Card>
+  );
+}
+
+function shortUrl(url: string): string {
+  const short = url.replace(/^https?:\/\//, "").replace(/\/+$/, "");
+  return short.length > 48 ? `${short.slice(0, 47)}…` : short;
+}
+
+/** Renders a link only for http(s) URLs; anything else stays plain text. */
+function ExternalLink({ url }: { url: string }) {
+  if (!url.startsWith("http://") && !url.startsWith("https://")) {
+    return <span className="break-all">{url}</span>;
+  }
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      className="break-all text-iris hover:underline"
+    >
+      {shortUrl(url)}
+    </a>
+  );
+}
+
+function MetaRow({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div>
+      <dt className="font-mono text-[11px] uppercase tracking-wider text-gray-400">{label}</dt>
+      <dd className="mt-1 break-words text-sm text-gray-700">{children}</dd>
+    </div>
+  );
+}
+
+function MetaSidebar({ plugin }: { plugin: PluginDetail }) {
+  const keywords = [...new Set(plugin.keywords)];
+  return (
+    <Card className="p-4">
+      <h2 className="sr-only">Plugin metadata</h2>
+      <dl className="space-y-4">
+        <MetaRow label="repository">
+          <ExternalLink url={plugin.repoUrl} />
+        </MetaRow>
+        {plugin.homepage ? (
+          <MetaRow label="homepage">
+            <ExternalLink url={plugin.homepage} />
+          </MetaRow>
+        ) : null}
+        {plugin.license ? <MetaRow label="license">{plugin.license}</MetaRow> : null}
+        {plugin.version ? (
+          <MetaRow label="version">
+            <span className="font-mono">{plugin.version}</span>
+          </MetaRow>
+        ) : null}
+        {keywords.length > 0 ? (
+          <MetaRow label="keywords">
+            <span className="flex flex-wrap gap-1.5">
+              {keywords.map((kw) => (
+                <Link
+                  key={kw}
+                  href={`/plugins?category=${encodeURIComponent(kw)}`}
+                  className="rounded-full bg-gray-100 px-2.5 py-0.5 font-mono text-xs text-gray-600 hover:bg-iris-soft hover:text-iris-deep"
+                >
+                  {kw}
+                </Link>
+              ))}
+            </span>
+          </MetaRow>
+        ) : null}
+        <MetaRow label="indexed">{relativeTime(plugin.indexedAt)}</MetaRow>
+      </dl>
+    </Card>
+  );
+}
+
+export default async function PluginPage({ params }: PluginPageProps) {
+  const { slug } = await params;
+  const plugin = await getPlugin(slug);
+  if (!plugin) notFound();
+
+  const hasPlaceholders = plugin.mcpServers.some((server) =>
+    JSON.stringify(server.config).includes("${PLUGIN_")
+  );
+
+  const meta: { key: string; node: ReactNode }[] = [];
+  if (plugin.authorName) meta.push({ key: "author", node: <>by {plugin.authorName}</> });
+  if (plugin.license) meta.push({ key: "license", node: plugin.license });
+  meta.push({
+    key: "stars",
+    node: (
+      <span className="inline-flex items-center gap-1 text-amber-700">
+        <StarIcon />
+        {formatNumber(plugin.repoStars)}
+      </span>
+    ),
+  });
+  if (plugin.repoPushedAt)
+    meta.push({ key: "updated", node: <>updated {relativeTime(plugin.repoPushedAt)}</> });
+
+  return (
+    <Container className="py-10">
+      <Link href="/plugins" className="text-sm font-medium text-gray-500 hover:text-iris">
+        ← All plugins
+      </Link>
+
+      <header className="mt-4">
+        <div className="flex flex-wrap items-center gap-3">
+          <h1 className="break-all font-mono text-2xl font-semibold tracking-tight sm:text-3xl">
+            {plugin.name}
+          </h1>
+          {plugin.version ? (
+            <Badge mono variant="neutral">
+              v{plugin.version}
+            </Badge>
+          ) : null}
+        </div>
+        {plugin.description ? (
+          <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-gray-600">
+            {plugin.description}
+          </p>
+        ) : null}
+        <div className="mt-4 flex flex-wrap items-center gap-1.5">
+          {plugin.skillCount > 0 ? (
+            <Badge variant="skill">
+              {plugin.skillCount} skill{plugin.skillCount === 1 ? "" : "s"}
+            </Badge>
+          ) : null}
+          {plugin.mcpCount > 0 ? (
+            <Badge variant="mcp">
+              {plugin.mcpCount} MCP server{plugin.mcpCount === 1 ? "" : "s"}
+            </Badge>
+          ) : null}
+          {plugin.transports.map((t) => (
+            <Badge key={t} mono variant={transportBadgeVariant(t)}>
+              {t}
+            </Badge>
+          ))}
+        </div>
+        <p className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm text-gray-500">
+          {meta.map((item, i) => (
+            <Fragment key={item.key}>
+              {i > 0 ? (
+                <span aria-hidden className="text-gray-300">
+                  ·
+                </span>
+              ) : null}
+              <span>{item.node}</span>
+            </Fragment>
+          ))}
+        </p>
+      </header>
+
+      <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
+        <div className="min-w-0 space-y-10">
+          <section>
+            <SectionHeading title="Install" />
+            <div className="mt-3">
+              <InstallCard plugin={plugin} />
+            </div>
+          </section>
+
+          <section>
+            <SectionHeading title="Layout" />
+            <div className="mt-3">
+              <DirectoryTree plugin={plugin} />
+            </div>
+          </section>
+
+          {plugin.skills.length > 0 ? (
+            <section>
+              <SectionHeading title="Skills" count={plugin.skills.length} />
+              <Card className="mt-3 divide-y divide-gray-100">
+                {plugin.skills.map((skill) => (
+                  <div key={skill.dirName} className="px-4 py-3.5">
+                    <div className="flex flex-wrap items-baseline gap-x-2.5 gap-y-0.5">
+                      <span className="text-sm font-semibold">{skill.name}</span>
+                      <span className="font-mono text-xs text-gray-400">
+                        skills/{skill.dirName}/
+                      </span>
+                    </div>
+                    {skill.description ? (
+                      <p className="mt-1 text-sm leading-relaxed text-gray-600">
+                        {skill.description}
+                      </p>
+                    ) : null}
+                  </div>
+                ))}
+              </Card>
+            </section>
+          ) : null}
+
+          {plugin.mcpServers.length > 0 ? (
+            <section>
+              <SectionHeading title="MCP servers" count={plugin.mcpServers.length} />
+              <div className="mt-3 space-y-4">
+                {plugin.mcpServers.map((server) => (
+                  <McpServerCard key={server.serverId} server={server} />
+                ))}
+                {hasPlaceholders ? (
+                  <p className="text-xs leading-relaxed text-gray-500">
+                    <code className="font-mono">{"${PLUGIN_ROOT}"}</code> and{" "}
+                    <code className="font-mono">{"${PLUGIN_DATA}"}</code> are spec placeholders —
+                    agent clients expand them to real paths at runtime.
+                  </p>
+                ) : null}
+              </div>
+            </section>
+          ) : null}
+
+          <section>
+            <SectionHeading title="Manifest" />
+            <div className="mt-3">
+              <ManifestCard manifest={plugin.manifest} />
+            </div>
+          </section>
+        </div>
+
+        <aside className="lg:sticky lg:top-20">
+          <MetaSidebar plugin={plugin} />
+        </aside>
+      </div>
+    </Container>
+  );
+}

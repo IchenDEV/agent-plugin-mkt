@@ -1,0 +1,574 @@
+{
+  "$comment": "Fixture plugins for scripts/seed.ts. Every entry mirrors what the live indexer assembles: the raw plugin.json manifest (stored as an object; seed.ts stringifies it for the raw-text field), repo metadata, discovered skills (dirName + SKILL.md frontmatter), and the mcp.json body. All repos and orgs are fictional.",
+  "plugins": [
+    {
+      "repoUrl": "https://github.com/loomworks/review-sentinel",
+      "pluginPath": "",
+      "repoStars": 4870,
+      "repoPushedAt": "2026-06-21T14:05:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "review-sentinel",
+        "version": "1.4.2",
+        "description": "Code review skills for agent workflows: diff triage, test-gap detection, and API surface checks that run before a human ever opens the PR.",
+        "author": "Loomworks",
+        "repository": "https://github.com/loomworks/review-sentinel",
+        "license": "MIT",
+        "keywords": ["code-review", "quality", "git"]
+      },
+      "skills": [
+        {
+          "dirName": "pr-review",
+          "frontmatter": {
+            "name": "pr-review",
+            "description": "Review a pull request diff for correctness, missing tests, and unreviewed API surface changes."
+          }
+        },
+        {
+          "dirName": "security-pass",
+          "frontmatter": {
+            "name": "security-pass",
+            "description": "Second-pass review focused on injection risks, authz checks, and unsafe deserialization in the diff."
+          }
+        },
+        {
+          "dirName": "changelog-check",
+          "frontmatter": {
+            "name": "changelog-check",
+            "description": "Verify the changelog entry matches the actual change and flags breaking changes explicitly."
+          }
+        }
+      ]
+    },
+    {
+      "repoUrl": "https://github.com/foundrylabs/docsmith",
+      "pluginPath": "",
+      "repoStars": 2340,
+      "repoPushedAt": "2026-04-11T09:12:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "docsmith",
+        "version": "0.9.1",
+        "description": "Keeps READMEs, API references, and changelogs in sync with the code they describe. Regenerates only the sections that drifted.",
+        "author": {
+          "name": "Foundry Labs",
+          "url": "https://foundrylabs.dev"
+        },
+        "homepage": "https://foundrylabs.dev/docsmith",
+        "repository": "https://github.com/foundrylabs/docsmith",
+        "license": "Apache-2.0",
+        "keywords": ["documentation", "readme", "changelog"]
+      },
+      "skills": [
+        {
+          "dirName": "api-reference",
+          "frontmatter": {
+            "name": "api-reference",
+            "description": "Regenerate API reference sections from exported symbols, preserving hand-written prose between markers."
+          }
+        },
+        {
+          "dirName": "readme-refresh",
+          "frontmatter": {
+            "name": "readme-refresh",
+            "description": "Detect drift between the README and the current CLI flags, config options, and examples, then patch it."
+          }
+        },
+        {
+          "dirName": "changelog",
+          "frontmatter": {
+            "name": "changelog",
+            "description": "Draft a changelog entry from merged commits since the last tag, grouped by change type."
+          }
+        }
+      ]
+    },
+    {
+      "repoUrl": "https://github.com/tidyops/commit-kit",
+      "pluginPath": "",
+      "repoStars": 92,
+      "repoPushedAt": "2025-11-30T18:47:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "commit-kit",
+        "version": "2.1.0",
+        "description": "Splits messy working trees into reviewable commits and writes Conventional Commits messages that actually describe the change.",
+        "author": "Mara Jensen <mara@tidyops.io>",
+        "repository": "https://github.com/tidyops/commit-kit",
+        "license": "MIT",
+        "keywords": ["productivity", "git", "conventional-commits"]
+      },
+      "skills": [
+        {
+          "dirName": "write-commit",
+          "frontmatter": {
+            "name": "write-commit",
+            "description": "Write a Conventional Commits message for the staged diff, with scope inferred from touched packages."
+          }
+        },
+        {
+          "dirName": "split-diff",
+          "frontmatter": {
+            "name": "split-diff",
+            "description": "Partition an oversized working tree into independent, individually revertable commits."
+          }
+        }
+      ]
+    },
+    {
+      "repoUrl": "https://github.com/quietriver/migration-lint",
+      "pluginPath": "",
+      "repoStars": 1120,
+      "repoPushedAt": "2026-02-17T11:30:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "migration-lint",
+        "version": "1.0.3",
+        "description": "Reviews SQL migrations for lock-heavy DDL, missing indexes on new foreign keys, and irreversible operations before they hit production.",
+        "author": "Quiet River OSS",
+        "repository": "https://github.com/quietriver/migration-lint",
+        "license": "BSD-3-Clause",
+        "keywords": ["database", "sql", "migrations", "code-review"]
+      },
+      "skills": [
+        {
+          "dirName": "review-migration",
+          "frontmatter": {
+            "name": "review-migration",
+            "description": "Lint a migration file for table locks, full rewrites, and unindexed foreign keys, with per-engine notes."
+          }
+        },
+        {
+          "dirName": "rollback-plan",
+          "frontmatter": {
+            "name": "rollback-plan",
+            "description": "Produce a tested down-migration or a documented reason why the change is irreversible."
+          }
+        }
+      ]
+    },
+    {
+      "repoUrl": "https://github.com/kestrel-ui/a11y-sweep",
+      "pluginPath": "",
+      "repoStars": 640,
+      "repoPushedAt": "2026-07-02T08:20:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "a11y-sweep",
+        "version": "0.5.0",
+        "description": "Accessibility audit skills: WCAG 2.2 page audits, contrast fixes, and ARIA reviews that produce concrete patches instead of checklists.",
+        "author": {
+          "name": "Kestrel UI",
+          "email": "oss@kestrel-ui.dev"
+        },
+        "repository": "https://github.com/kestrel-ui/a11y-sweep",
+        "license": "MIT",
+        "keywords": ["testing", "accessibility", "browser"]
+      },
+      "skills": [
+        {
+          "dirName": "audit-page",
+          "frontmatter": {
+            "name": "audit-page",
+            "description": "Run a WCAG 2.2 AA audit against a rendered page and rank findings by user impact."
+          }
+        },
+        {
+          "dirName": "fix-contrast",
+          "frontmatter": {
+            "name": "fix-contrast",
+            "description": "Propose minimal palette adjustments that bring failing text and UI contrast ratios into compliance."
+          }
+        },
+        {
+          "dirName": "aria-review",
+          "frontmatter": {
+            "name": "aria-review",
+            "description": "Check ARIA usage against the first rule of ARIA: prefer native elements, remove redundant roles."
+          }
+        }
+      ]
+    },
+    {
+      "repoUrl": "https://github.com/statecraft-io/pg-bridge",
+      "pluginPath": "",
+      "repoStars": 11800,
+      "repoPushedAt": "2026-07-28T22:41:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "pg.bridge",
+        "version": "3.2.1",
+        "description": "MCP server for Postgres: introspect schemas, explain query plans, and run read-only queries over stdio. No ORM, no magic.",
+        "author": "Statecraft",
+        "homepage": "https://statecraft.io/pg-bridge",
+        "repository": "https://github.com/statecraft-io/pg-bridge",
+        "license": "Apache-2.0",
+        "keywords": ["database", "postgres", "sql"]
+      },
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "postgres": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@statecraft/pg-bridge"],
+            "env": {
+              "PG_BRIDGE_READONLY": "1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/nimbusfleet/gridwatch",
+      "pluginPath": "",
+      "repoStars": 3450,
+      "repoPushedAt": "2026-05-09T16:03:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "gridwatch",
+        "version": "1.7.0",
+        "description": "Exposes dashboards, alert state, and SLO burn rates from your observability stack to agents over streamable HTTP.",
+        "author": "Nimbus Fleet",
+        "repository": "https://github.com/nimbusfleet/gridwatch",
+        "license": "MIT",
+        "keywords": ["devops", "observability", "monitoring"]
+      },
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "gridwatch": {
+            "type": "streamable-http",
+            "url": "https://mcp.gridwatch.dev/v1",
+            "headers": {
+              "X-Gridwatch-Region": "auto"
+            }
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/opsmesh/tracefeed",
+      "pluginPath": "",
+      "repoStars": 118,
+      "repoPushedAt": "2025-12-14T07:55:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "tracefeed",
+        "version": "0.8.2",
+        "description": "Streams distributed traces to agents over SSE so they can watch a deploy settle in real time. Pairs well with an incident-response skill.",
+        "author": "Opsmesh",
+        "repository": "https://github.com/opsmesh/tracefeed",
+        "license": "MPL-2.0",
+        "keywords": ["devops", "tracing", "monitoring"]
+      },
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "tracefeed": {
+            "type": "sse",
+            "url": "https://sse.tracefeed.io/mcp"
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/plumbline/headless-pilot",
+      "pluginPath": "",
+      "repoStars": 5230,
+      "repoPushedAt": "2026-03-25T13:18:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "headless-pilot",
+        "version": "2.0.0",
+        "description": "Drives headless Chromium and Firefox over MCP. Navigate, screenshot, and assert on real pages without pulling in a test framework.",
+        "author": {
+          "name": "Plumbline",
+          "url": "https://plumbline.dev"
+        },
+        "repository": "https://github.com/plumbline/headless-pilot",
+        "license": "MIT",
+        "keywords": ["browser", "automation", "testing"]
+      },
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "chromium": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@plumbline/headless-pilot", "--browser", "chromium"]
+          },
+          "firefox": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@plumbline/headless-pilot", "--browser", "firefox"]
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/harborline/ticketflow",
+      "pluginPath": "",
+      "repoStars": 33,
+      "repoPushedAt": "2026-01-19T20:26:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "ticketflow",
+        "version": "1.1.4",
+        "description": "Issue tracker integration for agents: search and file tickets over HTTP, with a local stdio cache server for offline triage.",
+        "author": "Harborline",
+        "repository": "https://github.com/harborline/ticketflow",
+        "license": "ISC",
+        "keywords": ["productivity", "issues", "triage"]
+      },
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "tickets": {
+            "type": "streamable-http",
+            "url": "https://api.ticketflow.dev/mcp"
+          },
+          "local-cache": {
+            "type": "stdio",
+            "command": "ticketflow-cache",
+            "args": ["--db", ".ticketflow/cache.db"]
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/skylark-dev/test-pilot",
+      "pluginPath": "",
+      "repoStars": 7620,
+      "repoPushedAt": "2026-06-30T10:44:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "test-pilot",
+        "version": "4.0.1",
+        "description": "Generates unit tests from real call sites, hunts flaky tests by rerunning suspects in isolation, and exposes coverage data over MCP.",
+        "author": "Skylark",
+        "homepage": "https://skylark.dev/test-pilot",
+        "repository": "https://github.com/skylark-dev/test-pilot",
+        "license": "MIT",
+        "keywords": ["testing", "coverage", "quality"]
+      },
+      "skills": [
+        {
+          "dirName": "generate-tests",
+          "frontmatter": {
+            "name": "generate-tests",
+            "description": "Write unit tests for a module using its real call sites as the source of expected behavior."
+          }
+        },
+        {
+          "dirName": "flaky-hunt",
+          "frontmatter": {
+            "name": "flaky-hunt",
+            "description": "Rerun suspected flaky tests in isolation, bisect ordering dependencies, and report the true culprit."
+          }
+        }
+      ],
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "coverage": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@skylark/test-pilot-mcp"]
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/copperkey/argus-scan",
+      "pluginPath": "",
+      "repoStars": 2980,
+      "repoPushedAt": "2026-07-15T15:09:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "argus-scan",
+        "version": "1.9.0",
+        "description": "Dependency and secret scanning for agent workflows. Skills audit lockfiles and diffs; the MCP server serves a live advisory feed.",
+        "author": {
+          "name": "Copperkey Security",
+          "url": "https://copperkey.io"
+        },
+        "repository": "https://github.com/copperkey/argus-scan",
+        "license": "Apache-2.0",
+        "keywords": ["security", "dependencies", "secrets"]
+      },
+      "skills": [
+        {
+          "dirName": "dependency-audit",
+          "frontmatter": {
+            "name": "dependency-audit",
+            "description": "Audit lockfile changes against known advisories and flag newly introduced transitive risk."
+          }
+        },
+        {
+          "dirName": "secret-scan",
+          "frontmatter": {
+            "name": "secret-scan",
+            "description": "Scan a diff for committed credentials and produce rotation steps for anything found."
+          }
+        }
+      ],
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "advisories": {
+            "type": "streamable-http",
+            "url": "https://mcp.copperkey.io/advisories"
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/lanternworks/frameshift",
+      "pluginPath": "",
+      "repoStars": 1540,
+      "repoPushedAt": "2026-02-28T12:37:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "frameshift",
+        "version": "0.12.0",
+        "description": "Data-wrangling skills backed by an embedded DuckDB MCP server. Profile a dataset first, then clean it column by column.",
+        "author": "Lanternworks",
+        "repository": "https://github.com/lanternworks/frameshift",
+        "license": "MIT",
+        "keywords": ["data", "duckdb", "etl"]
+      },
+      "skills": [
+        {
+          "dirName": "profile-dataset",
+          "frontmatter": {
+            "name": "profile-dataset",
+            "description": "Summarize a dataset's shape, null rates, cardinality, and outliers before any transformation."
+          }
+        },
+        {
+          "dirName": "clean-columns",
+          "frontmatter": {
+            "name": "clean-columns",
+            "description": "Normalize types, trim strings, and reconcile categorical values one column at a time, with a diff of every change."
+          }
+        }
+      ],
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "duckdb": {
+            "type": "stdio",
+            "command": "frameshift-mcp",
+            "args": ["--readonly"],
+            "cwd": "."
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/mastline/agent-tools",
+      "pluginPath": "plugins/deploy-captain",
+      "repoStars": 430,
+      "repoPushedAt": "2025-10-08T17:52:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "deploy-captain",
+        "version": "1.2.5",
+        "description": "Rollout planning and incident notes as skills, plus an SSE feed of fleet deploy events so agents can see what shipped where.",
+        "author": "Mastline",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/mastline/agent-tools"
+        },
+        "license": "MIT",
+        "keywords": ["devops", "deploy", "sre"]
+      },
+      "skills": [
+        {
+          "dirName": "rollout-plan",
+          "frontmatter": {
+            "name": "rollout-plan",
+            "description": "Draft a staged rollout plan with health gates, bake times, and an explicit abort threshold."
+          }
+        },
+        {
+          "dirName": "incident-note",
+          "frontmatter": {
+            "name": "incident-note",
+            "description": "Write a factual incident note from the deploy timeline: what shipped, what broke, what rolled back."
+          }
+        }
+      ],
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "fleet-events": {
+            "type": "sse",
+            "url": "https://events.mastline.dev/mcp"
+          }
+        }
+      }
+    },
+    {
+      "repoUrl": "https://github.com/inkwell-oss/apiscribe",
+      "pluginPath": "",
+      "repoStars": 6100,
+      "repoPushedAt": "2026-07-31T19:15:00Z",
+      "manifest": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+        "name": "apiscribe",
+        "version": "2.3.0",
+        "description": "OpenAPI-first API documentation. Skills keep specs, prose, and SDK examples in sync; an MCP server serves the spec registry.",
+        "author": {
+          "name": "Inkwell OSS",
+          "email": "hello@inkwell.dev",
+          "url": "https://inkwell.dev"
+        },
+        "homepage": "https://apiscribe.dev",
+        "repository": "https://github.com/inkwell-oss/apiscribe",
+        "license": "Apache-2.0",
+        "keywords": ["documentation", "openapi", "api"],
+        "extensions": {
+          "dev.inkwell.apiscribe": {
+            "defaultStyle": "reference",
+            "sdkTargets": ["typescript", "python"]
+          }
+        }
+      },
+      "skills": [
+        {
+          "dirName": "openapi-sync",
+          "frontmatter": {
+            "name": "openapi-sync",
+            "description": "Diff the OpenAPI spec against handler signatures and update whichever side is stale."
+          }
+        },
+        {
+          "dirName": "endpoint-docs",
+          "frontmatter": {
+            "name": "endpoint-docs",
+            "description": "Write endpoint documentation with realistic request/response examples pulled from the spec's schemas."
+          }
+        },
+        {
+          "dirName": "sdk-examples",
+          "frontmatter": {
+            "name": "sdk-examples",
+            "description": "Generate copy-pasteable SDK snippets per endpoint for each configured language target."
+          }
+        }
+      ],
+      "mcp": {
+        "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+        "mcpServers": {
+          "spec-registry": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@inkwell/apiscribe-mcp"]
+          }
+        }
+      }
+    }
+  ]
+}

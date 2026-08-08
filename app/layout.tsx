@@ -43,6 +43,12 @@ function Header() {
           <Link href="/plugins" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
             Browse
           </Link>
+          <Link href="/categories" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
+            Categories
+          </Link>
+          <Link href="/timeline" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
+            Timeline
+          </Link>
           <Link href="/docs" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
             API
           </Link>
@@ -76,6 +82,8 @@ function Footer() {
         <nav aria-label="Footer" className="grid gap-2">
           <p className="font-mono text-xs uppercase tracking-wider text-gray-500">Explore</p>
           <Link href="/plugins" className="hover:text-white">Browse plugins</Link>
+          <Link href="/categories" className="hover:text-white">Categories</Link>
+          <Link href="/timeline" className="hover:text-white">Timeline</Link>
           <Link href="/docs" className="hover:text-white">REST API</Link>
           <Link href="/docs#mcp" className="hover:text-white">MCP endpoint</Link>
         </nav>

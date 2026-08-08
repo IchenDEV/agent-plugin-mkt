@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-porcelain: #f6f7f9;
+  --color-surface: #ffffff;
+  --color-ink: #161a25;
+  --color-iris: #5147e5;
+  --color-iris-deep: #3f37c9;
+  --color-iris-soft: #eeedfc;
+
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "SF Mono", monospace;
+}
+
+body {
+  background: var(--color-porcelain);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-iris-soft);
+}
+
+/* Visible keyboard focus, iris ring (quality floor per DESIGN.md) */
+:focus-visible {
+  outline: 2px solid var(--color-iris);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// SQLite locally; keep every type Postgres-compatible (no SQLite-only features).
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Plugin {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  name        String
+  version     String?
+  description String?
+  authorName  String?
+  homepage    String?
+  repository  String?
+  license     String?
+  // JSON-encoded string[] (SQLite has no native arrays)
+  keywords    String  @default("[]")
+  // Raw plugin.json text as fetched
+  manifest    String
+
+  // Source repo metadata
+  repoUrl      String
+  // Path of the plugin directory within the repo ("" = repo root)
+  pluginPath   String    @default("")
+  repoStars    Int       @default(0)
+  repoPushedAt DateTime?
+
+  skillCount Int @default(0)
+  mcpCount   Int @default(0)
+
+  skills     Skill[]
+  mcpServers McpServer[]
+
+  createdAt DateTime @default(now())
+  indexedAt DateTime @updatedAt
+
+  @@unique([repoUrl, pluginPath])
+  @@index([repoStars])
+  @@index([indexedAt])
+}
+
+model Skill {
+  id          String  @id @default(cuid())
+  pluginId    String
+  plugin      Plugin  @relation(fields: [pluginId], references: [id], onDelete: Cascade)
+  // Directory name under skills/
+  dirName     String
+  name        String
+  description String?
+  // JSON-encoded SKILL.md frontmatter
+  frontmatter String  @default("{}")
+
+  @@unique([pluginId, dirName])
+}
+
+model McpServer {
+  id       String @id @default(cuid())
+  pluginId String
+  plugin   Plugin @relation(fields: [pluginId], references: [id], onDelete: Cascade)
+  // Key in mcp.json's mcpServers map
+  serverId String
+  // "stdio" | "streamable-http" | "sse"
+  transport String
+  // JSON-encoded server config (command/args/url/... as declared)
+  config   String
+
+  @@unique([pluginId, serverId])
+}

@@ -4,6 +4,11 @@
   --color-porcelain: #f6f7f9;
   --color-surface: #ffffff;
   --color-ink: #161a25;
+  --color-action: #161a25;
+  --color-on-action: #ffffff;
+  --color-footer: #161a25;
+  --color-code: #161a25;
+  --color-code-ink: #e5e7eb;
   --color-iris: #5147e5;
   --color-iris-deep: #3f37c9;
   --color-iris-soft: #eeedfc;
@@ -13,14 +18,53 @@
   --font-mono: "JetBrains Mono Variable", ui-monospace, "SF Mono", monospace;
 }
 
+:root {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-porcelain: #0d1017;
+  --color-surface: #161b25;
+  --color-ink: #f2f4f8;
+  --color-action: #6b61eb;
+  --color-on-action: #ffffff;
+  --color-footer: #090b10;
+  --color-code: #090c12;
+  --color-code-ink: #e6e9ef;
+  --color-iris: #9b94ff;
+  --color-iris-deep: #bbb6ff;
+  --color-iris-soft: #29264e;
+  --color-gray-50: #1b202b;
+  --color-gray-100: #232a36;
+  --color-gray-200: #303847;
+  --color-gray-300: #485264;
+  --color-gray-400: #7f899c;
+  --color-gray-500: #9fa8b9;
+  --color-gray-600: #c2c8d2;
+  --color-gray-700: #d7dbe2;
+  --color-gray-800: #eceef2;
+  --color-teal-50: #112f30;
+  --color-teal-700: #6ed6d1;
+  --color-amber-50: #332816;
+  --color-amber-700: #f1bd63;
+}
+
 body {
   background: var(--color-porcelain);
   color: var(--color-ink);
   font-family: var(--font-sans);
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
 ::selection {
   background: var(--color-iris-soft);
+}
+
+input,
+select,
+textarea {
+  color: var(--color-ink);
 }
 
 /* Visible keyboard focus, iris ring (quality floor per DESIGN.md) */

@@ -12,9 +12,11 @@ Defined as Tailwind v4 tokens in `app/globals.css` (`@theme`). Use utility class
 
 | Token | Hex | Use |
 |---|---|---|
-| `porcelain` | `#F6F7F9` | Page background |
-| `surface` | `#FFFFFF` | Cards, panels |
-| `ink` | `#161A25` | Primary text, footer background |
+| `porcelain` | `#F6F7F9` / `#0D1017` | Page background (light / dark) |
+| `surface` | `#FFFFFF` / `#161B25` | Cards, panels (light / dark) |
+| `ink` | `#161A25` / `#F2F4F8` | Primary text (light / dark) |
+| `action` | `#161A25` / `#6B61EB` | High-contrast actions |
+| `footer` | `#161A25` / `#090B10` | Footer background |
 | `iris` | `#5147E5` | Primary actions, links, **Skills** |
 | `iris-soft` | `#EEEDFC` | Iris tint backgrounds (badges, hovers) |
 | Tailwind `gray-500/600` | — | Muted text |
@@ -45,10 +47,16 @@ Plugin names are always mono — they are identifiers, not prose.
 
 Use these primitives; don't reinvent: `Container`, `Card` (folder-tab variant via `tab` prop), `Badge` (variants: `skill`, `mcp`, `stdio`, `http`, `sse`, `neutral`), `StatBlock`, `SearchInput`, `EmptyState`. `CopyButton` is in `components/copy-button.tsx` (client component).
 
+## Theme and language
+
+- Light and dark themes share the same component structure and information colors. The initial theme follows the operating system; a user selection is saved in `localStorage` and applied before first paint.
+- English and Simplified Chinese are supported. The language selector persists the choice in a cookie so server-rendered content, document language, metadata, dates, and relative times agree on first paint.
+- Names, descriptions, keywords, paths, manifests, protocol names, and code from indexed repositories remain in their source language.
+
 ## Voice
 
 Sentence case everywhere. Plain verbs ("Browse plugins", "Copy install command"). Errors say what happened and what to do next. Empty states invite action ("No plugins match — clear filters or try a broader term."). Never marketing-speak ("supercharge", "unleash"). The audience is developers; be specific, cite the spec.
 
 ## Quality floor
 
-Responsive to 360px. Visible keyboard focus (`focus-visible` rings, iris). `prefers-reduced-motion` respected — motion is subtle or absent; no scroll-jacking. Light theme only in v1 (deliberate). All data rendered as text — never `dangerouslySetInnerHTML` on indexed content.
+Responsive to 360px. Visible keyboard focus (`focus-visible` rings, iris). `prefers-reduced-motion` respected — motion is subtle or absent; no scroll-jacking. Light and dark themes must both preserve WCAG AA contrast for body text and controls. All indexed data is rendered as text — never `dangerouslySetInnerHTML` on indexed content.

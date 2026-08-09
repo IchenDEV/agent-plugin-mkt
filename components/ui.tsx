@@ -88,12 +88,14 @@ export function SearchInput({
   action = "/plugins",
   defaultValue = "",
   placeholder = "Search plugins, skills, MCP servers…",
+  submitLabel = "Search",
   hidden = {},
   autoFocus = false,
 }: {
   action?: string;
   defaultValue?: string;
   placeholder?: string;
+  submitLabel?: string;
   hidden?: Record<string, string | string[]>;
   autoFocus?: boolean;
 }) {
@@ -123,9 +125,9 @@ export function SearchInput({
       />
       <button
         type="submit"
-        className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-md bg-ink px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-iris"
+        className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-md bg-action px-3.5 py-1.5 text-xs font-semibold text-on-action hover:bg-iris"
       >
-        Search
+        {submitLabel}
       </button>
     </form>
   );

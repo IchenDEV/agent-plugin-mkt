@@ -1,159 +1,236 @@
-# plugins marketplace
+<div align="center">
 
-A registry for open-source skills and MCP servers packaged as self-contained plugins for [Codex](https://developers.openai.com/plugins/build/plugins), [Claude Code](https://code.claude.com/docs/en/plugins-reference), or the [Agent Plugins v1](https://agent-plugins.org/specification) format. Indexed from canonical GitHub manifests and built with Next.js 16, Prisma, and SQLite.
+# Agent Plugin Marketplace
 
-Every surface reads from the same index:
+**One open index for Codex, Claude Code, and Agent Plugins.**
 
-- **Web UI** — browse, search, categories, timeline, and plugin detail pages
-- **REST API** — `/api/v1/*`, documented at `/docs` with an OpenAPI 3.1 spec at `/api/openapi.json`
-- **MCP endpoint** — `POST /api/mcp` (Streamable HTTP, stateless), so agents can query the registry natively
-- **llms.txt** — a plain-text guide for LLM agents at `/llms.txt`
-- **llms-full.txt** — a complete text catalog for retrieval and citation at `/llms-full.txt`
+Discover public plugins, inspect their skills and MCP servers, or search the same catalog directly from an agent.
 
-The marketplace dogfoods all three formats. This repository contains `.codex-plugin/plugin.json`, `.claude-plugin/plugin.json`, and the legacy root `plugin.json`; both official runtimes share the root `.mcp.json` connection.
+[Browse the marketplace](https://pluginsmp.com) · [API & MCP docs](https://pluginsmp.com/docs) · [OpenAPI 3.1](https://pluginsmp.com/api/openapi.json) · [Full agent-readable catalog](https://pluginsmp.com/llms-full.txt)
+
+[![Sync GitHub plugins](https://github.com/IchenDEV/agent-plugin-mkt/actions/workflows/sync-github-plugins.yml/badge.svg)](https://github.com/IchenDEV/agent-plugin-mkt/actions/workflows/sync-github-plugins.yml)
+[![Live](https://img.shields.io/website?url=https%3A%2F%2Fpluginsmp.com&label=marketplace)](https://pluginsmp.com)
+[![License: MIT](https://img.shields.io/badge/license-MIT-111827.svg)](LICENSE)
+
+</div>
+
+![Agent Plugin Marketplace preview](https://pluginsmp.com/opengraph-image)
+
+## What is this?
+
+Agent Plugin Marketplace is a community index of open-source packages that follow one or more canonical plugin formats. It discovers repositories on GitHub, validates their manifests, merges cross-runtime variants into one entry, and exposes the result through a web app, REST API, MCP endpoint, and LLM-friendly text feeds.
+
+It is an **index, not a package host**. Plugin code stays in its source repository, and the marketplace does not execute third-party plugins during indexing.
+
+### One index, five surfaces
+
+| Surface | Best for | URL |
+|---|---|---|
+| Web app | Browse, search, filter, and inspect plugins | [pluginsmp.com](https://pluginsmp.com) |
+| REST API | Applications, scripts, and integrations | [`/api/v1/*`](https://pluginsmp.com/docs) |
+| MCP | Native search from an agent session | [`POST /api/mcp`](https://pluginsmp.com/docs#mcp) |
+| `llms.txt` | A concise guide for agents | [`/llms.txt`](https://pluginsmp.com/llms.txt) |
+| `llms-full.txt` | Retrieval over the complete catalog | [`/llms-full.txt`](https://pluginsmp.com/llms-full.txt) |
+
+All five surfaces read from the same validated snapshot.
+
+## Try it
+
+Search from a browser:
+
+```text
+https://pluginsmp.com/plugins?q=github
+```
+
+Search from code:
+
+```bash
+curl "https://pluginsmp.com/api/v1/plugins?q=github&protocol=codex&protocol=claude-code&sort=stars&per_page=10"
+```
+
+Connect an MCP client:
+
+```json
+{
+  "mcpServers": {
+    "agent-plugin-marketplace": {
+      "type": "streamable-http",
+      "url": "https://pluginsmp.com/api/mcp"
+    }
+  }
+}
+```
+
+The MCP server is stateless and exposes three tools:
+
+- `search_plugins` — search and filter the index
+- `get_plugin` — retrieve a plugin, its manifests, skills, and MCP servers
+- `get_stats` — retrieve current registry totals
 
 ## Runtime compatibility
 
-| Runtime | Canonical manifest | Marketplace catalog |
+| Runtime | Plugin manifest | Marketplace catalog |
 |---|---|---|
-| Codex | `.codex-plugin/plugin.json` | `.agents/plugins/marketplace.json` |
-| Claude Code | `.claude-plugin/plugin.json` | `.claude-plugin/marketplace.json` |
-| Agent Plugins v1 | `plugin.json` | — |
+| [Codex](https://developers.openai.com/plugins/build/plugins) | `.codex-plugin/plugin.json` | `.agents/plugins/marketplace.json` |
+| [Claude Code](https://code.claude.com/docs/en/plugins-reference) | `.claude-plugin/plugin.json` | `.claude-plugin/marketplace.json` |
+| [Agent Plugins v1](https://agent-plugins.org/specification) | `plugin.json` | — |
 
-When a repository carries multiple manifests under the same plugin root, the index stores one plugin with multiple `protocols` instead of creating duplicates. Shared skills remain under `skills/<name>/SKILL.md`; Codex and Claude Code MCP configuration is read from `.mcp.json`, including inline or custom `mcpServers` paths.
+A repository may support one runtime or several. When Codex and Claude Code manifests describe the same plugin root, the index stores one logical plugin with multiple `protocols` instead of duplicate listings.
 
-## Quick start
+Shared components are discovered from `skills/<name>/SKILL.md`. MCP configuration is read from canonical or manifest-referenced configuration files and normalized to `stdio`, `streamable-http`, or `sse` for filtering.
 
-```bash
-npm install
-npx prisma db push        # create SQLite DB (prisma/dev.db) + generate client
-npm run db:seed           # load 15 fixture plugins
-npm run dev               # http://localhost:3000
+## How automatic discovery works
+
+The index is refreshed by [GitHub Actions](.github/workflows/sync-github-plugins.yml) every day at **00:17 and 12:17 UTC**. It can also be started manually.
+
+```mermaid
+flowchart LR
+    A["GitHub repository search"] --> B["Inspect candidate Git trees"]
+    B --> C["Load canonical manifests"]
+    C --> D["Validate skills and MCP config"]
+    D --> E["Merge runtimes and upsert plugins"]
+    E --> F["Validate SQLite snapshot"]
+    F --> G["Commit snapshot to main"]
+    G --> H["Vercel production deploy"]
+    H --> I["Web · REST · MCP · llms.txt"]
 ```
 
-> Fonts are self-hosted via `@fontsource` — no network dependency at build or runtime.
+Discovery combines repository metadata, topics, README signals, Git-tree inspection, and — when a dedicated token is configured — GitHub's legacy Code Search. It searches for all three supported manifest families instead of relying on a hand-maintained allowlist, so first-party and community repositories follow the same path.
 
-Vercel preview deployments bundle `prisma/marketplace.db` as a read-only index
-snapshot and copy it into the function's ephemeral `/tmp` directory at startup.
-Refresh that snapshot locally before deploying with
-`DATABASE_URL=file:./marketplace.db npm run db:push && DATABASE_URL=file:./marketplace.db npm run db:seed`.
-For production, use a managed Postgres database rather than local SQLite.
+Each sync:
 
-## Indexing real plugins from GitHub
+1. Discovers candidate repositories across the supported protocols.
+2. Inspects their trees for canonical manifests, including monorepos with multiple plugin roots.
+3. Validates manifest fields, skills, and MCP server declarations.
+4. Merges sibling runtime manifests and updates repository metadata and star counts.
+5. Runs database integrity checks, protocol tests, and linting.
+6. Commits a changed snapshot to `main`; Vercel deploys that snapshot automatically.
+
+Unchanged repositories reuse their indexed components based on GitHub's `pushed_at` value. Sync is deliberately **upsert-only**: a plugin is not deleted merely because a bounded search fails to return it on a later run.
+
+### Coverage boundaries
+
+GitHub search is broad but not mathematically exhaustive. Individual search queries are capped at 1,000 results, API quotas apply, repositories can be private or temporarily unavailable, and some projects do not publish a canonical manifest. The workflow uses multiple protocol-specific windows and safely commits completed transactions when a run becomes quota-limited, but it does not claim to enumerate every repository on GitHub.
+
+## REST API
+
+The API is read-only, requires no authentication, and allows cross-origin requests.
+
+| Endpoint | Description |
+|---|---|
+| `GET /api/v1/plugins` | Search and paginate plugins |
+| `GET /api/v1/plugins/:slug` | Retrieve one plugin with manifests and components |
+| `GET /api/v1/stats` | Retrieve live registry totals |
+| `GET /api/v1/categories` | List manifest-keyword categories with counts |
+
+Useful list parameters include `q`, `category`, `type`, `transport`, `sort`, `page`, and `per_page`. Repeat `protocol` to match any selected runtime:
+
+```text
+/api/v1/plugins?protocol=codex&protocol=claude-code&type=mcp&sort=stars
+```
+
+See the [interactive documentation](https://pluginsmp.com/docs) for response shapes and examples, or consume the [OpenAPI schema](https://pluginsmp.com/api/openapi.json).
+
+## Run locally
+
+Requirements: Node.js 20.9+ and npm. The synchronization workflow currently runs on Node.js 24.
+
+```bash
+git clone https://github.com/IchenDEV/agent-plugin-mkt.git
+cd agent-plugin-mkt
+npm ci
+cp .env.example .env
+npx prisma db push
+npm run db:seed
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+The default development database is SQLite at `prisma/dev.db`. Fonts are self-hosted through `@fontsource`, so the application does not fetch web fonts at build or runtime.
+
+### Index public GitHub repositories
+
+Authenticate with GitHub, then run the indexer:
 
 ```bash
 GITHUB_TOKEN="$(gh auth token)" npm run index:github -- --max 40
 ```
 
-Use `--skip-code-search` to run repository discovery without the legacy Code
-Search API. `--repository-max` controls the number of repository candidates.
+Useful options:
 
-The indexer searches repository metadata, topics, and README text for Codex,
-Claude Code, and Agent Plugins protocol signals, then inspects each candidate's
-Git tree for canonical manifests. This vendor-neutral path covers active
-repositories omitted by GitHub's legacy Code Search index. Legacy Code Search
-remains an additional discovery source when an appropriate token is available.
-Every discovered manifest is validated with its runtime rules, sibling
-manifests at one plugin root are merged, and one logical plugin is upserted. The
-indexer only talks to `api.github.com`, respects rate limits, caps file sizes,
-and is idempotent.
+| Option | Purpose |
+|---|---|
+| `--repository-max <n>` | Limit repository candidates |
+| `--skip-code-search` | Use repository discovery and Git-tree validation only |
+| `--allow-partial` | Keep completed transactions if an API quota is exhausted |
 
-The `Sync GitHub plugins` GitHub Actions workflow runs at 00:17 and 12:17 UTC
-(08:17 and 20:17 Singapore time) and can also be started manually. Each run
-refreshes changed repositories and star counts, validates the SQLite snapshot,
-and commits a changed `prisma/marketplace.db` back to `main`. Vercel then
-deploys the new production snapshot from `main`. Existing repositories whose
-`pushed_at` value has not changed reuse their indexed components to save API
-quota.
+The indexer only talks to `api.github.com`, caps fetched file sizes, respects rate limits, and is idempotent.
 
-A dedicated `MARKETPLACE_GITHUB_TOKEN` repository secret additionally enables
-broad cross-repository legacy Code Search; use a fine-grained PAT for
-public-resource search rather than reusing a broad personal token. Without that
-secret, repository search plus Git-tree validation still runs with the built-in
-Actions token. With the secret configured, each run also scans both the newest-
-and oldest-indexed 1,000-result windows for all three manifest families. If the
-token reaches its hourly quota, transactions that already completed are still
-validated and committed, and the next run continues refreshing the same
-windows. Both GitHub search APIs cap an individual query at 1,000 results, so
-multiple protocol-specific queries maximize coverage without claiming a
-complete enumeration of GitHub.
+To clear the local database before loading fixtures, run `npm run db:seed -- --reset`.
 
-The sync is deliberately upsert-only: it does not delete an existing entry just
-because a bounded GitHub search temporarily stops returning it.
+## Development commands
 
-`--reset` on `db:seed` wipes the index first: `npx tsx scripts/seed.mts --reset`.
+| Command | Purpose |
+|---|---|
+| `npm run dev` | Start the Next.js development server |
+| `npm run build` | Create a production build |
+| `npm test` | Run protocol and validation tests |
+| `npm run lint` | Run ESLint |
+| `npm run db:push` | Apply the Prisma schema |
+| `npm run db:seed` | Load fixture plugins |
+| `npm run db:validate` | Check SQLite integrity and report totals |
+| `npm run index:github` | Discover and refresh public plugins |
+| `npm run test:mcp` | Run the MCP protocol suite against a running server |
+
+For MCP end-to-end tests:
+
+```bash
+npm run dev
+BASE_URL=http://localhost:3000 npm run test:mcp
+```
 
 ## Validation and trust model
 
-All indexed content is treated as untrusted:
+Everything fetched from a plugin repository is treated as untrusted data.
 
-- Codex manifests require a kebab-case name and type-check the common metadata and component fields used by `.codex-plugin/plugin.json`.
-- Claude Code manifests follow its name-only minimum, optional metadata rules, root `SKILL.md` form, and `.claude-plugin/plugin.json` location.
-- Agent Plugins v1 keeps its exact `$schema`, closed author object, non-fatal unknown-field warnings, and component failure boundaries.
-- MCP entries are normalized to `stdio`, `streamable-http`, or `sse` for querying. Invalid individual servers are skipped without rejecting the rest of the plugin.
-- Skills use the Agent Skills rules for Codex/Agent Plugins; Claude Code skills may derive a missing frontmatter name from their directory, as its runtime does.
-- The UI renders indexed data as plain text only; URLs are linkified only for `http(s)`, and text destined for the clipboard is stripped of control characters.
+- Manifests are parsed and validated according to their runtime's rules.
+- Invalid individual skills or MCP servers are isolated where the protocol permits it.
+- Indexed descriptions and metadata are rendered as plain text.
+- Only `http:` and `https:` URLs are linkified.
+- Clipboard text is stripped of control characters.
+- The registry links back to the source repository so users can inspect code and licensing before installation.
 
-## REST API
+An index entry is evidence that a repository published a structurally valid manifest; it is **not** a security audit or endorsement of that plugin.
 
-| Endpoint | Description |
-|---|---|
-| `GET /api/v1/plugins` | List/search. Repeat `protocol` to match any selected runtime, e.g. `?protocol=codex&protocol=claude-code`; other params include `q`, `category`, `type`, `transport`, `sort`, `page`, `per_page` (≤50) |
-| `GET /api/v1/plugins/:slug` | Full plugin detail: manifest, skills, MCP servers |
-| `GET /api/v1/stats` | Registry totals |
-| `GET /api/v1/categories` | Categories (derived from manifest keywords) with counts |
+## Repository layout
 
-Read-only, no auth, CORS `*`. Errors are `{ "error": { "code", "message" } }`. Full docs at `/docs`, OpenAPI at `/api/openapi.json`.
-
-## MCP endpoint
-
-`POST /api/mcp` — stateless Streamable HTTP, JSON-RPC 2.0, protocol `2025-06-18`. Tools: `search_plugins`, `get_plugin`, `get_stats`. Connect from any MCP client:
-
-```json
-{
-  "mcpServers": {
-    "agent-plugin-marketplace": { "type": "streamable-http", "url": "http://localhost:3000/api/mcp" }
-  }
-}
+```text
+app/                  Next.js pages, REST routes, MCP, and text feeds
+components/           Shared server and client UI components
+lib/                  Queries, validation, GitHub discovery, and MCP logic
+prisma/               Schema and deployable marketplace snapshot
+scripts/              Indexing, seeding, validation, and MCP test tools
+tests/                Protocol validation tests
+fixtures/             Fictional local development plugins
+.github/workflows/    Twice-daily synchronization
 ```
 
-End-to-end protocol tests: `npm run test:mcp` (start the server first; `BASE_URL` overrides the target).
+The visual language and component rules live in [DESIGN.md](DESIGN.md).
 
-## Test this repository as a plugin
+## Contributing
 
-Start the web app first so the local MCP endpoint is available. Then validate the package:
+Bug reports, discovery gaps, protocol compatibility fixes, and focused pull requests are welcome. Before opening a change:
 
 ```bash
-python3 /path/to/plugin-creator/scripts/validate_plugin.py .
-claude plugin validate . --strict
+npm ci
+npm test
+npm run lint
+npm run build
 ```
 
-For local marketplace testing, add this repository as a marketplace in the relevant runtime, install `agent-plugin-marketplace@agent-plugin-marketplace`, and start a new session. The checked-in marketplace catalogs point back to the repository root.
-
-## Scripts
-
-| Script | Purpose |
-|---|---|
-| `npm run dev` / `build` / `start` | Next.js lifecycle |
-| `npm run db:push` | Apply Prisma schema to SQLite |
-| `npm run db:seed` | Seed fixtures (add `--reset` via tsx to wipe first) |
-| `npm run db:validate` | Check SQLite integrity and report index totals |
-| `npm run index:github` | Crawl GitHub for real plugins (`GITHUB_TOKEN` recommended) |
-| `npm run test:mcp` | 11-check MCP protocol test suite |
-| `npm run lint` | ESLint |
-
-## Environment
-
-See `.env.example`. `DATABASE_URL` defaults to SQLite (`file:./dev.db`); the Prisma schema is Postgres-compatible for production. `NEXT_PUBLIC_BASE_URL` sets the absolute base for `sitemap.xml`/`robots.txt`.
-
-## Design
-
-The visual system is documented in [DESIGN.md](DESIGN.md): folder-tab "manifest cards" as the signature element, component-type color coding (skills = iris, MCP = teal), Bricolage Grotesque / Instrument Sans / JetBrains Mono.
-
-## Scope notes
-
-v1 is read-only: no accounts, submissions, or ratings. Fixture repos under `fixtures/` are fictional examples; crawled plugins link to their real repositories.
+If a public plugin is missing, first confirm that its repository contains a canonical manifest listed under [Runtime compatibility](#runtime-compatibility). Include the repository URL and manifest path in the issue so the discovery gap can be reproduced.
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE). Indexed plugins retain their own licenses and remain the responsibility of their respective authors.

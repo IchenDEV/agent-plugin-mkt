@@ -1,4 +1,5 @@
 import { Buffer } from "node:buffer";
+import { manifestLocation } from "@/lib/protocols";
 
 // Minimal GitHub REST client on global fetch. Talks to https://api.github.com
 // ONLY — every URL is constructed against that base and origin-checked before
@@ -23,6 +24,18 @@ export const DEFAULT_SEARCH_QUERIES = [
   "filename:plugin.json path:.codex-plugin",
   "filename:plugin.json path:.claude-plugin",
   'filename:plugin.json "agent-plugins.org/schemas"',
+] as const;
+
+/**
+ * High-value public repositories that GitHub Code Search has historically
+ * omitted even though their default branches contain canonical manifests.
+ * Scan their Git trees directly on every run so first-party Claude plugins do
+ * not depend on the completeness of GitHub's search index.
+ */
+export const DEFAULT_PRIORITY_REPOSITORIES = [
+  "anthropics/claude-code",
+  "anthropics/claude-plugins-official",
+  "anthropics/knowledge-work-plugins",
 ] as const;
 
 export class GitHubApiError extends Error {
@@ -331,6 +344,58 @@ export interface RepoFile {
   path: string;
   size: number;
   text: string;
+}
+
+export interface GitTreeEntry {
+  path?: string;
+  type?: string;
+  sha?: string;
+}
+
+export interface RepositoryManifestFile {
+  name: "plugin.json";
+  path: string;
+  sha: string;
+}
+
+interface GitTreeResponse {
+  tree?: GitTreeEntry[];
+  truncated?: boolean;
+}
+
+/** Select canonical plugin manifests from a recursive Git tree response. */
+export function manifestFilesFromTree(
+  entries: readonly GitTreeEntry[],
+): RepositoryManifestFile[] {
+  return entries
+    .filter(
+      (entry): entry is Required<Pick<GitTreeEntry, "path" | "type" | "sha">> =>
+        entry.type === "blob" &&
+        typeof entry.path === "string" &&
+        typeof entry.sha === "string" &&
+        manifestLocation(entry.path) !== null,
+    )
+    .map((entry) => ({ name: "plugin.json" as const, path: entry.path, sha: entry.sha }))
+    .sort((a, b) => a.path.localeCompare(b.path));
+}
+
+/**
+ * Enumerate canonical manifests from a repository without Code Search.
+ * `truncated` is surfaced so callers never mistake an incomplete Git tree for
+ * complete repository coverage.
+ */
+export async function listRepositoryManifestFiles(
+  repoFullName: string,
+  ref: string,
+): Promise<{ files: RepositoryManifestFile[]; truncated: boolean }> {
+  const tree = await githubJson<GitTreeResponse>(
+    `/repos/${encodeRepoFullName(repoFullName)}/git/trees/${encodeURIComponent(ref)}`,
+    { recursive: "1" },
+  );
+  return {
+    files: manifestFilesFromTree(Array.isArray(tree.tree) ? tree.tree : []),
+    truncated: tree.truncated === true,
+  };
 }
 
 /**

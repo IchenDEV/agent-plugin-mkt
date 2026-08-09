@@ -4,12 +4,14 @@
 
 import { prisma } from "@/lib/db";
 import {
+  DEFAULT_PRIORITY_REPOSITORIES,
   DEFAULT_SEARCH_QUERIES,
   GitHubApiError,
   RateLimitAbortError,
   getFileContent,
   getRepo,
   listDirectory,
+  listRepositoryManifestFiles,
   searchCode,
   type CodeSearchItem,
   type RepoMetadata,
@@ -54,6 +56,8 @@ interface CliOptions {
   searchPage?: number;
   searchPageSize?: number;
   allowPartial: boolean;
+  priorityOnly: boolean;
+  priorityRepositories: string[];
 }
 
 function parseArgs(argv: string[]): CliOptions {
@@ -62,6 +66,9 @@ function parseArgs(argv: string[]): CliOptions {
   let searchPage: number | undefined;
   let searchPageSize: number | undefined;
   let allowPartial = false;
+  let priorityOnly = false;
+  let skipPriority = false;
+  const extraPriorityRepositories: string[] = [];
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--max") {
@@ -90,6 +97,18 @@ function parseArgs(argv: string[]): CliOptions {
       if (Number.isInteger(value) && value > 0 && value <= 100) searchPageSize = value;
     } else if (arg === "--allow-partial") {
       allowPartial = true;
+    } else if (arg === "--priority-only") {
+      priorityOnly = true;
+    } else if (arg === "--skip-priority") {
+      skipPriority = true;
+    } else if (arg === "--repo") {
+      const value = argv[++i];
+      if (value && /^[^/\s]+\/[^/\s]+$/.test(value)) {
+        extraPriorityRepositories.push(value);
+      }
+    } else if (arg.startsWith("--repo=")) {
+      const value = arg.slice("--repo=".length);
+      if (/^[^/\s]+\/[^/\s]+$/.test(value)) extraPriorityRepositories.push(value);
     } else {
       console.warn(`ignoring unknown argument: ${arg}`);
     }
@@ -100,6 +119,13 @@ function parseArgs(argv: string[]): CliOptions {
     searchPage,
     searchPageSize,
     allowPartial,
+    priorityOnly,
+    priorityRepositories: [
+      ...new Set([
+        ...(skipPriority ? [] : DEFAULT_PRIORITY_REPOSITORIES),
+        ...extraPriorityRepositories,
+      ]),
+    ],
   };
 }
 
@@ -398,10 +424,19 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
   return { ok: true, name: canonical.manifest.name, status: "indexed" };
 }
 
-const { max, queries, searchPage, searchPageSize, allowPartial } = parseArgs(
-  process.argv.slice(2),
+const {
+  max,
+  queries,
+  searchPage,
+  searchPageSize,
+  allowPartial,
+  priorityOnly,
+  priorityRepositories,
+} = parseArgs(process.argv.slice(2));
+console.log(
+  `scanning ${priorityRepositories.length} priority repositories; ` +
+    `searching ${priorityOnly ? 0 : queries.length} manifest families with up to ${max} search hits`,
 );
-console.log(`searching ${queries.length} manifest families; processing up to ${max} plugin roots`);
 if (searchPage) {
   console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
 }
@@ -416,65 +451,96 @@ let gotFirstPage = false;
 let exitCode = 0;
 const seen = new Set<string>();
 
+async function processHit(item: CodeSearchItem): Promise<void> {
+  const location = manifestLocation(item.path);
+  const rootKey = location
+    ? `${item.repository.full_name}#${location.pluginPath}`
+    : `${item.repository.full_name}#${item.path}`;
+  if (seen.has(rootKey)) return;
+  seen.add(rootKey);
+  processed++;
+  try {
+    const outcome = await indexHit(item);
+    if (outcome.ok) {
+      if (outcome.status === "indexed") indexed++;
+      if (outcome.status === "metadata") metadata++;
+      if (outcome.status === "unchanged") unchanged++;
+      console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
+    } else {
+      skipped++;
+      console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
+    }
+  } catch (err) {
+    if (err instanceof RateLimitAbortError) throw err;
+    errors++;
+    const message = err instanceof Error ? err.message : String(err);
+    console.error(`error ${safeLog(rootKey)}: ${safeLog(message)}`);
+  }
+}
+
 try {
-  for (const [queryIndex, query] of queries.entries()) {
-    const baseBudget = Math.floor(max / queries.length);
-    const queryBudget = baseBudget + (queryIndex < max % queries.length ? 1 : 0);
-    if (queryBudget === 0) continue;
-    console.log(`searching GitHub code: ${query}`);
-    for (const [orderIndex, order] of SEARCH_ORDERS.entries()) {
-      const basePassBudget = Math.floor(queryBudget / SEARCH_ORDERS.length);
-      const passBudget = Math.min(
-        MAX_RESULTS_PER_SEARCH,
-        basePassBudget + (orderIndex < queryBudget % SEARCH_ORDERS.length ? 1 : 0),
+  for (const repoFullName of priorityRepositories) {
+    console.log(`scanning priority repository: ${safeLog(repoFullName)}`);
+    const repo = await getRepo(repoFullName);
+    repoCache.set(repoFullName, repo);
+    if (!repo) {
+      errors++;
+      console.error(`priority repository unavailable: ${safeLog(repoFullName)}`);
+      continue;
+    }
+    const inventory = await listRepositoryManifestFiles(repoFullName, repo.defaultBranch);
+    if (inventory.truncated) {
+      console.warn(
+        `priority repository tree was truncated; coverage is incomplete: ${safeLog(repoFullName)}`,
       );
-      if (passBudget === 0) continue;
-      let passExamined = 0;
-      console.log(`  scanning ${order === "desc" ? "newest" : "oldest"}-indexed window`);
-      try {
-        for await (const items of searchCode(query, {
-          perPage: searchPageSize ?? Math.min(100, passBudget),
-          startPage: searchPage,
-          maxPages: searchPage ? 1 : undefined,
-          sort: "indexed",
-          order,
-        })) {
-          gotFirstPage = true;
-          for (const item of items) {
-            if (passExamined >= passBudget) break;
-            passExamined++;
-            const location = manifestLocation(item.path);
-            const rootKey = location
-              ? `${item.repository.full_name}#${location.pluginPath}`
-              : `${item.repository.full_name}#${item.path}`;
-            if (seen.has(rootKey)) continue;
-            seen.add(rootKey);
-            processed++;
-            try {
-              const outcome = await indexHit(item);
-              if (outcome.ok) {
-                if (outcome.status === "indexed") indexed++;
-                if (outcome.status === "metadata") metadata++;
-                if (outcome.status === "unchanged") unchanged++;
-                console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
-              } else {
-                skipped++;
-                console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
-              }
-            } catch (err) {
-              if (err instanceof RateLimitAbortError) throw err;
-              errors++;
-              const message = err instanceof Error ? err.message : String(err);
-              console.error(`error ${safeLog(rootKey)}: ${safeLog(message)}`);
+    }
+    console.log(`  found ${inventory.files.length} canonical manifests`);
+    for (const file of inventory.files) {
+      await processHit({
+        ...file,
+        html_url: `${repo.htmlUrl}/blob/${repo.defaultBranch}/${file.path}`,
+        repository: { full_name: repo.fullName, html_url: repo.htmlUrl },
+      });
+    }
+  }
+
+  if (!priorityOnly) {
+    for (const [queryIndex, query] of queries.entries()) {
+      const baseBudget = Math.floor(max / queries.length);
+      const queryBudget = baseBudget + (queryIndex < max % queries.length ? 1 : 0);
+      if (queryBudget === 0) continue;
+      console.log(`searching GitHub code: ${query}`);
+      for (const [orderIndex, order] of SEARCH_ORDERS.entries()) {
+        const basePassBudget = Math.floor(queryBudget / SEARCH_ORDERS.length);
+        const passBudget = Math.min(
+          MAX_RESULTS_PER_SEARCH,
+          basePassBudget + (orderIndex < queryBudget % SEARCH_ORDERS.length ? 1 : 0),
+        );
+        if (passBudget === 0) continue;
+        let passExamined = 0;
+        console.log(`  scanning ${order === "desc" ? "newest" : "oldest"}-indexed window`);
+        try {
+          for await (const items of searchCode(query, {
+            perPage: searchPageSize ?? Math.min(100, passBudget),
+            startPage: searchPage,
+            maxPages: searchPage ? 1 : undefined,
+            sort: "indexed",
+            order,
+          })) {
+            gotFirstPage = true;
+            for (const item of items) {
+              if (passExamined >= passBudget) break;
+              passExamined++;
+              await processHit(item);
             }
+            if (passExamined >= passBudget) break;
           }
-          if (passExamined >= passBudget) break;
+        } catch (err) {
+          if (err instanceof RateLimitAbortError) throw err;
+          errors++;
+          const message = err instanceof Error ? err.message : String(err);
+          console.error(`search pass failed (${order}) for ${safeLog(query)}: ${safeLog(message)}`);
         }
-      } catch (err) {
-        if (err instanceof RateLimitAbortError) throw err;
-        errors++;
-        const message = err instanceof Error ? err.message : String(err);
-        console.error(`search pass failed (${order}) for ${safeLog(query)}: ${safeLog(message)}`);
       }
     }
   }

@@ -1,5 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import {
+  DEFAULT_PRIORITY_REPOSITORIES,
+  manifestFilesFromTree,
+} from "@/lib/github";
 import { skillFromFrontmatter } from "@/lib/indexing";
 import { parseEnums, PROTOCOLS } from "@/lib/api-helpers";
 import {
@@ -22,6 +26,49 @@ test("canonical manifest paths resolve to one plugin root", () => {
   );
   assert.equal(manifestLocation("plugins/demo/plugin.json")?.protocol, "agent-plugins");
   assert.equal(manifestLocation("package.json"), null);
+});
+
+test("first-party Claude repositories bypass incomplete GitHub Code Search", () => {
+  assert.ok(DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/claude-code"));
+  assert.ok(
+    DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/claude-plugins-official"),
+  );
+  assert.ok(
+    DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/knowledge-work-plugins"),
+  );
+
+  assert.deepEqual(
+    manifestFilesFromTree([
+      {
+        path: "plugins/code-review/.claude-plugin/plugin.json",
+        type: "blob",
+        sha: "claude-sha",
+      },
+      {
+        path: "plugins/review/.codex-plugin/plugin.json",
+        type: "blob",
+        sha: "codex-sha",
+      },
+      {
+        path: ".claude-plugin/marketplace.json",
+        type: "blob",
+        sha: "marketplace-sha",
+      },
+      { path: "plugin.json", type: "tree", sha: "tree-sha" },
+    ]),
+    [
+      {
+        name: "plugin.json",
+        path: "plugins/code-review/.claude-plugin/plugin.json",
+        sha: "claude-sha",
+      },
+      {
+        name: "plugin.json",
+        path: "plugins/review/.codex-plugin/plugin.json",
+        sha: "codex-sha",
+      },
+    ],
+  );
 });
 
 test("Codex and Claude Code manifests use their runtime minimums", () => {

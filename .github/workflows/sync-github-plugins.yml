@@ -19,9 +19,7 @@ jobs:
     timeout-minutes: 180
     env:
       DATABASE_URL: file:./marketplace.db
-      # Use a dedicated fine-grained token for cross-repository public code search.
-      # Checkout and the final push continue to use the repository GITHUB_TOKEN.
-      GITHUB_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN }}
+      MARKETPLACE_GITHUB_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN }}
 
     steps:
       - name: Check out main
@@ -38,17 +36,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Verify GitHub search token
+      - name: Report GitHub search coverage
         run: |
-          if [[ -z "$GITHUB_TOKEN" ]]; then
-            echo "::error::Add a fine-grained PAT as the MARKETPLACE_GITHUB_TOKEN repository secret."
-            exit 1
+          if [[ -z "$MARKETPLACE_GITHUB_TOKEN" ]]; then
+            echo "::warning::MARKETPLACE_GITHUB_TOKEN is not configured. Refreshing priority repositories only; broad GitHub Code Search is skipped."
           fi
 
       - name: Discover and refresh GitHub plugins
+        if: env.MARKETPLACE_GITHUB_TOKEN != ''
         # Six windows: newest and oldest 1,000 results for each manifest family.
         # A quota-limited run keeps only plugins whose transactions completed.
+        env:
+          GITHUB_TOKEN: ${{ env.MARKETPLACE_GITHUB_TOKEN }}
         run: npm run index:github -- --max 6000 --allow-partial
+
+      - name: Refresh priority repositories without code search
+        if: env.MARKETPLACE_GITHUB_TOKEN == ''
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run index:github -- --priority-only --allow-partial
 
       - name: Validate the refreshed snapshot
         run: |

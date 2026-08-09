@@ -474,6 +474,7 @@ try {
 } catch (err) {
   if (err instanceof RateLimitAbortError) {
     console.error(`aborted: ${err.message}`);
+    exitCode = 1;
   } else {
     const message =
       err instanceof GitHubApiError || err instanceof Error ? err.message : String(err);

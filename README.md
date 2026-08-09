@@ -60,10 +60,11 @@ the newest- and oldest-indexed 1,000-result windows for all three manifest
 families. Without that higher-limit token, the workflow remains operational on
 the repository `GITHUB_TOKEN`: each run rotates through one of 100 smaller pages
 at both ends of every family, eventually covering the same windows without
-exceeding the lower hourly API allowance. GitHub code search exposes at most
-1,000 results per individual search, so the two ordering windows maximize the
-discoverable set but cannot guarantee every match when a family exceeds 2,000
-distinct results.
+exceeding the lower hourly API allowance. Scheduled runs can wait up to 20
+minutes for a shared GitHub rate-limit window to reset. GitHub code search
+exposes at most 1,000 results per individual search, so the two ordering windows
+maximize the discoverable set but cannot guarantee every match when a family
+exceeds 2,000 distinct results.
 
 The sync is deliberately upsert-only: it does not delete an existing entry just
 because a bounded GitHub search temporarily stops returning it.

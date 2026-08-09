@@ -47,6 +47,27 @@ GITHUB_TOKEN="$(gh auth token)" npm run index:github -- --max 40
 
 The indexer runs bounded GitHub code searches for all three canonical manifest families, validates each manifest with its runtime rules, merges sibling manifests at one plugin root, and upserts one logical plugin. It only talks to `api.github.com`, respects rate limits, caps file sizes, and is idempotent.
 
+The `Sync GitHub plugins` GitHub Actions workflow runs at 00:17 and 12:17 UTC
+(08:17 and 20:17 Singapore time) and can also be started manually. Each run
+refreshes changed repositories and star counts, validates the SQLite snapshot,
+and commits a changed `prisma/marketplace.db` back to `main`. Vercel then
+deploys the new production snapshot from `main`. Existing repositories whose
+`pushed_at` value has not changed reuse their indexed components to save API
+quota.
+
+With an optional `MARKETPLACE_GITHUB_TOKEN` Actions secret, each run scans both
+the newest- and oldest-indexed 1,000-result windows for all three manifest
+families. Without that higher-limit token, the workflow remains operational on
+the repository `GITHUB_TOKEN`: each run rotates through one of 100 smaller pages
+at both ends of every family, eventually covering the same windows without
+exceeding the lower hourly API allowance. GitHub code search exposes at most
+1,000 results per individual search, so the two ordering windows maximize the
+discoverable set but cannot guarantee every match when a family exceeds 2,000
+distinct results.
+
+The sync is deliberately upsert-only: it does not delete an existing entry just
+because a bounded GitHub search temporarily stops returning it.
+
 `--reset` on `db:seed` wipes the index first: `npx tsx scripts/seed.mts --reset`.
 
 ## Validation and trust model
@@ -103,6 +124,7 @@ For local marketplace testing, add this repository as a marketplace in the relev
 | `npm run dev` / `build` / `start` | Next.js lifecycle |
 | `npm run db:push` | Apply Prisma schema to SQLite |
 | `npm run db:seed` | Seed fixtures (add `--reset` via tsx to wipe first) |
+| `npm run db:validate` | Check SQLite integrity and report index totals |
 | `npm run index:github` | Crawl GitHub for real plugins (`GITHUB_TOKEN` recommended) |
 | `npm run test:mcp` | 11-check MCP protocol test suite |
 | `npm run lint` | ESLint |

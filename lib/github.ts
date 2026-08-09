@@ -12,8 +12,12 @@ const REQUEST_TIMEOUT_MS = 20_000;
 const MAX_5XX_RETRIES = 3;
 const MAX_RATE_LIMIT_WAIT_MS = 120_000;
 const MAX_RATE_LIMIT_WAITS = 3;
-const SEARCH_PAGE_PAUSE_MS = 2_000;
-const SEARCH_MAX_PAGES = 10; // GitHub caps code search at 1000 results
+// Authenticated code search is limited to 10 requests per minute. Throttle all
+// search passes globally instead of only pausing between pages so changing sort
+// direction or manifest family cannot accidentally burst past that limit.
+const CODE_SEARCH_MIN_INTERVAL_MS = 6_500;
+const SEARCH_RESULT_CAP = 1_000;
+let nextCodeSearchAt = 0;
 
 export const DEFAULT_SEARCH_QUERIES = [
   "filename:plugin.json path:.codex-plugin",
@@ -55,7 +59,7 @@ function buildHeaders(): Record<string, string> {
 }
 
 /**
- * Core request. Retries 5xx/network errors up to 3x with backoff; on primary
+ * Core request. Retries 408/5xx/network errors up to 3x with backoff; on primary
  * or secondary rate limits waits until reset (capped at 120s, else throws
  * RateLimitAbortError). Throws GitHubApiError on other failures. Error
  * messages contain only the path and status — never headers or the token.
@@ -136,7 +140,7 @@ async function githubJson<T>(
       }
     }
 
-    if (res.status >= 500) {
+    if (res.status === 408 || res.status >= 500) {
       serverFailures++;
       if (serverFailures > MAX_5XX_RETRIES) {
         throw new GitHubApiError(
@@ -212,20 +216,37 @@ interface CodeSearchPage {
  */
 export async function* searchCode(
   query: string,
-  opts: { perPage?: number; maxPages?: number } = {}
+  opts: {
+    perPage?: number;
+    maxPages?: number;
+    startPage?: number;
+    sort?: "indexed";
+    order?: "asc" | "desc";
+  } = {}
 ): AsyncGenerator<CodeSearchItem[], void, void> {
   const perPage = Math.min(100, Math.max(1, opts.perPage ?? 50));
-  const maxPages = Math.min(SEARCH_MAX_PAGES, Math.max(1, opts.maxPages ?? SEARCH_MAX_PAGES));
+  const availablePages = Math.ceil(SEARCH_RESULT_CAP / perPage);
+  const startPage = Math.min(availablePages, Math.max(1, opts.startPage ?? 1));
+  const maxPages = Math.min(
+    availablePages - startPage + 1,
+    Math.max(1, opts.maxPages ?? availablePages),
+  );
+  const endPage = startPage + maxPages - 1;
 
-  for (let page = 1; page <= maxPages; page++) {
-    if (page > 1) await sleep(SEARCH_PAGE_PAUSE_MS);
+  for (let page = startPage; page <= endPage; page++) {
+    const waitMs = Math.max(0, nextCodeSearchAt - Date.now());
+    if (waitMs > 0) await sleep(waitMs);
+    nextCodeSearchAt = Date.now() + CODE_SEARCH_MIN_INTERVAL_MS;
     let result: CodeSearchPage;
     try {
-      result = await githubJson<CodeSearchPage>("/search/code", {
+      const searchParams: Record<string, string> = {
         q: query,
         per_page: String(perPage),
         page: String(page),
-      });
+      };
+      if (opts.sort) searchParams.sort = opts.sort;
+      if (opts.order) searchParams.order = opts.order;
+      result = await githubJson<CodeSearchPage>("/search/code", searchParams);
     } catch (err) {
       if (err instanceof GitHubApiError && err.status === 401) {
         throw new GitHubApiError(
@@ -237,7 +258,12 @@ export async function* searchCode(
     }
     if (!Array.isArray(result.items)) return;
     yield result.items;
-    if (result.items.length === 0 || page * perPage >= result.total_count) return;
+    if (
+      result.items.length === 0 ||
+      page * perPage >= Math.min(result.total_count, SEARCH_RESULT_CAP)
+    ) {
+      return;
+    }
   }
 }
 

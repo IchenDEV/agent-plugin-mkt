@@ -11,6 +11,7 @@
     "test": "tsx --test tests/*.test.ts",
     "db:push": "prisma db push",
     "db:seed": "tsx scripts/seed.mts",
+    "db:validate": "tsx scripts/validate-database.mts",
     "index:github": "tsx scripts/index-github.mts",
     "test:mcp": "tsx scripts/test-mcp.ts"
   },

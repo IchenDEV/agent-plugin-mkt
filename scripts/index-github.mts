@@ -41,6 +41,8 @@ const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
 const MAX_SKILLS_PER_PLUGIN = 50;
 const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
+const SEARCH_ORDERS = ["desc", "asc"] as const;
+const MAX_RESULTS_PER_SEARCH = 1_000;
 
 function safeLog(value: string): string {
   return stripControlChars(value);
@@ -49,11 +51,15 @@ function safeLog(value: string): string {
 interface CliOptions {
   max: number;
   queries: string[];
+  searchPage?: number;
+  searchPageSize?: number;
 }
 
 function parseArgs(argv: string[]): CliOptions {
   let max = DEFAULT_MAX_PLUGINS;
   let customQuery: string | undefined;
+  let searchPage: number | undefined;
+  let searchPageSize: number | undefined;
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--max") {
@@ -68,6 +74,18 @@ function parseArgs(argv: string[]): CliOptions {
     } else if (arg.startsWith("--query=")) {
       const value = arg.slice("--query=".length);
       if (value) customQuery = value;
+    } else if (arg === "--search-page") {
+      const value = Number(argv[++i]);
+      if (Number.isInteger(value) && value > 0) searchPage = value;
+    } else if (arg.startsWith("--search-page=")) {
+      const value = Number(arg.slice("--search-page=".length));
+      if (Number.isInteger(value) && value > 0) searchPage = value;
+    } else if (arg === "--search-page-size") {
+      const value = Number(argv[++i]);
+      if (Number.isInteger(value) && value > 0 && value <= 100) searchPageSize = value;
+    } else if (arg.startsWith("--search-page-size=")) {
+      const value = Number(arg.slice("--search-page-size=".length));
+      if (Number.isInteger(value) && value > 0 && value <= 100) searchPageSize = value;
     } else {
       console.warn(`ignoring unknown argument: ${arg}`);
     }
@@ -75,10 +93,14 @@ function parseArgs(argv: string[]): CliOptions {
   return {
     max,
     queries: customQuery ? [customQuery] : [...DEFAULT_SEARCH_QUERIES],
+    searchPage,
+    searchPageSize,
   };
 }
 
-type HitOutcome = { ok: true; name: string } | { ok: false; reason: string };
+type HitOutcome =
+  | { ok: true; name: string; status: "indexed" | "metadata" | "unchanged" }
+  | { ok: false; reason: string };
 
 interface LoadedManifest {
   protocol: PluginProtocol;
@@ -289,6 +311,40 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
   }
   if (!repo) return { ok: false, reason: "repo metadata unavailable" };
 
+  // A repository push changes `pushed_at`, so an identical non-null timestamp
+  // means its manifests, skills, and MCP files do not need to be downloaded
+  // again. This keeps twice-daily broad scans within GitHub API limits while
+  // still refreshing star counts, which can change without a repository push.
+  const existing = await prisma.plugin.findUnique({
+    where: {
+      repoUrl_pluginPath: {
+        repoUrl: repo.htmlUrl,
+        pluginPath: location.pluginPath,
+      },
+    },
+    select: { name: true, repoStars: true, repoPushedAt: true },
+  });
+  const contentUnchanged =
+    existing?.repoPushedAt !== null &&
+    existing?.repoPushedAt !== undefined &&
+    repo.pushedAt !== null &&
+    existing.repoPushedAt.getTime() === repo.pushedAt.getTime();
+  if (existing && contentUnchanged) {
+    if (existing.repoStars !== repo.stars) {
+      await prisma.plugin.update({
+        where: {
+          repoUrl_pluginPath: {
+            repoUrl: repo.htmlUrl,
+            pluginPath: location.pluginPath,
+          },
+        },
+        data: { repoStars: repo.stars },
+      });
+      return { ok: true, name: existing.name, status: "metadata" };
+    }
+    return { ok: true, name: existing.name, status: "unchanged" };
+  }
+
   const manifests = await loadManifests(repoFullName, location.pluginPath, repo.defaultBranch);
   if (manifests.length === 0) {
     return { ok: false, reason: "no valid Codex, Claude Code, or Agent Plugins manifest" };
@@ -334,14 +390,19 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     mcpServers,
   });
 
-  return { ok: true, name: canonical.manifest.name };
+  return { ok: true, name: canonical.manifest.name, status: "indexed" };
 }
 
-const { max, queries } = parseArgs(process.argv.slice(2));
+const { max, queries, searchPage, searchPageSize } = parseArgs(process.argv.slice(2));
 console.log(`searching ${queries.length} manifest families; processing up to ${max} plugin roots`);
+if (searchPage) {
+  console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
+}
 
 let processed = 0;
 let indexed = 0;
+let metadata = 0;
+let unchanged = 0;
 let skipped = 0;
 let errors = 0;
 let gotFirstPage = false;
@@ -353,37 +414,61 @@ try {
     const baseBudget = Math.floor(max / queries.length);
     const queryBudget = baseBudget + (queryIndex < max % queries.length ? 1 : 0);
     if (queryBudget === 0) continue;
-    let queryProcessed = 0;
     console.log(`searching GitHub code: ${query}`);
-    for await (const items of searchCode(query, { perPage: Math.min(100, queryBudget) })) {
-      gotFirstPage = true;
-      for (const item of items) {
-        if (queryProcessed >= queryBudget) break;
-        const location = manifestLocation(item.path);
-        const rootKey = location
-          ? `${item.repository.full_name}#${location.pluginPath}`
-          : `${item.repository.full_name}#${item.path}`;
-        if (seen.has(rootKey)) continue;
-        seen.add(rootKey);
-        processed++;
-        queryProcessed++;
-        try {
-          const outcome = await indexHit(item);
-          if (outcome.ok) {
-            indexed++;
-            console.log(`indexed ${outcome.name}@${safeLog(item.repository.full_name)}`);
-          } else {
-            skipped++;
-            console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
+    for (const [orderIndex, order] of SEARCH_ORDERS.entries()) {
+      const basePassBudget = Math.floor(queryBudget / SEARCH_ORDERS.length);
+      const passBudget = Math.min(
+        MAX_RESULTS_PER_SEARCH,
+        basePassBudget + (orderIndex < queryBudget % SEARCH_ORDERS.length ? 1 : 0),
+      );
+      if (passBudget === 0) continue;
+      let passExamined = 0;
+      console.log(`  scanning ${order === "desc" ? "newest" : "oldest"}-indexed window`);
+      try {
+        for await (const items of searchCode(query, {
+          perPage: searchPageSize ?? Math.min(100, passBudget),
+          startPage: searchPage,
+          maxPages: searchPage ? 1 : undefined,
+          sort: "indexed",
+          order,
+        })) {
+          gotFirstPage = true;
+          for (const item of items) {
+            if (passExamined >= passBudget) break;
+            passExamined++;
+            const location = manifestLocation(item.path);
+            const rootKey = location
+              ? `${item.repository.full_name}#${location.pluginPath}`
+              : `${item.repository.full_name}#${item.path}`;
+            if (seen.has(rootKey)) continue;
+            seen.add(rootKey);
+            processed++;
+            try {
+              const outcome = await indexHit(item);
+              if (outcome.ok) {
+                if (outcome.status === "indexed") indexed++;
+                if (outcome.status === "metadata") metadata++;
+                if (outcome.status === "unchanged") unchanged++;
+                console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
+              } else {
+                skipped++;
+                console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
+              }
+            } catch (err) {
+              if (err instanceof RateLimitAbortError) throw err;
+              errors++;
+              const message = err instanceof Error ? err.message : String(err);
+              console.error(`error ${safeLog(rootKey)}: ${safeLog(message)}`);
+            }
           }
-        } catch (err) {
-          if (err instanceof RateLimitAbortError) throw err;
-          errors++;
-          const message = err instanceof Error ? err.message : String(err);
-          console.error(`error ${safeLog(rootKey)}: ${safeLog(message)}`);
+          if (passExamined >= passBudget) break;
         }
+      } catch (err) {
+        if (err instanceof RateLimitAbortError) throw err;
+        errors++;
+        const message = err instanceof Error ? err.message : String(err);
+        console.error(`search pass failed (${order}) for ${safeLog(query)}: ${safeLog(message)}`);
       }
-      if (queryProcessed >= queryBudget) break;
     }
   }
 } catch (err) {
@@ -403,7 +488,7 @@ try {
 }
 
 console.log(
-  `done: processed ${processed}, indexed ${indexed}, skipped ${skipped}, errors ${errors}`,
+  `done: processed ${processed}, indexed ${indexed}, metadata ${metadata}, unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`,
 );
 
 await prisma.$disconnect();

@@ -6,7 +6,8 @@ import { getStats, searchPlugins } from "@/lib/queries";
 
 export const dynamic = "force-dynamic";
 
-const SPEC_URL = "https://agent-plugins.org/specification";
+const CODEX_SPEC_URL = "https://developers.openai.com/plugins/build/plugins";
+const CLAUDE_SPEC_URL = "https://code.claude.com/docs/en/plugins-reference";
 
 /** One line of the static directory tree. Glyph prefix stays gray; the name carries the component color. */
 function TreeLine({
@@ -38,20 +39,18 @@ function AnatomyStrip() {
             Anatomy of a plugin
           </h2>
           <p className="mt-4 max-w-lg text-[15px] leading-relaxed text-gray-600">
-            An Agent Plugin is a self-contained directory: a{" "}
-            <code className="font-mono text-[13px]">plugin.json</code> manifest at the root, with
-            skills and MCP servers discovered from fixed locations inside it. Failure boundaries are
-            non-fatal by design — a component that fails to load is skipped, and the rest of the
-            plugin keeps working.
+            Codex and Claude Code plugins share the same self-contained shape: runtime metadata,
+            skills under <code className="font-mono text-[13px]">skills/</code>, and optional MCP
+            configuration. Their canonical manifest directories differ, so the index records both.
           </p>
-          <a
-            href={SPEC_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 inline-block text-sm font-medium text-iris hover:text-iris-deep"
-          >
-            Read the Agent Plugins spec &rarr;
-          </a>
+          <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
+            <a href={CODEX_SPEC_URL} target="_blank" rel="noopener noreferrer" className="text-iris hover:text-iris-deep">
+              Codex packaging docs &rarr;
+            </a>
+            <a href={CLAUDE_SPEC_URL} target="_blank" rel="noopener noreferrer" className="text-iris hover:text-iris-deep">
+              Claude Code reference &rarr;
+            </a>
+          </div>
         </div>
         <Card className="shadow-sm">
           <div
@@ -61,10 +60,11 @@ function AnatomyStrip() {
             <TreeLine name="my-plugin/" nameClass="font-semibold text-ink" />
             <TreeLine
               prefix="├── "
-              name="plugin.json"
+              name=".codex-plugin/plugin.json"
               nameClass="font-medium text-ink"
-              comment="manifest — identity + metadata"
+              comment="Codex manifest"
             />
+            <TreeLine prefix="├── " name=".claude-plugin/plugin.json" nameClass="font-medium text-ink" comment="Claude Code manifest" />
             <TreeLine prefix="├── " name="skills/" nameClass="text-iris" />
             <TreeLine prefix="│   ├── " name="code-review/" nameClass="text-iris" />
             <TreeLine
@@ -77,7 +77,7 @@ function AnatomyStrip() {
             <TreeLine prefix="│       └── " name="SKILL.md" nameClass="text-iris" />
             <TreeLine
               prefix="├── "
-              name="mcp.json"
+              name=".mcp.json"
               nameClass="text-teal-700"
               comment="MCP server definitions"
             />
@@ -151,20 +151,20 @@ export default async function HomePage() {
       <section>
         <Container className="pb-14 pt-16 sm:pb-16 sm:pt-24">
           <a
-            href={SPEC_URL}
+            href={CODEX_SPEC_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-mono text-xs text-gray-500 hover:text-iris"
           >
             <span aria-hidden className="inline-block size-1.5 rounded-full bg-iris" />
-            Agent Plugins specification · v1
+            Codex + Claude Code compatible
           </a>
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-bold tracking-tight sm:text-5xl">
-            The registry for Agent Plugins
+            One registry for agent plugins
           </h1>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-gray-600">
-            An index of open-source skills and MCP servers, packaged as self-contained plugins per
-            the open spec and indexed straight from GitHub.
+            Discover open-source skills and MCP servers packaged for Codex, Claude Code, or both,
+            indexed straight from canonical GitHub manifests.
           </p>
           <div className="mt-7 max-w-xl">
             <SearchInput action="/plugins" />

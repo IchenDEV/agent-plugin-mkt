@@ -1,0 +1,20 @@
+{
+  "name": "agent-plugin-marketplace",
+  "interface": {
+    "displayName": "Agent Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "agent-plugin-marketplace",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

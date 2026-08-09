@@ -5,6 +5,7 @@ import {
   searchPlugins,
   type PluginFilters,
 } from "@/lib/queries";
+import { PLUGIN_PROTOCOLS } from "@/lib/protocols";
 
 // MCP server protocol logic (Streamable HTTP, stateless), kept as a pure
 // function over parsed JSON so it is testable without an HTTP layer.
@@ -51,7 +52,7 @@ const TOOLS = [
   {
     name: "search_plugins",
     description:
-      "Search the Agent Plugin registry. Filter by free-text query, category (keyword), component type (skills or mcp), MCP transport, and sort order. Returns a paginated result: items (each with slug, name, version, description, author, keywords, repo stars, skill/MCP counts, transports) plus total, page, perPage, totalPages. Pass an item's slug to get_plugin for full details.",
+      "Search the plugin registry. Filter by free-text query, one or more runtime protocols (codex, claude-code, or agent-plugins), category, component type, MCP transport, and sort order. Multiple protocols match any selected runtime. Returns paginated plugin summaries; pass a slug to get_plugin for full details.",
     inputSchema: {
       type: "object",
       properties: {
@@ -72,6 +73,19 @@ const TOOLS = [
           type: "string",
           enum: ["stdio", "streamable-http", "sse"],
           description: "Only plugins with at least one MCP server using this transport.",
+        },
+        protocol: {
+          oneOf: [
+            { type: "string", enum: PLUGIN_PROTOCOLS },
+            {
+              type: "array",
+              items: { type: "string", enum: PLUGIN_PROTOCOLS },
+              minItems: 1,
+              maxItems: PLUGIN_PROTOCOLS.length,
+              uniqueItems: true,
+            },
+          ],
+          description: "One runtime protocol or an array; arrays match any selected runtime.",
         },
         sort: {
           type: "string",
@@ -123,6 +137,12 @@ const searchArgsSchema = z.object({
   category: z.string().optional(),
   type: z.enum(["skills", "mcp"]).optional(),
   transport: z.enum(["stdio", "streamable-http", "sse"]).optional(),
+  protocol: z
+    .union([
+      z.enum(PLUGIN_PROTOCOLS),
+      z.array(z.enum(PLUGIN_PROTOCOLS)).min(1).max(PLUGIN_PROTOCOLS.length),
+    ])
+    .optional(),
   sort: z.enum(["stars", "updated", "recent"]).optional(),
   page: z.number().int().positive().optional(),
   per_page: z.number().int().positive().optional(),
@@ -172,6 +192,12 @@ async function handleToolCall(
         category: args.category,
         type: args.type,
         transport: args.transport,
+        protocols:
+          args.protocol === undefined
+            ? undefined
+            : Array.isArray(args.protocol)
+              ? [...new Set(args.protocol)]
+              : [args.protocol],
         sort: args.sort,
         page: args.page,
         perPage: args.per_page,
@@ -222,7 +248,7 @@ function initializeResult(params: Record<string, unknown>): Record<string, unkno
       version: "0.1.0",
     },
     instructions:
-      "A registry of Agent Plugins: use search_plugins to find plugins by query, category, type, or transport; get_plugin for full details by slug; get_stats for registry totals.",
+      "A registry of Codex, Claude Code, and Agent Plugins packages: use search_plugins to filter by runtime, query, category, type, or transport; get_plugin for full details by slug; get_stats for totals.",
   };
 }
 

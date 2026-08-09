@@ -6,8 +6,8 @@
       "pluginPath": "",
       "repoStars": 4870,
       "repoPushedAt": "2026-06-21T14:05:00Z",
+      "protocol": "codex",
       "manifest": {
-        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "review-sentinel",
         "version": "1.4.2",
         "description": "Code review skills for agent workflows: diff triage, test-gap detection, and API surface checks that run before a human ever opens the PR.",
@@ -45,8 +45,8 @@
       "pluginPath": "",
       "repoStars": 2340,
       "repoPushedAt": "2026-04-11T09:12:00Z",
+      "protocol": "claude-code",
       "manifest": {
-        "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "docsmith",
         "version": "0.9.1",
         "description": "Keeps READMEs, API references, and changelogs in sync with the code they describe. Regenerates only the sections that drifted.",

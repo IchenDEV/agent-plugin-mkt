@@ -1,5 +1,5 @@
 // Seed the registry from fixtures/plugins.json. Every fixture entry flows
-// through the SAME validation (pluginManifestSchema, parseMcpConfig) and the
+// through the SAME protocol-aware validation and the
 // same upsertPlugin write path as the live GitHub indexer, with the same
 // non-fatal boundaries: an invalid plugin is skipped with a log line; an
 // invalid skill or MCP server is skipped without failing its plugin.
@@ -13,11 +13,12 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { prisma } from "@/lib/db";
+import { parseMcpConfig, parsePluginManifest } from "@/lib/validation";
 import {
-  manifestWarnings,
-  parseMcpConfig,
-  pluginManifestSchema,
-} from "@/lib/validation";
+  DEFAULT_MANIFEST_PATHS,
+  PLUGIN_PROTOCOLS,
+  type PluginProtocol,
+} from "@/lib/protocols";
 import {
   isSafePathSegment,
   skillFromFrontmatter,
@@ -39,6 +40,7 @@ const fixtureEntrySchema = z.object({
   repoStars: z.number().int().nonnegative().default(0),
   repoPushedAt: z.string().nullable().default(null),
   manifest: z.unknown(),
+  protocol: z.enum(PLUGIN_PROTOCOLS).default("agent-plugins"),
   skills: z.array(z.unknown()).default([]),
   mcp: z.unknown().optional(),
 });
@@ -83,21 +85,17 @@ try {
     }
     const entry = entryParsed.data;
 
-    const manifestParsed = pluginManifestSchema.safeParse(entry.manifest);
-    if (!manifestParsed.success) {
+    const manifestParsed = parsePluginManifest(entry.manifest, entry.protocol);
+    if (!manifestParsed.ok) {
       skippedPlugins++;
-      const issue = manifestParsed.error.issues[0];
-      const where =
-        issue && issue.path.length > 0 ? issue.path.join(".") : "manifest";
       console.log(
-        `skipped ${label} (${entry.repoUrl}): invalid manifest: ${where}: ${issue?.message ?? "schema mismatch"}`
+        `skipped ${label} (${entry.repoUrl}): invalid manifest: ${manifestParsed.reason}`
       );
       continue;
     }
-    const manifest = manifestParsed.data;
+    const manifest = manifestParsed.manifest;
 
-    // Non-fatal issues the spec says to report and ignore.
-    for (const warning of manifestWarnings(entry.manifest as Record<string, unknown>)) {
+    for (const warning of manifestParsed.warnings) {
       console.log(`  ${warning}`);
     }
 
@@ -116,7 +114,9 @@ try {
         );
         continue;
       }
-      const skill = skillFromFrontmatter(dirName, frontmatter);
+      const skill = skillFromFrontmatter(dirName, frontmatter, {
+        allowDerivedName: entry.protocol === "claude-code",
+      });
       if (!skill) {
         console.log(
           `  skipped skill ${JSON.stringify(dirName)} in ${manifest.name}: frontmatter does not conform to the Agent Skills spec`
@@ -129,7 +129,10 @@ try {
     // MCP servers: parseMcpConfig already skips invalid servers non-fatally.
     const mcpServers: McpServerInput[] = [];
     if (entry.mcp !== undefined && entry.mcp !== null) {
-      const { servers, skipped, mcpDisabled } = parseMcpConfig(entry.mcp);
+      const { servers, skipped, mcpDisabled } = parseMcpConfig(
+        entry.mcp,
+        entry.protocol,
+      );
       if (mcpDisabled) {
         console.log(
           `  mcp.json invalid in ${manifest.name} (${mcpDisabled}) — MCP disabled for this plugin per the spec`
@@ -151,6 +154,14 @@ try {
 
     const result = await upsertPlugin({
       manifestRaw: JSON.stringify(manifest, null, 2),
+      manifestPath: DEFAULT_MANIFEST_PATHS[entry.protocol],
+      protocols: [entry.protocol as PluginProtocol],
+      manifests: {
+        [entry.protocol]: {
+          path: DEFAULT_MANIFEST_PATHS[entry.protocol],
+          raw: JSON.stringify(entry.manifest, null, 2),
+        },
+      },
       manifest,
       repoUrl: entry.repoUrl,
       pluginPath: entry.pluginPath,

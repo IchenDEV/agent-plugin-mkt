@@ -94,14 +94,16 @@ export function SearchInput({
   action?: string;
   defaultValue?: string;
   placeholder?: string;
-  hidden?: Record<string, string>;
+  hidden?: Record<string, string | string[]>;
   autoFocus?: boolean;
 }) {
   return (
     <form action={action} role="search" className="relative flex w-full">
-      {Object.entries(hidden).map(([name, value]) => (
-        <input key={name} type="hidden" name={name} value={value} />
-      ))}
+      {Object.entries(hidden).flatMap(([name, value]) =>
+        (Array.isArray(value) ? value : [value]).map((item) => (
+          <input key={`${name}-${item}`} type="hidden" name={name} value={item} />
+        )),
+      )}
       <svg
         aria-hidden
         viewBox="0 0 20 20"

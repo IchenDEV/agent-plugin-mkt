@@ -164,7 +164,33 @@ async function main(): Promise<void> {
     fail("search_plugins {} returns items array + total number", String(err));
   }
 
-  // 5. get_stats -> plugins count
+  // 5. search_plugins supports multi-select runtime filtering
+  try {
+    const { body } = await callTool("search_plugins", {
+      protocol: ["codex", "claude-code"],
+      per_page: 50,
+    });
+    const parsed = parseToolJson(body);
+    const items = isObj(parsed) && Array.isArray(parsed.items) ? parsed.items : null;
+    const seen = new Set<string>();
+    if (items) {
+      for (const item of items) {
+        if (!isObj(item) || !Array.isArray(item.protocols)) continue;
+        for (const protocol of item.protocols) {
+          if (typeof protocol === "string") seen.add(protocol);
+        }
+      }
+    }
+    if (items && seen.has("codex") && seen.has("claude-code")) {
+      pass("search_plugins protocol array matches any selected runtime");
+    } else {
+      fail("search_plugins protocol array matches any selected runtime", `body: ${show(body)}`);
+    }
+  } catch (err) {
+    fail("search_plugins protocol array matches any selected runtime", String(err));
+  }
+
+  // 6. get_stats -> plugins count
   try {
     const { body } = await callTool("get_stats", {});
     const parsed = parseToolJson(body);
@@ -177,7 +203,7 @@ async function main(): Promise<void> {
     fail("get_stats returns plugins count", String(err));
   }
 
-  // 6. get_plugin with a real slug from check 4
+  // 7. get_plugin with a real slug from check 4
   if (firstSlug === null) {
     skip("get_plugin returns detail with matching slug", "index is empty — no slug to look up");
   } else {
@@ -194,7 +220,7 @@ async function main(): Promise<void> {
     }
   }
 
-  // 7. get_plugin miss -> isError true (tool-level, not protocol error)
+  // 8. get_plugin miss -> isError true (tool-level, not protocol error)
   try {
     const { body } = await callTool("get_plugin", { slug: "definitely-not-a-real-plugin" });
     const result = isObj(body) && isObj(body.result) ? body.result : null;
@@ -207,7 +233,7 @@ async function main(): Promise<void> {
     fail("get_plugin miss returns isError true", String(err));
   }
 
-  // 8. unknown tool -> -32602
+  // 9. unknown tool -> -32602
   try {
     const { body } = await callTool("definitely_not_a_tool", {});
     if (errorCode(body) === -32602) pass("unknown tool returns -32602");
@@ -216,7 +242,7 @@ async function main(): Promise<void> {
     fail("unknown tool returns -32602", String(err));
   }
 
-  // 9. malformed body -> -32700
+  // 10. malformed body -> -32700
   try {
     const { body } = await postRaw("not json");
     if (errorCode(body) === -32700) pass("malformed JSON returns -32700");
@@ -225,7 +251,7 @@ async function main(): Promise<void> {
     fail("malformed JSON returns -32700", String(err));
   }
 
-  // 10. GET -> 405
+  // 11. GET -> 405
   try {
     const res = await fetch(ENDPOINT, { method: "GET" });
     await res.text();

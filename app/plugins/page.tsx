@@ -10,6 +10,11 @@ import {
   type SortOrder,
   type Transport,
 } from "@/lib/queries";
+import {
+  PLUGIN_PROTOCOLS,
+  PROTOCOL_LABELS,
+  type PluginProtocol,
+} from "@/lib/protocols";
 
 export const dynamic = "force-dynamic";
 
@@ -18,10 +23,12 @@ export const metadata: Metadata = { title: "Browse plugins" };
 const TYPES = ["skills", "mcp"] as const satisfies readonly ComponentType[];
 const TRANSPORTS = ["stdio", "streamable-http", "sse"] as const satisfies readonly Transport[];
 const SORTS = ["stars", "updated", "recent"] as const satisfies readonly SortOrder[];
+const PROTOCOLS = PLUGIN_PROTOCOLS satisfies readonly PluginProtocol[];
 
-const PARAM_KEYS = ["q", "category", "type", "transport", "sort", "page"] as const;
+const PARAM_KEYS = ["q", "category", "type", "transport", "protocol", "sort", "page"] as const;
 type ParamKey = (typeof PARAM_KEYS)[number];
-type ActiveParams = Partial<Record<ParamKey, string>>;
+type ParamValue = string | string[];
+type ActiveParams = Partial<Record<ParamKey, ParamValue>>;
 
 type BrowsePageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -38,6 +45,16 @@ function oneOf<T extends string>(value: string | undefined, allowed: readonly T[
     : undefined;
 }
 
+function manyOf<T extends string>(
+  value: string | string[] | undefined,
+  allowed: readonly T[],
+): T[] {
+  const requested = new Set(
+    (Array.isArray(value) ? value : value ? [value] : []).flatMap((item) => item.split(",")),
+  );
+  return allowed.filter((item) => requested.has(item));
+}
+
 function positiveInt(value: string | undefined): number | undefined {
   if (!value || !/^[0-9]+$/.test(value)) return undefined;
   const n = Number(value);
@@ -48,11 +65,15 @@ function positiveInt(value: string | undefined): number | undefined {
  * Build a /plugins href by merging the active params with a patch.
  * A `null` patch value removes the param; `page` always resets unless patched.
  */
-function hrefWith(active: ActiveParams, patch: Partial<Record<ParamKey, string | null>>): string {
+function hrefWith(active: ActiveParams, patch: Partial<Record<ParamKey, ParamValue | null>>): string {
   const search = new URLSearchParams();
   for (const key of PARAM_KEYS) {
     const value = key in patch ? patch[key] : active[key];
-    if (value) search.set(key, value);
+    if (Array.isArray(value)) {
+      for (const item of value) search.append(key, item);
+    } else if (value) {
+      search.set(key, value);
+    }
   }
   const qs = search.toString();
   return qs ? `/plugins?${qs}` : "/plugins";
@@ -72,23 +93,39 @@ function RailLink({
   active,
   label,
   mono = false,
+  multi = false,
   count,
 }: {
   href: string;
   active: boolean;
   label: string;
   mono?: boolean;
+  multi?: boolean;
   count?: number;
 }) {
   return (
     <Link
       href={href}
-      aria-current={active ? "true" : undefined}
+      role={multi ? "checkbox" : undefined}
+      aria-checked={multi ? active : undefined}
+      aria-current={!multi && active ? "true" : undefined}
       className={`flex items-center justify-between gap-2 rounded-md px-2.5 py-1.5 text-sm ${
         mono ? "font-mono text-[13px]" : ""
       } ${active ? "bg-iris-soft font-medium text-iris-deep" : "text-gray-600 hover:bg-white hover:text-ink"}`}
     >
-      <span className="truncate">{label}</span>
+      <span className="flex min-w-0 items-center gap-2">
+        {multi ? (
+          <span
+            aria-hidden
+            className={`grid size-4 shrink-0 place-items-center rounded border text-[10px] ${
+              active ? "border-iris bg-iris text-white" : "border-gray-300 bg-white"
+            }`}
+          >
+            {active ? "✓" : ""}
+          </span>
+        ) : null}
+        <span className="truncate">{label}</span>
+      </span>
       {count !== undefined ? (
         <span className={`text-xs ${active ? "text-iris-deep/70" : "text-gray-400"}`}>{count}</span>
       ) : null}
@@ -102,11 +139,12 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   const category = first(sp.category)?.trim() || undefined;
   const type = oneOf(first(sp.type), TYPES);
   const transport = oneOf(first(sp.transport), TRANSPORTS);
+  const protocols = manyOf(sp.protocol, PROTOCOLS);
   const sort = oneOf(first(sp.sort), SORTS) ?? "stars";
   const page = positiveInt(first(sp.page)) ?? 1;
 
   const [results, categories] = await Promise.all([
-    searchPlugins({ q, category, type, transport, sort, page }),
+    searchPlugins({ q, category, type, transport, protocols, sort, page }),
     getCategories(30),
   ]);
 
@@ -116,17 +154,18 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     category,
     type,
     transport,
+    protocol: protocols,
     sort: sort === "stars" ? undefined : sort,
   };
-  const hasFilters = Boolean(q || category || type || transport);
+  const hasFilters = Boolean(q || category || type || transport || protocols.length > 0);
 
   const total = results.total;
   const countSentence = hasFilters
     ? `${total} plugin${total === 1 ? "" : "s"} match${total === 1 ? "es" : ""} the active filters.`
     : `${total} plugin${total === 1 ? "" : "s"} indexed from public GitHub repos.`;
 
-  const hidden: Record<string, string> = {};
-  for (const key of ["category", "type", "transport", "sort"] as const) {
+  const hidden: Record<string, string | string[]> = {};
+  for (const key of ["category", "type", "transport", "protocol", "sort"] as const) {
     const value = active[key];
     if (value) hidden[key] = value;
   }
@@ -152,6 +191,15 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
       mono: true,
       href: hrefWith(active, { transport: null }),
     });
+  for (const protocol of protocols) {
+    chips.push({
+      key: `protocol-${protocol}`,
+      label: `runtime: ${PROTOCOL_LABELS[protocol]}`,
+      href: hrefWith(active, {
+        protocol: protocols.filter((value) => value !== protocol),
+      }),
+    });
+  }
 
   const typeOptions = [
     { label: "All", href: hrefWith(active, { type: null }), active: !type },
@@ -163,6 +211,16 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     label: t,
     href: hrefWith(active, { transport: transport === t ? null : t }),
     active: transport === t,
+  }));
+
+  const protocolOptions = PROTOCOLS.map((value) => ({
+    label: PROTOCOL_LABELS[value],
+    href: hrefWith(active, {
+      protocol: protocols.includes(value)
+        ? protocols.filter((protocol) => protocol !== value)
+        : [...protocols, value],
+    }),
+    active: protocols.includes(value),
   }));
 
   const sortOptions = [
@@ -189,6 +247,16 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[220px_minmax(0,1fr)]">
         <aside aria-label="Filters" className="space-y-6 lg:sticky lg:top-20 lg:self-start">
+          <FilterGroup label="Runtime">
+            <RailLink
+              label="All runtimes"
+              href={hrefWith(active, { protocol: null })}
+              active={protocols.length === 0}
+            />
+            {protocolOptions.map((option) => (
+              <RailLink key={option.label} {...option} multi />
+            ))}
+          </FilterGroup>
           <FilterGroup label="Component type">
             {typeOptions.map((option) => (
               <RailLink key={option.label} {...option} />
@@ -245,7 +313,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
           {results.total === 0 ? (
             <EmptyState
               title="No plugins match"
-              hint="Clear the filters or try a broader term — the index only includes public repos with a valid plugin.json."
+              hint="Clear the filters or try a broader term — the index only includes public repos with a valid supported manifest."
               action={
                 <Link
                   href="/plugins"

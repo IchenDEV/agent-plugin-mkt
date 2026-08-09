@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Badge, Card } from "@/components/ui";
 import { formatNumber, relativeTime } from "@/lib/format";
 import type { PluginSummary } from "@/lib/queries";
+import { PROTOCOL_LABELS } from "@/lib/protocols";
 
 /**
  * The manifest card used on the home featured grid and the browse grid.
@@ -18,6 +19,11 @@ export function PluginCard({ plugin }: { plugin: PluginSummary }) {
           {plugin.description ?? "No description in manifest."}
         </p>
         <div className="mt-auto flex flex-wrap items-center gap-1.5">
+          {plugin.protocols.map((protocol) => (
+            <Badge key={protocol} variant="neutral">
+              {PROTOCOL_LABELS[protocol]}
+            </Badge>
+          ))}
           {plugin.skillCount > 0 ? (
             <Badge variant="skill">
               {plugin.skillCount} skill{plugin.skillCount > 1 ? "s" : ""}

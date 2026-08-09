@@ -5,6 +5,7 @@ import {
   type SortOrder,
   type Transport,
 } from "@/lib/queries";
+import { PLUGIN_PROTOCOLS, type PluginProtocol } from "@/lib/protocols";
 
 // Shared plumbing for the public REST API (app/api/v1/*) and the OpenAPI
 // document. Every response goes through json()/error() so CORS and caching
@@ -43,6 +44,7 @@ export function OPTIONS(): Response {
 export const COMPONENT_TYPES: readonly ComponentType[] = ["skills", "mcp"];
 export const TRANSPORTS: readonly Transport[] = ["stdio", "streamable-http", "sse"];
 export const SORT_ORDERS: readonly SortOrder[] = ["stars", "updated", "recent"];
+export const PROTOCOLS: readonly PluginProtocol[] = PLUGIN_PROTOCOLS;
 
 /** `page` query param: safe integer, clamped to >= 1; anything unparsable (or beyond Number.MAX_SAFE_INTEGER) is 1. */
 export function parsePage(raw: string | null): number {
@@ -60,6 +62,10 @@ export function parsePerPage(raw: string | null): number {
 
 export type EnumParseResult<T extends string> =
   | { ok: true; value: T | undefined }
+  | { ok: false; response: Response };
+
+export type EnumsParseResult<T extends string> =
+  | { ok: true; value: T[] }
   | { ok: false; response: Response };
 
 /**
@@ -82,4 +88,28 @@ export function parseEnum<T extends string>(
       `Invalid ${param} "${raw.slice(0, 50)}". Valid values: ${allowed.join(", ")}.`,
     ),
   };
+}
+
+/**
+ * Parse a repeatable enum query param. Comma-separated values are accepted as
+ * a convenience; duplicates are removed while preserving request order.
+ */
+export function parseEnums<T extends string>(
+  raw: string[],
+  param: string,
+  allowed: readonly T[],
+): EnumsParseResult<T> {
+  const values = [...new Set(raw.flatMap((value) => value.split(",")).filter(Boolean))];
+  const invalid = values.find((value) => !(allowed as readonly string[]).includes(value));
+  if (invalid !== undefined) {
+    return {
+      ok: false,
+      response: error(
+        400,
+        "bad_request",
+        `Invalid ${param} "${invalid.slice(0, 50)}". Valid values: ${allowed.join(", ")}.`,
+      ),
+    };
+  }
+  return { ok: true, value: values as T[] };
 }

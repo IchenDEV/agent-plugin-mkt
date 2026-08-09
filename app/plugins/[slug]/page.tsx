@@ -6,6 +6,7 @@ import { CopyButton } from "@/components/copy-button";
 import { Badge, Card, Container, transportBadgeVariant } from "@/components/ui";
 import { formatNumber, relativeTime, stripControlChars } from "@/lib/format";
 import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
+import { PROTOCOL_LABELS } from "@/lib/protocols";
 
 export const dynamic = "force-dynamic";
 
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: PluginPageProps): Promise<Met
   if (!plugin) return { title: "Plugin not found" };
   return {
     title: plugin.name,
-    description: plugin.description ?? `${plugin.name} — an Agent Plugin indexed from GitHub.`,
+    description: plugin.description ?? `${plugin.name} — a plugin indexed from GitHub.`,
   };
 }
 
@@ -43,13 +44,10 @@ function SectionHeading({ title, count }: { title: string; count?: number }) {
   );
 }
 
-function InstallCard({ plugin }: { plugin: PluginDetail }) {
-  // Defense-in-depth: this string reaches the user's clipboard (and likely a
-  // terminal), so indexed data must never smuggle newlines or ANSI escapes
-  // that could break out of the shell comment.
+function SourceCard({ plugin }: { plugin: PluginDetail }) {
+  // Defense-in-depth: this string reaches the user's clipboard and terminal.
   const safePath = stripControlChars(plugin.pluginPath);
-  const pathHint = safePath ? `  # plugin at ${safePath}/` : "";
-  const command = `git clone ${stripControlChars(plugin.repoUrl)}${pathHint}`;
+  const command = `git clone ${stripControlChars(plugin.repoUrl)}`;
   return (
     <Card>
       <div className="flex items-center gap-3 px-4 py-3">
@@ -58,14 +56,12 @@ function InstallCard({ plugin }: { plugin: PluginDetail }) {
             {"$ "}
           </span>
           git clone {plugin.repoUrl}
-          {pathHint ? <span className="text-gray-400">{pathHint}</span> : null}
         </code>
         <CopyButton text={command} label="Copy" />
       </div>
       <p className="border-t border-gray-100 px-4 py-2.5 text-xs leading-relaxed text-gray-500">
-        Clone into your agent client’s plugin directory — components are discovered from fixed
-        locations per the spec.
-        {plugin.pluginPath ? ` The plugin lives at ${plugin.pluginPath}/ within the repo.` : null}
+        Clone the source, then follow the repository&apos;s marketplace instructions for your runtime.
+        {safePath ? ` The plugin root is ${safePath}/ inside the repository.` : " The repository root is the plugin root."}
       </p>
     </Card>
   );
@@ -81,26 +77,26 @@ function DirectoryTree({ plugin }: { plugin: PluginDetail }) {
   entries.forEach((entry, i) => {
     const last = i === entries.length - 1;
     const connector = last ? "└── " : "├── ";
-    const childPrefix = last ? "    " : "│   ";
     if (entry === "manifest") {
-      rows.push(<div key="plugin.json">{connector}plugin.json</div>);
+      const paths = plugin.protocols
+        .map((protocol) => plugin.manifests[protocol]?.path)
+        .filter((path): path is string => typeof path === "string")
+        .map((path) => (plugin.pluginPath && path.startsWith(`${plugin.pluginPath}/`) ? path.slice(plugin.pluginPath.length + 1) : path));
+      paths.forEach((path, pathIndex) => {
+        rows.push(
+          <div key={path}>
+            {pathIndex === paths.length - 1 && entries.length === 1 ? "└── " : "├── "}
+            {path}
+          </div>,
+        );
+      });
     } else if (entry === "skills") {
-      rows.push(<div key="skills">{connector}skills/</div>);
       plugin.skills.forEach((skill, j) => {
         const skillLast = j === plugin.skills.length - 1;
         rows.push(
-          <div key={`${skill.dirName}/`}>
-            {childPrefix}
-            {skillLast ? "└── " : "├── "}
-            <span className="text-iris">{skill.dirName}/</span>
-          </div>
-        );
-        rows.push(
-          <div key={`${skill.dirName}/SKILL.md`}>
-            {childPrefix}
-            {skillLast ? "    " : "│   "}
-            {"└── "}
-            <span className="text-iris">SKILL.md</span>
+          <div key={skill.path}>
+            {skillLast && last ? "└── " : "├── "}
+            <span className="text-iris">{skill.path}</span>
           </div>
         );
       });
@@ -108,7 +104,9 @@ function DirectoryTree({ plugin }: { plugin: PluginDetail }) {
       rows.push(
         <div key="mcp.json">
           {connector}
-          <span className="text-teal-700">mcp.json</span>
+          <span className="text-teal-700">
+            {plugin.protocols.some((protocol) => protocol !== "agent-plugins") ? ".mcp.json" : "mcp.json"}
+          </span>
         </div>
       );
     }
@@ -162,7 +160,7 @@ function McpServerCard({ server }: { server: PluginDetail["mcpServers"][number] 
   );
 }
 
-function ManifestCard({ manifest }: { manifest: string }) {
+function ManifestCard({ manifest, path }: { manifest: string; path: string }) {
   let pretty = manifest;
   try {
     pretty = JSON.stringify(JSON.parse(manifest), null, 2);
@@ -172,7 +170,7 @@ function ManifestCard({ manifest }: { manifest: string }) {
   return (
     <Card>
       <div className="flex items-center justify-between gap-3 border-b border-gray-100 px-4 py-2.5">
-        <span className="font-mono text-xs text-gray-500">plugin.json</span>
+        <span className="font-mono text-xs text-gray-500">{path}</span>
         <CopyButton text={pretty} label="Copy manifest" />
       </div>
       <pre className="max-h-[480px] overflow-x-auto overflow-y-auto px-4 py-3.5 font-mono text-xs leading-relaxed text-gray-700">{pretty}</pre>
@@ -231,6 +229,15 @@ function MetaSidebar({ plugin }: { plugin: PluginDetail }) {
             <span className="font-mono">{plugin.version}</span>
           </MetaRow>
         ) : null}
+        <MetaRow label="runtimes">
+          <span className="flex flex-wrap gap-1.5">
+            {plugin.protocols.map((protocol) => (
+              <Badge key={protocol} variant="neutral">
+                {PROTOCOL_LABELS[protocol]}
+              </Badge>
+            ))}
+          </span>
+        </MetaRow>
         {keywords.length > 0 ? (
           <MetaRow label="keywords">
             <span className="flex flex-wrap gap-1.5">
@@ -257,15 +264,18 @@ export default async function PluginPage({ params }: PluginPageProps) {
   const plugin = await getPlugin(slug);
   if (!plugin) notFound();
 
-  // The spec expands ${PLUGIN_*} placeholders only in args elements, env
-  // values, and cwd — never in url or headers — so only those fields count.
+  // Portable plugin runtimes expose one of these plugin-root placeholders.
   const hasPlaceholders = plugin.mcpServers.some(({ config }) => {
     const fields: unknown[] = [config.cwd];
     if (Array.isArray(config.args)) fields.push(...config.args);
     if (config.env && typeof config.env === "object" && !Array.isArray(config.env)) {
       fields.push(...Object.values(config.env));
     }
-    return fields.some((value) => typeof value === "string" && value.includes("${PLUGIN_"));
+    return fields.some(
+      (value) =>
+        typeof value === "string" &&
+        (value.includes("${PLUGIN_") || value.includes("${CLAUDE_PLUGIN_")),
+    );
   });
 
   const meta: { key: string; node: ReactNode }[] = [];
@@ -306,6 +316,11 @@ export default async function PluginPage({ params }: PluginPageProps) {
           </p>
         ) : null}
         <div className="mt-4 flex flex-wrap items-center gap-1.5">
+          {plugin.protocols.map((protocol) => (
+            <Badge key={protocol} variant="neutral">
+              {PROTOCOL_LABELS[protocol]}
+            </Badge>
+          ))}
           {plugin.skillCount > 0 ? (
             <Badge variant="skill">
               {plugin.skillCount} skill{plugin.skillCount === 1 ? "" : "s"}
@@ -339,9 +354,9 @@ export default async function PluginPage({ params }: PluginPageProps) {
       <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="min-w-0 space-y-10">
           <section>
-            <SectionHeading title="Install" />
+            <SectionHeading title="Source" />
             <div className="mt-3">
-              <InstallCard plugin={plugin} />
+              <SourceCard plugin={plugin} />
             </div>
           </section>
 
@@ -361,7 +376,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
                     <div className="flex flex-wrap items-baseline gap-x-2.5 gap-y-0.5">
                       <span className="text-sm font-semibold">{skill.name}</span>
                       <span className="font-mono text-xs text-gray-400">
-                        skills/{skill.dirName}/
+                        {skill.path}
                       </span>
                     </div>
                     {skill.description ? (
@@ -384,11 +399,10 @@ export default async function PluginPage({ params }: PluginPageProps) {
                 ))}
                 {hasPlaceholders ? (
                   <p className="text-xs leading-relaxed text-gray-500">
-                    <code className="font-mono">{"${PLUGIN_ROOT}"}</code> and{" "}
-                    <code className="font-mono">{"${PLUGIN_DATA}"}</code> are spec placeholders —
-                    agent clients expand them to real paths at runtime in{" "}
-                    <code className="font-mono">args</code>, <code className="font-mono">env</code>{" "}
-                    values, and <code className="font-mono">cwd</code> only.
+                    MCP configuration uses runtime-provided plugin path placeholders such as{" "}
+                    <code className="font-mono">{"${PLUGIN_ROOT}"}</code> or{" "}
+                    <code className="font-mono">{"${CLAUDE_PLUGIN_ROOT}"}</code>. Review the
+                    manifest for the runtime-specific expansion rules.
                   </p>
                 ) : null}
               </div>
@@ -396,9 +410,13 @@ export default async function PluginPage({ params }: PluginPageProps) {
           ) : null}
 
           <section>
-            <SectionHeading title="Manifest" />
-            <div className="mt-3">
-              <ManifestCard manifest={plugin.manifest} />
+            <SectionHeading title="Manifests" count={plugin.protocols.length} />
+            <div className="mt-3 space-y-4">
+              {plugin.protocols.map((protocol) => {
+                const entry = plugin.manifests[protocol];
+                if (!entry) return null;
+                return <ManifestCard key={protocol} manifest={entry.raw} path={entry.path} />;
+              })}
             </div>
           </section>
         </div>

@@ -7,6 +7,7 @@ export { OPTIONS } from "@/lib/api-helpers";
 // (PluginSummary, PluginDetail, Stats, Category) — keep them in sync.
 
 const TRANSPORT_ENUM = ["stdio", "streamable-http", "sse"];
+const PROTOCOL_ENUM = ["codex", "claude-code", "agent-plugins"];
 
 const document = {
   openapi: "3.1.0",
@@ -14,7 +15,7 @@ const document = {
     title: "Agent Plugin Marketplace API",
     version: "1.0.0",
     description:
-      "Read-only REST API for the Agent Plugin Marketplace, a community index of open-source Agent Plugins (skills and MCP servers) packaged per the Agent Plugins specification: https://agent-plugins.org/specification. All endpoints are GET-only, return JSON, require no authentication, and send permissive CORS headers (Access-Control-Allow-Origin: *). Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
+      "Read-only REST API for a community index of open-source Codex, Claude Code, and Agent Plugins packages. All endpoints are GET-only, return JSON, require no authentication, and send permissive CORS headers. Responses are cacheable for 60 seconds.",
   },
   servers: [{ url: "/" }],
   paths: {
@@ -23,7 +24,7 @@ const document = {
         operationId: "listPlugins",
         summary: "List and search plugins",
         description:
-          "Paginated plugin summaries. Filters combine with AND. Invalid enum values (type, transport, sort) are rejected with 400 bad_request.",
+          "Paginated plugin summaries. Runtime selections match any selected protocol; other filters combine with AND. Invalid enum values are rejected with 400 bad_request.",
         parameters: [
           {
             name: "q",
@@ -52,6 +53,16 @@ const document = {
             required: false,
             description: "Only plugins with at least one MCP server using this transport.",
             schema: { type: "string", enum: TRANSPORT_ENUM },
+          },
+          {
+            name: "protocol",
+            in: "query",
+            required: false,
+            style: "form",
+            explode: true,
+            description:
+              "Repeat to match any selected runtime protocol, for example protocol=codex&protocol=claude-code. Comma-separated values are also accepted.",
+            schema: { type: "array", items: { type: "string", enum: PROTOCOL_ENUM }, uniqueItems: true },
           },
           {
             name: "sort",
@@ -104,6 +115,8 @@ const document = {
                       skillCount: 3,
                       mcpCount: 1,
                       transports: ["stdio"],
+                      protocols: ["codex", "claude-code"],
+                      createdAt: "2026-08-07T09:14:00.000Z",
                       indexedAt: "2026-08-07T09:14:00.000Z",
                     },
                   ],
@@ -113,7 +126,7 @@ const document = {
             },
           },
           "400": {
-            description: "Invalid enum value for type, transport, or sort.",
+            description: "Invalid enum value for protocol, type, transport, or sort.",
             content: {
               "application/json": {
                 schema: { $ref: "#/components/schemas/Error" },
@@ -230,11 +243,13 @@ const document = {
           "authorName",
           "license",
           "keywords",
+          "protocols",
           "repoUrl",
           "repoStars",
           "skillCount",
           "mcpCount",
           "transports",
+          "createdAt",
           "indexedAt",
         ],
         properties: {
@@ -245,6 +260,11 @@ const document = {
           authorName: { type: ["string", "null"] },
           license: { type: ["string", "null"], description: "SPDX identifier, when declared." },
           keywords: { type: "array", items: { type: "string" } },
+          protocols: {
+            type: "array",
+            description: "Runtime protocols validated for this plugin root.",
+            items: { type: "string", enum: PROTOCOL_ENUM },
+          },
           repoUrl: { type: "string", description: "GitHub repository the plugin was indexed from." },
           repoStars: { type: "integer" },
           skillCount: { type: "integer" },
@@ -254,6 +274,7 @@ const document = {
             description: "Distinct transports across the plugin's MCP servers.",
             items: { type: "string", enum: TRANSPORT_ENUM },
           },
+          createdAt: { type: "string", format: "date-time", description: "When the plugin first entered the index." },
           indexedAt: { type: "string", format: "date-time", description: "When the plugin was last indexed." },
         },
       },
@@ -269,6 +290,8 @@ const document = {
               "pluginPath",
               "repoPushedAt",
               "manifest",
+              "manifestPath",
+              "manifests",
               "skills",
               "mcpServers",
             ],
@@ -277,7 +300,17 @@ const document = {
               repository: { type: ["string", "null"], description: "Repository URL as declared in the manifest." },
               pluginPath: { type: "string", description: "Path of the plugin directory inside its repository." },
               repoPushedAt: { type: ["string", "null"], format: "date-time" },
-              manifest: { type: "string", description: "Raw plugin.json body as indexed (untrusted text)." },
+              manifest: { type: "string", description: "Raw canonical manifest body (untrusted text)." },
+              manifestPath: { type: "string", description: "Canonical manifest path inside the repository." },
+              manifests: {
+                type: "object",
+                description: "Per-protocol raw manifests keyed by protocol.",
+                additionalProperties: {
+                  type: "object",
+                  required: ["path", "raw"],
+                  properties: { path: { type: "string" }, raw: { type: "string" } },
+                },
+              },
               skills: { type: "array", items: { $ref: "#/components/schemas/Skill" } },
               mcpServers: { type: "array", items: { $ref: "#/components/schemas/McpServerEntry" } },
             },
@@ -286,9 +319,10 @@ const document = {
       },
       Skill: {
         type: "object",
-        required: ["dirName", "name", "description"],
+        required: ["dirName", "path", "name", "description"],
         properties: {
           dirName: { type: "string", description: "Directory name under skills/." },
+          path: { type: "string", description: "Plugin-relative path to SKILL.md." },
           name: { type: "string", description: "Name from the SKILL.md frontmatter." },
           description: { type: ["string", "null"] },
         },
@@ -297,7 +331,7 @@ const document = {
         type: "object",
         required: ["serverId", "transport", "config"],
         properties: {
-          serverId: { type: "string", description: "Key under mcpServers in the plugin's mcp.json." },
+          serverId: { type: "string", description: "Key in a supported MCP configuration." },
           transport: { type: "string", enum: TRANSPORT_ENUM },
           config: {
             type: "object",

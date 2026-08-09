@@ -1,0 +1,28 @@
+{
+  "name": "agent-plugin-marketplace",
+  "version": "0.1.0",
+  "description": "Search a registry of Codex, Claude Code, and Agent Plugins packages through MCP.",
+  "author": {
+    "name": "IchenDEV",
+    "url": "https://github.com/IchenDEV"
+  },
+  "homepage": "https://github.com/IchenDEV/agent-plugin-mkt",
+  "repository": "https://github.com/IchenDEV/agent-plugin-mkt",
+  "license": "MIT",
+  "keywords": ["registry", "marketplace", "codex", "claude-code", "skills", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Agent Plugin Marketplace",
+    "shortDescription": "Search Codex and Claude Code plugins",
+    "longDescription": "Browse and query an open registry of skills and MCP servers packaged for Codex, Claude Code, or both.",
+    "developerName": "IchenDEV",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Search"],
+    "websiteURL": "https://github.com/IchenDEV/agent-plugin-mkt",
+    "defaultPrompt": [
+      "Find plugins for this development task.",
+      "Compare Codex and Claude Code plugins for my use case."
+    ],
+    "brandColor": "#5147E5"
+  }
+}

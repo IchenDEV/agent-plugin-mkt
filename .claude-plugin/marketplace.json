@@ -1,0 +1,15 @@
+{
+  "name": "agent-plugin-marketplace",
+  "description": "A registry client for discovering Codex and Claude Code plugins.",
+  "owner": {
+    "name": "IchenDEV",
+    "url": "https://github.com/IchenDEV"
+  },
+  "plugins": [
+    {
+      "name": "agent-plugin-marketplace",
+      "source": ".",
+      "description": "Search a registry of Codex and Claude Code plugins through MCP."
+    }
+  ]
+}

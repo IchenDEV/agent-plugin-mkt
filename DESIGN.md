@@ -4,7 +4,7 @@ Single source of truth for visual decisions. All UI work follows this; deviation
 
 ## Concept
 
-The subject is the Agent Plugins spec: a plugin is a **self-contained directory** (`plugin.json`, `skills/`, `mcp.json`). The visual language borrows from that world — manifests, directory trees, component types — without cosplaying as a terminal. Light, technical, precise. The signature element is the **manifest card**: plugin cards render like tabbed file folders with a monospace name chip, and detail pages show the plugin's real directory tree.
+The subject is cross-runtime agent plugins: a plugin is a **self-contained directory** with a Codex and/or Claude Code manifest, `skills/`, and optional MCP configuration. The visual language borrows from that world — manifests, directory trees, component types — without cosplaying as a terminal. Light, technical, precise. The signature element is the **manifest card**: plugin cards render like tabbed file folders with a monospace name chip, and detail pages show the plugin's real directory tree.
 
 ## Palette
 

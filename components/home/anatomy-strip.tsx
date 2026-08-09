@@ -1,6 +1,6 @@
 import { Card, Container } from "@/components/ui";
 
-const SPEC_URL = "https://agent-plugins.org/specification";
+const SPEC_URL = "https://developers.openai.com/plugins/build/plugins";
 
 // Component color system per DESIGN.md: skills are always iris, MCP always teal.
 type Tone = "root" | "skill" | "mcp";
@@ -21,13 +21,14 @@ interface TreeLine {
 }
 
 const TREE: TreeLine[] = [
-  { name: "plugin.json", tone: "root", note: "        # manifest — name, version, metadata" },
+  { name: ".codex-plugin/plugin.json", tone: "root", note: " # Codex manifest" },
+  { name: ".claude-plugin/plugin.json", tone: "root", note: " # Claude Code manifest" },
   { name: "skills/", tone: "skill" },
   { glyph: "├── ", name: "code-review/", tone: "skill" },
   { glyph: "│   └── ", name: "SKILL.md", tone: "skill", note: "   # frontmatter + instructions" },
   { glyph: "└── ", name: "write-tests/", tone: "skill" },
   { glyph: "    └── ", name: "SKILL.md", tone: "skill" },
-  { name: "mcp.json", tone: "mcp", note: "           # MCP server definitions" },
+  { name: ".mcp.json", tone: "mcp", note: "          # MCP server definitions" },
 ];
 
 /**
@@ -43,15 +44,12 @@ export function AnatomyStrip() {
             Anatomy of a plugin
           </h2>
           <p className="mt-4 max-w-prose text-sm leading-relaxed text-gray-600 sm:text-[15px]">
-            A plugin is a self-contained directory: a{" "}
-            <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">plugin.json</code>{" "}
-            manifest at the root, skills under{" "}
+            A plugin is a self-contained directory with a Codex and/or Claude Code manifest, skills under{" "}
             <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">
               skills/&lt;name&gt;/SKILL.md
             </code>
             , and MCP servers declared in{" "}
-            <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">mcp.json</code>{" "}
-            — every component discovered from a fixed location, no build step.
+            <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">.mcp.json</code>.
           </p>
           <p className="mt-3 max-w-prose text-sm leading-relaxed text-gray-600 sm:text-[15px]">
             Failure boundaries are non-fatal by design: a malformed skill or unreachable server is
@@ -63,7 +61,7 @@ export function AnatomyStrip() {
             rel="noopener noreferrer"
             className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-iris transition-colors hover:text-iris-deep"
           >
-            Read the Agent Plugins v1 specification <span aria-hidden>→</span>
+            Read the Codex plugin packaging guide <span aria-hidden>→</span>
           </a>
         </div>
         <Card tab="hello-plugin/" className="shadow-sm">

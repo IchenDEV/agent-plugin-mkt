@@ -3,12 +3,13 @@ import Link from "next/link";
 import { Badge, Container, EmptyState } from "@/components/ui";
 import { formatDate, formatNumber } from "@/lib/format";
 import { searchPlugins, type PluginSummary } from "@/lib/queries";
+import { PROTOCOL_LABELS } from "@/lib/protocols";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Timeline",
-  description: "Recently indexed Agent Plugins, grouped by the day they entered the index.",
+  description: "Recently indexed Codex and Claude Code plugins, grouped by index date.",
 };
 
 const PER_PAGE = 50;
@@ -81,8 +82,13 @@ function TimelineEntry({ plugin }: { plugin: PluginSummary }) {
       <p className="mt-0.5 truncate text-sm text-gray-500">
         {plugin.description ?? "No description in manifest."}
       </p>
-      {plugin.skillCount > 0 || plugin.mcpCount > 0 ? (
+      {plugin.protocols.length > 0 || plugin.skillCount > 0 || plugin.mcpCount > 0 ? (
         <div className="mt-1.5 flex flex-wrap gap-1.5">
+          {plugin.protocols.map((protocol) => (
+            <Badge key={protocol} variant="neutral">
+              {PROTOCOL_LABELS[protocol]}
+            </Badge>
+          ))}
           {plugin.skillCount > 0 ? (
             <Badge variant="skill">
               {plugin.skillCount} skill{plugin.skillCount > 1 ? "s" : ""}

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { PluginProtocol } from "@/lib/protocols";
 
 // Validation per the Agent Plugins v1 spec (https://agent-plugins.org/specification).
 // Canonical schemas: https://agent-plugins.org/schemas/1.0.0/{plugin,mcp}.schema.json
@@ -14,14 +15,16 @@ export const MCP_SCHEMA_URL =
 // The official plugin.schema.json name pattern: 1-64 chars, lowercase
 // alphanumeric plus "-"/".", must start and end alphanumeric, and only the
 // sequences "--" and ".." are forbidden (mixed adjacent separators are legal).
-export const PLUGIN_NAME_RE =
+export const AGENT_PLUGIN_NAME_RE =
   /^(?!.*(?:--|\.\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$/;
+
+export const PORTABLE_PLUGIN_NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 const nameSchema = z
   .string()
   .min(1)
   .max(64)
-  .regex(PLUGIN_NAME_RE, {
+  .regex(AGENT_PLUGIN_NAME_RE, {
     message:
       "name must be lowercase alphanumeric with '-' or '.' separators, starting and ending alphanumeric, without '--' or '..'",
   });
@@ -31,6 +34,12 @@ const nameSchema = z
 // violation, so the manifest is rejected.
 const personSchema = z.strictObject({
   name: z.string().optional(),
+  email: z.string().optional(),
+  url: z.string().optional(),
+});
+
+const portablePersonSchema = z.strictObject({
+  name: z.string().min(1),
   email: z.string().optional(),
   url: z.string().optional(),
 });
@@ -64,6 +73,74 @@ export const pluginManifestSchema = z
 
 export type PluginManifest = z.infer<typeof pluginManifestSchema>;
 
+const componentPathSchema = z.union([
+  z.string().min(1),
+  z.array(z.string().min(1)).min(1),
+]);
+
+const portableManifestFields = {
+  name: z.string().min(1).regex(PORTABLE_PLUGIN_NAME_RE, {
+    message: "name must be kebab-case without spaces",
+  }),
+  version: z.string().min(1).optional(),
+  description: z.string().optional(),
+  author: portablePersonSchema.optional(),
+  homepage: z.string().optional(),
+  repository: z.string().optional(),
+  license: z.string().optional(),
+  keywords: z.array(z.string()).optional(),
+  skills: componentPathSchema.optional(),
+  hooks: z.unknown().optional(),
+  mcpServers: z.unknown().optional(),
+};
+
+/** Runtime-compatible Codex manifests. Rich interface metadata is preserved as raw JSON. */
+export const codexManifestSchema = z
+  .object({
+    ...portableManifestFields,
+    name: portableManifestFields.name.max(64),
+    apps: z.string().optional(),
+    interface: z.record(z.string(), z.unknown()).optional(),
+  })
+  .passthrough();
+
+/** Claude Code requires only `name`; recognized optional fields are type-checked. */
+export const claudeManifestSchema = z
+  .object({
+    ...portableManifestFields,
+    name: portableManifestFields.name.max(128),
+    displayName: z.string().optional(),
+    commands: componentPathSchema.optional(),
+    agents: componentPathSchema.optional(),
+    outputStyles: componentPathSchema.optional(),
+    lspServers: z.unknown().optional(),
+    metadata: z.preprocess(
+      (value) => (value === undefined || isPlainObject(value) ? value : undefined),
+      z.record(z.string(), z.unknown()).optional(),
+    ),
+  })
+  .passthrough();
+
+export interface NormalizedPluginManifest {
+  name: string;
+  version?: string;
+  description?: string;
+  author?: { name?: string; email?: string; url?: string };
+  homepage?: string;
+  repository?: string;
+  license?: string;
+  keywords?: string[];
+}
+
+export type ManifestParseResult =
+  | {
+      ok: true;
+      manifest: NormalizedPluginManifest;
+      raw: Record<string, unknown>;
+      warnings: string[];
+    }
+  | { ok: false; reason: string };
+
 const KNOWN_MANIFEST_KEYS = new Set([
   "$schema",
   "name",
@@ -96,6 +173,79 @@ export function manifestWarnings(raw: Record<string, unknown>): string[] {
     warnings.push('ignored non-object "extensions" field');
   }
   return warnings;
+}
+
+const PORTABLE_KNOWN_KEYS: Record<Exclude<PluginProtocol, "agent-plugins">, Set<string>> = {
+  codex: new Set([
+    "name",
+    "version",
+    "description",
+    "author",
+    "homepage",
+    "repository",
+    "license",
+    "keywords",
+    "skills",
+    "hooks",
+    "mcpServers",
+    "apps",
+    "interface",
+  ]),
+  "claude-code": new Set([
+    "$schema",
+    "name",
+    "displayName",
+    "version",
+    "description",
+    "author",
+    "homepage",
+    "repository",
+    "license",
+    "keywords",
+    "metadata",
+    "defaultEnabled",
+    "skills",
+    "commands",
+    "agents",
+    "workflows",
+    "hooks",
+    "mcpServers",
+    "outputStyles",
+    "lspServers",
+    "experimental",
+    "dependencies",
+    "userConfig",
+    "channels",
+    "settings",
+  ]),
+};
+
+/** Parse one canonical manifest and normalize the metadata shared by all protocols. */
+export function parsePluginManifest(
+  value: unknown,
+  protocol: PluginProtocol,
+): ManifestParseResult {
+  if (!isPlainObject(value)) return { ok: false, reason: "manifest must be a JSON object" };
+  const parsed =
+    protocol === "agent-plugins"
+      ? pluginManifestSchema.safeParse(value)
+      : protocol === "codex"
+        ? codexManifestSchema.safeParse(value)
+        : claudeManifestSchema.safeParse(value);
+  if (!parsed.success) {
+    const issue = parsed.error.issues[0];
+    const where = issue && issue.path.length > 0 ? issue.path.join(".") : "manifest";
+    return { ok: false, reason: `${where}: ${issue?.message ?? "schema mismatch"}` };
+  }
+
+  const data = parsed.data as NormalizedPluginManifest;
+  const warnings =
+    protocol === "agent-plugins"
+      ? manifestWarnings(value)
+      : Object.keys(value)
+          .filter((key) => !PORTABLE_KNOWN_KEYS[protocol].has(key))
+          .map((key) => `ignored unknown ${protocol} manifest field: ${key}`);
+  return { ok: true, manifest: data, raw: value, warnings };
 }
 
 // --- MCP server entry validity (spec section 7.2.1) -------------------------
@@ -195,6 +345,11 @@ export const mcpServerSchema = z.discriminatedUnion("type", [
 
 export type McpServerConfig = z.infer<typeof mcpServerSchema>;
 
+export interface ParsedMcpServer {
+  serverId: string;
+  config: McpServerConfig;
+}
+
 // Spec section 7.2.2: $schema is REQUIRED with this exact value and the top
 // level is closed; any top-level violation disables MCP for the plugin.
 export const mcpConfigSchema = z.strictObject({
@@ -208,12 +363,17 @@ export const mcpConfigSchema = z.strictObject({
  * failure (missing/wrong $schema, unknown top-level key, wrong shape) sets
  * `mcpDisabled` — per the spec, clients disable MCP for the plugin entirely.
  */
-export function parseMcpConfig(json: unknown): {
-  servers: { serverId: string; config: McpServerConfig }[];
+export function parseMcpConfig(
+  json: unknown,
+  protocol: PluginProtocol = "agent-plugins",
+): {
+  servers: ParsedMcpServer[];
   skipped: { serverId: string; reason: string }[];
   mcpDisabled?: string;
 } {
-  const servers: { serverId: string; config: McpServerConfig }[] = [];
+  if (protocol !== "agent-plugins") return parsePortableMcpConfig(json);
+
+  const servers: ParsedMcpServer[] = [];
   const skipped: { serverId: string; reason: string }[] = [];
   const parsed = mcpConfigSchema.safeParse(json);
   if (!parsed.success) {
@@ -233,10 +393,81 @@ export function parseMcpConfig(json: unknown): {
   return { servers, skipped };
 }
 
-export function authorDisplayName(author: PluginManifest["author"]): string | null {
+const portableStdioServerSchema = z.looseObject({
+  type: z.literal("stdio").optional(),
+  command: z.string().min(1),
+  args: z.array(z.string()).optional(),
+  env: z.record(z.string(), z.string()).optional(),
+  cwd: z.string().optional(),
+});
+
+const portableHttpServerSchema = z.looseObject({
+  type: z.enum(["http", "streamable-http"]),
+  url: urlSchema,
+  headers: z.record(z.string(), z.string()).optional(),
+});
+
+const portableSseServerSchema = z.looseObject({
+  type: z.literal("sse"),
+  url: urlSchema,
+  headers: z.record(z.string(), z.string()).optional(),
+});
+
+/** Codex and Claude Code accept the same common MCP shapes with different wrappers. */
+function parsePortableMcpConfig(json: unknown): {
+  servers: ParsedMcpServer[];
+  skipped: { serverId: string; reason: string }[];
+  mcpDisabled?: string;
+} {
+  if (!isPlainObject(json)) {
+    return { servers: [], skipped: [], mcpDisabled: ".mcp.json must be a JSON object" };
+  }
+  const wrapped = isPlainObject(json.mcpServers)
+    ? json.mcpServers
+    : isPlainObject(json.mcp_servers)
+      ? json.mcp_servers
+      : json;
+  const servers: ParsedMcpServer[] = [];
+  const skipped: { serverId: string; reason: string }[] = [];
+
+  for (const [serverId, raw] of Object.entries(wrapped)) {
+    if (serverId === "$schema") continue;
+    if (!isPlainObject(raw)) {
+      skipped.push({ serverId, reason: "server config must be an object" });
+      continue;
+    }
+    const type = raw.type;
+    const parsed =
+      type === "http" || type === "streamable-http"
+        ? portableHttpServerSchema.safeParse(raw)
+        : type === "sse"
+          ? portableSseServerSchema.safeParse(raw)
+          : portableStdioServerSchema.safeParse(raw);
+    if (!parsed.success) {
+      skipped.push({
+        serverId,
+        reason: parsed.error.issues[0]?.message ?? "invalid server config",
+      });
+      continue;
+    }
+    const normalizedType =
+      type === "http" || type === "streamable-http"
+        ? "streamable-http"
+        : type === "sse"
+          ? "sse"
+          : "stdio";
+    servers.push({
+      serverId,
+      config: { ...parsed.data, type: normalizedType } as McpServerConfig,
+    });
+  }
+  return { servers, skipped };
+}
+
+export function authorDisplayName(author: NormalizedPluginManifest["author"]): string | null {
   return author?.name ?? null;
 }
 
-export function repositoryUrl(repository: PluginManifest["repository"]): string | null {
+export function repositoryUrl(repository: NormalizedPluginManifest["repository"]): string | null {
   return repository ?? null;
 }

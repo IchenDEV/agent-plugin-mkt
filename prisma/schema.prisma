@@ -22,6 +22,11 @@ model Plugin {
   keywords    String  @default("[]")
   // Raw plugin.json text as fetched
   manifest    String
+  // Canonical manifest path selected for display.
+  manifestPath String @default("plugin.json")
+  // JSON-encoded protocol identifiers and per-protocol raw manifests.
+  protocols    String @default("[\"agent-plugins\"]")
+  manifests    String @default("{}")
 
   // Source repo metadata
   repoUrl      String
@@ -50,6 +55,8 @@ model Skill {
   plugin      Plugin  @relation(fields: [pluginId], references: [id], onDelete: Cascade)
   // Directory name under skills/
   dirName     String
+  // Manifest-relative path to SKILL.md (supports Claude's root SKILL.md form).
+  path        String  @default("")
   name        String
   description String?
   // JSON-encoded SKILL.md frontmatter

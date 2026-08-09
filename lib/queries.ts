@@ -1,5 +1,9 @@
 import { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/db";
+import {
+  PLUGIN_PROTOCOLS,
+  type PluginProtocol,
+} from "@/lib/protocols";
 
 // Shared read layer. The web UI, REST API, and MCP endpoint all go through
 // these functions so every surface returns consistent results.
@@ -15,6 +19,8 @@ export interface PluginFilters {
   category?: string;
   type?: ComponentType;
   transport?: Transport;
+  /** Match any selected runtime protocol. */
+  protocols?: PluginProtocol[];
   sort?: SortOrder;
   page?: number;
   perPage?: number;
@@ -33,6 +39,7 @@ export interface PluginSummary {
   skillCount: number;
   mcpCount: number;
   transports: Transport[];
+  protocols: PluginProtocol[];
   /** When the plugin first entered the index. */
   createdAt: Date;
   /** When the plugin was last (re-)indexed. */
@@ -45,7 +52,9 @@ export interface PluginDetail extends PluginSummary {
   pluginPath: string;
   repoPushedAt: Date | null;
   manifest: string;
-  skills: { dirName: string; name: string; description: string | null }[];
+  manifestPath: string;
+  manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>>;
+  skills: { dirName: string; path: string; name: string; description: string | null }[];
   mcpServers: { serverId: string; transport: Transport; config: Record<string, unknown> }[];
 }
 
@@ -74,6 +83,49 @@ function parseKeywords(json: string): string[] {
   }
 }
 
+function parseProtocols(json: string): PluginProtocol[] {
+  try {
+    const value = JSON.parse(json);
+    return Array.isArray(value)
+      ? value.filter(
+          (protocol): protocol is PluginProtocol =>
+            typeof protocol === "string" &&
+            (PLUGIN_PROTOCOLS as readonly string[]).includes(protocol),
+        )
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function parseManifests(
+  json: string,
+): Partial<Record<PluginProtocol, { path: string; raw: string }>> {
+  try {
+    const value = JSON.parse(json);
+    if (typeof value !== "object" || value === null || Array.isArray(value)) return {};
+    const manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>> = {};
+    for (const protocol of PLUGIN_PROTOCOLS) {
+      const entry = (value as Record<string, unknown>)[protocol];
+      if (
+        typeof entry === "object" &&
+        entry !== null &&
+        !Array.isArray(entry) &&
+        typeof (entry as Record<string, unknown>).path === "string" &&
+        typeof (entry as Record<string, unknown>).raw === "string"
+      ) {
+        manifests[protocol] = {
+          path: (entry as Record<string, string>).path,
+          raw: (entry as Record<string, string>).raw,
+        };
+      }
+    }
+    return manifests;
+  } catch {
+    return {};
+  }
+}
+
 function toSummary(plugin: PluginWithComponents): PluginSummary {
   return {
     slug: plugin.slug,
@@ -88,6 +140,7 @@ function toSummary(plugin: PluginWithComponents): PluginSummary {
     skillCount: plugin.skillCount,
     mcpCount: plugin.mcpCount,
     transports: [...new Set(plugin.mcpServers.map((s) => s.transport as Transport))],
+    protocols: parseProtocols(plugin.protocols),
     createdAt: plugin.createdAt,
     indexedAt: plugin.indexedAt,
   };
@@ -126,6 +179,13 @@ export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<
   if (filters.type === "skills") and.push({ skillCount: { gt: 0 } });
   if (filters.type === "mcp") and.push({ mcpCount: { gt: 0 } });
   if (filters.transport) and.push({ mcpServers: { some: { transport: filters.transport } } });
+  if (filters.protocols?.length) {
+    and.push({
+      OR: filters.protocols.map((protocol) => ({
+        protocols: { contains: JSON.stringify(protocol) },
+      })),
+    });
+  }
   if (and.length) where.AND = and;
 
   const orderBy: Prisma.PluginOrderByWithRelationInput[] =
@@ -168,8 +228,11 @@ export async function getPluginBySlug(slug: string): Promise<PluginDetail | null
     pluginPath: plugin.pluginPath,
     repoPushedAt: plugin.repoPushedAt,
     manifest: plugin.manifest,
+    manifestPath: plugin.manifestPath,
+    manifests: parseManifests(plugin.manifests),
     skills: plugin.skills.map((s) => ({
       dirName: s.dirName,
+      path: s.path || `skills/${s.dirName}/SKILL.md`,
       name: s.name,
       description: s.description,
     })),

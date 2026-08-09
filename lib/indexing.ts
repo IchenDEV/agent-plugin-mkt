@@ -3,8 +3,9 @@ import { stripControlChars } from "@/lib/format";
 import {
   authorDisplayName,
   repositoryUrl,
-  type PluginManifest,
+  type NormalizedPluginManifest,
 } from "@/lib/validation";
+import type { PluginProtocol } from "@/lib/protocols";
 
 // Shared write path for indexed plugins. Both the live GitHub indexer
 // (scripts/index-github.ts) and the fixture seeder (scripts/seed.ts) go
@@ -13,6 +14,8 @@ import {
 export interface SkillInput {
   /** Directory name under skills/ */
   dirName: string;
+  /** Plugin-relative path to this skill file. */
+  path: string;
   name: string;
   description: string | null;
   /** Parsed SKILL.md frontmatter, stored as JSON. */
@@ -29,10 +32,16 @@ export interface McpServerInput {
 }
 
 export interface UpsertPluginInput {
-  /** Raw plugin.json text exactly as fetched. */
+  /** Raw canonical plugin manifest text exactly as fetched. */
   manifestRaw: string;
-  /** The already-validated manifest (pluginManifestSchema output). */
-  manifest: PluginManifest;
+  /** Canonical manifest path inside the repository. */
+  manifestPath: string;
+  /** All runtime protocols validated for this plugin root. */
+  protocols: PluginProtocol[];
+  /** Raw manifests keyed by protocol. */
+  manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>>;
+  /** The already-validated, normalized canonical manifest. */
+  manifest: NormalizedPluginManifest;
   repoUrl: string;
   /** Plugin directory within the repo; "" = repo root. */
   pluginPath: string;
@@ -82,9 +91,12 @@ const MAX_SKILL_DESCRIPTION_LENGTH = 1024;
  */
 export function skillFromFrontmatter(
   dirName: string,
-  frontmatter: Record<string, unknown>
+  frontmatter: Record<string, unknown>,
+  options: { allowDerivedName?: boolean; path?: string } = {},
 ): SkillInput | null {
-  const name = frontmatter["name"];
+  const declaredName = frontmatter["name"];
+  const name =
+    options.allowDerivedName && declaredName === undefined ? dirName : declaredName;
   const description = frontmatter["description"];
   if (
     typeof name !== "string" ||
@@ -97,7 +109,13 @@ export function skillFromFrontmatter(
   ) {
     return null;
   }
-  return { dirName, name, description, frontmatter };
+  return {
+    dirName,
+    path: options.path ?? `skills/${dirName}/SKILL.md`,
+    name,
+    description,
+    frontmatter,
+  };
 }
 
 /**
@@ -169,6 +187,9 @@ export async function upsertPlugin(
       ),
     ]),
     manifest: input.manifestRaw,
+    manifestPath: input.manifestPath,
+    protocols: JSON.stringify([...new Set(input.protocols)]),
+    manifests: JSON.stringify(input.manifests),
     repoUrl: input.repoUrl,
     pluginPath: input.pluginPath,
     repoStars: input.repoStars,
@@ -190,6 +211,7 @@ export async function upsertPlugin(
         data: skills.map((s) => ({
           pluginId: row.id,
           dirName: s.dirName,
+          path: s.path,
           name: s.name,
           description: s.description,
           frontmatter: JSON.stringify(s.frontmatter),

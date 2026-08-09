@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s · Agent Plugin Marketplace",
   },
   description:
-    "Discover open-source Agent Plugins — skills and MCP servers packaged per the Agent Plugins specification, indexed from GitHub.",
+    "Discover open-source plugins for Codex and Claude Code, indexed from canonical GitHub manifests.",
 };
 
 function Header() {
@@ -31,17 +31,17 @@ function Header() {
           <Link href="/plugins" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
             Browse
           </Link>
-          <Link href="/categories" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
+          <Link href="/categories" className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block">
             Categories
           </Link>
-          <Link href="/timeline" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
+          <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block">
             Timeline
           </Link>
           <Link href="/docs" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
             API
           </Link>
           <a
-            href="https://agent-plugins.org/specification"
+            href="https://developers.openai.com/plugins/build/plugins"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block"
@@ -63,8 +63,8 @@ function Footer() {
             plugin<span className="text-iris-soft">.market</span>
           </p>
           <p className="mt-2 max-w-xs leading-relaxed">
-            A community index of open-source Agent Plugins. Not affiliated with
-            agent-plugins.org.
+            A community index of open-source Codex and Claude Code plugins. Not affiliated with
+            OpenAI or Anthropic.
           </p>
         </div>
         <nav aria-label="Footer" className="grid gap-2">
@@ -76,15 +76,15 @@ function Footer() {
           <Link href="/docs#mcp" className="hover:text-white">MCP endpoint</Link>
         </nav>
         <nav aria-label="Specification" className="grid gap-2">
-          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">Specification</p>
+          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">Specifications</p>
+          <a href="https://developers.openai.com/plugins/build/plugins" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            Codex plugin packaging
+          </a>
+          <a href="https://code.claude.com/docs/en/plugins-reference" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            Claude Code plugins
+          </a>
           <a href="https://agent-plugins.org/specification" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             Agent Plugins v1
-          </a>
-          <a href="https://agent-plugins.org/schemas/1.0.0/plugin.schema.json" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            plugin.schema.json
-          </a>
-          <a href="https://agent-plugins.org/schemas/1.0.0/mcp.schema.json" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            mcp.schema.json
           </a>
         </nav>
       </div>

@@ -15,8 +15,11 @@ const MAX_RATE_LIMIT_WAITS = 3;
 const SEARCH_PAGE_PAUSE_MS = 2_000;
 const SEARCH_MAX_PAGES = 10; // GitHub caps code search at 1000 results
 
-export const DEFAULT_SEARCH_QUERY =
-  'filename:plugin.json "agent-plugins.org/schemas"';
+export const DEFAULT_SEARCH_QUERIES = [
+  "filename:plugin.json path:.codex-plugin",
+  "filename:plugin.json path:.claude-plugin",
+  'filename:plugin.json "agent-plugins.org/schemas"',
+] as const;
 
 export class GitHubApiError extends Error {
   constructor(

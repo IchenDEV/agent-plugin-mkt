@@ -5,7 +5,7 @@ import { Card, Container } from "@/components/ui";
 export const metadata: Metadata = {
   title: "API & MCP docs",
   description:
-    "Read-only REST API and MCP endpoint for the Agent Plugin Marketplace: search plugins, fetch details, stats, and categories.",
+    "Read-only REST API and MCP endpoint for the Codex and Claude Code plugin index.",
 };
 
 // ---------------------------------------------------------------------------
@@ -104,7 +104,7 @@ function Endpoint({
 
 const EXAMPLE_ORIGIN = "https://plugin.market";
 
-const listCurl = `curl "${EXAMPLE_ORIGIN}/api/v1/plugins?q=github&type=mcp&sort=stars&per_page=1"`;
+const listCurl = `curl "${EXAMPLE_ORIGIN}/api/v1/plugins?q=github&protocol=codex&protocol=claude-code&type=mcp&sort=stars&per_page=1"`;
 
 const listResponse = `{
   "data": [
@@ -121,6 +121,8 @@ const listResponse = `{
       "skillCount": 3,
       "mcpCount": 1,
       "transports": ["stdio"],
+      "protocols": ["codex", "claude-code"],
+      "createdAt": "2026-08-07T09:14:00.000Z",
       "indexedAt": "2026-08-07T09:14:00.000Z"
     }
   ],
@@ -143,15 +145,23 @@ const detailResponse = `{
     "skillCount": 3,
     "mcpCount": 1,
     "transports": ["stdio"],
+    "protocols": ["codex", "claude-code"],
+    "createdAt": "2026-08-07T09:14:00.000Z",
     "indexedAt": "2026-08-07T09:14:00.000Z",
     "homepage": "https://acme.dev/github-tools",
     "repository": "https://github.com/acme/github-tools",
     "pluginPath": "plugins/github-tools",
     "repoPushedAt": "2026-08-05T17:42:11.000Z",
     "manifest": "{ \\"name\\": \\"github-tools\\", \\"version\\": \\"1.2.0\\", … }",
+    "manifestPath": ".codex-plugin/plugin.json",
+    "manifests": {
+      "codex": { "path": ".codex-plugin/plugin.json", "raw": "{ … }" },
+      "claude-code": { "path": ".claude-plugin/plugin.json", "raw": "{ … }" }
+    },
     "skills": [
       {
         "dirName": "triage-issue",
+        "path": "skills/triage-issue/SKILL.md",
         "name": "triage-issue",
         "description": "Label and route a new GitHub issue."
       }
@@ -323,7 +333,8 @@ export default function DocsPage() {
           title="List plugins"
         >
           <p className="text-sm text-gray-600">
-            Paginated plugin summaries. All parameters are optional; filters combine with AND.
+            Paginated plugin summaries. All parameters are optional. Repeated runtime selections
+            match any selected protocol; other filters combine with AND.
           </p>
           <SubHeading>Query parameters</SubHeading>
           <DocTable
@@ -333,6 +344,7 @@ export default function DocsPage() {
               ["category", "string", "Exact keyword match. Categories are manifest keywords — see /api/v1/categories."],
               ["type", "skills | mcp", "Only plugins containing this component type."],
               ["transport", "stdio | streamable-http | sse", "Only plugins with at least one MCP server using this transport."],
+              ["protocol", "repeatable runtime", "Repeat to match any selected runtime (OR). Comma-separated values also work."],
               ["sort", "stars | updated | recent", "stars = repo stars (default), updated = repo push date, recent = first indexed."],
               ["page", "integer", "1-based page number. Clamped to >= 1. Default 1."],
               ["per_page", "integer", "Results per page, clamped to 1..50. Default 24."],
@@ -341,6 +353,7 @@ export default function DocsPage() {
           <p className="text-sm text-gray-600">
             An unknown value for <code className="font-mono text-xs">type</code>,{" "}
             <code className="font-mono text-xs">transport</code>, or{" "}
+            <code className="font-mono text-xs">protocol</code>, or{" "}
             <code className="font-mono text-xs">sort</code> returns{" "}
             <code className="font-mono text-xs">400 bad_request</code> listing the valid values.
           </p>
@@ -359,7 +372,7 @@ export default function DocsPage() {
         >
           <p className="text-sm text-gray-600">
             Full detail for one plugin: every summary field plus homepage, repository, plugin path,
-            the raw manifest, skills, and MCP server configs. Returns{" "}
+            every detected protocol and raw manifest, skills, and MCP server configs. Returns{" "}
             <code className="font-mono text-xs">404 not_found</code> for unknown slugs.
           </p>
           <SubHeading>Path parameters</SubHeading>
@@ -428,7 +441,7 @@ export default function DocsPage() {
                 rows={[
                   [
                     "search_plugins",
-                    "query?, category?, type? (skills | mcp), transport? (stdio | streamable-http | sse), sort? (stars | updated | recent), page?, per_page?",
+                    "query?, protocol? (runtime or runtime[]), category?, type? (skills | mcp), transport?, sort?, page?, per_page?",
                     "Search the plugin index. Same filter semantics and clamping as GET /api/v1/plugins; the result JSON is paginated as items, total, page, perPage, totalPages.",
                   ],
                   [

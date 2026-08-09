@@ -17,8 +17,11 @@ const MAX_RATE_LIMIT_WAITS = 3;
 // search passes globally instead of only pausing between pages so changing sort
 // direction or manifest family cannot accidentally burst past that limit.
 const CODE_SEARCH_MIN_INTERVAL_MS = 6_500;
+// Repository search has a separate 30 requests/minute authenticated limit.
+const REPOSITORY_SEARCH_MIN_INTERVAL_MS = 2_100;
 const SEARCH_RESULT_CAP = 1_000;
 let nextCodeSearchAt = 0;
+let nextRepositorySearchAt = 0;
 
 export const DEFAULT_SEARCH_QUERIES = [
   "filename:plugin.json path:.codex-plugin",
@@ -27,15 +30,21 @@ export const DEFAULT_SEARCH_QUERIES = [
 ] as const;
 
 /**
- * High-value public repositories that GitHub Code Search has historically
- * omitted even though their default branches contain canonical manifests.
- * Scan their Git trees directly on every run so first-party Claude plugins do
- * not depend on the completeness of GitHub's search index.
+ * Protocol signals used to discover candidate repositories through repository
+ * metadata, topics, and README text. GitHub's REST Code Search uses a legacy
+ * index which can omit an entire active repository; repository search followed
+ * by canonical Git-tree filtering provides a vendor-neutral compatibility path.
  */
-export const DEFAULT_PRIORITY_REPOSITORIES = [
-  "anthropics/claude-code",
-  "anthropics/claude-plugins-official",
-  "anthropics/knowledge-work-plugins",
+export const DEFAULT_REPOSITORY_SEARCH_QUERIES = [
+  '"claude code" plugins in:name,description,readme',
+  '".claude-plugin/plugin.json" in:readme',
+  '"claude plugin marketplace add" in:readme',
+  '".codex-plugin/plugin.json" in:readme',
+  '"agent-plugins.org" in:readme',
+  "topic:claude-code-plugin",
+  "topic:claude-code-plugins",
+  "topic:codex-plugin",
+  "topic:agent-plugins",
 ] as const;
 
 export class GitHubApiError extends Error {
@@ -303,16 +312,11 @@ interface RepoResponse {
   default_branch?: string;
 }
 
-/** Fetch repo metadata; null when the repo is gone (404). */
-export async function getRepo(fullName: string): Promise<RepoMetadata | null> {
-  const repo = await githubOptional<RepoResponse>(
-    `/repos/${encodeRepoFullName(fullName)}`
-  );
-  if (!repo) return null;
+function repoMetadata(repo: RepoResponse): RepoMetadata {
   let pushedAt: Date | null = null;
   if (repo.pushed_at) {
-    const d = new Date(repo.pushed_at);
-    if (!Number.isNaN(d.getTime())) pushedAt = d;
+    const parsed = new Date(repo.pushed_at);
+    if (!Number.isNaN(parsed.getTime())) pushedAt = parsed;
   }
   const spdx = repo.license?.spdx_id;
   const license =
@@ -325,6 +329,62 @@ export async function getRepo(fullName: string): Promise<RepoMetadata | null> {
     license,
     defaultBranch: repo.default_branch ?? "main",
   };
+}
+
+interface RepositorySearchPage {
+  total_count: number;
+  incomplete_results: boolean;
+  items: RepoResponse[];
+}
+
+/**
+ * Paginated repository search. Candidate repositories still need Git-tree
+ * validation; README/topic matches alone never become marketplace entries.
+ */
+export async function* searchRepositories(
+  query: string,
+  opts: {
+    perPage?: number;
+    maxPages?: number;
+    startPage?: number;
+  } = {},
+): AsyncGenerator<RepoMetadata[], void, void> {
+  const perPage = Math.min(100, Math.max(1, opts.perPage ?? 50));
+  const availablePages = Math.ceil(SEARCH_RESULT_CAP / perPage);
+  const startPage = Math.min(availablePages, Math.max(1, opts.startPage ?? 1));
+  const maxPages = Math.min(
+    availablePages - startPage + 1,
+    Math.max(1, opts.maxPages ?? availablePages),
+  );
+  const endPage = startPage + maxPages - 1;
+
+  for (let page = startPage; page <= endPage; page++) {
+    const waitMs = Math.max(0, nextRepositorySearchAt - Date.now());
+    if (waitMs > 0) await sleep(waitMs);
+    nextRepositorySearchAt = Date.now() + REPOSITORY_SEARCH_MIN_INTERVAL_MS;
+    const result = await githubJson<RepositorySearchPage>("/search/repositories", {
+      q: query,
+      per_page: String(perPage),
+      page: String(page),
+    });
+    if (!Array.isArray(result.items)) return;
+    yield result.items.map(repoMetadata);
+    if (
+      result.items.length === 0 ||
+      page * perPage >= Math.min(result.total_count, SEARCH_RESULT_CAP)
+    ) {
+      return;
+    }
+  }
+}
+
+/** Fetch repo metadata; null when the repo is gone (404). */
+export async function getRepo(fullName: string): Promise<RepoMetadata | null> {
+  const repo = await githubOptional<RepoResponse>(
+    `/repos/${encodeRepoFullName(fullName)}`
+  );
+  if (!repo) return null;
+  return repoMetadata(repo);
 }
 
 // ---------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
-  DEFAULT_PRIORITY_REPOSITORIES,
+  DEFAULT_REPOSITORY_SEARCH_QUERIES,
   manifestFilesFromTree,
 } from "@/lib/github";
 import { skillFromFrontmatter } from "@/lib/indexing";
@@ -28,13 +28,25 @@ test("canonical manifest paths resolve to one plugin root", () => {
   assert.equal(manifestLocation("package.json"), null);
 });
 
-test("first-party Claude repositories bypass incomplete GitHub Code Search", () => {
-  assert.ok(DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/claude-code"));
+test("repository discovery is protocol-based rather than vendor-special-cased", () => {
+  assert.ok(DEFAULT_REPOSITORY_SEARCH_QUERIES.length > 0);
   assert.ok(
-    DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/claude-plugins-official"),
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.every(
+      (query) => !query.includes("anthropics/") && !query.includes("openai/"),
+    ),
   );
   assert.ok(
-    DEFAULT_PRIORITY_REPOSITORIES.includes("anthropics/knowledge-work-plugins"),
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) =>
+      query.includes(".claude-plugin/plugin.json"),
+    ),
+  );
+  assert.ok(
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) =>
+      query.includes(".codex-plugin/plugin.json"),
+    ),
+  );
+  assert.ok(
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) => query.includes("agent-plugins.org")),
   );
 
   assert.deepEqual(

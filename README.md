@@ -45,10 +45,18 @@ For production, use a managed Postgres database rather than local SQLite.
 GITHUB_TOKEN="$(gh auth token)" npm run index:github -- --max 40
 ```
 
-Use `--priority-only` to refresh the first-party Anthropic repositories without
-running broad GitHub Code Search.
+Use `--skip-code-search` to run repository discovery without the legacy Code
+Search API. `--repository-max` controls the number of repository candidates.
 
-The indexer directly scans first-party Anthropic repositories and runs bounded GitHub code searches for all three canonical manifest families. It validates each manifest with its runtime rules, merges sibling manifests at one plugin root, and upserts one logical plugin. It only talks to `api.github.com`, respects rate limits, caps file sizes, and is idempotent. The direct priority scan covers `anthropics/claude-code`, `anthropics/claude-plugins-official`, and `anthropics/knowledge-work-plugins` even when GitHub Code Search omits their files.
+The indexer searches repository metadata, topics, and README text for Codex,
+Claude Code, and Agent Plugins protocol signals, then inspects each candidate's
+Git tree for canonical manifests. This vendor-neutral path covers active
+repositories omitted by GitHub's legacy Code Search index. Legacy Code Search
+remains an additional discovery source when an appropriate token is available.
+Every discovered manifest is validated with its runtime rules, sibling
+manifests at one plugin root are merged, and one logical plugin is upserted. The
+indexer only talks to `api.github.com`, respects rate limits, caps file sizes,
+and is idempotent.
 
 The `Sync GitHub plugins` GitHub Actions workflow runs at 00:17 and 12:17 UTC
 (08:17 and 20:17 Singapore time) and can also be started manually. Each run
@@ -58,17 +66,17 @@ deploys the new production snapshot from `main`. Existing repositories whose
 `pushed_at` value has not changed reuse their indexed components to save API
 quota.
 
-A dedicated `MARKETPLACE_GITHUB_TOKEN` repository secret enables broad
-cross-repository code search; use a fine-grained PAT for public-resource search
-rather than reusing a broad personal token. Without that secret, the workflow
-still refreshes the three priority repositories with the built-in Actions token,
-but skips broad discovery. With the secret configured, each run also scans both
-the newest- and oldest-indexed 1,000-result windows for all three manifest
-families. If the token reaches its hourly quota, transactions that already
-completed are still validated and committed, and the next run continues
-refreshing the same windows. GitHub code search exposes at most 1,000 results per
-individual search, so the two ordering windows maximize the discoverable set but
-cannot guarantee every match when a family exceeds 2,000 distinct results.
+A dedicated `MARKETPLACE_GITHUB_TOKEN` repository secret additionally enables
+broad cross-repository legacy Code Search; use a fine-grained PAT for
+public-resource search rather than reusing a broad personal token. Without that
+secret, repository search plus Git-tree validation still runs with the built-in
+Actions token. With the secret configured, each run also scans both the newest-
+and oldest-indexed 1,000-result windows for all three manifest families. If the
+token reaches its hourly quota, transactions that already completed are still
+validated and committed, and the next run continues refreshing the same
+windows. Both GitHub search APIs cap an individual query at 1,000 results, so
+multiple protocol-specific queries maximize coverage without claiming a
+complete enumeration of GitHub.
 
 The sync is deliberately upsert-only: it does not delete an existing entry just
 because a bounded GitHub search temporarily stops returning it.

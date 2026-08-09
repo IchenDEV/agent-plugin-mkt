@@ -39,7 +39,7 @@ jobs:
       - name: Report GitHub search coverage
         run: |
           if [[ -z "$MARKETPLACE_GITHUB_TOKEN" ]]; then
-            echo "::warning::MARKETPLACE_GITHUB_TOKEN is not configured. Refreshing priority repositories only; broad GitHub Code Search is skipped."
+            echo "::warning::MARKETPLACE_GITHUB_TOKEN is not configured. Repository Search plus Git-tree validation remains enabled; legacy Code Search is skipped."
           fi
 
       - name: Discover and refresh GitHub plugins
@@ -48,13 +48,13 @@ jobs:
         # A quota-limited run keeps only plugins whose transactions completed.
         env:
           GITHUB_TOKEN: ${{ env.MARKETPLACE_GITHUB_TOKEN }}
-        run: npm run index:github -- --max 6000 --allow-partial
+        run: npm run index:github -- --max 6000 --repository-max 120 --allow-partial
 
-      - name: Refresh priority repositories without code search
+      - name: Discover repositories without legacy code search
         if: env.MARKETPLACE_GITHUB_TOKEN == ''
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: npm run index:github -- --priority-only --allow-partial
+        run: npm run index:github -- --skip-code-search --repository-max 120 --allow-partial
 
       - name: Validate the refreshed snapshot
         run: |

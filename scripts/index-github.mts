@@ -4,7 +4,7 @@
 
 import { prisma } from "@/lib/db";
 import {
-  DEFAULT_PRIORITY_REPOSITORIES,
+  DEFAULT_REPOSITORY_SEARCH_QUERIES,
   DEFAULT_SEARCH_QUERIES,
   GitHubApiError,
   RateLimitAbortError,
@@ -13,6 +13,7 @@ import {
   listDirectory,
   listRepositoryManifestFiles,
   searchCode,
+  searchRepositories,
   type CodeSearchItem,
   type RepoMetadata,
 } from "@/lib/github";
@@ -43,6 +44,7 @@ const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
 const MAX_SKILLS_PER_PLUGIN = 50;
 const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
+const DEFAULT_MAX_REPOSITORIES = 40;
 const SEARCH_ORDERS = ["desc", "asc"] as const;
 const MAX_RESULTS_PER_SEARCH = 1_000;
 
@@ -53,22 +55,27 @@ function safeLog(value: string): string {
 interface CliOptions {
   max: number;
   queries: string[];
+  repositoryMax: number;
+  repositoryQueries: string[];
   searchPage?: number;
   searchPageSize?: number;
   allowPartial: boolean;
-  priorityOnly: boolean;
-  priorityRepositories: string[];
+  skipCodeSearch: boolean;
+  skipRepositorySearch: boolean;
+  directRepositories: string[];
 }
 
 function parseArgs(argv: string[]): CliOptions {
   let max = DEFAULT_MAX_PLUGINS;
+  let repositoryMax = DEFAULT_MAX_REPOSITORIES;
   let customQuery: string | undefined;
+  let customRepositoryQuery: string | undefined;
   let searchPage: number | undefined;
   let searchPageSize: number | undefined;
   let allowPartial = false;
-  let priorityOnly = false;
-  let skipPriority = false;
-  const extraPriorityRepositories: string[] = [];
+  let skipCodeSearch = false;
+  let skipRepositorySearch = false;
+  const directRepositories: string[] = [];
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--max") {
@@ -77,12 +84,24 @@ function parseArgs(argv: string[]): CliOptions {
     } else if (arg.startsWith("--max=")) {
       const value = Number(arg.slice("--max=".length));
       if (Number.isFinite(value) && value > 0) max = Math.floor(value);
+    } else if (arg === "--repository-max") {
+      const value = Number(argv[++i]);
+      if (Number.isFinite(value) && value > 0) repositoryMax = Math.floor(value);
+    } else if (arg.startsWith("--repository-max=")) {
+      const value = Number(arg.slice("--repository-max=".length));
+      if (Number.isFinite(value) && value > 0) repositoryMax = Math.floor(value);
     } else if (arg === "--query") {
       const value = argv[++i];
       if (value) customQuery = value;
     } else if (arg.startsWith("--query=")) {
       const value = arg.slice("--query=".length);
       if (value) customQuery = value;
+    } else if (arg === "--repository-query") {
+      const value = argv[++i];
+      if (value) customRepositoryQuery = value;
+    } else if (arg.startsWith("--repository-query=")) {
+      const value = arg.slice("--repository-query=".length);
+      if (value) customRepositoryQuery = value;
     } else if (arg === "--search-page") {
       const value = Number(argv[++i]);
       if (Number.isInteger(value) && value > 0) searchPage = value;
@@ -97,18 +116,20 @@ function parseArgs(argv: string[]): CliOptions {
       if (Number.isInteger(value) && value > 0 && value <= 100) searchPageSize = value;
     } else if (arg === "--allow-partial") {
       allowPartial = true;
-    } else if (arg === "--priority-only") {
-      priorityOnly = true;
-    } else if (arg === "--skip-priority") {
-      skipPriority = true;
+    } else if (arg === "--skip-code-search" || arg === "--priority-only") {
+      // --priority-only is retained as a compatibility alias for one release.
+      skipCodeSearch = true;
+    } else if (arg === "--skip-repository-search" || arg === "--skip-priority") {
+      // --skip-priority is retained as a compatibility alias for one release.
+      skipRepositorySearch = true;
     } else if (arg === "--repo") {
       const value = argv[++i];
       if (value && /^[^/\s]+\/[^/\s]+$/.test(value)) {
-        extraPriorityRepositories.push(value);
+        directRepositories.push(value);
       }
     } else if (arg.startsWith("--repo=")) {
       const value = arg.slice("--repo=".length);
-      if (/^[^/\s]+\/[^/\s]+$/.test(value)) extraPriorityRepositories.push(value);
+      if (/^[^/\s]+\/[^/\s]+$/.test(value)) directRepositories.push(value);
     } else {
       console.warn(`ignoring unknown argument: ${arg}`);
     }
@@ -116,16 +137,16 @@ function parseArgs(argv: string[]): CliOptions {
   return {
     max,
     queries: customQuery ? [customQuery] : [...DEFAULT_SEARCH_QUERIES],
+    repositoryMax,
+    repositoryQueries: customRepositoryQuery
+      ? [customRepositoryQuery]
+      : [...DEFAULT_REPOSITORY_SEARCH_QUERIES],
     searchPage,
     searchPageSize,
     allowPartial,
-    priorityOnly,
-    priorityRepositories: [
-      ...new Set([
-        ...(skipPriority ? [] : DEFAULT_PRIORITY_REPOSITORIES),
-        ...extraPriorityRepositories,
-      ]),
-    ],
+    skipCodeSearch,
+    skipRepositorySearch,
+    directRepositories: [...new Set(directRepositories)],
   };
 }
 
@@ -427,15 +448,19 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
 const {
   max,
   queries,
+  repositoryMax,
+  repositoryQueries,
   searchPage,
   searchPageSize,
   allowPartial,
-  priorityOnly,
-  priorityRepositories,
+  skipCodeSearch,
+  skipRepositorySearch,
+  directRepositories,
 } = parseArgs(process.argv.slice(2));
 console.log(
-  `scanning ${priorityRepositories.length} priority repositories; ` +
-    `searching ${priorityOnly ? 0 : queries.length} manifest families with up to ${max} search hits`,
+  `searching ${skipRepositorySearch ? 0 : repositoryQueries.length} repository families ` +
+    `with up to ${repositoryMax} candidates; searching ${skipCodeSearch ? 0 : queries.length} ` +
+    `legacy code families with up to ${max} hits`,
 );
 if (searchPage) {
   console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
@@ -450,6 +475,9 @@ let errors = 0;
 let gotFirstPage = false;
 let exitCode = 0;
 const seen = new Set<string>();
+const seenRepositories = new Set<string>();
+let repositoryCandidates = 0;
+let repositoryMatches = 0;
 
 async function processHit(item: CodeSearchItem): Promise<void> {
   const location = manifestLocation(item.path);
@@ -478,23 +506,23 @@ async function processHit(item: CodeSearchItem): Promise<void> {
   }
 }
 
-try {
-  for (const repoFullName of priorityRepositories) {
-    console.log(`scanning priority repository: ${safeLog(repoFullName)}`);
-    const repo = await getRepo(repoFullName);
-    repoCache.set(repoFullName, repo);
-    if (!repo) {
-      errors++;
-      console.error(`priority repository unavailable: ${safeLog(repoFullName)}`);
-      continue;
-    }
-    const inventory = await listRepositoryManifestFiles(repoFullName, repo.defaultBranch);
+async function processRepository(repo: RepoMetadata): Promise<void> {
+  if (seenRepositories.has(repo.fullName)) return;
+  seenRepositories.add(repo.fullName);
+  repositoryCandidates++;
+  repoCache.set(repo.fullName, repo);
+  try {
+    const inventory = await listRepositoryManifestFiles(repo.fullName, repo.defaultBranch);
     if (inventory.truncated) {
       console.warn(
-        `priority repository tree was truncated; coverage is incomplete: ${safeLog(repoFullName)}`,
+        `repository tree was truncated; coverage is incomplete: ${safeLog(repo.fullName)}`,
       );
     }
-    console.log(`  found ${inventory.files.length} canonical manifests`);
+    if (inventory.files.length === 0) return;
+    repositoryMatches++;
+    console.log(
+      `found ${inventory.files.length} canonical manifests in ${safeLog(repo.fullName)}`,
+    );
     for (const file of inventory.files) {
       await processHit({
         ...file,
@@ -502,9 +530,58 @@ try {
         repository: { full_name: repo.fullName, html_url: repo.htmlUrl },
       });
     }
+  } catch (err) {
+    if (err instanceof RateLimitAbortError) throw err;
+    errors++;
+    const message = err instanceof Error ? err.message : String(err);
+    console.error(`repository scan failed for ${safeLog(repo.fullName)}: ${safeLog(message)}`);
+  }
+}
+
+try {
+  for (const repoFullName of directRepositories) {
+    console.log(`scanning requested repository: ${safeLog(repoFullName)}`);
+    const repo = await getRepo(repoFullName);
+    if (!repo) {
+      errors++;
+      console.error(`requested repository unavailable: ${safeLog(repoFullName)}`);
+      continue;
+    }
+    await processRepository(repo);
   }
 
-  if (!priorityOnly) {
+  if (!skipRepositorySearch) {
+    for (const [queryIndex, query] of repositoryQueries.entries()) {
+      const baseBudget = Math.floor(repositoryMax / repositoryQueries.length);
+      const queryBudget =
+        baseBudget + (queryIndex < repositoryMax % repositoryQueries.length ? 1 : 0);
+      if (queryBudget === 0) continue;
+      console.log(`searching GitHub repositories: ${query}`);
+      let queryExamined = 0;
+      try {
+        for await (const repositories of searchRepositories(query, {
+          perPage: searchPageSize ?? Math.min(100, queryBudget),
+          startPage: searchPage,
+          maxPages: searchPage ? 1 : undefined,
+        })) {
+          gotFirstPage = true;
+          for (const repo of repositories) {
+            if (queryExamined >= queryBudget) break;
+            queryExamined++;
+            await processRepository(repo);
+          }
+          if (queryExamined >= queryBudget) break;
+        }
+      } catch (err) {
+        if (err instanceof RateLimitAbortError) throw err;
+        errors++;
+        const message = err instanceof Error ? err.message : String(err);
+        console.error(`repository search failed for ${safeLog(query)}: ${safeLog(message)}`);
+      }
+    }
+  }
+
+  if (!skipCodeSearch) {
     for (const [queryIndex, query] of queries.entries()) {
       const baseBudget = Math.floor(max / queries.length);
       const queryBudget = baseBudget + (queryIndex < max % queries.length ? 1 : 0);
@@ -556,7 +633,7 @@ try {
     const message =
       err instanceof GitHubApiError || err instanceof Error ? err.message : String(err);
     if (!gotFirstPage) {
-      console.error(`search failed: ${message}`);
+      console.error(`discovery failed: ${message}`);
       exitCode = 1;
     } else {
       console.error(`search stopped early: ${message}`);
@@ -566,7 +643,9 @@ try {
 }
 
 console.log(
-  `done: processed ${processed}, indexed ${indexed}, metadata ${metadata}, unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`,
+  `done: examined ${repositoryCandidates} repositories, matched ${repositoryMatches}; ` +
+    `processed ${processed} plugin roots, indexed ${indexed}, metadata ${metadata}, ` +
+    `unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`,
 );
 
 await prisma.$disconnect();

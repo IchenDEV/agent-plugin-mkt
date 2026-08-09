@@ -218,7 +218,7 @@ function initializeResult(params: Record<string, unknown>): Record<string, unkno
     capabilities: { tools: { listChanged: false } },
     serverInfo: {
       name: "agent-plugin-marketplace",
-      title: "Agent Plugin Marketplace",
+      title: "plugins marketplace",
       version: "0.1.0",
     },
     instructions:

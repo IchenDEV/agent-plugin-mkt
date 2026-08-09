@@ -1,10 +1,19 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/json-ld";
 import { Card, Container, EmptyState, SearchInput, StatBlock } from "@/components/ui";
 import { PluginCard } from "@/components/plugin-card";
 import { formatNumber, relativeTime } from "@/lib/format";
 import { getStats, searchPlugins } from "@/lib/queries";
+import { SITE_DESCRIPTION, SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: { absolute: `${SITE_NAME} — Agent skills & MCP servers` },
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/" },
+};
 
 const SPEC_URL = "https://agent-plugins.org/specification";
 
@@ -144,9 +153,42 @@ export default async function HomePage() {
     searchPlugins({ sort: "recent", perPage: 5 }),
   ]);
   const indexIsEmpty = stats.plugins === 0;
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${absoluteUrl("/")}#collection`,
+    url: absoluteUrl("/"),
+    name: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    inLanguage: "en",
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    about: {
+      "@type": "DefinedTerm",
+      name: "Agent Plugins",
+      url: "https://agent-plugins.org/specification",
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      name: "Featured Agent Plugins",
+      numberOfItems: featured.items.length,
+      itemListElement: featured.items.map((plugin, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: plugin.name,
+        url: absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`),
+      })),
+    },
+    additionalProperty: [
+      { "@type": "PropertyValue", name: "Plugins indexed", value: stats.plugins },
+      { "@type": "PropertyValue", name: "Skills", value: stats.skills },
+      { "@type": "PropertyValue", name: "MCP servers", value: stats.mcpServers },
+      { "@type": "PropertyValue", name: "Categories", value: stats.categories },
+    ],
+  };
 
   return (
     <div>
+      <JsonLd data={collectionJsonLd} />
       {/* Hero */}
       <section>
         <Container className="pb-14 pt-16 sm:pb-16 sm:pt-24">

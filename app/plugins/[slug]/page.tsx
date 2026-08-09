@@ -3,9 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Fragment, cache, type ReactNode } from "react";
 import { CopyButton } from "@/components/copy-button";
+import { JsonLd } from "@/components/json-ld";
 import { Badge, Card, Container, transportBadgeVariant } from "@/components/ui";
 import { formatNumber, relativeTime, stripControlChars } from "@/lib/format";
 import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
@@ -17,10 +19,92 @@ type PluginPageProps = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: PluginPageProps): Promise<Metadata> {
   const { slug } = await params;
   const plugin = await getPlugin(slug);
-  if (!plugin) return { title: "Plugin not found" };
+  if (!plugin) return { title: "Plugin not found", robots: { index: false, follow: false } };
+  const description =
+    plugin.description ?? `${plugin.name} — an open-source Agent Plugin indexed from GitHub.`;
+  const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
   return {
     title: plugin.name,
-    description: plugin.description ?? `${plugin.name} — an Agent Plugin indexed from GitHub.`,
+    description,
+    keywords: plugin.keywords,
+    authors: plugin.authorName ? [{ name: plugin.authorName }] : undefined,
+    alternates: { canonical },
+    openGraph: {
+      type: "website",
+      title: `${plugin.name} Agent Plugin`,
+      description,
+      url: canonical,
+      siteName: SITE_NAME,
+    },
+    twitter: { card: "summary_large_image", title: `${plugin.name} Agent Plugin`, description },
+  };
+}
+
+function pluginJsonLd(plugin: PluginDetail): Record<string, unknown> {
+  const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
+  const description =
+    plugin.description ?? `${plugin.name} — an open-source Agent Plugin indexed from GitHub.`;
+  const parts: Record<string, unknown>[] = [
+    ...plugin.skills.map((skill) => ({
+      "@type": "CreativeWork",
+      name: skill.name,
+      description: skill.description ?? undefined,
+      learningResourceType: "Agent skill",
+    })),
+    ...plugin.mcpServers.map((server) => ({
+      "@type": "SoftwareApplication",
+      name: `${server.serverId} MCP server`,
+      applicationCategory: "DeveloperApplication",
+      applicationSubCategory: "Model Context Protocol server",
+    })),
+  ];
+  const source: Record<string, unknown> = {
+    "@type": "SoftwareSourceCode",
+    "@id": `${canonical}#plugin`,
+    name: plugin.name,
+    description,
+    url: canonical,
+    codeRepository: plugin.repoUrl,
+    mainEntityOfPage: { "@id": `${canonical}#webpage` },
+    runtimePlatform: "Agent Plugin clients",
+    isAccessibleForFree: true,
+    dateModified: (plugin.repoPushedAt ?? plugin.indexedAt).toISOString(),
+  };
+
+  if (plugin.authorName) source.author = plugin.authorName;
+  if (plugin.version) source.version = plugin.version;
+  if (plugin.license) source.license = plugin.license;
+  if (plugin.keywords.length > 0) source.keywords = plugin.keywords.join(", ");
+  if (plugin.homepage?.startsWith("https://") || plugin.homepage?.startsWith("http://")) {
+    source.sameAs = plugin.homepage;
+  }
+  if (parts.length > 0) source.hasPart = parts;
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${canonical}#webpage`,
+        url: canonical,
+        name: `${plugin.name} Agent Plugin`,
+        description,
+        inLanguage: "en",
+        isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+        breadcrumb: { "@id": `${canonical}#breadcrumb` },
+        mainEntity: { "@id": `${canonical}#plugin` },
+      },
+      source,
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${canonical}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+          { "@type": "ListItem", position: 2, name: "Plugins", item: absoluteUrl("/plugins") },
+          { "@type": "ListItem", position: 3, name: plugin.name, item: canonical },
+        ],
+      },
+    ],
   };
 }
 
@@ -285,6 +369,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
 
   return (
     <Container className="py-10">
+      <JsonLd data={pluginJsonLd(plugin)} />
       <Link href="/plugins" className="text-sm font-medium text-gray-500 hover:text-iris">
         ← All plugins
       </Link>

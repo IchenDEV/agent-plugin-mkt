@@ -1,4 +1,5 @@
 import { json } from "@/lib/api-helpers";
+import { absoluteUrl } from "@/lib/site";
 
 export { OPTIONS } from "@/lib/api-helpers";
 
@@ -11,12 +12,16 @@ const TRANSPORT_ENUM = ["stdio", "streamable-http", "sse"];
 const document = {
   openapi: "3.1.0",
   info: {
-    title: "Agent Plugin Marketplace API",
+    title: "plugins marketplace API",
     version: "1.0.0",
     description:
-      "Read-only REST API for the Agent Plugin Marketplace, a community index of open-source Agent Plugins (skills and MCP servers) packaged per the Agent Plugins specification: https://agent-plugins.org/specification. All endpoints are GET-only, return JSON, require no authentication, and send permissive CORS headers (Access-Control-Allow-Origin: *). Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
+      "Read-only REST API for plugins marketplace, a community index of open-source Agent Plugins (skills and MCP servers) packaged per the Agent Plugins specification: https://agent-plugins.org/specification. All endpoints are GET-only, return JSON, require no authentication, and send permissive CORS headers (Access-Control-Allow-Origin: *). Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
   },
-  servers: [{ url: "/" }],
+  servers: [{ url: absoluteUrl("/"), description: "Public plugins marketplace API" }],
+  externalDocs: {
+    description: "Human-readable API and MCP documentation",
+    url: absoluteUrl("/docs"),
+  },
   paths: {
     "/api/v1/plugins": {
       get: {

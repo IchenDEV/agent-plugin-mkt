@@ -1,4 +1,4 @@
-# Agent Plugin Marketplace
+# plugins marketplace
 
 A registry and marketplace for [Agent Plugins](https://agent-plugins.org/specification) — open-source skills and MCP servers packaged as self-contained plugins, indexed from GitHub. Modeled on skillsmp.com; built with Next.js 16, Prisma, and SQLite.
 
@@ -8,6 +8,7 @@ Every surface reads from the same index:
 - **REST API** — `/api/v1/*`, documented at `/docs` with an OpenAPI 3.1 spec at `/api/openapi.json`
 - **MCP endpoint** — `POST /api/mcp` (Streamable HTTP, stateless), so agents can query the registry natively
 - **llms.txt** — a plain-text guide for LLM agents at `/llms.txt`
+- **llms-full.txt** — a complete text catalog for retrieval and citation at `/llms-full.txt`
 
 The marketplace dogfoods the spec: this repo is itself a valid Agent Plugin (see `plugin.json` and `mcp.json` at the root, pointing at the MCP endpoint).
 
@@ -21,6 +22,12 @@ npm run dev               # http://localhost:3000
 ```
 
 > Fonts are self-hosted via `@fontsource` — no network dependency at build or runtime.
+
+Vercel preview deployments bundle `prisma/marketplace.db` as a read-only index
+snapshot and copy it into the function's ephemeral `/tmp` directory at startup.
+Refresh that snapshot locally before deploying with
+`DATABASE_URL=file:./marketplace.db npm run db:push && DATABASE_URL=file:./marketplace.db npm run db:seed`.
+For production, use a managed Postgres database rather than local SQLite.
 
 ## Indexing real plugins from GitHub
 

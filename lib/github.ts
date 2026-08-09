@@ -10,10 +10,7 @@ const API_VERSION = "2022-11-28";
 const USER_AGENT = "agent-plugin-marketplace-indexer";
 const REQUEST_TIMEOUT_MS = 20_000;
 const MAX_5XX_RETRIES = 3;
-// Interactive runs should return promptly, while scheduled Actions can wait
-// through the repository token's shared reset window instead of doing no work.
-const MAX_RATE_LIMIT_WAIT_MS =
-  process.env.GITHUB_ACTIONS === "true" ? 20 * 60_000 : 120_000;
+const MAX_RATE_LIMIT_WAIT_MS = 120_000;
 const MAX_RATE_LIMIT_WAITS = 3;
 // Authenticated code search is limited to 10 requests per minute. Throttle all
 // search passes globally instead of only pausing between pages so changing sort

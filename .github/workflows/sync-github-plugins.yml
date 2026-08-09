@@ -19,18 +19,18 @@ jobs:
     timeout-minutes: 180
     env:
       DATABASE_URL: file:./marketplace.db
-      # A higher-limit token is optional; the repository token remains a safe fallback.
-      GITHUB_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN || github.token }}
-      HAS_MARKETPLACE_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN != '' }}
+      # Use a dedicated fine-grained token for cross-repository public code search.
+      # Checkout and the final push continue to use the repository GITHUB_TOKEN.
+      GITHUB_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN }}
 
     steps:
       - name: Check out main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
@@ -38,28 +38,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Choose exhaustive or rotating scan
+      - name: Verify GitHub search token
         run: |
-          if [[ "$HAS_MARKETPLACE_TOKEN" == "true" ]]; then
-            echo "SYNC_MAX=6000" >> "$GITHUB_ENV"
-            echo "Using both complete 1,000-result windows for every manifest family."
-          else
-            epoch=$(date -u +%s)
-            page=$((epoch / 43200 % 100 + 1))
-            echo "SYNC_MAX=60" >> "$GITHUB_ENV"
-            echo "SYNC_PAGE=$page" >> "$GITHUB_ENV"
-            echo "SYNC_PAGE_SIZE=10" >> "$GITHUB_ENV"
-            echo "Using rotating page $page of 100 with the repository token."
+          if [[ -z "$GITHUB_TOKEN" ]]; then
+            echo "::error::Add a fine-grained PAT as the MARKETPLACE_GITHUB_TOKEN repository secret."
+            exit 1
           fi
 
       - name: Discover and refresh GitHub plugins
-        shell: bash
-        run: |
-          args=(--max "$SYNC_MAX")
-          if [[ -n "${SYNC_PAGE:-}" ]]; then
-            args+=(--search-page "$SYNC_PAGE" --search-page-size "$SYNC_PAGE_SIZE")
-          fi
-          npm run index:github -- "${args[@]}"
+        # Six windows: newest and oldest 1,000 results for each manifest family.
+        # A quota-limited run keeps only plugins whose transactions completed.
+        run: npm run index:github -- --max 6000 --allow-partial
 
       - name: Validate the refreshed snapshot
         run: |

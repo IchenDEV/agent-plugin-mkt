@@ -55,16 +55,16 @@ deploys the new production snapshot from `main`. Existing repositories whose
 `pushed_at` value has not changed reuse their indexed components to save API
 quota.
 
-With an optional `MARKETPLACE_GITHUB_TOKEN` Actions secret, each run scans both
-the newest- and oldest-indexed 1,000-result windows for all three manifest
-families. Without that higher-limit token, the workflow remains operational on
-the repository `GITHUB_TOKEN`: each run rotates through one of 100 smaller pages
-at both ends of every family, eventually covering the same windows without
-exceeding the lower hourly API allowance. Scheduled runs can wait up to 20
-minutes for a shared GitHub rate-limit window to reset. GitHub code search
-exposes at most 1,000 results per individual search, so the two ordering windows
-maximize the discoverable set but cannot guarantee every match when a family
-exceeds 2,000 distinct results.
+The workflow requires a dedicated `MARKETPLACE_GITHUB_TOKEN` repository secret
+because the short-lived Actions `GITHUB_TOKEN` is scoped to this repository and
+does not provide reliable cross-repository code search. Use a fine-grained PAT
+for public-resource search rather than reusing a broad personal token. Each run
+scans both the newest- and oldest-indexed 1,000-result windows for all three
+manifest families. If the token reaches its hourly quota, transactions that
+already completed are still validated and committed, and the next run continues
+refreshing the same windows. GitHub code search exposes at most 1,000 results per
+individual search, so the two ordering windows maximize the discoverable set but
+cannot guarantee every match when a family exceeds 2,000 distinct results.
 
 The sync is deliberately upsert-only: it does not delete an existing entry just
 because a bounded GitHub search temporarily stops returning it.

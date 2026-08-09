@@ -53,6 +53,7 @@ interface CliOptions {
   queries: string[];
   searchPage?: number;
   searchPageSize?: number;
+  allowPartial: boolean;
 }
 
 function parseArgs(argv: string[]): CliOptions {
@@ -60,6 +61,7 @@ function parseArgs(argv: string[]): CliOptions {
   let customQuery: string | undefined;
   let searchPage: number | undefined;
   let searchPageSize: number | undefined;
+  let allowPartial = false;
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--max") {
@@ -86,6 +88,8 @@ function parseArgs(argv: string[]): CliOptions {
     } else if (arg.startsWith("--search-page-size=")) {
       const value = Number(arg.slice("--search-page-size=".length));
       if (Number.isInteger(value) && value > 0 && value <= 100) searchPageSize = value;
+    } else if (arg === "--allow-partial") {
+      allowPartial = true;
     } else {
       console.warn(`ignoring unknown argument: ${arg}`);
     }
@@ -95,6 +99,7 @@ function parseArgs(argv: string[]): CliOptions {
     queries: customQuery ? [customQuery] : [...DEFAULT_SEARCH_QUERIES],
     searchPage,
     searchPageSize,
+    allowPartial,
   };
 }
 
@@ -393,7 +398,9 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
   return { ok: true, name: canonical.manifest.name, status: "indexed" };
 }
 
-const { max, queries, searchPage, searchPageSize } = parseArgs(process.argv.slice(2));
+const { max, queries, searchPage, searchPageSize, allowPartial } = parseArgs(
+  process.argv.slice(2),
+);
 console.log(`searching ${queries.length} manifest families; processing up to ${max} plugin roots`);
 if (searchPage) {
   console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
@@ -474,7 +481,11 @@ try {
 } catch (err) {
   if (err instanceof RateLimitAbortError) {
     console.error(`aborted: ${err.message}`);
-    exitCode = 1;
+    if (allowPartial) {
+      console.error("keeping fully committed plugin updates from this partial run");
+    } else {
+      exitCode = 1;
+    }
   } else {
     const message =
       err instanceof GitHubApiError || err instanceof Error ? err.message : String(err);

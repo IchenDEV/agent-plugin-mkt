@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { cache, type ReactNode } from "react";
+import { JsonLd } from "@/components/json-ld";
 import { PluginCard } from "@/components/plugin-card";
 import { Container, EmptyState, SearchInput } from "@/components/ui";
 import {
@@ -15,10 +16,9 @@ import {
   PROTOCOL_LABELS,
   type PluginProtocol,
 } from "@/lib/protocols";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
-
-export const metadata: Metadata = { title: "Browse plugins" };
 
 const TYPES = ["skills", "mcp"] as const satisfies readonly ComponentType[];
 const TRANSPORTS = ["stdio", "streamable-http", "sse"] as const satisfies readonly Transport[];
@@ -33,6 +33,18 @@ type ActiveParams = Partial<Record<ParamKey, ParamValue>>;
 type BrowsePageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
+
+const getBrowseResults = cache(
+  (
+    q: string | undefined,
+    category: string | undefined,
+    type: ComponentType | undefined,
+    transport: Transport | undefined,
+    protocols: PluginProtocol[],
+    sort: SortOrder,
+    page: number,
+  ) => searchPlugins({ q, category, type, transport, protocols, sort, page }),
+);
 
 function first(value: string | string[] | undefined): string | undefined {
   return Array.isArray(value) ? value[0] : value;
@@ -59,6 +71,48 @@ function positiveInt(value: string | undefined): number | undefined {
   if (!value || !/^[0-9]+$/.test(value)) return undefined;
   const n = Number(value);
   return Number.isSafeInteger(n) && n >= 1 ? n : undefined;
+}
+
+export async function generateMetadata({ searchParams }: BrowsePageProps): Promise<Metadata> {
+  const sp = await searchParams;
+  const q = first(sp.q)?.trim();
+  const category = first(sp.category)?.trim().toLowerCase();
+  const type = oneOf(first(sp.type), TYPES);
+  const transport = oneOf(first(sp.transport), TRANSPORTS);
+  const protocols = manyOf(sp.protocol, PROTOCOLS);
+  const sort = oneOf(first(sp.sort), SORTS) ?? "stars";
+  const page = positiveInt(first(sp.page)) ?? 1;
+  const results = await getBrowseResults(q, category, type, transport, protocols, sort, page);
+  const canonicalParams = new URLSearchParams();
+  if (category) canonicalParams.set("category", category);
+  if (page > 1) canonicalParams.set("page", String(page));
+  const canonicalQuery = canonicalParams.toString();
+  const canonical = canonicalQuery ? `/plugins?${canonicalQuery}` : "/plugins";
+  const displayCategory = category?.slice(0, 40);
+  const title = displayCategory
+    ? `${displayCategory} Agent Plugins${page > 1 ? ` — Page ${page}` : ""}`
+    : `Browse Agent Plugins${page > 1 ? ` — Page ${page}` : ""}`;
+  const description = displayCategory
+    ? `Browse open-source ${displayCategory} Agent Plugins, skills, and MCP servers indexed from GitHub.`
+    : "Browse and compare open-source Agent Plugins, agent skills, and MCP servers indexed from public GitHub repositories.";
+  const shouldNotIndex = Boolean(
+    q ||
+      type ||
+      transport ||
+      protocols.length > 0 ||
+      sort !== "stars" ||
+      page > results.totalPages ||
+      (category && results.total === 0),
+  );
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    robots: shouldNotIndex ? { index: false, follow: true } : undefined,
+    openGraph: { type: "website", title, description, url: canonical, siteName: SITE_NAME },
+    twitter: { card: "summary_large_image", title, description },
+  };
 }
 
 /**
@@ -144,7 +198,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   const page = positiveInt(first(sp.page)) ?? 1;
 
   const [results, categories] = await Promise.all([
-    searchPlugins({ q, category, type, transport, protocols, sort, page }),
+    getBrowseResults(q, category, type, transport, protocols, sort, page),
     getCategories(30),
   ]);
 
@@ -232,9 +286,31 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     },
     { label: "Newly indexed", href: hrefWith(active, { sort: "recent" }), active: sort === "recent" },
   ];
+  const currentPath = hrefWith(active, { page: page > 1 ? String(page) : null });
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${absoluteUrl(currentPath)}#collection`,
+    url: absoluteUrl(currentPath),
+    name: category ? `${category} Agent Plugins` : "Browse Agent Plugins",
+    description: countSentence,
+    inLanguage: "en",
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: results.items.length,
+      itemListElement: results.items.map((plugin, index) => ({
+        "@type": "ListItem",
+        position: (results.page - 1) * results.perPage + index + 1,
+        name: plugin.name,
+        url: absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`),
+      })),
+    },
+  };
 
   return (
     <Container className="py-10">
+      <JsonLd data={collectionJsonLd} />
       <div className="max-w-2xl">
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
           Browse plugins

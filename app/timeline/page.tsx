@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { cache } from "react";
+import { JsonLd } from "@/components/json-ld";
 import { Badge, Container, EmptyState } from "@/components/ui";
 import { formatDate, formatNumber } from "@/lib/format";
 import { searchPlugins, type PluginSummary } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
-
-export const metadata: Metadata = {
-  title: "Timeline",
-  description: "Recently indexed Codex and Claude Code plugins, grouped by index date.",
-};
 
 const PER_PAGE = 50;
 
 type TimelinePageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
+
+const getTimelineResults = cache((page: number) =>
+  searchPlugins({ sort: "recent", page, perPage: PER_PAGE }),
+);
 
 function first(value: string | string[] | undefined): string | undefined {
   return Array.isArray(value) ? value[0] : value;
@@ -27,6 +29,24 @@ function positiveInt(value: string | undefined): number | undefined {
   if (!value || !/^[0-9]+$/.test(value)) return undefined;
   const n = Number(value);
   return Number.isSafeInteger(n) && n >= 1 ? n : undefined;
+}
+
+export async function generateMetadata({ searchParams }: TimelinePageProps): Promise<Metadata> {
+  const sp = await searchParams;
+  const page = positiveInt(first(sp.page)) ?? 1;
+  const results = await getTimelineResults(page);
+  const canonical = page > 1 ? `/timeline?page=${page}` : "/timeline";
+  const title = `Agent Plugin timeline${page > 1 ? ` — Page ${page}` : ""}`;
+  const description =
+    "Recently indexed Codex, Claude Code, and Agent Plugins packages, grouped by the day they entered the index.";
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    robots: page > results.totalPages ? { index: false, follow: true } : undefined,
+    openGraph: { type: "website", title, description, url: canonical, siteName: SITE_NAME },
+    twitter: { card: "summary_large_image", title, description },
+  };
 }
 
 interface DayGroup {
@@ -109,11 +129,33 @@ export default async function TimelinePage({ searchParams }: TimelinePageProps) 
   const sp = await searchParams;
   const page = positiveInt(first(sp.page)) ?? 1;
 
-  const results = await searchPlugins({ sort: "recent", page, perPage: PER_PAGE });
+  const results = await getTimelineResults(page);
   const groups = groupByDay(results.items);
+  const currentPath = page > 1 ? `/timeline?page=${page}` : "/timeline";
+  const timelineJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${absoluteUrl(currentPath)}#collection`,
+    url: absoluteUrl(currentPath),
+    name: `Plugin timeline${page > 1 ? ` — Page ${page}` : ""}`,
+    description: "Recently indexed Codex, Claude Code, and Agent Plugins packages, newest first.",
+    inLanguage: "en",
+    isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: results.items.length,
+      itemListElement: results.items.map((plugin, index) => ({
+        "@type": "ListItem",
+        position: (results.page - 1) * results.perPage + index + 1,
+        name: plugin.name,
+        url: absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`),
+      })),
+    },
+  };
 
   return (
     <Container className="py-10">
+      <JsonLd data={timelineJsonLd} />
       <div className="max-w-2xl">
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">Timeline</h1>
         <p className="mt-2 text-sm leading-relaxed text-gray-500">

@@ -1,4 +1,4 @@
-# Agent Plugin Marketplace
+# plugins marketplace
 
 A registry for open-source skills and MCP servers packaged as self-contained plugins for [Codex](https://developers.openai.com/plugins/build/plugins), [Claude Code](https://code.claude.com/docs/en/plugins-reference), or the [Agent Plugins v1](https://agent-plugins.org/specification) format. Indexed from canonical GitHub manifests and built with Next.js 16, Prisma, and SQLite.
 
@@ -8,6 +8,7 @@ Every surface reads from the same index:
 - **REST API** — `/api/v1/*`, documented at `/docs` with an OpenAPI 3.1 spec at `/api/openapi.json`
 - **MCP endpoint** — `POST /api/mcp` (Streamable HTTP, stateless), so agents can query the registry natively
 - **llms.txt** — a plain-text guide for LLM agents at `/llms.txt`
+- **llms-full.txt** — a complete text catalog for retrieval and citation at `/llms-full.txt`
 
 The marketplace dogfoods all three formats. This repository contains `.codex-plugin/plugin.json`, `.claude-plugin/plugin.json`, and the legacy root `plugin.json`; both official runtimes share the root `.mcp.json` connection.
 
@@ -31,6 +32,12 @@ npm run dev               # http://localhost:3000
 ```
 
 > Fonts are self-hosted via `@fontsource` — no network dependency at build or runtime.
+
+Vercel preview deployments bundle `prisma/marketplace.db` as a read-only index
+snapshot and copy it into the function's ephemeral `/tmp` directory at startup.
+Refresh that snapshot locally before deploying with
+`DATABASE_URL=file:./marketplace.db npm run db:push && DATABASE_URL=file:./marketplace.db npm run db:seed`.
+For production, use a managed Postgres database rather than local SQLite.
 
 ## Indexing real plugins from GitHub
 

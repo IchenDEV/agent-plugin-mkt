@@ -43,6 +43,9 @@ next-env.d.ts
 
 # database
 prisma/dev.db*
+prisma/marketplace.db-journal
+prisma/marketplace.db-wal
+prisma/marketplace.db-shm
 dev.db*
 
 # claude

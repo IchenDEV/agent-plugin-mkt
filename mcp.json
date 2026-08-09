@@ -3,7 +3,7 @@
   "mcpServers": {
     "agent-plugin-marketplace": {
       "type": "streamable-http",
-      "url": "http://localhost:3000/api/mcp"
+      "url": "https://pluginsmp.com/api/mcp"
     }
   }
 }

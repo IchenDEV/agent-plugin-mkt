@@ -70,8 +70,8 @@ export const MAX_PER_PAGE = 50;
 export const DEFAULT_PER_PAGE = 24;
 export const MAX_QUERY_LENGTH = 200;
 
-type PluginWithComponents = Prisma.PluginGetPayload<{
-  include: { skills: true; mcpServers: true };
+type PluginWithTransports = Prisma.PluginGetPayload<{
+  include: { mcpServers: { select: { transport: true } } };
 }>;
 
 function parseKeywords(json: string): string[] {
@@ -126,7 +126,7 @@ function parseManifests(
   }
 }
 
-function toSummary(plugin: PluginWithComponents): PluginSummary {
+function toSummary(plugin: PluginWithTransports): PluginSummary {
   return {
     slug: plugin.slug,
     name: plugin.name,
@@ -202,7 +202,7 @@ export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<
       orderBy,
       skip: (page - 1) * perPage,
       take: perPage,
-      include: { skills: true, mcpServers: true },
+      include: { mcpServers: { select: { transport: true } } },
     }),
   ]);
 
@@ -246,6 +246,15 @@ export async function getPluginBySlug(slug: string): Promise<PluginDetail | null
       return { serverId: s.serverId, transport: s.transport as Transport, config };
     }),
   };
+}
+
+/** Full summary catalog for machine-readable exports such as llms-full.txt. */
+export async function getAllPluginSummaries(): Promise<PluginSummary[]> {
+  const rows = await prisma.plugin.findMany({
+    orderBy: [{ repoStars: "desc" }, { name: "asc" }],
+    include: { mcpServers: { select: { transport: true } } },
+  });
+  return rows.map(toSummary);
 }
 
 export interface Stats {

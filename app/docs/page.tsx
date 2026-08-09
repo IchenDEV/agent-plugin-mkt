@@ -1,11 +1,47 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { JsonLd } from "@/components/json-ld";
 import { Card, Container } from "@/components/ui";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "API & MCP docs",
   description:
-    "Read-only REST API and MCP endpoint for the Codex and Claude Code plugin index.",
+    "Read-only REST API and MCP endpoint for plugins marketplace: search Codex, Claude Code, and Agent Plugins packages, fetch details, stats, and categories.",
+  alternates: { canonical: "/docs" },
+  openGraph: {
+    type: "article",
+    title: "plugins marketplace API & MCP docs",
+    description:
+      "Use the read-only REST API and MCP endpoint to search Codex, Claude Code, and Agent Plugins packages.",
+    url: "/docs",
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "plugins marketplace API & MCP docs",
+    description:
+      "Use the read-only REST API and MCP endpoint to search Codex, Claude Code, and Agent Plugins packages.",
+  },
+};
+
+const docsJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": `${absoluteUrl("/docs")}#article`,
+  url: absoluteUrl("/docs"),
+  headline: "plugins marketplace API & MCP documentation",
+  description:
+    "Reference for the read-only cross-runtime plugin REST API, OpenAPI schema, and stateless Streamable HTTP MCP endpoint.",
+  inLanguage: "en",
+  isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+  about: [
+    { "@type": "Thing", name: "OpenAPI 3.1" },
+    { "@type": "Thing", name: "Model Context Protocol" },
+    { "@type": "Thing", name: "Codex plugins" },
+    { "@type": "Thing", name: "Claude Code plugins" },
+    { "@type": "Thing", name: "Agent Plugins" },
+  ],
 };
 
 // ---------------------------------------------------------------------------
@@ -102,7 +138,7 @@ function Endpoint({
 // ---------------------------------------------------------------------------
 // Example snippets. Static and realistic; trimmed for readability.
 
-const EXAMPLE_ORIGIN = "https://plugin.market";
+const EXAMPLE_ORIGIN = "https://pluginsmp.com";
 
 const listCurl = `curl "${EXAMPLE_ORIGIN}/api/v1/plugins?q=github&protocol=codex&protocol=claude-code&type=mcp&sort=stars&per_page=1"`;
 
@@ -250,6 +286,7 @@ const tocLinks: [string, string][] = [
 export default function DocsPage() {
   return (
     <Container className="py-10 sm:py-14">
+      <JsonLd data={docsJsonLd} />
       <div className="max-w-3xl">
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
           API &amp; MCP docs

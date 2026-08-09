@@ -141,3 +141,7 @@ The visual system is documented in [DESIGN.md](DESIGN.md): folder-tab "manifest 
 ## Scope notes
 
 v1 is read-only: no accounts, submissions, or ratings. Fixture repos under `fixtures/` are fictional examples; crawled plugins link to their real repositories.
+
+## License
+
+Licensed under the [MIT License](LICENSE).

@@ -1,5 +1,5 @@
 import { json } from "@/lib/api-helpers";
-import { absoluteUrl } from "@/lib/site";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export { OPTIONS } from "@/lib/api-helpers";
 
@@ -13,12 +13,12 @@ const PROTOCOL_ENUM = ["codex", "claude-code", "agent-plugins"];
 const document = {
   openapi: "3.1.0",
   info: {
-    title: "Agent Plugin Directory API",
+    title: `${SITE_NAME} API`,
     version: "1.0.0",
     description:
       "Read-only REST API for finding open-source Codex, Claude Code, and Agent Plugins. All endpoints use GET, return JSON, require no authentication, and send Access-Control-Allow-Origin: *. Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
   },
-  servers: [{ url: absoluteUrl("/"), description: "Public Agent Plugin Directory API" }],
+  servers: [{ url: absoluteUrl("/"), description: `Public ${SITE_NAME} API` }],
   externalDocs: {
     description: "Human-readable API and MCP documentation",
     url: absoluteUrl("/docs"),

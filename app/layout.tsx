@@ -95,9 +95,9 @@ function Header({ locale }: { locale: Locale }) {
             /
           </span>
           <span aria-hidden className="hidden sm:inline">
-            Plugin <span className="font-bold text-iris">Directory</span>
+            Agent Plugins <span className="font-bold text-iris">Marketplace</span>
           </span>
-          <span className="sr-only">Agent Plugin Directory</span>
+          <span className="sr-only">Agent Plugins Marketplace</span>
         </Link>
         <div className="flex min-w-0 items-center">
         <nav aria-label={zh ? "主导航" : "Main"} className="flex items-center gap-0.5 text-sm font-medium text-gray-600 sm:gap-1">
@@ -135,7 +135,9 @@ function Footer({ locale }: { locale: Locale }) {
     <footer className="mt-auto border-t border-gray-200 bg-footer text-gray-400">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3 sm:px-6">
         <div>
-          <p className="font-display text-[15px] text-white">Agent Plugin Directory</p>
+          <p className="font-display text-[15px] text-white">
+            Agent Plugins <span className="font-bold text-iris-soft">Marketplace</span>
+          </p>
           <p className="mt-2 max-w-xs leading-relaxed">
             {zh
               ? "查找开源插件，查看其兼容格式、技能、MCP 服务器、源码和安装说明。与 OpenAI 或 Anthropic 无隶属关系。"

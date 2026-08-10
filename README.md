@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agent Plugin Directory
+# Agent Plugins Marketplace
 
 **Find open-source plugins for Codex, Claude Code, and Agent Plugins.**
 
@@ -14,11 +14,11 @@ Search public plugins, compare their supported formats, skills, and MCP servers,
 
 </div>
 
-![Agent Plugin Directory preview](https://pluginsmp.com/opengraph-image)
+![Agent Plugins Marketplace preview](https://pluginsmp.com/opengraph-image)
 
 ## What is this?
 
-Agent Plugin Directory is a community index of open-source packages that follow one or more canonical plugin formats. It discovers repositories on GitHub, validates their manifests, merges cross-format variants into one entry, and exposes the result through a website, REST API, MCP server, and LLM-friendly text feeds.
+Agent Plugins Marketplace is a community index of open-source packages that follow one or more canonical plugin formats. It discovers repositories on GitHub, validates their manifests, merges cross-format variants into one entry, and exposes the result through a website, REST API, MCP server, and LLM-friendly text feeds.
 
 It is an **index, not a package host**. Plugin code stays in its source repository, and the directory does not execute third-party plugins during indexing.
 

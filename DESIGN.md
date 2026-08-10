@@ -1,4 +1,4 @@
-# plugins marketplace — Design System
+# Agent Plugins Marketplace — Design System
 
 Single source of truth for visual decisions. All UI work follows this; deviations need a stated reason.
 

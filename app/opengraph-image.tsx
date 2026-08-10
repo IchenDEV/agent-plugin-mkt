@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Agent Plugin Directory — find plugins for Codex, Claude Code, and Agent Plugins";
+export const alt = "Agent Plugins Marketplace — find plugins for Codex, Claude Code, and Agent Plugins";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -47,7 +47,7 @@ export default function OpenGraphImage() {
           >
             /
           </span>
-          Agent Plugin <span style={{ color: "#5147e5", marginLeft: 8 }}>Directory</span>
+          Agent Plugins <span style={{ color: "#5147e5", marginLeft: 8 }}>Marketplace</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 70, fontWeight: 750, letterSpacing: "-3px", lineHeight: 1.05 }}>

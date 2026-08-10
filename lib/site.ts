@@ -1,4 +1,4 @@
-export const SITE_NAME = "Agent Plugin Directory";
+export const SITE_NAME = "Agent Plugins Marketplace";
 export const SITE_DESCRIPTION =
   "Find open-source plugins for Codex, Claude Code, and Agent Plugins. Compare included skills and MCP servers, review setup details, and visit the source before installing.";
 export const SITE_DESCRIPTION_ZH =

@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { JsonLd } from "@/components/json-ld";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
+import { Preferences } from "@/components/preferences";
+import type { Locale } from "@/lib/i18n";
+import { getLocale } from "@/lib/i18n-server";
+import { SITE_DESCRIPTION, SITE_DESCRIPTION_ZH, SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
 // Self-hosted variable fonts (no network dependency at build or runtime).
 import "@fontsource-variable/bricolage-grotesque";
 import "@fontsource-variable/instrument-sans";
@@ -52,98 +56,108 @@ export const metadata: Metadata = {
   },
 };
 
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": `${absoluteUrl("/")}#website`,
-  url: absoluteUrl("/"),
-  name: SITE_NAME,
-  description: SITE_DESCRIPTION,
-  inLanguage: "en",
-  isAccessibleForFree: true,
-  sameAs: "https://github.com/IchenDEV/agent-plugin-mkt",
-  about: {
-    "@type": "DefinedTerm",
-    name: "Agent Plugins",
-    url: "https://agent-plugins.org/specification",
-  },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${absoluteUrl("/plugins")}?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
-  },
-};
+const THEME_INIT_SCRIPT = `try{const r=document.documentElement,s=localStorage.getItem("pluginsmp-theme"),t=s==="light"||s==="dark"?s:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";r.dataset.theme=t;r.style.colorScheme=t}catch{}`;
 
-function Header() {
+function websiteJsonLd(locale: Locale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${absoluteUrl("/")}#website`,
+    url: absoluteUrl("/"),
+    name: SITE_NAME,
+    description: locale === "zh-CN" ? SITE_DESCRIPTION_ZH : SITE_DESCRIPTION,
+    inLanguage: locale,
+    isAccessibleForFree: true,
+    sameAs: "https://github.com/IchenDEV/agent-plugin-mkt",
+    about: {
+      "@type": "DefinedTerm",
+      name: "Agent Plugins",
+      url: "https://agent-plugins.org/specification",
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${absoluteUrl("/plugins")}?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+function Header({ locale }: { locale: Locale }) {
+  const zh = locale === "zh-CN";
   return (
     <header className="sticky top-0 z-40 border-b border-gray-200 bg-porcelain/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2.5 font-display text-[15px] tracking-tight">
-          <span aria-hidden className="grid size-7 place-items-center rounded-md bg-ink font-mono text-[13px] font-semibold text-white">
+        <Link href="/" className="flex shrink-0 items-center gap-2.5 font-display text-[15px] tracking-tight">
+          <span aria-hidden className="grid size-7 place-items-center rounded-md bg-action font-mono text-[13px] font-semibold text-on-action">
             /
           </span>
           <span>
-            plugins <span className="font-bold text-iris">marketplace</span>
+            plugins <span className="hidden font-bold text-iris sm:inline">marketplace</span>
           </span>
         </Link>
-        <nav aria-label="Main" className="flex items-center gap-1 text-sm font-medium text-gray-600">
-          <Link href="/plugins" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
-            Browse
+        <div className="flex min-w-0 items-center">
+        <nav aria-label={zh ? "主导航" : "Main"} className="flex items-center gap-0.5 text-sm font-medium text-gray-600 sm:gap-1">
+          <Link href="/plugins" className="whitespace-nowrap rounded-md px-2 py-1.5 hover:bg-surface hover:text-ink sm:px-3">
+            {zh ? "插件" : "Browse"}
           </Link>
-          <Link href="/categories" className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block">
-            Categories
+          <Link href="/categories" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
+            {zh ? "分类" : "Categories"}
           </Link>
-          <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block">
-            Timeline
+          <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
+            {zh ? "时间线" : "Timeline"}
           </Link>
-          <Link href="/docs" className="rounded-md px-3 py-1.5 hover:bg-white hover:text-ink">
+          <Link href="/docs" className="whitespace-nowrap rounded-md px-2 py-1.5 hover:bg-surface hover:text-ink sm:px-3">
             API
           </Link>
           <a
             href="https://developers.openai.com/plugins/build/plugins"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-md px-3 py-1.5 hover:bg-white hover:text-ink sm:block"
+            className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink md:block"
           >
-            Spec
+            {zh ? "规范" : "Spec"}
           </a>
         </nav>
+        <Preferences locale={locale} />
+        </div>
       </div>
     </header>
   );
 }
 
-function Footer() {
+function Footer({ locale }: { locale: Locale }) {
+  const zh = locale === "zh-CN";
   return (
-    <footer className="mt-auto border-t border-gray-200 bg-ink text-gray-400">
+    <footer className="mt-auto border-t border-gray-200 bg-footer text-gray-400">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3 sm:px-6">
         <div>
           <p className="font-display text-[15px] text-white">
             plugins <span className="font-bold text-iris-soft">marketplace</span>
           </p>
           <p className="mt-2 max-w-xs leading-relaxed">
-            A community index of open-source Codex and Claude Code plugins. Not affiliated with
-            OpenAI or Anthropic.
+            {zh
+              ? "一个收录开源 Codex 与 Claude Code 插件的社区索引，与 OpenAI 或 Anthropic 无隶属关系。"
+              : "A community index of open-source Codex and Claude Code plugins. Not affiliated with OpenAI or Anthropic."}
           </p>
         </div>
         <nav aria-label="Footer" className="grid gap-2">
-          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">Explore</p>
-          <Link href="/plugins" className="hover:text-white">Browse plugins</Link>
-          <Link href="/categories" className="hover:text-white">Categories</Link>
-          <Link href="/timeline" className="hover:text-white">Timeline</Link>
+          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "浏览" : "Explore"}</p>
+          <Link href="/plugins" className="hover:text-white">{zh ? "浏览插件" : "Browse plugins"}</Link>
+          <Link href="/categories" className="hover:text-white">{zh ? "分类" : "Categories"}</Link>
+          <Link href="/timeline" className="hover:text-white">{zh ? "时间线" : "Timeline"}</Link>
           <Link href="/docs" className="hover:text-white">REST API</Link>
-          <Link href="/docs#mcp" className="hover:text-white">MCP endpoint</Link>
+          <Link href="/docs#mcp" className="hover:text-white">{zh ? "MCP 端点" : "MCP endpoint"}</Link>
         </nav>
         <nav aria-label="Specification" className="grid gap-2">
-          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">Specifications</p>
+          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "规范" : "Specifications"}</p>
           <a href="https://developers.openai.com/plugins/build/plugins" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            Codex plugin packaging
+            {zh ? "Codex 插件打包" : "Codex plugin packaging"}
           </a>
           <a href="https://code.claude.com/docs/en/plugins-reference" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            Claude Code plugins
+            {zh ? "Claude Code 插件" : "Claude Code plugins"}
           </a>
           <a href="https://agent-plugins.org/specification" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             Agent Plugins v1
@@ -154,18 +168,20 @@ function Footer() {
   );
 }
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  const locale = await getLocale();
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang={locale} className="h-full antialiased" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM site guide" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Full LLM catalog" />
       </head>
       <body className="flex min-h-full flex-col">
-        <JsonLd data={websiteJsonLd} />
-        <Header />
+        <JsonLd data={websiteJsonLd(locale)} />
+        <Header locale={locale} />
         <main className="flex-1">{children}</main>
-        <Footer />
+        <Footer locale={locale} />
       </body>
     </html>
   );

@@ -1,6 +1,8 @@
 export const SITE_NAME = "plugins marketplace";
 export const SITE_DESCRIPTION =
   "Discover and compare open-source Agent Plugins, skills, and MCP servers indexed from GitHub, with manifests, install details, APIs, and MCP metadata.";
+export const SITE_DESCRIPTION_ZH =
+  "发现并比较从 GitHub 收录的开源 Agent 插件、技能和 MCP 服务器，包括清单、安装说明、API 与 MCP 元数据。";
 
 const DEFAULT_SITE_URL = "https://pluginsmp.com";
 

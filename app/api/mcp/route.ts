@@ -38,8 +38,7 @@ function methodNotAllowed() {
       id: null,
       error: {
         code: -32000,
-        message:
-          "Method not allowed: this stateless MCP server accepts POST only (no SSE stream, no sessions)",
+        message: "Method not allowed. Send each JSON-RPC message with POST; this server does not create MCP sessions.",
       },
     },
     { status: 405, headers: { ...CORS_HEADERS, Allow: "POST, OPTIONS" } },

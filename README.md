@@ -1,26 +1,26 @@
 <div align="center">
 
-# Agent Plugin Marketplace
+# Agent Plugin Directory
 
-**One open index for Codex, Claude Code, and Agent Plugins.**
+**Find open-source plugins for Codex, Claude Code, and Agent Plugins.**
 
-Discover public plugins, inspect their skills and MCP servers, or search the same catalog directly from an agent.
+Search public plugins, compare their supported formats, skills, and MCP servers, and review the source before installing.
 
-[Browse the marketplace](https://pluginsmp.com) · [API & MCP docs](https://pluginsmp.com/docs) · [OpenAPI 3.1](https://pluginsmp.com/api/openapi.json) · [Full agent-readable catalog](https://pluginsmp.com/llms-full.txt)
+[Browse the directory](https://pluginsmp.com) · [API & MCP docs](https://pluginsmp.com/docs) · [OpenAPI 3.1](https://pluginsmp.com/api/openapi.json) · [Full agent-readable catalog](https://pluginsmp.com/llms-full.txt)
 
 [![Sync GitHub plugins](https://github.com/IchenDEV/agent-plugin-mkt/actions/workflows/sync-github-plugins.yml/badge.svg)](https://github.com/IchenDEV/agent-plugin-mkt/actions/workflows/sync-github-plugins.yml)
-[![Live](https://img.shields.io/website?url=https%3A%2F%2Fpluginsmp.com&label=marketplace)](https://pluginsmp.com)
+[![Live](https://img.shields.io/website?url=https%3A%2F%2Fpluginsmp.com&label=directory)](https://pluginsmp.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-111827.svg)](LICENSE)
 
 </div>
 
-![Agent Plugin Marketplace preview](https://pluginsmp.com/opengraph-image)
+![Agent Plugin Directory preview](https://pluginsmp.com/opengraph-image)
 
 ## What is this?
 
-Agent Plugin Marketplace is a community index of open-source packages that follow one or more canonical plugin formats. It discovers repositories on GitHub, validates their manifests, merges cross-runtime variants into one entry, and exposes the result through a web app, REST API, MCP endpoint, and LLM-friendly text feeds.
+Agent Plugin Directory is a community index of open-source packages that follow one or more canonical plugin formats. It discovers repositories on GitHub, validates their manifests, merges cross-format variants into one entry, and exposes the result through a website, REST API, MCP server, and LLM-friendly text feeds.
 
-It is an **index, not a package host**. Plugin code stays in its source repository, and the marketplace does not execute third-party plugins during indexing.
+It is an **index, not a package host**. Plugin code stays in its source repository, and the directory does not execute third-party plugins during indexing.
 
 ### One index, five surfaces
 
@@ -65,17 +65,17 @@ The MCP server is stateless and exposes three tools:
 
 - `search_plugins` — search and filter the index
 - `get_plugin` — retrieve a plugin, its manifests, skills, and MCP servers
-- `get_stats` — retrieve current registry totals
+- `get_stats` — retrieve current directory totals
 
-## Runtime compatibility
+## Plugin format compatibility
 
-| Runtime | Plugin manifest | Marketplace catalog |
+| Client | Plugin manifest | Catalog file |
 |---|---|---|
 | [Codex](https://developers.openai.com/plugins/build/plugins) | `.codex-plugin/plugin.json` | `.agents/plugins/marketplace.json` |
 | [Claude Code](https://code.claude.com/docs/en/plugins-reference) | `.claude-plugin/plugin.json` | `.claude-plugin/marketplace.json` |
 | [Agent Plugins v1](https://agent-plugins.org/specification) | `plugin.json` | — |
 
-A repository may support one runtime or several. When Codex and Claude Code manifests describe the same plugin root, the index stores one logical plugin with multiple `protocols` instead of duplicate listings.
+A repository may support one plugin format or several. When Codex and Claude Code manifests describe the same plugin root, the index stores one logical plugin with multiple `protocols` instead of duplicate listings.
 
 Shared components are discovered from `skills/<name>/SKILL.md`. MCP configuration is read from canonical or manifest-referenced configuration files and normalized to `stdio`, `streamable-http`, or `sse` for filtering.
 
@@ -120,10 +120,10 @@ The API is read-only, requires no authentication, and allows cross-origin reques
 |---|---|
 | `GET /api/v1/plugins` | Search and paginate plugins |
 | `GET /api/v1/plugins/:slug` | Retrieve one plugin with manifests and components |
-| `GET /api/v1/stats` | Retrieve live registry totals |
-| `GET /api/v1/categories` | List manifest-keyword categories with counts |
+| `GET /api/v1/stats` | Retrieve live directory totals |
+| `GET /api/v1/categories` | List manifest-keyword tags with counts |
 
-Useful list parameters include `q`, `category`, `type`, `transport`, `sort`, `page`, and `per_page`. Repeat `protocol` to match any selected runtime:
+Useful list parameters include `q`, `category`, `type`, `transport`, `sort`, `page`, and `per_page`. Repeat `protocol` to match any selected plugin format:
 
 ```text
 /api/v1/plugins?protocol=codex&protocol=claude-code&type=mcp&sort=stars
@@ -194,12 +194,12 @@ BASE_URL=http://localhost:3000 npm run test:mcp
 
 Everything fetched from a plugin repository is treated as untrusted data.
 
-- Manifests are parsed and validated according to their runtime's rules.
+- Manifests are parsed and validated according to their plugin format's rules.
 - Invalid individual skills or MCP servers are isolated where the protocol permits it.
 - Indexed descriptions and metadata are rendered as plain text.
 - Only `http:` and `https:` URLs are linkified.
 - Clipboard text is stripped of control characters.
-- The registry links back to the source repository so users can inspect code and licensing before installation.
+- The directory links back to the source repository so users can inspect code and licensing before installation.
 
 An index entry is evidence that a repository published a structurally valid manifest; it is **not** a security audit or endorsement of that plugin.
 
@@ -209,7 +209,7 @@ An index entry is evidence that a repository published a structurally valid mani
 app/                  Next.js pages, REST routes, MCP, and text feeds
 components/           Shared server and client UI components
 lib/                  Queries, validation, GitHub discovery, and MCP logic
-prisma/               Schema and deployable marketplace snapshot
+prisma/               Schema and deployable directory snapshot
 scripts/              Indexing, seeding, validation, and MCP test tools
 tests/                Protocol validation tests
 fixtures/             Fictional local development plugins
@@ -229,7 +229,7 @@ npm run lint
 npm run build
 ```
 
-If a public plugin is missing, first confirm that its repository contains a canonical manifest listed under [Runtime compatibility](#runtime-compatibility). Include the repository URL and manifest path in the issue so the discovery gap can be reproduced.
+If a public plugin is missing, first confirm that its repository contains a canonical manifest listed under [Plugin format compatibility](#plugin-format-compatibility). Include the repository URL and manifest path in the issue so the discovery gap can be reproduced.
 
 ## License
 

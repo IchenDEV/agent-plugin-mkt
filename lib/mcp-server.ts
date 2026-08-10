@@ -52,7 +52,7 @@ const TOOLS = [
   {
     name: "search_plugins",
     description:
-      "Search the plugin registry. Filter by free-text query, one or more runtime protocols (codex, claude-code, or agent-plugins), category, component type, MCP transport, and sort order. Multiple protocols match any selected runtime. Returns paginated plugin summaries; pass a slug to get_plugin for full details.",
+      "Search the plugin directory. Filter by text, one or more plugin formats (codex, claude-code, or agent-plugins), tag, included component, MCP transport, and sort order. Multiple formats match any selected value. Returns paginated summaries; pass a slug to get_plugin for full details.",
     inputSchema: {
       type: "object",
       properties: {
@@ -62,7 +62,7 @@ const TOOLS = [
         },
         category: {
           type: "string",
-          description: "Exact category match. Categories are manifest keywords, e.g. \"registry\" or \"mcp\".",
+          description: "Exact tag match. Tags come from manifest keywords, for example \"database\" or \"mcp\".",
         },
         type: {
           type: "string",
@@ -85,12 +85,12 @@ const TOOLS = [
               uniqueItems: true,
             },
           ],
-          description: "One runtime protocol or an array; arrays match any selected runtime.",
+          description: "One plugin format or an array; arrays match any selected format.",
         },
         sort: {
           type: "string",
           enum: ["stars", "updated", "recent"],
-          description: "Sort order: stars (default), updated (latest repo push), recent (newest indexed).",
+          description: "Sort order: stars (default), updated (latest repository push), recent (newest added to the directory).",
         },
         page: {
           type: "number",
@@ -107,13 +107,13 @@ const TOOLS = [
   {
     name: "get_plugin",
     description:
-      "Fetch full details for one plugin by its slug: manifest JSON, skills (directory name, name, description), MCP server configs with transports, repository URL, stars, license, homepage, and index timestamps. Slugs come from search_plugins results.",
+      "Get one plugin by slug, including its plugin manifests, skills, MCP server configurations and transports, source repository, GitHub stars, license, website, and directory timestamps. Slugs come from search_plugins results.",
     inputSchema: {
       type: "object",
       properties: {
         slug: {
           type: "string",
-          description: "The plugin's registry slug, as returned by search_plugins.",
+          description: "The plugin's directory slug, as returned by search_plugins.",
         },
       },
       required: ["slug"],
@@ -123,7 +123,7 @@ const TOOLS = [
   {
     name: "get_stats",
     description:
-      "Get registry-wide totals: number of indexed plugins, skills, MCP servers, and categories.",
+      "Get directory totals for plugins, skills, MCP servers, and tags.",
     inputSchema: {
       type: "object",
       properties: {},
@@ -244,11 +244,11 @@ function initializeResult(params: Record<string, unknown>): Record<string, unkno
     capabilities: { tools: { listChanged: false } },
     serverInfo: {
       name: "agent-plugin-marketplace",
-      title: "plugins marketplace",
+      title: "Agent Plugin Directory",
       version: "0.1.0",
     },
     instructions:
-      "A registry of Codex, Claude Code, and Agent Plugins packages: use search_plugins to filter by runtime, query, category, type, or transport; get_plugin for full details by slug; get_stats for totals.",
+      "Find Codex, Claude Code, and Agent Plugins packages. Use search_plugins to filter by plugin format, query, tag, included component, or transport; get_plugin for details by slug; and get_stats for directory totals.",
   };
 }
 

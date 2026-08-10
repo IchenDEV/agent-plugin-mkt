@@ -85,7 +85,7 @@ export function parseEnum<T extends string>(
     response: error(
       400,
       "bad_request",
-      `Invalid ${param} "${raw.slice(0, 50)}". Valid values: ${allowed.join(", ")}.`,
+      `Invalid ${param} "${raw.slice(0, 50)}". Accepted values: ${allowed.join(", ")}.`,
     ),
   };
 }

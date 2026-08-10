@@ -10,10 +10,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const zh = locale === "zh-CN";
   const title = zh ? "API 与 MCP 文档" : "API & MCP docs";
-  const socialTitle = `plugins marketplace ${title}`;
+  const socialTitle = `${SITE_NAME} ${title}`;
   const description = zh
-    ? "plugins marketplace 的只读 REST API 与 MCP 端点：搜索 Codex、Claude Code 和 Agent Plugins 包，并获取详情、统计与分类。"
-    : "Read-only REST API and MCP endpoint for plugins marketplace: search Codex, Claude Code, and Agent Plugins packages, fetch details, stats, and categories.";
+    ? "使用只读 REST API 或 MCP 服务器搜索 Codex、Claude Code 和 Agent Plugins 插件，并获取插件详情、统计和标签。"
+    : "Use the read-only REST API or MCP server to search Codex, Claude Code, and Agent Plugins and retrieve plugin details, totals, and tags.";
   return {
     title,
     description,
@@ -30,10 +30,10 @@ function docsJsonLd(locale: Locale) {
     "@type": "TechArticle",
     "@id": `${absoluteUrl("/docs")}#article`,
     url: absoluteUrl("/docs"),
-    headline: zh ? "plugins marketplace API 与 MCP 文档" : "plugins marketplace API & MCP documentation",
+    headline: zh ? "Agent Plugin Directory API 与 MCP 文档" : "Agent Plugin Directory API & MCP documentation",
     description: zh
-      ? "跨运行时插件只读 REST API、OpenAPI 规范与无状态 Streamable HTTP MCP 端点参考。"
-      : "Reference for the read-only cross-runtime plugin REST API, OpenAPI schema, and stateless Streamable HTTP MCP endpoint.",
+      ? "插件目录的只读 REST API、OpenAPI 描述与无状态 Streamable HTTP MCP 服务器参考。"
+      : "Reference for the plugin directory's read-only REST API, OpenAPI description, and stateless Streamable HTTP MCP server.",
     inLanguage: locale,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     about: [
@@ -240,7 +240,7 @@ const categoriesResponse = `{
 
 const mcpJsonSnippet = `{
   "mcpServers": {
-    "plugin-market": {
+    "agent-plugin-directory": {
       "type": "streamable-http",
       "url": "${EXAMPLE_ORIGIN}/api/mcp"
     }
@@ -281,8 +281,8 @@ const tocLinks: [string, string, string][] = [
   ["#list-plugins", "List plugins", "插件列表"],
   ["#get-plugin", "Get a plugin", "获取插件"],
   ["#stats", "Stats", "统计"],
-  ["#categories", "Categories", "分类"],
-  ["#mcp", "MCP endpoint", "MCP 端点"],
+  ["#categories", "Tags", "标签"],
+  ["#mcp", "MCP server", "MCP 服务器"],
 ];
 
 export default async function DocsPage() {
@@ -297,8 +297,8 @@ export default async function DocsPage() {
         </h1>
         <p className="mt-3 text-gray-600">
           {zh
-            ? "marketplace 展示的所有内容都可以通过程序访问：脚本和服务可使用只读 REST API，Agent 可通过 MCP 端点直接搜索注册中心。"
-            : "Everything the marketplace shows is available programmatically: a read-only REST API for scripts and services, and an MCP endpoint so agents can search the registry directly."}
+            ? "脚本和服务可以使用只读 REST API；MCP 客户端也可以让 Agent 直接搜索插件目录。"
+            : "Scripts and services can use the read-only REST API, while an MCP client can let an agent search the plugin directory directly."}
         </p>
       </div>
 
@@ -325,7 +325,7 @@ export default async function DocsPage() {
                   <code className="font-mono text-xs">{EXAMPLE_ORIGIN}</code>{zh ? "；自行托管时请替换为你的域名。" : " — swap in your own origin if you self-host."}
                 </li>
                 <li>
-                  <strong className="font-semibold text-ink">{zh ? "暂不需要认证，也没有速率限制" : "No auth, no rate limits yet"}</strong> — {zh ? "所有端点均公开且只读。请合理使用，未来可能加入限制。" : "every endpoint is public and read-only. Be reasonable; limits may come later."}
+                  <strong className="font-semibold text-ink">{zh ? "认证" : "Authentication"}</strong> — {zh ? "无需认证。所有端点均公开且只读。" : "none. Every endpoint is public and read-only."}
                 </li>
                 <li>
                   <strong className="font-semibold text-ink">CORS</strong> — {zh ? "每个响应都会发送 " : "every response sends "}
@@ -368,27 +368,27 @@ export default async function DocsPage() {
           title={zh ? "插件列表" : "List plugins"}
         >
           <p className="text-sm text-gray-600">
-            {zh ? "分页返回插件摘要。所有参数均为可选；重复选择运行时会匹配任一所选协议，其他筛选条件以 AND 组合。" : "Paginated plugin summaries. All parameters are optional. Repeated runtime selections match any selected protocol; other filters combine with AND."}
+            {zh ? "分页返回插件摘要。所有参数均为可选；重复选择插件格式会匹配任一所选格式，其他筛选条件以 AND 组合。" : "Returns paginated plugin summaries. All parameters are optional. Repeated plugin format selections match any selected format; other filters combine with AND."}
           </p>
           <SubHeading>{zh ? "查询参数" : "Query parameters"}</SubHeading>
           <DocTable
             head={zh ? ["参数", "类型", "说明"] : ["Param", "Type", "Description"]}
             rows={zh ? [
               ["q", "string", "在名称、描述、关键词和作者中进行自由文本查询（最多 200 个字符）。"],
-              ["category", "string", "精确匹配关键词。分类来自清单关键词，参见 /api/v1/categories。"],
+              ["category", "string", "精确匹配标签。标签来自清单关键词，参见 /api/v1/categories。"],
               ["type", "skills | mcp", "只返回包含此组件类型的插件。"],
               ["transport", "stdio | streamable-http | sse", "只返回至少有一个 MCP 服务器使用此传输方式的插件。"],
-              ["protocol", "可重复的运行时", "重复传入可匹配任一所选运行时（OR），也支持逗号分隔。"],
-              ["sort", "stars | updated | recent", "stars = 仓库 Star（默认），updated = 仓库推送日期，recent = 首次收录时间。"],
+              ["protocol", "可重复的插件格式", "重复传入可匹配任一所选格式（OR），也支持逗号分隔。"],
+              ["sort", "stars | updated | recent", "stars = GitHub Stars（默认），updated = 仓库推送日期，recent = 首次添加到目录的时间。"],
               ["page", "integer", "从 1 开始的页码，最小为 1，默认 1。"],
               ["per_page", "integer", "每页结果数，范围 1..50，默认 24。"],
             ] : [
               ["q", "string", "Free-text query over name, description, keywords, and author (max 200 chars)."],
-              ["category", "string", "Exact keyword match. Categories are manifest keywords — see /api/v1/categories."],
+              ["category", "string", "Exact tag match. Tags come from manifest keywords — see /api/v1/categories."],
               ["type", "skills | mcp", "Only plugins containing this component type."],
               ["transport", "stdio | streamable-http | sse", "Only plugins with at least one MCP server using this transport."],
-              ["protocol", "repeatable runtime", "Repeat to match any selected runtime (OR). Comma-separated values also work."],
-              ["sort", "stars | updated | recent", "stars = repo stars (default), updated = repo push date, recent = first indexed."],
+              ["protocol", "repeatable plugin format", "Repeat to match any selected format (OR). Comma-separated values also work."],
+              ["sort", "stars | updated | recent", "stars = GitHub stars (default), updated = repository push date, recent = first added to the directory."],
               ["page", "integer", "1-based page number. Clamped to >= 1. Default 1."],
               ["per_page", "integer", "Results per page, clamped to 1..50. Default 24."],
             ]}
@@ -420,7 +420,7 @@ export default async function DocsPage() {
           <SubHeading>{zh ? "路径参数" : "Path parameters"}</SubHeading>
           <DocTable
             head={zh ? ["参数", "类型", "说明"] : ["Param", "Type", "Description"]}
-            rows={[["slug", "string", zh ? "注册中心 slug，由列表端点返回。" : "Registry slug, as returned by the list endpoint."]]}
+            rows={[["slug", "string", zh ? "目录中的插件 slug，由列表端点返回。" : "Directory slug returned by the list endpoint."]]}
           />
           <SubHeading>{zh ? "请求示例" : "Example request"}</SubHeading>
           <CodeBlock>{detailCurl}</CodeBlock>
@@ -432,7 +432,7 @@ export default async function DocsPage() {
 
         <Endpoint id="stats" tab="/api/v1/stats" method="GET" path="/api/v1/stats" title={zh ? "统计" : "Stats"}>
           <p className="text-sm text-gray-600">
-            {zh ? "注册中心总计：已收录插件、技能、MCP 服务器和不同分类的数量。" : "Registry totals: indexed plugins, skills, MCP servers, and distinct categories."}
+            {zh ? "目录中的插件、技能、MCP 服务器和标签数量。" : "Directory totals for plugins, skills, MCP servers, and tags."}
           </p>
           <SubHeading>{zh ? "请求示例" : "Example request"}</SubHeading>
           <CodeBlock>{statsCurl}</CodeBlock>
@@ -445,10 +445,10 @@ export default async function DocsPage() {
           tab="/api/v1/categories"
           method="GET"
           path="/api/v1/categories"
-          title={zh ? "分类" : "Categories"}
+          title={zh ? "标签" : "Tags"}
         >
           <p className="text-sm text-gray-600">
-            {zh ? "分类来自清单关键词，统一转为小写，并按包含该关键词的插件数量排序（前 100 个）。在列表端点中将分类名称用作 " : "Categories are derived from manifest keywords, lowercased and ranked by how many plugins carry them (top 100). Use a category name as the "}
+            {zh ? "标签来自清单关键词，统一转为小写，并按使用该关键词的插件数量排序（前 100 个）。在列表端点中将标签名称用作 " : "Tags come from manifest keywords, are lowercased, and are ranked by how many plugins use them (top 100). Use a tag name as the "}
             <code className="font-mono text-xs">category</code>{zh ? " 筛选条件。" : " filter on the list endpoint."}
           </p>
           <SubHeading>{zh ? "请求示例" : "Example request"}</SubHeading>
@@ -457,15 +457,15 @@ export default async function DocsPage() {
           <CodeBlock>{categoriesResponse}</CodeBlock>
         </Endpoint>
 
-        <section id="mcp" aria-label={zh ? "MCP 端点" : "MCP endpoint"} className="scroll-mt-24">
+        <section id="mcp" aria-label={zh ? "MCP 服务器" : "MCP server"} className="scroll-mt-24">
           <Card tab="/api/mcp">
             <div className="space-y-4 p-5 sm:p-6">
               <div className="space-y-2">
-                <h2 className="font-display text-xl font-bold tracking-tight">{zh ? "MCP 端点" : "MCP endpoint"}</h2>
+                <h2 className="font-display text-xl font-bold tracking-tight">{zh ? "MCP 服务器" : "MCP server"}</h2>
                 <MethodPath method="POST" path="/api/mcp" />
               </div>
               <p className="text-sm text-gray-600">
-                {zh ? "注册中心本身也是 MCP 服务器，因此 Agent 可以把它作为工具进行搜索。传输方式为 " : "The registry is also an MCP server, so agents can search it as a tool. Transport is "}
+                {zh ? "插件目录提供 MCP 服务器，Agent 可以通过工具搜索插件。传输方式为 " : "The directory provides an MCP server so agents can search for plugins with tools. It uses "}
                 <code className="font-mono text-xs">streamable-http</code>{zh ? "，服务器无状态：每个 POST 携带一条 JSON-RPC 2.0 消息，不建立会话，协议版本为 " : " and the server is stateless: each POST carries one JSON-RPC 2.0 message, there are no sessions, and the protocol version is "}
                 <code className="font-mono text-xs">2025-06-18</code>{zh ? "。无需认证。" : ". No authentication."}
               </p>
@@ -480,15 +480,15 @@ export default async function DocsPage() {
                 rows={[
                   [
                     "search_plugins",
-                    "query?, protocol? (runtime or runtime[]), category?, type? (skills | mcp), transport?, sort?, page?, per_page?",
-                    zh ? "搜索插件索引。筛选语义与范围限制和 GET /api/v1/plugins 相同；结果 JSON 以 items、total、page、perPage、totalPages 分页。" : "Search the plugin index. Same filter semantics and clamping as GET /api/v1/plugins; the result JSON is paginated as items, total, page, perPage, totalPages.",
+                    "query?, protocol? (format or format[]), category?, type? (skills | mcp), transport?, sort?, page?, per_page?",
+                    zh ? "搜索插件目录。筛选语义与范围限制和 GET /api/v1/plugins 相同；结果 JSON 以 items、total、page、perPage、totalPages 分页。" : "Search the plugin directory. Filter behavior and limits match GET /api/v1/plugins; the result JSON uses items, total, page, perPage, and totalPages.",
                   ],
                   [
                     "get_plugin",
                     zh ? "slug（必填）" : "slug (required)",
                     zh ? "返回单个插件的完整详情，与 GET /api/v1/plugins/{slug} 相同。" : "Full detail for one plugin, like GET /api/v1/plugins/{slug}.",
                   ],
-                  ["get_stats", zh ? "无" : "none", zh ? "注册中心总计，与 GET /api/v1/stats 相同。" : "Registry totals, like GET /api/v1/stats."],
+                  ["get_stats", zh ? "无" : "none", zh ? "目录统计，与 GET /api/v1/stats 相同。" : "Directory totals, like GET /api/v1/stats."],
                 ]}
               />
               <SubHeading>{zh ? "示例：初始化" : "Example: initialize"}</SubHeading>

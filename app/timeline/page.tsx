@@ -40,11 +40,11 @@ export async function generateMetadata({ searchParams }: TimelinePageProps): Pro
   const results = await getTimelineResults(page);
   const canonical = page > 1 ? `/timeline?page=${page}` : "/timeline";
   const title = zh
-    ? `Agent 插件时间线${page > 1 ? ` — 第 ${page} 页` : ""}`
-    : `Agent Plugin timeline${page > 1 ? ` — Page ${page}` : ""}`;
+    ? `最近新增插件${page > 1 ? ` — 第 ${page} 页` : ""}`
+    : `Recently added plugins${page > 1 ? ` — Page ${page}` : ""}`;
   const description = zh
-    ? "最近收录的 Codex、Claude Code 与 Agent Plugins 包，按进入索引的日期分组。"
-    : "Recently indexed Codex, Claude Code, and Agent Plugins packages, grouped by the day they entered the index.";
+    ? "查看最近添加到目录的 Codex、Claude Code 和 Agent Plugins 插件，按添加日期分组。"
+    : "See recently added Codex, Claude Code, and Agent Plugins, grouped by the day they were added to the directory.";
   return {
     title,
     description,
@@ -107,7 +107,7 @@ function TimelineEntry({ plugin, locale }: { plugin: PluginSummary; locale: Loca
         <StarCount stars={plugin.repoStars} locale={locale} />
       </div>
       <p className="mt-0.5 truncate text-sm text-gray-500">
-        {plugin.description ?? (zh ? "清单中没有描述。" : "No description in manifest.")}
+        {plugin.description ?? (zh ? "暂未提供描述。" : "Description not provided.")}
       </p>
       {plugin.protocols.length > 0 || plugin.skillCount > 0 || plugin.mcpCount > 0 ? (
         <div className="mt-1.5 flex flex-wrap gap-1.5">
@@ -145,8 +145,8 @@ export default async function TimelinePage({ searchParams }: TimelinePageProps) 
     "@type": "CollectionPage",
     "@id": `${absoluteUrl(currentPath)}#collection`,
     url: absoluteUrl(currentPath),
-    name: zh ? `插件时间线${page > 1 ? ` — 第 ${page} 页` : ""}` : `Plugin timeline${page > 1 ? ` — Page ${page}` : ""}`,
-    description: zh ? "最近收录的 Codex、Claude Code 与 Agent Plugins 包，最新优先。" : "Recently indexed Codex, Claude Code, and Agent Plugins packages, newest first.",
+    name: zh ? `最近新增插件${page > 1 ? ` — 第 ${page} 页` : ""}` : `Recently added plugins${page > 1 ? ` — Page ${page}` : ""}`,
+    description: zh ? "最近添加到目录的插件，按添加时间倒序显示。" : "Plugins recently added to the directory, newest first.",
     inLanguage: locale,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     mainEntity: {
@@ -165,17 +165,17 @@ export default async function TimelinePage({ searchParams }: TimelinePageProps) 
     <Container className="py-10">
       <JsonLd data={timelineJsonLd} />
       <div className="max-w-2xl">
-        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{zh ? "时间线" : "Timeline"}</h1>
+        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{zh ? "最近新增" : "Recently added"}</h1>
         <p className="mt-2 text-sm leading-relaxed text-gray-500">
-          {zh ? "按进入索引的日期分组展示插件，最新收录的排在前面。" : "Plugins as they entered the index, newest first, grouped by the day they were indexed."}
+          {zh ? "按添加到目录的日期分组，最新添加的插件排在前面。" : "Plugins grouped by the day they were added to the directory, newest first."}
         </p>
       </div>
 
       {results.total === 0 ? (
         <div className="mt-8">
           <EmptyState
-            title={zh ? "索引为空" : "The index is empty"}
-            hint={zh ? "目前还没有抓取任何内容；插件收录后会按最新优先显示在这里。" : "Nothing has been crawled yet — once plugins are indexed they show up here, newest first."}
+            title={zh ? "暂时没有插件" : "No plugins are available yet"}
+            hint={zh ? "插件添加到目录后，会按最新优先显示在这里。" : "Plugins will appear here after they are added to the directory."}
           />
         </div>
       ) : results.items.length === 0 ? (

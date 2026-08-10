@@ -10,7 +10,7 @@
       "manifest": {
         "name": "review-sentinel",
         "version": "1.4.2",
-        "description": "Code review skills for agent workflows: diff triage, test-gap detection, and API surface checks that run before a human ever opens the PR.",
+        "description": "Review pull requests before they reach a human reviewer. Find likely defects, missing tests, security risks, and breaking API changes.",
         "author": { "name": "Loomworks" },
         "repository": "https://github.com/loomworks/review-sentinel",
         "license": "MIT",
@@ -21,21 +21,21 @@
           "dirName": "pr-review",
           "frontmatter": {
             "name": "pr-review",
-            "description": "Review a pull request diff for correctness, missing tests, and unreviewed API surface changes."
+            "description": "Check a pull request for correctness, missing tests, and breaking changes to public APIs."
           }
         },
         {
           "dirName": "security-pass",
           "frontmatter": {
             "name": "security-pass",
-            "description": "Second-pass review focused on injection risks, authz checks, and unsafe deserialization in the diff."
+            "description": "Look for injection flaws, missing authorization checks, and unsafe deserialization in a pull request."
           }
         },
         {
           "dirName": "changelog-check",
           "frontmatter": {
             "name": "changelog-check",
-            "description": "Verify the changelog entry matches the actual change and flags breaking changes explicitly."
+            "description": "Confirm that the changelog matches the code and clearly identifies breaking changes."
           }
         }
       ]
@@ -49,7 +49,7 @@
       "manifest": {
         "name": "docsmith",
         "version": "0.9.1",
-        "description": "Keeps READMEs, API references, and changelogs in sync with the code they describe. Regenerates only the sections that drifted.",
+        "description": "Keep READMEs, API documentation, and changelogs aligned with the code while preserving hand-written sections.",
         "author": {
           "name": "Foundry Labs",
           "url": "https://foundrylabs.dev"
@@ -64,21 +64,21 @@
           "dirName": "api-reference",
           "frontmatter": {
             "name": "api-reference",
-            "description": "Regenerate API reference sections from exported symbols, preserving hand-written prose between markers."
+            "description": "Update API reference sections from exported symbols without overwriting hand-written explanations."
           }
         },
         {
           "dirName": "readme-refresh",
           "frontmatter": {
             "name": "readme-refresh",
-            "description": "Detect drift between the README and the current CLI flags, config options, and examples, then patch it."
+            "description": "Update CLI flags, configuration options, and examples in the README when they no longer match the code."
           }
         },
         {
           "dirName": "changelog",
           "frontmatter": {
             "name": "changelog",
-            "description": "Draft a changelog entry from merged commits since the last tag, grouped by change type."
+            "description": "Create a changelog entry from commits since the latest tag and group changes by type."
           }
         }
       ]
@@ -92,7 +92,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "commit-kit",
         "version": "2.1.0",
-        "description": "Splits messy working trees into reviewable commits and writes Conventional Commits messages that actually describe the change.",
+        "description": "Turn an untidy working tree into focused commits with clear Conventional Commits messages.",
         "author": { "name": "Mara Jensen", "email": "mara@tidyops.io" },
         "repository": "https://github.com/tidyops/commit-kit",
         "license": "MIT",
@@ -103,14 +103,14 @@
           "dirName": "write-commit",
           "frontmatter": {
             "name": "write-commit",
-            "description": "Write a Conventional Commits message for the staged diff, with scope inferred from touched packages."
+            "description": "Write a Conventional Commits message that accurately summarizes the staged changes."
           }
         },
         {
           "dirName": "split-diff",
           "frontmatter": {
             "name": "split-diff",
-            "description": "Partition an oversized working tree into independent, individually revertable commits."
+            "description": "Divide unrelated working-tree changes into focused commits that can be reviewed and reverted independently."
           }
         }
       ]
@@ -124,7 +124,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "migration-lint",
         "version": "1.0.3",
-        "description": "Reviews SQL migrations for lock-heavy DDL, missing indexes on new foreign keys, and irreversible operations before they hit production.",
+        "description": "Check SQL migrations before deployment for long locks, missing foreign-key indexes, data rewrites, and changes that cannot be rolled back.",
         "author": { "name": "Quiet River OSS" },
         "repository": "https://github.com/quietriver/migration-lint",
         "license": "BSD-3-Clause",
@@ -135,14 +135,14 @@
           "dirName": "review-migration",
           "frontmatter": {
             "name": "review-migration",
-            "description": "Lint a migration file for table locks, full rewrites, and unindexed foreign keys, with per-engine notes."
+            "description": "Check a migration for table locks, full-table rewrites, and foreign keys without indexes, with guidance for the selected database."
           }
         },
         {
           "dirName": "rollback-plan",
           "frontmatter": {
             "name": "rollback-plan",
-            "description": "Produce a tested down-migration or a documented reason why the change is irreversible."
+            "description": "Create and verify a rollback migration, or explain why the change cannot be reversed safely."
           }
         }
       ]
@@ -156,7 +156,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "a11y-sweep",
         "version": "0.5.0",
-        "description": "Accessibility audit skills: WCAG 2.2 page audits, contrast fixes, and ARIA reviews that produce concrete patches instead of checklists.",
+        "description": "Find and fix accessibility problems on rendered pages using WCAG 2.2 AA, including color contrast and incorrect ARIA.",
         "author": {
           "name": "Kestrel UI",
           "email": "oss@kestrel-ui.dev"
@@ -170,21 +170,21 @@
           "dirName": "audit-page",
           "frontmatter": {
             "name": "audit-page",
-            "description": "Run a WCAG 2.2 AA audit against a rendered page and rank findings by user impact."
+            "description": "Audit a rendered page against WCAG 2.2 AA and prioritize issues by their effect on users."
           }
         },
         {
           "dirName": "fix-contrast",
           "frontmatter": {
             "name": "fix-contrast",
-            "description": "Propose minimal palette adjustments that bring failing text and UI contrast ratios into compliance."
+            "description": "Suggest the smallest color changes needed to meet contrast requirements."
           }
         },
         {
           "dirName": "aria-review",
           "frontmatter": {
             "name": "aria-review",
-            "description": "Check ARIA usage against the first rule of ARIA: prefer native elements, remove redundant roles."
+            "description": "Replace unnecessary ARIA with native HTML and correct invalid roles or attributes."
           }
         }
       ]
@@ -198,7 +198,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "pg.bridge",
         "version": "3.2.1",
-        "description": "MCP server for Postgres: introspect schemas, explain query plans, and run read-only queries over stdio. No ORM, no magic.",
+        "description": "Explore a PostgreSQL database safely from an MCP client: inspect schemas, understand query plans, and run read-only SQL.",
         "author": { "name": "Statecraft" },
         "homepage": "https://statecraft.io/pg-bridge",
         "repository": "https://github.com/statecraft-io/pg-bridge",
@@ -228,7 +228,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "gridwatch",
         "version": "1.7.0",
-        "description": "Exposes dashboards, alert state, and SLO burn rates from your observability stack to agents over streamable HTTP.",
+        "description": "Investigate service health from an MCP client by checking dashboards, active alerts, and SLO error-budget burn rates.",
         "author": { "name": "Nimbus Fleet" },
         "repository": "https://github.com/nimbusfleet/gridwatch",
         "license": "MIT",
@@ -256,7 +256,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "tracefeed",
         "version": "0.8.2",
-        "description": "Streams distributed traces to agents over SSE so they can watch a deploy settle in real time. Pairs well with an incident-response skill.",
+        "description": "Follow distributed traces during a deployment so you can spot errors and performance regressions as they happen.",
         "author": { "name": "Opsmesh" },
         "repository": "https://github.com/opsmesh/tracefeed",
         "license": "MPL-2.0",
@@ -281,7 +281,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "headless-pilot",
         "version": "2.0.0",
-        "description": "Drives headless Chromium and Firefox over MCP. Navigate, screenshot, and assert on real pages without pulling in a test framework.",
+        "description": "Open pages, take screenshots, and verify rendered behavior in Chromium or Firefox from an MCP client.",
         "author": {
           "name": "Plumbline",
           "url": "https://plumbline.dev"
@@ -315,7 +315,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "ticketflow",
         "version": "1.1.4",
-        "description": "Issue tracker integration for agents: search and file tickets over HTTP, with a local stdio cache server for offline triage.",
+        "description": "Search and create issues from an MCP client, with a local cache for reviewing tickets when the tracker is unavailable.",
         "author": { "name": "Harborline" },
         "repository": "https://github.com/harborline/ticketflow",
         "license": "ISC",
@@ -345,7 +345,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "test-pilot",
         "version": "4.0.1",
-        "description": "Generates unit tests from real call sites, hunts flaky tests by rerunning suspects in isolation, and exposes coverage data over MCP.",
+        "description": "Create unit tests from real usage, diagnose flaky tests, and inspect coverage from an MCP client.",
         "author": { "name": "Skylark" },
         "homepage": "https://skylark.dev/test-pilot",
         "repository": "https://github.com/skylark-dev/test-pilot",
@@ -357,14 +357,14 @@
           "dirName": "generate-tests",
           "frontmatter": {
             "name": "generate-tests",
-            "description": "Write unit tests for a module using its real call sites as the source of expected behavior."
+            "description": "Create unit tests from real call sites so expected behavior comes from how the module is actually used."
           }
         },
         {
           "dirName": "flaky-hunt",
           "frontmatter": {
             "name": "flaky-hunt",
-            "description": "Rerun suspected flaky tests in isolation, bisect ordering dependencies, and report the true culprit."
+            "description": "Repeat and isolate flaky tests, identify order dependencies, and report the underlying cause."
           }
         }
       ],
@@ -388,7 +388,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "argus-scan",
         "version": "1.9.0",
-        "description": "Dependency and secret scanning for agent workflows. Skills audit lockfiles and diffs; the MCP server serves a live advisory feed.",
+        "description": "Check dependency updates and code changes for known vulnerabilities and exposed secrets, with live advisory data available through MCP.",
         "author": {
           "name": "Copperkey Security",
           "url": "https://copperkey.io"
@@ -402,14 +402,14 @@
           "dirName": "dependency-audit",
           "frontmatter": {
             "name": "dependency-audit",
-            "description": "Audit lockfile changes against known advisories and flag newly introduced transitive risk."
+            "description": "Review lockfile changes for known vulnerabilities and highlight newly introduced transitive dependencies."
           }
         },
         {
           "dirName": "secret-scan",
           "frontmatter": {
             "name": "secret-scan",
-            "description": "Scan a diff for committed credentials and produce rotation steps for anything found."
+            "description": "Find credentials in a code change and provide rotation steps for each exposed secret."
           }
         }
       ],
@@ -432,7 +432,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "frameshift",
         "version": "0.12.0",
-        "description": "Data-wrangling skills backed by an embedded DuckDB MCP server. Profile a dataset first, then clean it column by column.",
+        "description": "Understand and clean tabular data with guided Agent Skills and an embedded DuckDB MCP server.",
         "author": { "name": "Lanternworks" },
         "repository": "https://github.com/lanternworks/frameshift",
         "license": "MIT",
@@ -443,14 +443,14 @@
           "dirName": "profile-dataset",
           "frontmatter": {
             "name": "profile-dataset",
-            "description": "Summarize a dataset's shape, null rates, cardinality, and outliers before any transformation."
+            "description": "Summarize rows, columns, missing values, unique values, and outliers before changing the dataset."
           }
         },
         {
           "dirName": "clean-columns",
           "frontmatter": {
             "name": "clean-columns",
-            "description": "Normalize types, trim strings, and reconcile categorical values one column at a time, with a diff of every change."
+            "description": "Normalize column types, whitespace, and category values, and show exactly what changed."
           }
         }
       ],
@@ -475,7 +475,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "deploy-captain",
         "version": "1.2.5",
-        "description": "Rollout planning and incident notes as skills, plus an SSE feed of fleet deploy events so agents can see what shipped where.",
+        "description": "Plan safer releases, follow deployment events, and create clear incident notes when something goes wrong.",
         "author": { "name": "Mastline" },
         "repository": "https://github.com/mastline/agent-tools",
         "license": "MIT",
@@ -486,14 +486,14 @@
           "dirName": "rollout-plan",
           "frontmatter": {
             "name": "rollout-plan",
-            "description": "Draft a staged rollout plan with health gates, bake times, and an explicit abort threshold."
+            "description": "Create a staged release plan with health checks, observation periods, and a clear rollback threshold."
           }
         },
         {
           "dirName": "incident-note",
           "frontmatter": {
             "name": "incident-note",
-            "description": "Write a factual incident note from the deploy timeline: what shipped, what broke, what rolled back."
+            "description": "Summarize what was deployed, what failed, and what was rolled back using the deployment timeline."
           }
         }
       ],
@@ -516,7 +516,7 @@
         "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
         "name": "apiscribe",
         "version": "2.3.0",
-        "description": "OpenAPI-first API documentation. Skills keep specs, prose, and SDK examples in sync; an MCP server serves the spec registry.",
+        "description": "Keep an OpenAPI description, API documentation, and SDK examples consistent, with the current description available through MCP.",
         "author": {
           "name": "Inkwell OSS",
           "email": "hello@inkwell.dev",
@@ -538,21 +538,21 @@
           "dirName": "openapi-sync",
           "frontmatter": {
             "name": "openapi-sync",
-            "description": "Diff the OpenAPI spec against handler signatures and update whichever side is stale."
+            "description": "Compare the OpenAPI description with request handlers and update whichever one is out of date."
           }
         },
         {
           "dirName": "endpoint-docs",
           "frontmatter": {
             "name": "endpoint-docs",
-            "description": "Write endpoint documentation with realistic request/response examples pulled from the spec's schemas."
+            "description": "Write endpoint documentation with realistic request and response examples based on the OpenAPI schemas."
           }
         },
         {
           "dirName": "sdk-examples",
           "frontmatter": {
             "name": "sdk-examples",
-            "description": "Generate copy-pasteable SDK snippets per endpoint for each configured language target."
+            "description": "Create ready-to-use SDK examples for each endpoint and configured programming language."
           }
         }
       ],

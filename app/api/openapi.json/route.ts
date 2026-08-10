@@ -13,12 +13,12 @@ const PROTOCOL_ENUM = ["codex", "claude-code", "agent-plugins"];
 const document = {
   openapi: "3.1.0",
   info: {
-    title: "plugins marketplace API",
+    title: "Agent Plugin Directory API",
     version: "1.0.0",
     description:
-      "Read-only REST API for plugins marketplace, a community index of open-source Codex, Claude Code, and Agent Plugins packages. All endpoints are GET-only, return JSON, require no authentication, and send permissive CORS headers (Access-Control-Allow-Origin: *). Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
+      "Read-only REST API for finding open-source Codex, Claude Code, and Agent Plugins. All endpoints use GET, return JSON, require no authentication, and send Access-Control-Allow-Origin: *. Responses are cacheable for 60 seconds. Errors use the shape { \"error\": { \"code\", \"message\" } }.",
   },
-  servers: [{ url: absoluteUrl("/"), description: "Public plugins marketplace API" }],
+  servers: [{ url: absoluteUrl("/"), description: "Public Agent Plugin Directory API" }],
   externalDocs: {
     description: "Human-readable API and MCP documentation",
     url: absoluteUrl("/docs"),
@@ -29,7 +29,7 @@ const document = {
         operationId: "listPlugins",
         summary: "List and search plugins",
         description:
-          "Paginated plugin summaries. Runtime selections match any selected protocol; other filters combine with AND. Invalid enum values are rejected with 400 bad_request.",
+          "Returns paginated plugin summaries. Plugin format selections match any selected value; other filters combine with AND. Invalid enum values return 400 bad_request.",
         parameters: [
           {
             name: "q",
@@ -42,7 +42,7 @@ const document = {
             name: "category",
             in: "query",
             required: false,
-            description: "Exact keyword match. Categories are manifest keywords; see /api/v1/categories.",
+            description: "Exact tag match. Tags come from manifest keywords; see /api/v1/categories.",
             schema: { type: "string" },
           },
           {
@@ -66,7 +66,7 @@ const document = {
             style: "form",
             explode: true,
             description:
-              "Repeat to match any selected runtime protocol, for example protocol=codex&protocol=claude-code. Comma-separated values are also accepted.",
+              "Repeat to match any selected plugin format, for example protocol=codex&protocol=claude-code. Comma-separated values are also accepted.",
             schema: { type: "array", items: { type: "string", enum: PROTOCOL_ENUM }, uniqueItems: true },
           },
           {
@@ -74,7 +74,7 @@ const document = {
             in: "query",
             required: false,
             description:
-              "Sort order: stars (repo stars, default), updated (repo push date), recent (first indexed).",
+              "Sort order: stars (GitHub stars, default), updated (repository push date), recent (first added to the directory).",
             schema: { type: "string", enum: ["stars", "updated", "recent"], default: "stars" },
           },
           {
@@ -152,13 +152,13 @@ const document = {
         operationId: "getPlugin",
         summary: "Get one plugin",
         description:
-          "Full detail for a single plugin: summary fields plus links, raw manifest, skills, and MCP server configs.",
+          "Returns one plugin with summary fields, source links, raw plugin manifests, skills, and MCP server configurations.",
         parameters: [
           {
             name: "slug",
             in: "path",
             required: true,
-            description: "Registry slug, as returned by the list endpoint.",
+            description: "Directory slug returned by the list endpoint.",
             schema: { type: "string" },
           },
         ],
@@ -192,11 +192,11 @@ const document = {
     "/api/v1/stats": {
       get: {
         operationId: "getStats",
-        summary: "Registry totals",
-        description: "Counts of indexed plugins, skills, MCP servers, and categories.",
+        summary: "Directory totals",
+        description: "Counts of plugins, skills, MCP servers, and tags in the directory.",
         responses: {
           "200": {
-            description: "Registry totals.",
+            description: "Directory totals.",
             content: {
               "application/json": {
                 schema: {
@@ -213,12 +213,12 @@ const document = {
     "/api/v1/categories": {
       get: {
         operationId: "listCategories",
-        summary: "List categories",
+        summary: "List tags",
         description:
-          "Categories derived from manifest keywords, ranked by plugin count (top 100).",
+          "Tags derived from manifest keywords, ranked by plugin count (top 100).",
         responses: {
           "200": {
-            description: "Categories with plugin counts.",
+            description: "Tags with plugin counts.",
             content: {
               "application/json": {
                 schema: {
@@ -258,8 +258,8 @@ const document = {
           "indexedAt",
         ],
         properties: {
-          slug: { type: "string", description: "Unique registry slug; use with /api/v1/plugins/{slug}." },
-          name: { type: "string", description: "Plugin name from plugin.json." },
+          slug: { type: "string", description: "Unique directory slug; use with /api/v1/plugins/{slug}." },
+          name: { type: "string", description: "Plugin name from its canonical manifest." },
           version: { type: ["string", "null"] },
           description: { type: ["string", "null"] },
           authorName: { type: ["string", "null"] },
@@ -267,24 +267,24 @@ const document = {
           keywords: { type: "array", items: { type: "string" } },
           protocols: {
             type: "array",
-            description: "Runtime protocols validated for this plugin root.",
+            description: "Plugin formats validated for this plugin root.",
             items: { type: "string", enum: PROTOCOL_ENUM },
           },
-          repoUrl: { type: "string", description: "GitHub repository the plugin was indexed from." },
+          repoUrl: { type: "string", description: "GitHub source repository for the plugin." },
           repoStars: { type: "integer" },
           skillCount: { type: "integer" },
-          mcpCount: { type: "integer", description: "Number of MCP servers declared in mcp.json." },
+          mcpCount: { type: "integer", description: "Number of declared MCP servers." },
           transports: {
             type: "array",
             description: "Distinct transports across the plugin's MCP servers.",
             items: { type: "string", enum: TRANSPORT_ENUM },
           },
-          createdAt: { type: "string", format: "date-time", description: "When the plugin first entered the index." },
-          indexedAt: { type: "string", format: "date-time", description: "When the plugin was last indexed." },
+          createdAt: { type: "string", format: "date-time", description: "When the plugin was first added to the directory." },
+          indexedAt: { type: "string", format: "date-time", description: "When the directory last refreshed this plugin." },
         },
       },
       PluginDetail: {
-        description: "Full plugin record: everything in PluginSummary plus links, manifest, and components.",
+        description: "Full plugin record: everything in PluginSummary plus source links, manifests, skills, and MCP servers.",
         allOf: [
           { $ref: "#/components/schemas/PluginSummary" },
           {
@@ -340,7 +340,7 @@ const document = {
           transport: { type: "string", enum: TRANSPORT_ENUM },
           config: {
             type: "object",
-            description: "Server config as declared in mcp.json (untrusted; shape varies by transport).",
+            description: "Server configuration as declared in a supported MCP configuration file (untrusted; shape varies by transport).",
             additionalProperties: true,
           },
         },
@@ -359,8 +359,8 @@ const document = {
         type: "object",
         required: ["name", "count"],
         properties: {
-          name: { type: "string", description: "Lowercased manifest keyword." },
-          count: { type: "integer", description: "Number of plugins carrying the keyword." },
+          name: { type: "string", description: "Lowercased tag from a manifest keyword." },
+          count: { type: "integer", description: "Number of plugins using the tag." },
         },
       },
       Meta: {

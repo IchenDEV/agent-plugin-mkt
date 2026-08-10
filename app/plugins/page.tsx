@@ -3,7 +3,7 @@ import Link from "next/link";
 import { cache, type ReactNode } from "react";
 import { JsonLd } from "@/components/json-ld";
 import { PluginCard } from "@/components/plugin-card";
-import { Container, EmptyState, SearchInput } from "@/components/ui";
+import { Container, EmptyState, SearchInput, transportLabel } from "@/components/ui";
 import {
   getCategories,
   searchPlugins,
@@ -28,27 +28,27 @@ const PROTOCOLS = PLUGIN_PROTOCOLS satisfies readonly PluginProtocol[];
 
 const BROWSE_COPY = {
   en: {
-    title: "Browse plugins",
-    searchPlaceholder: "Search plugins, skills, MCP servers…",
+    title: "Find plugins",
+    searchPlaceholder: "Search by name, task, or tag",
     search: "Search",
     filters: "Filters",
-    runtime: "Runtime",
-    allRuntimes: "All runtimes",
-    componentType: "Component type",
-    transport: "Transport",
+    runtime: "Plugin format",
+    allRuntimes: "All formats",
+    componentType: "Includes",
+    transport: "MCP transport",
     sort: "Sort",
-    categories: "Categories",
+    categories: "Tags",
     results: "Results",
     all: "All",
-    hasSkills: "Has skills",
-    hasMcp: "Has MCP servers",
-    mostStars: "Most stars",
-    updated: "Recently updated",
-    indexed: "Newly indexed",
+    hasSkills: "Skills",
+    hasMcp: "MCP servers",
+    mostStars: "GitHub stars",
+    updated: "Last updated",
+    indexed: "Recently added",
     clearAll: "Clear all",
     clearAllFilters: "Clear all filters",
     noMatch: "No plugins match",
-    noMatchHint: "Clear the filters or try a broader term — the index only includes public repos with a valid supported manifest.",
+    noMatchHint: "Clear a filter or try a broader search term.",
     nothing: "Nothing on this page",
     nothingHint: "This page is past the end of the results — head back to page 1 with the filters kept.",
     back: "Back to page 1",
@@ -57,27 +57,27 @@ const BROWSE_COPY = {
     next: "Next →",
   },
   "zh-CN": {
-    title: "浏览插件",
-    searchPlaceholder: "搜索插件、技能和 MCP 服务器…",
+    title: "查找插件",
+    searchPlaceholder: "按名称、用途或标签搜索",
     search: "搜索",
     filters: "筛选条件",
-    runtime: "运行时",
-    allRuntimes: "全部运行时",
-    componentType: "组件类型",
-    transport: "传输方式",
+    runtime: "插件格式",
+    allRuntimes: "全部格式",
+    componentType: "包含内容",
+    transport: "MCP 传输方式",
     sort: "排序",
-    categories: "分类",
+    categories: "标签",
     results: "搜索结果",
     all: "全部",
-    hasSkills: "包含技能",
-    hasMcp: "包含 MCP 服务器",
-    mostStars: "Star 最多",
-    updated: "最近更新",
-    indexed: "最新收录",
+    hasSkills: "技能",
+    hasMcp: "MCP 服务器",
+    mostStars: "GitHub Stars",
+    updated: "最后更新",
+    indexed: "最近新增",
     clearAll: "清除全部",
     clearAllFilters: "清除全部筛选",
     noMatch: "没有匹配的插件",
-    noMatchHint: "请清除筛选条件或尝试更宽泛的关键词。索引只收录具有受支持规范清单的公开仓库。",
+    noMatchHint: "请清除一个筛选条件，或尝试更宽泛的关键词。",
     nothing: "本页没有结果",
     nothingHint: "当前页超出了结果范围，请保留筛选条件并返回第 1 页。",
     back: "返回第 1 页",
@@ -153,17 +153,17 @@ export async function generateMetadata({ searchParams }: BrowsePageProps): Promi
   const canonical = canonicalQuery ? `/plugins?${canonicalQuery}` : "/plugins";
   const displayCategory = category?.slice(0, 40);
   const title = zh
-    ? `${displayCategory ? `${displayCategory} Agent 插件` : "浏览 Agent 插件"}${page > 1 ? ` — 第 ${page} 页` : ""}`
+    ? `${displayCategory ? `${displayCategory} 插件` : "查找插件"}${page > 1 ? ` — 第 ${page} 页` : ""}`
     : displayCategory
-      ? `${displayCategory} Agent Plugins${page > 1 ? ` — Page ${page}` : ""}`
-      : `Browse Agent Plugins${page > 1 ? ` — Page ${page}` : ""}`;
+      ? `${displayCategory} plugins${page > 1 ? ` — Page ${page}` : ""}`
+      : `Find plugins${page > 1 ? ` — Page ${page}` : ""}`;
   const description = zh
     ? displayCategory
-      ? `浏览从 GitHub 收录的开源 ${displayCategory} Agent 插件、技能与 MCP 服务器。`
-      : "浏览并比较从公开 GitHub 仓库收录的开源 Agent 插件、Agent 技能与 MCP 服务器。"
+      ? `查找带有 ${displayCategory} 标签的开源插件，并查看其技能与 MCP 服务器。`
+      : "查找适用于 Codex、Claude Code 和 Agent Plugins 的开源插件，并查看其技能、MCP 服务器和源码。"
     : displayCategory
-      ? `Browse open-source ${displayCategory} Agent Plugins, skills, and MCP servers indexed from GitHub.`
-      : "Browse and compare open-source Agent Plugins, agent skills, and MCP servers indexed from public GitHub repositories.";
+      ? `Find open-source plugins tagged ${displayCategory}, including their skills and MCP servers.`
+      : "Find open-source plugins for Codex, Claude Code, and Agent Plugins, and review their skills, MCP servers, and source.";
   const shouldNotIndex = Boolean(
     q ||
       type ||
@@ -288,10 +288,10 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   const countSentence = zh
     ? hasFilters
       ? `有 ${total} 个插件符合当前筛选条件。`
-      : `已从公开 GitHub 仓库收录 ${total} 个插件。`
+      : `目录中有 ${total} 个插件。`
     : hasFilters
       ? `${total} plugin${total === 1 ? "" : "s"} match${total === 1 ? "es" : ""} the active filters.`
-      : `${total} plugin${total === 1 ? "" : "s"} indexed from public GitHub repos.`;
+      : `${total} plugin${total === 1 ? "" : "s"} available.`;
 
   const hidden: Record<string, string | string[]> = {};
   for (const key of ["category", "type", "transport", "protocol", "sort"] as const) {
@@ -304,7 +304,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   if (category)
     chips.push({
       key: "category",
-      label: `${zh ? "分类" : "category"}: ${category}`,
+      label: `${zh ? "标签" : "tag"}: ${category}`,
       href: hrefWith(active, { category: null }),
     });
   if (type)
@@ -316,14 +316,14 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   if (transport)
     chips.push({
       key: "transport",
-      label: transport,
+      label: transportLabel(transport),
       mono: true,
       href: hrefWith(active, { transport: null }),
     });
   for (const protocol of protocols) {
     chips.push({
       key: `protocol-${protocol}`,
-      label: `${zh ? "运行时" : "runtime"}: ${PROTOCOL_LABELS[protocol]}`,
+      label: `${zh ? "格式" : "format"}: ${PROTOCOL_LABELS[protocol]}`,
       href: hrefWith(active, {
         protocol: protocols.filter((value) => value !== protocol),
       }),
@@ -337,7 +337,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   ];
 
   const transportOptions = TRANSPORTS.map((t) => ({
-    label: t,
+    label: transportLabel(t),
     href: hrefWith(active, { transport: transport === t ? null : t }),
     active: transport === t,
   }));
@@ -367,7 +367,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     "@type": "CollectionPage",
     "@id": `${absoluteUrl(currentPath)}#collection`,
     url: absoluteUrl(currentPath),
-    name: category ? `${category} Agent ${zh ? "插件" : "Plugins"}` : c.title,
+    name: category ? `${category} ${zh ? "插件" : "plugins"}` : c.title,
     description: countSentence,
     inLanguage: locale,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },

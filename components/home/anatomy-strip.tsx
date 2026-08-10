@@ -25,10 +25,10 @@ const TREE: TreeLine[] = [
   { name: ".claude-plugin/plugin.json", tone: "root", note: " # Claude Code manifest" },
   { name: "skills/", tone: "skill" },
   { glyph: "├── ", name: "code-review/", tone: "skill" },
-  { glyph: "│   └── ", name: "SKILL.md", tone: "skill", note: "   # frontmatter + instructions" },
+  { glyph: "│   └── ", name: "SKILL.md", tone: "skill", note: "   # instructions for one skill" },
   { glyph: "└── ", name: "write-tests/", tone: "skill" },
   { glyph: "    └── ", name: "SKILL.md", tone: "skill" },
-  { name: ".mcp.json", tone: "mcp", note: "          # MCP server definitions" },
+  { name: ".mcp.json", tone: "mcp", note: "          # MCP server configuration" },
 ];
 
 /**
@@ -41,19 +41,18 @@ export function AnatomyStrip() {
       <Container className="grid items-center gap-10 py-14 sm:py-16 lg:grid-cols-2 lg:gap-16">
         <div>
           <h2 className="font-display text-xl font-bold tracking-tight sm:text-2xl">
-            Anatomy of a plugin
+            Know what’s inside a plugin
           </h2>
           <p className="mt-4 max-w-prose text-sm leading-relaxed text-gray-600 sm:text-[15px]">
-            A plugin is a self-contained directory with a Codex and/or Claude Code manifest, skills under{" "}
+            A plugin is a folder with a Codex and/or Claude Code manifest, skills under{" "}
             <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">
               skills/&lt;name&gt;/SKILL.md
             </code>
-            , and MCP servers declared in{" "}
+            , and optional MCP server configuration in{" "}
             <code className="rounded bg-porcelain px-1 py-0.5 font-mono text-[0.85em]">.mcp.json</code>.
           </p>
           <p className="mt-3 max-w-prose text-sm leading-relaxed text-gray-600 sm:text-[15px]">
-            Failure boundaries are non-fatal by design: a malformed skill or unreachable server is
-            skipped, and the rest of the plugin keeps loading.
+            Review these files and the repository instructions before installing the plugin.
           </p>
           <a
             href={SPEC_URL}
@@ -61,7 +60,7 @@ export function AnatomyStrip() {
             rel="noopener noreferrer"
             className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-iris transition-colors hover:text-iris-deep"
           >
-            Read the Codex plugin packaging guide <span aria-hidden>→</span>
+            Read the Codex plugin documentation <span aria-hidden>→</span>
           </a>
         </div>
         <Card tab="hello-plugin/" className="shadow-sm">

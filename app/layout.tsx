@@ -15,8 +15,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: SITE_URL,
   title: {
-    default: `${SITE_NAME} — Agent skills & MCP servers`,
-    template: "%s · plugins marketplace",
+    default: `${SITE_NAME} — Plugins, skills, and MCP servers`,
+    template: `%s · ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Agent skills & MCP servers`,
+    title: `${SITE_NAME} — Plugins, skills, and MCP servers`,
     description: SITE_DESCRIPTION,
     url: "/",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Agent skills & MCP servers`,
+    title: `${SITE_NAME} — Plugins, skills, and MCP servers`,
     description: SITE_DESCRIPTION,
   },
   robots: {
@@ -94,20 +94,21 @@ function Header({ locale }: { locale: Locale }) {
           <span aria-hidden className="grid size-7 place-items-center rounded-md bg-action font-mono text-[13px] font-semibold text-on-action">
             /
           </span>
-          <span>
-            plugins <span className="hidden font-bold text-iris sm:inline">marketplace</span>
+          <span aria-hidden className="hidden sm:inline">
+            Plugin <span className="font-bold text-iris">Directory</span>
           </span>
+          <span className="sr-only">Agent Plugin Directory</span>
         </Link>
         <div className="flex min-w-0 items-center">
         <nav aria-label={zh ? "主导航" : "Main"} className="flex items-center gap-0.5 text-sm font-medium text-gray-600 sm:gap-1">
           <Link href="/plugins" className="whitespace-nowrap rounded-md px-2 py-1.5 hover:bg-surface hover:text-ink sm:px-3">
-            {zh ? "插件" : "Browse"}
+            {zh ? "插件" : "Plugins"}
           </Link>
           <Link href="/categories" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
-            {zh ? "分类" : "Categories"}
+            {zh ? "标签" : "Tags"}
           </Link>
           <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
-            {zh ? "时间线" : "Timeline"}
+            {zh ? "新增" : "New"}
           </Link>
           <Link href="/docs" className="whitespace-nowrap rounded-md px-2 py-1.5 hover:bg-surface hover:text-ink sm:px-3">
             API
@@ -118,7 +119,7 @@ function Header({ locale }: { locale: Locale }) {
             rel="noopener noreferrer"
             className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink md:block"
           >
-            {zh ? "规范" : "Spec"}
+            {zh ? "Codex 文档" : "Codex docs"}
           </a>
         </nav>
         <Preferences locale={locale} />
@@ -134,33 +135,31 @@ function Footer({ locale }: { locale: Locale }) {
     <footer className="mt-auto border-t border-gray-200 bg-footer text-gray-400">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3 sm:px-6">
         <div>
-          <p className="font-display text-[15px] text-white">
-            plugins <span className="font-bold text-iris-soft">marketplace</span>
-          </p>
+          <p className="font-display text-[15px] text-white">Agent Plugin Directory</p>
           <p className="mt-2 max-w-xs leading-relaxed">
             {zh
-              ? "一个收录开源 Codex 与 Claude Code 插件的社区索引，与 OpenAI 或 Anthropic 无隶属关系。"
-              : "A community index of open-source Codex and Claude Code plugins. Not affiliated with OpenAI or Anthropic."}
+              ? "查找开源插件，查看其兼容格式、技能、MCP 服务器、源码和安装说明。与 OpenAI 或 Anthropic 无隶属关系。"
+              : "Find open-source plugins and review their supported formats, skills, MCP servers, source, and setup details. Not affiliated with OpenAI or Anthropic."}
           </p>
         </div>
         <nav aria-label="Footer" className="grid gap-2">
-          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "浏览" : "Explore"}</p>
-          <Link href="/plugins" className="hover:text-white">{zh ? "浏览插件" : "Browse plugins"}</Link>
-          <Link href="/categories" className="hover:text-white">{zh ? "分类" : "Categories"}</Link>
-          <Link href="/timeline" className="hover:text-white">{zh ? "时间线" : "Timeline"}</Link>
-          <Link href="/docs" className="hover:text-white">REST API</Link>
-          <Link href="/docs#mcp" className="hover:text-white">{zh ? "MCP 端点" : "MCP endpoint"}</Link>
+          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "查找插件" : "Find plugins"}</p>
+          <Link href="/plugins" className="hover:text-white">{zh ? "浏览全部" : "Browse all"}</Link>
+          <Link href="/categories" className="hover:text-white">{zh ? "按标签浏览" : "Browse by tag"}</Link>
+          <Link href="/timeline" className="hover:text-white">{zh ? "最近新增" : "Recently added"}</Link>
+          <Link href="/docs" className="hover:text-white">{zh ? "开发者 API" : "Developer API"}</Link>
+          <Link href="/docs#mcp" className="hover:text-white">{zh ? "连接 MCP" : "Connect with MCP"}</Link>
         </nav>
-        <nav aria-label="Specification" className="grid gap-2">
-          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "规范" : "Specifications"}</p>
+        <nav aria-label={zh ? "插件格式" : "Plugin formats"} className="grid gap-2">
+          <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "插件格式" : "Plugin formats"}</p>
           <a href="https://developers.openai.com/plugins/build/plugins" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            {zh ? "Codex 插件打包" : "Codex plugin packaging"}
+            {zh ? "Codex 插件文档" : "Codex plugin documentation"}
           </a>
           <a href="https://code.claude.com/docs/en/plugins-reference" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            {zh ? "Claude Code 插件" : "Claude Code plugins"}
+            {zh ? "Claude Code 插件文档" : "Claude Code plugin documentation"}
           </a>
           <a href="https://agent-plugins.org/specification" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-            Agent Plugins v1
+            {zh ? "Agent Plugins 规范" : "Agent Plugins specification"}
           </a>
         </nav>
       </div>

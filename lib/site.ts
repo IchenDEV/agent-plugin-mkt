@@ -1,8 +1,8 @@
-export const SITE_NAME = "plugins marketplace";
+export const SITE_NAME = "Agent Plugin Directory";
 export const SITE_DESCRIPTION =
-  "Discover and compare open-source Agent Plugins, skills, and MCP servers indexed from GitHub, with manifests, install details, APIs, and MCP metadata.";
+  "Find open-source plugins for Codex, Claude Code, and Agent Plugins. Compare included skills and MCP servers, review setup details, and visit the source before installing.";
 export const SITE_DESCRIPTION_ZH =
-  "发现并比较从 GitHub 收录的开源 Agent 插件、技能和 MCP 服务器，包括清单、安装说明、API 与 MCP 元数据。";
+  "查找适用于 Codex、Claude Code 和 Agent Plugins 的开源插件。比较插件包含的技能与 MCP 服务器，查看安装说明，并在安装前访问源码仓库。";
 
 const DEFAULT_SITE_URL = "https://pluginsmp.com";
 

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Fragment, cache, type ReactNode } from "react";
 import { CopyButton } from "@/components/copy-button";
 import { JsonLd } from "@/components/json-ld";
-import { Badge, Card, Container, transportBadgeVariant } from "@/components/ui";
+import { Badge, Card, Container, transportBadgeVariant, transportLabel } from "@/components/ui";
 import { formatNumber, relativeTime, stripControlChars } from "@/lib/format";
 import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PluginPageProps): Promise<Met
   const plugin = await getPlugin(slug);
   if (!plugin) return { title: zh ? "未找到插件" : "Plugin not found", robots: { index: false, follow: false } };
   const description =
-    plugin.description ?? (zh ? `${plugin.name} — 从 GitHub 收录的开源插件。` : `${plugin.name} — an open-source plugin indexed from GitHub.`);
+    plugin.description ?? (zh ? `${plugin.name} — 查看插件格式、技能、MCP 服务器和源码。` : `${plugin.name} — review its plugin formats, skills, MCP servers, and source.`);
   const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
   return {
     title: plugin.name,
@@ -48,13 +48,13 @@ function pluginJsonLd(plugin: PluginDetail, locale: Locale): Record<string, unkn
   const zh = locale === "zh-CN";
   const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
   const description =
-    plugin.description ?? (zh ? `${plugin.name} — 从 GitHub 收录的开源插件。` : `${plugin.name} — an open-source plugin indexed from GitHub.`);
+    plugin.description ?? (zh ? `${plugin.name} — 查看插件格式、技能、MCP 服务器和源码。` : `${plugin.name} — review its plugin formats, skills, MCP servers, and source.`);
   const parts: Record<string, unknown>[] = [
     ...plugin.skills.map((skill) => ({
       "@type": "CreativeWork",
       name: skill.name,
       description: skill.description ?? undefined,
-      learningResourceType: "Agent skill",
+      learningResourceType: "Skill",
     })),
     ...plugin.mcpServers.map((server) => ({
       "@type": "SoftwareApplication",
@@ -146,12 +146,17 @@ function SourceCard({ plugin, locale }: { plugin: PluginDetail; locale: Locale }
           </span>
           git clone {plugin.repoUrl}
         </code>
-        <CopyButton text={command} label={zh ? "复制" : "Copy"} copiedLabel={zh ? "已复制" : "Copied"} />
+        <CopyButton
+          text={command}
+          label={zh ? "复制命令" : "Copy command"}
+          copiedLabel={zh ? "已复制" : "Copied"}
+          errorLabel={zh ? "复制失败" : "Copy failed"}
+        />
       </div>
       <p className="border-t border-gray-100 px-4 py-2.5 text-xs leading-relaxed text-gray-500">
         {zh
-          ? `克隆源码后，请按照仓库中适用于当前运行时的 marketplace 说明操作。${safePath ? `插件根目录位于仓库中的 ${safePath}/。` : "仓库根目录就是插件根目录。"}`
-          : `Clone the source, then follow the repository's marketplace instructions for your runtime.${safePath ? ` The plugin root is ${safePath}/ inside the repository.` : " The repository root is the plugin root."}`}
+          ? `克隆源码仓库后，请按照仓库中的设置说明，将插件添加到兼容的客户端。${safePath ? `插件根目录位于 ${safePath}/。` : "仓库根目录就是插件根目录。"}`
+          : `Clone the source repository, then follow its setup instructions to add the plugin to a compatible client.${safePath ? ` The plugin root is ${safePath}/.` : " The repository root is the plugin root."}`}
       </p>
     </Card>
   );
@@ -233,7 +238,7 @@ function McpServerCard({ server }: { server: PluginDetail["mcpServers"][number] 
       <div className="flex flex-wrap items-center gap-2 border-b border-gray-100 px-4 py-2.5">
         <span className="font-mono text-sm font-medium">{server.serverId}</span>
         <Badge mono variant={transportBadgeVariant(server.transport)}>
-          {server.transport}
+          {transportLabel(server.transport)}
         </Badge>
       </div>
       {rows.length > 0 ? (
@@ -263,8 +268,9 @@ function ManifestCard({ manifest, path, locale }: { manifest: string; path: stri
         <span className="font-mono text-xs text-gray-500">{path}</span>
         <CopyButton
           text={pretty}
-          label={locale === "zh-CN" ? "复制清单" : "Copy manifest"}
+          label={locale === "zh-CN" ? "复制 JSON" : "Copy JSON"}
           copiedLabel={locale === "zh-CN" ? "已复制" : "Copied"}
+          errorLabel={locale === "zh-CN" ? "复制失败" : "Copy failed"}
         />
       </div>
       <pre className="max-h-[480px] overflow-x-auto overflow-y-auto px-4 py-3.5 font-mono text-xs leading-relaxed text-gray-700">{pretty}</pre>
@@ -308,23 +314,23 @@ function MetaSidebar({ plugin, locale }: { plugin: PluginDetail; locale: Locale 
   const keywords = [...new Set(plugin.keywords)];
   return (
     <Card className="p-4">
-      <h2 className="sr-only">{zh ? "插件元数据" : "Plugin metadata"}</h2>
+      <h2 className="sr-only">{zh ? "插件详情" : "Plugin details"}</h2>
       <dl className="space-y-4">
-        <MetaRow label={zh ? "仓库" : "repository"}>
+        <MetaRow label={zh ? "源码仓库" : "Source repository"}>
           <ExternalLink url={plugin.repoUrl} />
         </MetaRow>
         {plugin.homepage ? (
-          <MetaRow label={zh ? "主页" : "homepage"}>
+          <MetaRow label={zh ? "插件网站" : "Plugin website"}>
             <ExternalLink url={plugin.homepage} />
           </MetaRow>
         ) : null}
-        {plugin.license ? <MetaRow label={zh ? "许可证" : "license"}>{plugin.license}</MetaRow> : null}
+        {plugin.license ? <MetaRow label={zh ? "许可证" : "License"}>{plugin.license}</MetaRow> : null}
         {plugin.version ? (
-          <MetaRow label={zh ? "版本" : "version"}>
+          <MetaRow label={zh ? "版本" : "Version"}>
             <span className="font-mono">{plugin.version}</span>
           </MetaRow>
         ) : null}
-        <MetaRow label={zh ? "运行时" : "runtimes"}>
+        <MetaRow label={zh ? "插件格式" : "Plugin formats"}>
           <span className="flex flex-wrap gap-1.5">
             {plugin.protocols.map((protocol) => (
               <Badge key={protocol} variant="neutral">
@@ -334,7 +340,7 @@ function MetaSidebar({ plugin, locale }: { plugin: PluginDetail; locale: Locale 
           </span>
         </MetaRow>
         {keywords.length > 0 ? (
-          <MetaRow label={zh ? "关键词" : "keywords"}>
+          <MetaRow label={zh ? "标签" : "Tags"}>
             <span className="flex flex-wrap gap-1.5">
               {keywords.map((kw) => (
                 <Link
@@ -348,7 +354,7 @@ function MetaSidebar({ plugin, locale }: { plugin: PluginDetail; locale: Locale 
             </span>
           </MetaRow>
         ) : null}
-        <MetaRow label={zh ? "收录时间" : "indexed"}>{relativeTime(plugin.indexedAt, locale)}</MetaRow>
+        <MetaRow label={zh ? "添加到目录" : "Added to directory"}>{relativeTime(plugin.createdAt, locale)}</MetaRow>
       </dl>
     </Card>
   );
@@ -375,19 +381,19 @@ export default async function PluginPage({ params }: PluginPageProps) {
   });
 
   const meta: { key: string; node: ReactNode }[] = [];
-  if (plugin.authorName) meta.push({ key: "author", node: <>{zh ? "作者" : "by"} {plugin.authorName}</> });
-  if (plugin.license) meta.push({ key: "license", node: plugin.license });
+  if (plugin.authorName) meta.push({ key: "author", node: <>{zh ? "作者" : "By"} {plugin.authorName}</> });
+  if (plugin.license) meta.push({ key: "license", node: <>{zh ? "许可证" : "License"}: {plugin.license}</> });
   meta.push({
     key: "stars",
     node: (
       <span className="inline-flex items-center gap-1 text-amber-700">
         <StarIcon />
-        {formatNumber(plugin.repoStars, locale)}
+        {formatNumber(plugin.repoStars, locale)} {zh ? "GitHub Stars" : "GitHub stars"}
       </span>
     ),
   });
   if (plugin.repoPushedAt)
-    meta.push({ key: "updated", node: <>{zh ? "更新于" : "updated"} {relativeTime(plugin.repoPushedAt, locale)}</> });
+    meta.push({ key: "updated", node: <>{zh ? "更新于" : "Updated"} {relativeTime(plugin.repoPushedAt, locale)}</> });
 
   return (
     <Container className="py-10">
@@ -420,7 +426,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
           ))}
           {plugin.skillCount > 0 ? (
             <Badge variant="skill">
-              {zh ? `${plugin.skillCount} 个技能` : `${plugin.skillCount} skill${plugin.skillCount === 1 ? "" : "s"}`}
+              {zh ? `${plugin.skillCount} 个技能` : `${plugin.skillCount} Skill${plugin.skillCount === 1 ? "" : "s"}`}
             </Badge>
           ) : null}
           {plugin.mcpCount > 0 ? (
@@ -430,7 +436,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
           ) : null}
           {plugin.transports.map((t) => (
             <Badge key={t} mono variant={transportBadgeVariant(t)}>
-              {t}
+              {transportLabel(t)}
             </Badge>
           ))}
         </div>
@@ -451,14 +457,14 @@ export default async function PluginPage({ params }: PluginPageProps) {
       <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="min-w-0 space-y-10">
           <section>
-            <SectionHeading title={zh ? "源码" : "Source"} />
+            <SectionHeading title={zh ? "获取插件" : "Get the plugin"} />
             <div className="mt-3">
               <SourceCard plugin={plugin} locale={locale} />
             </div>
           </section>
 
           <section>
-            <SectionHeading title={zh ? "目录结构" : "Layout"} />
+            <SectionHeading title={zh ? "插件文件" : "Plugin files"} />
             <div className="mt-3">
               <DirectoryTree plugin={plugin} />
             </div>
@@ -466,7 +472,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
 
           {plugin.skills.length > 0 ? (
             <section>
-              <SectionHeading title={zh ? "技能" : "Skills"} count={plugin.skills.length} />
+              <SectionHeading title={zh ? "包含的技能" : "Included Skills"} count={plugin.skills.length} />
               <Card className="mt-3 divide-y divide-gray-100">
                 {plugin.skills.map((skill) => (
                   <div key={skill.dirName} className="px-4 py-3.5">
@@ -507,7 +513,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
           ) : null}
 
           <section>
-            <SectionHeading title={zh ? "清单" : "Manifests"} count={plugin.protocols.length} />
+            <SectionHeading title={zh ? "插件清单" : "Plugin manifests"} count={plugin.protocols.length} />
             <div className="mt-3 space-y-4">
               {plugin.protocols.map((protocol) => {
                 const entry = plugin.manifests[protocol];

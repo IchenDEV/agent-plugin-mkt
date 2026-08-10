@@ -11,11 +11,11 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const zh = locale === "zh-CN";
-  const title = zh ? "插件分类" : "Categories";
-  const socialTitle = zh ? "Agent 插件分类" : "Agent Plugin categories";
+  const title = zh ? "插件标签" : "Plugin tags";
+  const socialTitle = zh ? "插件标签" : "Plugin tags";
   const description = zh
-    ? "按分类浏览 Agent 插件；分类来自清单关键词，并按声明该关键词的插件数量排序。"
-    : "Browse Agent Plugins by category — keyword-derived groupings ranked by how many plugins declare them.";
+    ? "按插件清单中的关键词浏览插件，并查看每个标签下的插件数量。"
+    : "Browse plugins by manifest keyword and see how many plugins use each tag.";
   return {
     title,
     description,
@@ -33,8 +33,8 @@ export default async function CategoriesPage() {
     "@type": "CollectionPage",
     "@id": `${absoluteUrl("/categories")}#collection`,
     url: absoluteUrl("/categories"),
-    name: zh ? "Agent 插件分类" : "Agent Plugin categories",
-    description: zh ? "用于整理 Agent 插件索引的清单关键词分类。" : "Manifest keyword categories used to organize the Agent Plugin index.",
+    name: zh ? "插件标签" : "Plugin tags",
+    description: zh ? "用于整理插件目录的清单关键词。" : "Manifest keywords used to organize the plugin directory.",
     inLanguage: locale,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     mainEntity: {
@@ -53,25 +53,25 @@ export default async function CategoriesPage() {
     <Container className="py-10">
       <JsonLd data={categoriesJsonLd} />
       <div className="max-w-2xl">
-        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{zh ? "分类" : "Categories"}</h1>
+        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{zh ? "标签" : "Tags"}</h1>
         <p className="mt-2 text-sm leading-relaxed text-gray-500">
           {zh
-            ? "分类来自每个插件的清单关键词，并按声明该关键词的已收录插件数量排序。选择一个分类即可筛选插件。"
-            : "Categories are derived from each plugin's manifest keywords and ranked by how many indexed plugins declare them — pick one to filter the browse view."}
+            ? "标签来自插件清单中的关键词，并按使用该标签的插件数量排序。选择标签即可查看相关插件。"
+            : "Tags come from plugin manifest keywords and are ranked by the number of plugins that use them. Select a tag to see matching plugins."}
         </p>
       </div>
 
       {categories.length === 0 ? (
         <div className="mt-8">
           <EmptyState
-            title={zh ? "暂无分类" : "No categories yet"}
-            hint={zh ? "收录带有清单关键词的插件后，分类会显示在这里；你可以先浏览完整插件列表。" : "Categories appear once plugins with manifest keywords are indexed — browse the full list in the meantime."}
+            title={zh ? "暂无标签" : "No tags yet"}
+            hint={zh ? "带有清单关键词的插件添加后，标签会显示在这里。你可以先浏览全部插件。" : "Tags appear after plugins with manifest keywords are added. You can browse all plugins in the meantime."}
             action={
               <Link
                 href="/plugins"
                 className="inline-flex rounded-md bg-action px-4 py-2 text-sm font-semibold text-on-action hover:bg-iris"
               >
-                {zh ? "浏览插件" : "Browse plugins"}
+                {zh ? "浏览全部插件" : "Browse all plugins"}
               </Link>
             }
           />

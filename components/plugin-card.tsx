@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Badge, Card } from "@/components/ui";
+import { Badge, Card, transportLabel } from "@/components/ui";
 import { formatNumber, relativeTime } from "@/lib/format";
 import type { Locale } from "@/lib/i18n";
 import type { PluginSummary } from "@/lib/queries";
@@ -18,7 +18,7 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
         className="flex h-full flex-col gap-3 p-4 focus-visible:outline-none"
       >
         <p className="line-clamp-2 text-sm leading-relaxed text-gray-600">
-          {plugin.description ?? (zh ? "清单中没有描述。" : "No description in manifest.")}
+          {plugin.description ?? (zh ? "暂未提供描述。" : "Description not provided.")}
         </p>
         <div className="mt-auto flex flex-wrap items-center gap-1.5">
           {plugin.protocols.map((protocol) => (
@@ -28,7 +28,7 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
           ))}
           {plugin.skillCount > 0 ? (
             <Badge variant="skill">
-              {zh ? `${plugin.skillCount} 个技能` : `${plugin.skillCount} skill${plugin.skillCount > 1 ? "s" : ""}`}
+              {zh ? `${plugin.skillCount} 个技能` : `${plugin.skillCount} Skill${plugin.skillCount === 1 ? "" : "s"}`}
             </Badge>
           ) : null}
           {plugin.mcpCount > 0 ? (
@@ -38,7 +38,7 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
           ) : null}
           {plugin.transports.map((t) => (
             <Badge key={t} mono variant={t === "stdio" ? "stdio" : t === "sse" ? "sse" : "http"}>
-              {t}
+              {transportLabel(t)}
             </Badge>
           ))}
         </div>
@@ -49,8 +49,8 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
             </svg>
             {formatNumber(plugin.repoStars, locale)}
           </span>
-          <span title={plugin.indexedAt.toISOString()}>
-            {zh ? `收录于${relativeTime(plugin.indexedAt, locale)}` : `indexed ${relativeTime(plugin.indexedAt, locale)}`}
+          <span title={plugin.createdAt.toISOString()}>
+            {zh ? `添加于${relativeTime(plugin.createdAt, locale)}` : `Added ${relativeTime(plugin.createdAt, locale)}`}
           </span>
         </div>
       </Link>

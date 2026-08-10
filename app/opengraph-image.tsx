@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "plugins marketplace — the registry for Agent Plugins";
+export const alt = "Agent Plugin Directory — find plugins for Codex, Claude Code, and Agent Plugins";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -47,18 +47,18 @@ export default function OpenGraphImage() {
           >
             /
           </span>
-          plugins <span style={{ color: "#5147e5", marginLeft: 8 }}>marketplace</span>
+          Agent Plugin <span style={{ color: "#5147e5", marginLeft: 8 }}>Directory</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 70, fontWeight: 750, letterSpacing: "-3px", lineHeight: 1.05 }}>
-            The registry for Agent Plugins
+            Find plugins for your AI tools
           </div>
           <div style={{ color: "#596171", fontSize: 29, marginTop: 28 }}>
-            Open-source skills and MCP servers, indexed from GitHub.
+            Compare plugin formats, skills, and MCP servers.
           </div>
         </div>
         <div style={{ color: "#5147e5", display: "flex", fontSize: 24, fontWeight: 600 }}>
-          Browse manifests · compare components · query via API or MCP
+          Search plugins · review source · connect with REST or MCP
         </div>
       </div>
     </div>,

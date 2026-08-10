@@ -10,7 +10,7 @@ export async function GET(req: Request, ctx: { params: Promise<{ slug: string }>
   const { slug } = await ctx.params;
   const plugin = await getPluginBySlug(slug);
   if (!plugin) {
-    return error(404, "not_found", `No plugin with slug "${slug.slice(0, 100)}".`);
+    return error(404, "not_found", `No plugin found for slug "${slug.slice(0, 100)}".`);
   }
   return json({ data: plugin });
 }

@@ -53,6 +53,12 @@ export function transportBadgeVariant(transport: string): BadgeVariant {
   return "neutral";
 }
 
+export function transportLabel(transport: string): string {
+  if (transport === "streamable-http") return "Streamable HTTP";
+  if (transport === "sse") return "HTTP+SSE (legacy)";
+  return transport;
+}
+
 export function Badge({
   variant = "neutral",
   mono = false,

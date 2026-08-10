@@ -2,9 +2,9 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agent-plugin-marketplace",
   "version": "0.1.0",
-  "description": "Registry for Agent Plugins: browse indexed skills and MCP servers on the web, or search the registry from an agent via its MCP endpoint.",
+  "description": "Find open-source Agent Plugins, compare their included Agent Skills and MCP servers, or search the directory from an MCP-compatible client.",
   "license": "MIT",
-  "keywords": ["registry", "marketplace", "skills", "mcp"],
+  "keywords": ["directory", "discovery", "skills", "mcp"],
   "homepage": "https://pluginsmp.com",
   "repository": "https://github.com/IchenDEV/agent-plugin-mkt"
 }

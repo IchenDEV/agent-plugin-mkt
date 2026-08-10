@@ -3,7 +3,7 @@ import { relativeTime } from "@/lib/format";
 import type { PluginSummary } from "@/lib/queries";
 
 /**
- * Compact list rows for "Recently indexed" on the home page — deliberately
+ * Compact list rows for "Recently added" on the home page — deliberately
  * quieter than the featured folder-tab grid: mono name, one-line description,
  * relative index time.
  */
@@ -20,10 +20,10 @@ export function RecentList({ plugins }: { plugins: PluginSummary[] }) {
             {plugin.name}
           </span>
           <span className="hidden min-w-0 flex-1 truncate text-sm text-gray-500 sm:block">
-            {plugin.description ?? "No description in manifest."}
+            {plugin.description ?? "Description not provided."}
           </span>
           <span className="ml-auto shrink-0 whitespace-nowrap text-xs text-gray-400">
-            {relativeTime(plugin.indexedAt)}
+            Added {relativeTime(plugin.createdAt)}
           </span>
         </Link>
       ))}

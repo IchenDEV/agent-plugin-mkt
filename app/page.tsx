@@ -16,83 +16,83 @@ const CLAUDE_SPEC_URL = "https://code.claude.com/docs/en/plugins-reference";
 
 const HOME_COPY = {
   en: {
-    compatibility: "Codex + Claude Code compatible",
-    title: "One registry for agent plugins",
-    intro: "Discover open-source skills and MCP servers packaged for Codex, Claude Code, or both, indexed straight from canonical GitHub manifests.",
-    searchPlaceholder: "Search plugins, skills, MCP servers…",
+    compatibility: "Supports Codex, Claude Code, and Agent Plugins",
+    title: "Find plugins for your AI tools",
+    intro: "Search open-source plugins from public GitHub repositories. See which plugin formats they support, the skills and MCP servers they include, and their source before installing.",
+    searchPlaceholder: "Search by name, task, or tag",
     search: "Search",
-    browse: "Browse all plugins →",
-    agentsLink: "For agents: API & MCP →",
-    stats: "Registry stats",
-    statPlugins: "Plugins indexed",
+    browse: "Find plugins →",
+    agentsLink: "Use the developer API →",
+    stats: "Directory totals",
+    statPlugins: "Plugins",
     statSkills: "Skills",
     statMcp: "MCP servers",
-    statCategories: "Categories",
-    emptyTitle: "The index is empty",
-    emptyHint: "Nothing has been crawled yet — run npm run db:seed to index the sample registry, then refresh this page.",
-    featured: "Featured plugins",
-    browseAll: "Browse all →",
-    recent: "Recently indexed",
-    noDescription: "No description in manifest.",
-    indexed: "indexed",
-    anatomy: "Anatomy of a plugin",
-    anatomyBody: "Codex and Claude Code plugins share the same self-contained shape: runtime metadata, skills under",
-    anatomyBodyEnd: ", and optional MCP configuration. Their canonical manifest directories differ, so the index records both.",
-    codexDocs: "Codex packaging docs →",
-    claudeDocs: "Claude Code reference →",
+    statCategories: "Tags",
+    emptyTitle: "No plugins are available yet",
+    emptyHint: "The directory is being prepared. Check back soon.",
+    featured: "Popular on GitHub",
+    browseAll: "View all plugins →",
+    recent: "Recently added",
+    noDescription: "Description not provided.",
+    added: "Added",
+    anatomy: "Know what’s inside a plugin",
+    anatomyBody: "A plugin is a folder that contains a manifest for one or more supported formats, skills under",
+    anatomyBodyEnd: ", and optional MCP configuration. Review these files and the repository instructions before installing.",
+    codexDocs: "Codex plugin documentation →",
+    claudeDocs: "Claude Code plugin documentation →",
     treeLabel: "Example plugin directory layout",
-    codexManifest: "Codex manifest",
-    claudeManifest: "Claude Code manifest",
-    skillComment: "one directory per skill",
-    mcpComment: "MCP server definitions",
-    agentsTitle: "Built for agents",
-    agentsIntro: "Every surface reads from the same index — humans get this site, agents get structured endpoints.",
-    apiBody: "Search, filter, and page through the full index as plain JSON.",
-    apiLink: "API reference →",
-    mcpBody: "An MCP endpoint agents can call natively to query the registry from inside a session.",
-    mcpLink: "MCP endpoint →",
+    codexManifest: "Codex plugin manifest",
+    claudeManifest: "Claude Code plugin manifest",
+    skillComment: "instructions for one skill",
+    mcpComment: "MCP server configuration",
+    agentsTitle: "Search from your own tools",
+    agentsIntro: "Use the REST API in an app or script, or connect an MCP client so an agent can find plugins without leaving its current task.",
+    apiBody: "Find plugins, apply filters, and receive paginated JSON results.",
+    apiLink: "REST API documentation →",
+    mcpBody: "Let an MCP-compatible client search the directory with built-in tools.",
+    mcpLink: "MCP setup →",
   },
   "zh-CN": {
-    compatibility: "兼容 Codex 与 Claude Code",
-    title: "一个 Agent 插件注册中心",
-    intro: "发现为 Codex、Claude Code 或两者打包的开源技能与 MCP 服务器，数据直接来自 GitHub 上的规范清单。",
-    searchPlaceholder: "搜索插件、技能和 MCP 服务器…",
+    compatibility: "支持 Codex、Claude Code 和 Agent Plugins",
+    title: "查找适合你的 AI 工具的插件",
+    intro: "搜索公开 GitHub 仓库中的开源插件。安装前可查看插件支持的格式、包含的技能与 MCP 服务器，以及源码仓库。",
+    searchPlaceholder: "按名称、用途或标签搜索",
     search: "搜索",
-    browse: "浏览全部插件 →",
-    agentsLink: "Agent 接入：API 与 MCP →",
-    stats: "注册中心统计",
-    statPlugins: "已收录插件",
+    browse: "查找插件 →",
+    agentsLink: "使用开发者 API →",
+    stats: "目录统计",
+    statPlugins: "插件",
     statSkills: "技能",
     statMcp: "MCP 服务器",
-    statCategories: "分类",
-    emptyTitle: "索引为空",
-    emptyHint: "目前还没有抓取任何内容。运行 npm run db:seed 收录示例注册表，然后刷新此页面。",
-    featured: "精选插件",
-    browseAll: "浏览全部 →",
-    recent: "最近收录",
-    noDescription: "清单中没有描述。",
-    indexed: "收录于",
-    anatomy: "插件的组成",
-    anatomyBody: "Codex 与 Claude Code 插件采用相同的自包含结构：运行时元数据、位于",
-    anatomyBodyEnd: " 下的技能，以及可选的 MCP 配置。两者的规范清单目录不同，因此索引会同时记录。",
-    codexDocs: "Codex 打包文档 →",
-    claudeDocs: "Claude Code 参考文档 →",
+    statCategories: "标签",
+    emptyTitle: "暂时没有可用插件",
+    emptyHint: "插件目录正在准备中，请稍后再来查看。",
+    featured: "GitHub 热门插件",
+    browseAll: "查看全部插件 →",
+    recent: "最近新增",
+    noDescription: "暂未提供描述。",
+    added: "添加于",
+    anatomy: "了解插件包含什么",
+    anatomyBody: "插件是一个文件夹，其中包含一种或多种受支持格式的清单、位于",
+    anatomyBodyEnd: " 下的技能，以及可选的 MCP 配置。安装前请查看这些文件和仓库中的说明。",
+    codexDocs: "Codex 插件文档 →",
+    claudeDocs: "Claude Code 插件文档 →",
     treeLabel: "插件目录结构示例",
-    codexManifest: "Codex 清单",
-    claudeManifest: "Claude Code 清单",
-    skillComment: "每个技能一个目录",
-    mcpComment: "MCP 服务器定义",
-    agentsTitle: "为 Agent 而建",
-    agentsIntro: "所有界面读取同一份索引：人类使用网站，Agent 使用结构化接口。",
-    apiBody: "以纯 JSON 搜索、筛选并分页读取完整索引。",
-    apiLink: "API 参考 →",
-    mcpBody: "Agent 可以在会话中原生调用 MCP 端点来查询注册中心。",
-    mcpLink: "MCP 端点 →",
+    codexManifest: "Codex 插件清单",
+    claudeManifest: "Claude Code 插件清单",
+    skillComment: "一个技能的说明文件",
+    mcpComment: "MCP 服务器配置",
+    agentsTitle: "在你的工具中搜索",
+    agentsIntro: "应用或脚本可以调用 REST API；MCP 客户端也可以让 Agent 在当前任务中直接查找插件。",
+    apiBody: "查找插件、应用筛选条件，并获取分页 JSON 结果。",
+    apiLink: "REST API 文档 →",
+    mcpBody: "让兼容 MCP 的客户端通过内置工具搜索插件目录。",
+    mcpLink: "MCP 设置 →",
   },
 } as const;
 
 export const metadata: Metadata = {
-  title: { absolute: `${SITE_NAME} — Agent skills & MCP servers` },
+  title: { absolute: `${SITE_NAME} — Plugins, skills, and MCP servers` },
   description: SITE_DESCRIPTION,
   alternates: { canonical: "/" },
 };
@@ -260,10 +260,10 @@ export default async function HomePage() {
       })),
     },
     additionalProperty: [
-      { "@type": "PropertyValue", name: "Plugins indexed", value: stats.plugins },
+      { "@type": "PropertyValue", name: "Plugins", value: stats.plugins },
       { "@type": "PropertyValue", name: "Skills", value: stats.skills },
       { "@type": "PropertyValue", name: "MCP servers", value: stats.mcpServers },
-      { "@type": "PropertyValue", name: "Categories", value: stats.categories },
+      { "@type": "PropertyValue", name: "Tags", value: stats.categories },
     ],
   };
 
@@ -273,15 +273,10 @@ export default async function HomePage() {
       {/* Hero */}
       <section>
         <Container className="pb-14 pt-16 sm:pb-16 sm:pt-24">
-          <a
-            href={CODEX_SPEC_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-mono text-xs text-gray-500 hover:text-iris"
-          >
+          <p className="inline-flex items-center gap-2 font-mono text-xs text-gray-500">
             <span aria-hidden className="inline-block size-1.5 rounded-full bg-iris" />
             {c.compatibility}
-          </a>
+          </p>
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-bold tracking-tight sm:text-5xl">
             {c.title}
           </h1>
@@ -353,7 +348,7 @@ export default async function HomePage() {
             </Container>
           </section>
 
-          {/* Recently indexed */}
+          {/* Recently added */}
           <section aria-labelledby="recent-heading">
             <Container className="pb-16 sm:pb-20">
               <h2
@@ -380,7 +375,7 @@ export default async function HomePage() {
                           className="shrink-0 text-xs text-gray-500"
                           title={plugin.createdAt.toISOString()}
                         >
-                          {locale === "zh-CN" ? c.indexed : `${c.indexed} `}{relativeTime(plugin.createdAt, locale)}
+                          {locale === "zh-CN" ? c.added : `${c.added} `}{relativeTime(plugin.createdAt, locale)}
                         </span>
                       </Link>
                     </li>

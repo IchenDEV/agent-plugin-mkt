@@ -6,6 +6,7 @@ import {
   type PluginFilters,
 } from "@/lib/queries";
 import { PLUGIN_PROTOCOLS } from "@/lib/protocols";
+import { SITE_NAME } from "@/lib/site";
 
 // MCP server protocol logic (Streamable HTTP, stateless), kept as a pure
 // function over parsed JSON so it is testable without an HTTP layer.
@@ -244,7 +245,7 @@ function initializeResult(params: Record<string, unknown>): Record<string, unkno
     capabilities: { tools: { listChanged: false } },
     serverInfo: {
       name: "agent-plugin-marketplace",
-      title: "Agent Plugin Directory",
+      title: SITE_NAME,
       version: "0.1.0",
     },
     instructions:

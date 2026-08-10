@@ -30,7 +30,7 @@ function docsJsonLd(locale: Locale) {
     "@type": "TechArticle",
     "@id": `${absoluteUrl("/docs")}#article`,
     url: absoluteUrl("/docs"),
-    headline: zh ? "Agent Plugin Directory API 与 MCP 文档" : "Agent Plugin Directory API & MCP documentation",
+    headline: zh ? `${SITE_NAME} API 与 MCP 文档` : `${SITE_NAME} API & MCP documentation`,
     description: zh
       ? "插件目录的只读 REST API、OpenAPI 描述与无状态 Streamable HTTP MCP 服务器参考。"
       : "Reference for the plugin directory's read-only REST API, OpenAPI description, and stateless Streamable HTTP MCP server.",

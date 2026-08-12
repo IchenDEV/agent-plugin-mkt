@@ -4,6 +4,7 @@ import { formatNumber, relativeTime } from "@/lib/format";
 import type { Locale } from "@/lib/i18n";
 import type { PluginSummary } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
+import { pluginDescription } from "@/lib/seo-content";
 
 /**
  * The manifest card used on the home featured grid and the browse grid.
@@ -18,7 +19,7 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
         className="flex h-full flex-col gap-3 p-4 focus-visible:outline-none"
       >
         <p className="line-clamp-2 text-sm leading-relaxed text-gray-600">
-          {plugin.description ?? (zh ? "暂未提供描述。" : "Description not provided.")}
+          {pluginDescription(plugin, locale)}
         </p>
         <div className="mt-auto flex flex-wrap items-center gap-1.5">
           {plugin.protocols.map((protocol) => (

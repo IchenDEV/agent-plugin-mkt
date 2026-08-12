@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Fragment, cache, type ReactNode } from "react";
+import { Fragment, Suspense, cache, type ReactNode } from "react";
 import { CopyButton } from "@/components/copy-button";
 import { JsonLd } from "@/components/json-ld";
+import { PluginCard } from "@/components/plugin-card";
 import { Badge, Card, Container, transportBadgeVariant, transportLabel } from "@/components/ui";
-import { formatNumber, relativeTime, stripControlChars } from "@/lib/format";
-import { getPluginBySlug, type PluginDetail } from "@/lib/queries";
+import { formatDate, formatNumber, relativeTime, stripControlChars } from "@/lib/format";
+import { getPluginBySlug, searchPlugins, type PluginDetail } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
+import {
+  compactDescription,
+  pluginDescription,
+  pluginPageTitle,
+  pluginRuntimeLabel,
+} from "@/lib/seo-content";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 import type { Locale } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
@@ -24,31 +31,30 @@ export async function generateMetadata({ params }: PluginPageProps): Promise<Met
   const zh = locale === "zh-CN";
   const plugin = await getPlugin(slug);
   if (!plugin) return { title: zh ? "未找到插件" : "Plugin not found", robots: { index: false, follow: false } };
-  const description =
-    plugin.description ?? (zh ? `${plugin.name} — 查看插件格式、技能、MCP 服务器和源码。` : `${plugin.name} — review its plugin formats, skills, MCP servers, and source.`);
+  const description = compactDescription(pluginDescription(plugin, locale));
+  const title = pluginPageTitle(plugin, locale);
   const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
   return {
-    title: plugin.name,
+    title,
     description,
     keywords: plugin.keywords,
     authors: plugin.authorName ? [{ name: plugin.authorName }] : undefined,
     alternates: { canonical },
     openGraph: {
       type: "website",
-      title: `${plugin.name} ${zh ? "插件" : "plugin"}`,
+      title,
       description,
       url: canonical,
       siteName: SITE_NAME,
     },
-    twitter: { card: "summary_large_image", title: `${plugin.name} ${zh ? "插件" : "plugin"}`, description },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
 function pluginJsonLd(plugin: PluginDetail, locale: Locale): Record<string, unknown> {
   const zh = locale === "zh-CN";
   const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
-  const description =
-    plugin.description ?? (zh ? `${plugin.name} — 查看插件格式、技能、MCP 服务器和源码。` : `${plugin.name} — review its plugin formats, skills, MCP servers, and source.`);
+  const description = pluginDescription(plugin, locale);
   const parts: Record<string, unknown>[] = [
     ...plugin.skills.map((skill) => ({
       "@type": "CreativeWork",
@@ -360,11 +366,117 @@ function MetaSidebar({ plugin, locale }: { plugin: PluginDetail; locale: Locale 
   );
 }
 
+function DirectoryEvidence({ plugin, locale }: { plugin: PluginDetail; locale: Locale }) {
+  const zh = locale === "zh-CN";
+  const componentCount = plugin.skillCount + plugin.mcpCount;
+  return (
+    <Card className="mt-6 p-4 sm:p-5">
+      <h2 className="font-display text-lg font-semibold tracking-tight">
+        {zh ? "目录证据" : "Directory evidence"}
+      </h2>
+      <dl className="mt-4 grid gap-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <dt className="font-mono text-[11px] uppercase tracking-wider text-gray-400">{zh ? "运行时" : "Runtimes"}</dt>
+          <dd className="mt-1 text-gray-700">{pluginRuntimeLabel(plugin.protocols, locale)}</dd>
+        </div>
+        <div>
+          <dt className="font-mono text-[11px] uppercase tracking-wider text-gray-400">{zh ? "已解析组件" : "Parsed components"}</dt>
+          <dd className="mt-1 text-gray-700">{componentCount} {zh ? "个技能或 MCP 条目" : `skill or MCP entr${componentCount === 1 ? "y" : "ies"}`}</dd>
+        </div>
+        <div>
+          <dt className="font-mono text-[11px] uppercase tracking-wider text-gray-400">{zh ? "源码更新" : "Source updated"}</dt>
+          <dd className="mt-1 text-gray-700">{formatDate(plugin.repoPushedAt, locale)}</dd>
+        </div>
+        <div>
+          <dt className="font-mono text-[11px] uppercase tracking-wider text-gray-400">{zh ? "清单状态" : "Manifest status"}</dt>
+          <dd className="mt-1 text-gray-700">{zh ? "规范路径已解析" : "Canonical path parsed"}</dd>
+        </div>
+      </dl>
+      <p className="mt-4 border-t border-gray-100 pt-3 text-xs leading-relaxed text-gray-500">
+        {zh ? "目录验证清单格式和源码位置，不执行插件，也不代表安全审核。" : "The directory validates manifest shape and source location. It does not execute the plugin or provide a security endorsement."}{" "}
+        <Link href="/insights#methodology" className="font-medium text-iris hover:text-iris-deep">
+          {zh ? "查看索引方法" : "Review the indexing methodology"} →
+        </Link>
+      </p>
+    </Card>
+  );
+}
+
+async function RelatedPlugins({ plugin, locale }: { plugin: PluginDetail; locale: Locale }) {
+  const primaryCategory = plugin.keywords.find((keyword) => keyword.trim().length > 0);
+  const results = await searchPlugins({
+    category: primaryCategory,
+    protocols: primaryCategory ? undefined : plugin.protocols.slice(0, 1),
+    sort: "stars",
+    perPage: 4,
+  });
+  const related = results.items.filter((candidate) => candidate.slug !== plugin.slug).slice(0, 3);
+  if (related.length === 0) return null;
+  const zh = locale === "zh-CN";
+  return (
+    <section className="mt-14" aria-labelledby="related-plugins-heading">
+      <div className="mb-6 flex flex-wrap items-baseline justify-between gap-3">
+        <h2 id="related-plugins-heading" className="font-display text-2xl font-bold tracking-tight">
+          {zh ? "相关插件" : "Related plugins"}
+        </h2>
+        {primaryCategory ? (
+          <Link
+            href={`/plugins?category=${encodeURIComponent(primaryCategory)}`}
+            className="text-sm font-medium text-iris hover:text-iris-deep"
+          >
+            {zh ? `查看“${primaryCategory}”标签` : `Browse the “${primaryCategory}” tag`} →
+          </Link>
+        ) : null}
+      </div>
+      <div className="grid gap-x-5 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+        {related.map((candidate) => (
+          <PluginCard key={candidate.slug} plugin={candidate} locale={locale} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function RelatedPluginsFallback({ locale }: { locale: Locale }) {
+  return (
+    <section className="mt-14" aria-label={locale === "zh-CN" ? "加载相关插件" : "Loading related plugins"}>
+      <div className="h-7 w-40 animate-pulse rounded bg-gray-100" />
+      <div className="mt-6 grid gap-5 sm:grid-cols-3">
+        {[0, 1, 2].map((item) => <div key={item} className="h-40 animate-pulse rounded-lg border border-gray-200 bg-surface" />)}
+      </div>
+    </section>
+  );
+}
+
+function MaintainerLink({ plugin, locale }: { plugin: PluginDetail; locale: Locale }) {
+  const zh = locale === "zh-CN";
+  const label = stripControlChars(plugin.name).replace(/[\[\]]/g, "");
+  const url = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
+  const markdown = `[${label} on Agent Plugins Marketplace](${url})`;
+  return (
+    <section className="mt-14" aria-labelledby="maintainer-link-heading">
+      <h2 id="maintainer-link-heading" className="font-display text-xl font-bold tracking-tight">
+        {zh ? "维护者链接" : "For maintainers"}
+      </h2>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-600">
+        {zh ? "如果你维护这个插件，可以在 README 中链接到这份源码索引页面，方便使用者核对清单和组件。" : "If you maintain this plugin, link to this source-backed listing from your README so users can review its manifest and indexed components."}
+      </p>
+      <Card className="mt-4">
+        <div className="flex items-start gap-3 p-4">
+          <code className="min-w-0 flex-1 whitespace-pre-wrap break-all font-mono text-xs leading-relaxed text-gray-700">{markdown}</code>
+          <CopyButton text={markdown} label={zh ? "复制 Markdown" : "Copy Markdown"} copiedLabel={zh ? "已复制" : "Copied"} errorLabel={zh ? "复制失败" : "Copy failed"} />
+        </div>
+      </Card>
+    </section>
+  );
+}
+
 export default async function PluginPage({ params }: PluginPageProps) {
   const [{ slug }, locale] = await Promise.all([params, getLocale()]);
   const zh = locale === "zh-CN";
   const plugin = await getPlugin(slug);
   if (!plugin) notFound();
+  const description = pluginDescription(plugin, locale);
 
   // Portable plugin runtimes expose one of these plugin-root placeholders.
   const hasPlaceholders = plugin.mcpServers.some(({ config }) => {
@@ -413,11 +525,9 @@ export default async function PluginPage({ params }: PluginPageProps) {
             </Badge>
           ) : null}
         </div>
-        {plugin.description ? (
-          <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-gray-600">
-            {plugin.description}
-          </p>
-        ) : null}
+        <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-gray-600">
+          {description}
+        </p>
         <div className="mt-4 flex flex-wrap items-center gap-1.5">
           {plugin.protocols.map((protocol) => (
             <Badge key={protocol} variant="neutral">
@@ -453,6 +563,8 @@ export default async function PluginPage({ params }: PluginPageProps) {
           ))}
         </p>
       </header>
+
+      <DirectoryEvidence plugin={plugin} locale={locale} />
 
       <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="min-w-0 space-y-10">
@@ -528,6 +640,11 @@ export default async function PluginPage({ params }: PluginPageProps) {
           <MetaSidebar plugin={plugin} locale={locale} />
         </aside>
       </div>
+
+      <Suspense fallback={<RelatedPluginsFallback locale={locale} />}>
+        <RelatedPlugins plugin={plugin} locale={locale} />
+      </Suspense>
+      <MaintainerLink plugin={plugin} locale={locale} />
     </Container>
   );
 }

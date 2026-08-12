@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { relativeTime } from "@/lib/format";
 import type { PluginSummary } from "@/lib/queries";
+import { pluginDescription } from "@/lib/seo-content";
 
 /**
  * Compact list rows for "Recently added" on the home page — deliberately
@@ -20,7 +21,7 @@ export function RecentList({ plugins }: { plugins: PluginSummary[] }) {
             {plugin.name}
           </span>
           <span className="hidden min-w-0 flex-1 truncate text-sm text-gray-500 sm:block">
-            {plugin.description ?? "Description not provided."}
+            {pluginDescription(plugin, "en")}
           </span>
           <span className="ml-auto shrink-0 whitespace-nowrap text-xs text-gray-400">
             Added {relativeTime(plugin.createdAt)}

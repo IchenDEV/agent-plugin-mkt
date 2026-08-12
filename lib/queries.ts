@@ -4,6 +4,7 @@ import {
   PLUGIN_PROTOCOLS,
   type PluginProtocol,
 } from "@/lib/protocols";
+import { cacheCatalogQuery } from "@/lib/server-cache";
 
 // Shared read layer. The web UI, REST API, and MCP endpoint all go through
 // these functions so every surface returns consistent results.
@@ -74,7 +75,7 @@ type PluginWithTransports = Prisma.PluginGetPayload<{
   include: { mcpServers: { select: { transport: true } } };
 }>;
 
-function parseKeywords(json: string): string[] {
+export function parseKeywords(json: string): string[] {
   try {
     const value = JSON.parse(json);
     return Array.isArray(value) ? value.filter((k): k is string => typeof k === "string") : [];
@@ -83,7 +84,7 @@ function parseKeywords(json: string): string[] {
   }
 }
 
-function parseProtocols(json: string): PluginProtocol[] {
+export function parseProtocols(json: string): PluginProtocol[] {
   try {
     const value = JSON.parse(json);
     return Array.isArray(value)
@@ -146,16 +147,7 @@ function toSummary(plugin: PluginWithTransports): PluginSummary {
   };
 }
 
-export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<PluginSummary>> {
-  // Clamp to safe integers here so no surface (REST, MCP, web) can push a
-  // skip value past the query engine's 64-bit integer range.
-  const rawPage = Math.floor(filters.page ?? 1);
-  const page = Number.isSafeInteger(rawPage) ? Math.max(1, rawPage) : 1;
-  const rawPerPage = Math.floor(filters.perPage ?? DEFAULT_PER_PAGE);
-  const perPage = Number.isSafeInteger(rawPerPage)
-    ? Math.min(MAX_PER_PAGE, Math.max(1, rawPerPage))
-    : DEFAULT_PER_PAGE;
-
+export function pluginWhereForFilters(filters: PluginFilters = {}): Prisma.PluginWhereInput {
   const where: Prisma.PluginWhereInput = {};
   const and: Prisma.PluginWhereInput[] = [];
 
@@ -187,6 +179,33 @@ export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<
     });
   }
   if (and.length) where.AND = and;
+  return where;
+}
+
+function normalizedCacheFilters(filters: PluginFilters): PluginFilters {
+  return {
+    q: filters.q?.trim().slice(0, MAX_QUERY_LENGTH) || undefined,
+    category: filters.category?.trim().toLowerCase() || undefined,
+    type: filters.type,
+    transport: filters.transport,
+    protocols: filters.protocols ? [...new Set(filters.protocols)].sort() : undefined,
+    sort: filters.sort ?? "stars",
+    page: Math.max(1, Math.floor(filters.page ?? 1)),
+    perPage: Math.min(MAX_PER_PAGE, Math.max(1, Math.floor(filters.perPage ?? DEFAULT_PER_PAGE))),
+  };
+}
+
+async function searchPluginsUncached(filters: PluginFilters = {}): Promise<Paged<PluginSummary>> {
+  // Clamp to safe integers here so no surface (REST, MCP, web) can push a
+  // skip value past the query engine's 64-bit integer range.
+  const rawPage = Math.floor(filters.page ?? 1);
+  const page = Number.isSafeInteger(rawPage) ? Math.max(1, rawPage) : 1;
+  const rawPerPage = Math.floor(filters.perPage ?? DEFAULT_PER_PAGE);
+  const perPage = Number.isSafeInteger(rawPerPage)
+    ? Math.min(MAX_PER_PAGE, Math.max(1, rawPerPage))
+    : DEFAULT_PER_PAGE;
+
+  const where = pluginWhereForFilters(filters);
 
   const orderBy: Prisma.PluginOrderByWithRelationInput[] =
     filters.sort === "updated"
@@ -215,7 +234,17 @@ export async function searchPlugins(filters: PluginFilters = {}): Promise<Paged<
   };
 }
 
-export async function getPluginBySlug(slug: string): Promise<PluginDetail | null> {
+export function searchPlugins(filters: PluginFilters = {}): Promise<Paged<PluginSummary>> {
+  const normalized = normalizedCacheFilters(filters);
+  // Free-text terms are unbounded user input. Keep them out of the cross-request
+  // cache while caching the finite browse, landing-page, and pagination states.
+  if (normalized.q) return searchPluginsUncached(normalized);
+  return cacheCatalogQuery(`search:${JSON.stringify(normalized)}`, () =>
+    searchPluginsUncached(normalized),
+  );
+}
+
+async function getPluginBySlugUncached(slug: string): Promise<PluginDetail | null> {
   const plugin = await prisma.plugin.findUnique({
     where: { slug },
     include: { skills: { orderBy: { dirName: "asc" } }, mcpServers: { orderBy: { serverId: "asc" } } },
@@ -248,13 +277,21 @@ export async function getPluginBySlug(slug: string): Promise<PluginDetail | null
   };
 }
 
+export function getPluginBySlug(slug: string): Promise<PluginDetail | null> {
+  return cacheCatalogQuery(`plugin:${slug}`, () => getPluginBySlugUncached(slug));
+}
+
 /** Full summary catalog for machine-readable exports such as llms-full.txt. */
-export async function getAllPluginSummaries(): Promise<PluginSummary[]> {
+async function getAllPluginSummariesUncached(): Promise<PluginSummary[]> {
   const rows = await prisma.plugin.findMany({
     orderBy: [{ repoStars: "desc" }, { name: "asc" }],
     include: { mcpServers: { select: { transport: true } } },
   });
   return rows.map(toSummary);
+}
+
+export function getAllPluginSummaries(): Promise<PluginSummary[]> {
+  return cacheCatalogQuery("plugin-summaries:all", getAllPluginSummariesUncached);
 }
 
 export interface Stats {
@@ -264,7 +301,7 @@ export interface Stats {
   categories: number;
 }
 
-export async function getStats(): Promise<Stats> {
+async function getStatsUncached(): Promise<Stats> {
   const [plugins, skills, mcpServers, categories] = await Promise.all([
     prisma.plugin.count(),
     prisma.skill.count(),
@@ -275,13 +312,17 @@ export async function getStats(): Promise<Stats> {
   return { plugins, skills, mcpServers, categories };
 }
 
+export function getStats(): Promise<Stats> {
+  return cacheCatalogQuery("stats", getStatsUncached);
+}
+
 export interface Category {
   name: string;
   count: number;
 }
 
 /** Categories are derived from manifest keywords, ranked by frequency. */
-export async function getCategories(limit = 100): Promise<Category[]> {
+async function getCategoriesUncached(limit = 100): Promise<Category[]> {
   const rows = await prisma.plugin.findMany({ select: { keywords: true } });
   const counts = new Map<string, number>();
   for (const row of rows) {
@@ -295,4 +336,11 @@ export async function getCategories(limit = 100): Promise<Category[]> {
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
     .slice(0, limit);
+}
+
+export function getCategories(limit = 100): Promise<Category[]> {
+  const normalizedLimit = Number.isFinite(limit) ? Math.max(0, Math.floor(limit)) : "all";
+  return cacheCatalogQuery(`categories:${normalizedLimit}`, () =>
+    getCategoriesUncached(limit),
+  );
 }

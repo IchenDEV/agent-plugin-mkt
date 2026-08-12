@@ -42,6 +42,11 @@ Search from a browser:
 https://pluginsmp.com/plugins?q=github
 ```
 
+Open any compatible listing and copy its Codex or Claude Code install command
+block. It adds and refreshes this repository as the `agent-plugin-marketplace`
+catalog, then installs the selected source plugin for the current user. The
+generated catalogs are refreshed alongside the SQLite snapshot.
+
 Search from code:
 
 ```bash
@@ -181,6 +186,8 @@ To clear the local database before loading fixtures, run `npm run db:seed -- --r
 | `npm run db:seed` | Load fixture plugins |
 | `npm run db:validate` | Check SQLite integrity and report totals |
 | `npm run index:github` | Discover and refresh public plugins |
+| `npm run marketplace:generate` | Regenerate Codex and Claude Code install catalogs |
+| `npm run marketplace:check` | Verify generated install catalogs match the snapshot |
 | `npm run test:mcp` | Run the MCP protocol suite against a running server |
 
 For MCP end-to-end tests:

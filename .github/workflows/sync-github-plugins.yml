@@ -56,21 +56,25 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: npm run index:github -- --skip-code-search --repository-max 120 --allow-partial
 
+      - name: Generate install marketplaces
+        run: npm run marketplace:generate
+
       - name: Validate the refreshed snapshot
         run: |
           npm run db:validate
+          npm run marketplace:check
           npm test
           npm run lint
 
       - name: Commit and push snapshot changes
         run: |
-          if git diff --quiet -- prisma/marketplace.db; then
+          if git diff --quiet -- prisma/marketplace.db .agents/plugins/marketplace.json .claude-plugin/marketplace.json; then
             echo "The marketplace snapshot is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add prisma/marketplace.db
+          git add prisma/marketplace.db .agents/plugins/marketplace.json .claude-plugin/marketplace.json
           git commit -m "chore(index): refresh GitHub plugin snapshot"
           git push origin HEAD:main

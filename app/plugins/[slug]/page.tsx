@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Fragment, Suspense, cache, type ReactNode } from "react";
 import { CopyButton } from "@/components/copy-button";
+import { InstallCommand } from "@/components/install-command";
 import { JsonLd } from "@/components/json-ld";
 import { PluginCard } from "@/components/plugin-card";
 import { Badge, Card, Container, transportBadgeVariant, transportLabel } from "@/components/ui";
@@ -17,6 +18,7 @@ import {
 } from "@/lib/seo-content";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 import type { Locale } from "@/lib/i18n";
+import { installCommands, type InstallRuntime } from "@/lib/marketplaces";
 import { getLocale } from "@/lib/i18n-server";
 
 export const dynamic = "force-dynamic";
@@ -477,6 +479,16 @@ export default async function PluginPage({ params }: PluginPageProps) {
   const plugin = await getPlugin(slug);
   if (!plugin) notFound();
   const description = pluginDescription(plugin, locale);
+  const installOptions = plugin.protocols
+    .filter(
+      (protocol): protocol is InstallRuntime =>
+        protocol === "codex" || protocol === "claude-code",
+    )
+    .map((runtime) => ({
+      runtime,
+      label: PROTOCOL_LABELS[runtime],
+      command: installCommands(plugin.slug, runtime),
+    }));
 
   // Portable plugin runtimes expose one of these plugin-root placeholders.
   const hasPlaceholders = plugin.mcpServers.some(({ config }) => {
@@ -569,9 +581,45 @@ export default async function PluginPage({ params }: PluginPageProps) {
       <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="min-w-0 space-y-10">
           <section>
-            <SectionHeading title={zh ? "获取插件" : "Get the plugin"} />
+            <SectionHeading
+              title={
+                installOptions.length > 0
+                  ? zh
+                    ? "安装插件"
+                    : "Install plugin"
+                  : zh
+                    ? "获取插件"
+                    : "Get the plugin"
+              }
+            />
             <div className="mt-3">
-              <SourceCard plugin={plugin} locale={locale} />
+              {installOptions.length > 0 ? (
+                <>
+                  <InstallCommand options={installOptions} locale={locale} />
+                  <p className="mt-3 text-xs leading-relaxed text-gray-500">
+                    {zh
+                      ? "安装器会从上方显示的源码仓库获取第三方代码。本站验证清单结构和源码位置，但不执行安全审核；安装前请检查清单、组件和源码。"
+                      : "The installer fetches third-party code from the source repository shown on this page. This directory validates manifest structure and source location, but does not perform a security audit; review the manifest, components, and source before installing."}
+                  </p>
+                  <details className="mt-4 text-sm text-gray-600">
+                    <summary className="cursor-pointer font-medium text-iris hover:text-iris-deep">
+                      {zh ? "手动获取源码" : "Get the source manually"}
+                    </summary>
+                    <div className="mt-3">
+                      <SourceCard plugin={plugin} locale={locale} />
+                    </div>
+                  </details>
+                </>
+              ) : (
+                <>
+                  <SourceCard plugin={plugin} locale={locale} />
+                  <p className="mt-3 text-xs leading-relaxed text-gray-500">
+                    {zh
+                      ? "该条目目前只发布通用 Agent Plugins 格式；本站暂未为其他客户端生成自动安装命令。"
+                      : "This listing currently publishes only the generic Agent Plugins format. Automatic install commands for other clients are not generated yet."}
+                  </p>
+                </>
+              )}
             </div>
           </section>
 

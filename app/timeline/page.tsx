@@ -9,6 +9,7 @@ import { PROTOCOL_LABELS } from "@/lib/protocols";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 import type { Locale } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
+import { pluginDescription } from "@/lib/seo-content";
 
 export const dynamic = "force-dynamic";
 
@@ -107,7 +108,7 @@ function TimelineEntry({ plugin, locale }: { plugin: PluginSummary; locale: Loca
         <StarCount stars={plugin.repoStars} locale={locale} />
       </div>
       <p className="mt-0.5 truncate text-sm text-gray-500">
-        {plugin.description ?? (zh ? "暂未提供描述。" : "Description not provided.")}
+        {pluginDescription(plugin, locale)}
       </p>
       {plugin.protocols.length > 0 || plugin.skillCount > 0 || plugin.mcpCount > 0 ? (
         <div className="mt-1.5 flex flex-wrap gap-1.5">

@@ -7,6 +7,7 @@ import { formatNumber, relativeTime } from "@/lib/format";
 import type { Locale } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
 import { getStats, searchPlugins } from "@/lib/queries";
+import { INTENT_LANDINGS, pluginDescription, type IntentLandingKey } from "@/lib/seo-content";
 import { SITE_DESCRIPTION, SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -17,7 +18,7 @@ const CLAUDE_SPEC_URL = "https://code.claude.com/docs/en/plugins-reference";
 const HOME_COPY = {
   en: {
     compatibility: "Supports Codex, Claude Code, and Agent Plugins",
-    title: "Find plugins for your AI tools",
+    title: "Find plugins for Codex, Claude Code, and AI agents",
     intro: "Search open-source plugins from public GitHub repositories. See which plugin formats they support, the skills and MCP servers they include, and their source before installing.",
     searchPlaceholder: "Search by name, task, or tag",
     search: "Search",
@@ -35,6 +36,8 @@ const HOME_COPY = {
     recent: "Recently added",
     noDescription: "Description not provided.",
     added: "Added",
+    collections: "Browse by plugin format and component",
+    collectionsIntro: "Start with a focused collection backed by the same source manifests and repository evidence as the full directory.",
     anatomy: "Know what’s inside a plugin",
     anatomyBody: "A plugin is a folder that contains a manifest for one or more supported formats, skills under",
     anatomyBodyEnd: ", and optional MCP configuration. Review these files and the repository instructions before installing.",
@@ -54,7 +57,7 @@ const HOME_COPY = {
   },
   "zh-CN": {
     compatibility: "支持 Codex、Claude Code 和 Agent Plugins",
-    title: "查找适合你的 AI 工具的插件",
+    title: "查找适用于 Codex、Claude Code 和 AI Agent 的插件",
     intro: "搜索公开 GitHub 仓库中的开源插件。安装前可查看插件支持的格式、包含的技能与 MCP 服务器，以及源码仓库。",
     searchPlaceholder: "按名称、用途或标签搜索",
     search: "搜索",
@@ -72,6 +75,8 @@ const HOME_COPY = {
     recent: "最近新增",
     noDescription: "暂未提供描述。",
     added: "添加于",
+    collections: "按插件格式和组件浏览",
+    collectionsIntro: "从一个聚焦的专题开始浏览；每个专题与完整目录使用相同的源码清单和仓库证据。",
     anatomy: "了解插件包含什么",
     anatomyBody: "插件是一个文件夹，其中包含一种或多种受支持格式的清单、位于",
     anatomyBodyEnd: " 下的技能，以及可选的 MCP 配置。安装前请查看这些文件和仓库中的说明。",
@@ -92,10 +97,12 @@ const HOME_COPY = {
 } as const;
 
 export const metadata: Metadata = {
-  title: { absolute: `${SITE_NAME} — Plugins, skills, and MCP servers` },
+  title: { absolute: `Codex & Claude Code plugins, skills, and MCP servers · ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
   alternates: { canonical: "/" },
 };
+
+const HOME_INTENTS: IntentLandingKey[] = ["codex", "claude-code", "agent-skills", "mcp-servers"];
 
 /** One line of the static directory tree. Glyph prefix stays gray; the name carries the component color. */
 function TreeLine({
@@ -312,6 +319,34 @@ export default async function HomePage() {
         </Container>
       </section>
 
+      <section aria-labelledby="collections-heading">
+        <Container className="pb-16 sm:pb-20">
+          <h2 id="collections-heading" className="font-display text-2xl font-bold tracking-tight sm:text-3xl">
+            {c.collections}
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-600">{c.collectionsIntro}</p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {HOME_INTENTS.map((intent) => {
+              const definition = INTENT_LANDINGS[intent];
+              const copy = definition.copy[locale];
+              return (
+                <Link
+                  key={intent}
+                  href={definition.path}
+                  className="rounded-lg border border-gray-200 bg-surface p-4 transition-colors hover:border-iris"
+                >
+                  <span className="font-display text-lg font-semibold tracking-tight">{copy.title}</span>
+                  <span className="mt-2 block text-sm leading-relaxed text-gray-500">{copy.eyebrow}</span>
+                </Link>
+              );
+            })}
+          </div>
+          <Link href="/insights" className="mt-5 inline-block text-sm font-medium text-iris hover:text-iris-deep">
+            {locale === "zh-CN" ? "查看 Agent Plugins 生态数据" : "Explore the Agent Plugins ecosystem data"} →
+          </Link>
+        </Container>
+      </section>
+
       {indexIsEmpty ? (
         <section>
           <Container className="pb-16 sm:pb-20">
@@ -369,7 +404,7 @@ export default async function HomePage() {
                           {plugin.name}
                         </span>
                         <span className="min-w-0 flex-1 truncate text-sm text-gray-500">
-                          {plugin.description ?? c.noDescription}
+                          {pluginDescription(plugin, locale)}
                         </span>
                         <span
                           className="shrink-0 text-xs text-gray-500"

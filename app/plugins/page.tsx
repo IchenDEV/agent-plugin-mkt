@@ -3,7 +3,9 @@ import Link from "next/link";
 import { cache, type ReactNode } from "react";
 import { JsonLd } from "@/components/json-ld";
 import { PluginCard } from "@/components/plugin-card";
-import { Container, EmptyState, SearchInput, transportLabel } from "@/components/ui";
+import { Card, Container, EmptyState, SearchInput, transportLabel } from "@/components/ui";
+import { getCatalogMetrics } from "@/lib/catalog-insights";
+import { formatNumber } from "@/lib/format";
 import {
   getCategories,
   searchPlugins,
@@ -18,6 +20,7 @@ import {
 } from "@/lib/protocols";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 import { getLocale } from "@/lib/i18n-server";
+import { intentCanonicalForFilters } from "@/lib/seo-content";
 
 export const dynamic = "force-dynamic";
 
@@ -150,7 +153,16 @@ export async function generateMetadata({ searchParams }: BrowsePageProps): Promi
   if (category) canonicalParams.set("category", category);
   if (page > 1) canonicalParams.set("page", String(page));
   const canonicalQuery = canonicalParams.toString();
-  const canonical = canonicalQuery ? `/plugins?${canonicalQuery}` : "/plugins";
+  const intentCanonical = intentCanonicalForFilters({
+    q,
+    category,
+    type,
+    transport,
+    protocols,
+    sort,
+    page,
+  });
+  const canonical = intentCanonical ?? (canonicalQuery ? `/plugins?${canonicalQuery}` : "/plugins");
   const displayCategory = category?.slice(0, 40);
   const title = zh
     ? `${displayCategory ? `${displayCategory} 插件` : "查找插件"}${page > 1 ? ` — 第 ${page} 页` : ""}`
@@ -268,9 +280,10 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   const sort = oneOf(first(sp.sort), SORTS) ?? "stars";
   const page = positiveInt(first(sp.page)) ?? 1;
 
-  const [results, categories] = await Promise.all([
+  const [results, categories, categoryMetrics] = await Promise.all([
     getBrowseResults(q, category, type, transport, protocols, sort, page),
     getCategories(30),
+    category ? getCatalogMetrics({ category }) : Promise.resolve(null),
   ]);
 
   // Canonical params for link building: default sort and page 1 stay out of URLs.
@@ -285,6 +298,11 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
   const hasFilters = Boolean(q || category || type || transport || protocols.length > 0);
 
   const total = results.total;
+  const browseHeading = category
+    ? zh
+      ? `${category} 插件`
+      : `${category} plugins`
+    : c.title;
   const countSentence = zh
     ? hasFilters
       ? `有 ${total} 个插件符合当前筛选条件。`
@@ -292,6 +310,11 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     : hasFilters
       ? `${total} plugin${total === 1 ? "" : "s"} match${total === 1 ? "es" : ""} the active filters.`
       : `${total} plugin${total === 1 ? "" : "s"} available.`;
+  const categoryIntro = categoryMetrics
+    ? zh
+      ? `目录从 ${formatNumber(categoryMetrics.repositories, locale)} 个公开源码仓库中索引了 ${formatNumber(categoryMetrics.plugins, locale)} 个带有“${category}”清单标签的插件，合计包含 ${formatNumber(categoryMetrics.skills, locale)} 个技能和 ${formatNumber(categoryMetrics.mcpServers, locale)} 个 MCP 服务器。`
+      : `The directory indexes ${formatNumber(categoryMetrics.plugins, locale)} plugins tagged “${category}” from ${formatNumber(categoryMetrics.repositories, locale)} public source repositories, with ${formatNumber(categoryMetrics.skills, locale)} skills and ${formatNumber(categoryMetrics.mcpServers, locale)} MCP servers across the collection.`
+    : null;
 
   const hidden: Record<string, string | string[]> = {};
   for (const key of ["category", "type", "transport", "protocol", "sort"] as const) {
@@ -367,8 +390,8 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
     "@type": "CollectionPage",
     "@id": `${absoluteUrl(currentPath)}#collection`,
     url: absoluteUrl(currentPath),
-    name: category ? `${category} ${zh ? "插件" : "plugins"}` : c.title,
-    description: countSentence,
+    name: browseHeading,
+    description: categoryIntro ?? countSentence,
     inLanguage: locale,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     mainEntity: {
@@ -388,13 +411,26 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
       <JsonLd data={collectionJsonLd} />
       <div className="max-w-2xl">
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-          {c.title}
+          {browseHeading}
         </h1>
-        <p className="mt-2 text-sm text-gray-500">{countSentence}</p>
+        <p className="mt-2 text-sm leading-relaxed text-gray-500">{categoryIntro ?? countSentence}</p>
         <div className="mt-5">
           <SearchInput defaultValue={q ?? ""} hidden={hidden} placeholder={c.searchPlaceholder} submitLabel={c.search} />
         </div>
       </div>
+
+      {categoryMetrics ? (
+        <Card className="mt-6 p-4">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-600">
+            <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.plugins, locale)}</strong> {zh ? "插件" : "plugins"}</span>
+            <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.repositories, locale)}</strong> {zh ? "仓库" : "repositories"}</span>
+            <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.crossRuntimePlugins, locale)}</strong> {zh ? "跨运行时" : "cross-runtime"}</span>
+            <Link href="/insights#methodology" className="ml-auto font-medium text-iris hover:text-iris-deep">
+              {zh ? "索引方法" : "Indexing methodology"} →
+            </Link>
+          </div>
+        </Card>
+      ) : null}
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[220px_minmax(0,1fr)]">
         <aside aria-label={c.filters} className="space-y-6 lg:sticky lg:top-20 lg:self-start">

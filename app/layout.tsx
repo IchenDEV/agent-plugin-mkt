@@ -110,17 +110,12 @@ function Header({ locale }: { locale: Locale }) {
           <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
             {zh ? "新增" : "New"}
           </Link>
+          <Link href="/insights" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink md:block">
+            {zh ? "数据" : "Data"}
+          </Link>
           <Link href="/docs" className="whitespace-nowrap rounded-md px-2 py-1.5 hover:bg-surface hover:text-ink sm:px-3">
             API
           </Link>
-          <a
-            href="https://developers.openai.com/plugins/build/plugins"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink md:block"
-          >
-            {zh ? "Codex 文档" : "Codex docs"}
-          </a>
         </nav>
         <Preferences locale={locale} />
         </div>
@@ -147,8 +142,13 @@ function Footer({ locale }: { locale: Locale }) {
         <nav aria-label="Footer" className="grid gap-2">
           <p className="font-mono text-xs uppercase tracking-wider text-gray-500">{zh ? "查找插件" : "Find plugins"}</p>
           <Link href="/plugins" className="hover:text-white">{zh ? "浏览全部" : "Browse all"}</Link>
+          <Link href="/codex-plugins" className="hover:text-white">{zh ? "Codex 插件" : "Codex plugins"}</Link>
+          <Link href="/claude-code-plugins" className="hover:text-white">{zh ? "Claude Code 插件" : "Claude Code plugins"}</Link>
+          <Link href="/agent-skills" className="hover:text-white">{zh ? "Agent 技能" : "Agent skills"}</Link>
+          <Link href="/mcp-servers" className="hover:text-white">{zh ? "MCP 服务器" : "MCP servers"}</Link>
           <Link href="/categories" className="hover:text-white">{zh ? "按标签浏览" : "Browse by tag"}</Link>
           <Link href="/timeline" className="hover:text-white">{zh ? "最近新增" : "Recently added"}</Link>
+          <Link href="/insights" className="hover:text-white">{zh ? "生态数据" : "Ecosystem data"}</Link>
           <Link href="/docs" className="hover:text-white">{zh ? "开发者 API" : "Developer API"}</Link>
           <Link href="/docs#mcp" className="hover:text-white">{zh ? "连接 MCP" : "Connect with MCP"}</Link>
         </nav>
@@ -181,7 +181,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
       <body className="flex min-h-full flex-col">
         <JsonLd data={websiteJsonLd(locale)} />
         <Header locale={locale} />
-        <main className="flex-1">{children}</main>
+        <main className="w-full min-w-0 flex-1">{children}</main>
         <Footer locale={locale} />
       </body>
     </html>

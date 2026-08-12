@@ -13,6 +13,13 @@ import {
   parsePluginManifest,
 } from "@/lib/validation";
 import { manifestLocation } from "@/lib/protocols";
+import {
+  MARKETPLACE_NAME,
+  buildClaudeMarketplace,
+  buildCodexMarketplace,
+  installCommands,
+  type MarketplacePluginInput,
+} from "@/lib/marketplaces";
 
 test("canonical manifest paths resolve to one plugin root", () => {
   assert.deepEqual(manifestLocation("plugins/demo/.codex-plugin/plugin.json"), {
@@ -26,6 +33,65 @@ test("canonical manifest paths resolve to one plugin root", () => {
   );
   assert.equal(manifestLocation("plugins/demo/plugin.json")?.protocol, "agent-plugins");
   assert.equal(manifestLocation("package.json"), null);
+});
+
+test("generated marketplaces expose only runtime-compatible plugins", () => {
+  const plugins: MarketplacePluginInput[] = [
+    {
+      slug: "root-plugin",
+      repoUrl: "https://github.com/example/root-plugin",
+      pluginPath: "",
+      protocols: ["codex", "claude-code"],
+    },
+    {
+      slug: "nested-plugin",
+      repoUrl: "https://github.com/example/plugin-pack",
+      pluginPath: "plugins/nested-plugin",
+      protocols: ["claude-code"],
+    },
+    {
+      slug: "generic-plugin",
+      repoUrl: "https://github.com/example/generic-plugin",
+      pluginPath: "",
+      protocols: ["agent-plugins"],
+    },
+  ];
+
+  const codex = buildCodexMarketplace(plugins);
+  const claude = buildClaudeMarketplace(plugins);
+  assert.deepEqual(
+    codex.plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "root-plugin"],
+  );
+  assert.deepEqual(
+    claude.plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "nested-plugin", "root-plugin"],
+  );
+  assert.deepEqual(codex.plugins[1]?.source, {
+    source: "url",
+    url: "https://github.com/example/root-plugin.git",
+  });
+  assert.deepEqual(claude.plugins[1]?.source, {
+    source: "git-subdir",
+    url: "example/plugin-pack",
+    path: "plugins/nested-plugin",
+  });
+});
+
+test("install commands add the shared marketplace before the selected plugin", () => {
+  assert.equal(
+    installCommands("root-plugin", "codex"),
+    [
+      "codex plugin marketplace add IchenDEV/agent-plugin-mkt",
+      "codex plugin marketplace upgrade agent-plugin-marketplace",
+      "codex plugin add root-plugin@agent-plugin-marketplace",
+    ].join("\n"),
+  );
+  assert.match(
+    installCommands("root-plugin", "claude-code"),
+    /claude plugin install root-plugin@agent-plugin-marketplace$/,
+  );
+  assert.throws(() => installCommands("bad;command", "codex"));
 });
 
 test("repository discovery is protocol-based rather than vendor-special-cased", () => {

@@ -3859,6 +3859,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "notfair-2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nowork-studio/notfair-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "notion",
       "source": {
         "source": "git-subdir",

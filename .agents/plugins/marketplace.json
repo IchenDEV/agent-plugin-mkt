@@ -5884,6 +5884,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "solana-mcp-vybe",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vybenetwork/solana-mcp-vybe.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spark-cli-skills",
       "source": {
         "source": "url",

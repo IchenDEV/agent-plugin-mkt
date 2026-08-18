@@ -457,6 +457,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "avoid-ai-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "./plugins/avoid-ai-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aws-amplify",
       "source": {
         "source": "git-subdir",

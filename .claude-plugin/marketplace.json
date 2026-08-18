@@ -987,6 +987,14 @@
       }
     },
     {
+      "name": "avoid-ai-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "wshobson/agents",
+        "path": "plugins/avoid-ai-writing"
+      }
+    },
+    {
       "name": "aws-amplify",
       "source": {
         "source": "git-subdir",

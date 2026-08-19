@@ -8664,6 +8664,14 @@
       }
     },
     {
+      "name": "uizze",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/design/uizze"
+      }
+    },
+    {
       "name": "unifapi",
       "source": {
         "source": "github",

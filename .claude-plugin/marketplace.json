@@ -474,11 +474,67 @@
       }
     },
     {
+      "name": "ansible-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-docs"
+      }
+    },
+    {
+      "name": "ansible-good-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-good-practices"
+      }
+    },
+    {
+      "name": "ansible-new-collection",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-new-collection"
+      }
+    },
+    {
+      "name": "ansible-new-ee",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-new-ee"
+      }
+    },
+    {
+      "name": "ansible-new-molecule",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-new-molecule"
+      }
+    },
+    {
+      "name": "ansible-new-role",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-new-role"
+      }
+    },
+    {
       "name": "ansible-playbook-creator",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/devops/ansible-playbook-creator"
+      }
+    },
+    {
+      "name": "ansible-zen",
+      "source": {
+        "source": "git-subdir",
+        "url": "leogallego/claude-ansible-skills",
+        "path": "ansible-zen"
       }
     },
     {
@@ -3139,6 +3195,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/dgx-spark-ops"
+      }
+    },
+    {
+      "name": "diffusers",
+      "source": {
+        "source": "git-subdir",
+        "url": "huggingface/diffusers",
+        "path": ".ai"
       }
     },
     {

@@ -2088,6 +2088,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "diffusers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/huggingface/diffusers.git",
+        "path": "./.ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "digitalocean",
       "source": {
         "source": "git-subdir",

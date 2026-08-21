@@ -1237,6 +1237,14 @@
       }
     },
     {
+      "name": "book-to-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/book-to-skill"
+      }
+    },
+    {
       "name": "boss",
       "source": {
         "source": "github",
@@ -5608,6 +5616,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/meigen-ai-design"
+      }
+    },
+    {
+      "name": "memory-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/memory-engineering"
       }
     },
     {

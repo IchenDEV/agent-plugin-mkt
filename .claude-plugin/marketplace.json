@@ -2115,6 +2115,14 @@
       }
     },
     {
+      "name": "commerce-app-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "adobe/skills",
+        "path": "plugins/commerce/app-review"
+      }
+    },
+    {
       "name": "commercial-skills",
       "source": {
         "source": "git-subdir",

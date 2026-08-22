@@ -2707,6 +2707,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gemini-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/gemini-api"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gemini-enterprise-agent-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/gemini-enterprise-agent-platform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "generic-ai-skills",
       "source": {
         "source": "url",
@@ -2824,6 +2850,58 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/google-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-cloud-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/google-cloud-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-cloud-gke",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/google-cloud-gke"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-cloud-run",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/google-cloud-run"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-cloud-well-architected",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/google-cloud-well-architected"
       },
       "policy": {
         "installation": "AVAILABLE",

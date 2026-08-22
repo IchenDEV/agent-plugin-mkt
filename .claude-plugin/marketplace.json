@@ -3123,6 +3123,13 @@
       }
     },
     {
+      "name": "designlang",
+      "source": {
+        "source": "github",
+        "repo": "Manavarya09/design-extract"
+      }
+    },
+    {
       "name": "designpowers",
       "source": {
         "source": "github",
@@ -3518,6 +3525,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/elevenlabs-pack"
+      }
+    },
+    {
+      "name": "eli5",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-plugins-community",
+        "path": "eli5"
       }
     },
     {
@@ -4375,6 +4390,22 @@
       }
     },
     {
+      "name": "gemini-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/gemini-api"
+      }
+    },
+    {
+      "name": "gemini-enterprise-agent-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/gemini-enterprise-agent-platform"
+      }
+    },
+    {
       "name": "general-counsel-advisor",
       "source": {
         "source": "git-subdir",
@@ -4486,6 +4517,38 @@
         "source": "git-subdir",
         "url": "onsi/gomega",
         "path": "plugins/gomega"
+      }
+    },
+    {
+      "name": "google-cloud-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/google-cloud-core"
+      }
+    },
+    {
+      "name": "google-cloud-gke",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/google-cloud-gke"
+      }
+    },
+    {
+      "name": "google-cloud-run",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/google-cloud-run"
+      }
+    },
+    {
+      "name": "google-cloud-well-architected",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/google-cloud-well-architected"
       }
     },
     {

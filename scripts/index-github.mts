@@ -416,6 +416,17 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
       );
     }
   }
+  // Sibling manifests often carry metadata the canonical one omits (Codex
+  // manifests rarely declare license/repository). Backfill missing fields
+  // from the other manifests, canonical first.
+  const mergedManifest: NormalizedPluginManifest = { name: canonical.manifest.name };
+  for (const loaded of manifests) {
+    for (const [key, value] of Object.entries(loaded.manifest)) {
+      if (value !== undefined && !(key in mergedManifest)) {
+        Object.assign(mergedManifest, { [key]: value });
+      }
+    }
+  }
   const protocols = manifests.map((manifest) => manifest.protocol);
   const skills = await discoverSkills(
     repoFullName,
@@ -440,7 +451,7 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
         { path: manifest.path, raw: manifest.rawText },
       ]),
     ),
-    manifest: canonical.manifest,
+    manifest: mergedManifest,
     repoUrl: repo.htmlUrl,
     pluginPath: location.pluginPath,
     repoStars: repo.stars,

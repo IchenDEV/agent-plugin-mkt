@@ -48,7 +48,7 @@ jobs:
         # A quota-limited run keeps only plugins whose transactions completed.
         env:
           GITHUB_TOKEN: ${{ env.MARKETPLACE_GITHUB_TOKEN }}
-        run: npm run index:github -- --max 6000 --repository-max 120 --allow-partial
+        run: npm run index:github -- --max 6000 --repository-max 500 --allow-partial
 
       - name: Discover repositories without legacy code search
         if: env.MARKETPLACE_GITHUB_TOKEN == ''

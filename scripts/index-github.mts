@@ -46,6 +46,13 @@ const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
 const DEFAULT_MAX_REPOSITORIES = 40;
 const SEARCH_ORDERS = ["desc", "asc"] as const;
+// Repository search runs one best-match pass plus one recently-updated pass per
+// query. Best match buries new, low-star repositories under established ones;
+// the updated window surfaces them while they are still active.
+const REPOSITORY_SEARCH_PASSES = [
+  { label: "best-match window", sort: undefined, order: undefined },
+  { label: "recently-updated window", sort: "updated", order: "desc" },
+] as const;
 const MAX_RESULTS_PER_SEARCH = 1_000;
 
 function safeLog(value: string): string {
@@ -551,33 +558,53 @@ try {
   }
 
   if (!skipRepositorySearch) {
+    // The budget is a single shared pool: each query is guaranteed an even
+    // share of what remains, and whatever a query (or one of its passes)
+    // cannot spend rolls over to the next one. Repositories already seen via
+    // an earlier query or pass do not consume budget.
+    let remainingBudget = repositoryMax;
     for (const [queryIndex, query] of repositoryQueries.entries()) {
-      const baseBudget = Math.floor(repositoryMax / repositoryQueries.length);
-      const queryBudget =
-        baseBudget + (queryIndex < repositoryMax % repositoryQueries.length ? 1 : 0);
+      const queriesLeft = repositoryQueries.length - queryIndex;
+      const queryBudget = Math.floor(remainingBudget / queriesLeft);
       if (queryBudget === 0) continue;
       console.log(`searching GitHub repositories: ${query}`);
-      let queryExamined = 0;
-      try {
-        for await (const repositories of searchRepositories(query, {
-          perPage: searchPageSize ?? Math.min(100, queryBudget),
-          startPage: searchPage,
-          maxPages: searchPage ? 1 : undefined,
-        })) {
-          gotFirstPage = true;
-          for (const repo of repositories) {
-            if (queryExamined >= queryBudget) break;
-            queryExamined++;
-            await processRepository(repo);
+      let queryConsumed = 0;
+      let queryRemaining = queryBudget;
+      for (const [passIndex, pass] of REPOSITORY_SEARCH_PASSES.entries()) {
+        const passesLeft = REPOSITORY_SEARCH_PASSES.length - passIndex;
+        const passBudget = Math.floor(queryRemaining / passesLeft);
+        if (passBudget === 0) continue;
+        let passConsumed = 0;
+        console.log(`  scanning ${pass.label}`);
+        try {
+          for await (const repositories of searchRepositories(query, {
+            perPage: searchPageSize ?? Math.min(100, passBudget),
+            startPage: searchPage,
+            maxPages: searchPage ? 1 : undefined,
+            sort: pass.sort,
+            order: pass.order,
+          })) {
+            gotFirstPage = true;
+            for (const repo of repositories) {
+              if (passConsumed >= passBudget) break;
+              if (seenRepositories.has(repo.fullName)) continue;
+              passConsumed++;
+              queryConsumed++;
+              await processRepository(repo);
+            }
+            if (passConsumed >= passBudget) break;
           }
-          if (queryExamined >= queryBudget) break;
+        } catch (err) {
+          if (err instanceof RateLimitAbortError) throw err;
+          errors++;
+          const message = err instanceof Error ? err.message : String(err);
+          console.error(
+            `repository search failed (${pass.label}) for ${safeLog(query)}: ${safeLog(message)}`,
+          );
         }
-      } catch (err) {
-        if (err instanceof RateLimitAbortError) throw err;
-        errors++;
-        const message = err instanceof Error ? err.message : String(err);
-        console.error(`repository search failed for ${safeLog(query)}: ${safeLog(message)}`);
+        queryRemaining -= passConsumed;
       }
+      remainingBudget -= queryConsumed;
     }
   }
 

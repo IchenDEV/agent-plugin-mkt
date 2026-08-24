@@ -340,6 +340,9 @@ interface RepositorySearchPage {
 /**
  * Paginated repository search. Candidate repositories still need Git-tree
  * validation; README/topic matches alone never become marketplace entries.
+ * `sort`/`order` map to the GitHub search parameters; omitting them keeps the
+ * default best-match ranking. Sorting by "updated" surfaces recently pushed
+ * repositories that best-match ranking buries under older, high-star repos.
  */
 export async function* searchRepositories(
   query: string,
@@ -347,6 +350,8 @@ export async function* searchRepositories(
     perPage?: number;
     maxPages?: number;
     startPage?: number;
+    sort?: "stars" | "forks" | "updated";
+    order?: "asc" | "desc";
   } = {},
 ): AsyncGenerator<RepoMetadata[], void, void> {
   const perPage = Math.min(100, Math.max(1, opts.perPage ?? 50));
@@ -362,11 +367,17 @@ export async function* searchRepositories(
     const waitMs = Math.max(0, nextRepositorySearchAt - Date.now());
     if (waitMs > 0) await sleep(waitMs);
     nextRepositorySearchAt = Date.now() + REPOSITORY_SEARCH_MIN_INTERVAL_MS;
-    const result = await githubJson<RepositorySearchPage>("/search/repositories", {
+    const searchParams: Record<string, string> = {
       q: query,
       per_page: String(perPage),
       page: String(page),
-    });
+    };
+    if (opts.sort) searchParams.sort = opts.sort;
+    if (opts.order) searchParams.order = opts.order;
+    const result = await githubJson<RepositorySearchPage>(
+      "/search/repositories",
+      searchParams,
+    );
     if (!Array.isArray(result.items)) return;
     yield result.items.map(repoMetadata);
     if (

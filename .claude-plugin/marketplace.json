@@ -44,6 +44,14 @@
       }
     },
     {
+      "name": "404-directory-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "MM-sheng/404-directory",
+        "path": "distribution/404-directory"
+      }
+    },
+    {
       "name": "a11y-audit",
       "source": {
         "source": "git-subdir",
@@ -253,6 +261,46 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/agent-teams"
+      }
+    },
+    {
+      "name": "agent-toolkit-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "ulises-jeremias/agent-toolkit",
+        "path": "plugins/agent-toolkit-agents"
+      }
+    },
+    {
+      "name": "agent-toolkit-complete",
+      "source": {
+        "source": "git-subdir",
+        "url": "ulises-jeremias/agent-toolkit",
+        "path": "plugins/agent-toolkit-complete"
+      }
+    },
+    {
+      "name": "agent-toolkit-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "ulises-jeremias/agent-toolkit",
+        "path": "plugins/agent-toolkit-core"
+      }
+    },
+    {
+      "name": "agent-toolkit-craft",
+      "source": {
+        "source": "git-subdir",
+        "url": "ulises-jeremias/agent-toolkit",
+        "path": "plugins/agent-toolkit-craft"
+      }
+    },
+    {
+      "name": "agent-toolkit-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "ulises-jeremias/agent-toolkit",
+        "path": "plugins/agent-toolkit-forge"
       }
     },
     {
@@ -1145,6 +1193,14 @@
       }
     },
     {
+      "name": "bad-skill-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/bad-skill"
+      }
+    },
+    {
       "name": "bamboohr-pack",
       "source": {
         "source": "git-subdir",
@@ -1353,6 +1409,13 @@
       }
     },
     {
+      "name": "build-goals",
+      "source": {
+        "source": "github",
+        "repo": "koco-co/build-goals"
+      }
+    },
+    {
       "name": "build-swift-apps",
       "source": {
         "source": "github",
@@ -1507,6 +1570,14 @@
       }
     },
     {
+      "name": "cc-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/cc-commands"
+      }
+    },
+    {
       "name": "cc-design",
       "source": {
         "source": "github",
@@ -1546,6 +1617,30 @@
       "source": {
         "source": "github",
         "repo": "amecoder/ccstatus"
+      }
+    },
+    {
+      "name": "cesdk",
+      "source": {
+        "source": "git-subdir",
+        "url": "imgly/agent-skills",
+        "path": "plugins/cesdk"
+      }
+    },
+    {
+      "name": "cesdk-android",
+      "source": {
+        "source": "git-subdir",
+        "url": "imgly/agent-skills",
+        "path": "plugins/cesdk-android"
+      }
+    },
+    {
+      "name": "cesdk-swift",
+      "source": {
+        "source": "git-subdir",
+        "url": "imgly/agent-skills",
+        "path": "plugins/cesdk-swift"
       }
     },
     {
@@ -2304,6 +2399,14 @@
       }
     },
     {
+      "name": "context-maintainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "kevinifrah/context-maintainer",
+        "path": "skill/context-maintainer"
+      }
+    },
+    {
       "name": "context-management",
       "source": {
         "source": "git-subdir",
@@ -2662,6 +2765,13 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "data"
+      }
+    },
+    {
+      "name": "data-analysis-ml-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "aiopshwang/data-analysis-ml-agent-skills"
       }
     },
     {
@@ -3036,6 +3146,22 @@
       }
     },
     {
+      "name": "demo-one",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/cc-marketplace/skills/demo-one"
+      }
+    },
+    {
+      "name": "demo-two",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/cc-marketplace/skills/demo-two"
+      }
+    },
+    {
       "name": "demo-video",
       "source": {
         "source": "git-subdir",
@@ -3134,6 +3260,14 @@
       "source": {
         "source": "github",
         "repo": "Owl-Listener/designpowers"
+      }
+    },
+    {
+      "name": "dev-process-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "nesquikm/dev-process-toolkit",
+        "path": "plugins/dev-process-toolkit"
       }
     },
     {
@@ -3250,6 +3384,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/discovery-questionnaire"
+      }
+    },
+    {
+      "name": "display-name-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/display-name-skill"
       }
     },
     {
@@ -3766,6 +3908,14 @@
         "source": "git-subdir",
         "url": "quillai-network/quillshield_skills",
         "path": "plugins/external-call-safety"
+      }
+    },
+    {
+      "name": "extra-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/cc-marketplace/skills/extra-plugin"
       }
     },
     {
@@ -5955,6 +6105,14 @@
       }
     },
     {
+      "name": "nix-lsps",
+      "source": {
+        "source": "git-subdir",
+        "url": "tschallacka/lsp-flake",
+        "path": "plugins/nix-lsps"
+      }
+    },
+    {
       "name": "nlp-text-analyzer",
       "source": {
         "source": "git-subdir",
@@ -6343,6 +6501,13 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/performance-testing-review"
+      }
+    },
+    {
+      "name": "philososkills",
+      "source": {
+        "source": "github",
+        "repo": "louisonrib/philososkills"
       }
     },
     {
@@ -6934,6 +7099,13 @@
       "source": {
         "source": "github",
         "repo": "crazyguitar/pysheeet"
+      }
+    },
+    {
+      "name": "pytest-blackbox",
+      "source": {
+        "source": "github",
+        "repo": "ave-satan/pytest-blackbox-skill"
       }
     },
     {
@@ -9001,6 +9173,13 @@
       "source": {
         "source": "github",
         "repo": "chopratejas/vitals"
+      }
+    },
+    {
+      "name": "voice-memo",
+      "source": {
+        "source": "github",
+        "repo": "howel-jp/voice-memo-kit"
       }
     },
     {

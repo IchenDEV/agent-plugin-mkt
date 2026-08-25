@@ -535,6 +535,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "auto-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/weedmo/skills.git",
+        "path": "./plugins/auto-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "autorefine",
       "source": {
         "source": "url",
@@ -3191,6 +3204,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hades-openspec-java-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/WealthyMan95/hades-openspec-java-workflow.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "happenstance",
       "source": {
         "source": "git-subdir",
@@ -3774,6 +3799,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "marina",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/turong92/marina.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "marketing-cro",
       "source": {
         "source": "git-subdir",
@@ -3791,6 +3829,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/matlab/matlab-agentic-toolkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "matt-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/weedmo/skills.git",
+        "path": "./plugins/matt-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "media-io",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/media-io/plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3817,6 +3880,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/mem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mem0",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devkitio/mem0-codex-self-hosted-marketplace.git",
+        "path": "./plugins/mem0"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4709,6 +4785,44 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pr-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BradyHazell/brady-plugins.git",
+        "path": "./plugins/pr-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prd-drafter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BradyHazell/brady-plugins.git",
+        "path": "./plugins/prd-drafter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "procoder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/azrtydxb/procoder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "product-design",
       "source": {
         "source": "git-subdir",
@@ -4868,6 +4982,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/quicknode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quilombo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mgaitan/quilombo.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5917,6 +6043,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sgche",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sg-c/sgche-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sharepoint",
       "source": {
         "source": "git-subdir",
@@ -6122,6 +6260,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/jewunetie/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sky-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JinHoonPark/SkyAgentPlugins.git",
+        "path": "./plugins/sky-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6384,6 +6535,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/superhuman"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "superloopy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/beefiker/superloopy.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6720,6 +6883,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tradingview-mcp-3",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GlynnCarson/tradingview-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trek-plugin-dev",
       "source": {
         "source": "url",
@@ -6946,6 +7121,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "wenlan",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/7xuanlu/wenlan.git",
+        "path": "./plugin-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "wenqu-mem",
       "source": {
         "source": "url",
@@ -7000,6 +7188,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TreeX-X/WorkFlowX.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "x-api-scraper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/twexapi-dev/x-api-scraper.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7065,6 +7265,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/zotero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zyz-worker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/somePeopleFireAndWood/zyz-worker.git"
       },
       "policy": {
         "installation": "AVAILABLE",

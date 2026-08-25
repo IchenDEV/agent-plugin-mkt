@@ -52,6 +52,14 @@
       }
     },
     {
+      "name": "50-dark-themes",
+      "source": {
+        "source": "git-subdir",
+        "url": "notgabriels-sys/claude-code-50-dark-themes",
+        "path": "plugins/50-dark-themes"
+      }
+    },
+    {
       "name": "a11y-audit",
       "source": {
         "source": "git-subdir",
@@ -72,6 +80,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/abridge-pack"
+      }
+    },
+    {
+      "name": "accessibility",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/accessibility/accessibility"
       }
     },
     {
@@ -126,6 +142,14 @@
       "source": {
         "source": "github",
         "repo": "backnotprop/adr"
+      }
+    },
+    {
+      "name": "adr-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/adr-toolkit"
       }
     },
     {
@@ -674,6 +698,14 @@
       }
     },
     {
+      "name": "api-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/api-design/api-design"
+      }
+    },
+    {
       "name": "api-documentation-generator",
       "source": {
         "source": "git-subdir",
@@ -920,6 +952,14 @@
       }
     },
     {
+      "name": "architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/architecture/architecture"
+      }
+    },
+    {
       "name": "arm-cortex-microcontrollers",
       "source": {
         "source": "git-subdir",
@@ -1057,6 +1097,14 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "audit-project"
+      }
+    },
+    {
+      "name": "auto-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "weedmo/skills",
+        "path": "plugins/auto-loop"
       }
     },
     {
@@ -1269,6 +1317,14 @@
       }
     },
     {
+      "name": "blackbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/blackbox"
+      }
+    },
+    {
       "name": "block-no-verify",
       "source": {
         "source": "git-subdir",
@@ -1336,6 +1392,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/community/boycott-filter"
+      }
+    },
+    {
+      "name": "brand-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/brand-design/brand-design"
       }
     },
     {
@@ -1521,6 +1585,14 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "canvas-design"
+      }
+    },
+    {
+      "name": "capacity-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/capacity-planning/capacity-planning"
       }
     },
     {
@@ -2383,6 +2455,14 @@
       }
     },
     {
+      "name": "content-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/content-design/content-design"
+      }
+    },
+    {
       "name": "content-marketing",
       "source": {
         "source": "git-subdir",
@@ -2493,6 +2573,14 @@
         "source": "git-subdir",
         "url": "JoelLewis/finance_skills",
         "path": "plugins/core"
+      }
+    },
+    {
+      "name": "core-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "tests/fixtures/rulebooks/tokenmaxxxer-core/core"
       }
     },
     {
@@ -2723,6 +2811,14 @@
       }
     },
     {
+      "name": "customer-support-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/customer-support/customer-support"
+      }
+    },
+    {
       "name": "customerio-pack",
       "source": {
         "source": "git-subdir",
@@ -2783,6 +2879,14 @@
       }
     },
     {
+      "name": "data-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/data-engineering/data-engineering"
+      }
+    },
+    {
       "name": "data-integration",
       "source": {
         "source": "git-subdir",
@@ -2795,6 +2899,14 @@
       "source": {
         "source": "github",
         "repo": "Automattic/data-liberation-agent"
+      }
+    },
+    {
+      "name": "data-modeling",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/data-modeling/data-modeling"
       }
     },
     {
@@ -3324,6 +3436,14 @@
       }
     },
     {
+      "name": "devrel",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/devrel/devrel"
+      }
+    },
+    {
       "name": "devteam",
       "source": {
         "source": "github",
@@ -3580,6 +3700,13 @@
       "source": {
         "source": "github",
         "repo": "saibodafu/e-commerce-skill"
+      }
+    },
+    {
+      "name": "easyeda-pro",
+      "source": {
+        "source": "github",
+        "repo": "oaslananka/easyeda-mcp-pro"
       }
     },
     {
@@ -3855,6 +3982,14 @@
       }
     },
     {
+      "name": "execution-observation",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "tests/fixtures/rulebooks/execution-observation-rulebook/execution-observation"
+      }
+    },
+    {
       "name": "executive-assistant-skills",
       "source": {
         "source": "git-subdir",
@@ -4052,6 +4187,14 @@
       }
     },
     {
+      "name": "finance-unit-economics",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/finance-unit-economics/finance-unit-economics"
+      }
+    },
+    {
       "name": "finta-pack",
       "source": {
         "source": "git-subdir",
@@ -4111,6 +4254,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/flexport-pack"
+      }
+    },
+    {
+      "name": "floor",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/floor"
+      }
+    },
+    {
+      "name": "flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "flykit-cc/flykit",
+        "path": "plugins/flow"
       }
     },
     {
@@ -4469,6 +4628,13 @@
       }
     },
     {
+      "name": "ftester",
+      "source": {
+        "source": "github",
+        "repo": "wave1008/foundation-tester"
+      }
+    },
+    {
       "name": "full-stack-orchestration",
       "source": {
         "source": "git-subdir",
@@ -4757,6 +4923,14 @@
       }
     },
     {
+      "name": "growth-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/growth-analytics/growth-analytics"
+      }
+    },
+    {
       "name": "grpc-service-generator",
       "source": {
         "source": "git-subdir",
@@ -4959,6 +5133,14 @@
       }
     },
     {
+      "name": "hugo",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/hugo"
+      }
+    },
+    {
       "name": "human-resources",
       "source": {
         "source": "git-subdir",
@@ -5047,6 +5229,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/incident-response"
+      }
+    },
+    {
+      "name": "incident-response-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/incident-response/incident-response"
       }
     },
     {
@@ -5315,6 +5505,22 @@
       }
     },
     {
+      "name": "kdp-publisher",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/kdp-publisher"
+      }
+    },
+    {
+      "name": "kernel",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/kernel"
+      }
+    },
+    {
       "name": "ketchup",
       "source": {
         "source": "github",
@@ -5340,6 +5546,14 @@
       "source": {
         "source": "github",
         "repo": "wahahaazhe/KnowGT"
+      }
+    },
+    {
+      "name": "knowledge-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/knowledge-management/knowledge-management"
       }
     },
     {
@@ -5404,6 +5618,22 @@
       }
     },
     {
+      "name": "laravel-ddd",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/laravel-ddd"
+      }
+    },
+    {
+      "name": "laravel-playbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/laravel-playbook"
+      }
+    },
+    {
       "name": "lazyspec",
       "source": {
         "source": "github",
@@ -5448,6 +5678,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "legal"
+      }
+    },
+    {
+      "name": "legal-compliance",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/legal-compliance/legal-compliance"
       }
     },
     {
@@ -5603,6 +5841,14 @@
       }
     },
     {
+      "name": "localization",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/localization/localization"
+      }
+    },
+    {
       "name": "log-aggregation-setup",
       "source": {
         "source": "git-subdir",
@@ -5697,11 +5943,27 @@
       }
     },
     {
+      "name": "marina",
+      "source": {
+        "source": "git-subdir",
+        "url": "turong92/marina",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "markdown-html-skills",
       "source": {
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "markdown-html"
+      }
+    },
+    {
+      "name": "market-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/market-analysis/market-analysis"
       }
     },
     {
@@ -5734,6 +5996,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "marketing"
+      }
+    },
+    {
+      "name": "marketing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/marketing/marketing"
       }
     },
     {
@@ -5777,6 +6047,14 @@
       }
     },
     {
+      "name": "matt-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "weedmo/skills",
+        "path": "plugins/matt-loop"
+      }
+    },
+    {
       "name": "mattyp-changelog",
       "source": {
         "source": "git-subdir",
@@ -5813,6 +6091,13 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "plugins/mcp-tunnels"
+      }
+    },
+    {
+      "name": "media-io",
+      "source": {
+        "source": "github",
+        "repo": "media-io/plugin"
       }
     },
     {
@@ -5921,6 +6206,14 @@
       }
     },
     {
+      "name": "ml-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/ml-engineering/ml-engineering"
+      }
+    },
+    {
       "name": "ml-model-trainer",
       "source": {
         "source": "git-subdir",
@@ -5974,6 +6267,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/devops/monitoring-stack-deployer"
+      }
+    },
+    {
+      "name": "morning-brief",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/morning-brief"
       }
     },
     {
@@ -6165,6 +6466,14 @@
       }
     },
     {
+      "name": "observability-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/observability/observability"
+      }
+    },
+    {
       "name": "observability-monitoring",
       "source": {
         "source": "git-subdir",
@@ -6216,6 +6525,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/on-chain-analytics"
+      }
+    },
+    {
+      "name": "on-the-record",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "on-the-record"
       }
     },
     {
@@ -6325,6 +6642,14 @@
       }
     },
     {
+      "name": "outline",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/outline"
+      }
+    },
+    {
       "name": "outlook-mcp",
       "source": {
         "source": "github",
@@ -6379,6 +6704,14 @@
       }
     },
     {
+      "name": "panel",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/panel"
+      }
+    },
+    {
       "name": "paper-to-course",
       "source": {
         "source": "github",
@@ -6390,6 +6723,14 @@
       "source": {
         "source": "github",
         "repo": "parallel-web/parallel-agent-skills"
+      }
+    },
+    {
+      "name": "partnerships-bd",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/partnerships-bd/partnerships-bd"
       }
     },
     {
@@ -6480,6 +6821,14 @@
       }
     },
     {
+      "name": "performance-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/performance-engineering/performance-engineering"
+      }
+    },
+    {
       "name": "performance-optimization-advisor",
       "source": {
         "source": "git-subdir",
@@ -6504,10 +6853,26 @@
       }
     },
     {
+      "name": "pest",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/pest"
+      }
+    },
+    {
       "name": "philososkills",
       "source": {
         "source": "github",
         "repo": "louisonrib/philososkills"
+      }
+    },
+    {
+      "name": "phprobe",
+      "source": {
+        "source": "git-subdir",
+        "url": "The01Geek/prflow",
+        "path": ".github/probe-plugin"
       }
     },
     {
@@ -6657,6 +7022,14 @@
       }
     },
     {
+      "name": "plugin-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/plugin-sync"
+      }
+    },
+    {
       "name": "plumbline",
       "source": {
         "source": "github",
@@ -6782,11 +7155,27 @@
       }
     },
     {
+      "name": "pr-communications",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/pr-communications/pr-communications"
+      }
+    },
+    {
       "name": "pr-review",
       "source": {
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "pr-review"
+      }
+    },
+    {
+      "name": "pr-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "BradyHazell/brady-plugins",
+        "path": "plugins/pr-review"
       }
     },
     {
@@ -6829,11 +7218,34 @@
       }
     },
     {
+      "name": "prd-drafter",
+      "source": {
+        "source": "git-subdir",
+        "url": "BradyHazell/brady-plugins",
+        "path": "plugins/prd-drafter"
+      }
+    },
+    {
       "name": "prettier-markdown-hook",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/productivity/prettier-markdown-hook"
+      }
+    },
+    {
+      "name": "prflow",
+      "source": {
+        "source": "github",
+        "repo": "The01Geek/prflow"
+      }
+    },
+    {
+      "name": "pricing",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/pricing/pricing"
       }
     },
     {
@@ -6904,6 +7316,13 @@
       "source": {
         "source": "github",
         "repo": "nizos/probity"
+      }
+    },
+    {
+      "name": "procoder",
+      "source": {
+        "source": "github",
+        "repo": "azrtydxb/procoder"
       }
     },
     {
@@ -7269,6 +7688,14 @@
       }
     },
     {
+      "name": "refactoring-legacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/refactoring-legacy/refactoring-legacy"
+      }
+    },
+    {
       "name": "reflect",
       "source": {
         "source": "git-subdir",
@@ -7365,6 +7792,14 @@
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Report-Analyst-Plugin"
+      }
+    },
+    {
+      "name": "requirements-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/requirements-engineering/requirements-engineering"
       }
     },
     {
@@ -7482,6 +7917,14 @@
       }
     },
     {
+      "name": "risk-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/risk-management/risk-management"
+      }
+    },
+    {
       "name": "roast",
       "source": {
         "source": "git-subdir",
@@ -7495,6 +7938,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/roi-calculator"
+      }
+    },
+    {
+      "name": "ros2-engineering",
+      "source": {
+        "source": "github",
+        "repo": "dbwls99706/ros2-engineering-skills"
       }
     },
     {
@@ -7534,6 +7984,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "sales"
+      }
+    },
+    {
+      "name": "sales-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/sales/sales"
       }
     },
     {
@@ -7916,6 +8374,14 @@
       }
     },
     {
+      "name": "secure-coding",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/secure-coding/secure-coding"
+      }
+    },
+    {
       "name": "security-agent",
       "source": {
         "source": "git-subdir",
@@ -7985,6 +8451,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/security-scanning"
+      }
+    },
+    {
+      "name": "security-threat-model",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/security-threat-model/security-threat-model"
       }
     },
     {
@@ -8170,6 +8644,14 @@
       }
     },
     {
+      "name": "signal",
+      "source": {
+        "source": "git-subdir",
+        "url": "attac-t/the-foundry",
+        "path": "plugins/signal"
+      }
+    },
+    {
       "name": "signature-replay-analysis",
       "source": {
         "source": "git-subdir",
@@ -8209,6 +8691,14 @@
       }
     },
     {
+      "name": "skill-fields-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/skill-fields-reviewer"
+      }
+    },
+    {
       "name": "skill-forge-essentials",
       "source": {
         "source": "git-subdir",
@@ -8237,6 +8727,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/community/skills-janitor"
+      }
+    },
+    {
+      "name": "sky-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "JinHoonPark/SkyAgentPlugins",
+        "path": "plugins/sky-workflow"
       }
     },
     {
@@ -8322,6 +8820,14 @@
       "source": {
         "source": "github",
         "repo": "giancarloerra/SocratiCode"
+      }
+    },
+    {
+      "name": "sound-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/sound-hooks"
       }
     },
     {
@@ -8434,6 +8940,14 @@
       }
     },
     {
+      "name": "start-work",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/start-work"
+      }
+    },
+    {
       "name": "startup-business-analyst",
       "source": {
         "source": "git-subdir",
@@ -8455,6 +8969,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/statistical-analyst"
+      }
+    },
+    {
+      "name": "steuer",
+      "source": {
+        "source": "git-subdir",
+        "url": "flykit-cc/flykit",
+        "path": "plugins/steuer"
       }
     },
     {
@@ -8515,6 +9037,13 @@
       "source": {
         "source": "github",
         "repo": "cskwork/superadvisor"
+      }
+    },
+    {
+      "name": "superloopy",
+      "source": {
+        "source": "github",
+        "repo": "beefiker/superloopy"
       }
     },
     {
@@ -8640,6 +9169,21 @@
       }
     },
     {
+      "name": "szsdlc",
+      "source": {
+        "source": "github",
+        "repo": "stephen-zhao/szsdlc"
+      }
+    },
+    {
+      "name": "tacit",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/tacit"
+      }
+    },
+    {
       "name": "tdd-workflows",
       "source": {
         "source": "git-subdir",
@@ -8667,6 +9211,14 @@
       "source": {
         "source": "github",
         "repo": "lynxlangya/techne"
+      }
+    },
+    {
+      "name": "technical-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/technical-writing/technical-writing"
       }
     },
     {
@@ -8739,6 +9291,14 @@
         "source": "git-subdir",
         "url": "hashicorp/agent-skills",
         "path": "terraform/provider-development"
+      }
+    },
+    {
+      "name": "test-authoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/test-authoring/test-authoring"
       }
     },
     {
@@ -9033,10 +9593,26 @@
       }
     },
     {
+      "name": "user-discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-167/_assets/rulebook-skeleton/user-discovery/user-discovery"
+      }
+    },
+    {
       "name": "userscript-development",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Userscript-Development-Plugin"
+      }
+    },
+    {
+      "name": "ux-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "tokenmaxxxer/on-the-record",
+        "path": "docs/issue-170/_assets/rulebook-skeleton/ux-engineering/ux-engineering"
       }
     },
     {
@@ -9173,6 +9749,14 @@
       "source": {
         "source": "github",
         "repo": "chopratejas/vitals"
+      }
+    },
+    {
+      "name": "voice",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/voice"
       }
     },
     {
@@ -9459,6 +10043,22 @@
       }
     },
     {
+      "name": "wendao",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/wendao"
+      }
+    },
+    {
+      "name": "wenlan-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "7xuanlu/wenlan",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "wenqu-mem",
       "source": {
         "source": "github",
@@ -9471,6 +10071,21 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/whale-alert-monitor"
+      }
+    },
+    {
+      "name": "white-room",
+      "source": {
+        "source": "github",
+        "repo": "m4thayus/white-room"
+      }
+    },
+    {
+      "name": "wiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "743v45/taevas-plugins",
+        "path": "plugins/wiki"
       }
     },
     {
@@ -9689,6 +10304,14 @@
       }
     },
     {
+      "name": "wordpress-block-theme",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/wordpress-block-theme"
+      }
+    },
+    {
       "name": "workflow-builder",
       "source": {
         "source": "git-subdir",
@@ -9720,6 +10343,14 @@
       }
     },
     {
+      "name": "worklog",
+      "source": {
+        "source": "git-subdir",
+        "url": "robsartin/claude-config",
+        "path": "plugins/worklog"
+      }
+    },
+    {
       "name": "worktree-task",
       "source": {
         "source": "github",
@@ -9747,6 +10378,13 @@
         "source": "git-subdir",
         "url": "dair-ai/dair-academy-plugins",
         "path": "plugins/x-agent-intelligence"
+      }
+    },
+    {
+      "name": "x-api-scraper",
+      "source": {
+        "source": "github",
+        "repo": "twexapi-dev/x-api-scraper"
       }
     },
     {
@@ -9841,6 +10479,13 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "partner-built/zoom-plugin"
+      }
+    },
+    {
+      "name": "zyz-worker",
+      "source": {
+        "source": "github",
+        "repo": "somePeopleFireAndWood/zyz-worker"
       }
     }
   ]

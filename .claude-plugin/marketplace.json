@@ -99,6 +99,22 @@
       }
     },
     {
+      "name": "ach-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "ackstorm/ach-memory",
+        "path": "plugins/claude-code"
+      }
+    },
+    {
+      "name": "adhoc",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/adhoc"
+      }
+    },
+    {
       "name": "adjutant-agent",
       "source": {
         "source": "github",
@@ -233,6 +249,29 @@
       }
     },
     {
+      "name": "agent-kit",
+      "source": {
+        "source": "github",
+        "repo": "nhattamgithub1999/agent-kit"
+      }
+    },
+    {
+      "name": "agent-launcher-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "agent-launcher"
+      }
+    },
+    {
+      "name": "agent-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/agent-memory"
+      }
+    },
+    {
       "name": "agent-orchestration",
       "source": {
         "source": "git-subdir",
@@ -277,6 +316,13 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "agent-sdk-dev"
+      }
+    },
+    {
+      "name": "agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "rm-dominictoerien/agent-skills"
       }
     },
     {
@@ -392,6 +438,21 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/productivity/ai-commit-gen"
+      }
+    },
+    {
+      "name": "ai-driven-dev-principles",
+      "source": {
+        "source": "github",
+        "repo": "taika-izumi/ai-driven-dev-principles"
+      }
+    },
+    {
+      "name": "ai-driven-dev-principles-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "taika-izumi/ai-driven-dev-principles",
+        "path": "dist"
       }
     },
     {
@@ -858,6 +919,13 @@
       }
     },
     {
+      "name": "apijack",
+      "source": {
+        "source": "github",
+        "repo": "normalled/apijack"
+      }
+    },
+    {
       "name": "apm-dashboard-creator",
       "source": {
         "source": "git-subdir",
@@ -1097,6 +1165,13 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "audit-project"
+      }
+    },
+    {
+      "name": "australian-accounting-skills",
+      "source": {
+        "source": "github",
+        "repo": "ryanduguid/australian-accounting-skills"
       }
     },
     {
@@ -1534,6 +1609,14 @@
       }
     },
     {
+      "name": "c-level-agents-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "c-level-agents"
+      }
+    },
+    {
       "name": "c-level-skills",
       "source": {
         "source": "git-subdir",
@@ -1740,6 +1823,13 @@
       }
     },
     {
+      "name": "checkclaim",
+      "source": {
+        "source": "github",
+        "repo": "UmerFaiz11/checkclaim"
+      }
+    },
+    {
       "name": "chief-ai-officer-advisor",
       "source": {
         "source": "git-subdir",
@@ -1831,6 +1921,14 @@
       }
     },
     {
+      "name": "classroom-teacher",
+      "source": {
+        "source": "git-subdir",
+        "url": "eduplugins/plugins",
+        "path": "plugins/classroom-teacher"
+      }
+    },
+    {
       "name": "claude-ads",
       "source": {
         "source": "github",
@@ -1907,6 +2005,14 @@
       "source": {
         "source": "github",
         "repo": "samuelzxu/claude-evolve"
+      }
+    },
+    {
+      "name": "claude-example-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/hol-guard",
+        "path": "tests/fixtures/claude-plugin-good"
       }
     },
     {
@@ -2725,6 +2831,14 @@
       }
     },
     {
+      "name": "crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/crew"
+      }
+    },
+    {
       "name": "crit",
       "source": {
         "source": "github",
@@ -2744,6 +2858,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/cross-chain-bridge-monitor"
+      }
+    },
+    {
+      "name": "crucible",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/crucible"
       }
     },
     {
@@ -2784,6 +2906,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/crypto-tax-calculator"
+      }
+    },
+    {
+      "name": "curriculum-coordinator",
+      "source": {
+        "source": "git-subdir",
+        "url": "eduplugins/plugins",
+        "path": "plugins/curriculum-coordinator"
       }
     },
     {
@@ -2846,6 +2976,14 @@
       "source": {
         "source": "github",
         "repo": "panguin6010/daisy-mode-plugin"
+      }
+    },
+    {
+      "name": "damu",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/damu"
       }
     },
     {
@@ -3250,11 +3388,26 @@
       }
     },
     {
+      "name": "deepread",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "research/deepread"
+      }
+    },
+    {
       "name": "defi-yield-optimizer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/defi-yield-optimizer"
+      }
+    },
+    {
+      "name": "dely",
+      "source": {
+        "source": "github",
+        "repo": "hieuphung97/dely"
       }
     },
     {
@@ -3456,6 +3609,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/tonone/bundle/devx-team"
+      }
+    },
+    {
+      "name": "dex",
+      "source": {
+        "source": "github",
+        "repo": "exmergo/dex"
       }
     },
     {
@@ -3700,6 +3860,14 @@
       "source": {
         "source": "github",
         "repo": "saibodafu/e-commerce-skill"
+      }
+    },
+    {
+      "name": "e2e",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/e2e"
       }
     },
     {
@@ -4287,6 +4455,14 @@
       }
     },
     {
+      "name": "flutter-styleguide",
+      "source": {
+        "source": "git-subdir",
+        "url": "timdavidfriedrich/flutter-workspace",
+        "path": "plugins/flutter-styleguide"
+      }
+    },
+    {
       "name": "flux-health",
       "source": {
         "source": "git-subdir",
@@ -4348,6 +4524,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/fondo-pack"
+      }
+    },
+    {
+      "name": "forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/forge"
       }
     },
     {
@@ -4526,10 +4710,26 @@
       }
     },
     {
+      "name": "foundry",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/foundry"
+      }
+    },
+    {
       "name": "foundryvtt-dev",
       "source": {
         "source": "github",
         "repo": "cyface/foundryvtt-dev-claude-plugin"
+      }
+    },
+    {
+      "name": "foursday",
+      "source": {
+        "source": "git-subdir",
+        "url": "ruiwang20010702/foursday",
+        "path": "distribution/claude-plugins/foursday"
       }
     },
     {
@@ -5073,6 +5273,14 @@
       }
     },
     {
+      "name": "holmes",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/holmes"
+      }
+    },
+    {
       "name": "home-assistant-manager",
       "source": {
         "source": "github",
@@ -5138,6 +5346,14 @@
         "source": "git-subdir",
         "url": "743v45/taevas-plugins",
         "path": "plugins/hugo"
+      }
+    },
+    {
+      "name": "human-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/human-gate"
       }
     },
     {
@@ -5595,6 +5811,13 @@
       }
     },
     {
+      "name": "l3a0",
+      "source": {
+        "source": "github",
+        "repo": "l3a0/claude-plugins"
+      }
+    },
+    {
       "name": "labtasker-skill",
       "source": {
         "source": "github",
@@ -5670,6 +5893,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/learning-output-style"
+      }
+    },
+    {
+      "name": "learning-support-teacher",
+      "source": {
+        "source": "git-subdir",
+        "url": "eduplugins/plugins",
+        "path": "plugins/learning-support-teacher"
       }
     },
     {
@@ -5758,6 +5989,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/linear"
+      }
+    },
+    {
+      "name": "linkedin",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "marketing/linkedin"
       }
     },
     {
@@ -5928,6 +6167,13 @@
       }
     },
     {
+      "name": "mailwarden",
+      "source": {
+        "source": "github",
+        "repo": "csitte/mailwarden"
+      }
+    },
+    {
       "name": "make-scenario-builder",
       "source": {
         "source": "git-subdir",
@@ -6052,6 +6298,22 @@
         "source": "git-subdir",
         "url": "weedmo/skills",
         "path": "plugins/matt-loop"
+      }
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "wasikarn/matt-harness",
+        "path": "tests/skills/harness-audit/known-bad/check-50-bad/fake-matt-cache/1.0.0"
+      }
+    },
+    {
+      "name": "mattpocock-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "wasikarn/matt-harness",
+        "path": "tests/skills/harness-audit/known-bad/check-50-good/fake-matt-cache/1.0.0"
       }
     },
     {
@@ -6189,6 +6451,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/performance/metrics-aggregator"
+      }
+    },
+    {
+      "name": "mh",
+      "source": {
+        "source": "github",
+        "repo": "wasikarn/matt-harness"
       }
     },
     {
@@ -6509,6 +6778,13 @@
       "source": {
         "source": "github",
         "repo": "hypnguyen1209/offensive-claude"
+      }
+    },
+    {
+      "name": "ojiman-skills",
+      "source": {
+        "source": "github",
+        "repo": "ojiman/skills"
       }
     },
     {
@@ -7483,6 +7759,13 @@
       }
     },
     {
+      "name": "pstack",
+      "source": {
+        "source": "github",
+        "repo": "theomilll/pstack-claude"
+      }
+    },
+    {
       "name": "publishing-skills",
       "source": {
         "source": "git-subdir",
@@ -7572,6 +7855,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/community/quit-sponsor"
+      }
+    },
+    {
+      "name": "quorum",
+      "source": {
+        "source": "git-subdir",
+        "url": "AiFirstDevelopment/quorum",
+        "path": "plugins/quorum"
       }
     },
     {
@@ -7764,6 +8055,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/tonone/skills/relay-ship"
+      }
+    },
+    {
+      "name": "relief-teacher",
+      "source": {
+        "source": "git-subdir",
+        "url": "eduplugins/plugins",
+        "path": "plugins/relief-teacher"
       }
     },
     {
@@ -8344,6 +8643,14 @@
       }
     },
     {
+      "name": "school-leader",
+      "source": {
+        "source": "git-subdir",
+        "url": "eduplugins/plugins",
+        "path": "plugins/school-leader"
+      }
+    },
+    {
       "name": "sdg-hub",
       "source": {
         "source": "github",
@@ -8691,6 +8998,14 @@
       }
     },
     {
+      "name": "skill-doctor",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/skill-doctor"
+      }
+    },
+    {
       "name": "skill-fields-reviewer",
       "source": {
         "source": "git-subdir",
@@ -8777,6 +9092,13 @@
       }
     },
     {
+      "name": "slash",
+      "source": {
+        "source": "github",
+        "repo": "vinslash/claude-custom"
+      }
+    },
+    {
       "name": "slide-meme-inserter",
       "source": {
         "source": "github",
@@ -8820,6 +9142,13 @@
       "source": {
         "source": "github",
         "repo": "giancarloerra/SocratiCode"
+      }
+    },
+    {
+      "name": "software-project-governance",
+      "source": {
+        "source": "github",
+        "repo": "peterwangze/software-project-governance"
       }
     },
     {
@@ -9117,6 +9446,14 @@
       }
     },
     {
+      "name": "swedish-mentor",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "productivity/swedish-mentor"
+      }
+    },
+    {
       "name": "swingle",
       "source": {
         "source": "github",
@@ -9348,6 +9685,14 @@
       }
     },
     {
+      "name": "tidy",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/tidy"
+      }
+    },
+    {
       "name": "time-series-forecaster",
       "source": {
         "source": "git-subdir",
@@ -9360,6 +9705,21 @@
       "source": {
         "source": "github",
         "repo": "misterbisson/timebuddy-incident-investigator"
+      }
+    },
+    {
+      "name": "tldr",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/tldr"
+      }
+    },
+    {
+      "name": "token-cost",
+      "source": {
+        "source": "github",
+        "repo": "peiris/token-cost"
       }
     },
     {
@@ -9458,6 +9818,14 @@
       }
     },
     {
+      "name": "trailhead",
+      "source": {
+        "source": "git-subdir",
+        "url": "ToRvaLDz/trailhead",
+        "path": "plugins/trailhead"
+      }
+    },
+    {
       "name": "training-video-generator",
       "source": {
         "source": "github",
@@ -9478,6 +9846,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/productivity/travel-assistant"
+      }
+    },
+    {
+      "name": "trazum",
+      "source": {
+        "source": "git-subdir",
+        "url": "Davmunrey/Trazum",
+        "path": "plugin"
       }
     },
     {
@@ -9616,10 +9992,42 @@
       }
     },
     {
+      "name": "ux-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/ux-review"
+      }
+    },
+    {
       "name": "uxaudit",
       "source": {
         "source": "github",
         "repo": "gotalab/uxaudit"
+      }
+    },
+    {
+      "name": "v12x-agent-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "V12X/v12x-skills",
+        "path": "skills/v12x-agent-audit"
+      }
+    },
+    {
+      "name": "v12x-design-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "V12X/v12x-skills",
+        "path": "skills/v12x-design-audit"
+      }
+    },
+    {
+      "name": "v12x-scan",
+      "source": {
+        "source": "git-subdir",
+        "url": "V12X/v12x-skills",
+        "path": "skills/v12x-scan"
       }
     },
     {
@@ -9974,6 +10382,14 @@
       }
     },
     {
+      "name": "weave",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/weave"
+      }
+    },
+    {
       "name": "weaviate",
       "source": {
         "source": "github",
@@ -10025,6 +10441,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/api-development/websocket-server-builder"
+      }
+    },
+    {
+      "name": "webster",
+      "source": {
+        "source": "git-subdir",
+        "url": "alphabravo-oss/guild",
+        "path": "plugins/webster"
       }
     },
     {

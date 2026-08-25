@@ -79,6 +79,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ach-memory-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ackstorm/ach-memory.git",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "actively",
       "source": {
         "source": "git-subdir",
@@ -248,6 +261,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iicmaster/antigravity-plugins.git",
         "path": "./plugins/agy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ai-driven-dev-principles-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/taika-izumi/ai-driven-dev-principles.git",
+        "path": "./dist"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -535,6 +561,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "australian-accounting-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ryanduguid/australian-accounting-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "auto-loop",
       "source": {
         "source": "git-subdir",
@@ -688,6 +726,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "beta-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/multi-plugin-repo/plugins/beta-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bigquery-data-analytics",
       "source": {
         "source": "url",
@@ -806,6 +857,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/box"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brain-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rootcause-org/rootcause-brain-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1138,6 +1201,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ChatCut-Inc/agent-plugin.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chatcut-desktop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ChatCut-Inc/agent-plugin.git",
+        "path": "./chatcut-desktop-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2153,6 +2229,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dely",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hieuphung97/dely.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "demandbase",
       "source": {
         "source": "git-subdir",
@@ -2595,6 +2683,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "eric-agent-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prest4u/eric-agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "error-debugging",
       "source": {
         "source": "git-subdir",
@@ -2637,6 +2737,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ahmed3elshaer/everything-claude-code-mobile.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-good-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/good-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2813,6 +2926,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fatihguner/foreman.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "foursday-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ruiwang20010702/foursday.git",
+        "path": "./plugins/foursday"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3546,6 +3672,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "july-ai-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/XjVoilin/JulyAIWorkflow.git",
+        "path": "./plugins/july-ai-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jvm-languages",
       "source": {
         "source": "git-subdir",
@@ -3778,6 +3917,19 @@
         "source": "git-subdir",
         "url": "https://github.com/levnikolaevich/claude-code-skills.git",
         "path": "./plugins/maintainer-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "malicious-skill-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/malicious-skill-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4026,6 +4178,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "minimal-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/minimal-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mixpanel",
       "source": {
         "source": "git-subdir",
@@ -4117,6 +4282,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "multi-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/multi-ecosystem-repo/codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "multi-platform-apps",
       "source": {
         "source": "git-subdir",
@@ -4135,6 +4313,32 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/plugin-eval/fixtures/multi-skill-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "my-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/missing-fields"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "my-plugin-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/no-version"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6268,6 +6472,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skills-missing-dir",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/skills-missing-dir"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skills-no-fm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/skills-no-frontmatter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sky-workflow",
       "source": {
         "source": "git-subdir",
@@ -6348,6 +6578,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/giancarloerra/SocratiCode.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "software-project-governance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/peterwangze/software-project-governance.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6775,6 +7017,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/test-android-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "test-marketplace",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/hol-guard.git",
+        "path": "./tests/fixtures/with-marketplace"
       },
       "policy": {
         "installation": "AVAILABLE",

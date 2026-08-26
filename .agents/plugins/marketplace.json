@@ -66,6 +66,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aaronplug",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/aaronplug"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -97,6 +110,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/actively"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "adept",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/randomparity/adept.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -333,6 +358,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "alexandria",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/alexandria"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alpaca",
       "source": {
         "source": "git-subdir",
@@ -465,6 +503,19 @@
         "source": "git-subdir",
         "url": "https://github.com/levnikolaevich/claude-code-skills.git",
         "path": "./plugins/architecture-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ariadne",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/ariadne"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -713,11 +764,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bash-guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/bash-guards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "before-you-build",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/before-you-build"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "berean",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/berean"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -903,6 +980,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "brevitas",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/brevitas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "brex",
       "source": {
         "source": "git-subdir",
@@ -933,6 +1023,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hyhmrright/brooks-lint.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/build"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1009,6 +1112,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/build-web-data-visualization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "builtin-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/builtin-tasks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1335,6 +1451,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-code-plans",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/claude-code-plans"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code-skills",
       "source": {
         "source": "url",
@@ -1466,6 +1595,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/poemswe/co-researcher.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/code"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2610,6 +2752,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ds4cc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/ds4cc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "e-commerce-skills",
       "source": {
         "source": "url",
@@ -2745,6 +2900,110 @@
       "category": "Developer Tools"
     },
     {
+      "name": "example",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/divergent-copy/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/missing-contract/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/no-recovery/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/package-as-skill-version/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/unattributed-exception/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/unclassified-skill/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/unresolved-router/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/unsupported-evidence-class/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "example-good-plugin",
       "source": {
         "source": "git-subdir",
@@ -2852,6 +3111,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/finn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fintool",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/risingdream/fintool-plugin.git",
+        "path": "./plugins/fintool"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3137,6 +3409,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ghostty-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/ghostty-titles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/git-guards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-pr-workflows",
       "source": {
         "source": "git-subdir",
@@ -3163,10 +3474,35 @@
       "category": "Developer Tools"
     },
     {
+      "name": "github-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gitops-skills",
       "source": {
         "source": "url",
         "url": "https://github.com/fluxcd/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "glb-label-editor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rendylong/label-editer.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3193,6 +3529,32 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/gmail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "godspeed-codex-command",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/godspeed-codex-command"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "godspeed-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/godspeed-core"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3381,6 +3743,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "herdr-reboot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/herdr-reboot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "herdr-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/herdr-titles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hermes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/hermes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hermes-tweet",
       "source": {
         "source": "git-subdir",
@@ -3394,11 +3795,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "heuer-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/heuer-planning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hex",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/hex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hexaemeron",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/hexaemeron"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3462,6 +3889,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Green-PT/honey-for-devs.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "horos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/horos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3583,6 +4023,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "impact-lens",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/moelee835/Impact-Lens.git",
+        "path": "./plugins/impact-lens"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "imweb-ai-toolkit",
       "source": {
         "source": "url",
@@ -3621,11 +4074,63 @@
       "category": "Developer Tools"
     },
     {
+      "name": "investigation-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/investigation-report"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "iterm2-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/iterm2-titles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jam",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/jam"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "janus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/janus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "java",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/java"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3677,6 +4182,19 @@
         "source": "git-subdir",
         "url": "https://github.com/XjVoilin/JulyAIWorkflow.git",
         "path": "./plugins/july-ai-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "justfile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/justfile"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3772,10 +4290,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "lazarus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/lazarus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "legal-skills",
       "source": {
         "source": "url",
         "url": "https://github.com/pa1nrui1/legal-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lemma",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/lemma"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3815,6 +4359,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/llm-application-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "llm-caret-messaging",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ormastes/simple.git",
+        "path": "./plugins/llm_caret_messaging"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3956,6 +4513,19 @@
         "source": "git-subdir",
         "url": "https://github.com/turong92/marina.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "markdown-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/markdown-tasks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4347,6 +4917,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "my-second-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/myagentdojo/my-second-brain-plugin.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "myregistry-com",
       "source": {
         "source": "git-subdir",
@@ -4548,6 +5131,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "one",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/duplicate-canonical/plugins/one"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "openai-ads-conversions",
       "source": {
         "source": "git-subdir",
@@ -4649,6 +5245,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "orchestration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "org-mcp-server",
       "source": {
         "source": "url",
@@ -4742,6 +5351,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/palladius/gemini-cli-custom-commands.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pandects",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/pandects"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4900,6 +5522,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plugin-and-skill-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/plugin-and-skill-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plugin-eval",
       "source": {
         "source": "git-subdir",
@@ -5007,6 +5642,19 @@
         "source": "git-subdir",
         "url": "https://github.com/BradyHazell/brady-plugins.git",
         "path": "./plugins/prd-drafter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "probitas",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/probitas"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5275,6 +5923,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/readwise"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recap",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/recap"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6042,6 +6703,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sapheneia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/sapheneia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sapui5",
       "source": {
         "source": "git-subdir",
@@ -6634,6 +7308,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spipe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ormastes/simple.git",
+        "path": "./examples/05_stdlib/spipe/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ssh-manager",
       "source": {
         "source": "url",
@@ -6664,6 +7351,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/statsig"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stop-phrase-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/stop-phrase-guard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6908,6 +7608,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tabularium",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./plugins/tabularium"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "taxdown",
       "source": {
         "source": "git-subdir",
@@ -6991,6 +7704,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/temporal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "temporal-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/temporal-data"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7114,6 +7840,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tmux-reboot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/tmux-reboot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tmux-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/tmux-titles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tradingview-mcp",
       "source": {
         "source": "url",
@@ -7162,11 +7914,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "trustabl",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trustabl/trustabl.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "twilio-developer-kit",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/twilio-developer-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "two",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wildcat-finance/skills.git",
+        "path": "./tests/fixtures/promise-machine/duplicate-canonical/plugins/two"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7451,6 +8228,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "worktree-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/motlin/claude-code-plugins.git",
+        "path": "./plugins/worktree-setup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "x-api-scraper",
       "source": {
         "source": "url",
@@ -7468,6 +8258,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/yepcode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ynab-mcp-server-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/oliverames/ynab-mcp-server.git",
+        "path": "./codex"
       },
       "policy": {
         "installation": "AVAILABLE",

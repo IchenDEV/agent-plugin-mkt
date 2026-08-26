@@ -107,6 +107,13 @@
       }
     },
     {
+      "name": "adept",
+      "source": {
+        "source": "github",
+        "repo": "randomparity/adept"
+      }
+    },
+    {
       "name": "adhoc",
       "source": {
         "source": "git-subdir",
@@ -556,6 +563,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/performance/alerting-rule-creator"
+      }
+    },
+    {
+      "name": "alexandria",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/alexandria"
       }
     },
     {
@@ -1028,6 +1043,14 @@
       }
     },
     {
+      "name": "ariadne",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/ariadne"
+      }
+    },
+    {
       "name": "arm-cortex-microcontrollers",
       "source": {
         "source": "git-subdir",
@@ -1339,6 +1362,14 @@
       }
     },
     {
+      "name": "bash-guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/bash-guards"
+      }
+    },
+    {
       "name": "bash-safety",
       "source": {
         "source": "github",
@@ -1367,6 +1398,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/behuman"
+      }
+    },
+    {
+      "name": "berean",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/berean"
       }
     },
     {
@@ -1518,6 +1557,14 @@
       }
     },
     {
+      "name": "brevitas",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/brevitas"
+      }
+    },
+    {
       "name": "brightdata-pack",
       "source": {
         "source": "git-subdir",
@@ -1541,6 +1588,14 @@
       }
     },
     {
+      "name": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/build"
+      }
+    },
+    {
       "name": "build-agent",
       "source": {
         "source": "github",
@@ -1559,6 +1614,14 @@
       "source": {
         "source": "github",
         "repo": "Xopoko/build-swift-apps"
+      }
+    },
+    {
+      "name": "builtin-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/builtin-tasks"
       }
     },
     {
@@ -1815,6 +1878,13 @@
       }
     },
     {
+      "name": "charter",
+      "source": {
+        "source": "github",
+        "repo": "diazoxide/charter"
+      }
+    },
+    {
       "name": "chatcut",
       "source": {
         "source": "git-subdir",
@@ -1969,6 +2039,14 @@
       "source": {
         "source": "github",
         "repo": "idnotbe/claude-code-guardian"
+      }
+    },
+    {
+      "name": "claude-code-plans",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/claude-code-plans"
       }
     },
     {
@@ -2221,6 +2299,14 @@
       "source": {
         "source": "github",
         "repo": "poemswe/co-researcher"
+      }
+    },
+    {
+      "name": "code",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/code"
       }
     },
     {
@@ -4134,6 +4220,70 @@
       }
     },
     {
+      "name": "example",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/divergent-copy/plugins/example"
+      }
+    },
+    {
+      "name": "example-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/missing-contract/plugins/example"
+      }
+    },
+    {
+      "name": "example-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/no-recovery/plugins/example"
+      }
+    },
+    {
+      "name": "example-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/package-as-skill-version/plugins/example"
+      }
+    },
+    {
+      "name": "example-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/unattributed-exception/plugins/example"
+      }
+    },
+    {
+      "name": "example-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/unclassified-skill/plugins/example"
+      }
+    },
+    {
+      "name": "example-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/unresolved-router/plugins/example"
+      }
+    },
+    {
+      "name": "example-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/unsupported-evidence-class/plugins/example"
+      }
+    },
+    {
       "name": "example-plugin",
       "source": {
         "source": "git-subdir",
@@ -4368,6 +4518,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/finta-pack"
+      }
+    },
+    {
+      "name": "fintool",
+      "source": {
+        "source": "git-subdir",
+        "url": "risingdream/fintool-plugin",
+        "path": "plugins/fintool"
       }
     },
     {
@@ -4967,11 +5125,35 @@
       }
     },
     {
+      "name": "ghostty-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/ghostty-titles"
+      }
+    },
+    {
+      "name": "git",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/git"
+      }
+    },
+    {
       "name": "git-commit-smart",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/devops/git-commit-smart"
+      }
+    },
+    {
+      "name": "git-guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/git-guards"
       }
     },
     {
@@ -4995,6 +5177,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/github"
+      }
+    },
+    {
+      "name": "github-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/github"
       }
     },
     {
@@ -5257,6 +5447,30 @@
       }
     },
     {
+      "name": "herdr-reboot",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/herdr-reboot"
+      }
+    },
+    {
+      "name": "herdr-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/herdr-titles"
+      }
+    },
+    {
+      "name": "hermes",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/hermes"
+      }
+    },
+    {
       "name": "hermes-tweet",
       "source": {
         "source": "git-subdir",
@@ -5270,6 +5484,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/community/hermes-tweet"
+      }
+    },
+    {
+      "name": "hexaemeron",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/hexaemeron"
       }
     },
     {
@@ -5323,6 +5545,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/hookify"
+      }
+    },
+    {
+      "name": "horos",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/horos"
       }
     },
     {
@@ -5433,6 +5663,14 @@
       }
     },
     {
+      "name": "impact-lens",
+      "source": {
+        "source": "git-subdir",
+        "url": "moelee835/Impact-Lens",
+        "path": "plugins/impact-lens"
+      }
+    },
+    {
       "name": "imweb-ai-toolkit",
       "source": {
         "source": "github",
@@ -5503,6 +5741,13 @@
       }
     },
     {
+      "name": "insight-full-report",
+      "source": {
+        "source": "github",
+        "repo": "dhshin0604/insight-full-report"
+      }
+    },
+    {
       "name": "intent-labs-pack",
       "source": {
         "source": "git-subdir",
@@ -5518,10 +5763,26 @@
       }
     },
     {
+      "name": "investigation-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/investigation-report"
+      }
+    },
+    {
       "name": "iris-dev",
       "source": {
         "source": "github",
         "repo": "intersystems-community/iris-agentic-dev"
+      }
+    },
+    {
+      "name": "iterm2-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/iterm2-titles"
       }
     },
     {
@@ -5530,6 +5791,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/productivity/j-rig"
+      }
+    },
+    {
+      "name": "janus",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/janus"
+      }
+    },
+    {
+      "name": "java",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/java"
       }
     },
     {
@@ -5675,11 +5952,35 @@
       }
     },
     {
+      "name": "joe-bag-of-tricks",
+      "source": {
+        "source": "git-subdir",
+        "url": "jwp23/joe-bag-of-tricks",
+        "path": "plugins/joe-bag-of-tricks"
+      }
+    },
+    {
+      "name": "joe-magic-bootstrap",
+      "source": {
+        "source": "git-subdir",
+        "url": "jwp23/joe-bag-of-tricks",
+        "path": "plugins/joe-magic-bootstrap"
+      }
+    },
+    {
       "name": "julia-development",
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/julia-development"
+      }
+    },
+    {
+      "name": "justfile",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/justfile"
       }
     },
     {
@@ -5857,6 +6158,14 @@
       }
     },
     {
+      "name": "lazarus",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/lazarus"
+      }
+    },
+    {
       "name": "lazyspec",
       "source": {
         "source": "github",
@@ -5925,6 +6234,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/tonone/bundle/legal-team"
+      }
+    },
+    {
+      "name": "lemma",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/lemma"
       }
     },
     {
@@ -6021,6 +6338,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/llm-application-dev"
+      }
+    },
+    {
+      "name": "llm-caret-messaging",
+      "source": {
+        "source": "git-subdir",
+        "url": "ormastes/simple",
+        "path": "plugins/llm_caret_messaging"
       }
     },
     {
@@ -6202,6 +6527,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "markdown-html"
+      }
+    },
+    {
+      "name": "markdown-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/markdown-tasks"
       }
     },
     {
@@ -6562,6 +6895,14 @@
       }
     },
     {
+      "name": "my-second-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "myagentdojo/my-second-brain-plugin",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "n8n-autopilot",
       "source": {
         "source": "github",
@@ -6812,6 +7153,14 @@
       }
     },
     {
+      "name": "one",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/duplicate-canonical/plugins/one"
+      }
+    },
+    {
       "name": "openaccountant-skills",
       "source": {
         "source": "github",
@@ -6896,6 +7245,14 @@
       }
     },
     {
+      "name": "orchestration",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/orchestration"
+      }
+    },
+    {
       "name": "org-mcp-server",
       "source": {
         "source": "github",
@@ -6977,6 +7334,14 @@
       "source": {
         "source": "github",
         "repo": "palladius/gemini-cli-custom-commands"
+      }
+    },
+    {
+      "name": "pandects",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/pandects"
       }
     },
     {
@@ -7274,6 +7639,14 @@
       }
     },
     {
+      "name": "plugin-and-skill-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/plugin-and-skill-dev"
+      }
+    },
+    {
       "name": "plugin-dev",
       "source": {
         "source": "git-subdir",
@@ -7420,6 +7793,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/community/portaljs"
+      }
+    },
+    {
+      "name": "postey",
+      "source": {
+        "source": "git-subdir",
+        "url": "posteyai/skills",
+        "path": "skills/postey"
       }
     },
     {
@@ -7585,6 +7966,14 @@
       "source": {
         "source": "github",
         "repo": "rohitg00/pro-workflow"
+      }
+    },
+    {
+      "name": "probitas",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/probitas"
       }
     },
     {
@@ -7889,6 +8278,14 @@
       }
     },
     {
+      "name": "rain-org-health-check",
+      "source": {
+        "source": "git-subdir",
+        "url": "rainlanguage/rain-org-health",
+        "path": "plugins/rain-org-health-check"
+      }
+    },
+    {
       "name": "ralph-loop",
       "source": {
         "source": "git-subdir",
@@ -7953,6 +8350,14 @@
       "source": {
         "source": "github",
         "repo": "tonimaxx/recall"
+      }
+    },
+    {
+      "name": "recap",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/recap"
       }
     },
     {
@@ -8124,6 +8529,13 @@
       }
     },
     {
+      "name": "research-kit",
+      "source": {
+        "source": "github",
+        "repo": "jiancui-research/research-kit"
+      }
+    },
+    {
       "name": "research-ops-skills",
       "source": {
         "source": "git-subdir",
@@ -8237,6 +8649,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/roi-calculator"
+      }
+    },
+    {
+      "name": "rolepod-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "nuttaruj/rolepod-brain",
+        "path": "plugins/rolepod-brain"
       }
     },
     {
@@ -8597,6 +9017,14 @@
       }
     },
     {
+      "name": "sapheneia",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/sapheneia"
+      }
+    },
+    {
       "name": "sapui5",
       "source": {
         "source": "git-subdir",
@@ -8648,6 +9076,13 @@
         "source": "git-subdir",
         "url": "eduplugins/plugins",
         "path": "plugins/school-leader"
+      }
+    },
+    {
+      "name": "screencast-desktop",
+      "source": {
+        "source": "github",
+        "repo": "JHamidun/screencast-desktop"
       }
     },
     {
@@ -8869,6 +9304,13 @@
       }
     },
     {
+      "name": "session-bus",
+      "source": {
+        "source": "github",
+        "repo": "ABottomCoder/session-bus"
+      }
+    },
+    {
       "name": "sge",
       "source": {
         "source": "github",
@@ -9019,6 +9461,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/skill-forge-essentials"
+      }
+    },
+    {
+      "name": "skill-name",
+      "source": {
+        "source": "git-subdir",
+        "url": "posteyai/skills",
+        "path": "skills/_template"
       }
     },
     {
@@ -9309,6 +9759,14 @@
       }
     },
     {
+      "name": "stop-phrase-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/stop-phrase-guard"
+      }
+    },
+    {
       "name": "stored-procedure-generator",
       "source": {
         "source": "git-subdir",
@@ -9513,6 +9971,14 @@
       }
     },
     {
+      "name": "tabularium",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "plugins/tabularium"
+      }
+    },
+    {
       "name": "tacit",
       "source": {
         "source": "git-subdir",
@@ -9564,6 +10030,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/telegram"
+      }
+    },
+    {
+      "name": "temporal-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/temporal-data"
       }
     },
     {
@@ -9713,6 +10187,22 @@
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
         "path": "plugins/tldr"
+      }
+    },
+    {
+      "name": "tmux-reboot",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/tmux-reboot"
+      }
+    },
+    {
+      "name": "tmux-titles",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/tmux-titles"
       }
     },
     {
@@ -9886,6 +10376,13 @@
       }
     },
     {
+      "name": "trustabl",
+      "source": {
+        "source": "github",
+        "repo": "trustabl/trustabl"
+      }
+    },
+    {
       "name": "tweetclaw",
       "source": {
         "source": "git-subdir",
@@ -9898,6 +10395,14 @@
       "source": {
         "source": "github",
         "repo": "TechIndustryX/twincat-agent"
+      }
+    },
+    {
+      "name": "two",
+      "source": {
+        "source": "git-subdir",
+        "url": "wildcat-finance/skills",
+        "path": "tests/fixtures/promise-machine/duplicate-canonical/plugins/two"
       }
     },
     {
@@ -10028,6 +10533,14 @@
         "source": "git-subdir",
         "url": "V12X/v12x-skills",
         "path": "skills/v12x-scan"
+      }
+    },
+    {
+      "name": "vault-librarian",
+      "source": {
+        "source": "git-subdir",
+        "url": "abhijit-s/ai",
+        "path": "plugins/vault-librarian"
       }
     },
     {
@@ -10775,6 +11288,14 @@
       }
     },
     {
+      "name": "worktree-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "motlin/claude-code-plugins",
+        "path": "plugins/worktree-setup"
+      }
+    },
+    {
       "name": "worktree-task",
       "source": {
         "source": "github",
@@ -10839,6 +11360,13 @@
       "source": {
         "source": "github",
         "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill"
+      }
+    },
+    {
+      "name": "ynab-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "oliverames/ynab-mcp-server"
       }
     },
     {

@@ -79,6 +79,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "abstraction-architect-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/abstraction-architect"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -307,10 +320,35 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-maintenance-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/canglei9527/ai-maintenance-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-policy-runtime",
       "source": {
         "source": "url",
         "url": "https://github.com/lkimuk/ai-policy-runtime.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ai-tooling-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/ai-tooling"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -422,6 +460,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "analyze-redesign",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/farbodjavan/analyze-redesign.git",
+        "path": "./plugins/analyze-redesign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "andrej-karpathy-skills",
       "source": {
         "source": "url",
@@ -465,6 +516,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/apollo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "app-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/app-analyzer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1031,6 +1095,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "browser-extensions-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/browser-extensions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "build",
       "source": {
         "source": "git-subdir",
@@ -1125,6 +1202,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/builtin-tasks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "business-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/business"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1526,11 +1616,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clean-code-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/clean-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clickup",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/clickup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "client",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/client"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1694,6 +1810,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codebase-mapper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/codebase-mapper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codebase-xray-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/codebase-xray"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codeck",
       "source": {
         "source": "url",
@@ -1759,6 +1901,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/plastic-labs/codex-honcho.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-live-switch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zqj372-ops/Codex-Live-Switch.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1844,6 +1998,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Bang-isme/CodexAI---Skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "coding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/coding"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2116,6 +2283,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "csp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/csp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cube",
       "source": {
         "source": "git-subdir",
@@ -2147,6 +2327,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/daloopa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "daodan-probe-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./tests/host-probes/codex/plugins/probe"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2371,6 +2564,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "deja-vu-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vshulcz/deja-vu.git",
+        "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dely",
       "source": {
         "source": "url",
@@ -2401,6 +2607,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Sivan757/dsh-agent-plugins-market.git",
         "path": "./tests/fixtures/codex-bundled/plugins/demo-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dependency-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/dependency-audit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2465,6 +2684,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/devbrother2024/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devbuddy-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jennarinmeethong/devbuddy-skill.git",
+        "path": "./plugin/devbuddy-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devbuddy-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jennarinmeethong/devbuddy-skill.git",
+        "path": "./plugin/devbuddy-core"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2561,6 +2806,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "digital-marketing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/digital-marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "digitalocean",
       "source": {
         "source": "git-subdir",
@@ -2600,11 +2858,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "docker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/docker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "docket",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/docket"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/docs"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2752,6 +3036,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dropbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/dropbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ds4cc",
       "source": {
         "source": "git-subdir",
@@ -2868,6 +3165,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/error-diagnostics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "essential",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/essential"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3250,6 +3560,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/frontend-mobile-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "frontend-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/frontend-review"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3641,6 +3964,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "governance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/governance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "govtribe",
       "source": {
         "source": "git-subdir",
@@ -3659,6 +3995,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Matchameleon/gpt-codex-plugin.git",
         "path": "./plugins/gpt-relay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grabber-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/grabber-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4277,6 +4626,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kotlin-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/kotlin-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kubernetes-operations",
       "source": {
         "source": "git-subdir",
@@ -4290,11 +4652,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "laoyuan-aigc-photo-recreation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LaoYuan-aigc/laoyuan-aigc-photo-recreation.git",
+        "path": "./plugins/laoyuan-aigc-photo-recreation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "lazarus",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lazarus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "learning-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/learning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4320,6 +4708,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lemma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "libgdx-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/libgdx-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4547,6 +4948,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "marketplace-ops-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/marketplace-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "matlab-agentic-toolkit",
       "source": {
         "source": "url",
@@ -4647,6 +5061,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "messaging-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/messaging"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "meta-vr",
       "source": {
         "source": "url",
@@ -4727,6 +5154,19 @@
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
         "path": "./plugins/migration-to-aws"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mind-diary",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/xxsrez/marketplace.git",
+        "path": "./plugins/mind-diary"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5106,6 +5546,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/obsidian-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "occam",
       "source": {
         "source": "url",
@@ -5186,6 +5639,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/adibirzu/openclaw-security-monitor.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "opentelemetry-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/opentelemetry"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5422,6 +5888,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "peer-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/peer-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pentest-mcp-server",
       "source": {
         "source": "url",
@@ -5514,6 +5993,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/plannotator/design-artifact.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "platform-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/platform-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5727,6 +6219,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "production",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/production"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-setup-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/project-setup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
@@ -5744,6 +6262,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/DataDog/pup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwa-expert-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/pwa-expert"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5782,6 +6313,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/python-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "python-development-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/python-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5867,6 +6411,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rag-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/rag-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ranked-ai",
       "source": {
         "source": "git-subdir",
@@ -5897,6 +6454,32 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/razorpay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "react",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/react"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "react-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/react-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6012,6 +6595,32 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/replit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "repo-hygiene-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/repo-hygiene"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "research-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/research"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6856,6 +7465,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "senior-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/senior-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sentry",
       "source": {
         "source": "git-subdir",
@@ -6984,6 +7606,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ship-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/xxsrez/marketplace.git",
+        "path": "./plugins/ship-tasks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shiro-attack2",
       "source": {
         "source": "url",
@@ -7089,6 +7724,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/similarweb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "simple-output",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/silbaram/skill-plugin.git",
+        "path": "./plugins/simple-output"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7308,6 +7956,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "specification",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/specification"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spipe",
       "source": {
         "source": "git-subdir",
@@ -7427,6 +8088,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/stripe"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stripe-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/stripe"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7582,6 +8256,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "system-utils-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/system-utils"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "systems-architecture",
       "source": {
         "source": "git-subdir",
@@ -7613,6 +8300,32 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/tabularium"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "task-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/xxsrez/marketplace.git",
+        "path": "./plugins/task-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tauri-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/tauri-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7764,11 +8477,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "testing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "testing-suite",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/levnikolaevich/claude-code-skills.git",
         "path": "./plugins/testing-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "text-humanizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/text-humanizer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7866,6 +8605,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "trading-broker-integration-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/trading-broker-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tradingview-mcp",
       "source": {
         "source": "url",
@@ -7944,6 +8696,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./tests/fixtures/promise-machine/duplicate-canonical/plugins/two"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "typescript-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/typescript-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8140,6 +8905,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-scripting",
       "source": {
         "source": "git-subdir",
@@ -8245,6 +9023,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/twexapi-dev/x-api-scraper.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "xterm-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acaprino/daodan.git",
+        "path": "./exports/codex/plugins/xterm"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -155,6 +155,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adobe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/adobe"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adr",
       "source": {
         "source": "url",
@@ -298,6 +311,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/chainbase-labs/Agentkey.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wrzonance/agent-kit.git",
+        "path": "./agentkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentkit-probe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wrzonance/agent-kit.git",
+        "path": "./tests/probe/agentkit-probe"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -463,6 +502,19 @@
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
         "path": "./plugins/amazon-location-service"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ambiguous-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ambiguous-ai/plugins.git",
+        "path": "./plugins/ambiguous-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -675,10 +727,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ase",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rse/ase.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "assembly-api-mcp",
       "source": {
         "source": "url",
         "url": "https://github.com/hollobit/assembly-api-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "astro-cli-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/astro-cli-commands"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1118,6 +1196,84 @@
       "category": "Developer Tools"
     },
     {
+      "name": "brewcode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./.codex/plugins/brewcode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brewcode-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./brewcode/.codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brewdoc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./.codex/plugins/brewdoc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brewdoc-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./brewdoc/.codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brewtools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./.codex/plugins/brewtools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brewtools-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
+        "path": "./brewtools/.codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "brex",
       "source": {
         "source": "git-subdir",
@@ -1468,6 +1624,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ChatCut-Inc/agent-plugin.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chatcut-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/chatcut"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2194,6 +2363,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "consensus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/consensus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "content-core",
       "source": {
         "source": "url",
@@ -2344,6 +2526,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "creative-production",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/creative-production"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "csp-2",
       "source": {
         "source": "git-subdir",
@@ -2437,6 +2632,19 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/role-specific-plugins.git",
+        "path": "./plugins/data-analytics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "data-analytics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/data-analytics"
       },
       "policy": {
@@ -3141,6 +3349,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/ds4cc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "e-comet-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/e-comet/skills.git",
+        "path": "./plugins/e-comet-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4347,6 +4568,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "higgsfield",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/higgsfield"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "highlevel",
       "source": {
         "source": "git-subdir",
@@ -5089,6 +5323,201 @@
         "source": "git-subdir",
         "url": "https://github.com/levnikolaevich/claude-code-skills.git",
         "path": "./plugins/maintainer-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-cloudflare",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/cloudflare"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-devops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/devops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-founder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/founder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-frontend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/frontend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-marketing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-misc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/misc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-product",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/product"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-rails",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/rails"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-reasoning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/reasoning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/sales"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-seo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/seo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "majestic-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majesticlabs-dev/majestic-abilities.git",
+        "path": "./plugins/writing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5975,6 +6404,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ossian-stack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ossianhempel/ossian-stack.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "otter-ai",
       "source": {
         "source": "git-subdir",
@@ -6394,6 +6835,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prettier-after-edit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/prettier-after-edit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "probitas",
       "source": {
         "source": "git-subdir",
@@ -6515,6 +6969,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/protect-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "public-equity-investing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/public-equity-investing"
       },
       "policy": {
         "installation": "AVAILABLE",

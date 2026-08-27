@@ -44,6 +44,13 @@
       }
     },
     {
+      "name": "1f3d9-citylife",
+      "source": {
+        "source": "github",
+        "repo": "onetapstudiogames/1f3d9-citylife"
+      }
+    },
+    {
       "name": "404-directory-2",
       "source": {
         "source": "git-subdir",
@@ -248,6 +255,14 @@
       }
     },
     {
+      "name": "agency-os-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/agency-os"
+      }
+    },
+    {
       "name": "agent-context-manager",
       "source": {
         "source": "git-subdir",
@@ -338,6 +353,13 @@
       "source": {
         "source": "github",
         "repo": "rm-dominictoerien/agent-skills"
+      }
+    },
+    {
+      "name": "agent-skills-2",
+      "source": {
+        "source": "github",
+        "repo": "ghyghoo8/my-agent-skills"
       }
     },
     {
@@ -456,6 +478,13 @@
       }
     },
     {
+      "name": "ai-config",
+      "source": {
+        "source": "github",
+        "repo": "Morrison-Lab/ai-config"
+      }
+    },
+    {
       "name": "ai-driven-dev-principles",
       "source": {
         "source": "github",
@@ -475,6 +504,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/ai-ethics-validator"
+      }
+    },
+    {
+      "name": "ai-ethics-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/ai-ethics-validator"
       }
     },
@@ -510,6 +547,14 @@
       }
     },
     {
+      "name": "ai-ops-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/bundle/ai-ops-team"
+      }
+    },
+    {
       "name": "ai-policy-runtime",
       "source": {
         "source": "github",
@@ -521,6 +566,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/ai-sdk-agents"
+      }
+    },
+    {
+      "name": "ai-sdk-agents-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/ai-sdk-agents"
       }
     },
@@ -645,6 +698,14 @@
       }
     },
     {
+      "name": "anomaly-detection-system-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/anomaly-detection-system"
+      }
+    },
+    {
       "name": "ansible-docs",
       "source": {
         "source": "git-subdir",
@@ -733,10 +794,26 @@
       }
     },
     {
+      "name": "apex-plan-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/apex-plan"
+      }
+    },
+    {
       "name": "apex-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/apex-recon"
+      }
+    },
+    {
+      "name": "apex-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/apex-recon"
       }
     },
@@ -749,10 +826,26 @@
       }
     },
     {
+      "name": "apex-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/apex-review"
+      }
+    },
+    {
       "name": "apex-status",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/apex-status"
+      }
+    },
+    {
+      "name": "apex-status-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/apex-status"
       }
     },
@@ -765,10 +858,26 @@
       }
     },
     {
+      "name": "apex-takeover-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/apex-takeover"
+      }
+    },
+    {
       "name": "api-authentication-builder",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-authentication-builder"
+      }
+    },
+    {
+      "name": "api-authentication-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-authentication-builder"
       }
     },
@@ -781,6 +890,14 @@
       }
     },
     {
+      "name": "api-batch-processor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-batch-processor"
+      }
+    },
+    {
       "name": "api-cache-manager",
       "source": {
         "source": "git-subdir",
@@ -789,10 +906,26 @@
       }
     },
     {
+      "name": "api-cache-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-cache-manager"
+      }
+    },
+    {
       "name": "api-contract-generator",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-contract-generator"
+      }
+    },
+    {
+      "name": "api-contract-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-contract-generator"
       }
     },
@@ -813,10 +946,26 @@
       }
     },
     {
+      "name": "api-documentation-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-documentation-generator"
+      }
+    },
+    {
       "name": "api-error-handler",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-error-handler"
+      }
+    },
+    {
+      "name": "api-error-handler-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-error-handler"
       }
     },
@@ -829,10 +978,26 @@
       }
     },
     {
+      "name": "api-event-emitter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-event-emitter"
+      }
+    },
+    {
       "name": "api-gateway-builder",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-gateway-builder"
+      }
+    },
+    {
+      "name": "api-gateway-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-gateway-builder"
       }
     },
@@ -845,10 +1010,26 @@
       }
     },
     {
+      "name": "api-load-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-load-tester"
+      }
+    },
+    {
       "name": "api-migration-tool",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-migration-tool"
+      }
+    },
+    {
+      "name": "api-migration-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-migration-tool"
       }
     },
@@ -861,10 +1042,26 @@
       }
     },
     {
+      "name": "api-mock-server-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-mock-server"
+      }
+    },
+    {
       "name": "api-monitoring-dashboard",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-monitoring-dashboard"
+      }
+    },
+    {
+      "name": "api-monitoring-dashboard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-monitoring-dashboard"
       }
     },
@@ -877,6 +1074,14 @@
       }
     },
     {
+      "name": "api-rate-limiter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-rate-limiter"
+      }
+    },
+    {
       "name": "api-request-logger",
       "source": {
         "source": "git-subdir",
@@ -885,10 +1090,26 @@
       }
     },
     {
+      "name": "api-request-logger-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-request-logger"
+      }
+    },
+    {
       "name": "api-response-validator",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-response-validator"
+      }
+    },
+    {
+      "name": "api-response-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-response-validator"
       }
     },
@@ -909,6 +1130,14 @@
       }
     },
     {
+      "name": "api-schema-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-schema-validator"
+      }
+    },
+    {
       "name": "api-sdk-generator",
       "source": {
         "source": "git-subdir",
@@ -917,10 +1146,26 @@
       }
     },
     {
+      "name": "api-sdk-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-sdk-generator"
+      }
+    },
+    {
       "name": "api-security-scanner",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-security-scanner"
+      }
+    },
+    {
+      "name": "api-security-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-security-scanner"
       }
     },
@@ -941,10 +1186,26 @@
       }
     },
     {
+      "name": "api-throttling-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/api-throttling-manager"
+      }
+    },
+    {
       "name": "api-versioning-manager",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/api-versioning-manager"
+      }
+    },
+    {
+      "name": "api-versioning-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-versioning-manager"
       }
     },
@@ -1059,6 +1320,14 @@
       }
     },
     {
+      "name": "arcadedb-claude-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "altugsogutoglu/arcadedb-claude",
+        "path": "packages/claude-skills"
+      }
+    },
+    {
       "name": "arcgentic",
       "source": {
         "source": "github",
@@ -1151,10 +1420,26 @@
       }
     },
     {
+      "name": "atlas-adr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/atlas-adr"
+      }
+    },
+    {
       "name": "atlas-changelog",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/atlas-changelog"
+      }
+    },
+    {
+      "name": "atlas-changelog-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/atlas-changelog"
       }
     },
@@ -1167,10 +1452,26 @@
       }
     },
     {
+      "name": "atlas-map-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/atlas-map"
+      }
+    },
+    {
       "name": "atlas-onboard",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/atlas-onboard"
+      }
+    },
+    {
+      "name": "atlas-onboard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/atlas-onboard"
       }
     },
@@ -1183,6 +1484,14 @@
       }
     },
     {
+      "name": "atlas-present-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/atlas-present"
+      }
+    },
+    {
       "name": "atlas-recon",
       "source": {
         "source": "git-subdir",
@@ -1191,10 +1500,26 @@
       }
     },
     {
+      "name": "atlas-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/atlas-recon"
+      }
+    },
+    {
       "name": "atlas-report",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/atlas-report"
+      }
+    },
+    {
+      "name": "atlas-report-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/atlas-report"
       }
     },
@@ -1253,6 +1578,14 @@
       }
     },
     {
+      "name": "automl-pipeline-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/automl-pipeline-builder"
+      }
+    },
+    {
       "name": "autorefine",
       "source": {
         "source": "github",
@@ -1300,6 +1633,13 @@
       }
     },
     {
+      "name": "axiom",
+      "source": {
+        "source": "github",
+        "repo": "wheakerd/axiom"
+      }
+    },
+    {
       "name": "azure",
       "source": {
         "source": "git-subdir",
@@ -1335,6 +1675,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/b12-claude-plugin"
+      }
+    },
+    {
+      "name": "b12-claude-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/b12-claude-plugin"
       }
     },
@@ -1448,6 +1796,13 @@
       }
     },
     {
+      "name": "bergant-workflow",
+      "source": {
+        "source": "github",
+        "repo": "UnBergant/bergant-workflow"
+      }
+    },
+    {
       "name": "bigquery-data-analytics",
       "source": {
         "source": "github",
@@ -1548,6 +1903,14 @@
       }
     },
     {
+      "name": "boycott-filter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/boycott-filter"
+      }
+    },
+    {
       "name": "brand-design",
       "source": {
         "source": "git-subdir",
@@ -1576,6 +1939,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/business-tools/brand-strategy-framework"
+      }
+    },
+    {
+      "name": "brand-strategy-framework-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/business-tools/brand-strategy-framework"
       }
     },
@@ -2061,6 +2432,14 @@
       }
     },
     {
+      "name": "classification-model-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/classification-model-builder"
+      }
+    },
+    {
       "name": "classroom-teacher",
       "source": {
         "source": "git-subdir",
@@ -2225,6 +2604,14 @@
       }
     },
     {
+      "name": "claude-never-forgets-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/claude-never-forgets"
+      }
+    },
+    {
       "name": "claude-octopus",
       "source": {
         "source": "github",
@@ -2260,6 +2647,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/claude-reflect"
+      }
+    },
+    {
+      "name": "claude-reflect-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/claude-reflect"
       }
     },
@@ -2385,6 +2780,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/clustering-algorithm-runner"
+      }
+    },
+    {
+      "name": "clustering-algorithm-runner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/clustering-algorithm-runner"
       }
     },
@@ -2712,6 +3115,14 @@
       }
     },
     {
+      "name": "computer-vision-processor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/computer-vision-processor"
+      }
+    },
+    {
       "name": "conductor",
       "source": {
         "source": "github",
@@ -2842,6 +3253,14 @@
       }
     },
     {
+      "name": "contributing-clanker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/contributing-clanker"
+      }
+    },
+    {
       "name": "conversational-api-debugger",
       "source": {
         "source": "git-subdir",
@@ -2910,10 +3329,26 @@
       }
     },
     {
+      "name": "cortex-eval-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/cortex-eval"
+      }
+    },
+    {
       "name": "cortex-integrate",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/cortex-integrate"
+      }
+    },
+    {
+      "name": "cortex-integrate-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/cortex-integrate"
       }
     },
@@ -2926,6 +3361,14 @@
       }
     },
     {
+      "name": "cortex-model-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/cortex-model"
+      }
+    },
+    {
       "name": "cortex-prompt",
       "source": {
         "source": "git-subdir",
@@ -2934,10 +3377,26 @@
       }
     },
     {
+      "name": "cortex-prompt-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/cortex-prompt"
+      }
+    },
+    {
       "name": "cortex-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/cortex-recon"
+      }
+    },
+    {
+      "name": "cortex-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/cortex-recon"
       }
     },
@@ -3003,10 +3462,26 @@
       }
     },
     {
+      "name": "crest-compete-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/crest-compete"
+      }
+    },
+    {
       "name": "crest-narrative",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/crest-narrative"
+      }
+    },
+    {
+      "name": "crest-narrative-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/crest-narrative"
       }
     },
@@ -3019,6 +3494,14 @@
       }
     },
     {
+      "name": "crest-okr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/crest-okr"
+      }
+    },
+    {
       "name": "crest-recon",
       "source": {
         "source": "git-subdir",
@@ -3027,10 +3510,26 @@
       }
     },
     {
+      "name": "crest-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/crest-recon"
+      }
+    },
+    {
       "name": "crest-roadmap",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/crest-roadmap"
+      }
+    },
+    {
+      "name": "crest-roadmap-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/crest-roadmap"
       }
     },
@@ -3070,6 +3569,13 @@
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
         "path": "plugins/crucible"
+      }
+    },
+    {
+      "name": "crules-flutter",
+      "source": {
+        "source": "github",
+        "repo": "BIG-BEARC/crules-flutter"
       }
     },
     {
@@ -3229,6 +3735,14 @@
       }
     },
     {
+      "name": "data-and-pdf",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/data-and-pdf"
+      }
+    },
+    {
       "name": "data-engineering",
       "source": {
         "source": "git-subdir",
@@ -3276,6 +3790,14 @@
       }
     },
     {
+      "name": "data-preprocessing-pipeline-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/data-preprocessing-pipeline"
+      }
+    },
+    {
       "name": "data-quality-auditor",
       "source": {
         "source": "git-subdir",
@@ -3288,6 +3810,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/data-science-team"
+      }
+    },
+    {
+      "name": "data-science-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/data-science-team"
       }
     },
@@ -3320,6 +3850,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/data-visualization-creator"
+      }
+    },
+    {
+      "name": "data-visualization-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/data-visualization-creator"
       }
     },
@@ -3539,6 +4077,14 @@
       }
     },
     {
+      "name": "dataset-splitter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/dataset-splitter"
+      }
+    },
+    {
       "name": "daytona",
       "source": {
         "source": "github",
@@ -3576,10 +4122,26 @@
       }
     },
     {
+      "name": "deep-learning-book",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/deep-learning-book"
+      }
+    },
+    {
       "name": "deep-learning-optimizer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/deep-learning-optimizer"
+      }
+    },
+    {
+      "name": "deep-learning-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/deep-learning-optimizer"
       }
     },
@@ -3742,6 +4304,14 @@
       }
     },
     {
+      "name": "design-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/bundle/design-team"
+      }
+    },
+    {
       "name": "design-to-code",
       "source": {
         "source": "git-subdir",
@@ -3856,6 +4426,14 @@
       }
     },
     {
+      "name": "devx-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/bundle/devx-team"
+      }
+    },
+    {
       "name": "dex",
       "source": {
         "source": "github",
@@ -3915,6 +4493,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/discovery-questionnaire"
+      }
+    },
+    {
+      "name": "discovery-questionnaire-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/discovery-questionnaire"
       }
     },
@@ -3980,6 +4566,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/documenso-pack"
+      }
+    },
+    {
+      "name": "document-evidence",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/document-evidence"
       }
     },
     {
@@ -4084,10 +4678,26 @@
       }
     },
     {
+      "name": "draft-flow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/draft-flow"
+      }
+    },
+    {
       "name": "draft-ia",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/draft-ia"
+      }
+    },
+    {
+      "name": "draft-ia-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/draft-ia"
       }
     },
@@ -4100,10 +4710,26 @@
       }
     },
     {
+      "name": "draft-landing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/draft-landing"
+      }
+    },
+    {
       "name": "draft-patterns",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/draft-patterns"
+      }
+    },
+    {
+      "name": "draft-patterns-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/draft-patterns"
       }
     },
@@ -4116,10 +4742,26 @@
       }
     },
     {
+      "name": "draft-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/draft-recon"
+      }
+    },
+    {
       "name": "draft-review",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/draft-review"
+      }
+    },
+    {
+      "name": "draft-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/draft-review"
       }
     },
@@ -4135,6 +4777,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/draft-wireframe"
+      }
+    },
+    {
+      "name": "draft-wireframe-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/draft-wireframe"
       }
     },
@@ -4177,10 +4827,26 @@
       }
     },
     {
+      "name": "echo-feedback-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/echo-feedback"
+      }
+    },
+    {
       "name": "echo-interview",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/echo-interview"
+      }
+    },
+    {
+      "name": "echo-interview-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/echo-interview"
       }
     },
@@ -4193,10 +4859,26 @@
       }
     },
     {
+      "name": "echo-jobs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/echo-jobs"
+      }
+    },
+    {
       "name": "echo-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/echo-recon"
+      }
+    },
+    {
+      "name": "echo-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/echo-recon"
       }
     },
@@ -4209,10 +4891,26 @@
       }
     },
     {
+      "name": "echo-segment-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/echo-segment"
+      }
+    },
+    {
       "name": "ejentum-anti-deception",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/ejentum-anti-deception"
+      }
+    },
+    {
+      "name": "ejentum-anti-deception-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/ejentum-anti-deception"
       }
     },
@@ -4225,6 +4923,14 @@
       }
     },
     {
+      "name": "ejentum-code-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/ejentum-code"
+      }
+    },
+    {
       "name": "ejentum-memory",
       "source": {
         "source": "git-subdir",
@@ -4233,10 +4939,26 @@
       }
     },
     {
+      "name": "ejentum-memory-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/ejentum-memory"
+      }
+    },
+    {
       "name": "ejentum-reasoning",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/ejentum-reasoning"
+      }
+    },
+    {
+      "name": "ejentum-reasoning-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/ejentum-reasoning"
       }
     },
@@ -4315,6 +5037,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/engineering-team"
+      }
+    },
+    {
+      "name": "engineering-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/engineering-team"
       }
     },
@@ -4440,6 +5170,14 @@
       }
     },
     {
+      "name": "evidence-lab-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/core/evidence-lab-core"
+      }
+    },
+    {
       "name": "evolve",
       "source": {
         "source": "git-subdir",
@@ -4520,6 +5258,14 @@
       }
     },
     {
+      "name": "example-domain",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/domains/example-domain"
+      }
+    },
+    {
       "name": "example-plugin",
       "source": {
         "source": "git-subdir",
@@ -4532,6 +5278,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/business-tools/excel-analyst-pro"
+      }
+    },
+    {
+      "name": "excel-analyst-pro-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/business-tools/excel-analyst-pro"
       }
     },
@@ -4552,6 +5306,14 @@
       }
     },
     {
+      "name": "executive-assistant-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/business-tools/executive-assistant-skills"
+      }
+    },
+    {
       "name": "executive-mentor",
       "source": {
         "source": "git-subdir",
@@ -4564,6 +5326,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/experiment-tracking-setup"
+      }
+    },
+    {
+      "name": "experiment-tracking-setup-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/experiment-tracking-setup"
       }
     },
@@ -4632,6 +5402,14 @@
       }
     },
     {
+      "name": "fairdb-ops-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/fairdb-ops-manager"
+      }
+    },
+    {
       "name": "fakechat",
       "source": {
         "source": "git-subdir",
@@ -4676,6 +5454,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/feature-engineering-toolkit"
+      }
+    },
+    {
+      "name": "feature-engineering-toolkit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/feature-engineering-toolkit"
       }
     },
@@ -4754,6 +5540,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/finta-pack"
+      }
+    },
+    {
+      "name": "fintech-claude-skills",
+      "source": {
+        "source": "github",
+        "repo": "SanketsMane/Fintech-Skills"
       }
     },
     {
@@ -4872,10 +5665,26 @@
       }
     },
     {
+      "name": "flux-health-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/flux-health"
+      }
+    },
+    {
       "name": "flux-migrate",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/flux-migrate"
+      }
+    },
+    {
+      "name": "flux-migrate-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/flux-migrate"
       }
     },
@@ -4888,10 +5697,26 @@
       }
     },
     {
+      "name": "flux-pipeline-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/flux-pipeline"
+      }
+    },
+    {
       "name": "flux-query",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/flux-query"
+      }
+    },
+    {
+      "name": "flux-query-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/flux-query"
       }
     },
@@ -4904,10 +5729,26 @@
       }
     },
     {
+      "name": "flux-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/flux-recon"
+      }
+    },
+    {
       "name": "flux-schema",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/flux-schema"
+      }
+    },
+    {
+      "name": "flux-schema-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/flux-schema"
       }
     },
@@ -4944,10 +5785,26 @@
       }
     },
     {
+      "name": "forge-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/forge-audit"
+      }
+    },
+    {
       "name": "forge-cost",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/forge-cost"
+      }
+    },
+    {
+      "name": "forge-cost-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-cost"
       }
     },
@@ -4960,10 +5817,26 @@
       }
     },
     {
+      "name": "forge-diagnose-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/forge-diagnose"
+      }
+    },
+    {
       "name": "forge-infra",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/forge-infra"
+      }
+    },
+    {
+      "name": "forge-infra-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-infra"
       }
     },
@@ -4976,10 +5849,26 @@
       }
     },
     {
+      "name": "forge-network-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/forge-network"
+      }
+    },
+    {
       "name": "forge-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/forge-recon"
+      }
+    },
+    {
+      "name": "forge-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-recon"
       }
     },
@@ -4992,10 +5881,26 @@
       }
     },
     {
+      "name": "form-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-audit"
+      }
+    },
+    {
       "name": "form-brand",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-brand"
+      }
+    },
+    {
+      "name": "form-brand-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-brand"
       }
     },
@@ -5008,10 +5913,26 @@
       }
     },
     {
+      "name": "form-brief-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-brief"
+      }
+    },
+    {
       "name": "form-component",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-component"
+      }
+    },
+    {
+      "name": "form-component-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-component"
       }
     },
@@ -5024,10 +5945,26 @@
       }
     },
     {
+      "name": "form-deck-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-deck"
+      }
+    },
+    {
       "name": "form-email",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-email"
+      }
+    },
+    {
+      "name": "form-email-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-email"
       }
     },
@@ -5040,10 +5977,26 @@
       }
     },
     {
+      "name": "form-exam-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-exam"
+      }
+    },
+    {
       "name": "form-logo",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-logo"
+      }
+    },
+    {
+      "name": "form-logo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-logo"
       }
     },
@@ -5056,10 +6009,26 @@
       }
     },
     {
+      "name": "form-mobile-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-mobile"
+      }
+    },
+    {
       "name": "form-palette",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-palette"
+      }
+    },
+    {
+      "name": "form-palette-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-palette"
       }
     },
@@ -5072,10 +6041,26 @@
       }
     },
     {
+      "name": "form-social-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-social"
+      }
+    },
+    {
       "name": "form-style",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-style"
+      }
+    },
+    {
+      "name": "form-style-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-style"
       }
     },
@@ -5088,10 +6073,26 @@
       }
     },
     {
+      "name": "form-tokens-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/form-tokens"
+      }
+    },
+    {
       "name": "form-web",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/form-web"
+      }
+    },
+    {
+      "name": "form-web-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/form-web"
       }
     },
@@ -5138,6 +6139,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/framecraft"
+      }
+    },
+    {
+      "name": "framecraft-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/framecraft"
       }
     },
@@ -5244,6 +6253,14 @@
       }
     },
     {
+      "name": "full-research-cycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/full-research-cycle"
+      }
+    },
+    {
       "name": "full-stack-orchestration",
       "source": {
         "source": "git-subdir",
@@ -5256,6 +6273,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/full-team"
+      }
+    },
+    {
+      "name": "full-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/full-team"
       }
     },
@@ -5315,6 +6340,14 @@
       }
     },
     {
+      "name": "geepers-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/geepers-agents"
+      }
+    },
+    {
       "name": "gemini-api",
       "source": {
         "source": "git-subdir",
@@ -5343,6 +6376,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/business-tools/general-legal-assistant"
+      }
+    },
+    {
+      "name": "general-legal-assistant-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/business-tools/general-legal-assistant"
       }
     },
@@ -5548,6 +6589,13 @@
       }
     },
     {
+      "name": "graph-sorcerer",
+      "source": {
+        "source": "github",
+        "repo": "Dibakar01/graph-sorcerer"
+      }
+    },
+    {
       "name": "graphify",
       "source": {
         "source": "git-subdir",
@@ -5560,6 +6608,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/graphql-server-builder"
+      }
+    },
+    {
+      "name": "graphql-server-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/graphql-server-builder"
       }
     },
@@ -5595,6 +6651,13 @@
       }
     },
     {
+      "name": "growmax-skills",
+      "source": {
+        "source": "github",
+        "repo": "growmax/growmax-skills"
+      }
+    },
+    {
       "name": "growth-analytics",
       "source": {
         "source": "git-subdir",
@@ -5607,6 +6670,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/grpc-service-generator"
+      }
+    },
+    {
+      "name": "grpc-service-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/grpc-service-generator"
       }
     },
@@ -5681,10 +6752,26 @@
       }
     },
     {
+      "name": "helm-arbiter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/helm-arbiter"
+      }
+    },
+    {
       "name": "helm-brief",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/helm-brief"
+      }
+    },
+    {
+      "name": "helm-brief-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/helm-brief"
       }
     },
@@ -5713,6 +6800,14 @@
       }
     },
     {
+      "name": "helm-handoff-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/helm-handoff"
+      }
+    },
+    {
       "name": "helm-plan",
       "source": {
         "source": "git-subdir",
@@ -5721,10 +6816,26 @@
       }
     },
     {
+      "name": "helm-plan-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/helm-plan"
+      }
+    },
+    {
       "name": "helm-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/helm-recon"
+      }
+    },
+    {
+      "name": "helm-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/helm-recon"
       }
     },
@@ -5765,6 +6876,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/hermes-tweet"
+      }
+    },
+    {
+      "name": "hermes-tweet-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/hermes-tweet"
       }
     },
@@ -5861,6 +6980,13 @@
       }
     },
     {
+      "name": "html2wp",
+      "source": {
+        "source": "github",
+        "repo": "iOSDevSK/html2wp-cc-plugin"
+      }
+    },
+    {
       "name": "hugo",
       "source": {
         "source": "git-subdir",
@@ -5893,6 +7019,14 @@
       }
     },
     {
+      "name": "hyperflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/hyperflow"
+      }
+    },
+    {
       "name": "hyperfocus",
       "source": {
         "source": "git-subdir",
@@ -5912,6 +7046,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/hyperparameter-tuner"
+      }
+    },
+    {
+      "name": "hyperparameter-tuner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/hyperparameter-tuner"
       }
     },
@@ -6011,6 +7153,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/infra-specialist-team"
+      }
+    },
+    {
+      "name": "infra-specialist-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/infra-specialist-team"
       }
     },
@@ -6147,10 +7297,26 @@
       }
     },
     {
+      "name": "jeremy-adk-orchestrator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/jeremy-adk-orchestrator"
+      }
+    },
+    {
       "name": "jeremy-adk-software-engineer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/jeremy-adk-software-engineer"
+      }
+    },
+    {
+      "name": "jeremy-adk-software-engineer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/jeremy-adk-software-engineer"
       }
     },
@@ -6171,10 +7337,26 @@
       }
     },
     {
+      "name": "jeremy-firebase-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/jeremy-firebase"
+      }
+    },
+    {
       "name": "jeremy-firestore",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/jeremy-firestore"
+      }
+    },
+    {
+      "name": "jeremy-firestore-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/jeremy-firestore"
       }
     },
@@ -6187,10 +7369,26 @@
       }
     },
     {
+      "name": "jeremy-gcp-starter-examples-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/jeremy-gcp-starter-examples"
+      }
+    },
+    {
       "name": "jeremy-genkit-pro",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/jeremy-genkit-pro"
+      }
+    },
+    {
+      "name": "jeremy-genkit-pro-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/jeremy-genkit-pro"
       }
     },
@@ -6219,6 +7417,14 @@
       }
     },
     {
+      "name": "jeremy-google-adk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/jeremy-google-adk"
+      }
+    },
+    {
       "name": "jeremy-plugin-tool",
       "source": {
         "source": "git-subdir",
@@ -6235,10 +7441,26 @@
       }
     },
     {
+      "name": "jeremy-vertex-ai-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/jeremy-vertex-ai"
+      }
+    },
+    {
       "name": "jeremy-vertex-engine",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/jeremy-vertex-engine"
+      }
+    },
+    {
+      "name": "jeremy-vertex-engine-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/jeremy-vertex-engine"
       }
     },
@@ -6255,6 +7477,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/jeremy-vertex-validator"
+      }
+    },
+    {
+      "name": "jeremy-vertex-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/jeremy-vertex-validator"
       }
     },
@@ -6575,6 +7805,14 @@
       }
     },
     {
+      "name": "legal-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/bundle/legal-team"
+      }
+    },
+    {
       "name": "lemma",
       "source": {
         "source": "git-subdir",
@@ -6591,10 +7829,26 @@
       }
     },
     {
+      "name": "lens-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lens-audit"
+      }
+    },
+    {
       "name": "lens-chart",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/lens-chart"
+      }
+    },
+    {
+      "name": "lens-chart-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lens-chart"
       }
     },
@@ -6607,10 +7861,26 @@
       }
     },
     {
+      "name": "lens-dashboard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lens-dashboard"
+      }
+    },
+    {
       "name": "lens-metrics",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/lens-metrics"
+      }
+    },
+    {
+      "name": "lens-metrics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lens-metrics"
       }
     },
@@ -6623,10 +7893,26 @@
       }
     },
     {
+      "name": "lens-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lens-recon"
+      }
+    },
+    {
       "name": "lens-report",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/lens-report"
+      }
+    },
+    {
+      "name": "lens-report-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lens-report"
       }
     },
@@ -6647,6 +7933,14 @@
       }
     },
     {
+      "name": "life-sciences",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/domains/life-sciences"
+      }
+    },
+    {
       "name": "linear",
       "source": {
         "source": "git-subdir",
@@ -6663,11 +7957,27 @@
       }
     },
     {
+      "name": "linkstart",
+      "source": {
+        "source": "git-subdir",
+        "url": "TLOGBen/LinkStart",
+        "path": "plugins/linkstart"
+      }
+    },
+    {
       "name": "liquidity-pool-analyzer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/crypto/liquidity-pool-analyzer"
+      }
+    },
+    {
+      "name": "literature-publication",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/literature-publication"
       }
     },
     {
@@ -6684,6 +7994,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/llm-application-dev"
+      }
+    },
+    {
+      "name": "llm-box",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/llm-box"
       }
     },
     {
@@ -6751,6 +8069,14 @@
       }
     },
     {
+      "name": "local-tts-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/local-tts"
+      }
+    },
+    {
       "name": "localization",
       "source": {
         "source": "git-subdir",
@@ -6783,10 +8109,26 @@
       }
     },
     {
+      "name": "lumen-abtest-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lumen-abtest"
+      }
+    },
+    {
       "name": "lumen-funnel",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/lumen-funnel"
+      }
+    },
+    {
+      "name": "lumen-funnel-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lumen-funnel"
       }
     },
@@ -6799,6 +8141,14 @@
       }
     },
     {
+      "name": "lumen-instrument-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lumen-instrument"
+      }
+    },
+    {
       "name": "lumen-metrics",
       "source": {
         "source": "git-subdir",
@@ -6807,10 +8157,26 @@
       }
     },
     {
+      "name": "lumen-metrics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/lumen-metrics"
+      }
+    },
+    {
       "name": "lumen-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/lumen-recon"
+      }
+    },
+    {
+      "name": "lumen-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lumen-recon"
       }
     },
@@ -6827,6 +8193,14 @@
       "source": {
         "source": "github",
         "repo": "lusha-oss/lusha-mcp-plugin"
+      }
+    },
+    {
+      "name": "luthn-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "JakobSung/luthn-cloud-plugins",
+        "path": "plugins/luthn-cloud"
       }
     },
     {
@@ -6849,6 +8223,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/make-scenario-builder"
+      }
+    },
+    {
+      "name": "make-scenario-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/make-scenario-builder"
       }
     },
@@ -6944,6 +8326,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/marketing-team"
+      }
+    },
+    {
+      "name": "marketing-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/marketing-team"
       }
     },
@@ -7105,6 +8495,13 @@
       }
     },
     {
+      "name": "mental",
+      "source": {
+        "source": "github",
+        "repo": "afaraha8403/mental"
+      }
+    },
+    {
       "name": "mergify",
       "source": {
         "source": "github",
@@ -7186,10 +8583,26 @@
       }
     },
     {
+      "name": "ml-model-trainer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/ml-model-trainer"
+      }
+    },
+    {
       "name": "mnemos",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/community/mnemos"
+      }
+    },
+    {
+      "name": "mnemos-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/mnemos"
       }
     },
@@ -7202,10 +8615,26 @@
       }
     },
     {
+      "name": "model-deployment-helper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/model-deployment-helper"
+      }
+    },
+    {
       "name": "model-evaluation-suite",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/model-evaluation-suite"
+      }
+    },
+    {
+      "name": "model-evaluation-suite-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/model-evaluation-suite"
       }
     },
@@ -7218,10 +8647,26 @@
       }
     },
     {
+      "name": "model-explainability-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/model-explainability-tool"
+      }
+    },
+    {
       "name": "model-versioning-tracker",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/model-versioning-tracker"
+      }
+    },
+    {
+      "name": "model-versioning-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/model-versioning-tracker"
       }
     },
@@ -7276,6 +8721,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/n8n-workflow-designer"
+      }
+    },
+    {
+      "name": "n8n-workflow-designer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/n8n-workflow-designer"
       }
     },
@@ -7340,6 +8793,14 @@
       }
     },
     {
+      "name": "neural-network-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/neural-network-builder"
+      }
+    },
+    {
       "name": "neurodivergent-visual-org",
       "source": {
         "source": "git-subdir",
@@ -7390,6 +8851,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-ml/nlp-text-analyzer"
+      }
+    },
+    {
+      "name": "nlp-text-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/nlp-text-analyzer"
       }
     },
@@ -7507,6 +8976,14 @@
       }
     },
     {
+      "name": "ollama-local-ai-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/ollama-local-ai"
+      }
+    },
+    {
       "name": "on-chain-analytics",
       "source": {
         "source": "git-subdir",
@@ -7542,6 +9019,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/business-tools/openbb-terminal"
+      }
+    },
+    {
+      "name": "openbb-terminal-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/business-tools/openbb-terminal"
       }
     },
@@ -7596,6 +9081,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/operations-team"
+      }
+    },
+    {
+      "name": "operations-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/operations-team"
       }
     },
@@ -7776,10 +9269,26 @@
       }
     },
     {
+      "name": "pave-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pave-audit"
+      }
+    },
+    {
       "name": "pave-catalog",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/pave-catalog"
+      }
+    },
+    {
+      "name": "pave-catalog-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/pave-catalog"
       }
     },
@@ -7792,6 +9301,14 @@
       }
     },
     {
+      "name": "pave-env-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pave-env"
+      }
+    },
+    {
       "name": "pave-golden",
       "source": {
         "source": "git-subdir",
@@ -7800,10 +9317,26 @@
       }
     },
     {
+      "name": "pave-golden-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pave-golden"
+      }
+    },
+    {
       "name": "pave-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/pave-recon"
+      }
+    },
+    {
+      "name": "pave-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/pave-recon"
       }
     },
@@ -7954,10 +9487,26 @@
       }
     },
     {
+      "name": "pitch-copy-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pitch-copy"
+      }
+    },
+    {
       "name": "pitch-landing",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/pitch-landing"
+      }
+    },
+    {
+      "name": "pitch-landing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/pitch-landing"
       }
     },
@@ -7970,10 +9519,26 @@
       }
     },
     {
+      "name": "pitch-launch-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pitch-launch"
+      }
+    },
+    {
       "name": "pitch-message",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/pitch-message"
+      }
+    },
+    {
+      "name": "pitch-message-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/pitch-message"
       }
     },
@@ -7986,10 +9551,26 @@
       }
     },
     {
+      "name": "pitch-position-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/pitch-position"
+      }
+    },
+    {
       "name": "pitch-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/pitch-recon"
+      }
+    },
+    {
+      "name": "pitch-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/pitch-recon"
       }
     },
@@ -8197,6 +9778,14 @@
       }
     },
     {
+      "name": "portaljs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/community/portaljs"
+      }
+    },
+    {
       "name": "postey",
       "source": {
         "source": "git-subdir",
@@ -8315,10 +9904,26 @@
       }
     },
     {
+      "name": "prism-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/prism-audit"
+      }
+    },
+    {
       "name": "prism-chart",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/prism-chart"
+      }
+    },
+    {
+      "name": "prism-chart-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/prism-chart"
       }
     },
@@ -8331,10 +9936,26 @@
       }
     },
     {
+      "name": "prism-component-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/prism-component"
+      }
+    },
+    {
       "name": "prism-dashboard",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/prism-dashboard"
+      }
+    },
+    {
+      "name": "prism-dashboard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/prism-dashboard"
       }
     },
@@ -8347,6 +9968,14 @@
       }
     },
     {
+      "name": "prism-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/prism-recon"
+      }
+    },
+    {
       "name": "prism-stack",
       "source": {
         "source": "git-subdir",
@@ -8355,10 +9984,26 @@
       }
     },
     {
+      "name": "prism-stack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/prism-stack"
+      }
+    },
+    {
       "name": "prism-ui",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/prism-ui"
+      }
+    },
+    {
+      "name": "prism-ui-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/prism-ui"
       }
     },
@@ -8412,6 +10057,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/product-team"
+      }
+    },
+    {
+      "name": "product-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/product-team"
       }
     },
@@ -8502,6 +10155,14 @@
       }
     },
     {
+      "name": "promptbook-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/business-tools/promptbook"
+      }
+    },
+    {
       "name": "promptscout",
       "source": {
         "source": "github",
@@ -8517,10 +10178,26 @@
       }
     },
     {
+      "name": "proof-api-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/proof-api"
+      }
+    },
+    {
       "name": "proof-audit",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/proof-audit"
+      }
+    },
+    {
+      "name": "proof-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/proof-audit"
       }
     },
@@ -8533,10 +10210,26 @@
       }
     },
     {
+      "name": "proof-design-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/proof-design"
+      }
+    },
+    {
       "name": "proof-e2e",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/proof-e2e"
+      }
+    },
+    {
+      "name": "proof-e2e-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/proof-e2e"
       }
     },
@@ -8549,10 +10242,26 @@
       }
     },
     {
+      "name": "proof-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/proof-recon"
+      }
+    },
+    {
       "name": "proof-strategy",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/proof-strategy"
+      }
+    },
+    {
+      "name": "proof-strategy-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/proof-strategy"
       }
     },
@@ -8577,6 +10286,14 @@
       "source": {
         "source": "github",
         "repo": "theomilll/pstack-claude"
+      }
+    },
+    {
+      "name": "publication-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/publication-monitoring"
       }
     },
     {
@@ -8653,6 +10370,22 @@
       "source": {
         "source": "github",
         "repo": "lotea-be/qrspi"
+      }
+    },
+    {
+      "name": "qualitative-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/qualitative-research"
+      }
+    },
+    {
+      "name": "quantitative-sciences",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/domains/quantitative-sciences"
       }
     },
     {
@@ -8841,6 +10574,14 @@
       }
     },
     {
+      "name": "recommendation-engine-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/recommendation-engine"
+      }
+    },
+    {
       "name": "reentrancy-pattern-analysis",
       "source": {
         "source": "git-subdir",
@@ -8873,6 +10614,14 @@
       }
     },
     {
+      "name": "regression-analysis-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/regression-analysis-tool"
+      }
+    },
+    {
       "name": "relay",
       "source": {
         "source": "github",
@@ -8888,10 +10637,26 @@
       }
     },
     {
+      "name": "relay-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/relay-audit"
+      }
+    },
+    {
       "name": "relay-deploy",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/relay-deploy"
+      }
+    },
+    {
+      "name": "relay-deploy-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/relay-deploy"
       }
     },
@@ -8904,10 +10669,26 @@
       }
     },
     {
+      "name": "relay-docker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/relay-docker"
+      }
+    },
+    {
       "name": "relay-pipeline",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/relay-pipeline"
+      }
+    },
+    {
+      "name": "relay-pipeline-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/relay-pipeline"
       }
     },
@@ -8920,10 +10701,26 @@
       }
     },
     {
+      "name": "relay-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/relay-recon"
+      }
+    },
+    {
       "name": "relay-ship",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/relay-ship"
+      }
+    },
+    {
+      "name": "relay-ship-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/relay-ship"
       }
     },
@@ -9010,6 +10807,22 @@
       }
     },
     {
+      "name": "research-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/research-design"
+      }
+    },
+    {
+      "name": "research-images",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/research-images"
+      }
+    },
+    {
       "name": "research-kit",
       "source": {
         "source": "github",
@@ -9078,6 +10891,14 @@
       }
     },
     {
+      "name": "rest-api-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/rest-api-generator"
+      }
+    },
+    {
       "name": "resume-skill",
       "source": {
         "source": "github",
@@ -9089,6 +10910,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/revenue-team"
+      }
+    },
+    {
+      "name": "revenue-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/revenue-team"
       }
     },
@@ -9129,6 +10958,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/roi-calculator"
+      }
+    },
+    {
+      "name": "roi-calculator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/roi-calculator"
       }
     },
@@ -9530,6 +11367,13 @@
       }
     },
     {
+      "name": "sapwood",
+      "source": {
+        "source": "github",
+        "repo": "herehigher/sapwood"
+      }
+    },
+    {
       "name": "sc",
       "source": {
         "source": "github",
@@ -9585,6 +11429,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/bundle/secops-team"
+      }
+    },
+    {
+      "name": "secops-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/secops-team"
       }
     },
@@ -9724,6 +11576,14 @@
       }
     },
     {
+      "name": "sentiment-analysis-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/sentiment-analysis-tool"
+      }
+    },
+    {
       "name": "sentinelx-prime",
       "source": {
         "source": "github",
@@ -9842,6 +11702,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/shipwright"
+      }
+    },
+    {
+      "name": "shipwright-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/shipwright"
       }
     },
@@ -10107,6 +11975,14 @@
       }
     },
     {
+      "name": "sow-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/sow-generator"
+      }
+    },
+    {
       "name": "specification",
       "source": {
         "source": "git-subdir",
@@ -10123,10 +11999,26 @@
       }
     },
     {
+      "name": "spine-api-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/spine-api"
+      }
+    },
+    {
       "name": "spine-design",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/spine-design"
+      }
+    },
+    {
+      "name": "spine-design-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/spine-design"
       }
     },
@@ -10139,10 +12031,26 @@
       }
     },
     {
+      "name": "spine-perf-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/spine-perf"
+      }
+    },
+    {
       "name": "spine-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/spine-recon"
+      }
+    },
+    {
+      "name": "spine-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/spine-recon"
       }
     },
@@ -10155,11 +12063,35 @@
       }
     },
     {
+      "name": "spine-review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/spine-review"
+      }
+    },
+    {
       "name": "spine-service",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/ai-agency/tonone/skills/spine-service"
+      }
+    },
+    {
+      "name": "spine-service-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/spine-service"
+      }
+    },
+    {
+      "name": "spinning-up-deep-rl",
+      "source": {
+        "source": "git-subdir",
+        "url": "alirezarezvani/claude-skills",
+        "path": "engineering/spinning-up-deep-rl"
       }
     },
     {
@@ -10303,6 +12235,22 @@
       }
     },
     {
+      "name": "structured-data-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/structured-data-analysis"
+      }
+    },
+    {
+      "name": "subpowers",
+      "source": {
+        "source": "git-subdir",
+        "url": "ohiliazov/subpowers",
+        "path": "subpowers"
+      }
+    },
+    {
       "name": "subtext",
       "source": {
         "source": "github",
@@ -10362,10 +12310,26 @@
       }
     },
     {
+      "name": "surge-activation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/surge-activation"
+      }
+    },
+    {
       "name": "surge-experiment",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/surge-experiment"
+      }
+    },
+    {
+      "name": "surge-experiment-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/surge-experiment"
       }
     },
@@ -10378,10 +12342,26 @@
       }
     },
     {
+      "name": "surge-landing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/surge-landing"
+      }
+    },
+    {
       "name": "surge-plg",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/surge-plg"
+      }
+    },
+    {
+      "name": "surge-plg-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/surge-plg"
       }
     },
@@ -10394,10 +12374,26 @@
       }
     },
     {
+      "name": "surge-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/surge-recon"
+      }
+    },
+    {
       "name": "surge-retention",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/surge-retention"
+      }
+    },
+    {
+      "name": "surge-retention-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/surge-retention"
       }
     },
@@ -10429,6 +12425,13 @@
       "source": {
         "source": "github",
         "repo": "hiivmind/swingle"
+      }
+    },
+    {
+      "name": "switchboard",
+      "source": {
+        "source": "github",
+        "repo": "atelier-nyaarium/switchboard"
       }
     },
     {
@@ -10484,6 +12487,14 @@
       }
     },
     {
+      "name": "systematic-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "timsmykov/evidence-lab-plugins",
+        "path": "packs/workflows/systematic-review"
+      }
+    },
+    {
       "name": "systems-programming",
       "source": {
         "source": "git-subdir",
@@ -10512,6 +12523,14 @@
         "source": "git-subdir",
         "url": "743v45/taevas-plugins",
         "path": "plugins/tacit"
+      }
+    },
+    {
+      "name": "takealot",
+      "source": {
+        "source": "git-subdir",
+        "url": "tanaka-mambinge/takealot-plugin",
+        "path": "plugins/takealot"
       }
     },
     {
@@ -10735,6 +12754,14 @@
       }
     },
     {
+      "name": "time-series-forecaster-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/time-series-forecaster"
+      }
+    },
+    {
       "name": "timebuddy",
       "source": {
         "source": "github",
@@ -10747,6 +12774,13 @@
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
         "path": "plugins/tldr"
+      }
+    },
+    {
+      "name": "tms",
+      "source": {
+        "source": "github",
+        "repo": "jf-investing/TMS-Claude-SKILL"
       }
     },
     {
@@ -10796,10 +12830,26 @@
       }
     },
     {
+      "name": "tonone-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone"
+      }
+    },
+    {
       "name": "tonone-onboard",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/tonone-onboard"
+      }
+    },
+    {
+      "name": "tonone-onboard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/tonone-onboard"
       }
     },
@@ -10812,10 +12862,26 @@
       }
     },
     {
+      "name": "touch-app-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/touch-app"
+      }
+    },
+    {
       "name": "touch-audit",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/touch-audit"
+      }
+    },
+    {
+      "name": "touch-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/touch-audit"
       }
     },
@@ -10828,10 +12894,26 @@
       }
     },
     {
+      "name": "touch-feature-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/touch-feature"
+      }
+    },
+    {
       "name": "touch-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/touch-recon"
+      }
+    },
+    {
+      "name": "touch-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/touch-recon"
       }
     },
@@ -10844,10 +12926,26 @@
       }
     },
     {
+      "name": "touch-release-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/touch-release"
+      }
+    },
+    {
       "name": "touch-ui",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/touch-ui"
+      }
+    },
+    {
+      "name": "touch-ui-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/touch-ui"
       }
     },
@@ -10899,6 +12997,14 @@
       }
     },
     {
+      "name": "transfer-learning-adapter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-ml/transfer-learning-adapter"
+      }
+    },
+    {
       "name": "travel-assistant",
       "source": {
         "source": "git-subdir",
@@ -10927,6 +13033,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-community",
         "path": "tres-finance-plugin"
+      }
+    },
+    {
+      "name": "trinity",
+      "source": {
+        "source": "git-subdir",
+        "url": "atheonxyz/trinity-capture",
+        "path": "claude-code"
       }
     },
     {
@@ -11195,10 +13309,26 @@
       }
     },
     {
+      "name": "vigil-alert-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/vigil-alert"
+      }
+    },
+    {
       "name": "vigil-check",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/vigil-check"
+      }
+    },
+    {
+      "name": "vigil-check-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/vigil-check"
       }
     },
@@ -11211,6 +13341,14 @@
       }
     },
     {
+      "name": "vigil-incident-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/vigil-incident"
+      }
+    },
+    {
       "name": "vigil-instrument",
       "source": {
         "source": "git-subdir",
@@ -11219,10 +13357,26 @@
       }
     },
     {
+      "name": "vigil-instrument-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/vigil-instrument"
+      }
+    },
+    {
       "name": "vigil-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/vigil-recon"
+      }
+    },
+    {
+      "name": "vigil-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/vigil-recon"
       }
     },
@@ -11280,10 +13434,26 @@
       }
     },
     {
+      "name": "volt-driver-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/volt-driver"
+      }
+    },
+    {
       "name": "volt-firmware",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/volt-firmware"
+      }
+    },
+    {
+      "name": "volt-firmware-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/volt-firmware"
       }
     },
@@ -11296,6 +13466,14 @@
       }
     },
     {
+      "name": "volt-ota-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/volt-ota"
+      }
+    },
+    {
       "name": "volt-power",
       "source": {
         "source": "git-subdir",
@@ -11304,10 +13482,26 @@
       }
     },
     {
+      "name": "volt-power-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/volt-power"
+      }
+    },
+    {
       "name": "volt-recon",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/volt-recon"
+      }
+    },
+    {
+      "name": "volt-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/volt-recon"
       }
     },
@@ -11432,10 +13626,26 @@
       }
     },
     {
+      "name": "warden-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/warden-audit"
+      }
+    },
+    {
       "name": "warden-harden",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/warden-harden"
+      }
+    },
+    {
+      "name": "warden-harden-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/warden-harden"
       }
     },
@@ -11448,6 +13658,14 @@
       }
     },
     {
+      "name": "warden-iam-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/warden-iam"
+      }
+    },
+    {
       "name": "warden-recon",
       "source": {
         "source": "git-subdir",
@@ -11456,10 +13674,26 @@
       }
     },
     {
+      "name": "warden-recon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/ai-agency/tonone/skills/warden-recon"
+      }
+    },
+    {
       "name": "warden-threat",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/tonone/skills/warden-threat"
+      }
+    },
+    {
+      "name": "warden-threat-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/warden-threat"
       }
     },
@@ -11518,6 +13752,14 @@
       }
     },
     {
+      "name": "web-analytics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/analytics/web-analytics"
+      }
+    },
+    {
       "name": "web-scripting",
       "source": {
         "source": "git-subdir",
@@ -11534,6 +13776,14 @@
       }
     },
     {
+      "name": "webhook-handler-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/webhook-handler-creator"
+      }
+    },
+    {
       "name": "website-one-shot",
       "source": {
         "source": "github",
@@ -11545,6 +13795,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/api-development/websocket-server-builder"
+      }
+    },
+    {
+      "name": "websocket-server-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/websocket-server-builder"
       }
     },
@@ -11948,6 +14206,14 @@
       }
     },
     {
+      "name": "x-twitter-scraper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/api-development/x-twitter-scraper"
+      }
+    },
+    {
       "name": "xcode-build-skills",
       "source": {
         "source": "github",
@@ -12014,6 +14280,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/ai-agency/zapier-zap-builder"
+      }
+    },
+    {
+      "name": "zapier-zap-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/zapier-zap-builder"
       }
     },

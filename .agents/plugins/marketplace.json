@@ -17,6 +17,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "1f3d9-citylife",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/onetapstudiogames/1f3d9-citylife.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "404-directory",
       "source": {
         "source": "url",
@@ -160,6 +172,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/agent-orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-skills-2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ghyghoo8/my-agent-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -409,6 +433,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "algorithm-evolve",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Azhi-ss/algorithm-evolve.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alpaca",
       "source": {
         "source": "git-subdir",
@@ -554,6 +590,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Arch1eSUN/Arcgentic.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "architecture-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ghyghoo8/my-agent-skills.git",
+        "path": "./plugins/architecture-gate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -757,6 +806,18 @@
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
         "path": "./plugins/aws-transform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "axiom",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wheakerd/axiom.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2385,6 +2446,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "data-and-pdf",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/data-and-pdf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "data-engineering",
       "source": {
         "source": "git-subdir",
@@ -2897,6 +2971,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "document-evidence",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/document-evidence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "documentation-generation",
       "source": {
         "source": "git-subdir",
@@ -3210,6 +3297,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "evidence-lab-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/core/evidence-lab-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "example",
       "source": {
         "source": "git-subdir",
@@ -3306,6 +3406,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./tests/fixtures/promise-machine/unsupported-evidence-class/plugins/example"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "example-domain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/domains/example-domain"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3581,6 +3694,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "full-research-cycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/full-research-cycle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "full-stack-orchestration",
       "source": {
         "source": "git-subdir",
@@ -3737,6 +3863,18 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/ghostty-titles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ghostwriter",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/an2n/ghostwriter.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4297,6 +4435,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "html2wp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iOSDevSK/html2wp-cc-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hubspot",
       "source": {
         "source": "git-subdir",
@@ -4467,6 +4617,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/janus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jarvis-memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Terraciano/jarvis-memory.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4742,11 +4904,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "life-sciences",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/domains/life-sciences"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "linear-2",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/linear"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linkstart",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/TLOGBen/LinkStart.git",
+        "path": "./plugins/linkstart"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "literature-publication",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/literature-publication"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4844,6 +5045,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "luthn-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JakobSung/luthn-cloud-plugins.git",
+        "path": "./plugins/luthn-cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "machine-learning-ops",
       "source": {
         "source": "git-subdir",
@@ -4927,6 +5141,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/markdown-tasks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "market-entry-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/orgcomcn/codex-plugins.git",
+        "path": "./plugins/market-entry-team"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5451,6 +5678,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/ngs-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ni-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ttttstc/ni-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5989,6 +6228,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thongphan23/codex-planner.git",
+        "path": "./plugins/planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plannotator-design-artifact",
       "source": {
         "source": "url",
@@ -6180,6 +6432,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "product-design-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/plugins.git",
+        "path": "./plugins/product-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "product-discovery-suite",
       "source": {
         "source": "git-subdir",
@@ -6258,6 +6523,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "publication-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/publication-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pup",
       "source": {
         "source": "url",
@@ -6326,6 +6604,32 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/python-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "qualitative-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/qualitative-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quantitative-sciences",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/domains/quantitative-sciences"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6633,6 +6937,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/xujingchen1996/research-app-toolkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "research-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/research-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "research-images",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/research-images"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8109,6 +8439,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "structured-data-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/structured-data-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "subtext",
       "source": {
         "source": "url",
@@ -8269,6 +8612,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "systematic-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
+        "path": "./packs/workflows/systematic-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "systems-architecture",
       "source": {
         "source": "git-subdir",
@@ -8300,6 +8656,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/tabularium"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "takealot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tanaka-mambinge/takealot-plugin.git",
+        "path": "./plugins/takealot"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8658,6 +9027,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/liketrek/Plugin-Skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trinity-capture",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/atheonxyz/trinity-capture.git",
+        "path": "./codex"
       },
       "policy": {
         "installation": "AVAILABLE",

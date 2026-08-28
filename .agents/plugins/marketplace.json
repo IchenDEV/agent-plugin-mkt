@@ -155,6 +155,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adhd-output-style",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/adhd-output-style"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adobe",
       "source": {
         "source": "git-subdir",
@@ -180,11 +193,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/agent-browser"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-bundle-codex-smoke",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ScriptedAlchemy/agent-bundle.git",
+        "path": "./fixtures/contracts/hosts/codex/candidate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-orchestration",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/agent-orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-skill-init",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/agent-skill-init"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -383,6 +435,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-friendly-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ai-friendly-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-maintenance-skills",
       "source": {
         "source": "url",
@@ -565,6 +630,45 @@
       "source": {
         "source": "url",
         "url": "https://github.com/duolahypercho/andrej-karpathy-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anki-flashcards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/anki-flashcards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ansible",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ansible"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anthropic-office-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/anthropic-office-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -828,6 +932,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "autograph-app-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/withAutograph/autograph-app-builder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "autorefine",
       "source": {
         "source": "url",
@@ -908,6 +1024,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/MicrosoftDocs/Agent-Skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "azure-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/azure-tools"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1491,6 +1620,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "buzzassist",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sam-mountainman/BuzzAssist.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "c4-architecture",
       "source": {
         "source": "git-subdir",
@@ -1580,6 +1721,71 @@
       "category": "Developer Tools"
     },
     {
+      "name": "catalyst-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coalesce-labs/catalyst.git",
+        "path": "./plugins/dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "catalyst-foundry",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coalesce-labs/catalyst.git",
+        "path": "./plugins/foundry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "catalyst-legacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coalesce-labs/catalyst.git",
+        "path": "./plugins/legacy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "catalyst-meta",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coalesce-labs/catalyst.git",
+        "path": "./plugins/meta"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "catalyst-pm-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coalesce-labs/catalyst.git",
+        "path": "./plugins/playground/pm-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cb-insights",
       "source": {
         "source": "git-subdir",
@@ -1657,6 +1863,344 @@
       "category": "Developer Tools"
     },
     {
+      "name": "charly-agentteams",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./agentteams"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./build"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-check",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./check"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-coder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./coder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-comfyui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./comfyui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-distros",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./distros"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-filebrowser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./filebrowser"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-hermes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./hermes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-image",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./image"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-immich",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./immich"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-infrastructure",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./infrastructure"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-internals",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./internals"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-jupyter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./jupyter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-kubernetes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./kubernetes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-languages",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./languages"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-local",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./local"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-ollama",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./ollama"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-openclaw",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./openclaw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-openwebui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./openwebui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-pod",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./pod"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-selkies",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./selkies"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-versa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./versa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "charly-vm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opencharly/marketplace.git",
+        "path": "./vm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chatcut-2",
       "source": {
         "source": "git-subdir",
@@ -1701,6 +2245,19 @@
         "source": "git-subdir",
         "url": "https://github.com/muhackel/claude-code-plugins.git",
         "path": "./plugins/christian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chrome-cdp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/chrome-cdp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1884,6 +2441,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-telemetry-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/claude-telemetry-hooks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/claude-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clay",
       "source": {
         "source": "git-subdir",
@@ -1987,6 +2570,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cloudflare-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/cloudflare-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cloudinary",
       "source": {
         "source": "git-subdir",
@@ -2056,6 +2652,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/code-refactoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-walkthrough",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/code-walkthrough"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2158,6 +2767,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/coderabbit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/codex-advisor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2338,6 +2960,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "comment-slop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/comment-slop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "common-room-2",
       "source": {
         "source": "git-subdir",
@@ -2506,6 +3141,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ContoriumLabs/contorium.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "conventional-commits",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/conventional-commits"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3051,6 +3699,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "design-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/design-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devbrother-skills",
       "source": {
         "source": "url",
@@ -3143,6 +3804,18 @@
         "source": "git-subdir",
         "url": "https://github.com/akin-ozer/cc-devops-skills.git",
         "path": "./devops-skills-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dfrysinger-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dfrysinger/skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3356,6 +4029,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dokploy-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/dokploy-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "domotz-preview",
       "source": {
         "source": "git-subdir",
@@ -3438,6 +4124,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/ds4cc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "duckdb",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/duckdb"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3775,6 +4474,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fable-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/fable-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "factset",
       "source": {
         "source": "git-subdir",
@@ -3793,6 +4505,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/fal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/fd"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3831,6 +4556,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/file-conversion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "file-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/file-search"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3915,6 +4653,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "flow-next",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gmickel/flow-next.git",
+        "path": "./plugins/flow-next"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "flowstudio-power-automate",
       "source": {
         "source": "url",
@@ -3970,6 +4721,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/framework-migration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "frontend-design-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/frontend-design-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4056,11 +4820,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fuzzy-filter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/fuzzy-filter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fuzzy-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/fuzzy-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fyxer",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/fyxer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fzf",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/fzf"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4099,6 +4902,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/game-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gcloud-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/gcloud-tools"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4219,6 +5035,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-absorb",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/git-absorb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-chain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/git-chain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-guards",
       "source": {
         "source": "git-subdir",
@@ -4263,6 +5118,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "github-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/github-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4339,6 +5207,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/godspeed-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gogcli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/gogcli"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4527,6 +5408,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "handoff-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "happenstance",
       "source": {
         "source": "git-subdir",
@@ -4618,6 +5512,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hetzner-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/hetzner-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "heuer-planning",
       "source": {
         "source": "git-subdir",
@@ -4701,6 +5608,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/highlevel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hledger",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/hledger"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4822,6 +5742,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "humanize",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/humanize"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hyperframes",
       "source": {
         "source": "url",
@@ -4901,6 +5834,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/incident-response"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "intelligent-compact",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/intelligent-compact"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5025,10 +5971,49 @@
       "category": "Developer Tools"
     },
     {
+      "name": "jj",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/jj"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jj-hunk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/jj-hunk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jk",
       "source": {
         "source": "url",
         "url": "https://github.com/avivsinai/jenkins-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jq",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/jq"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5081,6 +6066,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/jvm-languages"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "k3s",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/k3s"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5168,6 +6166,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/kotlin-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kubernetes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/kubernetes"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5305,6 +6316,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "linear-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/linear"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "linkedin-campaign-operator-v3",
       "source": {
         "source": "git-subdir",
@@ -5344,6 +6368,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "livekit-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/livekit-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "llm-application-dev",
       "source": {
         "source": "git-subdir",
@@ -5375,6 +6412,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/llm-finetuning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "long-form-math",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/long-form-math"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5771,6 +6821,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "masterplan",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rasatpetabit/masterplan.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "matlab-agentic-toolkit",
       "source": {
         "source": "url",
@@ -5876,6 +6938,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NeoLi00/memX.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mermaid-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/mermaid-cli"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6050,11 +7125,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "model-routing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/model-routing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "monday-com",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/monday-com"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mongodb-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/mongodb-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6319,6 +7420,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nlpm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xiaolai/nlpm.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "no-ai-slop",
       "source": {
         "source": "url",
@@ -6394,11 +7507,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-bases",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/obsidian-bases"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "obsidian-development-2",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/obsidian-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "obsidian-markdown",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/obsidian-markdown"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6484,6 +7623,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "openai-office-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/openai-office-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "openbpx",
       "source": {
         "source": "url",
@@ -6500,6 +7652,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/adibirzu/openclaw-security-monitor.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "openobserve-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/openobserve-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6673,6 +7838,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "overleaf-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/overleaf-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oxfmt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/oxfmt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oxlint",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/oxlint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "packer",
       "source": {
         "source": "git-subdir",
@@ -6703,6 +7907,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/pandects"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "paper-search-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/paper-search-tools"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6850,6 +8067,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "piyaz-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/FrkAk/piyaz.git",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plain-speak",
       "source": {
         "source": "url",
@@ -6900,6 +8130,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "playwright-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/playwright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plugin-and-skill-dev",
       "source": {
         "source": "git-subdir",
@@ -6939,6 +8182,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "polar-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/polar-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "policynote",
       "source": {
         "source": "git-subdir",
@@ -6956,6 +8212,58 @@
       "source": {
         "source": "url",
         "url": "https://github.com/DietrichGebert/ponytail.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgres-admin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/postgres-admin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgres-extensions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/postgres-extensions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgres-performance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/postgres-performance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgres-sql",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/postgres-sql"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7170,6 +8478,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "psql",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/psql"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "public-equity-investing",
       "source": {
         "source": "git-subdir",
@@ -7208,6 +8529,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pup-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/pup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pwa-expert-2",
       "source": {
         "source": "git-subdir",
@@ -7226,6 +8560,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/pylon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pytest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/pytest"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7264,6 +8611,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/python-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "python-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/python-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7439,11 +8799,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "react-best-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/react-best-practices"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "react-development-2",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/react-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "react-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/react-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7495,6 +8881,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/workato-devs/recipe-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "remember",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Digital-Process-Tools/claude-remember.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7707,11 +9105,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ripgrep",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ripgrep"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rox",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/rox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rsc-agent-runtime-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ScriptedAlchemy/agent-bundle.git",
+        "path": "./examples/rsc-agent-runtime/packaging/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ruff",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ruff"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8519,11 +9956,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "seo-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/seo-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "seo-technical-optimization",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/seo-technical-optimization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sequential-thinking",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/sequential-thinking"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8747,10 +10210,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "simplify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/simplify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-authoring",
       "source": {
         "source": "url",
         "url": "https://github.com/avivsinai/skill-authoring.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/skill-creator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8764,6 +10253,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/skill-forge-essentials"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/skill-reviewer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8997,6 +10499,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sqlite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/sqlite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ssh-manager",
       "source": {
         "source": "url",
@@ -9027,6 +10542,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/statsig"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "statusline-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/statusline"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9124,11 +10652,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "stripe-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/stripe-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "structured-data-analysis",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/structured-data-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "style-extractor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/style-extractor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "style-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/style-writer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9154,6 +10721,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/supabase"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "supabase-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/supabase-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9388,6 +10968,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tavily-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/tavily-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "taxdown",
       "source": {
         "source": "git-subdir",
@@ -9406,6 +10999,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/tdd-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "teach-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/teach"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9633,6 +11239,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tmux",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/tmux"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tmux-reboot",
       "source": {
         "source": "git-subdir",
@@ -9783,6 +11402,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ty",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "typescript-development-2",
       "source": {
         "source": "git-subdir",
@@ -9809,10 +11441,61 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ultralytics-branding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/ultralytics-branding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ultralytics-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/ultralytics-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ultrapilot",
       "source": {
         "source": "url",
         "url": "https://github.com/joychetry/ultrapilot.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ultrathink",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/ultrathink"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "uniac",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/uniac-ai/agent-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9888,6 +11571,19 @@
         "source": "git-subdir",
         "url": "https://github.com/muhackel/claude-code-plugins.git",
         "path": "./plugins/unslop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "uv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/uv"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9972,6 +11668,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "walkthrough-to-obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/walkthrough-to-obsidian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "watch",
       "source": {
         "source": "url",
@@ -10002,6 +11711,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "web-performance-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fcakyon/claude-codex-settings.git",
+        "path": "./plugins/web-performance-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10123,6 +11845,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "xhost",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/xhostd/xhost-sdk.git",
+        "path": "./plugins/xhost"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "xterm-2",
       "source": {
         "source": "git-subdir",
@@ -10154,6 +11889,19 @@
         "source": "git-subdir",
         "url": "https://github.com/oliverames/ynab-mcp-server.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zellij",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dashed/claude-marketplace.git",
+        "path": "./plugins/zellij"
       },
       "policy": {
         "installation": "AVAILABLE",

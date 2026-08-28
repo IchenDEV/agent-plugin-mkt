@@ -279,6 +279,14 @@
       }
     },
     {
+      "name": "agent-authoring-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "brokenrobot-xyz/agent-skills",
+        "path": "plugins/agent-authoring-toolkit"
+      }
+    },
+    {
       "name": "agent-context-manager",
       "source": {
         "source": "git-subdir",
@@ -323,6 +331,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/agent-orchestration"
+      }
+    },
+    {
+      "name": "agent-owner",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/agent-owner"
       }
     },
     {
@@ -556,6 +572,14 @@
       }
     },
     {
+      "name": "ai-experiment-logger-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/mcp/ai-experiment-logger"
+      }
+    },
+    {
       "name": "ai-maintenance-skills",
       "source": {
         "source": "github",
@@ -567,6 +591,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/packages/ai-ml-engineering-pack"
+      }
+    },
+    {
+      "name": "ai-ml-engineering-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/packages/ai-ml-engineering-pack"
       }
     },
@@ -678,6 +710,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/alerting-rule-creator"
+      }
+    },
+    {
+      "name": "alerting-rule-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/alerting-rule-creator"
       }
     },
@@ -806,6 +846,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/ansible-playbook-creator"
+      }
+    },
+    {
+      "name": "ansible-playbook-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/ansible-playbook-creator"
       }
     },
@@ -1289,6 +1337,14 @@
       }
     },
     {
+      "name": "apm-dashboard-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/performance/apm-dashboard-creator"
+      }
+    },
+    {
       "name": "apollo",
       "source": {
         "source": "git-subdir",
@@ -1368,10 +1424,26 @@
       }
     },
     {
+      "name": "application-profiler-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/performance/application-profiler"
+      }
+    },
+    {
       "name": "arbitrage-opportunity-finder",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/arbitrage-opportunity-finder"
+      }
+    },
+    {
+      "name": "arbitrage-opportunity-finder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/arbitrage-opportunity-finder"
       }
     },
@@ -1634,6 +1706,14 @@
       }
     },
     {
+      "name": "auto-scaling-configurator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/auto-scaling-configurator"
+      }
+    },
+    {
       "name": "automl-pipeline-builder",
       "source": {
         "source": "git-subdir",
@@ -1782,10 +1862,25 @@
       }
     },
     {
+      "name": "backs-aios",
+      "source": {
+        "source": "github",
+        "repo": "Tcuzzo/backs-aios-skills"
+      }
+    },
+    {
       "name": "backup-strategy-implementor",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/backup-strategy-implementor"
+      }
+    },
+    {
+      "name": "backup-strategy-implementor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/backup-strategy-implementor"
       }
     },
@@ -1867,6 +1962,22 @@
       }
     },
     {
+      "name": "bertram",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/bertram"
+      }
+    },
+    {
+      "name": "bibliothekarin",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/bibliothekarin"
+      }
+    },
+    {
       "name": "bigquery",
       "source": {
         "source": "git-subdir",
@@ -1921,6 +2032,14 @@
       }
     },
     {
+      "name": "blockchain-explorer-cli-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/blockchain-explorer-cli"
+      }
+    },
+    {
       "name": "blockchain-web3",
       "source": {
         "source": "git-subdir",
@@ -1948,6 +2067,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/bottleneck-detector"
+      }
+    },
+    {
+      "name": "bottleneck-detector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/bottleneck-detector"
       }
     },
@@ -1995,6 +2122,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/design/brand-forge"
+      }
+    },
+    {
+      "name": "brand-forge-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/design/brand-forge"
       }
     },
@@ -2234,6 +2369,14 @@
       }
     },
     {
+      "name": "cache-performance-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/performance/cache-performance-optimizer"
+      }
+    },
+    {
       "name": "cad",
       "source": {
         "source": "github",
@@ -2264,6 +2407,14 @@
       }
     },
     {
+      "name": "capability-registry",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/capability-registry"
+      }
+    },
+    {
       "name": "capacity-planning",
       "source": {
         "source": "git-subdir",
@@ -2276,6 +2427,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/capacity-planning-analyzer"
+      }
+    },
+    {
+      "name": "capacity-planning-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/capacity-planning-analyzer"
       }
     },
@@ -2307,6 +2466,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/castai-pack"
+      }
+    },
+    {
+      "name": "casting",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/casting"
       }
     },
     {
@@ -2399,6 +2566,13 @@
       }
     },
     {
+      "name": "chamnan",
+      "source": {
+        "source": "github",
+        "repo": "ArcticFox2029/chamnan"
+      }
+    },
+    {
       "name": "changelog-generator",
       "source": {
         "source": "git-subdir",
@@ -2461,6 +2635,14 @@
       }
     },
     {
+      "name": "christian",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/christian"
+      }
+    },
+    {
       "name": "church-of-code",
       "source": {
         "source": "github",
@@ -2480,6 +2662,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/ci-cd-pipeline-builder"
+      }
+    },
+    {
+      "name": "ci-cd-pipeline-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/ci-cd-pipeline-builder"
       }
     },
@@ -2605,6 +2795,22 @@
       }
     },
     {
+      "name": "claude-code-dev-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/claude-code-dev-hermit"
+      }
+    },
+    {
+      "name": "claude-code-fitness-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/claude-code-fitness-hermit"
+      }
+    },
+    {
       "name": "claude-code-for-android",
       "source": {
         "source": "github",
@@ -2616,6 +2822,22 @@
       "source": {
         "source": "github",
         "repo": "idnotbe/claude-code-guardian"
+      }
+    },
+    {
+      "name": "claude-code-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/claude-code-hermit"
+      }
+    },
+    {
+      "name": "claude-code-homeassistant-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/claude-code-homeassistant-hermit"
       }
     },
     {
@@ -2899,6 +3121,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/cloud-cost-optimizer"
+      }
+    },
+    {
+      "name": "cloud-cost-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/cloud-cost-optimizer"
       }
     },
@@ -3194,6 +3424,14 @@
       }
     },
     {
+      "name": "committing-conventionally",
+      "source": {
+        "source": "git-subdir",
+        "url": "brokenrobot-xyz/agent-skills",
+        "path": "plugins/committing-conventionally"
+      }
+    },
+    {
       "name": "common-room",
       "source": {
         "source": "git-subdir",
@@ -3222,6 +3460,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/compliance-checker"
+      }
+    },
+    {
+      "name": "compliance-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/compliance-checker"
       }
     },
@@ -3320,10 +3566,26 @@
       }
     },
     {
+      "name": "container-registry-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/container-registry-manager"
+      }
+    },
+    {
       "name": "container-security-scanner",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/container-security-scanner"
+      }
+    },
+    {
+      "name": "container-security-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/container-security-scanner"
       }
     },
@@ -3356,6 +3618,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/productivity/content-multiplier"
+      }
+    },
+    {
+      "name": "context-handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "AndrewDongminYoo/cc-agents-kit",
+        "path": "plugins/context-handoff"
       }
     },
     {
@@ -3424,6 +3694,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/conversational-api-debugger"
+      }
+    },
+    {
+      "name": "conversational-api-debugger-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/conversational-api-debugger"
       }
     },
@@ -3590,6 +3868,14 @@
       }
     },
     {
+      "name": "cpu-usage-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/performance/cpu-usage-monitor"
+      }
+    },
+    {
       "name": "create-diagram",
       "source": {
         "source": "github",
@@ -3609,6 +3895,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/packages/creator-studio-pack"
+      }
+    },
+    {
+      "name": "creator-studio-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/packages/creator-studio-pack"
       }
     },
@@ -3723,6 +4017,14 @@
       }
     },
     {
+      "name": "cross-chain-bridge-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/cross-chain-bridge-monitor"
+      }
+    },
+    {
       "name": "crucible",
       "source": {
         "source": "git-subdir",
@@ -3746,10 +4048,26 @@
       }
     },
     {
+      "name": "crypto-derivatives-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/crypto-derivatives-tracker"
+      }
+    },
+    {
       "name": "crypto-news-aggregator",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/crypto-news-aggregator"
+      }
+    },
+    {
+      "name": "crypto-news-aggregator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/crypto-news-aggregator"
       }
     },
@@ -3762,6 +4080,14 @@
       }
     },
     {
+      "name": "crypto-portfolio-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/crypto-portfolio-tracker"
+      }
+    },
+    {
       "name": "crypto-signal-generator",
       "source": {
         "source": "git-subdir",
@@ -3770,10 +4096,26 @@
       }
     },
     {
+      "name": "crypto-signal-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/crypto-signal-generator"
+      }
+    },
+    {
       "name": "crypto-tax-calculator",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/crypto-tax-calculator"
+      }
+    },
+    {
+      "name": "crypto-tax-calculator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/crypto-tax-calculator"
       }
     },
@@ -3846,6 +4188,14 @@
       "source": {
         "source": "github",
         "repo": "9thLevelSoftware/Daem0n-MCP"
+      }
+    },
+    {
+      "name": "daily-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/daily-report"
       }
     },
     {
@@ -3989,10 +4339,26 @@
       }
     },
     {
+      "name": "data-seeder-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/data-seeder-generator"
+      }
+    },
+    {
       "name": "data-validation-engine",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/data-validation-engine"
+      }
+    },
+    {
+      "name": "data-validation-engine-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/data-validation-engine"
       }
     },
@@ -4029,10 +4395,26 @@
       }
     },
     {
+      "name": "database-archival-system-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-archival-system"
+      }
+    },
+    {
       "name": "database-audit-logger",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-audit-logger"
+      }
+    },
+    {
+      "name": "database-audit-logger-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-audit-logger"
       }
     },
@@ -4045,10 +4427,26 @@
       }
     },
     {
+      "name": "database-backup-automator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-backup-automator"
+      }
+    },
+    {
       "name": "database-cache-layer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-cache-layer"
+      }
+    },
+    {
+      "name": "database-cache-layer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-cache-layer"
       }
     },
@@ -4069,10 +4467,26 @@
       }
     },
     {
+      "name": "database-connection-pooler-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-connection-pooler"
+      }
+    },
+    {
       "name": "database-deadlock-detector",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-deadlock-detector"
+      }
+    },
+    {
+      "name": "database-deadlock-detector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-deadlock-detector"
       }
     },
@@ -4093,10 +4507,26 @@
       }
     },
     {
+      "name": "database-diff-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-diff-tool"
+      }
+    },
+    {
       "name": "database-documentation-gen",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-documentation-gen"
+      }
+    },
+    {
+      "name": "database-documentation-gen-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-documentation-gen"
       }
     },
@@ -4109,6 +4539,14 @@
       }
     },
     {
+      "name": "database-health-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-health-monitor"
+      }
+    },
+    {
       "name": "database-index-advisor",
       "source": {
         "source": "git-subdir",
@@ -4117,10 +4555,26 @@
       }
     },
     {
+      "name": "database-index-advisor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-index-advisor"
+      }
+    },
+    {
       "name": "database-migration-manager",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-migration-manager"
+      }
+    },
+    {
+      "name": "database-migration-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-migration-manager"
       }
     },
@@ -4141,10 +4595,26 @@
       }
     },
     {
+      "name": "database-partition-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-partition-manager"
+      }
+    },
+    {
       "name": "database-query-profiler",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/database-query-profiler"
+      }
+    },
+    {
+      "name": "database-query-profiler-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/database-query-profiler"
       }
     },
@@ -4157,10 +4627,26 @@
       }
     },
     {
+      "name": "database-recovery-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-recovery-manager"
+      }
+    },
+    {
       "name": "database-replication-manager",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-replication-manager"
+      }
+    },
+    {
+      "name": "database-replication-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-replication-manager"
       }
     },
@@ -4173,10 +4659,26 @@
       }
     },
     {
+      "name": "database-schema-designer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-schema-designer"
+      }
+    },
+    {
       "name": "database-security-scanner",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-security-scanner"
+      }
+    },
+    {
+      "name": "database-security-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-security-scanner"
       }
     },
@@ -4189,10 +4691,26 @@
       }
     },
     {
+      "name": "database-sharding-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/database-sharding-manager"
+      }
+    },
+    {
       "name": "database-transaction-monitor",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/database-transaction-monitor"
+      }
+    },
+    {
+      "name": "database-transaction-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/database-transaction-monitor"
       }
     },
@@ -4217,6 +4735,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/databricks-workspace-mcp"
+      }
+    },
+    {
+      "name": "databricks-workspace-mcp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/databricks-workspace-mcp"
       }
     },
@@ -4345,11 +4871,34 @@
       }
     },
     {
+      "name": "defi-yield-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/defi-yield-optimizer"
+      }
+    },
+    {
+      "name": "defuddle",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/defuddle"
+      }
+    },
+    {
       "name": "deja-vu",
       "source": {
         "source": "git-subdir",
         "url": "vshulcz/deja-vu",
         "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "deliberation",
+      "source": {
+        "source": "github",
+        "repo": "antonbabenko/deliberation"
       }
     },
     {
@@ -4416,10 +4965,26 @@
       }
     },
     {
+      "name": "deployment-pipeline-orchestrator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/deployment-pipeline-orchestrator"
+      }
+    },
+    {
       "name": "deployment-rollback-manager",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/deployment-rollback-manager"
+      }
+    },
+    {
+      "name": "deployment-rollback-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/deployment-rollback-manager"
       }
     },
@@ -4479,6 +5044,21 @@
       }
     },
     {
+      "name": "design-to-code-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/mcp/design-to-code"
+      }
+    },
+    {
+      "name": "designer",
+      "source": {
+        "source": "github",
+        "repo": "SSFSKIM/designer"
+      }
+    },
+    {
       "name": "designlang",
       "source": {
         "source": "github",
@@ -4498,6 +5078,14 @@
         "source": "git-subdir",
         "url": "nesquikm/dev-process-toolkit",
         "path": "plugins/dev-process-toolkit"
+      }
+    },
+    {
+      "name": "dev-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/dev-workflow"
       }
     },
     {
@@ -4550,6 +5138,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/packages/devops-automation-pack"
+      }
+    },
+    {
+      "name": "devops-automation-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/packages/devops-automation-pack"
       }
     },
@@ -4608,6 +5204,14 @@
       }
     },
     {
+      "name": "dex-aggregator-router-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/dex-aggregator-router"
+      }
+    },
+    {
       "name": "dgx-spark-ops",
       "source": {
         "source": "git-subdir",
@@ -4640,11 +5244,27 @@
       }
     },
     {
+      "name": "disaster-recovery-planner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/disaster-recovery-planner"
+      }
+    },
+    {
       "name": "discord",
       "source": {
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/discord"
+      }
+    },
+    {
+      "name": "discord-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/discord"
       }
     },
     {
@@ -4688,6 +5308,14 @@
       }
     },
     {
+      "name": "distributed-tracing-setup-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/performance/distributed-tracing-setup"
+      }
+    },
+    {
       "name": "doc-this",
       "source": {
         "source": "git-subdir",
@@ -4708,6 +5336,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/docker-compose-generator"
+      }
+    },
+    {
+      "name": "docker-compose-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/docker-compose-generator"
       }
     },
@@ -4790,10 +5426,26 @@
       }
     },
     {
+      "name": "dolt-mcp-vcs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/mcp/dolt-mcp-vcs"
+      }
+    },
+    {
       "name": "domain-memory-agent",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/domain-memory-agent"
+      }
+    },
+    {
+      "name": "domain-memory-agent-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/domain-memory-agent"
       }
     },
@@ -5191,6 +5843,14 @@
       }
     },
     {
+      "name": "engineer-design-diagram-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/engineer-design-diagram"
+      }
+    },
+    {
       "name": "engineering",
       "source": {
         "source": "git-subdir",
@@ -5277,6 +5937,14 @@
       }
     },
     {
+      "name": "environment-config-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/environment-config-manager"
+      }
+    },
+    {
       "name": "episodic-memory",
       "source": {
         "source": "github",
@@ -5304,6 +5972,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/error-rate-monitor"
+      }
+    },
+    {
+      "name": "error-rate-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/error-rate-monitor"
       }
     },
@@ -5512,6 +6188,14 @@
       }
     },
     {
+      "name": "experience-to-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/experience-to-skill"
+      }
+    },
+    {
       "name": "experiment-tracking-setup",
       "source": {
         "source": "git-subdir",
@@ -5584,6 +6268,14 @@
       }
     },
     {
+      "name": "fairdb-operations-kit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/fairdb-operations-kit"
+      }
+    },
+    {
       "name": "fairdb-ops-manager",
       "source": {
         "source": "git-subdir",
@@ -5613,6 +6305,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/fathom-pack"
+      }
+    },
+    {
+      "name": "fdeops",
+      "source": {
+        "source": "github",
+        "repo": "suboss87/FDEOps"
       }
     },
     {
@@ -5661,6 +6360,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/feature-flags-architect"
+      }
+    },
+    {
+      "name": "feed-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/feed-hermit"
       }
     },
     {
@@ -5790,6 +6497,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/flash-loan-simulator"
+      }
+    },
+    {
+      "name": "flash-loan-simulator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/flash-loan-simulator"
       }
     },
@@ -5948,6 +6663,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/saas-packs/flyio-pack"
+      }
+    },
+    {
+      "name": "flyte",
+      "source": {
+        "source": "git-subdir",
+        "url": "flyteorg/flyte-agent-plugins",
+        "path": "plugins/flyte"
       }
     },
     {
@@ -6295,6 +7018,14 @@
       }
     },
     {
+      "name": "formatter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/examples/formatter"
+      }
+    },
+    {
       "name": "forward-deployed-selling",
       "source": {
         "source": "github",
@@ -6372,6 +7103,14 @@
       }
     },
     {
+      "name": "freshie-inventory-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/freshie-inventory-manager"
+      }
+    },
+    {
       "name": "frontend-design",
       "source": {
         "source": "git-subdir",
@@ -6436,6 +7175,14 @@
       }
     },
     {
+      "name": "frontend-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "brokenrobot-xyz/agent-skills",
+        "path": "plugins/frontend-toolkit"
+      }
+    },
+    {
       "name": "ftester",
       "source": {
         "source": "github",
@@ -6483,6 +7230,14 @@
       }
     },
     {
+      "name": "fullstack-starter-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/packages/fullstack-starter-pack"
+      }
+    },
+    {
       "name": "functional-programming",
       "source": {
         "source": "git-subdir",
@@ -6503,6 +7258,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/gas-fee-optimizer"
+      }
+    },
+    {
+      "name": "gas-fee-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/gas-fee-optimizer"
       }
     },
@@ -6600,6 +7363,14 @@
       }
     },
     {
+      "name": "gh-dash-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/gh-dash"
+      }
+    },
+    {
       "name": "ghostie",
       "source": {
         "source": "github",
@@ -6642,6 +7413,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/git-commit-smart"
+      }
+    },
+    {
+      "name": "git-commit-smart-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/git-commit-smart"
       }
     },
@@ -6705,6 +7484,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/gitops-workflow-builder"
+      }
+    },
+    {
+      "name": "gitops-workflow-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/gitops-workflow-builder"
       }
     },
@@ -6865,6 +7652,14 @@
       }
     },
     {
+      "name": "grimm",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/grimm"
+      }
+    },
+    {
       "name": "growmax-skills",
       "source": {
         "source": "github",
@@ -6901,6 +7696,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/gstack-workflows"
+      }
+    },
+    {
+      "name": "guard-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "AndrewDongminYoo/cc-agents-kit",
+        "path": "plugins/guard-hooks"
       }
     },
     {
@@ -6974,6 +7777,14 @@
       }
     },
     {
+      "name": "hello-world-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/examples/hello-world"
+      }
+    },
+    {
       "name": "helm-arbiter",
       "source": {
         "source": "git-subdir",
@@ -7018,6 +7829,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/helm-chart-generator"
+      }
+    },
+    {
+      "name": "helm-chart-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/helm-chart-generator"
       }
     },
@@ -7115,6 +7934,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/hermes-tweet"
+      }
+    },
+    {
+      "name": "hermit-scribe",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/hermit-scribe"
       }
     },
     {
@@ -7379,6 +8206,14 @@
       }
     },
     {
+      "name": "infra",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/infra"
+      }
+    },
+    {
       "name": "infra-specialist-team",
       "source": {
         "source": "git-subdir",
@@ -7403,6 +8238,14 @@
       }
     },
     {
+      "name": "infrastructure-as-code-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/infrastructure-as-code-generator"
+      }
+    },
+    {
       "name": "infrastructure-drift-detector",
       "source": {
         "source": "git-subdir",
@@ -7411,10 +8254,26 @@
       }
     },
     {
+      "name": "infrastructure-drift-detector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/infrastructure-drift-detector"
+      }
+    },
+    {
       "name": "infrastructure-metrics-collector",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/performance/infrastructure-metrics-collector"
+      }
+    },
+    {
+      "name": "infrastructure-metrics-collector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/infrastructure-metrics-collector"
       }
     },
@@ -7469,6 +8328,14 @@
       "source": {
         "source": "github",
         "repo": "intersystems-community/iris-agentic-dev"
+      }
+    },
+    {
+      "name": "it-grundschutz",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/it-grundschutz"
       }
     },
     {
@@ -7559,6 +8426,14 @@
       }
     },
     {
+      "name": "jeremy-adk-terraform-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/jeremy-adk-terraform"
+      }
+    },
+    {
       "name": "jeremy-firebase",
       "source": {
         "source": "git-subdir",
@@ -7631,10 +8506,26 @@
       }
     },
     {
+      "name": "jeremy-genkit-terraform-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/jeremy-genkit-terraform"
+      }
+    },
+    {
       "name": "jeremy-github-actions-gcp",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/jeremy-github-actions-gcp"
+      }
+    },
+    {
+      "name": "jeremy-github-actions-gcp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/jeremy-github-actions-gcp"
       }
     },
@@ -7659,6 +8550,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/examples/jeremy-plugin-tool"
+      }
+    },
+    {
+      "name": "jeremy-plugin-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/examples/jeremy-plugin-tool"
       }
     },
@@ -7699,6 +8598,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/jeremy-vertex-terraform"
+      }
+    },
+    {
+      "name": "jeremy-vertex-terraform-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/jeremy-vertex-terraform"
       }
     },
@@ -7796,6 +8703,14 @@
       }
     },
     {
+      "name": "kanmer",
+      "source": {
+        "source": "git-subdir",
+        "url": "collisionengineers/kanmer",
+        "path": "plugins/kanmer"
+      }
+    },
+    {
       "name": "karpathy-coder",
       "source": {
         "source": "git-subdir",
@@ -7886,6 +8801,14 @@
       }
     },
     {
+      "name": "kubernetes-deployment-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/kubernetes-deployment-creator"
+      }
+    },
+    {
       "name": "kubernetes-operations",
       "source": {
         "source": "git-subdir",
@@ -7924,6 +8847,13 @@
       }
     },
     {
+      "name": "langsmith",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/langsmith-mcp"
+      }
+    },
+    {
       "name": "laravel-boost",
       "source": {
         "source": "git-subdir",
@@ -7937,6 +8867,14 @@
         "source": "git-subdir",
         "url": "attac-t/the-foundry",
         "path": "plugins/laravel-ddd"
+      }
+    },
+    {
+      "name": "laravel-forge-hermit",
+      "source": {
+        "source": "git-subdir",
+        "url": "gtapps/claude-code-hermit",
+        "path": "plugins/laravel-forge-hermit"
       }
     },
     {
@@ -8195,6 +9133,14 @@
       }
     },
     {
+      "name": "linkedin-campaign-operator-v3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sunny-chandel/linkedin-campaign-operator",
+        "path": "plugins/linkedin-campaign-operator-v3"
+      }
+    },
+    {
       "name": "linkstart",
       "source": {
         "source": "git-subdir",
@@ -8207,6 +9153,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/liquidity-pool-analyzer"
+      }
+    },
+    {
+      "name": "liquidity-pool-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/liquidity-pool-analyzer"
       }
     },
@@ -8298,6 +9252,14 @@
       }
     },
     {
+      "name": "load-balancer-configurator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/load-balancer-configurator"
+      }
+    },
+    {
       "name": "load-test-runner",
       "source": {
         "source": "git-subdir",
@@ -8338,11 +9300,43 @@
       }
     },
     {
+      "name": "log-aggregation-setup-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/log-aggregation-setup"
+      }
+    },
+    {
       "name": "log-analysis-tool",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
         "path": "plugins/performance/log-analysis-tool"
+      }
+    },
+    {
+      "name": "longrun",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/longrun"
+      }
+    },
+    {
+      "name": "loops",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/loops"
+      }
+    },
+    {
+      "name": "lr",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/lr"
       }
     },
     {
@@ -8430,6 +9424,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/lumera-agent-memory"
+      }
+    },
+    {
+      "name": "lumera-agent-memory-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/lumera-agent-memory"
       }
     },
@@ -8654,6 +9656,14 @@
       }
     },
     {
+      "name": "market-movers-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/market-movers-scanner"
+      }
+    },
+    {
       "name": "market-price-tracker",
       "source": {
         "source": "git-subdir",
@@ -8662,10 +9672,26 @@
       }
     },
     {
+      "name": "market-price-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/market-price-tracker"
+      }
+    },
+    {
       "name": "market-sentiment-analyzer",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/market-sentiment-analyzer"
+      }
+    },
+    {
+      "name": "market-sentiment-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/market-sentiment-analyzer"
       }
     },
@@ -8790,6 +9816,14 @@
       }
     },
     {
+      "name": "mattyp-changelog-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/mattyp-changelog"
+      }
+    },
+    {
       "name": "mcp-builder",
       "source": {
         "source": "git-subdir",
@@ -8864,6 +9898,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/mempool-analyzer"
+      }
+    },
+    {
+      "name": "mempool-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/mempool-analyzer"
       }
     },
@@ -9075,6 +10117,14 @@
       }
     },
     {
+      "name": "monitoring-stack-deployer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/monitoring-stack-deployer"
+      }
+    },
+    {
       "name": "morning-brief",
       "source": {
         "source": "git-subdir",
@@ -9189,6 +10239,14 @@
       }
     },
     {
+      "name": "network-policy-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/network-policy-manager"
+      }
+    },
+    {
       "name": "neural-network-builder",
       "source": {
         "source": "git-subdir",
@@ -9236,6 +10294,14 @@
       }
     },
     {
+      "name": "nft-rarity-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/nft-rarity-analyzer"
+      }
+    },
+    {
       "name": "nib",
       "source": {
         "source": "github",
@@ -9256,6 +10322,14 @@
         "source": "git-subdir",
         "url": "tschallacka/lsp-flake",
         "path": "plugins/nix-lsps"
+      }
+    },
+    {
+      "name": "nixie",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/nixie"
       }
     },
     {
@@ -9346,6 +10420,14 @@
       }
     },
     {
+      "name": "nosql-data-modeler-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/nosql-data-modeler"
+      }
+    },
+    {
       "name": "notebooklm",
       "source": {
         "source": "git-subdir",
@@ -9429,6 +10511,13 @@
       }
     },
     {
+      "name": "oh-my-project",
+      "source": {
+        "source": "github",
+        "repo": "luckkim123/oh-my-project"
+      }
+    },
+    {
       "name": "ojiman-skills",
       "source": {
         "source": "github",
@@ -9476,6 +10565,14 @@
       }
     },
     {
+      "name": "on-chain-analytics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/on-chain-analytics"
+      }
+    },
+    {
       "name": "on-the-record",
       "source": {
         "source": "git-subdir",
@@ -9489,6 +10586,14 @@
         "source": "git-subdir",
         "url": "wildcat-finance/skills",
         "path": "tests/fixtures/promise-machine/duplicate-canonical/plugins/one"
+      }
+    },
+    {
+      "name": "open-magi",
+      "source": {
+        "source": "git-subdir",
+        "url": "ladiossoop5star/open_magi",
+        "path": "adapters/claude"
       }
     },
     {
@@ -9554,6 +10659,14 @@
       }
     },
     {
+      "name": "opentoolbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "m-dohmen/openToolbox",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "openui-forge",
       "source": {
         "source": "github",
@@ -9566,6 +10679,13 @@
         "source": "git-subdir",
         "url": "volcengine/OpenViking",
         "path": "examples/claude-code-memory-plugin"
+      }
+    },
+    {
+      "name": "opera-cloud",
+      "source": {
+        "source": "github",
+        "repo": "lesleslie/opera-cloud-mcp"
       }
     },
     {
@@ -9617,6 +10737,14 @@
       }
     },
     {
+      "name": "options-flow-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/options-flow-analyzer"
+      }
+    },
+    {
       "name": "oracle",
       "source": {
         "source": "github",
@@ -9658,6 +10786,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/orm-code-generator"
+      }
+    },
+    {
+      "name": "orm-code-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/orm-code-generator"
       }
     },
@@ -9978,6 +11114,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/examples/pi-pathfinder"
+      }
+    },
+    {
+      "name": "pi-pathfinder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/examples/pi-pathfinder"
       }
     },
@@ -10389,6 +11533,21 @@
       }
     },
     {
+      "name": "portulan",
+      "source": {
+        "source": "github",
+        "repo": "sleepy-panda-srl/portulan"
+      }
+    },
+    {
+      "name": "portulan-checkpoints",
+      "source": {
+        "source": "git-subdir",
+        "url": "sleepy-panda-srl/portulan",
+        "path": "packs"
+      }
+    },
+    {
       "name": "postey",
       "source": {
         "source": "git-subdir",
@@ -10457,6 +11616,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/pr-to-spec"
+      }
+    },
+    {
+      "name": "pr-to-spec-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/pr-to-spec"
       }
     },
@@ -10712,6 +11879,14 @@
       }
     },
     {
+      "name": "project-health-auditor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/mcp/project-health-auditor"
+      }
+    },
+    {
       "name": "project-multilevel-index",
       "source": {
         "source": "github",
@@ -10747,6 +11922,14 @@
         "source": "git-subdir",
         "url": "ulebule/claude-skills",
         "path": "plugins/prompt-prep"
+      }
+    },
+    {
+      "name": "prompt-quality-criteria",
+      "source": {
+        "source": "git-subdir",
+        "url": "brokenrobot-xyz/agent-skills",
+        "path": "plugins/prompt-quality-criteria"
       }
     },
     {
@@ -11012,6 +12195,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/query-performance-analyzer"
+      }
+    },
+    {
+      "name": "query-performance-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/query-performance-analyzer"
       }
     },
@@ -11378,6 +12569,14 @@
       "source": {
         "source": "github",
         "repo": "zhuangqh/dotfiles"
+      }
+    },
+    {
+      "name": "repo-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "AndrewDongminYoo/cc-agents-kit",
+        "path": "plugins/repo-gate"
       }
     },
     {
@@ -12038,6 +13237,13 @@
       }
     },
     {
+      "name": "sdd-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "hardcode83/sdd-toolkit"
+      }
+    },
+    {
       "name": "sdg-hub",
       "source": {
         "source": "github",
@@ -12076,6 +13282,14 @@
       }
     },
     {
+      "name": "secrets-manager-integrator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/secrets-manager-integrator"
+      }
+    },
+    {
       "name": "secure-coding",
       "source": {
         "source": "git-subdir",
@@ -12088,6 +13302,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/examples/security-agent"
+      }
+    },
+    {
+      "name": "security-agent-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/examples/security-agent"
       }
     },
@@ -12144,6 +13366,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/packages/security-pro-pack"
+      }
+    },
+    {
+      "name": "security-pro-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/packages/security-pro-pack"
       }
     },
@@ -12272,10 +13502,26 @@
       }
     },
     {
+      "name": "service-mesh-configurator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/service-mesh-configurator"
+      }
+    },
+    {
       "name": "servicegraph",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/servicegraph"
+      }
+    },
+    {
+      "name": "servicegraph-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/servicegraph"
       }
     },
@@ -12401,6 +13647,13 @@
       }
     },
     {
+      "name": "sixth-sense",
+      "source": {
+        "source": "github",
+        "repo": "dariovr1/sixth-sense"
+      }
+    },
+    {
       "name": "skill-authoring",
       "source": {
         "source": "github",
@@ -12456,6 +13709,21 @@
       }
     },
     {
+      "name": "skill-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/skill-pack"
+      }
+    },
+    {
+      "name": "skill-repo",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/skill-repo-skill"
+      }
+    },
+    {
       "name": "skillopt-sleep",
       "source": {
         "source": "git-subdir",
@@ -12484,6 +13752,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/skills-janitor"
+      }
+    },
+    {
+      "name": "skiphow",
+      "source": {
+        "source": "git-subdir",
+        "url": "mzored/SkipHow",
+        "path": "plugins/skiphow"
       }
     },
     {
@@ -12530,6 +13806,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/slack-channel"
+      }
+    },
+    {
+      "name": "slack-channel-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/slack-channel"
       }
     },
@@ -12777,6 +14061,14 @@
       }
     },
     {
+      "name": "sql-query-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/database/sql-query-optimizer"
+      }
+    },
+    {
       "name": "sql-server-query",
       "source": {
         "source": "git-subdir",
@@ -12803,6 +14095,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/staking-rewards-optimizer"
+      }
+    },
+    {
+      "name": "staking-rewards-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/staking-rewards-optimizer"
       }
     },
@@ -12847,6 +14147,14 @@
       }
     },
     {
+      "name": "statusline",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/statusline"
+      }
+    },
+    {
       "name": "steuer",
       "source": {
         "source": "git-subdir",
@@ -12867,6 +14175,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/database/stored-procedure-generator"
+      }
+    },
+    {
+      "name": "stored-procedure-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/stored-procedure-generator"
       }
     },
@@ -12928,6 +14244,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/sugar"
+      }
+    },
+    {
+      "name": "sugar-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/sugar"
       }
     },
@@ -13225,6 +14549,14 @@
       }
     },
     {
+      "name": "team-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "must-desertsand/Team-MCP-Claude-Mem",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "teams-2",
       "source": {
         "source": "git-subdir",
@@ -13260,6 +14592,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/telegram"
+      }
+    },
+    {
+      "name": "telegram-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/telegram"
       }
     },
     {
@@ -13299,6 +14639,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/devops/terraform-module-builder"
+      }
+    },
+    {
+      "name": "terraform-module-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/terraform-module-builder"
       }
     },
@@ -13490,6 +14838,14 @@
       }
     },
     {
+      "name": "token-launch-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/token-launch-tracker"
+      }
+    },
+    {
       "name": "tonapi",
       "source": {
         "source": "github",
@@ -13649,6 +15005,14 @@
       }
     },
     {
+      "name": "trading-strategy-backtester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/trading-strategy-backtester"
+      }
+    },
+    {
       "name": "trailhead",
       "source": {
         "source": "git-subdir",
@@ -13755,6 +15119,14 @@
       }
     },
     {
+      "name": "tweetclaw-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/devops/tweetclaw"
+      }
+    },
+    {
       "name": "twincat-mcp-agent",
       "source": {
         "source": "github",
@@ -13824,6 +15196,14 @@
       }
     },
     {
+      "name": "uizze-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/design/uizze"
+      }
+    },
+    {
       "name": "unifapi",
       "source": {
         "source": "github",
@@ -13851,6 +15231,14 @@
       "source": {
         "source": "github",
         "repo": "CloudAI-X/claude-workflow-v2"
+      }
+    },
+    {
+      "name": "unslop",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/unslop"
       }
     },
     {
@@ -14315,10 +15703,26 @@
       }
     },
     {
+      "name": "wallet-portfolio-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/crypto/wallet-portfolio-tracker"
+      }
+    },
+    {
       "name": "wallet-security-auditor",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/wallet-security-auditor"
+      }
+    },
+    {
+      "name": "wallet-security-auditor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/wallet-security-auditor"
       }
     },
@@ -14527,6 +15931,14 @@
       }
     },
     {
+      "name": "weekly-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/weekly-report"
+      }
+    },
+    {
       "name": "weekly-review",
       "source": {
         "source": "git-subdir",
@@ -14562,6 +15974,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/crypto/whale-alert-monitor"
+      }
+    },
+    {
+      "name": "whale-alert-monitor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/whale-alert-monitor"
       }
     },
@@ -14820,6 +16240,14 @@
       }
     },
     {
+      "name": "workflow-orchestrator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/mcp/workflow-orchestrator"
+      }
+    },
+    {
       "name": "workflowx",
       "source": {
         "source": "github",
@@ -14851,6 +16279,14 @@
       }
     },
     {
+      "name": "worktree",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/worktree"
+      }
+    },
+    {
       "name": "worktree-setup",
       "source": {
         "source": "git-subdir",
@@ -14878,6 +16314,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/write-a-skill"
+      }
+    },
+    {
+      "name": "writing-simplified-technical-english",
+      "source": {
+        "source": "git-subdir",
+        "url": "brokenrobot-xyz/agent-skills",
+        "path": "plugins/writing-simplified-technical-english"
       }
     },
     {
@@ -14914,6 +16358,14 @@
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/claude-code-plugins-plus-skills",
+        "path": "plugins/mcp/x-bug-triage"
+      }
+    },
+    {
+      "name": "x-bug-triage-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/x-bug-triage"
       }
     },

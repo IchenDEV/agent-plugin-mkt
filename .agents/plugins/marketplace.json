@@ -942,6 +942,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "backs-aios",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tcuzzo/backs-aios-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "banyandb-bydbql",
       "source": {
         "source": "url",
@@ -1006,11 +1018,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bertram",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/bertram"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "beta-plugin",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/multi-plugin-repo/plugins/beta-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bibliothekarin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/bibliothekarin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1658,6 +1696,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "christian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/christian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chronograph-gp",
       "source": {
         "source": "git-subdir",
@@ -1851,6 +1902,18 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/clean-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "click",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grapefruit0205/click.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2846,11 +2909,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "defuddle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/defuddle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "deja-vu-2",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/vshulcz/deja-vu.git",
         "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "deliberation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antonbabenko/deliberation.git",
+        "path": "./plugins/deliberation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3838,6 +3927,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "flyte",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/flyteorg/flyte-agent-plugins.git",
+        "path": "./plugins/flyte"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "foreman",
       "source": {
         "source": "url",
@@ -4388,6 +4490,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "grimm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/grimm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "grounded-asset-sheets",
       "source": {
         "source": "url",
@@ -4820,6 +4935,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "it-grundschutz",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/it-grundschutz"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "iterm2-titles",
       "source": {
         "source": "git-subdir",
@@ -4965,6 +5093,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/shepsci/kaggle-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kanmer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/collisionengineers/kanmer.git",
+        "path": "./plugins/kanmer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5156,6 +5297,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/linear"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linkedin-campaign-operator-v3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sunny-chandel/linkedin-campaign-operator.git",
+        "path": "./plugins/linkedin-campaign-operator-v3"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5693,6 +5847,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "memforks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/memforks-dev/memforks.git",
+        "path": "./plugins/codex/plugins/memforks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mempalace",
       "source": {
         "source": "url",
@@ -6139,6 +6306,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nixie",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/nixie"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "no-ai-slop",
       "source": {
         "source": "url",
@@ -6257,6 +6437,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./tests/fixtures/promise-machine/duplicate-canonical/plugins/one"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "open-magi-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ladiossoop5star/open_magi.git",
+        "path": "./adapters/codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8186,6 +8379,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sdd-toolkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hardcode83/sdd-toolkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sdg-hub",
       "source": {
         "source": "url",
@@ -8609,6 +8814,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/skills-no-frontmatter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skiphow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mzored/SkipHow.git",
+        "path": "./plugins/skiphow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9441,6 +9659,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "trace-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nikolai-vysotskyi/trace-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trading-broker-integration-2",
       "source": {
         "source": "git-subdir",
@@ -9645,6 +9875,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CloudAI-X/claude-workflow-v2.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "unslop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/unslop"
       },
       "policy": {
         "installation": "AVAILABLE",

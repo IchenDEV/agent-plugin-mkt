@@ -409,11 +409,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agents-library",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cleanunicorn/agents-library.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agy",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/iicmaster/antigravity-plugins.git",
         "path": "./plugins/agy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/ai"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1299,6 +1324,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bowmark",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bowmark-ai/plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "box",
       "source": {
         "source": "git-subdir",
@@ -1803,6 +1840,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ZeroZ-lab/cc-design.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "certificate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/certificate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2544,6 +2594,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cloud-infrastructure",
       "source": {
         "source": "git-subdir",
@@ -2973,6 +3036,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "common-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vndly/marketplace.git",
+        "path": "./plugins/codex/common"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "common-room-2",
       "source": {
         "source": "git-subdir",
@@ -3268,6 +3344,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/cube"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vanyangyang/cursor-bridge.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3699,6 +3787,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "design-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "design-principles",
       "source": {
         "source": "git-subdir",
@@ -3791,6 +3892,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AbysmalBiscuit/devkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devkit-2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4311,6 +4424,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/core/evidence-lab-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "exam",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/exam"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5189,6 +5315,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "goal-prompt-refiner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/balovess/goal-prompt-refiner.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "godspeed-codex-command",
       "source": {
         "source": "git-subdir",
@@ -5220,6 +5358,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/gogcli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/google"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5376,6 +5527,32 @@
         "source": "git-subdir",
         "url": "https://github.com/muhackel/claude-code-plugins.git",
         "path": "./plugins/grimm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grok-build-supervisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vanyangyang/cursor-bridge.git",
+        "path": "./plugins/grok-build-supervisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grok-companion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/enderzcx/grok-companion.git",
+        "path": "./plugins/grok-companion"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5855,6 +6032,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "intent-trace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ljkhyeong/intent-trace.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "intercom",
       "source": {
         "source": "git-subdir",
@@ -6192,6 +6381,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/kubernetes-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lang",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/lang"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6922,6 +7124,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "memory-daemon-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/omriariav/memory-daemon.git",
+        "path": "./plugins/memory-daemon-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mempalace",
       "source": {
         "source": "url",
@@ -7099,6 +7314,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "minottobot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EmanueleMinotto/minottobot.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mixpanel",
       "source": {
         "source": "git-subdir",
@@ -7117,6 +7344,31 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/mixpanel-headless"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/mobile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "moda",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moda-design/moda.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8366,6 +8618,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/azrtydxb/procoder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "product",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/product"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10678,6 +10943,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "style-extractor",
       "source": {
         "source": "git-subdir",
@@ -10796,6 +11074,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/superpowers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "svif",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iorLab/svif.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11566,6 +11857,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "university",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
+        "path": "./plugins/university"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "unslop",
       "source": {
         "source": "git-subdir",
@@ -11655,6 +11959,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vmax-teaching-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/beyelin6/vmax-teaching-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "waldo",
       "source": {
         "source": "git-subdir",
@@ -11710,6 +12026,19 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
+        "path": "./plugins/web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "web-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/web"
       },
       "policy": {
@@ -11800,6 +12129,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/degausai/wonda.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workaholic",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qmu/workaholic.git",
+        "path": "./plugins/workaholic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qmu/workaholic.git",
+        "path": "./outputs/workflows"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11902,6 +12257,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/zellij"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zengmei-team-yujian-dapian-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vsmei520/zengmei-yujian-plugin.git",
+        "path": "./plugins/zengmei-team-yujian-dapian-skill"
       },
       "policy": {
         "installation": "AVAILABLE",

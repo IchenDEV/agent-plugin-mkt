@@ -193,6 +193,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -211,6 +224,32 @@
         "source": "git-subdir",
         "url": "https://github.com/ScriptedAlchemy/agent-bundle.git",
         "path": "./fixtures/contracts/hosts/codex/candidate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
+        "path": "./plugins/agent-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-notifier",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
+        "path": "./plugins/agent-notifier"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -351,6 +390,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/agencia-conversion/agentic-seo-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentic-systems-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/agentic-systems-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -630,6 +682,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/amplitude"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "amq-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/amq-cli"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1070,6 +1135,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "babysit-pr",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/babysit-pr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "backend-api-security",
       "source": {
         "source": "git-subdir",
@@ -1253,6 +1331,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bitrouter/bitrouter.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bkt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/bkt"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1892,6 +1983,19 @@
         "source": "git-subdir",
         "url": "https://github.com/imgly/agent-skills.git",
         "path": "./plugins/cesdk-swift"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cf-knowbase",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
+        "path": "./plugins/cf-knowbase"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3062,6 +3166,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "community-scout",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xmkevinchen/community-scout.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "comprehensive-review",
       "source": {
         "source": "git-subdir",
@@ -3864,10 +3980,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "development-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/development-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "development-plugin-for-avalonia",
       "source": {
         "source": "url",
         "url": "https://github.com/wieslawsoltes/development-plugin-for-avalonia.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "development-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3981,6 +4123,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/digitalocean"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dispatch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/selfcontained/dispatch.git",
+        "path": "./plugins/dispatch"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4245,6 +4400,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dsh-vibeify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/N9-Developer-Empowerment/DSH-Vibeify.git",
+        "path": "./plugins/dsh-vibeify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "duckdb",
       "source": {
         "source": "git-subdir",
@@ -4300,6 +4468,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ekline-io/ekline-docs-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "engineering-standards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/engineering-standards"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4387,6 +4568,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/essential"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eval-case-reporter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/eval-case-reporter"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4703,6 +4897,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "finding-unknowns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/finding-unknowns"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "finn",
       "source": {
         "source": "git-subdir",
@@ -4771,6 +4978,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/fiscal-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "flow-codeblock-rust",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/renoelis/flow-codeblock-rust-mcp.git",
+        "path": "./plugins/flow-codeblock-rust"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5767,6 +5987,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hhru-cc-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/axisrow/hhru.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "higgsfield",
       "source": {
         "source": "git-subdir",
@@ -6198,6 +6430,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "jk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/jk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jq",
       "source": {
         "source": "git-subdir",
@@ -6402,11 +6647,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "langfuse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/langfuse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "laoyuan-aigc-photo-recreation",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/LaoYuan-aigc/laoyuan-aigc-photo-recreation.git",
         "path": "./plugins/laoyuan-aigc-photo-recreation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lark-cli-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
+        "path": "./plugins/lark-cli-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7798,6 +8069,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
+        "path": "./plugins/obsidian-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "occam",
       "source": {
         "source": "url",
@@ -7904,6 +8188,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/adibirzu/openclaw-security-monitor.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "openeyes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yangpeng366/openeyes.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8260,6 +8556,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/performance-testing-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "personas",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kickinrad/personas-framework.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9000,6 +9308,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rab",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ximing/rab.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rag-development-2",
       "source": {
         "source": "git-subdir",
@@ -9452,6 +9772,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/avivsinai/sabx.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sabx-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/sabx"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10068,6 +10401,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scansci-pdf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rimagination/scansci-pdf.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scite",
       "source": {
         "source": "git-subdir",
@@ -10277,6 +10622,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/sg-c/sgche-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shaon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/shaon"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10500,6 +10858,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skill-authoring-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/skill-authoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-creator-2",
       "source": {
         "source": "git-subdir",
@@ -10645,6 +11016,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/amnotyoung/slide-meme-inserter.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "snagline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/snagline"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11517,6 +11901,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tiber",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/tiber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tinman-ai",
       "source": {
         "source": "git-subdir",
@@ -12188,6 +12585,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "worktrees",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jwilger/ai-plugins.git",
+        "path": "./plugins/development-system/components/worktrees"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "x-api-scraper",
       "source": {
         "source": "url",
@@ -12244,6 +12654,19 @@
         "source": "git-subdir",
         "url": "https://github.com/oliverames/ynab-mcp-server.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "yoetz",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/avivsinai/skills-marketplace.git",
+        "path": "./plugins/yoetz"
       },
       "policy": {
         "installation": "AVAILABLE",

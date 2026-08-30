@@ -206,6 +206,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aeokit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aeokit-dev/aeokit-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -819,6 +831,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "app-builder-2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/withAutograph/autograph-app-builder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "application-performance",
       "source": {
         "source": "git-subdir",
@@ -1039,18 +1063,6 @@
         "source": "git-subdir",
         "url": "https://github.com/weedmo/skills.git",
         "path": "./plugins/auto-loop"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "autograph-app-builder",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/withAutograph/autograph-app-builder.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1952,10 +1964,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cc-academia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./cc-academia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cc-design",
       "source": {
         "source": "url",
         "url": "https://github.com/ZeroZ-lab/cc-design.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cc-latex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./cc-latex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4309,6 +4347,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "documents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EurekaRaider/Artemis.git",
+        "path": "./apps/desktop/resources/bundled-artifact-plugins/plugins/documents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "docusign",
       "source": {
         "source": "git-subdir",
@@ -4513,6 +4564,30 @@
       "category": "Developer Tools"
     },
     {
+      "name": "edgepilot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rivendell-investment/edgepilot-live-claude.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edgepilot-research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rivendell-investment/edgepilot-research-claude.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "egnyte",
       "source": {
         "source": "git-subdir",
@@ -4555,6 +4630,19 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/yersonargotev/engram.git",
+        "path": "./plugin/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "engram-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Gentleman-Programming/engram.git",
         "path": "./plugin/codex"
       },
       "policy": {
@@ -4693,6 +4781,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/core/evidence-lab-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "evolve-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./evolve"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4874,6 +4975,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/fable-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fabric",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./fabric"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6941,6 +7055,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "livespec-orchestrator-beads-fabro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thewoolleyman/livespec-orchestrator-beads-fabro.git",
+        "path": "./.claude-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "llm-application-dev",
       "source": {
         "source": "git-subdir",
@@ -7865,6 +7992,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mutantkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/juntaki/mutantkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "my-plugin-2",
       "source": {
         "source": "git-subdir",
@@ -8613,6 +8752,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pdf",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EurekaRaider/Artemis.git",
+        "path": "./apps/desktop/resources/bundled-artifact-plugins/plugins/pdf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "peer-review-2",
       "source": {
         "source": "git-subdir",
@@ -8983,6 +9135,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "presentations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EurekaRaider/Artemis.git",
+        "path": "./apps/desktop/resources/bundled-artifact-plugins/plugins/presentations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "prettier-after-edit",
       "source": {
         "source": "git-subdir",
@@ -9117,6 +9282,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/project-setup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/shrekshrek/project-workflow.git",
+        "path": "./adapters/codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9553,6 +9731,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/workato-devs/recipe-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./rem"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10756,6 +10947,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sharp-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./sharp-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shell-scripting",
       "source": {
         "source": "git-subdir",
@@ -11265,6 +11469,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ormastes/simple.git",
         "path": "./examples/05_stdlib/spipe/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spreadsheets",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EurekaRaider/Artemis.git",
+        "path": "./apps/desktop/resources/bundled-artifact-plugins/plugins/spreadsheets"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12571,6 +12788,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "waa-independent-evaluation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clearlove7818/waa-independent-evaluation.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "waldo",
       "source": {
         "source": "git-subdir",
@@ -12601,6 +12830,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bradautomates/claude-video.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "watch-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DawnEver/cc-market.git",
+        "path": "./watch"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12826,6 +13068,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "xtctx",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fstubner/xtctx.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "xterm-2",
       "source": {
         "source": "git-subdir",
@@ -12948,6 +13203,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/zotero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zuke",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zuke-build/zuke.git",
+        "path": "./plugins/zuke"
       },
       "policy": {
         "installation": "AVAILABLE",

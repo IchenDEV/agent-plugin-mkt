@@ -143,6 +143,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adaptive-engineering",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/neuraforge-cl-es/adaptive-engineering.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adept",
       "source": {
         "source": "url",
@@ -4004,6 +4016,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "designless",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/designlesshq/designless-agent.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devbrother-skills",
       "source": {
         "source": "url",
@@ -6402,6 +6426,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "idd-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/slusset/intention-driven-design.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "impact-lens",
       "source": {
         "source": "git-subdir",
@@ -6483,6 +6519,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/investigation-report"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ios-capability-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fillbyte/ios-capability-architect.git",
+        "path": "./plugins/ios-capability-architect"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6880,6 +6929,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lazarus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "learn-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/udayangx/codex-plugins.git",
+        "path": "./plugins/learn"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8651,6 +8713,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "paa-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/personal-agent-account/paa.git",
+        "path": "./adapters/official/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "packer",
       "source": {
         "source": "git-subdir",
@@ -8832,6 +8907,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/picsart"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pioneer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rock3r/pioneer.git",
+        "path": "./plugins/pioneer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9794,6 +9882,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/render"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "renoolab-agent-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mehdimicra/renoolab-agent-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11946,6 +12046,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "taf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Phalegethon/the-agentic-fieldbook.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "takealot",
       "source": {
         "source": "git-subdir",
@@ -13009,6 +13121,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TreeX-X/WorkFlowX.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "worklog-2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "worklog-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",

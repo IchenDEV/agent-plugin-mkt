@@ -194,6 +194,13 @@
       }
     },
     {
+      "name": "adaptive-engineering",
+      "source": {
+        "source": "github",
+        "repo": "neuraforge-cl-es/adaptive-engineering"
+      }
+    },
+    {
       "name": "adept",
       "source": {
         "source": "github",
@@ -403,6 +410,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/agent-context-manager"
+      }
+    },
+    {
+      "name": "agent-cortex",
+      "source": {
+        "source": "git-subdir",
+        "url": "jaybeeuu/agent-cortex",
+        "path": "claude"
       }
     },
     {
@@ -623,6 +638,13 @@
       }
     },
     {
+      "name": "agentic-development-kit",
+      "source": {
+        "source": "github",
+        "repo": "DianaSensei/agentic-development-kit"
+      }
+    },
+    {
       "name": "agentic-docs",
       "source": {
         "source": "git-subdir",
@@ -672,6 +694,13 @@
       "source": {
         "source": "github",
         "repo": "boshu2/agentops"
+      }
+    },
+    {
+      "name": "agents-cli",
+      "source": {
+        "source": "github",
+        "repo": "phnx-labs/agi-cli"
       }
     },
     {
@@ -3830,6 +3859,21 @@
       }
     },
     {
+      "name": "claude-job-hunt",
+      "source": {
+        "source": "github",
+        "repo": "dominiquevienne/claude-job-hunt"
+      }
+    },
+    {
+      "name": "claude-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "SApplefeld/claude-kit",
+        "path": "plugins/claude-kit"
+      }
+    },
+    {
       "name": "claude-md-management",
       "source": {
         "source": "git-subdir",
@@ -4925,6 +4969,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/contributing-clanker"
+      }
+    },
+    {
+      "name": "conventions",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/conventions"
       }
     },
     {
@@ -6243,6 +6295,14 @@
       }
     },
     {
+      "name": "defaults",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/defaults"
+      }
+    },
+    {
       "name": "defi-yield-optimizer",
       "source": {
         "source": "git-subdir",
@@ -6350,6 +6410,14 @@
         "source": "git-subdir",
         "url": "awslabs/agent-plugins",
         "path": "plugins/deploy-on-aws"
+      }
+    },
+    {
+      "name": "deploy-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "agentbridgehq/agentbridge",
+        "path": "internal/importer/claudecode/testdata/full"
       }
     },
     {
@@ -6482,6 +6550,13 @@
       "source": {
         "source": "github",
         "repo": "Manavarya09/design-extract"
+      }
+    },
+    {
+      "name": "designless",
+      "source": {
+        "source": "github",
+        "repo": "designlesshq/designless-agent"
       }
     },
     {
@@ -9383,6 +9458,14 @@
       }
     },
     {
+      "name": "generate",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/generate"
+      }
+    },
+    {
       "name": "generic-ai-skills",
       "source": {
         "source": "github",
@@ -9567,6 +9650,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/glean-pack"
+      }
+    },
+    {
+      "name": "gm",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/gm"
+      }
+    },
+    {
+      "name": "goal-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "n-pillai/goal-kit",
+        "path": "dotclaude"
       }
     },
     {
@@ -10373,6 +10472,13 @@
       "source": {
         "source": "github",
         "repo": "mrexodia/ida-pro-mcp"
+      }
+    },
+    {
+      "name": "idd-skills",
+      "source": {
+        "source": "github",
+        "repo": "slusset/intention-driven-design"
       }
     },
     {
@@ -11228,6 +11334,13 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/kubernetes-operator"
+      }
+    },
+    {
+      "name": "kuroco-skills",
+      "source": {
+        "source": "github",
+        "repo": "diverta/kuroco-skills"
       }
     },
     {
@@ -13932,6 +14045,14 @@
       }
     },
     {
+      "name": "paa",
+      "source": {
+        "source": "git-subdir",
+        "url": "personal-agent-account/paa",
+        "path": "adapters/official/claude"
+      }
+    },
+    {
       "name": "packer",
       "source": {
         "source": "git-subdir",
@@ -14359,6 +14480,14 @@
       "source": {
         "source": "github",
         "repo": "chu2bard/pinion-os"
+      }
+    },
+    {
+      "name": "pioneer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rock3r/pioneer",
+        "path": "plugins/pioneer"
       }
     },
     {
@@ -16095,6 +16224,13 @@
       }
     },
     {
+      "name": "renoolab-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "mehdimicra/renoolab-agent-skills"
+      }
+    },
+    {
       "name": "replit-pack",
       "source": {
         "source": "git-subdir",
@@ -17263,6 +17399,14 @@
       }
     },
     {
+      "name": "sertta-factory",
+      "source": {
+        "source": "git-subdir",
+        "url": "Luansantosdevpy/ai-template-typescript",
+        "path": "plugins/sertta-factory"
+      }
+    },
+    {
       "name": "service-mesh-configurator",
       "source": {
         "source": "git-subdir",
@@ -17620,6 +17764,14 @@
       }
     },
     {
+      "name": "skillreaper",
+      "source": {
+        "source": "git-subdir",
+        "url": "thousandflowers/skillreaper",
+        "path": "plugins/skillreaper"
+      }
+    },
+    {
       "name": "skills",
       "source": {
         "source": "github",
@@ -17883,6 +18035,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/sow-generator"
+      }
+    },
+    {
+      "name": "spawn",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/spawn"
       }
     },
     {
@@ -18635,6 +18795,13 @@
       }
     },
     {
+      "name": "taf",
+      "source": {
+        "source": "github",
+        "repo": "Phalegethon/the-agentic-fieldbook"
+      }
+    },
+    {
       "name": "taiwanmd",
       "source": {
         "source": "git-subdir",
@@ -19051,6 +19218,14 @@
         "source": "git-subdir",
         "url": "jwilger/ai-plugins",
         "path": "plugins/development-system/components/tiber"
+      }
+    },
+    {
+      "name": "ticket-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/ticket-workflow"
       }
     },
     {
@@ -19784,6 +19959,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/vercel-pack"
+      }
+    },
+    {
+      "name": "verdict",
+      "source": {
+        "source": "github",
+        "repo": "ArtJack/verdict"
       }
     },
     {
@@ -20922,6 +21104,14 @@
       }
     },
     {
+      "name": "worklog-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/wiki_ticket_sdd",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "workspaces",
       "source": {
         "source": "git-subdir",
@@ -21097,6 +21287,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/xterm"
+      }
+    },
+    {
+      "name": "yaml",
+      "source": {
+        "source": "git-subdir",
+        "url": "maguerrieri/claude-toolbox",
+        "path": "plugins/yaml"
       }
     },
     {

@@ -6,6 +6,9 @@ import {
   intentCanonicalForFilters,
   meaningfulDescription,
   pluginDescription,
+  pluginInstallHeading,
+  pluginMetaDescription,
+  pluginPageTitle,
 } from "@/lib/seo-content";
 import { cacheCatalogQuery } from "@/lib/server-cache";
 
@@ -43,6 +46,17 @@ test("empty and punctuation-only descriptions get a factual fallback", () => {
   assert.equal(meaningfulDescription("  Useful review tools. "), "Useful review tools.");
   assert.match(pluginDescription(plugin, "en"), /2 skills and 1 MCP server/);
   assert.match(pluginDescription(plugin, "zh-CN"), /2 个技能和1 个 MCP 服务器/);
+});
+
+test("installable plugin metadata matches install search intent", () => {
+  assert.equal(pluginPageTitle(plugin, "en"), "Demo Plugin Codex plugin — install");
+  assert.equal(pluginInstallHeading(plugin, "en"), "Install Demo Plugin for Codex");
+  assert.match(pluginMetaDescription(plugin, "en"), /^Install Demo Plugin for Codex/);
+  assert.match(pluginMetaDescription(plugin, "en"), /2 skills and 1 MCP server/);
+
+  const portable: PluginSummary = { ...plugin, protocols: ["agent-plugins"] };
+  assert.equal(pluginPageTitle(portable, "en"), "Demo Plugin — Agent Plugins plugin");
+  assert.doesNotMatch(pluginMetaDescription(portable, "en"), /^Install/);
 });
 
 test("semantic browse filters point search engines to intent landing pages", () => {

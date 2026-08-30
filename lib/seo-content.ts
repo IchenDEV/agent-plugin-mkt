@@ -243,11 +243,45 @@ export function pluginDescription(plugin: PluginSummary, locale: Locale): string
     : `${plugin.name} is an open-source ${runtime} plugin indexed from GitHub${componentText ? ` with ${componentText}` : ""}. Review its manifest and source before installing.`;
 }
 
+function installableProtocols(plugin: PluginSummary): PluginProtocol[] {
+  return plugin.protocols.filter(
+    (protocol) => protocol === "codex" || protocol === "claude-code",
+  );
+}
+
 export function pluginPageTitle(plugin: PluginSummary, locale: Locale): string {
   const runtime = pluginRuntimeLabel(plugin.protocols.slice(0, 2), locale);
-  return locale === "zh-CN"
-    ? `${plugin.name} — ${runtime} 插件`
+  const installable = installableProtocols(plugin).length > 0;
+  if (locale === "zh-CN") {
+    return installable
+      ? `${plugin.name} ${runtime} 插件 — 安装`
+      : `${plugin.name} — ${runtime} 插件`;
+  }
+  return installable
+    ? `${plugin.name} ${runtime} plugin — install`
     : `${plugin.name} — ${runtime} plugin`;
+}
+
+export function pluginMetaDescription(plugin: PluginSummary, locale: Locale): string {
+  const protocols = installableProtocols(plugin);
+  const description = pluginDescription(plugin, locale);
+  if (protocols.length === 0) return compactDescription(description);
+
+  const runtime = pluginRuntimeLabel(protocols, locale);
+  const prefix = locale === "zh-CN"
+    ? `从已索引的源码为 ${runtime} 安装 ${plugin.name}。`
+    : `Install ${plugin.name} for ${runtime} from its indexed source. `;
+  const separator = locale === "zh-CN" && /^[\u0000-\u007f]/.test(description)
+    ? " "
+    : "";
+  return compactDescription(`${prefix}${separator}${description}`);
+}
+
+export function pluginInstallHeading(plugin: PluginSummary, locale: Locale): string {
+  const runtime = pluginRuntimeLabel(installableProtocols(plugin), locale);
+  return locale === "zh-CN"
+    ? `为 ${runtime} 安装 ${plugin.name}`
+    : `Install ${plugin.name} for ${runtime}`;
 }
 
 export function intentBrowseHref(definition: IntentLandingDefinition): string {

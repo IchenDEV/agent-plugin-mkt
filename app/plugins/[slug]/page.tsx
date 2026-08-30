@@ -11,8 +11,9 @@ import { formatDate, formatNumber, relativeTime, stripControlChars } from "@/lib
 import { getPluginBySlug, searchPlugins, type PluginDetail } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
 import {
-  compactDescription,
   pluginDescription,
+  pluginInstallHeading,
+  pluginMetaDescription,
   pluginPageTitle,
   pluginRuntimeLabel,
 } from "@/lib/seo-content";
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: PluginPageProps): Promise<Met
   const zh = locale === "zh-CN";
   const plugin = await getPlugin(slug);
   if (!plugin) return { title: zh ? "未找到插件" : "Plugin not found", robots: { index: false, follow: false } };
-  const description = compactDescription(pluginDescription(plugin, locale));
+  const description = pluginMetaDescription(plugin, locale);
   const title = pluginPageTitle(plugin, locale);
   const canonical = absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`);
   return {
@@ -584,9 +585,7 @@ export default async function PluginPage({ params }: PluginPageProps) {
             <SectionHeading
               title={
                 installOptions.length > 0
-                  ? zh
-                    ? "安装插件"
-                    : "Install plugin"
+                  ? pluginInstallHeading(plugin, locale)
                   : zh
                     ? "获取插件"
                     : "Get the plugin"

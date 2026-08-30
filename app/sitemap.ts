@@ -6,22 +6,23 @@ import { absoluteUrl } from "@/lib/site";
 export const revalidate = 21_600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Keep the feed compact: Google ignores changeFrequency and priority.
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: absoluteUrl("/"), changeFrequency: "daily", priority: 1 },
-    { url: absoluteUrl("/plugins"), changeFrequency: "daily", priority: 0.9 },
-    { url: absoluteUrl("/categories"), changeFrequency: "weekly", priority: 0.7 },
-    { url: absoluteUrl("/timeline"), changeFrequency: "daily", priority: 0.7 },
-    { url: absoluteUrl("/docs"), changeFrequency: "monthly", priority: 0.6 },
-    { url: absoluteUrl("/codex-plugins"), changeFrequency: "daily", priority: 0.9 },
-    { url: absoluteUrl("/claude-code-plugins"), changeFrequency: "daily", priority: 0.9 },
-    { url: absoluteUrl("/agent-skills"), changeFrequency: "daily", priority: 0.9 },
-    { url: absoluteUrl("/mcp-servers"), changeFrequency: "daily", priority: 0.9 },
-    { url: absoluteUrl("/insights"), changeFrequency: "daily", priority: 0.8 },
+    { url: absoluteUrl("/") },
+    { url: absoluteUrl("/plugins") },
+    { url: absoluteUrl("/categories") },
+    { url: absoluteUrl("/timeline") },
+    { url: absoluteUrl("/docs") },
+    { url: absoluteUrl("/codex-plugins") },
+    { url: absoluteUrl("/claude-code-plugins") },
+    { url: absoluteUrl("/agent-skills") },
+    { url: absoluteUrl("/mcp-servers") },
+    { url: absoluteUrl("/insights") },
   ];
 
   const [plugins, categories] = await Promise.all([
     prisma.plugin.findMany({
-      select: { slug: true, indexedAt: true, repoPushedAt: true },
+      select: { slug: true },
       orderBy: { repoStars: "desc" },
     }),
     getCategories(100),
@@ -31,14 +32,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticRoutes,
     ...categories.map((category) => ({
       url: absoluteUrl(`/plugins?category=${encodeURIComponent(category.name)}`),
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
     })),
+    // repoPushedAt is repository-wide. In a monorepo, an unrelated push does
+    // not mean every plugin page changed, so it is not a truthful lastModified.
     ...plugins.map((plugin) => ({
       url: absoluteUrl(`/plugins/${encodeURIComponent(plugin.slug)}`),
-      lastModified: plugin.repoPushedAt ?? plugin.indexedAt,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
     })),
   ];
 }

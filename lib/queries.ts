@@ -16,6 +16,8 @@ export type SortOrder = "stars" | "updated" | "recent";
 export interface PluginFilters {
   /** Free-text query over name, description, keywords, author. */
   q?: string;
+  /** Exact GitHub owner login (creator pages). */
+  owner?: string;
   /** Exact keyword match (categories are keywords). */
   category?: string;
   type?: ComponentType;
@@ -36,7 +38,11 @@ export interface PluginSummary {
   license: string | null;
   keywords: string[];
   repoUrl: string;
+  repoOwner: string;
   repoStars: number;
+  repoForks: number;
+  repoOpenIssues: number;
+  repoPushedAt: Date | null;
   skillCount: number;
   mcpCount: number;
   transports: Transport[];
@@ -137,7 +143,11 @@ function toSummary(plugin: PluginWithTransports): PluginSummary {
     license: plugin.license,
     keywords: parseKeywords(plugin.keywords),
     repoUrl: plugin.repoUrl,
+    repoOwner: plugin.repoOwner,
     repoStars: plugin.repoStars,
+    repoForks: plugin.repoForks,
+    repoOpenIssues: plugin.repoOpenIssues,
+    repoPushedAt: plugin.repoPushedAt,
     skillCount: plugin.skillCount,
     mcpCount: plugin.mcpCount,
     transports: [...new Set(plugin.mcpServers.map((s) => s.transport as Transport))],
@@ -162,6 +172,8 @@ export function pluginWhereForFilters(filters: PluginFilters = {}): Prisma.Plugi
       ],
     });
   }
+  const owner = filters.owner?.trim().toLowerCase();
+  if (owner) and.push({ repoOwner: owner });
   const category = filters.category?.trim().toLowerCase();
   if (category) {
     // Keywords are stored normalized (trimmed, lowercased) as a JSON array
@@ -185,6 +197,7 @@ export function pluginWhereForFilters(filters: PluginFilters = {}): Prisma.Plugi
 function normalizedCacheFilters(filters: PluginFilters): PluginFilters {
   return {
     q: filters.q?.trim().slice(0, MAX_QUERY_LENGTH) || undefined,
+    owner: filters.owner?.trim().toLowerCase() || undefined,
     category: filters.category?.trim().toLowerCase() || undefined,
     type: filters.type,
     transport: filters.transport,
@@ -343,4 +356,109 @@ export function getCategories(limit = 100): Promise<Category[]> {
   return cacheCatalogQuery(`categories:${normalizedLimit}`, () =>
     getCategoriesUncached(limit),
   );
+}
+
+export interface Creator {
+  owner: string;
+  pluginCount: number;
+  totalStars: number;
+  /** Most recent push across the creator's indexed repositories. */
+  lastPushedAt: Date | null;
+  /** Display name from the most recently indexed plugin, when declared. */
+  displayName: string | null;
+}
+
+async function getCreatorsUncached(limit: number): Promise<Creator[]> {
+  const rows = await prisma.plugin.groupBy({
+    by: ["repoOwner"],
+    where: { repoOwner: { not: "" } },
+    _count: { _all: true },
+    _sum: { repoStars: true },
+    _max: { repoPushedAt: true },
+    orderBy: { _sum: { repoStars: "desc" } },
+  });
+  const owners = rows
+    .filter((row) => row.repoOwner)
+    .slice(0, limit)
+    .map((row) => ({
+      owner: row.repoOwner,
+      pluginCount: row._count._all,
+      totalStars: row._sum.repoStars ?? 0,
+      lastPushedAt: row._max.repoPushedAt,
+      displayName: null as string | null,
+    }));
+  if (owners.length === 0) return owners;
+  // One batched pass for display names: cheapest row per owner wins.
+  const nameRows = await prisma.plugin.findMany({
+    where: { repoOwner: { in: owners.map((o) => o.owner) }, authorName: { not: null } },
+    select: { repoOwner: true, authorName: true, createdAt: true },
+    orderBy: { createdAt: "desc" },
+  });
+  // Only trust an authorName as the creator's display name when it matches
+  // the owner login; manifest authors frequently differ from the repo owner.
+  const names = new Map<string, string>();
+  for (const row of nameRows) {
+    if (
+      row.repoOwner &&
+      row.authorName &&
+      row.authorName.trim().toLowerCase() === row.repoOwner &&
+      !names.has(row.repoOwner)
+    ) {
+      names.set(row.repoOwner, row.authorName);
+    }
+  }
+  return owners.map((owner) => ({ ...owner, displayName: names.get(owner.owner) ?? null }));
+}
+
+/** Creators (GitHub owners) ranked by total stars across indexed plugins. */
+export function getCreators(limit = 200): Promise<Creator[]> {
+  const normalizedLimit = Number.isFinite(limit) ? Math.max(0, Math.floor(limit)) : 200;
+  return cacheCatalogQuery(`creators:${normalizedLimit}`, () => getCreatorsUncached(normalizedLimit));
+}
+
+export interface CreatorDetail {
+  owner: string;
+  pluginCount: number;
+  totalStars: number;
+  totalSkills: number;
+  totalMcpServers: number;
+  lastPushedAt: Date | null;
+  displayName: string | null;
+}
+
+async function getCreatorUncached(owner: string): Promise<CreatorDetail | null> {
+  const normalized = owner.trim().toLowerCase();
+  if (!normalized || normalized.length > 100) return null;
+  const rows = await prisma.plugin.findMany({
+    where: { repoOwner: normalized },
+    select: {
+      repoStars: true,
+      skillCount: true,
+      mcpCount: true,
+      repoPushedAt: true,
+      authorName: true,
+      createdAt: true,
+    },
+  });
+  if (rows.length === 0) return null;
+  const selfNamed = rows.find(
+    (row) => row.authorName && row.authorName.trim().toLowerCase() === normalized,
+  );
+  const displayName = selfNamed?.authorName ?? null;
+  return {
+    owner: normalized,
+    pluginCount: rows.length,
+    totalStars: rows.reduce((sum, row) => sum + row.repoStars, 0),
+    totalSkills: rows.reduce((sum, row) => sum + row.skillCount, 0),
+    totalMcpServers: rows.reduce((sum, row) => sum + row.mcpCount, 0),
+    lastPushedAt: rows.reduce<Date | null>(
+      (latest, row) => (latest && row.repoPushedAt && latest > row.repoPushedAt ? latest : (row.repoPushedAt ?? latest)),
+      null,
+    ),
+    displayName,
+  };
+}
+
+export function getCreator(owner: string): Promise<CreatorDetail | null> {
+  return cacheCatalogQuery(`creator:${owner.trim().toLowerCase()}`, () => getCreatorUncached(owner));
 }

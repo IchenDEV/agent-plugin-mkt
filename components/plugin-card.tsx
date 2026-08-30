@@ -2,9 +2,16 @@ import Link from "next/link";
 import { Badge, Card, transportLabel } from "@/components/ui";
 import { formatNumber, relativeTime } from "@/lib/format";
 import type { Locale } from "@/lib/i18n";
+import { qualityLabel, qualityScore } from "@/lib/quality";
 import type { PluginSummary } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
 import { pluginDescription } from "@/lib/seo-content";
+
+const LEVEL_DOT: Record<"high" | "medium" | "low", string> = {
+  high: "bg-teal-600",
+  medium: "bg-amber-500",
+  low: "bg-gray-300",
+};
 
 /**
  * The manifest card used on the home featured grid and the browse grid.
@@ -12,12 +19,28 @@ import { pluginDescription } from "@/lib/seo-content";
  */
 export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; locale?: Locale }) {
   const zh = locale === "zh-CN";
+  const quality = qualityScore({
+    repoStars: plugin.repoStars,
+    repoForks: plugin.repoForks,
+    repoOpenIssues: plugin.repoOpenIssues,
+    repoPushedAt: plugin.repoPushedAt,
+    license: plugin.license,
+    skillCount: plugin.skillCount,
+    mcpCount: plugin.mcpCount,
+    hasDescription: Boolean(plugin.description),
+  });
+  const qualityTitle = `${qualityLabel(quality.level, locale)} · ${quality.score}/100`;
   return (
     <Card tab={plugin.name} className="h-full transition-colors hover:border-iris">
       <Link
         href={`/plugins/${plugin.slug}`}
         className="flex h-full flex-col gap-3 p-4 focus-visible:outline-none"
       >
+        {plugin.authorName ? (
+          <p className="font-mono text-xs text-gray-400">
+            {zh ? "作者" : "by"} {plugin.authorName}
+          </p>
+        ) : null}
         <p className="line-clamp-2 text-sm leading-relaxed text-gray-600">
           {pluginDescription(plugin, locale)}
         </p>
@@ -50,8 +73,18 @@ export function PluginCard({ plugin, locale = "en" }: { plugin: PluginSummary; l
             </svg>
             {formatNumber(plugin.repoStars, locale)}
           </span>
-          <span title={plugin.createdAt.toISOString()}>
-            {zh ? `添加于${relativeTime(plugin.createdAt, locale)}` : `Added ${relativeTime(plugin.createdAt, locale)}`}
+          <span
+            className="inline-flex items-center gap-1.5"
+            title={qualityTitle}
+          >
+            <span aria-hidden className={`size-1.5 rounded-full ${LEVEL_DOT[quality.level]}`} />
+            {plugin.repoPushedAt
+              ? zh
+                ? `更新于${relativeTime(plugin.repoPushedAt, locale)}`
+                : `Updated ${relativeTime(plugin.repoPushedAt, locale)}`
+              : zh
+                ? `添加于${relativeTime(plugin.createdAt, locale)}`
+                : `Added ${relativeTime(plugin.createdAt, locale)}`}
           </span>
         </div>
       </Link>

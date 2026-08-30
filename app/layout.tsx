@@ -107,6 +107,9 @@ function Header({ locale }: { locale: Locale }) {
           <Link href="/categories" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
             {zh ? "标签" : "Tags"}
           </Link>
+          <Link href="/creators" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
+            {zh ? "创作者" : "Creators"}
+          </Link>
           <Link href="/timeline" className="hidden rounded-md px-3 py-1.5 hover:bg-surface hover:text-ink sm:block">
             {zh ? "新增" : "New"}
           </Link>
@@ -147,6 +150,7 @@ function Footer({ locale }: { locale: Locale }) {
           <Link href="/agent-skills" className="hover:text-white">{zh ? "Agent 技能" : "Agent skills"}</Link>
           <Link href="/mcp-servers" className="hover:text-white">{zh ? "MCP 服务器" : "MCP servers"}</Link>
           <Link href="/categories" className="hover:text-white">{zh ? "按标签浏览" : "Browse by tag"}</Link>
+          <Link href="/creators" className="hover:text-white">{zh ? "按创作者浏览" : "Browse by creator"}</Link>
           <Link href="/timeline" className="hover:text-white">{zh ? "最近新增" : "Recently added"}</Link>
           <Link href="/insights" className="hover:text-white">{zh ? "生态数据" : "Ecosystem data"}</Link>
           <Link href="/docs" className="hover:text-white">{zh ? "开发者 API" : "Developer API"}</Link>

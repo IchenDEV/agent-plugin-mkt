@@ -376,6 +376,7 @@ export default async function DocsPage() {
             rows={zh ? [
               ["q", "string", "在名称、描述、关键词和作者中进行自由文本查询（最多 200 个字符）。"],
               ["category", "string", "精确匹配标签。标签来自清单关键词，参见 /api/v1/categories。"],
+              ["owner", "string", "精确匹配 GitHub 创作者登录名，例如 owner=anthropics，参见 /creators。"],
               ["type", "skills | mcp", "只返回包含此组件类型的插件。"],
               ["transport", "stdio | streamable-http | sse", "只返回至少有一个 MCP 服务器使用此传输方式的插件。"],
               ["protocol", "可重复的插件格式", "重复传入可匹配任一所选格式（OR），也支持逗号分隔。"],
@@ -385,6 +386,7 @@ export default async function DocsPage() {
             ] : [
               ["q", "string", "Free-text query over name, description, keywords, and author (max 200 chars)."],
               ["category", "string", "Exact tag match. Tags come from manifest keywords — see /api/v1/categories."],
+              ["owner", "string", "Exact GitHub owner login, for example owner=anthropics — see /creators."],
               ["type", "skills | mcp", "Only plugins containing this component type."],
               ["transport", "stdio | streamable-http | sse", "Only plugins with at least one MCP server using this transport."],
               ["protocol", "repeatable plugin format", "Repeat to match any selected format (OR). Comma-separated values also work."],
@@ -480,7 +482,7 @@ export default async function DocsPage() {
                 rows={[
                   [
                     "search_plugins",
-                    "query?, protocol? (format or format[]), category?, type? (skills | mcp), transport?, sort?, page?, per_page?",
+                    "query?, protocol? (format or format[]), category?, owner?, type? (skills | mcp), transport?, sort?, page?, per_page?",
                     zh ? "搜索插件目录。筛选语义与范围限制和 GET /api/v1/plugins 相同；结果 JSON 以 items、total、page、perPage、totalPages 分页。" : "Search the plugin directory. Filter behavior and limits match GET /api/v1/plugins; the result JSON uses items, total, page, perPage, and totalPages.",
                   ],
                   [

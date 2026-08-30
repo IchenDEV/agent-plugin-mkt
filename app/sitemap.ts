@@ -11,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: absoluteUrl("/") },
     { url: absoluteUrl("/plugins") },
     { url: absoluteUrl("/categories") },
+    { url: absoluteUrl("/creators") },
     { url: absoluteUrl("/timeline") },
     { url: absoluteUrl("/docs") },
     { url: absoluteUrl("/codex-plugins") },
@@ -20,16 +21,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: absoluteUrl("/insights") },
   ];
 
-  const [plugins, categories] = await Promise.all([
+  const [plugins, categories, creators] = await Promise.all([
     prisma.plugin.findMany({
       select: { slug: true },
       orderBy: { repoStars: "desc" },
     }),
     getCategories(100),
+    // Creator pages: only the ones with enough presence to be useful landing pages.
+    prisma.plugin.groupBy({
+      by: ["repoOwner"],
+      where: { repoOwner: { not: "" } },
+      _count: { _all: true },
+      having: { repoOwner: { not: "" } },
+      orderBy: { _count: { repoOwner: "desc" } },
+      take: 200,
+    }),
   ]);
+
+  const creatorUrls = creators
+    .filter((row) => row.repoOwner && row._count._all >= 2)
+    .map((row) => ({
+      url: absoluteUrl(`/creators/${encodeURIComponent(row.repoOwner)}`),
+    }));
 
   return [
     ...staticRoutes,
+    ...creatorUrls,
     ...categories.map((category) => ({
       url: absoluteUrl(`/plugins?category=${encodeURIComponent(category.name)}`),
     })),

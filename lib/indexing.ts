@@ -46,9 +46,17 @@ export interface UpsertPluginInput {
   /** Plugin directory within the repo; "" = repo root. */
   pluginPath: string;
   repoStars: number;
+  repoForks?: number;
+  repoOpenIssues?: number;
   repoPushedAt: Date | null;
   skills: SkillInput[];
   mcpServers: McpServerInput[];
+}
+
+/** GitHub owner login from a repo URL; empty string when it cannot be parsed. */
+export function repoOwnerFromUrl(repoUrl: string): string {
+  const match = /^https:\/\/github\.com\/([^/]+)\//.exec(repoUrl);
+  return match && match[1] ? decodeURIComponent(match[1]).toLowerCase() : "";
 }
 
 export interface UpsertPluginResult {
@@ -191,8 +199,11 @@ export async function upsertPlugin(
     protocols: JSON.stringify([...new Set(input.protocols)]),
     manifests: JSON.stringify(input.manifests),
     repoUrl: input.repoUrl,
+    repoOwner: repoOwnerFromUrl(input.repoUrl),
     pluginPath: input.pluginPath,
     repoStars: input.repoStars,
+    repoForks: input.repoForks ?? 0,
+    repoOpenIssues: input.repoOpenIssues ?? 0,
     repoPushedAt: input.repoPushedAt,
     skillCount: skills.length,
     mcpCount: mcpServers.length,

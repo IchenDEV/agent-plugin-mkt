@@ -65,6 +65,10 @@ const TOOLS = [
           type: "string",
           description: "Exact tag match. Tags come from manifest keywords, for example \"database\" or \"mcp\".",
         },
+        owner: {
+          type: "string",
+          description: "Exact GitHub owner login, for example \"anthropics\".",
+        },
         type: {
           type: "string",
           enum: ["skills", "mcp"],
@@ -136,6 +140,7 @@ const TOOLS = [
 const searchArgsSchema = z.object({
   query: z.string().optional(),
   category: z.string().optional(),
+  owner: z.string().optional(),
   type: z.enum(["skills", "mcp"]).optional(),
   transport: z.enum(["stdio", "streamable-http", "sse"]).optional(),
   protocol: z
@@ -191,6 +196,7 @@ async function handleToolCall(
       const filters: PluginFilters = {
         q: args.query,
         category: args.category,
+        owner: args.owner,
         type: args.type,
         transport: args.transport,
         protocols:

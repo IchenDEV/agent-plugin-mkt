@@ -224,11 +224,7 @@ export function pluginRuntimeLabel(protocols: PluginProtocol[], locale: Locale):
   return formatList(protocols.map((protocol) => PROTOCOL_LABELS[protocol]), locale);
 }
 
-export function pluginDescription(plugin: PluginSummary, locale: Locale): string {
-  const source = meaningfulDescription(plugin.description);
-  if (source) return source;
-
-  const runtime = pluginRuntimeLabel(plugin.protocols, locale);
+function componentClause(plugin: PluginSummary, locale: Locale): string | null {
   const components: string[] = [];
   if (plugin.skillCount > 0) {
     components.push(locale === "zh-CN" ? `${plugin.skillCount} 个技能` : `${plugin.skillCount} skill${plugin.skillCount === 1 ? "" : "s"}`);
@@ -236,8 +232,25 @@ export function pluginDescription(plugin: PluginSummary, locale: Locale): string
   if (plugin.mcpCount > 0) {
     components.push(locale === "zh-CN" ? `${plugin.mcpCount} 个 MCP 服务器` : `${plugin.mcpCount} MCP server${plugin.mcpCount === 1 ? "" : "s"}`);
   }
-  const componentText = components.length > 0 ? formatList(components, locale) : null;
+  return components.length > 0 ? formatList(components, locale) : null;
+}
 
+export function pluginDescription(plugin: PluginSummary, locale: Locale): string {
+  const source = meaningfulDescription(plugin.description);
+  const componentText = componentClause(plugin, locale);
+
+  // A declared description that is too short to stand alone (or is just
+  // separators) gets a derived context clause appended so every listing
+  // answers "what does this provide" without inventing facts.
+  if (source && source.length >= 40) return source;
+  if (source && componentText) {
+    return locale === "zh-CN"
+      ? `${source}包含${componentText}。`
+      : `${source.replace(/\.?\s*$/, ". ")}Includes ${componentText}.`;
+  }
+  if (source) return source;
+
+  const runtime = pluginRuntimeLabel(plugin.protocols, locale);
   return locale === "zh-CN"
     ? `${plugin.name} 是从公开 GitHub 仓库索引的 ${runtime} 插件${componentText ? `，包含${componentText}` : ""}。安装前请检查其清单和源码。`
     : `${plugin.name} is an open-source ${runtime} plugin indexed from GitHub${componentText ? ` with ${componentText}` : ""}. Review its manifest and source before installing.`;

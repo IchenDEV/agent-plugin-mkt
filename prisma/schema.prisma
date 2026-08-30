@@ -30,9 +30,13 @@ model Plugin {
 
   // Source repo metadata
   repoUrl      String
+  // GitHub owner login derived from repoUrl ("" when the host is not GitHub).
+  repoOwner    String    @default("")
   // Path of the plugin directory within the repo ("" = repo root)
   pluginPath   String    @default("")
   repoStars    Int       @default(0)
+  repoForks    Int       @default(0)
+  repoOpenIssues Int     @default(0)
   repoPushedAt DateTime?
 
   skillCount Int @default(0)
@@ -46,6 +50,7 @@ model Plugin {
 
   @@unique([repoUrl, pluginPath])
   @@index([repoStars])
+  @@index([repoOwner])
   @@index([indexedAt])
 }
 

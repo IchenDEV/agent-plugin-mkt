@@ -381,7 +381,7 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
         pluginPath: location.pluginPath,
       },
     },
-    select: { name: true, repoStars: true, repoPushedAt: true },
+    select: { name: true, repoStars: true, repoForks: true, repoOpenIssues: true, repoPushedAt: true },
   });
   const contentUnchanged =
     existing?.repoPushedAt !== null &&
@@ -397,7 +397,7 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
             pluginPath: location.pluginPath,
           },
         },
-        data: { repoStars: repo.stars },
+        data: { repoStars: repo.stars, repoForks: repo.forks, repoOpenIssues: repo.openIssues },
       });
       return { ok: true, name: existing.name, status: "metadata" };
     }
@@ -455,6 +455,8 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     repoUrl: repo.htmlUrl,
     pluginPath: location.pluginPath,
     repoStars: repo.stars,
+    repoForks: repo.forks,
+    repoOpenIssues: repo.openIssues,
     repoPushedAt: repo.pushedAt,
     skills,
     mcpServers,

@@ -17,7 +17,7 @@ export const dynamic = "force-dynamic";
 
 /**
  * GET /api/v1/plugins — list and search plugins.
- * Params: q, repeatable protocol, category, type, transport, sort, page, per_page.
+ * Params: q, repeatable protocol, category, owner, type, transport, sort, page, per_page.
  * Invalid enum values are rejected with 400 bad_request.
  */
 export async function GET(req: Request) {
@@ -35,6 +35,7 @@ export async function GET(req: Request) {
   const result = await searchPlugins({
     q: params.get("q") ?? undefined,
     category: params.get("category") ?? undefined,
+    owner: params.get("owner") ?? undefined,
     type: type.value,
     transport: transport.value,
     protocols: protocols.value,

@@ -328,12 +328,35 @@ function MetaSidebar({ plugin, locale }: { plugin: PluginDetail; locale: Locale 
         <MetaRow label={zh ? "源码仓库" : "Source repository"}>
           <ExternalLink url={plugin.repoUrl} />
         </MetaRow>
+        {plugin.repoOwner ? (
+          <MetaRow label={zh ? "创作者" : "Creator"}>
+            <Link
+              href={`/creators/${encodeURIComponent(plugin.repoOwner)}`}
+              className="font-mono text-iris hover:text-iris-deep hover:underline"
+            >
+              {plugin.repoOwner}
+            </Link>
+          </MetaRow>
+        ) : null}
         {plugin.homepage ? (
           <MetaRow label={zh ? "插件网站" : "Plugin website"}>
             <ExternalLink url={plugin.homepage} />
           </MetaRow>
         ) : null}
         {plugin.license ? <MetaRow label={zh ? "许可证" : "License"}>{plugin.license}</MetaRow> : null}
+        <MetaRow label={zh ? "仓库活跃度" : "Repo activity"}>
+          <span className="flex flex-wrap gap-x-3 gap-y-0.5 text-gray-600">
+            <span>
+              ★ {formatNumber(plugin.repoStars, locale)}
+            </span>
+            <span>
+              ⑂ {formatNumber(plugin.repoForks, locale)}
+            </span>
+            <span>
+              {zh ? "开放 Issue" : "Open issues"} {formatNumber(plugin.repoOpenIssues, locale)}
+            </span>
+          </span>
+        </MetaRow>
         {plugin.version ? (
           <MetaRow label={zh ? "版本" : "Version"}>
             <span className="font-mono">{plugin.version}</span>
@@ -506,7 +529,24 @@ export default async function PluginPage({ params }: PluginPageProps) {
   });
 
   const meta: { key: string; node: ReactNode }[] = [];
-  if (plugin.authorName) meta.push({ key: "author", node: <>{zh ? "作者" : "By"} {plugin.authorName}</> });
+  if (plugin.authorName) {
+    meta.push({
+      key: "author",
+      node: plugin.repoOwner ? (
+        <>
+          {zh ? "作者" : "By"}{" "}
+          <Link
+            href={`/creators/${encodeURIComponent(plugin.repoOwner)}`}
+            className="text-iris hover:text-iris-deep"
+          >
+            {plugin.authorName}
+          </Link>
+        </>
+      ) : (
+        <>{zh ? "作者" : "By"} {plugin.authorName}</>
+      ),
+    });
+  }
   if (plugin.license) meta.push({ key: "license", node: <>{zh ? "许可证" : "License"}: {plugin.license}</> });
   meta.push({
     key: "stars",

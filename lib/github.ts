@@ -297,6 +297,8 @@ export interface RepoMetadata {
   fullName: string;
   htmlUrl: string;
   stars: number;
+  forks: number;
+  openIssues: number;
   pushedAt: Date | null;
   /** SPDX id when available, else the license display name, else null. */
   license: string | null;
@@ -307,6 +309,8 @@ interface RepoResponse {
   full_name: string;
   html_url: string;
   stargazers_count?: number;
+  forks_count?: number;
+  open_issues_count?: number;
   pushed_at?: string | null;
   license?: { spdx_id?: string | null; name?: string | null } | null;
   default_branch?: string;
@@ -325,6 +329,8 @@ function repoMetadata(repo: RepoResponse): RepoMetadata {
     fullName: repo.full_name,
     htmlUrl: repo.html_url,
     stars: repo.stargazers_count ?? 0,
+    forks: repo.forks_count ?? 0,
+    openIssues: repo.open_issues_count ?? 0,
     pushedAt,
     license,
     defaultBranch: repo.default_branch ?? "main",

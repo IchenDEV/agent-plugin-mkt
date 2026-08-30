@@ -908,6 +908,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "arxiv-paper-zh",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yqstar/arxiv-paper-zh.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "asana-2",
       "source": {
         "source": "git-subdir",
@@ -1001,6 +1013,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ryanduguid/australian-accounting-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "auto-agent-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anlan1027/auto-agent-team.git",
+        "path": "./plugins/auto-agent-team"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3003,6 +3028,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-master",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/H234598/codex-master.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-memory-brain",
       "source": {
         "source": "url",
@@ -4131,6 +4168,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "disciplined-coder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chshin84/disciplined-coder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dispatch",
       "source": {
         "source": "git-subdir",
@@ -4439,6 +4488,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "e-comet-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShadyAV/ecomet-skills-local-mcp.git",
+        "path": "./plugins/e-comet-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "e-commerce-skills",
       "source": {
         "source": "url",
@@ -4481,6 +4543,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jwilger/ai-plugins.git",
         "path": "./plugins/development-system/components/engineering-standards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "engram-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yersonargotev/engram.git",
+        "path": "./plugin/codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6729,6 +6804,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lemma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "level7-dev-loop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/addressanup/level7-dev-loop.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10488,6 +10575,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "security-triage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vouchington/vouchington-tooling.git",
+        "path": "./plugins/security-triage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "semrush",
       "source": {
         "source": "git-subdir",
@@ -10889,6 +10989,31 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/skill-forge-essentials"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-hoonsoo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dragonpond916/skill-hoonsoo.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-hoonsoo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dragonpond916/skill-hoonsoo.git",
+        "path": "./plugins/skill-hoonsoo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11747,6 +11872,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "technical-writer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/riekelt/technical-writer.git",
+        "path": "./plugins/technical-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "temporal",
       "source": {
         "source": "git-subdir",
@@ -11765,6 +11903,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/temporal-data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tend-ci-runner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/max-sixty/tend.git",
+        "path": "./plugins/tend-ci-runner"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12031,6 +12182,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/liketrek/Plugin-Skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trelio-agent-workspaces",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trelio-ru/agent-workspaces.git",
+        "path": "./plugins/trelio-agent-workspaces"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12360,6 +12524,45 @@
       "source": {
         "source": "url",
         "url": "https://github.com/beyelin6/vmax-teaching-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vouchington-database",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vouchington/vouchington-tooling.git",
+        "path": "./plugins/vouchington-database"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vouchington-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vouchington/vouchington-tooling.git",
+        "path": "./plugins/vouchington-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vouchington-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vouchington/vouchington-tooling.git",
+        "path": "./plugins/vouchington-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",

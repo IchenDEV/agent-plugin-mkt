@@ -6,6 +6,7 @@ import {
   type NormalizedPluginManifest,
 } from "@/lib/validation";
 import type { PluginProtocol } from "@/lib/protocols";
+import type { InstallRuntime, UpstreamMarketplace } from "@/lib/marketplaces";
 
 // Shared write path for indexed plugins. Both the live GitHub indexer
 // (scripts/index-github.ts) and the fixture seeder (scripts/seed.ts) go
@@ -40,6 +41,7 @@ export interface UpsertPluginInput {
   protocols: PluginProtocol[];
   /** Raw manifests keyed by protocol. */
   manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>>;
+  upstreamMarketplaces?: Partial<Record<InstallRuntime, UpstreamMarketplace>>;
   /** The already-validated, normalized canonical manifest. */
   manifest: NormalizedPluginManifest;
   repoUrl: string;
@@ -198,6 +200,7 @@ export async function upsertPlugin(
     manifestPath: input.manifestPath,
     protocols: JSON.stringify([...new Set(input.protocols)]),
     manifests: JSON.stringify(input.manifests),
+    upstreamMarketplaces: JSON.stringify(input.upstreamMarketplaces ?? {}),
     repoUrl: input.repoUrl,
     repoOwner: repoOwnerFromUrl(input.repoUrl),
     pluginPath: input.pluginPath,

@@ -27,6 +27,10 @@ model Plugin {
   // JSON-encoded protocol identifiers and per-protocol raw manifests.
   protocols    String @default("[\"agent-plugins\"]")
   manifests    String @default("{}")
+  // JSON-encoded map of runtime to a source-published marketplace identity.
+  // Null means the repository has not yet been checked; "{}" means checked
+  // and no matching upstream marketplace entry was found.
+  upstreamMarketplaces String?
 
   // Source repo metadata
   repoUrl      String

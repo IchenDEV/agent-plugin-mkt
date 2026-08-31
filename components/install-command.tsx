@@ -9,6 +9,7 @@ import type { InstallRuntime } from "@/lib/marketplaces";
 interface InstallOption {
   runtime: InstallRuntime;
   label: string;
+  catalogLabel: string;
   command: string;
 }
 
@@ -75,8 +76,8 @@ export function InstallCommand({
 
       <p className="border-t border-gray-100 px-4 py-3 text-xs leading-relaxed text-gray-500">
         {zh
-          ? `复制后粘贴到 ${selected.label} 的终端中运行。命令会添加并刷新 PluginsMP 目录，然后安装这个插件。`
-          : `Paste and run these commands in a terminal with ${selected.label}. They add and refresh the PluginsMP catalog, then install this plugin.`}
+          ? `复制后粘贴到 ${selected.label} 的终端中运行。命令会添加并刷新 ${selected.catalogLabel} 目录，然后安装这个插件。`
+          : `Paste and run these commands in a terminal with ${selected.label}. They add and refresh the ${selected.catalogLabel} catalog, then install this plugin.`}
       </p>
     </Card>
   );

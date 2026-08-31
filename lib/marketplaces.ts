@@ -7,8 +7,30 @@ export const MARKETPLACE_REPOSITORY_URL =
 
 export type InstallRuntime = "codex" | "claude-code";
 
+export const CODEX_UPSTREAM_MARKETPLACE_PATH = ".agents/plugins/marketplace.json";
+
+export interface UpstreamMarketplace {
+  name: string;
+  /** GitHub owner/repository containing the marketplace file. */
+  repository: string;
+}
+
+export type InstallSource =
+  | { kind: "shared" }
+  | { kind: "upstream"; marketplace: UpstreamMarketplace };
+
+export interface InstallCompatibility {
+  status: "unchanged" | "migrated" | "source-only";
+  legacySelector: string;
+  replacementSelector: string | null;
+}
+
 export interface MarketplacePluginInput {
   slug: string;
+  /** Canonical display identity used by the registry. */
+  name: string;
+  /** Exact install identity declared by each runtime's source manifest. */
+  runtimeNames?: Partial<Record<InstallRuntime, string>>;
   repoUrl: string;
   pluginPath: string;
   protocols: PluginProtocol[];
@@ -51,6 +73,7 @@ export interface ClaudeMarketplace {
 }
 
 const PLUGIN_NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const GITHUB_REPOSITORY_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 
 function assertInstallName(name: string): void {
   if (name.length > 64 || !PLUGIN_NAME_RE.test(name)) {
@@ -69,14 +92,96 @@ function githubRepository(repoUrl: string): string | null {
   }
 }
 
+function repositoryIdentity(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const shorthand = value.replace(/\.git$/, "");
+  if (GITHUB_REPOSITORY_RE.test(shorthand)) return shorthand.toLowerCase();
+  return githubRepository(value)?.toLowerCase() ?? null;
+}
+
+function localPluginPath(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const normalized = value.replace(/^\.\//, "").replace(/\/+$/, "");
+  if (normalized === "." || normalized === "") return "";
+  if (normalized.split("/").some((part) => !part || part === "." || part === "..")) {
+    return null;
+  }
+  return normalized;
+}
+
+function sourceMatchesPlugin(
+  source: unknown,
+  repository: string,
+  pluginPath: string,
+): boolean {
+  if (typeof source === "string") return localPluginPath(source) === pluginPath;
+  if (typeof source !== "object" || source === null || Array.isArray(source)) return false;
+  const value = source as Record<string, unknown>;
+  if (value.source === "local") return localPluginPath(value.path) === pluginPath;
+  if (value.source === "github") {
+    return pluginPath === "" && repositoryIdentity(value.repo) === repository.toLowerCase();
+  }
+  if (value.source === "url") {
+    return pluginPath === "" && repositoryIdentity(value.url) === repository.toLowerCase();
+  }
+  if (value.source === "git-subdir") {
+    return (
+      repositoryIdentity(value.url) === repository.toLowerCase() &&
+      localPluginPath(value.path) === pluginPath
+    );
+  }
+  return false;
+}
+
+/**
+ * Match a plugin to a marketplace published by the same source repository.
+ * The entry name must remain identical to the source manifest name; the
+ * marketplace name provides the namespace for otherwise identical names.
+ */
+export function findUpstreamMarketplace(
+  value: unknown,
+  repository: string,
+  pluginPath: string,
+  pluginName: string,
+): UpstreamMarketplace | null {
+  if (typeof value !== "object" || value === null || Array.isArray(value)) return null;
+  const marketplace = value as Record<string, unknown>;
+  const name = marketplace.name;
+  if (
+    typeof name !== "string" ||
+    name.length > 64 ||
+    !PLUGIN_NAME_RE.test(name) ||
+    !Array.isArray(marketplace.plugins)
+  ) {
+    return null;
+  }
+  const matches = marketplace.plugins.some((entry) => {
+    if (typeof entry !== "object" || entry === null || Array.isArray(entry)) return false;
+    const plugin = entry as Record<string, unknown>;
+    return (
+      plugin.name === pluginName &&
+      sourceMatchesPlugin(plugin.source, repository, pluginPath)
+    );
+  });
+  return matches ? { name, repository } : null;
+}
+
 function gitUrl(repoUrl: string): string {
   return repoUrl.endsWith(".git") ? repoUrl : `${repoUrl}.git`;
 }
 
+export function runtimePluginName(
+  plugin: Pick<MarketplacePluginInput, "name" | "runtimeNames">,
+  runtime: InstallRuntime,
+): string {
+  return plugin.runtimeNames?.[runtime] ?? plugin.name;
+}
+
 function codexEntry(plugin: MarketplacePluginInput): CodexMarketplaceEntry {
-  assertInstallName(plugin.slug);
+  const name = runtimePluginName(plugin, "codex");
+  assertInstallName(name);
   return {
-    name: plugin.slug,
+    name,
     source: plugin.pluginPath
       ? {
           source: "git-subdir",
@@ -90,11 +195,14 @@ function codexEntry(plugin: MarketplacePluginInput): CodexMarketplaceEntry {
 }
 
 function claudeEntry(plugin: MarketplacePluginInput): ClaudeMarketplaceEntry {
-  assertInstallName(plugin.slug);
+  // Claude Code explicitly allows the marketplace entry to provide a public
+  // install name that differs from plugin.json.
+  const name = plugin.slug;
+  assertInstallName(name);
   const repository = githubRepository(plugin.repoUrl);
   if (plugin.pluginPath) {
     return {
-      name: plugin.slug,
+      name,
       source: {
         source: "git-subdir",
         url: repository ?? gitUrl(plugin.repoUrl),
@@ -103,23 +211,62 @@ function claudeEntry(plugin: MarketplacePluginInput): ClaudeMarketplaceEntry {
     };
   }
   return {
-    name: plugin.slug,
+    name,
     source: repository
       ? { source: "github", repo: repository }
       : { source: "url", url: gitUrl(plugin.repoUrl) },
   };
 }
 
-function runtimePlugins(
+function collisionRank(
+  plugin: MarketplacePluginInput,
+  runtime: InstallRuntime,
+): number {
+  const name = runtimePluginName(plugin, runtime);
+  if (plugin.slug === plugin.name || plugin.slug === name) return 1;
+  const match = new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}-(\\d+)$`).exec(
+    plugin.slug,
+  );
+  return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
+}
+
+/**
+ * Codex requires the marketplace entry name to match plugin.json, so it gets
+ * one stable source per manifest name. Claude Code allows its marketplace
+ * entry to provide a distinct public install name, so its slug aliases stay.
+ */
+export function selectMarketplacePlugins(
   plugins: MarketplacePluginInput[],
   runtime: InstallRuntime,
 ): MarketplacePluginInput[] {
-  return plugins
+  if (runtime === "claude-code") {
+    return plugins
+      .filter(
+        (plugin) =>
+          plugin.slug !== MARKETPLACE_NAME && plugin.protocols.includes(runtime),
+      )
+      .sort((a, b) => a.slug.localeCompare(b.slug));
+  }
+  const compatible = plugins
     .filter(
       (plugin) =>
-        plugin.slug !== MARKETPLACE_NAME && plugin.protocols.includes(runtime),
+        runtimePluginName(plugin, runtime) !== MARKETPLACE_NAME &&
+        plugin.protocols.includes(runtime),
     )
-    .sort((a, b) => a.slug.localeCompare(b.slug));
+    .sort(
+      (a, b) =>
+        collisionRank(a, runtime) - collisionRank(b, runtime) ||
+        a.repoUrl.localeCompare(b.repoUrl) ||
+        a.pluginPath.localeCompare(b.pluginPath),
+    );
+  const selected = new Map<string, MarketplacePluginInput>();
+  for (const plugin of compatible) {
+    const name = runtimePluginName(plugin, runtime);
+    if (!selected.has(name)) selected.set(name, plugin);
+  }
+  return [...selected.values()].sort((a, b) =>
+    runtimePluginName(a, runtime).localeCompare(runtimePluginName(b, runtime)),
+  );
 }
 
 export function buildCodexMarketplace(
@@ -135,7 +282,7 @@ export function buildCodexMarketplace(
         policy: { installation: "AVAILABLE", authentication: "ON_INSTALL" },
         category: "Developer Tools",
       },
-      ...runtimePlugins(plugins, "codex").map(codexEntry),
+      ...selectMarketplacePlugins(plugins, "codex").map(codexEntry),
     ],
   };
 }
@@ -155,7 +302,7 @@ export function buildClaudeMarketplace(
         description:
           "Search a registry of Codex and Claude Code plugins through MCP.",
       },
-      ...runtimePlugins(plugins, "claude-code").map(claudeEntry),
+      ...selectMarketplacePlugins(plugins, "claude-code").map(claudeEntry),
     ],
   };
 }
@@ -163,19 +310,56 @@ export function buildClaudeMarketplace(
 export function installCommands(
   pluginName: string,
   runtime: InstallRuntime,
+  source: InstallSource = { kind: "shared" },
 ): string {
   assertInstallName(pluginName);
-  const selector = `${pluginName}@${MARKETPLACE_NAME}`;
+  const marketplaceName =
+    source.kind === "upstream" ? source.marketplace.name : MARKETPLACE_NAME;
+  const repository =
+    source.kind === "upstream"
+      ? source.marketplace.repository
+      : MARKETPLACE_REPOSITORY;
+  assertInstallName(marketplaceName);
+  if (!GITHUB_REPOSITORY_RE.test(repository)) {
+    throw new Error(`Invalid marketplace repository: ${JSON.stringify(repository)}`);
+  }
+  const selector = `${pluginName}@${marketplaceName}`;
   if (runtime === "codex") {
     return [
-      `codex plugin marketplace add ${MARKETPLACE_REPOSITORY}`,
-      `codex plugin marketplace upgrade ${MARKETPLACE_NAME}`,
+      `codex plugin marketplace add ${repository}`,
+      `codex plugin marketplace upgrade ${marketplaceName}`,
       `codex plugin add ${selector}`,
     ].join("\n");
   }
   return [
-    `claude plugin marketplace add ${MARKETPLACE_REPOSITORY}`,
-    `claude plugin marketplace update ${MARKETPLACE_NAME}`,
+    `claude plugin marketplace add ${repository}`,
+    `claude plugin marketplace update ${marketplaceName}`,
     `claude plugin install ${selector}`,
   ].join("\n");
+}
+
+/**
+ * Preserve the old directory slug as a stable compatibility identifier while
+ * exposing the exact selector clients should use after source-name validation.
+ */
+export function installCompatibility(
+  legacySlug: string,
+  pluginName: string,
+  source?: InstallSource,
+): InstallCompatibility {
+  assertInstallName(legacySlug);
+  assertInstallName(pluginName);
+  const legacySelector = `${legacySlug}@${MARKETPLACE_NAME}`;
+  if (!source) {
+    return { status: "source-only", legacySelector, replacementSelector: null };
+  }
+  const marketplaceName =
+    source.kind === "upstream" ? source.marketplace.name : MARKETPLACE_NAME;
+  assertInstallName(marketplaceName);
+  const replacementSelector = `${pluginName}@${marketplaceName}`;
+  return {
+    status: replacementSelector === legacySelector ? "unchanged" : "migrated",
+    legacySelector,
+    replacementSelector,
+  };
 }

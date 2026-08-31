@@ -38,9 +38,15 @@ import {
   type McpServerInput,
   type SkillInput,
 } from "@/lib/indexing";
+import {
+  CODEX_UPSTREAM_MARKETPLACE_PATH,
+  findUpstreamMarketplace,
+  type UpstreamMarketplace,
+} from "@/lib/marketplaces";
 
 const MAX_MANIFEST_BYTES = 200 * 1024;
 const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
+const MAX_MARKETPLACE_BYTES = 1024 * 1024;
 const MAX_SKILLS_PER_PLUGIN = 50;
 const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
@@ -170,6 +176,83 @@ interface LoadedManifest {
 }
 
 const repoCache = new Map<string, RepoMetadata | null>();
+const marketplaceFileCache = new Map<string, Promise<unknown | null>>();
+
+function storedProtocols(value: string): PluginProtocol[] {
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed)
+      ? PLUGIN_PROTOCOLS.filter((protocol) => parsed.includes(protocol))
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function storedCodexName(
+  value: string,
+  fallbackName: string,
+): string {
+  try {
+    const manifests = JSON.parse(value);
+    if (typeof manifests !== "object" || manifests === null || Array.isArray(manifests)) {
+      return fallbackName;
+    }
+    const entry = (manifests as Record<string, unknown>).codex;
+    if (typeof entry !== "object" || entry === null || Array.isArray(entry)) {
+      return fallbackName;
+    }
+    const raw = (entry as Record<string, unknown>).raw;
+    if (typeof raw !== "string") return fallbackName;
+    const manifest = JSON.parse(raw);
+    return typeof manifest?.name === "string" ? manifest.name : fallbackName;
+  } catch {
+    return fallbackName;
+  }
+}
+
+async function loadCodexMarketplaceFile(
+  repoFullName: string,
+  ref: string,
+): Promise<unknown | null> {
+  const key = `${repoFullName}@${ref}`;
+  let pending = marketplaceFileCache.get(key);
+  if (!pending) {
+    pending = (async () => {
+      const file = await getFileContent(
+        repoFullName,
+        CODEX_UPSTREAM_MARKETPLACE_PATH,
+        ref,
+      );
+      if (!file || file.size > MAX_MARKETPLACE_BYTES) return null;
+      try {
+        return JSON.parse(file.text);
+      } catch {
+        return null;
+      }
+    })();
+    marketplaceFileCache.set(key, pending);
+  }
+  return pending;
+}
+
+async function discoverUpstreamMarketplaces(
+  repoFullName: string,
+  pluginPath: string,
+  ref: string,
+  pluginName: string,
+  protocols: PluginProtocol[],
+): Promise<{ codex?: UpstreamMarketplace }> {
+  if (!protocols.includes("codex")) return {};
+  const value = await loadCodexMarketplaceFile(repoFullName, ref);
+  const marketplace = findUpstreamMarketplace(
+    value,
+    repoFullName,
+    pluginPath,
+    pluginName,
+  );
+  return marketplace ? { codex: marketplace } : {};
+}
 
 function pluginPrefix(pluginPath: string): string {
   return pluginPath ? `${pluginPath}/` : "";
@@ -381,7 +464,16 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
         pluginPath: location.pluginPath,
       },
     },
-    select: { name: true, repoStars: true, repoForks: true, repoOpenIssues: true, repoPushedAt: true },
+    select: {
+      name: true,
+      protocols: true,
+      manifests: true,
+      upstreamMarketplaces: true,
+      repoStars: true,
+      repoForks: true,
+      repoOpenIssues: true,
+      repoPushedAt: true,
+    },
   });
   const contentUnchanged =
     existing?.repoPushedAt !== null &&
@@ -389,7 +481,22 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     repo.pushedAt !== null &&
     existing.repoPushedAt.getTime() === repo.pushedAt.getTime();
   if (existing && contentUnchanged) {
-    if (existing.repoStars !== repo.stars) {
+    const needsMarketplaceDiscovery = existing.upstreamMarketplaces === null;
+    const upstreamMarketplaces = needsMarketplaceDiscovery
+      ? await discoverUpstreamMarketplaces(
+          repoFullName,
+          location.pluginPath,
+          repo.defaultBranch,
+          storedCodexName(existing.manifests, existing.name),
+          storedProtocols(existing.protocols),
+        )
+      : null;
+    if (
+      needsMarketplaceDiscovery ||
+      existing.repoStars !== repo.stars ||
+      existing.repoForks !== repo.forks ||
+      existing.repoOpenIssues !== repo.openIssues
+    ) {
       await prisma.plugin.update({
         where: {
           repoUrl_pluginPath: {
@@ -397,7 +504,14 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
             pluginPath: location.pluginPath,
           },
         },
-        data: { repoStars: repo.stars, repoForks: repo.forks, repoOpenIssues: repo.openIssues },
+        data: {
+          repoStars: repo.stars,
+          repoForks: repo.forks,
+          repoOpenIssues: repo.openIssues,
+          ...(upstreamMarketplaces
+            ? { upstreamMarketplaces: JSON.stringify(upstreamMarketplaces) }
+            : {}),
+        },
       });
       return { ok: true, name: existing.name, status: "metadata" };
     }
@@ -440,6 +554,14 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
     repo.defaultBranch,
     manifests,
   );
+  const upstreamMarketplaces = await discoverUpstreamMarketplaces(
+    repoFullName,
+    location.pluginPath,
+    repo.defaultBranch,
+    manifests.find((manifest) => manifest.protocol === "codex")?.manifest.name ??
+      canonical.manifest.name,
+    protocols,
+  );
 
   await upsertPlugin({
     manifestRaw: canonical.rawText,
@@ -451,6 +573,7 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
         { path: manifest.path, raw: manifest.rawText },
       ]),
     ),
+    upstreamMarketplaces,
     manifest: mergedManifest,
     repoUrl: repo.htmlUrl,
     pluginPath: location.pluginPath,

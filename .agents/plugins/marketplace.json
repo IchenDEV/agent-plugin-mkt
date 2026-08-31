@@ -41,19 +41,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "404-directory-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/MM-sheng/404-directory.git",
-        "path": "./distribution/404-directory"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "a1-marketing-skills",
       "source": {
         "source": "url",
@@ -91,7 +78,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "abstraction-architect-2",
+      "name": "abstraction-architect",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -117,7 +104,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "ach-memory-2",
+      "name": "ach-memory",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ackstorm/ach-memory.git",
@@ -333,7 +320,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "agent-skills-2",
+      "name": "agent-skills",
       "source": {
         "source": "url",
         "url": "https://github.com/ghyghoo8/my-agent-skills.git"
@@ -561,7 +548,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "ai-driven-dev-principles-2",
+      "name": "ai-driven-dev-principles",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/taika-izumi/ai-driven-dev-principles.git",
@@ -611,7 +598,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "ai-tooling-2",
+      "name": "ai-tooling",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -855,7 +842,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "apollo-2",
+      "name": "apollo",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
@@ -868,7 +855,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "app-analyzer-2",
+      "name": "app-analyzer",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -881,7 +868,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "app-builder-2",
+      "name": "app-builder",
       "source": {
         "source": "url",
         "url": "https://github.com/withAutograph/autograph-app-builder.git"
@@ -994,7 +981,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "asana-2",
+      "name": "asana",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
@@ -1617,19 +1604,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "brewcode-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
-        "path": "./brewcode/.codex"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "brewdoc",
       "source": {
         "source": "git-subdir",
@@ -1643,37 +1617,11 @@
       "category": "Developer Tools"
     },
     {
-      "name": "brewdoc-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
-        "path": "./brewdoc/.codex"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "brewtools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
         "path": "./.codex/plugins/brewtools"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "brewtools-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kochetkov-ma/claude-brewcode.git",
-        "path": "./brewtools/.codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1720,7 +1668,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "browser-extensions-2",
+      "name": "browser-extensions",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -1835,7 +1783,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "business-2",
+      "name": "business",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -2494,24 +2442,11 @@
       "category": "Developer Tools"
     },
     {
-      "name": "chatcut-2",
+      "name": "chatcut",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ChatCut-Inc/agent-plugin.git",
         "path": "./codex"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "chatcut-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/chatcut"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2709,19 +2644,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "claude-mem-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/thedotmack/claude-mem.git",
-        "path": "./plugin"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "claude-octopus",
       "source": {
         "source": "url",
@@ -2785,7 +2707,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "clean-code-2",
+      "name": "clean-code",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -3030,7 +2952,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "codebase-mapper-2",
+      "name": "codebase-mapper",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -3043,7 +2965,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "codebase-xray-2",
+      "name": "codebase-xray",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -3303,7 +3225,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "common-2",
+      "name": "common",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/vndly/marketplace.git",
@@ -3316,7 +3238,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "common-room-2",
+      "name": "common-room",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
@@ -3370,32 +3292,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Baelfyre/Orchestra.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "conductor-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/conductor"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "conductor-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/conductor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3605,7 +3501,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "csp-2",
+      "name": "csp",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -3669,7 +3565,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "daodan-probe-2",
+      "name": "daodan-probe",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -3710,19 +3606,6 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/role-specific-plugins.git",
-        "path": "./plugins/data-analytics"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "data-analytics-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/data-analytics"
       },
       "policy": {
@@ -3937,7 +3820,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "deja-vu-2",
+      "name": "deja-vu",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/vshulcz/deja-vu.git",
@@ -3950,7 +3833,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "deliberation-2",
+      "name": "deliberation",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/antonbabenko/deliberation.git",
@@ -4001,7 +3884,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "dependency-audit-2",
+      "name": "dependency-audit",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -4066,7 +3949,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "design-2",
+      "name": "design",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
@@ -4217,18 +4100,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "devkit-2",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/sumik5/sumik-llm-plugin.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "devops-skills",
       "source": {
         "source": "git-subdir",
@@ -4280,7 +4151,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "digital-marketing-2",
+      "name": "digital-marketing",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -4357,7 +4228,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "docker-2",
+      "name": "docker",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -4383,7 +4254,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "docs-2",
+      "name": "docs",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -4651,19 +4522,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "e-comet-skills-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/ShadyAV/ecomet-skills-local-mcp.git",
-        "path": "./plugins/e-comet-skills"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "e-commerce-skills",
       "source": {
         "source": "url",
@@ -4738,23 +4596,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "engram-3",
+      "name": "engram",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/yersonargotev/engram.git",
-        "path": "./plugin/codex"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "engram-5",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/Gentleman-Programming/engram.git",
         "path": "./plugin/codex"
       },
       "policy": {
@@ -4901,7 +4746,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "evolve-2",
+      "name": "evolve",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/DawnEver/cc-market.git",
@@ -4932,97 +4777,6 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./tests/fixtures/promise-machine/divergent-copy/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/missing-contract/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/no-recovery/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-4",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/package-as-skill-version/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-5",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/unattributed-exception/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-6",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/unclassified-skill/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-7",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/unresolved-router/plugins/example"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "example-8",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wildcat-finance/skills.git",
-        "path": "./tests/fixtures/promise-machine/unsupported-evidence-class/plugins/example"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5350,7 +5104,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "foursday-2",
+      "name": "foursday",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ruiwang20010702/foursday.git",
@@ -5415,7 +5169,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "frontend-review-2",
+      "name": "frontend-review",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -5682,19 +5436,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "git-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/dashed/claude-marketplace.git",
-        "path": "./plugins/git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "git-absorb",
       "source": {
         "source": "git-subdir",
@@ -5747,23 +5488,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "github-2",
+      "name": "github",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/github"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "github-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/github"
       },
       "policy": {
@@ -6029,7 +5757,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "grabber-development-2",
+      "name": "grabber-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -6118,7 +5846,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "handoff-3",
+      "name": "handoff",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
@@ -6489,19 +6217,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "hyperframes-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/hyperframes"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "i-have-adhd",
       "source": {
         "source": "url",
@@ -6794,19 +6509,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "jk-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/avivsinai/skills-marketplace.git",
-        "path": "./plugins/jk"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "jq",
       "source": {
         "source": "git-subdir",
@@ -6935,7 +6637,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "kk-3",
+      "name": "kk",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/serpro69/claude-toolbox.git",
@@ -6972,7 +6674,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "kotlin-development-2",
+      "name": "kotlin-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -7076,7 +6778,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "learn-2",
+      "name": "learn",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/udayangx/codex-plugins.git",
@@ -7089,7 +6791,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "learning-2",
+      "name": "learning",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -7151,7 +6853,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "libgdx-development-2",
+      "name": "libgdx-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -7190,23 +6892,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "linear-2",
+      "name": "linear",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/linear"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "linear-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/linear"
       },
       "policy": {
@@ -7708,7 +7397,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "marketplace-ops-2",
+      "name": "marketplace-ops",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -7872,7 +7561,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "messaging-2",
+      "name": "messaging",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -8003,19 +7692,6 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/plugin-eval/fixtures/minimal-plugin"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "minimal-plugin-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashgraph-online/hol-guard.git",
-        "path": "./tests/fixtures/minimal-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8229,24 +7905,11 @@
       "category": "Developer Tools"
     },
     {
-      "name": "my-plugin-2",
+      "name": "my-plugin",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/missing-fields"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "my-plugin-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/hashgraph-online/hol-guard.git",
-        "path": "./tests/fixtures/no-version"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8418,7 +8081,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "notfair-2",
+      "name": "notfair",
       "source": {
         "source": "url",
         "url": "https://github.com/nowork-studio/notfair-plugin.git"
@@ -8506,7 +8169,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "obsidian-development-2",
+      "name": "obsidian-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -8583,7 +8246,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "open-magi-2",
+      "name": "open-magi",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ladiossoop5star/open_magi.git",
@@ -8696,7 +8359,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "opentelemetry-2",
+      "name": "opentelemetry",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -8721,7 +8384,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "openviking-memory-2",
+      "name": "openviking-memory",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/volcengine/OpenViking.git",
@@ -8790,19 +8453,6 @@
         "source": "git-subdir",
         "url": "https://github.com/yonatangross/orchestkit.git",
         "path": "./plugins/ork-codex"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "ork-codex-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yonatangross/orchestkit.git",
-        "path": "./src/codex/ork-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8926,7 +8576,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "paa-2",
+      "name": "paa",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/personal-agent-account/paa.git",
@@ -9053,7 +8703,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "peer-review-2",
+      "name": "peer-review",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -9167,7 +8817,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "piyaz-2",
+      "name": "piyaz",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/FrkAk/piyaz.git",
@@ -9217,7 +8867,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "platform-engineering-2",
+      "name": "platform-engineering",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -9230,7 +8880,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "playwright-2",
+      "name": "playwright",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
@@ -9260,19 +8910,6 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/plugin-eval"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "plugin-eval-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/plugin-eval"
       },
       "policy": {
@@ -9410,7 +9047,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "pr-review-2",
+      "name": "pr-review",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/BradyHazell/brady-plugins.git",
@@ -9513,19 +9150,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "product-design-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/product-design"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "product-discovery-suite",
       "source": {
         "source": "git-subdir",
@@ -9578,7 +9202,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "project-setup-2",
+      "name": "project-setup",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -9591,7 +9215,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "project-workflow-2",
+      "name": "project-workflow",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/shrekshrek/project-workflow.git",
@@ -9668,20 +9292,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "pup-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/dashed/claude-marketplace.git",
-        "path": "./plugins/pup"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "pwa-expert-2",
+      "name": "pwa-expert",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -9737,19 +9348,6 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/python-development"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "python-development-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/acaprino/daodan.git",
-        "path": "./exports/codex/plugins/python-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9886,7 +9484,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "rag-development-2",
+      "name": "rag-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -9963,7 +9561,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "react-development-2",
+      "name": "react-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -10141,7 +9739,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "repo-hygiene-2",
+      "name": "repo-hygiene",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -10154,7 +9752,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "research-3",
+      "name": "research",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -10307,7 +9905,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "rsc-agent-runtime-2",
+      "name": "rsc-agent-runtime",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ScriptedAlchemy/agent-bundle.git",
@@ -10384,19 +9982,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "sabx-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/avivsinai/skills-marketplace.git",
-        "path": "./plugins/sabx"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "safe-shell-skill",
       "source": {
         "source": "url",
@@ -10422,7 +10007,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "sales-2",
+      "name": "sales",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/role-specific-plugins.git",
@@ -11144,7 +10729,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "senior-review-2",
+      "name": "senior-review",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -11513,20 +11098,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "skill-authoring-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/avivsinai/skills-marketplace.git",
-        "path": "./plugins/skill-authoring"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "skill-creator-2",
+      "name": "skill-creator",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
@@ -11556,19 +11128,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/dragonpond916/skill-hoonsoo.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "skill-hoonsoo-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/dragonpond916/skill-hoonsoo.git",
-        "path": "./plugins/skill-hoonsoo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11679,7 +11238,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "slack-2",
+      "name": "slack",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
@@ -11892,7 +11451,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "statusline-2",
+      "name": "statusline",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
@@ -11973,19 +11532,6 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/stripe"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "stripe-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/acaprino/daodan.git",
-        "path": "./exports/codex/plugins/stripe"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12146,19 +11692,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "superpowers-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/plugins.git",
-        "path": "./plugins/superpowers"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "svif",
       "source": {
         "source": "git-subdir",
@@ -12232,7 +11765,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "system-utils-2",
+      "name": "system-utils",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -12347,7 +11880,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "tauri-development-2",
+      "name": "tauri-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -12399,7 +11932,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "teach-2",
+      "name": "teach",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
@@ -12464,7 +11997,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "technical-writer-2",
+      "name": "technical-writer",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/riekelt/technical-writer.git",
@@ -12516,7 +12049,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "terraform-2",
+      "name": "terraform",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/hashicorp/agent-skills.git",
@@ -12555,7 +12088,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "testing-2",
+      "name": "testing",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -12581,7 +12114,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "text-humanizer-2",
+      "name": "text-humanizer",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -12733,7 +12266,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "trading-broker-integration-2",
+      "name": "trading-broker-integration",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -12750,30 +12283,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "tradingview-mcp-2",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/jaipreet15/tradingview-mcp.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "tradingview-mcp-3",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/GlynnCarson/tradingview-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12871,7 +12380,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "typescript-development-2",
+      "name": "typescript-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -13237,19 +12746,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "watch-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/DawnEver/cc-market.git",
-        "path": "./watch"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "weatherpromise",
       "source": {
         "source": "git-subdir",
@@ -13263,23 +12759,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "web-2",
+      "name": "web",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
-        "path": "./plugins/web"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "web-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/web"
       },
       "policy": {
@@ -13416,23 +12899,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "worklog-2",
+      "name": "worklog",
       "source": {
         "source": "url",
         "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "worklog-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git",
-        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13505,7 +12975,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "xterm-2",
+      "name": "xterm",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
@@ -13531,7 +13001,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "ynab-mcp-server-2",
+      "name": "ynab-mcp-server",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oliverames/ynab-mcp-server.git",

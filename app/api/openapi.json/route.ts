@@ -315,6 +315,11 @@ const document = {
               "manifest",
               "manifestPath",
               "manifests",
+              "upstreamMarketplaces",
+              "installNames",
+              "installSources",
+              "installConflicts",
+              "installCompatibility",
               "skills",
               "mcpServers",
             ],
@@ -331,6 +336,74 @@ const document = {
                   type: "object",
                   required: ["path", "raw"],
                   properties: { path: { type: "string" }, raw: { type: "string" } },
+                },
+              },
+              upstreamMarketplaces: {
+                type: "object",
+                description: "Source-published marketplace identities keyed by install runtime.",
+                additionalProperties: {
+                  type: "object",
+                  required: ["name", "repository"],
+                  properties: {
+                    name: { type: "string" },
+                    repository: { type: "string", description: "GitHub owner/repository." },
+                  },
+                },
+              },
+              installNames: {
+                type: "object",
+                description: "Effective marketplace install names keyed by runtime. Codex names match plugin.json; Claude Code may use a marketplace alias.",
+                additionalProperties: { type: "string" },
+              },
+              installSources: {
+                type: "object",
+                description: "Validated shared or source-published install catalogs keyed by runtime.",
+                additionalProperties: {
+                  oneOf: [
+                    {
+                      type: "object",
+                      required: ["kind"],
+                      properties: { kind: { const: "shared" } },
+                      additionalProperties: false,
+                    },
+                    {
+                      type: "object",
+                      required: ["kind", "marketplace"],
+                      properties: {
+                        kind: { const: "upstream" },
+                        marketplace: {
+                          type: "object",
+                          required: ["name", "repository"],
+                          properties: {
+                            name: { type: "string" },
+                            repository: { type: "string" },
+                          },
+                        },
+                      },
+                      additionalProperties: false,
+                    },
+                  ],
+                },
+              },
+              installConflicts: {
+                type: "array",
+                description: "Runtimes where another source owns the shared manifest name.",
+                items: { type: "string", enum: ["codex", "claude-code"] },
+              },
+              installCompatibility: {
+                type: "object",
+                description: "Legacy slug selector migration keyed by runtime.",
+                additionalProperties: {
+                  type: "object",
+                  required: ["status", "legacySelector", "replacementSelector"],
+                  properties: {
+                    status: {
+                      type: "string",
+                      enum: ["unchanged", "migrated", "source-only"],
+                    },
+                    legacySelector: { type: "string" },
+                    replacementSelector: { type: ["string", "null"] },
+                  },
                 },
               },
               skills: { type: "array", items: { $ref: "#/components/schemas/Skill" } },

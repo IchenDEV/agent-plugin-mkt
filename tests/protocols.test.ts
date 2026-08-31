@@ -17,6 +17,8 @@ import {
   MARKETPLACE_NAME,
   buildClaudeMarketplace,
   buildCodexMarketplace,
+  findUpstreamMarketplace,
+  installCompatibility,
   installCommands,
   type MarketplacePluginInput,
 } from "@/lib/marketplaces";
@@ -39,18 +41,21 @@ test("generated marketplaces expose only runtime-compatible plugins", () => {
   const plugins: MarketplacePluginInput[] = [
     {
       slug: "root-plugin",
+      name: "root-plugin",
       repoUrl: "https://github.com/example/root-plugin",
       pluginPath: "",
       protocols: ["codex", "claude-code"],
     },
     {
       slug: "nested-plugin",
+      name: "nested-plugin",
       repoUrl: "https://github.com/example/plugin-pack",
       pluginPath: "plugins/nested-plugin",
       protocols: ["claude-code"],
     },
     {
       slug: "generic-plugin",
+      name: "generic-plugin",
       repoUrl: "https://github.com/example/generic-plugin",
       pluginPath: "",
       protocols: ["agent-plugins"],
@@ -78,6 +83,116 @@ test("generated marketplaces expose only runtime-compatible plugins", () => {
   });
 });
 
+test("generated marketplaces never alias duplicate manifest names", () => {
+  const plugins: MarketplacePluginInput[] = [
+    {
+      slug: "github-2",
+      name: "github",
+      repoUrl: "https://github.com/openai/plugins",
+      pluginPath: "plugins/github",
+      protocols: ["codex"],
+    },
+    {
+      slug: "github-3",
+      name: "github",
+      repoUrl: "https://github.com/example/community-plugins",
+      pluginPath: "plugins/github",
+      protocols: ["codex"],
+    },
+  ];
+
+  const codex = buildCodexMarketplace(plugins);
+  assert.deepEqual(
+    codex.plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "github"],
+  );
+  assert.deepEqual(codex.plugins[1]?.source, {
+    source: "git-subdir",
+    url: "https://github.com/openai/plugins.git",
+    path: "./plugins/github",
+  });
+});
+
+test("Codex preserves the manifest name while Claude Code may use a marketplace alias", () => {
+  const plugins: MarketplacePluginInput[] = [
+    {
+      slug: "shared-tools",
+      name: "shared-tools",
+      runtimeNames: {
+        codex: "codex-tools",
+        "claude-code": "claude-tools",
+      },
+      repoUrl: "https://github.com/example/shared-tools",
+      pluginPath: "",
+      protocols: ["codex", "claude-code"],
+    },
+  ];
+
+  assert.deepEqual(
+    buildCodexMarketplace(plugins).plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "codex-tools"],
+  );
+  assert.deepEqual(
+    buildClaudeMarketplace(plugins).plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "shared-tools"],
+  );
+});
+
+test("Claude Code keeps unique marketplace aliases for same-name manifests", () => {
+  const plugins: MarketplacePluginInput[] = [
+    {
+      slug: "github",
+      name: "github",
+      repoUrl: "https://github.com/anthropics/claude-plugins-official",
+      pluginPath: "plugins/github",
+      protocols: ["claude-code"],
+    },
+    {
+      slug: "github-3",
+      name: "github",
+      repoUrl: "https://github.com/motlin/claude-code-plugins",
+      pluginPath: "plugins/github",
+      protocols: ["claude-code"],
+    },
+  ];
+
+  assert.deepEqual(
+    buildClaudeMarketplace(plugins).plugins.map((plugin) => plugin.name),
+    [MARKETPLACE_NAME, "github", "github-3"],
+  );
+});
+
+test("upstream marketplaces namespace same-name plugins without aliases", () => {
+  const marketplace = {
+    name: "openai-plugins",
+    plugins: [
+      {
+        name: "github",
+        source: { source: "local", path: "./plugins/github" },
+      },
+    ],
+  };
+
+  assert.deepEqual(
+    findUpstreamMarketplace(
+      marketplace,
+      "openai/plugins",
+      "plugins/github",
+      "github",
+    ),
+    { name: "openai-plugins", repository: "openai/plugins" },
+  );
+  assert.equal(
+    findUpstreamMarketplace(
+      marketplace,
+      "openai/plugins",
+      "plugins/github",
+      "github-2",
+    ),
+    null,
+  );
+});
+
 test("install commands add the shared marketplace before the selected plugin", () => {
   assert.equal(
     installCommands("root-plugin", "codex"),
@@ -92,6 +207,53 @@ test("install commands add the shared marketplace before the selected plugin", (
     /claude plugin install root-plugin@agent-plugin-marketplace$/,
   );
   assert.throws(() => installCommands("bad;command", "codex"));
+});
+
+test("install commands preserve the manifest name in an upstream namespace", () => {
+  assert.equal(
+    installCommands("github", "codex", {
+      kind: "upstream",
+      marketplace: { name: "openai-plugins", repository: "openai/plugins" },
+    }),
+    [
+      "codex plugin marketplace add openai/plugins",
+      "codex plugin marketplace upgrade openai-plugins",
+      "codex plugin add github@openai-plugins",
+    ].join("\n"),
+  );
+  assert.throws(() =>
+    installCommands("github", "codex", {
+      kind: "upstream",
+      marketplace: {
+        name: "openai-plugins",
+        repository: "openai/plugins;echo-pwned",
+      },
+    }),
+  );
+});
+
+test("legacy install selectors expose a deterministic compatibility migration", () => {
+  assert.deepEqual(
+    installCompatibility("github-2", "github", {
+      kind: "upstream",
+      marketplace: { name: "openai-curated", repository: "openai/plugins" },
+    }),
+    {
+      status: "migrated",
+      legacySelector: "github-2@agent-plugin-marketplace",
+      replacementSelector: "github@openai-curated",
+    },
+  );
+  assert.deepEqual(installCompatibility("github-3", "github"), {
+    status: "source-only",
+    legacySelector: "github-3@agent-plugin-marketplace",
+    replacementSelector: null,
+  });
+  assert.deepEqual(installCompatibility("github", "github", { kind: "shared" }), {
+    status: "unchanged",
+    legacySelector: "github@agent-plugin-marketplace",
+    replacementSelector: "github@agent-plugin-marketplace",
+  });
 });
 
 test("repository discovery is protocol-based rather than vendor-special-cased", () => {

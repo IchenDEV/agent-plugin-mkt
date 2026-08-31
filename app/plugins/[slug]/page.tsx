@@ -171,6 +171,57 @@ function SourceCard({ plugin, locale }: { plugin: PluginDetail; locale: Locale }
   );
 }
 
+function InstallCompatibilityNotice({
+  plugin,
+  locale,
+}: {
+  plugin: PluginDetail;
+  locale: Locale;
+}) {
+  const zh = locale === "zh-CN";
+  const entries = (["codex", "claude-code"] as const)
+    .map((runtime) => ({ runtime, value: plugin.installCompatibility[runtime] }))
+    .filter(
+      (entry): entry is {
+        runtime: InstallRuntime;
+        value: NonNullable<typeof entry.value>;
+      } => entry.value !== undefined && entry.value.status !== "unchanged",
+    );
+  if (entries.length === 0) return null;
+
+  return (
+    <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2.5 text-xs leading-relaxed text-amber-700">
+      <p>
+        {zh
+          ? `兼容说明：页面地址和 API slug “${plugin.slug}” 保持不变。`
+          : `Compatibility: the page URL and API slug “${plugin.slug}” remain stable.`}
+      </p>
+      <ul className="mt-1.5 space-y-1">
+        {entries.map(({ runtime, value }) => (
+          <li key={runtime}>
+            <span className="font-medium">{PROTOCOL_LABELS[runtime]}:</span>{" "}
+            {value.replacementSelector ? (
+              <>
+                <code>{value.legacySelector}</code>
+                {" → "}
+                <code>{value.replacementSelector}</code>
+              </>
+            ) : zh ? (
+              <>
+                旧选择器 <code>{value.legacySelector}</code> 继续保留迁移记录；该运行时需从源码安装。
+              </>
+            ) : (
+              <>
+                Legacy selector <code>{value.legacySelector}</code> remains documented for migration; install from source for this runtime.
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 /** The signature element: the plugin’s real directory layout, from indexed data. */
 function DirectoryTree({ plugin }: { plugin: PluginDetail }) {
   const entries: ("manifest" | "skills" | "mcp")[] = ["manifest"];
@@ -506,13 +557,20 @@ export default async function PluginPage({ params }: PluginPageProps) {
   const installOptions = plugin.protocols
     .filter(
       (protocol): protocol is InstallRuntime =>
-        protocol === "codex" || protocol === "claude-code",
+        (protocol === "codex" || protocol === "claude-code") &&
+        plugin.installSources[protocol] !== undefined,
     )
-    .map((runtime) => ({
-      runtime,
-      label: PROTOCOL_LABELS[runtime],
-      command: installCommands(plugin.slug, runtime),
-    }));
+    .map((runtime) => {
+      const source = plugin.installSources[runtime];
+      if (!source) throw new Error(`Missing install source for ${runtime}`);
+      return {
+        runtime,
+        label: PROTOCOL_LABELS[runtime],
+        catalogLabel:
+          source.kind === "upstream" ? source.marketplace.name : "PluginsMP",
+        command: installCommands(plugin.installNames[runtime] ?? plugin.name, runtime, source),
+      };
+    });
 
   // Portable plugin runtimes expose one of these plugin-root placeholders.
   const hasPlaceholders = plugin.mcpServers.some(({ config }) => {
@@ -635,11 +693,19 @@ export default async function PluginPage({ params }: PluginPageProps) {
               {installOptions.length > 0 ? (
                 <>
                   <InstallCommand options={installOptions} locale={locale} />
+                  <InstallCompatibilityNotice plugin={plugin} locale={locale} />
                   <p className="mt-3 text-xs leading-relaxed text-gray-500">
                     {zh
                       ? "安装器会从上方显示的源码仓库获取第三方代码。本站验证清单结构和源码位置，但不执行安全审核；安装前请检查清单、组件和源码。"
                       : "The installer fetches third-party code from the source repository shown on this page. This directory validates manifest structure and source location, but does not perform a security audit; review the manifest, components, and source before installing."}
                   </p>
+                  {plugin.installConflicts.length > 0 ? (
+                    <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2.5 text-xs leading-relaxed text-amber-700">
+                      {zh
+                        ? `${plugin.installConflicts.map((runtime) => PROTOCOL_LABELS[runtime]).join("、")} 中存在其他同名来源。本站不会伪造带编号的安装名；该运行时请使用作者目录，或先手动检查源码。`
+                        : `${plugin.installConflicts.map((runtime) => PROTOCOL_LABELS[runtime]).join(", ")} has another source with the same manifest name. This directory does not invent numbered install aliases; use the publisher's catalog or inspect the source manually for that runtime.`}
+                    </p>
+                  ) : null}
                   <details className="mt-4 text-sm text-gray-600">
                     <summary className="cursor-pointer font-medium text-iris hover:text-iris-deep">
                       {zh ? "手动获取源码" : "Get the source manually"}
@@ -652,10 +718,15 @@ export default async function PluginPage({ params }: PluginPageProps) {
               ) : (
                 <>
                   <SourceCard plugin={plugin} locale={locale} />
+                  <InstallCompatibilityNotice plugin={plugin} locale={locale} />
                   <p className="mt-3 text-xs leading-relaxed text-gray-500">
-                    {zh
-                      ? "该条目目前只发布通用 Agent Plugins 格式；本站暂未为其他客户端生成自动安装命令。"
-                      : "This listing currently publishes only the generic Agent Plugins format. Automatic install commands for other clients are not generated yet."}
+                    {plugin.installConflicts.length > 0
+                      ? zh
+                        ? `该插件的 manifest 名称与同一运行时中的其他来源冲突。本站保留这份源码条目，但不会生成可能失配的 -2/-3 安装命令。`
+                        : "This plugin's manifest name conflicts with another source for the same runtime. The source remains indexed, but this directory does not generate mismatched -2/-3 install commands."
+                      : zh
+                        ? "该条目目前只发布通用 Agent Plugins 格式；本站暂未为其他客户端生成自动安装命令。"
+                        : "This listing currently publishes only the generic Agent Plugins format. Automatic install commands for other clients are not generated yet."}
                   </p>
                 </>
               )}

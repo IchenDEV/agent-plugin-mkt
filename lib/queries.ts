@@ -5,6 +5,16 @@ import {
   type PluginProtocol,
 } from "@/lib/protocols";
 import { cacheCatalogQuery } from "@/lib/server-cache";
+import {
+  installCompatibility,
+  selectMarketplacePlugins,
+  runtimePluginName,
+  type InstallCompatibility,
+  type InstallRuntime,
+  type InstallSource,
+  type MarketplacePluginInput,
+  type UpstreamMarketplace,
+} from "@/lib/marketplaces";
 
 // Shared read layer. The web UI, REST API, and MCP endpoint all go through
 // these functions so every surface returns consistent results.
@@ -61,6 +71,11 @@ export interface PluginDetail extends PluginSummary {
   manifest: string;
   manifestPath: string;
   manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>>;
+  upstreamMarketplaces: Partial<Record<InstallRuntime, UpstreamMarketplace>>;
+  installNames: Partial<Record<InstallRuntime, string>>;
+  installSources: Partial<Record<InstallRuntime, InstallSource>>;
+  installConflicts: InstallRuntime[];
+  installCompatibility: Partial<Record<InstallRuntime, InstallCompatibility>>;
   skills: { dirName: string; path: string; name: string; description: string | null }[];
   mcpServers: { serverId: string; transport: Transport; config: Record<string, unknown> }[];
 }
@@ -105,6 +120,34 @@ export function parseProtocols(json: string): PluginProtocol[] {
   }
 }
 
+function parseUpstreamMarketplaces(
+  json: string | null,
+): Partial<Record<InstallRuntime, UpstreamMarketplace>> {
+  if (!json) return {};
+  try {
+    const value = JSON.parse(json);
+    if (typeof value !== "object" || value === null || Array.isArray(value)) return {};
+    const parsed: Partial<Record<InstallRuntime, UpstreamMarketplace>> = {};
+    for (const runtime of ["codex", "claude-code"] as const) {
+      const entry = (value as Record<string, unknown>)[runtime];
+      if (typeof entry !== "object" || entry === null || Array.isArray(entry)) continue;
+      const marketplace = entry as Record<string, unknown>;
+      if (
+        typeof marketplace.name === "string" &&
+        typeof marketplace.repository === "string"
+      ) {
+        parsed[runtime] = {
+          name: marketplace.name,
+          repository: marketplace.repository,
+        };
+      }
+    }
+    return parsed;
+  } catch {
+    return {};
+  }
+}
+
 function parseManifests(
   json: string,
 ): Partial<Record<PluginProtocol, { path: string; raw: string }>> {
@@ -131,6 +174,23 @@ function parseManifests(
   } catch {
     return {};
   }
+}
+
+function namesFromManifests(
+  manifests: Partial<Record<PluginProtocol, { path: string; raw: string }>>,
+): Partial<Record<InstallRuntime, string>> {
+  const names: Partial<Record<InstallRuntime, string>> = {};
+  for (const runtime of ["codex", "claude-code"] as const) {
+    const raw = manifests[runtime]?.raw;
+    if (!raw) continue;
+    try {
+      const value = JSON.parse(raw);
+      if (typeof value?.name === "string") names[runtime] = value.name;
+    } catch {
+      // Stored manifests were validated while indexing; keep the fallback name.
+    }
+  }
+  return names;
 }
 
 function toSummary(plugin: PluginWithTransports): PluginSummary {
@@ -263,6 +323,62 @@ async function getPluginBySlugUncached(slug: string): Promise<PluginDetail | nul
     include: { skills: { orderBy: { dirName: "asc" } }, mcpServers: { orderBy: { serverId: "asc" } } },
   });
   if (!plugin) return null;
+  const manifests = parseManifests(plugin.manifests);
+  const installNames = namesFromManifests(manifests);
+  const protocols = parseProtocols(plugin.protocols);
+  if (protocols.includes("claude-code")) {
+    installNames["claude-code"] = plugin.slug;
+  }
+  const upstreamMarketplaces = parseUpstreamMarketplaces(plugin.upstreamMarketplaces);
+  const peers = await prisma.plugin.findMany({
+    where: { name: plugin.name },
+    select: {
+      slug: true,
+      name: true,
+      repoUrl: true,
+      pluginPath: true,
+      protocols: true,
+      manifests: true,
+    },
+  });
+  const candidates: MarketplacePluginInput[] = peers.map(({ manifests, ...peer }) => ({
+    ...peer,
+    protocols: parseProtocols(peer.protocols),
+    runtimeNames: namesFromManifests(parseManifests(manifests)),
+  }));
+  const installSources: Partial<Record<InstallRuntime, InstallSource>> = {};
+  const installConflicts: InstallRuntime[] = [];
+  for (const runtime of ["codex", "claude-code"] as const) {
+    if (!protocols.includes(runtime)) continue;
+    if (runtime === "claude-code") {
+      installSources[runtime] = { kind: "shared" };
+      continue;
+    }
+    const upstream = upstreamMarketplaces[runtime];
+    if (upstream) {
+      installSources[runtime] = { kind: "upstream", marketplace: upstream };
+      continue;
+    }
+    const selected = selectMarketplacePlugins(candidates, runtime).find(
+      (candidate) =>
+        runtimePluginName(candidate, runtime) ===
+        (installNames[runtime] ?? plugin.name),
+    );
+    if (selected?.slug === plugin.slug) {
+      installSources[runtime] = { kind: "shared" };
+    } else {
+      installConflicts.push(runtime);
+    }
+  }
+  const compatibility: Partial<Record<InstallRuntime, InstallCompatibility>> = {};
+  for (const runtime of ["codex", "claude-code"] as const) {
+    if (!protocols.includes(runtime)) continue;
+    compatibility[runtime] = installCompatibility(
+      plugin.slug,
+      installNames[runtime] ?? plugin.name,
+      installSources[runtime],
+    );
+  }
   return {
     ...toSummary(plugin),
     homepage: plugin.homepage,
@@ -271,7 +387,12 @@ async function getPluginBySlugUncached(slug: string): Promise<PluginDetail | nul
     repoPushedAt: plugin.repoPushedAt,
     manifest: plugin.manifest,
     manifestPath: plugin.manifestPath,
-    manifests: parseManifests(plugin.manifests),
+    manifests,
+    upstreamMarketplaces,
+    installNames,
+    installSources,
+    installConflicts,
+    installCompatibility: compatibility,
     skills: plugin.skills.map((s) => ({
       dirName: s.dirName,
       path: s.path || `skills/${s.dirName}/SKILL.md`,

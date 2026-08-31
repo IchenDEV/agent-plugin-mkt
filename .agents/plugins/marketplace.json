@@ -230,6 +230,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aeon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aaronjmars/aeon-bd.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -1418,6 +1431,19 @@
         "source": "git-subdir",
         "url": "https://github.com/avivsinai/skills-marketplace.git",
         "path": "./plugins/bkt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bleat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/quotegoat-ux/bleat.git",
+        "path": "./plugins/bleat"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2700,6 +2726,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nyldn/claude-octopus.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-replicant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/1TommyCheung/claude-replicant.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4554,6 +4592,18 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/ds4cc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dsh-developer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/builtin-pb/dsh-developer.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6539,6 +6589,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "intent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gowtham0992/intent.git",
+        "path": "./plugins/intent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "intent-trace",
       "source": {
         "source": "url",
@@ -6864,6 +6927,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/aklofas/kicad-happy.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kk-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/serpro69/claude-toolbox.git",
+        "path": "./kodex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7821,6 +7897,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "metareview",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dsifry/metareview.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "metaskills",
       "source": {
         "source": "git-subdir",
@@ -8393,6 +8481,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dengrish/obsidian-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "obsidian-bases",
       "source": {
         "source": "git-subdir",
@@ -8539,6 +8639,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wilddogjp/openbpx.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "openchrome",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shaun0927/openchrome.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12474,6 +12586,18 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/text-humanizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "theoretical-biophysics-modeling-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/surajinacademia/theoretical-biophysics-modeling-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",

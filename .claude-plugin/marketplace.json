@@ -349,6 +349,14 @@
       }
     },
     {
+      "name": "aeon",
+      "source": {
+        "source": "git-subdir",
+        "url": "aaronjmars/aeon-bd",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "agency-os",
       "source": {
         "source": "git-subdir",
@@ -472,6 +480,14 @@
       "source": {
         "source": "github",
         "repo": "vib795/agent-memory"
+      }
+    },
+    {
+      "name": "agent-native-clis",
+      "source": {
+        "source": "git-subdir",
+        "url": "joelhelbling/marketplace",
+        "path": "plugins/agent-native-clis"
       }
     },
     {
@@ -755,6 +771,13 @@
         "source": "git-subdir",
         "url": "sumik5/sumik-llm-plugin",
         "path": "plugins/ai"
+      }
+    },
+    {
+      "name": "ai-badger",
+      "source": {
+        "source": "github",
+        "repo": "Arasz/ai-badger"
       }
     },
     {
@@ -1055,6 +1078,14 @@
         "source": "git-subdir",
         "url": "ambiguous-ai/plugins",
         "path": "plugins/ambiguous-claude-code"
+      }
+    },
+    {
+      "name": "analise-e-projetos",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "14-analise-e-projetos"
       }
     },
     {
@@ -2541,6 +2572,14 @@
       }
     },
     {
+      "name": "bleat",
+      "source": {
+        "source": "git-subdir",
+        "url": "quotegoat-ux/bleat",
+        "path": "plugins/bleat"
+      }
+    },
+    {
       "name": "block-no-verify",
       "source": {
         "source": "git-subdir",
@@ -2647,6 +2686,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/community/boycott-filter"
+      }
+    },
+    {
+      "name": "brana",
+      "source": {
+        "source": "git-subdir",
+        "url": "martineserios/thebrana",
+        "path": "system"
       }
     },
     {
@@ -3906,6 +3953,14 @@
       }
     },
     {
+      "name": "claude-hook-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/claude-hook-review"
+      }
+    },
+    {
       "name": "claude-job-hunt",
       "source": {
         "source": "github",
@@ -4065,6 +4120,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "skills/.curated/claude-reflect"
+      }
+    },
+    {
+      "name": "claude-replicant",
+      "source": {
+        "source": "github",
+        "repo": "1TommyCheung/claude-replicant"
       }
     },
     {
@@ -4595,6 +4657,14 @@
       }
     },
     {
+      "name": "comercial-b2b",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "10-comercial-b2b"
+      }
+    },
+    {
       "name": "commerce-app-management",
       "source": {
         "source": "git-subdir",
@@ -4778,6 +4848,14 @@
       }
     },
     {
+      "name": "compliance-privacidade",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "06-compliance-privacidade"
+      }
+    },
+    {
       "name": "compliance-report-generator",
       "source": {
         "source": "git-subdir",
@@ -4799,6 +4877,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "ra-qm-team/compliance-team-iso42001"
+      }
+    },
+    {
+      "name": "compras-suprimentos",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "07-compras-suprimentos"
       }
     },
     {
@@ -4853,6 +4939,14 @@
       "source": {
         "source": "github",
         "repo": "spotify/confidence-ai-plugins"
+      }
+    },
+    {
+      "name": "conhecimento",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "15-conhecimento"
       }
     },
     {
@@ -5589,6 +5683,22 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "plugins/cwc-makers"
+      }
+    },
+    {
+      "name": "cx-atendimento",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "12-cx-atendimento"
+      }
+    },
+    {
+      "name": "dados-apoio",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "13-dados-apoio"
       }
     },
     {
@@ -7814,6 +7924,14 @@
       }
     },
     {
+      "name": "escrita-e-rotina",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "16-escrita-e-rotina"
+      }
+    },
+    {
       "name": "essence-distiller",
       "source": {
         "source": "git-subdir",
@@ -8427,6 +8545,30 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/finance-unit-economics/finance-unit-economics"
+      }
+    },
+    {
+      "name": "financeiro-contabilidade",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "01-financeiro-contabilidade"
+      }
+    },
+    {
+      "name": "financeiro-fpa",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "02-financeiro-fpa"
+      }
+    },
+    {
+      "name": "financeiro-tesouraria",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "03-financeiro-tesouraria"
       }
     },
     {
@@ -11222,6 +11364,14 @@
       }
     },
     {
+      "name": "juridico",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "05-juridico"
+      }
+    },
+    {
       "name": "justfile",
       "source": {
         "source": "git-subdir",
@@ -11326,6 +11476,22 @@
       "source": {
         "source": "github",
         "repo": "aklofas/kicad-happy"
+      }
+    },
+    {
+      "name": "kk",
+      "source": {
+        "source": "git-subdir",
+        "url": "serpro69/claude-toolbox",
+        "path": "cmd/generate-kodex/testdata/source-plugin"
+      }
+    },
+    {
+      "name": "kk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "serpro69/claude-toolbox",
+        "path": "klaude-plugin"
       }
     },
     {
@@ -12138,6 +12304,14 @@
       }
     },
     {
+      "name": "lovable-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/lovable-cloud"
+      }
+    },
+    {
       "name": "lr",
       "source": {
         "source": "git-subdir",
@@ -12542,6 +12716,14 @@
       }
     },
     {
+      "name": "marketing-b2c",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "11-marketing-b2c"
+      }
+    },
+    {
       "name": "marketing-skills",
       "source": {
         "source": "git-subdir",
@@ -12786,6 +12968,14 @@
       }
     },
     {
+      "name": "melhoria-continua",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "09-melhoria-continua"
+      }
+    },
+    {
       "name": "memory-daemon-manager",
       "source": {
         "source": "git-subdir",
@@ -12882,6 +13072,13 @@
       "source": {
         "source": "github",
         "repo": "meta-quest/agentic-tools"
+      }
+    },
+    {
+      "name": "metareview",
+      "source": {
+        "source": "github",
+        "repo": "dsifry/metareview"
       }
     },
     {
@@ -13610,6 +13807,14 @@
       }
     },
     {
+      "name": "npm-semver",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/npm-semver"
+      }
+    },
+    {
       "name": "nuclear-grade",
       "source": {
         "source": "github",
@@ -13630,6 +13835,13 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/observability-monitoring"
+      }
+    },
+    {
+      "name": "obsidian",
+      "source": {
+        "source": "github",
+        "repo": "dengrish/obsidian-skills"
       }
     },
     {
@@ -13832,6 +14044,13 @@
       "source": {
         "source": "github",
         "repo": "wilddogjp/openbpx"
+      }
+    },
+    {
+      "name": "openchrome",
+      "source": {
+        "source": "github",
+        "repo": "shaun0927/openchrome"
       }
     },
     {
@@ -14532,6 +14751,13 @@
       }
     },
     {
+      "name": "pgbot",
+      "source": {
+        "source": "github",
+        "repo": "pgrundev/pgbot"
+      }
+    },
+    {
       "name": "philososkills",
       "source": {
         "source": "github",
@@ -14740,6 +14966,13 @@
       }
     },
     {
+      "name": "planwright",
+      "source": {
+        "source": "github",
+        "repo": "inkatze/planwright"
+      }
+    },
+    {
       "name": "platform-engineering",
       "source": {
         "source": "git-subdir",
@@ -14872,6 +15105,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/plugin-platform"
+      }
+    },
+    {
+      "name": "plugin-semver",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/plugin-semver"
       }
     },
     {
@@ -15887,6 +16128,14 @@
       }
     },
     {
+      "name": "quarry-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "punt-labs/quarry",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "query-performance-analyzer",
       "source": {
         "source": "git-subdir",
@@ -16210,6 +16459,13 @@
       "source": {
         "source": "github",
         "repo": "basegraphhq/relay-plugin"
+      }
+    },
+    {
+      "name": "relay-2",
+      "source": {
+        "source": "github",
+        "repo": "philgutowski/relay"
       }
     },
     {
@@ -16645,6 +16901,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/review-agent-governance"
+      }
+    },
+    {
+      "name": "rh",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "04-rh"
       }
     },
     {
@@ -17886,6 +18150,14 @@
       }
     },
     {
+      "name": "skill-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/skill-management"
+      }
+    },
+    {
       "name": "skill-name",
       "source": {
         "source": "git-subdir",
@@ -18184,10 +18456,41 @@
       }
     },
     {
+      "name": "sodam-agentic",
+      "source": {
+        "source": "github",
+        "repo": "sodam-ai/SoDam-Agentic-Eng"
+      }
+    },
+    {
       "name": "software-project-governance",
       "source": {
         "source": "github",
         "repo": "peterwangze/software-project-governance"
+      }
+    },
+    {
+      "name": "solucoes-construir",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "19-solucoes-construir"
+      }
+    },
+    {
+      "name": "solucoes-governanca",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "17-solucoes-governanca"
+      }
+    },
+    {
+      "name": "solucoes-planejar",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "18-solucoes-planejar"
       }
     },
     {
@@ -18609,6 +18912,13 @@
       }
     },
     {
+      "name": "stream-cut",
+      "source": {
+        "source": "github",
+        "repo": "buttrimovvv-cell/montacsh"
+      }
+    },
+    {
       "name": "streaming-output",
       "source": {
         "source": "git-subdir",
@@ -18759,6 +19069,14 @@
       "source": {
         "source": "github",
         "repo": "Digital-Process-Tools/claude-supertool"
+      }
+    },
+    {
+      "name": "supply-operacoes",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "08-supply-operacoes"
       }
     },
     {
@@ -19388,6 +19706,13 @@
       }
     },
     {
+      "name": "theoretical-biophysics-modeling-skills",
+      "source": {
+        "source": "github",
+        "repo": "surajinacademia/theoretical-biophysics-modeling-skills"
+      }
+    },
+    {
       "name": "thinking-tools",
       "source": {
         "source": "git-subdir",
@@ -19676,6 +20001,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/touch-ui"
+      }
+    },
+    {
+      "name": "touchneedle",
+      "source": {
+        "source": "git-subdir",
+        "url": "nicoleman0/touchneedle",
+        "path": "plugins/touchneedle"
       }
     },
     {

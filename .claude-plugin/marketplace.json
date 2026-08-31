@@ -546,6 +546,13 @@
       }
     },
     {
+      "name": "agent-sdlc-harness",
+      "source": {
+        "source": "github",
+        "repo": "ThanhPham99/agent-sdlc-harness"
+      }
+    },
+    {
       "name": "agent-skills",
       "source": {
         "source": "github",
@@ -694,6 +701,22 @@
       "source": {
         "source": "github",
         "repo": "boshu2/agentops"
+      }
+    },
+    {
+      "name": "agentparty",
+      "source": {
+        "source": "git-subdir",
+        "url": "leeguooooo/AgentParty",
+        "path": "plugins/agentparty"
+      }
+    },
+    {
+      "name": "agentparty-channel-probe",
+      "source": {
+        "source": "git-subdir",
+        "url": "leeguooooo/AgentParty",
+        "path": "scripts/fixtures/claude-channel-probe"
       }
     },
     {
@@ -880,6 +903,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/ai-sdk-agents"
+      }
+    },
+    {
+      "name": "ai-shopping",
+      "source": {
+        "source": "git-subdir",
+        "url": "aranlucas/lucas-plugins",
+        "path": "plugins/ai-shopping"
       }
     },
     {
@@ -2064,6 +2095,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/attio-pack"
+      }
+    },
+    {
+      "name": "attune-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "Smart-AI-Memory/attune-ai",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "attune-help",
+      "source": {
+        "source": "git-subdir",
+        "url": "Smart-AI-Memory/attune-ai",
+        "path": "plugins/attune-help"
       }
     },
     {
@@ -4129,6 +4176,14 @@
       }
     },
     {
+      "name": "clear-prep",
+      "source": {
+        "source": "git-subdir",
+        "url": "youzooyou/plugins",
+        "path": "clear-prep"
+      }
+    },
+    {
       "name": "clerk-pack",
       "source": {
         "source": "git-subdir",
@@ -4475,6 +4530,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/codex-advisor"
+      }
+    },
+    {
+      "name": "codex-direct-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "youzooyou/plugins",
+        "path": "codex-direct-review"
       }
     },
     {
@@ -6324,6 +6387,13 @@
         "source": "git-subdir",
         "url": "muhackel/claude-code-plugins",
         "path": "plugins/defuddle"
+      }
+    },
+    {
+      "name": "deident",
+      "source": {
+        "source": "github",
+        "repo": "gitroll-dev/deident"
       }
     },
     {
@@ -8274,6 +8344,14 @@
       }
     },
     {
+      "name": "fig",
+      "source": {
+        "source": "git-subdir",
+        "url": "byjunyoung/claude-product-skills",
+        "path": "plugins/fig"
+      }
+    },
+    {
       "name": "figma-handoff",
       "source": {
         "source": "github",
@@ -9690,6 +9768,13 @@
       }
     },
     {
+      "name": "godot-skills",
+      "source": {
+        "source": "github",
+        "repo": "xlanstar/godot-skills"
+      }
+    },
+    {
       "name": "golang",
       "source": {
         "source": "git-subdir",
@@ -10042,6 +10127,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/examples/hello-world"
+      }
+    },
+    {
+      "name": "hello-world-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Klif4/claude-plugins-marketplace",
+        "path": "plugins/hello-world"
       }
     },
     {
@@ -11334,6 +11427,13 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/kubernetes-operator"
+      }
+    },
+    {
+      "name": "kurapika",
+      "source": {
+        "source": "github",
+        "repo": "tomoki-nagasaka/kurapika"
       }
     },
     {
@@ -13944,6 +14044,14 @@
       }
     },
     {
+      "name": "ork-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yonatangross/orchestkit",
+        "path": "plugins/ork"
+      }
+    },
+    {
       "name": "orm-code-generator",
       "source": {
         "source": "git-subdir",
@@ -14798,6 +14906,14 @@
       }
     },
     {
+      "name": "pm",
+      "source": {
+        "source": "git-subdir",
+        "url": "byjunyoung/claude-product-skills",
+        "path": "plugins/pm"
+      }
+    },
+    {
       "name": "pm-ai-partner",
       "source": {
         "source": "git-subdir",
@@ -14928,6 +15044,13 @@
       "source": {
         "source": "github",
         "repo": "DietrichGebert/ponytail"
+      }
+    },
+    {
+      "name": "popper",
+      "source": {
+        "source": "github",
+        "repo": "brnyxx/popper"
       }
     },
     {
@@ -15622,6 +15745,29 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/publishing-skills"
+      }
+    },
+    {
+      "name": "pulp",
+      "source": {
+        "source": "github",
+        "repo": "Generous-Corp/pulp"
+      }
+    },
+    {
+      "name": "pulp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Generous-Corp/pulp",
+        "path": "experimental/pulp-rs/tests/fixtures/plugin_newer"
+      }
+    },
+    {
+      "name": "pulp-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Generous-Corp/pulp",
+        "path": "experimental/pulp-rs/tests/fixtures/version/with_plugin_json"
       }
     },
     {
@@ -16597,6 +16743,14 @@
       }
     },
     {
+      "name": "ruvnet-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "stuinfla/ruvnet-brain",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "sabx",
       "source": {
         "source": "github",
@@ -17000,6 +17154,22 @@
       }
     },
     {
+      "name": "scaffold-claude-plugin-gold",
+      "source": {
+        "source": "git-subdir",
+        "url": "Tamircohen28/tamirs-superpowers",
+        "path": "skills/repo/_contract/fixtures/scaffold-claude-plugin-gold"
+      }
+    },
+    {
+      "name": "scaffold-plugin-gold",
+      "source": {
+        "source": "git-subdir",
+        "url": "Tamircohen28/tamirs-superpowers",
+        "path": "skills/repo/_contract/fixtures/scaffold-plugin-gold/plugins/scaffold-plugin-gold"
+      }
+    },
+    {
       "name": "scaffold-skill",
       "source": {
         "source": "github",
@@ -17035,6 +17205,13 @@
       "source": {
         "source": "github",
         "repo": "JHamidun/screencast-desktop"
+      }
+    },
+    {
+      "name": "sdd",
+      "source": {
+        "source": "github",
+        "repo": "Maryan08/my-agentic"
       }
     },
     {
@@ -17513,6 +17690,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/ship-mate"
+      }
+    },
+    {
+      "name": "shipshape",
+      "source": {
+        "source": "git-subdir",
+        "url": "aranlucas/lucas-plugins",
+        "path": "plugins/shipshape"
       }
     },
     {
@@ -18378,6 +18563,13 @@
       }
     },
     {
+      "name": "stock-analyzer",
+      "source": {
+        "source": "github",
+        "repo": "CurtisTong/stock-analyzer-skill"
+      }
+    },
+    {
       "name": "stop-phrase-guard",
       "source": {
         "source": "git-subdir",
@@ -18539,6 +18731,13 @@
       "source": {
         "source": "github",
         "repo": "cskwork/superadvisor"
+      }
+    },
+    {
+      "name": "supercharger",
+      "source": {
+        "source": "github",
+        "repo": "smrafiz/claude-supercharger"
       }
     },
     {
@@ -18815,6 +19014,13 @@
         "source": "git-subdir",
         "url": "tanaka-mambinge/takealot-plugin",
         "path": "plugins/takealot"
+      }
+    },
+    {
+      "name": "tamirs-superpowers",
+      "source": {
+        "source": "github",
+        "repo": "Tamircohen28/tamirs-superpowers"
       }
     },
     {
@@ -20379,6 +20585,13 @@
       }
     },
     {
+      "name": "vugola",
+      "source": {
+        "source": "github",
+        "repo": "VCoder25/vugola-mcp"
+      }
+    },
+    {
       "name": "vulnerability-scanner",
       "source": {
         "source": "git-subdir",
@@ -21109,6 +21322,14 @@
         "source": "git-subdir",
         "url": "SpillwaveSolutions/wiki_ticket_sdd",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "workset",
+      "source": {
+        "source": "git-subdir",
+        "url": "aranlucas/lucas-plugins",
+        "path": "plugins/workset"
       }
     },
     {

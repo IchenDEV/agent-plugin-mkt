@@ -1070,6 +1070,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "auravms-agent-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/barotdhrumil21/auravms-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "australian-accounting-skills",
       "source": {
         "source": "url",
@@ -1125,6 +1137,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/avoid-ai-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "awesome-rules",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/im47cn/awesome-rules.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1380,6 +1404,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/binance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bionexus-reliability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HERRY423/BioNexus.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1681,6 +1717,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bugsee",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bugsee/bugsee-for-ai.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "build",
       "source": {
         "source": "git-subdir",
@@ -1876,6 +1924,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Tasihi89/canvas-hand.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cargento",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/spacedock-dev/cargento.git",
+        "path": "./cargento"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3300,6 +3361,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "condux",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Booyaka101/agent-plugins-conformance-kit.git",
+        "path": "./fixtures/regressions/codex-39895/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "confidence",
       "source": {
         "source": "url",
@@ -3392,6 +3466,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ContoriumLabs/contorium.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "contract-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/contract-generator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3884,6 +3971,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "density",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DensityCo/density-codex-plugin.git",
+        "path": "./plugins/density"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dependency-audit",
       "source": {
         "source": "git-subdir",
@@ -3979,6 +4079,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/designlesshq/designless-agent.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dev-graph",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/dev-graph"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4509,6 +4622,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dude",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yowcow/dude.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "e-comet-skills",
       "source": {
         "source": "git-subdir",
@@ -4836,6 +4961,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "extract-system-blueprint",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/extract-system-blueprint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fable-advisor",
       "source": {
         "source": "git-subdir",
@@ -5033,6 +5171,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/fiscal-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fitness-ledger",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/actowery/fitness-ledger.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5564,6 +5714,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "go-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/go-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "go-web",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/go-web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "go-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/go-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "goal-prompt-refiner",
       "source": {
         "source": "url",
@@ -5718,6 +5907,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gopher-guides",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/gopher-guides"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "governance",
       "source": {
         "source": "git-subdir",
@@ -5834,6 +6036,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "guide-doc-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/guide-doc-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hades-openspec-java-workflow",
       "source": {
         "source": "url",
@@ -5872,11 +6087,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "harness-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/harness-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hebbia",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/hebbia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hei5enbug-agent-setup",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hei5enbug/hei5enbug-agent-setup.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7009,6 +7249,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "llm-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/llm-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "long-form-math",
       "source": {
         "source": "git-subdir",
@@ -8106,6 +8359,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "notrest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/notrestai/notrest.git",
+        "path": "./plugins/notrest"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nuclear-grade",
       "source": {
         "source": "url",
@@ -8906,6 +9172,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plugin-dev-planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/plugin-dev-planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plugin-eval",
       "source": {
         "source": "git-subdir",
@@ -9220,6 +9499,19 @@
         "source": "git-subdir",
         "url": "https://github.com/shrekshrek/project-workflow.git",
         "path": "./adapters/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prompt-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/prompt-creator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9630,6 +9922,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/workato-devs/recipe-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "red-green-proof",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RooAGI/red-green-proof.git",
+        "path": "./plugins/red-green-proof"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11124,10 +11429,114 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skill-governance-adapters",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-adapters"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-config",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-config"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-hooks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-lint",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-lint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-migration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-migration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-governance-secrets",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-governance-secrets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-hoonsoo",
       "source": {
         "source": "url",
         "url": "https://github.com/dragonpond916/skill-hoonsoo.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-intake",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/skill-intake"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11263,6 +11672,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "slide-report-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/slide-report-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "snagline",
       "source": {
         "source": "git-subdir",
@@ -11353,6 +11775,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/readdle/spark-cli-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spec-drift-guardian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/spec-drift-guardian"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11765,6 +12200,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "system-dev-planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/system-dev-planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "system-spec-harness",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/system-spec-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "system-utils",
       "source": {
         "source": "git-subdir",
@@ -11834,6 +12295,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Phalegethon/the-agentic-fieldbook.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tailwind",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gopherguides/gopher-ai.git",
+        "path": "./plugins/tailwind"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12385,6 +12859,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/typescript-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ubm-goal-setting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/daishiman/harness-dev.git",
+        "path": "./plugins/ubm-goal-setting"
       },
       "policy": {
         "installation": "AVAILABLE",

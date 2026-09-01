@@ -2284,6 +2284,13 @@
       }
     },
     {
+      "name": "axonflow",
+      "source": {
+        "source": "github",
+        "repo": "getaxonflow/axonflow-claude-plugin"
+      }
+    },
+    {
       "name": "azure",
       "source": {
         "source": "git-subdir",
@@ -2812,6 +2819,14 @@
         "source": "git-subdir",
         "url": "kochetkov-ma/claude-brewcode",
         "path": "brewui"
+      }
+    },
+    {
+      "name": "bridge-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "muchiny/bridge-mcp",
+        "path": "plugin"
       }
     },
     {
@@ -4908,6 +4923,14 @@
       }
     },
     {
+      "name": "compliance-regulatorio",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "07-compliance-regulatorio"
+      }
+    },
+    {
       "name": "compliance-report-generator",
       "source": {
         "source": "git-subdir",
@@ -4937,6 +4960,14 @@
         "source": "git-subdir",
         "url": "victorfalcaotembici/Skills",
         "path": "07-compras-suprimentos"
+      }
+    },
+    {
+      "name": "compras-suprimentos-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "08-compras-suprimentos"
       }
     },
     {
@@ -5423,6 +5454,14 @@
       }
     },
     {
+      "name": "crapkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "JeanFrancoisGagne/crapkit",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "create-diagram",
       "source": {
         "source": "github",
@@ -5751,6 +5790,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/customerio-pack"
+      }
+    },
+    {
+      "name": "cut-the-bullshit",
+      "source": {
+        "source": "github",
+        "repo": "hskim-ecoletree/cut-the-bullshit-plugin"
       }
     },
     {
@@ -9705,6 +9751,14 @@
       }
     },
     {
+      "name": "gates",
+      "source": {
+        "source": "git-subdir",
+        "url": "DevRik99/claude-gates",
+        "path": "plugins/gates"
+      }
+    },
+    {
       "name": "gavel",
       "source": {
         "source": "github",
@@ -11549,6 +11603,14 @@
       }
     },
     {
+      "name": "juridico-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "06-juridico"
+      }
+    },
+    {
       "name": "justfile",
       "source": {
         "source": "git-subdir",
@@ -11723,6 +11785,13 @@
       "source": {
         "source": "github",
         "repo": "pblsketch/korean-asa-skills"
+      }
+    },
+    {
+      "name": "korean-tax-agent",
+      "source": {
+        "source": "github",
+        "repo": "minsooparkk/korean-tax-agent"
       }
     },
     {
@@ -13067,11 +13136,51 @@
       }
     },
     {
+      "name": "mcp-aws-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-aws-docs"
+      }
+    },
+    {
+      "name": "mcp-bigquery",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-bigquery"
+      }
+    },
+    {
       "name": "mcp-builder",
       "source": {
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "mcp-builder"
+      }
+    },
+    {
+      "name": "mcp-chrome-devtools",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-chrome-devtools"
+      }
+    },
+    {
+      "name": "mcp-dbhub",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-dbhub"
+      }
+    },
+    {
+      "name": "mcp-devin",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-devin"
       }
     },
     {
@@ -13083,10 +13192,34 @@
       }
     },
     {
+      "name": "mcp-markitdown",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-markitdown"
+      }
+    },
+    {
+      "name": "mcp-notion",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-notion"
+      }
+    },
+    {
       "name": "mcp-outline",
       "source": {
         "source": "github",
         "repo": "Vortiago/mcp-outline"
+      }
+    },
+    {
+      "name": "mcp-playwright",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-playwright"
       }
     },
     {
@@ -13103,6 +13236,22 @@
         "source": "git-subdir",
         "url": "curie-eng/curie",
         "path": "runner/tests/fixtures/mcp_red_pointer"
+      }
+    },
+    {
+      "name": "mcp-redash",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-redash"
+      }
+    },
+    {
+      "name": "mcp-serena",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/mcp/mcp-serena"
       }
     },
     {
@@ -13165,6 +13314,30 @@
         "source": "git-subdir",
         "url": "victorfalcaotembici/Skills",
         "path": "09-melhoria-continua"
+      }
+    },
+    {
+      "name": "melhoria-continua-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "10-melhoria-continua"
+      }
+    },
+    {
+      "name": "memocat-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "MontyGovernance/memocat-mcp",
+        "path": "plugins/memocat-mcp"
+      }
+    },
+    {
+      "name": "memory-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "CambrianTech/continuum",
+        "path": "tools/plugins/memory-bridge"
       }
     },
     {
@@ -13701,6 +13874,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/navigating-github"
+      }
+    },
+    {
+      "name": "ndf",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/ndf"
       }
     },
     {
@@ -15218,6 +15399,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/playwright"
+      }
+    },
+    {
+      "name": "playwright-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "devbasex/ai-plugins",
+        "path": "plugins/playwright-kit"
       }
     },
     {
@@ -17168,6 +17357,22 @@
       }
     },
     {
+      "name": "rh-dp-remuneracao",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "04-rh-dp-remuneracao"
+      }
+    },
+    {
+      "name": "rh-talentos",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "05-rh-talentos"
+      }
+    },
+    {
       "name": "risk-management",
       "source": {
         "source": "git-subdir",
@@ -18213,6 +18418,13 @@
       }
     },
     {
+      "name": "shiploop",
+      "source": {
+        "source": "github",
+        "repo": "anshss/shiploop"
+      }
+    },
+    {
       "name": "shipshape",
       "source": {
         "source": "git-subdir",
@@ -19084,6 +19296,14 @@
       }
     },
     {
+      "name": "ss13-byond",
+      "source": {
+        "source": "git-subdir",
+        "url": "PatapoIIIa/ai-skills",
+        "path": "plugins/ss13-byond"
+      }
+    },
+    {
       "name": "ssh-manager",
       "source": {
         "source": "github",
@@ -19423,6 +19643,14 @@
       }
     },
     {
+      "name": "supply-operacoes-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "09-supply-operacoes"
+      }
+    },
+    {
       "name": "surge-activation",
       "source": {
         "source": "git-subdir",
@@ -19716,6 +19944,14 @@
       }
     },
     {
+      "name": "tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "DevRik99/claude-gates",
+        "path": "plugins/tasks"
+      }
+    },
+    {
       "name": "tauri-dev",
       "source": {
         "source": "git-subdir",
@@ -19839,6 +20075,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/techsmith-pack"
+      }
+    },
+    {
+      "name": "teknesyum-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "Teknesyum/Teknesyum-Core",
+        "path": "core"
       }
     },
     {
@@ -20166,6 +20410,13 @@
       }
     },
     {
+      "name": "tituskirch-skills",
+      "source": {
+        "source": "github",
+        "repo": "TitusKirch/skills"
+      }
+    },
+    {
       "name": "tldr",
       "source": {
         "source": "git-subdir",
@@ -20197,6 +20448,14 @@
       }
     },
     {
+      "name": "todos",
+      "source": {
+        "source": "git-subdir",
+        "url": "victorfalcaotembici/Skills",
+        "path": "00-todos"
+      }
+    },
+    {
       "name": "together-pack",
       "source": {
         "source": "git-subdir",
@@ -20225,6 +20484,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/token-launch-tracker"
+      }
+    },
+    {
+      "name": "token-save",
+      "source": {
+        "source": "github",
+        "repo": "agent-toolworks/token-save"
       }
     },
     {
@@ -21472,6 +21738,13 @@
       }
     },
     {
+      "name": "watermarks-remover",
+      "source": {
+        "source": "github",
+        "repo": "guillaumemeyer/watermarks-remover"
+      }
+    },
+    {
       "name": "we-need-ds",
       "source": {
         "source": "github",
@@ -21754,6 +22027,13 @@
       }
     },
     {
+      "name": "winwright",
+      "source": {
+        "source": "github",
+        "repo": "alegauss/winwright"
+      }
+    },
+    {
       "name": "wonda",
       "source": {
         "source": "github",
@@ -21982,6 +22262,13 @@
         "source": "git-subdir",
         "url": "vitalybe/skills-marketplace",
         "path": "plugins/workbench"
+      }
+    },
+    {
+      "name": "workbench-core",
+      "source": {
+        "source": "github",
+        "repo": "mike-bronner/workbench-core"
       }
     },
     {

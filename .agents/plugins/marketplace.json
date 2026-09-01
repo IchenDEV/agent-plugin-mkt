@@ -230,6 +230,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agenrena-codex-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/agenrena/agenrena-codex-bridge.git",
+        "path": "./plugins/agenrena-codex-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -3639,6 +3652,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cut-the-bullshit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hskim-ecoletree/cut-the-bullshit-plugin.git",
+        "path": "./plugins/cut-the-bullshit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "daloopa",
       "source": {
         "source": "git-subdir",
@@ -4550,6 +4576,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EveryInc/draft-review-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "droit-francais-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brissonjo-sudo/droit-francais-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7700,6 +7738,136 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mcp-aws-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-aws-docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-bigquery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-bigquery"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-chrome-devtools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-chrome-devtools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-dbhub",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-dbhub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-devin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-devin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-markitdown",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-markitdown"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-notion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-notion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-playwright",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-playwright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-redash",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-redash"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-serena",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/mcp/mcp-serena"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "media-io",
       "source": {
         "source": "url",
@@ -8189,6 +8357,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/myregistry-com"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ndf",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devbasex/ai-plugins.git",
+        "path": "./plugins/ndf"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11112,6 +11293,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "seq2music",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jvogan/seq2music.git",
+        "path": "./plugins/seq2music"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sequential-thinking",
       "source": {
         "source": "git-subdir",
@@ -13277,6 +13471,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/web-scripting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wechat-publisher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/weilanjin/wechat-tools.git",
+        "path": "./plugins/wechat-publisher"
       },
       "policy": {
         "installation": "AVAILABLE",

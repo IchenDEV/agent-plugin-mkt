@@ -345,6 +345,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-skills-studio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jhonatan-oliveiradev/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-teams",
       "source": {
         "source": "git-subdir",
@@ -1475,6 +1487,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "blackhole",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CorentinLumineau/blackhole.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bleat",
       "source": {
         "source": "git-subdir",
@@ -1697,6 +1721,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/brex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bridgeapp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/MathAndMagic/bridgeapp-plugin.git",
+        "path": "./plugins/bridgeapp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3299,6 +3336,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coherent-triple",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/korya/askl.git",
+        "path": "./test/fixtures/coherence/coherent-triple"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "comment-slop",
       "source": {
         "source": "git-subdir",
@@ -4871,6 +4921,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "esment",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NotasHQ/esment-plugins.git",
+        "path": "./plugins/esment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "essential",
       "source": {
         "source": "git-subdir",
@@ -5930,6 +5993,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "google-cloud-developer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google/skills.git",
+        "path": "./plugins/cloud/google-cloud-developer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "google-cloud-gke",
       "source": {
         "source": "git-subdir",
@@ -6525,6 +6601,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/humanize"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hxm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hexium-agency/hxm-claude-plugin.git",
+        "path": "./codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8432,6 +8521,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/myregistry-com"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "name-split-other",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/korya/askl.git",
+        "path": "./test/fixtures/coherence/name-split"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10445,6 +10547,32 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/ripgrep"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rmb",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erwint/remaimber.git",
+        "path": "./plugins/rmb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rootless-b",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/korya/askl.git",
+        "path": "./test/fixtures/coherence/rootless-drift"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13635,6 +13763,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gxgeek-n/wenqu-mem.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wgu-agent-foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/john-briggs-wgu/wgu-codex-plugins.git",
+        "path": "./plugins/wgu-agent-foundation"
       },
       "policy": {
         "installation": "AVAILABLE",

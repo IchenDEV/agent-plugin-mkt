@@ -269,6 +269,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-collab",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sumitake/agent-collab.git",
+        "path": "./plugins/agent-collab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-guard",
       "source": {
         "source": "git-subdir",
@@ -1932,6 +1945,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "byoh",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/epicsagas/BuildYourOwnHarness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "c4-architecture",
       "source": {
         "source": "git-subdir",
@@ -3011,11 +3036,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "code-ops-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/skylarsabo/code-ops.git",
+        "path": "./codex-marketplace/plugins/code-ops-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code-refactoring",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/code-refactoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-standards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/code-standards"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3168,6 +3219,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pauljunsukhan/codex-chatgpt-pro-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-goat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hypnguyen1209/codex-goat.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3631,6 +3694,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/coveo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-skills-and-memories",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/craft-skills-and-memories"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4997,6 +5073,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "evo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mickeyyaya/evolve-loop.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "evolve",
       "source": {
         "source": "git-subdir",
@@ -6243,6 +6331,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/happenstance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "harlan-agent-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/harlan-zw/harlan-agent-kit.git",
+        "path": "./harlan-agent-kit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7877,6 +7978,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mathmodel-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xu-chenghao413/mathmodel-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "matlab-agentic-toolkit",
       "source": {
         "source": "url",
@@ -8088,6 +8201,19 @@
         "source": "git-subdir",
         "url": "https://github.com/memforks-dev/memforks.git",
         "path": "./plugins/codex/plugins/memforks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "memhub",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/XTraceAI/agent-plugins.git",
+        "path": "./plugins/memhub"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8542,6 +8668,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "natural-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/natural-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ndf",
       "source": {
         "source": "git-subdir",
@@ -8598,6 +8737,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/network-solutions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "never-twice",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/never-twice"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8684,6 +8836,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/petergyang/no-ai-slop.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "no-invalid-states",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/no-invalid-states"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8836,6 +9001,370 @@
       "source": {
         "source": "url",
         "url": "https://github.com/chenghuzi/Occam.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-apple",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-apple"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-bigquery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-bigquery"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-code-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-code-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-create",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-create"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-create-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-create-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-design-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-design-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-lean",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-lean"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-native",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-native"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-planning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-product",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-product"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-prometheus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-prometheus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-python",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-python"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-research-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-research-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-run",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-run"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-run-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-run-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-security-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-security-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-terraform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-terraform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-typescript",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-typescript"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-web",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odin-writing-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
+        "path": "./plugins/odin-writing-advanced"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9052,6 +9581,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orchestrator-mode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/orchestrator-mode"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9402,6 +9944,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pil-agent-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bsmi021/pil-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pioneer",
       "source": {
         "source": "git-subdir",
@@ -9684,11 +10238,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pr-and-issue-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/pr-and-issue-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pr-review",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/BradyHazell/brady-plugins.git",
         "path": "./plugins/pr-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "praxis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devseunggwan/praxis.git",
+        "path": "./plugins/praxis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9728,6 +10308,19 @@
         "source": "git-subdir",
         "url": "https://github.com/nerymurillohnd/codex-essentials.git",
         "path": "./plugins/prettier-after-edit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "privacy-opsec-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/skylarsabo/code-ops.git",
+        "path": "./codex-marketplace/plugins/privacy-opsec-suite"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10542,6 +11135,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rigor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/skylarsabo/code-ops.git",
+        "path": "./codex-marketplace/plugins/rigor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ripgrep",
       "source": {
         "source": "git-subdir",
@@ -10599,6 +11205,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ScriptedAlchemy/agent-bundle.git",
         "path": "./examples/rsc-agent-runtime/packaging/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rubber-duck-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/rubber-duck-review"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11788,6 +12407,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "siteproof",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jmqbataller/SiteProof.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-authoring",
       "source": {
         "source": "url",
@@ -12550,6 +13181,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "suxiaoqiang-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/AiGuangInc/suxiaoqiang-cli.git",
+        "path": "./plugins/suxiaoqiang-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "svif",
       "source": {
         "source": "git-subdir",
@@ -12603,6 +13247,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/soden46/syarif-laravel-ai-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "synthesis-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/synthesisengineering/synthesis-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12899,6 +13555,19 @@
         "source": "git-subdir",
         "url": "https://github.com/riekelt/technical-writer.git",
         "path": "./plugins/technical-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "template-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./template"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13544,6 +14213,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "verify-with-controls",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/verify-with-controls"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vibe-architect",
       "source": {
         "source": "url",
@@ -13673,6 +14355,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bradautomates/claude-video.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "watch-ci-after-push",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/watch-ci-after-push"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13864,6 +14559,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "worktree-hygiene",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/worktree-hygiene"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -629,6 +629,13 @@
       }
     },
     {
+      "name": "agent-spine",
+      "source": {
+        "source": "github",
+        "repo": "Maykbiletti/AgentSpine"
+      }
+    },
+    {
       "name": "agent-teams",
       "source": {
         "source": "git-subdir",
@@ -2331,6 +2338,13 @@
       }
     },
     {
+      "name": "awino",
+      "source": {
+        "source": "github",
+        "repo": "Lukematic/agent-smith"
+      }
+    },
+    {
       "name": "aws-amplify",
       "source": {
         "source": "git-subdir",
@@ -2979,6 +2993,14 @@
       }
     },
     {
+      "name": "broken-root",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/marketplace-all-broken"
+      }
+    },
+    {
       "name": "brooks-lint",
       "source": {
         "source": "github",
@@ -3487,6 +3509,14 @@
         "source": "git-subdir",
         "url": "DawnEver/cc-market",
         "path": "cc-latex"
+      }
+    },
+    {
+      "name": "cc-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "mirzaakhena/mirza-bots",
+        "path": "cc-plugin"
       }
     },
     {
@@ -4720,6 +4750,14 @@
         "source": "git-subdir",
         "url": "skylarsabo/code-ops",
         "path": "plugins/code-ops-suite"
+      }
+    },
+    {
+      "name": "code-quality",
+      "source": {
+        "source": "git-subdir",
+        "url": "SidCorp-co/forge-plugin",
+        "path": "packages/code-quality/claude-plugin"
       }
     },
     {
@@ -7254,6 +7292,14 @@
       }
     },
     {
+      "name": "devils-advocate",
+      "source": {
+        "source": "git-subdir",
+        "url": "gytkk/nix-flakes",
+        "path": "modules/claude/marketplace/skills/devils-advocate"
+      }
+    },
+    {
       "name": "devin-handoff",
       "source": {
         "source": "github",
@@ -7327,6 +7373,14 @@
       "source": {
         "source": "github",
         "repo": "NYCU-Chung/my-claude-devteam"
+      }
+    },
+    {
+      "name": "devteam-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "alternative-intelligence-cp/claude-skills",
+        "path": "plugins/devteam"
       }
     },
     {
@@ -7918,6 +7972,14 @@
       "source": {
         "source": "github",
         "repo": "higebu/dsct"
+      }
+    },
+    {
+      "name": "dual-selfref",
+      "source": {
+        "source": "git-subdir",
+        "url": "Sivan757/dsh-agent-plugins-market",
+        "path": "tests/fixtures/dual-dialect-selfref"
       }
     },
     {
@@ -9490,6 +9552,14 @@
       }
     },
     {
+      "name": "forge-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SidCorp-co/forge-plugin",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "forge-audit",
       "source": {
         "source": "git-subdir",
@@ -10882,6 +10952,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "productivity/handoff"
+      }
+    },
+    {
+      "name": "hank-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "EmotionlessHank/amazing-dev-skills",
+        "path": "plugins/hank-dev"
       }
     },
     {
@@ -14239,6 +14317,14 @@
       }
     },
     {
+      "name": "metals-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "gytkk/nix-flakes",
+        "path": "modules/claude/marketplace/lsp/metals-lsp"
+      }
+    },
+    {
       "name": "metareview",
       "source": {
         "source": "github",
@@ -14296,6 +14382,13 @@
         "source": "git-subdir",
         "url": "automagik-dev/mikro",
         "path": "plugins/claude-code"
+      }
+    },
+    {
+      "name": "mill",
+      "source": {
+        "source": "github",
+        "repo": "antonygiomarxdev/mill"
       }
     },
     {
@@ -14398,6 +14491,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/mobile-app-tester"
+      }
+    },
+    {
+      "name": "mobile-app-ux-auditor",
+      "source": {
+        "source": "github",
+        "repo": "kakzaki/mobile-app-ux-auditor-flutter"
       }
     },
     {
@@ -14883,6 +14983,14 @@
         "source": "git-subdir",
         "url": "ncaq/konoka",
         "path": "plugins/nix-tasuke"
+      }
+    },
+    {
+      "name": "nixd-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "gytkk/nix-flakes",
+        "path": "modules/claude/marketplace/lsp/nixd-lsp"
       }
     },
     {
@@ -17499,6 +17607,13 @@
       }
     },
     {
+      "name": "promptsign",
+      "source": {
+        "source": "github",
+        "repo": "PromptSign/promptsign-plugin"
+      }
+    },
+    {
       "name": "proof-api",
       "source": {
         "source": "git-subdir",
@@ -19317,6 +19432,13 @@
       }
     },
     {
+      "name": "scr",
+      "source": {
+        "source": "github",
+        "repo": "populationgenomics/semantic-code-review"
+      }
+    },
+    {
       "name": "screencast-desktop",
       "source": {
         "source": "github",
@@ -21036,6 +21158,13 @@
       }
     },
     {
+      "name": "suede-skills",
+      "source": {
+        "source": "github",
+        "repo": "JasonColapietro/suede-creator-skills"
+      }
+    },
+    {
       "name": "sugar",
       "source": {
         "source": "github",
@@ -21123,6 +21252,13 @@
       "source": {
         "source": "github",
         "repo": "xhyqaq/superpowers-plus"
+      }
+    },
+    {
+      "name": "superpowers-v",
+      "source": {
+        "source": "github",
+        "repo": "procoders/superpowers-v"
       }
     },
     {
@@ -21707,6 +21843,14 @@
         "source": "git-subdir",
         "url": "hashicorp/agent-skills",
         "path": "terraform/code-generation"
+      }
+    },
+    {
+      "name": "terraform-ls",
+      "source": {
+        "source": "git-subdir",
+        "url": "gytkk/nix-flakes",
+        "path": "modules/claude/marketplace/lsp/terraform-ls"
       }
     },
     {
@@ -22470,6 +22614,14 @@
       }
     },
     {
+      "name": "ty-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "gytkk/nix-flakes",
+        "path": "modules/claude/marketplace/lsp/ty-lsp"
+      }
+    },
+    {
       "name": "tyamka",
       "source": {
         "source": "github",
@@ -22513,6 +22665,13 @@
         "source": "git-subdir",
         "url": "daishiman/harness-dev",
         "path": "plugins/ubm-goal-setting"
+      }
+    },
+    {
+      "name": "ui-consistency",
+      "source": {
+        "source": "github",
+        "repo": "kamenkurtev/ui-consistency"
       }
     },
     {

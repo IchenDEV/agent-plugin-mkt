@@ -370,6 +370,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-spine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Maykbiletti/AgentSpine.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-teams",
       "source": {
         "source": "git-subdir",
@@ -3267,6 +3279,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/H234598/codex-master.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-mcp-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/menaje/codex-mcp-bridge-for-chatgpt.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6351,6 +6375,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hank-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EmotionlessHank/amazing-dev-skills.git",
+        "path": "./plugins/hank-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "happenstance",
       "source": {
         "source": "git-subdir",
@@ -6625,6 +6662,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Green-PT/honey-for-devs.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "horizontal-cinematic-prompt-agent-v2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pencil102411-cell/horizontal-cinematic-prompt-agent-plugin.git",
+        "path": "./plugins/horizontal-cinematic-prompt-agent-v2"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8436,6 +8486,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/antonygiomarxdev/mill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mind-diary",
       "source": {
         "source": "git-subdir",
@@ -8505,6 +8567,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/mobile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobile-app-ux-auditor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kakzaki/mobile-app-ux-auditor-flutter.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13207,6 +13281,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "suede-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JasonColapietro/suede-creator-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "supabase",
       "source": {
         "source": "git-subdir",
@@ -14123,6 +14209,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ui-consistency",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kamenkurtev/ui-consistency.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ui-design",
       "source": {
         "source": "git-subdir",
@@ -14748,6 +14846,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/twexapi-dev/x-api-scraper.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "x-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Sivan757/dsh-agent-plugins-market.git",
+        "path": "./tests/fixtures/dual-dialect-codex-fallback/plugins/x"
       },
       "policy": {
         "installation": "AVAILABLE",

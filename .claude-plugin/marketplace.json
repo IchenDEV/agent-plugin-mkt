@@ -302,6 +302,22 @@
       }
     },
     {
+      "name": "advisor-product-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/advisor-product-design"
+      }
+    },
+    {
+      "name": "advisor-product-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/advisor-product-strategy"
+      }
+    },
+    {
       "name": "advisory-practice",
       "source": {
         "source": "git-subdir",
@@ -692,6 +708,13 @@
       }
     },
     {
+      "name": "agent-ui-skills",
+      "source": {
+        "source": "github",
+        "repo": "shawn-sandy/agent-ui-skills"
+      }
+    },
+    {
       "name": "agentheim",
       "source": {
         "source": "github",
@@ -834,6 +857,14 @@
       }
     },
     {
+      "name": "ai-cli-optout",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/ai-cli-optout"
+      }
+    },
+    {
       "name": "ai-commit-gen",
       "source": {
         "source": "git-subdir",
@@ -924,6 +955,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/packages/ai-ml-engineering-pack"
+      }
+    },
+    {
+      "name": "ai-native-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "bjcoombs/ai-native-toolkit"
       }
     },
     {
@@ -2670,6 +2708,14 @@
       }
     },
     {
+      "name": "bitranox",
+      "source": {
+        "source": "git-subdir",
+        "url": "bitranox/bitranox-skills",
+        "path": "plugins/bitranox"
+      }
+    },
+    {
       "name": "bitrouter",
       "source": {
         "source": "github",
@@ -3340,6 +3386,13 @@
       }
     },
     {
+      "name": "capcut-cli",
+      "source": {
+        "source": "github",
+        "repo": "renezander030/capcut-cli"
+      }
+    },
+    {
       "name": "captain-memo",
       "source": {
         "source": "git-subdir",
@@ -3553,6 +3606,14 @@
       "source": {
         "source": "github",
         "repo": "xiaolai/cc-suite"
+      }
+    },
+    {
+      "name": "cc-usage-coach",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/cc-usage-coach"
       }
     },
     {
@@ -5759,6 +5820,13 @@
       }
     },
     {
+      "name": "create-cmp",
+      "source": {
+        "source": "github",
+        "repo": "kvdm-co-pilot/create-cmp"
+      }
+    },
+    {
       "name": "create-diagram",
       "source": {
         "source": "github",
@@ -5874,6 +5942,14 @@
       "source": {
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
+        "path": "plugins/crew"
+      }
+    },
+    {
+      "name": "crew-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "johantor/zion",
         "path": "plugins/crew"
       }
     },
@@ -6751,6 +6827,14 @@
       "source": {
         "source": "github",
         "repo": "daytona/skills"
+      }
+    },
+    {
+      "name": "db-guardrails",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/db-guardrails"
       }
     },
     {
@@ -7952,6 +8036,13 @@
       }
     },
     {
+      "name": "droit-francais-skill",
+      "source": {
+        "source": "github",
+        "repo": "brissonjo-sudo/droit-francais-skill"
+      }
+    },
+    {
       "name": "ds",
       "source": {
         "source": "git-subdir",
@@ -8254,6 +8345,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/encryption-tool"
+      }
+    },
+    {
+      "name": "enduser-handbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/enduser-handbook"
       }
     },
     {
@@ -10782,6 +10881,14 @@
       }
     },
     {
+      "name": "greplost",
+      "source": {
+        "source": "git-subdir",
+        "url": "sns45/greplost",
+        "path": "greplost-plugin"
+      }
+    },
+    {
       "name": "greptile",
       "source": {
         "source": "git-subdir",
@@ -12367,6 +12474,14 @@
       }
     },
     {
+      "name": "keymaker",
+      "source": {
+        "source": "git-subdir",
+        "url": "johantor/zion",
+        "path": "plugins/keymaker"
+      }
+    },
+    {
       "name": "kicad-happy",
       "source": {
         "source": "github",
@@ -13098,6 +13213,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/liquidity-pool-analyzer"
+      }
+    },
+    {
+      "name": "literary-translator",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/literary-translator"
       }
     },
     {
@@ -14258,6 +14381,13 @@
       }
     },
     {
+      "name": "memsom",
+      "source": {
+        "source": "github",
+        "repo": "MattsomStudio/memsom"
+      }
+    },
+    {
       "name": "memx",
       "source": {
         "source": "github",
@@ -14478,6 +14608,22 @@
       }
     },
     {
+      "name": "mnogovid-code-scanner",
+      "source": {
+        "source": "git-subdir",
+        "url": "BergaBruh/mnogovid",
+        "path": "plugins/mnogovid-code-scanner"
+      }
+    },
+    {
+      "name": "mnogovid-system-scanner",
+      "source": {
+        "source": "git-subdir",
+        "url": "BergaBruh/mnogovid",
+        "path": "plugins/mnogovid-system-scanner"
+      }
+    },
+    {
       "name": "mobile",
       "source": {
         "source": "git-subdir",
@@ -14651,6 +14797,14 @@
       }
     },
     {
+      "name": "multi-profile-plugins",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/multi-profile-plugins"
+      }
+    },
+    {
       "name": "must-gather",
       "source": {
         "source": "git-subdir",
@@ -14734,6 +14888,13 @@
         "source": "git-subdir",
         "url": "markus7h/tools-registry",
         "path": "plugins/mykeyvault"
+      }
+    },
+    {
+      "name": "myspec",
+      "source": {
+        "source": "github",
+        "repo": "jansalwowski/myspec"
       }
     },
     {
@@ -15225,6 +15386,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/obsidian-project-documentation"
+      }
+    },
+    {
+      "name": "obsidian-project-vault",
+      "source": {
+        "source": "git-subdir",
+        "url": "lazyants/claude-plugins",
+        "path": "plugins/obsidian-project-vault"
       }
     },
     {
@@ -16389,6 +16558,46 @@
       }
     },
     {
+      "name": "persona-pair-programmer",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/persona-pair-programmer"
+      }
+    },
+    {
+      "name": "persona-ship-it",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/persona-ship-it"
+      }
+    },
+    {
+      "name": "persona-staff-eng-deep",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/persona-staff-eng-deep"
+      }
+    },
+    {
+      "name": "persona-terse-staff-eng",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/persona-terse-staff-eng"
+      }
+    },
+    {
+      "name": "persona-thinking-partner",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/persona-thinking-partner"
+      }
+    },
+    {
       "name": "personas",
       "source": {
         "source": "github",
@@ -16716,6 +16925,13 @@
         "source": "git-subdir",
         "url": "devbasex/ai-plugins",
         "path": "plugins/playwright-kit"
+      }
+    },
+    {
+      "name": "plinth",
+      "source": {
+        "source": "github",
+        "repo": "coolbress/plinth"
       }
     },
     {
@@ -18942,6 +19158,14 @@
       }
     },
     {
+      "name": "roslyn-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "aetos382/roslyn-skills",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "rsc-agent-runtime",
       "source": {
         "source": "git-subdir",
@@ -20052,6 +20276,13 @@
       }
     },
     {
+      "name": "signatureapi",
+      "source": {
+        "source": "github",
+        "repo": "signatureapi/skills"
+      }
+    },
+    {
       "name": "signed-audit-trails",
       "source": {
         "source": "git-subdir",
@@ -20489,6 +20720,13 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/slo-architect"
+      }
+    },
+    {
+      "name": "slopstop",
+      "source": {
+        "source": "github",
+        "repo": "iansmith/slopstop"
       }
     },
     {
@@ -21580,6 +21818,13 @@
       }
     },
     {
+      "name": "tadeumendonca-skills",
+      "source": {
+        "source": "github",
+        "repo": "tedeuxx/tadeumendonca-skills"
+      }
+    },
+    {
       "name": "taf",
       "source": {
         "source": "github",
@@ -21942,6 +22187,14 @@
       }
     },
     {
+      "name": "test-misplaced",
+      "source": {
+        "source": "git-subdir",
+        "url": "retif/claudecode-linter",
+        "path": "tests/fixtures/invalid/misplaced-file"
+      }
+    },
+    {
       "name": "test-orchestrator",
       "source": {
         "source": "git-subdir",
@@ -21955,6 +22208,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "tests/e2e/fixtures/test-plugin"
+      }
+    },
+    {
+      "name": "test-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "retif/claudecode-linter",
+        "path": "tests/fixtures/valid-plugin"
       }
     },
     {
@@ -22386,6 +22647,13 @@
         "source": "git-subdir",
         "url": "DawnEver/cc-market",
         "path": "traceme"
+      }
+    },
+    {
+      "name": "tractor",
+      "source": {
+        "source": "github",
+        "repo": "tylergannon/tractor"
       }
     },
     {
@@ -23130,6 +23398,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/vigil-recon"
+      }
+    },
+    {
+      "name": "vistack",
+      "source": {
+        "source": "github",
+        "repo": "vianch/vistack"
       }
     },
     {
@@ -24131,6 +24406,14 @@
       }
     },
     {
+      "name": "workbench-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/workbench"
+      }
+    },
+    {
       "name": "workbench-core",
       "source": {
         "source": "github",
@@ -24206,6 +24489,14 @@
         "source": "git-subdir",
         "url": "aranlucas/lucas-plugins",
         "path": "plugins/workset"
+      }
+    },
+    {
+      "name": "workshop-maintainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdcoonce/the-workshop",
+        "path": "plugins/workshop-maintainer"
       }
     },
     {

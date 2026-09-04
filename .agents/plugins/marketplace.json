@@ -205,6 +205,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "advisor-product-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/advisor-product-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "advisor-product-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/advisor-product-strategy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aeokit",
       "source": {
         "source": "url",
@@ -452,6 +478,18 @@
         "source": "git-subdir",
         "url": "https://github.com/ulises-jeremias/agent-toolkit.git",
         "path": "./plugins/agent-toolkit-forge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-ui-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shawn-sandy/agent-ui-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8562,6 +8600,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mnogovid-code-scanner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BergaBruh/mnogovid.git",
+        "path": "./plugins/mnogovid-code-scanner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mnogovid-system-scanner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BergaBruh/mnogovid.git",
+        "path": "./plugins/mnogovid-system-scanner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mobile",
       "source": {
         "source": "git-subdir",
@@ -8785,6 +8849,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/myregistry-com"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "myspec",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jansalwowski/myspec.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10074,6 +10150,71 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/performance-testing-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "persona-pair-programmer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/persona-pair-programmer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "persona-ship-it",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/persona-ship-it"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "persona-staff-eng-deep",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/persona-staff-eng-deep"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "persona-terse-staff-eng",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/persona-terse-staff-eng"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "persona-thinking-partner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/persona-thinking-partner"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12530,6 +12671,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "signatureapi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/signatureapi/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "signed-audit-trails",
       "source": {
         "source": "git-subdir",
@@ -14069,6 +14222,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tractor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tylergannon/tractor.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trading-broker-integration",
       "source": {
         "source": "git-subdir",
@@ -14347,6 +14512,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "universal-repo-audit-backlog-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/imMamdouhaboammar/universal-repo-audit-backlog-architect.git",
+        "path": "./universal-repo-audit-backlog-architect-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "universal-workflow",
       "source": {
         "source": "url",
@@ -14478,6 +14656,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/puffinsoft/peek-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vistack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vianch/vistack.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14766,6 +14956,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "workbench",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "workflows",
       "source": {
         "source": "git-subdir",
@@ -14795,6 +14998,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workshop-maintainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cdcoonce/the-workshop.git",
+        "path": "./plugins/workshop-maintainer"
       },
       "policy": {
         "installation": "AVAILABLE",

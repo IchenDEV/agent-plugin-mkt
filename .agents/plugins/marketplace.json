@@ -712,11 +712,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aify-project-graph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zimdin12/aify-project-graph.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "airtable",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/airtable"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aitesis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./aitesis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -840,11 +865,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "analogia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./analogia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "analyze-redesign",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/farbodjavan/analyze-redesign.git",
         "path": "./plugins/analyze-redesign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anamnesis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./anamnesis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1132,6 +1183,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "atlassian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baleen37/bstack.git",
+        "path": "./plugins/atlassian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "atlassian-rovo",
       "source": {
         "source": "git-subdir",
@@ -1212,6 +1276,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/surahli123/autorefine-skill-improvement.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "autoresearch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baleen37/bstack.git",
+        "path": "./plugins/autoresearch"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1655,6 +1732,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/box"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "boxlite-agent-tooling",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/boxlite-ai/agent-tooling.git",
+        "path": "./plugins/boxlite-agent-tooling"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2282,6 +2372,18 @@
         "source": "git-subdir",
         "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
         "path": "./plugins/cf-knowbase"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cfnsync",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tarahiman/cfnsync.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4873,6 +4975,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "durable-threads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Strataward/durable-threads.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dz",
       "source": {
         "source": "url",
@@ -4971,6 +5085,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "elenchus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./elenchus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "engineering",
       "source": {
         "source": "git-subdir",
@@ -5034,10 +5161,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "epharmoge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./epharmoge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "episodic-memory",
       "source": {
         "source": "url",
         "url": "https://github.com/obra/episodic-memory.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "epistemic-cooperative",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./epistemic-cooperative"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5102,6 +5255,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/essential"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "euporia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./euporia"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6452,6 +6618,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "harness",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kylesaburao/harness-plugin.git",
+        "path": "./plugins/harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "harness-creator",
       "source": {
         "source": "git-subdir",
@@ -6573,6 +6752,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/heuer-planning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "heuresis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./heuresis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6708,6 +6900,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "horismos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./horismos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "horizontal-cinematic-prompt-agent-v2",
       "source": {
         "source": "git-subdir",
@@ -6810,6 +7015,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "human-design-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/humandesignai/human-design-ai-mcp.git",
+        "path": "./plugins/human-design-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "humanize",
       "source": {
         "source": "git-subdir",
@@ -6840,6 +7058,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/zaeem571/hyperframes.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hyphegesis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./hyphegesis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7248,6 +7479,19 @@
         "source": "git-subdir",
         "url": "https://github.com/collisionengineers/kanmer.git",
         "path": "./plugins/kanmer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "katalepsis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./katalepsis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8154,6 +8398,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baleen37/bstack.git",
+        "path": "./plugins/mattpocock-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mcp-aws-docs",
       "source": {
         "source": "git-subdir",
@@ -8284,6 +8541,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "me",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baleen37/bstack.git",
+        "path": "./plugins/me"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "media-io",
       "source": {
         "source": "url",
@@ -8390,6 +8660,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NeoLi00/memX.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "merismos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./merismos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8655,6 +8938,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/moda-design/moda.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "modbus-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studioxvii/modbus-skills.git",
+        "path": "./plugins/modbus-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10158,6 +10454,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "periagoge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./periagoge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "persona-pair-programmer",
       "source": {
         "source": "git-subdir",
@@ -10787,11 +11096,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "proplasma",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./proplasma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/protect-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prothesis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./prothesis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11495,6 +11830,19 @@
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/coherence/rootless-drift"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "route",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./route"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14846,6 +15194,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/web-scripting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "webgpt-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/capitalparser/webgpt-orchestrator.git"
       },
       "policy": {
         "installation": "AVAILABLE",

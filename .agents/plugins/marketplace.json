@@ -1652,6 +1652,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "blend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sstoehrm/blend.git",
+        "path": "./plugins/blend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "block-no-verify",
       "source": {
         "source": "git-subdir",
@@ -3537,6 +3550,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coding-agent-enabled-demo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agenticgogol/Edureka_Coding_Agent_Enabled_Demo_11Jul.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cody-codex-coordinator",
       "source": {
         "source": "git-subdir",
@@ -3694,6 +3719,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/consensus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "constructing-software-stepwise",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/HollandDM/my-skills.git",
+        "path": "./constructing-software-stepwise"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4383,6 +4421,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-engineering",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgentsORG/design-engineering.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6477,6 +6527,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "great-cto",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/avelikiy/great_cto.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "grimm",
       "source": {
         "source": "git-subdir",
@@ -7083,6 +7145,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ayghri/i-have-adhd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "iceberg",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hellohelen-ai/iceberg.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10735,6 +10809,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plugin-figma-inspect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ewa-learn-english/plugin-figma-inspect.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "polar-skills",
       "source": {
         "source": "git-subdir",
@@ -11049,6 +11135,18 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/production"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "professional-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kaos599/professional-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12810,6 +12908,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/sequential-thinking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-facts",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mao-o/cc-mp-worktools.git",
+        "path": "./plugins/session-facts"
       },
       "policy": {
         "installation": "AVAILABLE",

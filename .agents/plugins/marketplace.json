@@ -1996,6 +1996,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "build-loop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/build-loop.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "build-macos-apps",
       "source": {
         "source": "git-subdir",
@@ -2115,6 +2127,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/c4-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ca-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arbiterForge/codeArbiter.git",
+        "path": "./plugins/ca-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3046,6 +3071,31 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clickai-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/timharris707/skills.git",
+        "path": "./plugins/clickai-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "clickai-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/timharris707/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clickup",
       "source": {
         "source": "git-subdir",
@@ -3489,6 +3539,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-skill-resource-probe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arbiterForge/codeArbiter.git",
+        "path": "./.github/fixtures/codex-skill-resources"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-usage-watch",
       "source": {
         "source": "url",
@@ -3706,6 +3769,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/spotify/confidence-ai-plugins.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "configure-prettier",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/configure-prettier"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4479,6 +4555,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dev-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jeryfan/dev-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devbrother-skills",
       "source": {
         "source": "url",
@@ -4712,6 +4800,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/dnb-finance-analytics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "doc-keeper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/doc-keeper"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7103,6 +7204,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "humanizer-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CoveMB/humanizer-skill-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hxm",
       "source": {
         "source": "git-subdir",
@@ -7919,6 +8032,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "live-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/live-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "livekit-skills",
       "source": {
         "source": "git-subdir",
@@ -8427,6 +8553,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rasatpetabit/masterplan.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "material-code-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CoveMB/material-code-review-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10185,6 +10323,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "optimize-memories",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/optimize-memories"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "orchestration",
       "source": {
         "source": "git-subdir",
@@ -11181,6 +11332,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prompt-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/prompt-architect"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "prompt-creator",
       "source": {
         "source": "git-subdir",
@@ -11643,6 +11807,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rekall",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DitriXNew/rekall.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rem",
       "source": {
         "source": "git-subdir",
@@ -11800,6 +11976,18 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/research-images"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "research-skills-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CoveMB/research-skills-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12640,6 +12828,18 @@
         "source": "git-subdir",
         "url": "https://github.com/secondsky/sap-skills.git",
         "path": "./plugins/sapui5-linter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "save-your-memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/m1nd0322/save-your-memory.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14018,6 +14218,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "svelte-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/svelte-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "svif",
       "source": {
         "source": "git-subdir",
@@ -14108,6 +14321,19 @@
         "source": "git-subdir",
         "url": "https://github.com/daishiman/harness-dev.git",
         "path": "./plugins/system-dev-planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "system-ops-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nerymurillohnd/codex-essentials.git",
+        "path": "./plugins/system-ops-audit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14735,6 +14961,19 @@
         "source": "git-subdir",
         "url": "https://github.com/trelio-ru/agent-workspaces.git",
         "path": "./plugins/trelio-agent-workspaces"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trellis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kodhama/trellis.git",
+        "path": "./plugins/trellis"
       },
       "policy": {
         "installation": "AVAILABLE",

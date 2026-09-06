@@ -997,6 +997,14 @@
       }
     },
     {
+      "name": "ai-hedge-fund-value",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/ai-hedge-fund-value"
+      }
+    },
+    {
       "name": "ai-maintenance-skills",
       "source": {
         "source": "github",
@@ -2124,6 +2132,13 @@
       }
     },
     {
+      "name": "architecture-doc-plugin",
+      "source": {
+        "source": "github",
+        "repo": "SanjayR857/architecture-doc-plugin"
+      }
+    },
+    {
       "name": "ariadne",
       "source": {
         "source": "git-subdir",
@@ -2342,6 +2357,30 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/atlas-report"
+      }
+    },
+    {
+      "name": "atlas-trend-crypto",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/atlas-trend-crypto"
+      }
+    },
+    {
+      "name": "atlas-trend-kr",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/atlas-trend-kr"
+      }
+    },
+    {
+      "name": "atlas-trend-us",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/atlas-trend-us"
       }
     },
     {
@@ -2770,6 +2809,14 @@
       "source": {
         "source": "github",
         "repo": "kawaz/claude-bash-safety"
+      }
+    },
+    {
+      "name": "basic-investor",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/basic-investor"
       }
     },
     {
@@ -7246,6 +7293,13 @@
       }
     },
     {
+      "name": "deep-research-2",
+      "source": {
+        "source": "github",
+        "repo": "NeetigyaShah/deep-research"
+      }
+    },
+    {
       "name": "deep-work",
       "source": {
         "source": "git-subdir",
@@ -7443,6 +7497,14 @@
       }
     },
     {
+      "name": "deploy-tools-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "sgharlow/skillcrossroads",
+        "path": "packages/core/test/fixtures/artifacts/plugins/good-plugin"
+      }
+    },
+    {
       "name": "deployment-pipeline-orchestrator",
       "source": {
         "source": "git-subdir",
@@ -7519,6 +7581,13 @@
       "source": {
         "source": "github",
         "repo": "sjsyrek/design-council"
+      }
+    },
+    {
+      "name": "design-dna",
+      "source": {
+        "source": "github",
+        "repo": "mjcreations123/design-dna"
       }
     },
     {
@@ -8505,6 +8574,14 @@
       }
     },
     {
+      "name": "earnings-drift-watcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/earnings-drift-watcher"
+      }
+    },
+    {
       "name": "easyeda-pro",
       "source": {
         "source": "github",
@@ -9089,6 +9166,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/evidence-check"
+      }
+    },
+    {
+      "name": "evidence-gated",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/evidence-gated"
       }
     },
     {
@@ -12270,6 +12355,14 @@
       }
     },
     {
+      "name": "iec62304-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "cyrou13/technical-writer",
+        "path": "plugins/iec62304-writer"
+      }
+    },
+    {
       "name": "ievo-2",
       "source": {
         "source": "git-subdir",
@@ -12929,6 +13022,13 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/julia-development"
+      }
+    },
+    {
+      "name": "junto",
+      "source": {
+        "source": "github",
+        "repo": "vannt-dev/junto"
       }
     },
     {
@@ -16043,6 +16143,14 @@
       }
     },
     {
+      "name": "notrest-free",
+      "source": {
+        "source": "git-subdir",
+        "url": "notrestai/notrest",
+        "path": "plugins/notrest-free-tombstone"
+      }
+    },
+    {
       "name": "npm-semver",
       "source": {
         "source": "git-subdir",
@@ -18887,6 +18995,14 @@
       }
     },
     {
+      "name": "prudent-allocator",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/prudent-allocator"
+      }
+    },
+    {
       "name": "pstack",
       "source": {
         "source": "github",
@@ -20672,6 +20788,14 @@
       }
     },
     {
+      "name": "sec-overlay",
+      "source": {
+        "source": "git-subdir",
+        "url": "cjbischoff/cjbischoff-claude-code-tools",
+        "path": "plugins/sec-overlay"
+      }
+    },
+    {
       "name": "second-opinion",
       "source": {
         "source": "git-subdir",
@@ -20919,6 +21043,14 @@
       }
     },
     {
+      "name": "sensemaking",
+      "source": {
+        "source": "git-subdir",
+        "url": "eranroseman/agent-plugins",
+        "path": "plugins/sensemaking"
+      }
+    },
+    {
       "name": "sensitive-files-guardrail",
       "source": {
         "source": "git-subdir",
@@ -21095,6 +21227,13 @@
         "source": "git-subdir",
         "url": "Mao-o/cc-mp-worktools",
         "path": "plugins/session-facts"
+      }
+    },
+    {
+      "name": "session-orchestrator",
+      "source": {
+        "source": "github",
+        "repo": "Kanevry/session-orchestrator"
       }
     },
     {
@@ -21558,6 +21697,21 @@
       }
     },
     {
+      "name": "skillcrossroads",
+      "source": {
+        "source": "github",
+        "repo": "sgharlow/skillcrossroads"
+      }
+    },
+    {
+      "name": "skillcrossroads-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "sgharlow/skillcrossroads",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "skillopt-sleep",
       "source": {
         "source": "git-subdir",
@@ -21839,6 +21993,14 @@
       }
     },
     {
+      "name": "software-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "eranroseman/agent-plugins",
+        "path": "plugins/software-dev"
+      }
+    },
+    {
       "name": "software-project-governance",
       "source": {
         "source": "github",
@@ -21969,6 +22131,13 @@
       "source": {
         "source": "github",
         "repo": "andyko18/specops-ko"
+      }
+    },
+    {
+      "name": "spill-guard",
+      "source": {
+        "source": "github",
+        "repo": "karlkfi/claude-spill-guard"
       }
     },
     {
@@ -22604,6 +22773,13 @@
       }
     },
     {
+      "name": "superpowers-orchestrator",
+      "source": {
+        "source": "github",
+        "repo": "brunob54/superpowers-orchestrator"
+      }
+    },
+    {
       "name": "superpowers-v",
       "source": {
         "source": "github",
@@ -22986,6 +23162,13 @@
       "source": {
         "source": "github",
         "repo": "bloknayrb/tandem"
+      }
+    },
+    {
+      "name": "tandem-2",
+      "source": {
+        "source": "github",
+        "repo": "VlDubr/tandem"
       }
     },
     {
@@ -24236,6 +24419,22 @@
       }
     },
     {
+      "name": "undervalued-now",
+      "source": {
+        "source": "git-subdir",
+        "url": "untilled/aumos-catalogue",
+        "path": "managers/undervalued-now"
+      }
+    },
+    {
+      "name": "unica",
+      "source": {
+        "source": "git-subdir",
+        "url": "IngvarConsulting/unica",
+        "path": "plugins/unica"
+      }
+    },
+    {
       "name": "unifapi",
       "source": {
         "source": "github",
@@ -24286,6 +24485,13 @@
         "source": "git-subdir",
         "url": "sumik5/sumik-llm-plugin",
         "path": "plugins/university"
+      }
+    },
+    {
+      "name": "unknowns",
+      "source": {
+        "source": "github",
+        "repo": "ajitta/know-your-unknowns"
       }
     },
     {
@@ -25162,6 +25368,14 @@
       }
     },
     {
+      "name": "weavatrix",
+      "source": {
+        "source": "git-subdir",
+        "url": "Weavatrix/weavatrix",
+        "path": "plugins/weavatrix"
+      }
+    },
+    {
       "name": "weave",
       "source": {
         "source": "git-subdir",
@@ -25395,6 +25609,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/whale-alert-monitor"
+      }
+    },
+    {
+      "name": "whetstone",
+      "source": {
+        "source": "git-subdir",
+        "url": "iliaal/whetstone",
+        "path": "plugins/whetstone"
       }
     },
     {
@@ -26093,6 +26315,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/skill-enhancers/zero-tech-debt"
+      }
+    },
+    {
+      "name": "zerocool",
+      "source": {
+        "source": "git-subdir",
+        "url": "zeroroot-ai/zerocool-plugins",
+        "path": "packages/claude-gibson"
       }
     },
     {

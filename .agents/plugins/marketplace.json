@@ -4311,6 +4311,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "deep-research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NeetigyaShah/deep-research.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "deep-tools",
       "source": {
         "source": "git-subdir",
@@ -4497,6 +4509,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-dna",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mjcreations123/design-dna.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8050,6 +8074,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/livekit-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "livespec",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thewoolleyman/livespec-driver-codex.git",
+        "path": "./livespec"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13012,6 +13049,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sensemaking",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eranroseman/agent-plugins.git",
+        "path": "./plugins/sensemaking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sentry",
       "source": {
         "source": "git-subdir",
@@ -13121,6 +13171,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Mao-o/cc-mp-worktools.git",
         "path": "./plugins/session-facts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kanevry/session-orchestrator.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13763,6 +13825,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "software-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eranroseman/agent-plugins.git",
+        "path": "./plugins/software-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "software-project-governance",
       "source": {
         "source": "url",
@@ -14184,6 +14259,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/xhyqaq/superpowers-plus.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "superpowers-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brunob54/superpowers-orchestrator.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15160,6 +15247,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "unica",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/IngvarConsulting/unica.git",
+        "path": "./plugins/unica"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "unifapi",
       "source": {
         "source": "url",
@@ -15513,6 +15613,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "weavatrix",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Weavatrix/weavatrix.git",
+        "path": "./plugins/weavatrix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web",
       "source": {
         "source": "git-subdir",
@@ -15607,6 +15720,19 @@
         "source": "git-subdir",
         "url": "https://github.com/john-briggs-wgu/wgu-codex-plugins.git",
         "path": "./plugins/wgu-agent-foundation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "whetstone",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iliaal/whetstone.git",
+        "path": "./plugins/whetstone"
       },
       "policy": {
         "installation": "AVAILABLE",

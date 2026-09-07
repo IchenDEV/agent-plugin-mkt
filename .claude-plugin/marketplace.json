@@ -412,6 +412,14 @@
       }
     },
     {
+      "name": "agami-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "AgamiAI/agami-core",
+        "path": "plugins/agami"
+      }
+    },
+    {
       "name": "agency-os",
       "source": {
         "source": "git-subdir",
@@ -754,6 +762,14 @@
       }
     },
     {
+      "name": "agent-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "alleneubank/agent-profile",
+        "path": "plugins/agent-workflows"
+      }
+    },
+    {
       "name": "agentheim",
       "source": {
         "source": "github",
@@ -939,6 +955,14 @@
       "source": {
         "source": "github",
         "repo": "Morrison-Lab/ai-config"
+      }
+    },
+    {
+      "name": "ai-config-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "Morrison-Lab/ai-config",
+        "path": "skills/ai-config-hooks"
       }
     },
     {
@@ -1286,6 +1310,13 @@
         "source": "git-subdir",
         "url": "jongwony/epistemic-protocols",
         "path": "anamnesis"
+      }
+    },
+    {
+      "name": "anchor-architect",
+      "source": {
+        "source": "github",
+        "repo": "adewanggar/anchor-architect"
       }
     },
     {
@@ -3332,6 +3363,14 @@
       "source": {
         "source": "github",
         "repo": "raystyle/browser-harness"
+      }
+    },
+    {
+      "name": "budgetclaw",
+      "source": {
+        "source": "git-subdir",
+        "url": "RoninForge/budgetclaw",
+        "path": "plugin"
       }
     },
     {
@@ -5992,6 +6031,14 @@
       }
     },
     {
+      "name": "core-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "lexijamesesq/core-skills",
+        "path": "plugins/core"
+      }
+    },
+    {
       "name": "coreweave-pack",
       "source": {
         "source": "git-subdir",
@@ -6093,6 +6140,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/cortex-recon"
+      }
+    },
+    {
+      "name": "council",
+      "source": {
+        "source": "git-subdir",
+        "url": "dimonb/skills",
+        "path": "plugins/council"
       }
     },
     {
@@ -6446,6 +6501,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/csrf-protection-validator"
+      }
+    },
+    {
+      "name": "curation-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "jerryliu0103/curation-discipline",
+        "path": "plugins/curation-discipline"
+      }
+    },
+    {
+      "name": "curation-discipline-zh",
+      "source": {
+        "source": "git-subdir",
+        "url": "jerryliu0103/curation-discipline",
+        "path": "plugins/curation-discipline-zh"
       }
     },
     {
@@ -8888,6 +8959,14 @@
       }
     },
     {
+      "name": "engineering-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "alleneubank/agent-profile",
+        "path": "plugins/engineering-practices"
+      }
+    },
+    {
       "name": "engineering-skills",
       "source": {
         "source": "git-subdir",
@@ -9074,6 +9153,14 @@
         "source": "git-subdir",
         "url": "alvis/.agents",
         "path": "plugins/essential"
+      }
+    },
+    {
+      "name": "estate-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "lexijamesesq/core-skills",
+        "path": "plugins/estate-hooks"
       }
     },
     {
@@ -10891,6 +10978,13 @@
       }
     },
     {
+      "name": "gate-sdd",
+      "source": {
+        "source": "github",
+        "repo": "m0m0i/gate-oriented-sdd"
+      }
+    },
+    {
       "name": "gates",
       "source": {
         "source": "git-subdir",
@@ -11753,6 +11847,14 @@
       }
     },
     {
+      "name": "harness-driven-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "Fueav/harness-driven-development",
+        "path": "plugins/harness-driven-development"
+      }
+    },
+    {
       "name": "haskell-tasuke",
       "source": {
         "source": "git-subdir",
@@ -12279,6 +12381,13 @@
       }
     },
     {
+      "name": "hyperframes-4",
+      "source": {
+        "source": "github",
+        "repo": "banqingyuan/lynlo-hyperframes-mirror"
+      }
+    },
+    {
       "name": "hyperparameter-tuner",
       "source": {
         "source": "git-subdir",
@@ -12453,6 +12562,14 @@
       "source": {
         "source": "github",
         "repo": "NVIDIA-AI-IOT/inference_builder"
+      }
+    },
+    {
+      "name": "infinitus",
+      "source": {
+        "source": "git-subdir",
+        "url": "deathemperor/infinitus",
+        "path": "plugins/infinitus"
       }
     },
     {
@@ -13094,6 +13211,13 @@
       }
     },
     {
+      "name": "kannaka-quantum",
+      "source": {
+        "source": "github",
+        "repo": "NickFlach/kannaka-quantum"
+      }
+    },
+    {
       "name": "kaos",
       "source": {
         "source": "git-subdir",
@@ -13530,6 +13654,13 @@
         "source": "git-subdir",
         "url": "leadxcrm/leadx-mcp-plugin",
         "path": "plugins/leadx-mcp"
+      }
+    },
+    {
+      "name": "leaf",
+      "source": {
+        "source": "github",
+        "repo": "max-sixty/leaf"
       }
     },
     {
@@ -14540,6 +14671,13 @@
       }
     },
     {
+      "name": "major-ai-skills",
+      "source": {
+        "source": "github",
+        "repo": "alivirgo/Major-AI-Skills"
+      }
+    },
+    {
       "name": "make-scenario-builder",
       "source": {
         "source": "git-subdir",
@@ -14751,6 +14889,62 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/marp-slides"
+      }
+    },
+    {
+      "name": "mas-3d-games",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-3d-games"
+      }
+    },
+    {
+      "name": "mas-cad-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-cad-studio"
+      }
+    },
+    {
+      "name": "mas-common-sense-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-common-sense-pack"
+      }
+    },
+    {
+      "name": "mas-design-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-design-knowledge"
+      }
+    },
+    {
+      "name": "mas-desktop-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-desktop-ops"
+      }
+    },
+    {
+      "name": "mas-efficiency-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-efficiency-pack"
+      }
+    },
+    {
+      "name": "mas-video-lab",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-video-lab"
       }
     },
     {
@@ -19018,6 +19212,13 @@
       }
     },
     {
+      "name": "publish",
+      "source": {
+        "source": "github",
+        "repo": "lexijamesesq/publish-skills"
+      }
+    },
+    {
       "name": "publishing-skills",
       "source": {
         "source": "git-subdir",
@@ -20129,6 +20330,13 @@
         "source": "git-subdir",
         "url": "victorfalcaotembici/Skills",
         "path": "05-rh-talentos"
+      }
+    },
+    {
+      "name": "rig",
+      "source": {
+        "source": "github",
+        "repo": "itoh-shun/rig"
       }
     },
     {
@@ -21307,6 +21515,14 @@
       }
     },
     {
+      "name": "ship-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "dimonb/skills",
+        "path": "plugins/ship"
+      }
+    },
+    {
       "name": "ship-gate",
       "source": {
         "source": "git-subdir",
@@ -21351,6 +21567,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/shipwright"
+      }
+    },
+    {
+      "name": "shipyard",
+      "source": {
+        "source": "git-subdir",
+        "url": "dimonb/skills",
+        "path": "plugins/shipyard"
       }
     },
     {
@@ -24070,6 +24294,13 @@
       }
     },
     {
+      "name": "trail-blazer-flow",
+      "source": {
+        "source": "github",
+        "repo": "msummer/trail-blazer-flow"
+      }
+    },
+    {
       "name": "trailhead",
       "source": {
         "source": "git-subdir",
@@ -24601,6 +24832,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/vastai-pack"
+      }
+    },
+    {
+      "name": "vastlint",
+      "source": {
+        "source": "github",
+        "repo": "aleksUIX/vastlint"
       }
     },
     {
@@ -25632,6 +25870,13 @@
         "source": "git-subdir",
         "url": "743v45/taevas-plugins",
         "path": "plugins/wiki"
+      }
+    },
+    {
+      "name": "wiki-2",
+      "source": {
+        "source": "github",
+        "repo": "lexijamesesq/wiki"
       }
     },
     {

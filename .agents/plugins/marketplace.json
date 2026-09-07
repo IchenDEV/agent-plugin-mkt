@@ -498,6 +498,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alleneubank/agent-profile.git",
+        "path": "./plugins/agent-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agentic-security",
       "source": {
         "source": "url",
@@ -628,6 +641,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ai-config",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Morrison-Lab/ai-config.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -896,6 +921,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./anamnesis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anchor-architect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adewanggar/anchor-architect.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3954,6 +3991,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "council",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dimonb/skills.git",
+        "path": "./plugins/council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "coupler-io",
       "source": {
         "source": "git-subdir",
@@ -5278,6 +5328,19 @@
         "source": "git-subdir",
         "url": "https://github.com/patinaproject/skills.git",
         "path": "./plugins/engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "engineering-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alleneubank/agent-profile.git",
+        "path": "./plugins/engineering-practices"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6831,6 +6894,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "harness-driven-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Fueav/harness-driven-development.git",
+        "path": "./plugins/harness-driven-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hebbia",
       "source": {
         "source": "git-subdir",
@@ -7877,6 +7953,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "leaf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/max-sixty/leaf.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "learn",
       "source": {
         "source": "git-subdir",
@@ -8500,6 +8588,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/malicious-skill-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mandatemarshal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Soph1yzzz/mandatemarshal.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13310,6 +13410,19 @@
         "source": "git-subdir",
         "url": "https://github.com/xxsrez/marketplace.git",
         "path": "./plugins/ship-tasks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shipyard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dimonb/skills.git",
+        "path": "./plugins/shipyard"
       },
       "policy": {
         "installation": "AVAILABLE",

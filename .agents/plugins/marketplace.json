@@ -1474,6 +1474,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "backlog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/backlog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "backs-aios",
       "source": {
         "source": "url",
@@ -2331,6 +2344,19 @@
         "source": "git-subdir",
         "url": "https://github.com/coalesce-labs/catalyst.git",
         "path": "./plugins/playground/pm-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "caveman-stable",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/caveman-stable"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3275,6 +3301,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "code-debug",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/code-debug"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code-documentation",
       "source": {
         "source": "git-subdir",
@@ -3306,6 +3345,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/code-refactoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-review-cadu",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/code-review-cadu"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5705,6 +5757,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "facilitador-reunioes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/facilitador-reunioes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "factset",
       "source": {
         "source": "git-subdir",
@@ -6727,6 +6792,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "grill-with-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/grill-with-docs.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grillme-gestor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/grillme-gestor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grillme-langgraph",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/grillme-langgraph"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "grimm",
       "source": {
         "source": "git-subdir",
@@ -7378,6 +7482,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "icons8",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/icons8/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ida-pro-mcp",
       "source": {
         "source": "url",
@@ -7914,6 +8030,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "langgraph-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/langgraph-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "langsmith-evals",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/langsmith-evals"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "laoyuan-aigc-photo-recreation",
       "source": {
         "source": "git-subdir",
@@ -8020,6 +8162,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lemma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "levantamento-requisitos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/levantamento-requisitos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9334,6 +9489,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "modelos-custo-beneficio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/modelos-custo-beneficio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "monday-com",
       "source": {
         "source": "git-subdir",
@@ -9519,6 +9687,18 @@
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/coherence/name-split"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nano-spec",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dmitrii-dremin/nano-spec.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10375,6 +10555,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/yangpeng366/openeyes.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "openhivemind",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bezilaszlo/openhivemind.git",
+        "path": "./client/plugins/codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11289,6 +11482,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "precode-system-foundations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/precode-system-foundations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "presentations",
       "source": {
         "source": "git-subdir",
@@ -11495,6 +11701,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prompt-only-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/prompt-only-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "proplasma",
       "source": {
         "source": "git-subdir",
@@ -11662,11 +11881,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "qa-planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/qa-planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "qualitative-research",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/qualitative-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quality-security-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/quality-security-gate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11752,6 +11997,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "quoin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/quoin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "quota-dashboard",
       "source": {
         "source": "git-subdir",
@@ -11782,6 +12039,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/rag-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rag-kag-decision",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/rag-kag-decision"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11948,6 +12218,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/DitriXNew/rekall.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "relatorio-gerencial",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/relatorio-gerencial"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12331,6 +12614,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/runapi-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rust-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vanyastaff/rust-studio.git",
+        "path": "./plugins/rust-studio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13027,6 +13323,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/scite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "screenrig",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/screenrig/plugin.git",
+        "path": "./plugins/screenrig"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13913,6 +14222,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "so-me-studio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/7t1-studio/so-me-studio-chatgpt-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "social-publishing",
       "source": {
         "source": "git-subdir",
@@ -13991,6 +14312,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/readdle/spark-cli-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spbridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/angelopublio/agent-spartan-protocol-bridge.git",
+        "path": "./agent-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15833,6 +16167,19 @@
         "source": "git-subdir",
         "url": "https://github.com/john-briggs-wgu/wgu-codex-plugins.git",
         "path": "./plugins/wgu-agent-foundation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "whatsapp-business-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cadugevaerd/codex-skills.git",
+        "path": "./plugins/whatsapp-business-platform"
       },
       "policy": {
         "installation": "AVAILABLE",

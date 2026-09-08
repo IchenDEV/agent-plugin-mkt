@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cache, type ReactNode } from "react";
+import { cache, type ComponentProps, type ReactNode } from "react";
 import { JsonLd } from "@/components/json-ld";
 import { PluginCard } from "@/components/plugin-card";
 import { Card, Container, EmptyState, SearchInput, transportLabel } from "@/components/ui";
@@ -21,6 +21,7 @@ import {
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 import { getLocale } from "@/lib/i18n-server";
 import { intentCanonicalForFilters } from "@/lib/seo-content";
+import { isBrowseFilterUrl } from "@/lib/crawl-policy";
 
 export const dynamic = "force-dynamic";
 
@@ -214,6 +215,10 @@ function hrefWith(active: ActiveParams, patch: Partial<Record<ParamKey, ParamVal
   return qs ? `/plugins?${qs}` : "/plugins";
 }
 
+function BrowseLink({ href, ...props }: Omit<ComponentProps<typeof Link>, "href"> & { href: string }) {
+  return <Link {...props} href={href} rel={isBrowseFilterUrl(href) ? "nofollow" : undefined} prefetch={false} />;
+}
+
 function FilterGroup({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div>
@@ -239,7 +244,7 @@ function RailLink({
   count?: number;
 }) {
   return (
-    <Link
+    <BrowseLink
       href={href}
       role={multi ? "checkbox" : undefined}
       aria-checked={multi ? active : undefined}
@@ -264,7 +269,7 @@ function RailLink({
       {count !== undefined ? (
         <span className={`text-xs ${active ? "text-iris-deep/70" : "text-gray-400"}`}>{count}</span>
       ) : null}
-    </Link>
+    </BrowseLink>
   );
 }
 
@@ -425,9 +430,9 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
             <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.plugins, locale)}</strong> {zh ? "插件" : "plugins"}</span>
             <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.repositories, locale)}</strong> {zh ? "仓库" : "repositories"}</span>
             <span><strong className="font-semibold text-ink">{formatNumber(categoryMetrics.crossRuntimePlugins, locale)}</strong> {zh ? "跨运行时" : "cross-runtime"}</span>
-            <Link href="/insights#methodology" className="ml-auto font-medium text-iris hover:text-iris-deep">
+            <BrowseLink href="/insights#methodology" className="ml-auto font-medium text-iris hover:text-iris-deep">
               {zh ? "索引方法" : "Indexing methodology"} →
-            </Link>
+            </BrowseLink>
           </div>
         </Card>
       ) : null}
@@ -478,7 +483,7 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
           {chips.length > 0 ? (
             <div className="mb-4 flex flex-wrap items-center gap-2">
               {chips.map((chip) => (
-                <Link
+                <BrowseLink
                   key={chip.key}
                   href={chip.href}
                   aria-label={`${zh ? "移除筛选" : "Remove filter"}: ${chip.label}`}
@@ -486,14 +491,14 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
                 >
                   <span className={chip.mono ? "font-mono" : ""}>{chip.label}</span>
                   <span aria-hidden>×</span>
-                </Link>
+                </BrowseLink>
               ))}
-              <Link
+              <BrowseLink
                 href="/plugins"
                 className="text-xs font-medium text-gray-500 underline-offset-2 hover:text-iris hover:underline"
               >
                 {c.clearAll}
-              </Link>
+              </BrowseLink>
             </div>
           ) : null}
 
@@ -502,12 +507,12 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
               title={c.noMatch}
               hint={c.noMatchHint}
               action={
-                <Link
+                <BrowseLink
                   href="/plugins"
                   className="inline-flex rounded-md bg-action px-4 py-2 text-sm font-semibold text-on-action hover:bg-iris"
                 >
                   {c.clearAllFilters}
-                </Link>
+                </BrowseLink>
               }
             />
           ) : results.items.length === 0 ? (
@@ -515,12 +520,12 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
               title={c.nothing}
               hint={c.nothingHint}
               action={
-                <Link
+                <BrowseLink
                   href={hrefWith(active, { page: null })}
                   className="inline-flex rounded-md bg-action px-4 py-2 text-sm font-semibold text-on-action hover:bg-iris"
                 >
                   {c.back}
-                </Link>
+                </BrowseLink>
               }
             />
           ) : (
@@ -538,14 +543,14 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
                   className="mt-10 flex items-center justify-center gap-4 text-sm font-medium"
                 >
                   {results.page > 1 ? (
-                    <Link
+                    <BrowseLink
                       href={hrefWith(active, {
                         page: results.page === 2 ? null : String(results.page - 1),
                       })}
                       className="rounded-md border border-gray-200 bg-surface px-3 py-1.5 text-gray-600 hover:border-iris hover:text-iris"
                     >
                       {c.prev}
-                    </Link>
+                    </BrowseLink>
                   ) : (
                     <span aria-hidden className="rounded-md border border-gray-100 px-3 py-1.5 text-gray-300">
                       {c.prev}
@@ -555,12 +560,12 @@ export default async function BrowsePage({ searchParams }: BrowsePageProps) {
                     {zh ? `第 ${results.page} / ${results.totalPages} 页` : `Page ${results.page} of ${results.totalPages}`}
                   </span>
                   {results.page < results.totalPages ? (
-                    <Link
+                    <BrowseLink
                       href={hrefWith(active, { page: String(results.page + 1) })}
                       className="rounded-md border border-gray-200 bg-surface px-3 py-1.5 text-gray-600 hover:border-iris hover:text-iris"
                     >
                       {c.next}
-                    </Link>
+                    </BrowseLink>
                   ) : (
                     <span aria-hidden className="rounded-md border border-gray-100 px-3 py-1.5 text-gray-300">
                       {c.next}

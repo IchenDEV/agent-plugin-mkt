@@ -1,7 +1,7 @@
 import { searchPlugins } from "@/lib/queries";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 21_600;
 
 // Plain-text guide for LLM agents (llms.txt convention): what this site is,
 // how to query it programmatically, and the current top plugins.

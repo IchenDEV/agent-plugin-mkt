@@ -8,5 +8,7 @@ export const dynamic = "force-dynamic";
 /** GET /api/v1/stats — registry totals. */
 export async function GET() {
   const stats = await getStats();
-  return json({ data: stats });
+  return json({ data: stats }, {
+    headers: { "Cache-Control": "public, max-age=60, s-maxage=21600, stale-while-revalidate=60" },
+  });
 }

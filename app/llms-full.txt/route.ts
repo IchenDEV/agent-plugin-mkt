@@ -2,7 +2,7 @@ import { getAllPluginSummaries } from "@/lib/queries";
 import { PROTOCOL_LABELS } from "@/lib/protocols";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 21_600;
 
 function oneLine(text: string, max: number): string {
   const collapsed = text.replace(/\s+/g, " ").trim();

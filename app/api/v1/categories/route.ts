@@ -8,5 +8,7 @@ export const dynamic = "force-dynamic";
 /** GET /api/v1/categories — keyword-derived categories ranked by frequency. */
 export async function GET() {
   const categories = await getCategories();
-  return json({ data: categories });
+  return json({ data: categories }, {
+    headers: { "Cache-Control": "public, max-age=60, s-maxage=21600, stale-while-revalidate=60" },
+  });
 }

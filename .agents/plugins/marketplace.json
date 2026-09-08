@@ -104,6 +104,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyber-sdd.git",
+        "path": "./plugins/aced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ach-memory",
       "source": {
         "source": "git-subdir",
@@ -674,6 +687,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-engineering-workflows",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daniel-galvan/ai-engineering-workflow-framework.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-friendly-cli",
       "source": {
         "source": "git-subdir",
@@ -818,6 +843,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/alpaca"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "amazon-ads-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zerlinpi/amazon-ads-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -984,6 +1021,71 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/anthropic-office-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anychat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/anychat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anydoc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/anydoc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anyimmi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/anyimmi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anypdf",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/anypdf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anyweb",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/anyweb"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1309,6 +1411,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "autoqa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./autoqa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "autorefine",
       "source": {
         "source": "url",
@@ -1487,6 +1602,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "backlot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brekkylab/backlot.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "backs-aios",
       "source": {
         "source": "url",
@@ -1529,6 +1656,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/bash-guards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bbwatch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jsyzlbw/bbwatch.git",
+        "path": "./plugins/bbwatch"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2266,6 +2406,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/carta-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cascade",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./cascade"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3968,6 +4121,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "context-shunt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/YMD7/agent-plugins.git",
+        "path": "./plugins/context-shunt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "contorium",
       "source": {
         "source": "url",
@@ -4668,6 +4834,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "desloppify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./desloppify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dev-graph",
       "source": {
         "source": "git-subdir",
@@ -5293,6 +5472,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/saibodafu/e-commerce-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "easybooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/easybooks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6016,6 +6208,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fatihguner/foreman.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "formbro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jackyzhang69/plugins.git",
+        "path": "./plugins/formbro"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6925,6 +7130,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hands-free",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./hands-free"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10896,6 +11114,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "parable",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./parable"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "parallel",
       "source": {
         "source": "url",
@@ -11456,6 +11687,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pr-shepherd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jonathanong/pr-shepherd.git",
+        "path": "./plugins/pr-shepherd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "praxis",
       "source": {
         "source": "git-subdir",
@@ -11474,6 +11718,19 @@
         "source": "git-subdir",
         "url": "https://github.com/BradyHazell/brady-plugins.git",
         "path": "./plugins/prd-drafter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "precap",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./precap"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11654,6 +11911,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/project-setup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjthompson/claude-code-config.git",
+        "path": "./plugins/project-tasks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11868,6 +12138,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "python-scripting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cjthompson/claude-code-config.git",
+        "path": "./plugins/python-scripting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "python-skills",
       "source": {
         "source": "git-subdir",
@@ -11977,6 +12260,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/quicknode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyber-sdd.git",
+        "path": "./plugins/quill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12168,6 +12464,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/readwise"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recall",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./recall"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13344,6 +13653,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sdd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyber-sdd.git",
+        "path": "./plugins/sdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sdd-toolkit",
       "source": {
         "source": "url",
@@ -14226,6 +14548,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/7t1-studio/so-me-studio-chatgpt-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "social-flow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ttalkkaklab/social-flow.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15276,6 +15610,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tether",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./tether"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "text-humanizer",
       "source": {
         "source": "git-subdir",
@@ -16257,6 +16604,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cdcoonce/the-workshop.git",
         "path": "./plugins/workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workflow-graph",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/YMD7/agent-plugins.git",
+        "path": "./plugins/workflow-graph"
       },
       "policy": {
         "installation": "AVAILABLE",

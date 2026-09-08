@@ -800,6 +800,109 @@
       "category": "Developer Tools"
     },
     {
+      "name": "akash-network",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/akash-network/akash-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-draw",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-draw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-draw-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-draw-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-learning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-presentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-presentation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-pulse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-pulse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alation",
       "source": {
         "source": "git-subdir",
@@ -3275,6 +3378,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clearskies",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scratchpad-ai/clearskies-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "click",
       "source": {
         "source": "url",
@@ -3676,6 +3791,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pauljunsukhan/codex-chatgpt-pro-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-count",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayooleo/codexcount.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4248,6 +4375,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cowart",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zhongerxin/Cowart.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "craft-skills-and-memories",
       "source": {
         "source": "git-subdir",
@@ -4329,6 +4468,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/customer-sales-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cut-and-tell",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wildandpeaceful/cut-and-tell.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5885,6 +6036,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "expert-council",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Labiey/expert-council-router.git",
+        "path": "./packages/codex-integration/plugin/expert-council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "expo",
       "source": {
         "source": "git-subdir",
@@ -6307,6 +6471,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fulcrum-ai-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/fulcrumapp/fulcrum-ai-toolkit.git",
+        "path": "./plugins/fulcrum-ai-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "full-research-cycle",
       "source": {
         "source": "git-subdir",
@@ -6491,6 +6668,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tuanpham09/codex-genesis-harness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gesia-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Ensys-Consultores-Informaticos/chatgpt-plugins.git",
+        "path": "./plugins/gesia-mcp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12548,6 +12738,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "relay",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/RelayMessenger/Relay-SDK.git",
+        "path": "./plugins/relay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rem",
       "source": {
         "source": "git-subdir",
@@ -12923,6 +13126,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/runapi-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rust-intel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PHPCraftdream/rust-intel.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14672,6 +14887,18 @@
         "source": "git-subdir",
         "url": "https://github.com/daishiman/harness-dev.git",
         "path": "./plugins/spec-drift-guardian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spec-loop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GhostlyGawd/spec-loop-codex.git"
       },
       "policy": {
         "installation": "AVAILABLE",

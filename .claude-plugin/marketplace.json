@@ -1239,6 +1239,69 @@
       }
     },
     {
+      "name": "akash-network",
+      "source": {
+        "source": "github",
+        "repo": "akash-network/akash-skill"
+      }
+    },
+    {
+      "name": "akbun-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-analysis"
+      }
+    },
+    {
+      "name": "akbun-draw",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-draw"
+      }
+    },
+    {
+      "name": "akbun-draw-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-draw-architecture"
+      }
+    },
+    {
+      "name": "akbun-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-learning"
+      }
+    },
+    {
+      "name": "akbun-presentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-presentation"
+      }
+    },
+    {
+      "name": "akbun-pulse",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-pulse"
+      }
+    },
+    {
+      "name": "akbun-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "choisungwook/akbun-aitools",
+        "path": "plugins/akbun-writing"
+      }
+    },
+    {
       "name": "alchemy-pack",
       "source": {
         "source": "git-subdir",
@@ -1498,6 +1561,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/anthropic-pack"
+      }
+    },
+    {
+      "name": "anton-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/anton-toolkit"
       }
     },
     {
@@ -3052,6 +3123,13 @@
       }
     },
     {
+      "name": "better-workspace-mcp",
+      "source": {
+        "source": "github",
+        "repo": "n24q02m/better-workspace-mcp"
+      }
+    },
+    {
       "name": "bibliothekarin",
       "source": {
         "source": "git-subdir",
@@ -3377,6 +3455,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/brain"
+      }
+    },
+    {
+      "name": "brainstorm",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/brainstorm"
       }
     },
     {
@@ -5178,6 +5264,13 @@
       }
     },
     {
+      "name": "clearskies",
+      "source": {
+        "source": "github",
+        "repo": "scratchpad-ai/clearskies-plugin"
+      }
+    },
+    {
       "name": "clerk-pack",
       "source": {
         "source": "git-subdir",
@@ -5366,6 +5459,13 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/code-documentation"
+      }
+    },
+    {
+      "name": "code-gauntlet",
+      "source": {
+        "source": "github",
+        "repo": "liatrio-labs/claude-code-gauntlet"
       }
     },
     {
@@ -6896,6 +6996,13 @@
       }
     },
     {
+      "name": "cwk",
+      "source": {
+        "source": "github",
+        "repo": "NamHT4Devlop/claude-code-workflow-kit"
+      }
+    },
+    {
       "name": "cx-atendimento",
       "source": {
         "source": "git-subdir",
@@ -8026,6 +8133,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/design-to-code"
+      }
+    },
+    {
+      "name": "design-to-code-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "oayres/agent-plugins",
+        "path": "plugins/design-to-code"
       }
     },
     {
@@ -11133,6 +11248,14 @@
       }
     },
     {
+      "name": "frontend-conventions",
+      "source": {
+        "source": "git-subdir",
+        "url": "MartinCa/frontend-kit",
+        "path": "plugins/frontend-conventions"
+      }
+    },
+    {
       "name": "frontend-design",
       "source": {
         "source": "git-subdir",
@@ -11241,6 +11364,14 @@
       "source": {
         "source": "github",
         "repo": "wave1008/foundation-tester"
+      }
+    },
+    {
+      "name": "fulcrum-ai-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "fulcrumapp/fulcrum-ai-toolkit",
+        "path": "plugins/fulcrum-ai-toolkit"
       }
     },
     {
@@ -11485,6 +11616,14 @@
       "source": {
         "source": "github",
         "repo": "Jdjohnson/skills"
+      }
+    },
+    {
+      "name": "genesys-demo",
+      "source": {
+        "source": "git-subdir",
+        "url": "minazih/genesys-demo",
+        "path": "src"
       }
     },
     {
@@ -11982,6 +12121,13 @@
       }
     },
     {
+      "name": "graphy",
+      "source": {
+        "source": "github",
+        "repo": "omnislash157/graphyos"
+      }
+    },
+    {
       "name": "great-cto",
       "source": {
         "source": "github",
@@ -12214,6 +12360,14 @@
         "source": "git-subdir",
         "url": "jasonm4130/claude-skills",
         "path": "plugins/handoff"
+      }
+    },
+    {
+      "name": "handoff-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "h-zahran/delivery-kit",
+        "path": "handoff"
       }
     },
     {
@@ -12701,6 +12855,13 @@
       "source": {
         "source": "github",
         "repo": "iOSDevSK/html2wp-cc-plugin"
+      }
+    },
+    {
+      "name": "htmldeck",
+      "source": {
+        "source": "github",
+        "repo": "uchimata2/htmldeck"
       }
     },
     {
@@ -13790,6 +13951,14 @@
       }
     },
     {
+      "name": "kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "rranauro/claude-kit",
+        "path": "plugins/kit"
+      }
+    },
+    {
       "name": "kk",
       "source": {
         "source": "git-subdir",
@@ -14158,6 +14327,13 @@
       }
     },
     {
+      "name": "lean-harness-cs-v1",
+      "source": {
+        "source": "github",
+        "repo": "cwijayasundara/harness_lite_for_claude_v1.0"
+      }
+    },
+    {
       "name": "learn",
       "source": {
         "source": "git-subdir",
@@ -14466,6 +14642,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/libgdx-development"
+      }
+    },
+    {
+      "name": "lichnost",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/lichnost"
       }
     },
     {
@@ -14821,6 +15005,14 @@
         "source": "git-subdir",
         "url": "ncaq/konoka",
         "path": "plugins/log-analyzer"
+      }
+    },
+    {
+      "name": "logos",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/logos"
       }
     },
     {
@@ -15732,6 +15924,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "plugins/mcp-tunnels"
+      }
+    },
+    {
+      "name": "mcpbrain",
+      "source": {
+        "source": "git-subdir",
+        "url": "Centrepoint-Church/mcpbrain",
+        "path": "plugin"
       }
     },
     {
@@ -18431,6 +18631,14 @@
       }
     },
     {
+      "name": "pipeline-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "h-zahran/delivery-kit",
+        "path": "pipeline"
+      }
+    },
+    {
       "name": "pitch-copy",
       "source": {
         "source": "git-subdir",
@@ -18590,6 +18798,14 @@
       }
     },
     {
+      "name": "planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/planning"
+      }
+    },
+    {
       "name": "plannotator-design-artifact",
       "source": {
         "source": "github",
@@ -18671,6 +18887,14 @@
         "source": "git-subdir",
         "url": "motlin/claude-code-plugins",
         "path": "plugins/plugin-and-skill-dev"
+      }
+    },
+    {
+      "name": "plugin-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/plugin-builder"
       }
     },
     {
@@ -18766,6 +18990,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/plugin-eval"
+      }
+    },
+    {
+      "name": "plugin-eval-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "oayres/agent-plugins",
         "path": "plugins/plugin-eval"
       }
     },
@@ -20569,6 +20801,30 @@
       }
     },
     {
+      "name": "relay-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "RelayMessenger/Relay-SDK",
+        "path": "packages/claude-code"
+      }
+    },
+    {
+      "name": "relay-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "RelayMessenger/Relay-SDK",
+        "path": "packages/claude-code/plugin"
+      }
+    },
+    {
+      "name": "relay-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "RelayMessenger/Relay-SDK",
+        "path": "tooling/skills-distributions"
+      }
+    },
+    {
       "name": "relay-audit",
       "source": {
         "source": "git-subdir",
@@ -20662,6 +20918,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/relay-ship"
+      }
+    },
+    {
+      "name": "release-tools-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/release-tools"
       }
     },
     {
@@ -21036,6 +21300,14 @@
       }
     },
     {
+      "name": "review-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/review"
+      }
+    },
+    {
       "name": "review-agent-governance",
       "source": {
         "source": "git-subdir",
@@ -21221,6 +21493,13 @@
         "source": "git-subdir",
         "url": "cjthompson/claude-code-config",
         "path": "plugins/rust-coding"
+      }
+    },
+    {
+      "name": "rust-intel",
+      "source": {
+        "source": "github",
+        "repo": "PHPCraftdream/rust-intel"
       }
     },
     {
@@ -22544,6 +22823,14 @@
       }
     },
     {
+      "name": "skill-eval",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/skill-eval"
+      }
+    },
+    {
       "name": "skill-fields-reviewer",
       "source": {
         "source": "git-subdir",
@@ -23532,6 +23819,14 @@
       }
     },
     {
+      "name": "staynest-ship-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "Marcdaou/marcdaou-plugins",
+        "path": "plugins/staynest-ship-kit"
+      }
+    },
+    {
       "name": "steuer",
       "source": {
         "source": "git-subdir",
@@ -24070,6 +24365,14 @@
       }
     },
     {
+      "name": "system-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/system-designer"
+      }
+    },
+    {
       "name": "system-dev-planner",
       "source": {
         "source": "git-subdir",
@@ -24175,6 +24478,14 @@
         "source": "git-subdir",
         "url": "tanaka-mambinge/takealot-plugin",
         "path": "plugins/takealot"
+      }
+    },
+    {
+      "name": "talent-sourcing",
+      "source": {
+        "source": "git-subdir",
+        "url": "redesignhealth/talent-sourcing-skills",
+        "path": "plugins/talent-sourcing"
       }
     },
     {
@@ -24717,6 +25028,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wangjs-jacky/jacky-skills",
+        "path": "plugins/thinking-tools"
+      }
+    },
+    {
+      "name": "thinking-tools-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
         "path": "plugins/thinking-tools"
       }
     },
@@ -25796,6 +26115,14 @@
       "source": {
         "source": "github",
         "repo": "kunjee17/vibe-architect"
+      }
+    },
+    {
+      "name": "vibe-coding-course",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/vibe-coding-course"
       }
     },
     {
@@ -27015,6 +27342,14 @@
       }
     },
     {
+      "name": "workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "umputun/cc-thingz",
+        "path": "plugins/workflow"
+      }
+    },
+    {
       "name": "workflow-builder",
       "source": {
         "source": "git-subdir",
@@ -27370,6 +27705,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/youtube-strategy"
+      }
+    },
+    {
+      "name": "youtube-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "lopatuxin/anton-toolkit",
+        "path": "plugins/youtube-toolkit"
       }
     },
     {

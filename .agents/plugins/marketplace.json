@@ -5532,6 +5532,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dsh-codex-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/v20227/dsh-codex-workflow.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dsh-developer",
       "source": {
         "source": "url",
@@ -7411,6 +7423,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Fueav/harness-driven-development.git",
         "path": "./plugins/harness-driven-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "headerlab",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/say8425/headerlab.git",
+        "path": "./packages/plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13030,6 +13055,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "river-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/s977043/river-review.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rmb",
       "source": {
         "source": "git-subdir",
@@ -13189,6 +13226,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/avivsinai/sabx.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sacha-orchestra",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yyqrc/SachaOrchestra.git",
+        "path": "./plugins/sacha-orchestra"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14201,6 +14251,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shd-mcp-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bulava92/shd-mcp-plugin.git",
+        "path": "./plugins/shd-mcp-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shell-scripting",
       "source": {
         "source": "git-subdir",
@@ -14444,6 +14507,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/avivsinai/skill-authoring.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-board",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/YYPumpkin/Skill-.git",
+        "path": "./.agents/plugins/skill-board"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16197,6 +16273,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/ui-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ultra-goal",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rocky2431/ultra-goal-skill.git",
+        "path": "./plugins/ultra-goal"
       },
       "policy": {
         "installation": "AVAILABLE",

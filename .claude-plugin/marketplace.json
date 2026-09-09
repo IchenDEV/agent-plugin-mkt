@@ -524,6 +524,13 @@
       }
     },
     {
+      "name": "agent-gauntlet",
+      "source": {
+        "source": "github",
+        "repo": "n0an/agent-gauntlet"
+      }
+    },
+    {
       "name": "agent-guard",
       "source": {
         "source": "git-subdir",
@@ -2483,6 +2490,13 @@
       }
     },
     {
+      "name": "aspark",
+      "source": {
+        "source": "github",
+        "repo": "a-lottes/aSPARK"
+      }
+    },
+    {
       "name": "assemblyai-pack",
       "source": {
         "source": "git-subdir",
@@ -3481,6 +3495,13 @@
       "source": {
         "source": "github",
         "repo": "echoVic/boss-skill"
+      }
+    },
+    {
+      "name": "bosun",
+      "source": {
+        "source": "github",
+        "repo": "mckissinger/bosun"
       }
     },
     {
@@ -4868,6 +4889,13 @@
       "source": {
         "source": "github",
         "repo": "code-katz/ck"
+      }
+    },
+    {
+      "name": "ck-code",
+      "source": {
+        "source": "github",
+        "repo": "ckandrinirina/ck-code"
       }
     },
     {
@@ -6637,6 +6665,14 @@
       }
     },
     {
+      "name": "coolify",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsjavi/skills",
+        "path": "plugins/coolify"
+      }
+    },
+    {
       "name": "copyq-scripting",
       "source": {
         "source": "github",
@@ -7168,6 +7204,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/csrf-protection-validator"
+      }
+    },
+    {
+      "name": "cube-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "KNOSERO/agent-skills",
+        "path": "plugins/cube"
       }
     },
     {
@@ -7977,6 +8021,13 @@
       }
     },
     {
+      "name": "daviduartedev-skills",
+      "source": {
+        "source": "github",
+        "repo": "daviduartedev/skills"
+      }
+    },
+    {
       "name": "daytona",
       "source": {
         "source": "github",
@@ -8536,6 +8587,14 @@
       }
     },
     {
+      "name": "dev-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "joshjhall/librarian",
+        "path": "plugins/dev-core"
+      }
+    },
+    {
       "name": "dev-flow",
       "source": {
         "source": "git-subdir",
@@ -8579,6 +8638,14 @@
       "source": {
         "source": "github",
         "repo": "momoshell/dev-team-claude-plugin"
+      }
+    },
+    {
+      "name": "dev-team-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "bdfinst/agentic-dev-team",
+        "path": "plugins/dev-team"
       }
     },
     {
@@ -8727,6 +8794,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/devrel/devrel"
+      }
+    },
+    {
+      "name": "devscout",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsjavi/skills",
+        "path": "plugins/devscout"
       }
     },
     {
@@ -9619,10 +9694,42 @@
       }
     },
     {
+      "name": "edgepilot-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rivendell-investment/edgepilot-marketplace",
+        "path": "plugins/claude/edgepilot"
+      }
+    },
+    {
+      "name": "edgepilot-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rivendell-investment/edgepilot-marketplace",
+        "path": "plugins/codex/edgepilot"
+      }
+    },
+    {
       "name": "edgepilot-research",
       "source": {
         "source": "github",
         "repo": "Rivendell-investment/edgepilot-research-claude"
+      }
+    },
+    {
+      "name": "edgepilot-research-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rivendell-investment/edgepilot-marketplace",
+        "path": "plugins/claude/edgepilot-research"
+      }
+    },
+    {
+      "name": "edgepilot-research-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rivendell-investment/edgepilot-marketplace",
+        "path": "plugins/codex/edgepilot-research"
       }
     },
     {
@@ -10460,6 +10567,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/fable-advisor"
+      }
+    },
+    {
+      "name": "fable-director",
+      "source": {
+        "source": "git-subdir",
+        "url": "frsorrentino/fable-director",
+        "path": "fable-director"
       }
     },
     {
@@ -11946,6 +12061,14 @@
       }
     },
     {
+      "name": "gamegen",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsjavi/skills",
+        "path": "plugins/gamegen"
+      }
+    },
+    {
       "name": "gamma-pack",
       "source": {
         "source": "git-subdir",
@@ -12836,6 +12959,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/guidewire-pack"
+      }
+    },
+    {
+      "name": "hal-output-styles",
+      "source": {
+        "source": "git-subdir",
+        "url": "vinta/hal-9000",
+        "path": "plugins/hal-output-styles"
       }
     },
     {
@@ -16180,6 +16311,14 @@
       }
     },
     {
+      "name": "marketplace-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "bdfinst/agentic-dev-team",
+        "path": "plugins/marketplace-dev"
+      }
+    },
+    {
       "name": "marketplace-ops",
       "source": {
         "source": "git-subdir",
@@ -17670,6 +17809,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/nosql-data-modeler"
+      }
+    },
+    {
+      "name": "not-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "udaysharmadev/Not-Ai",
+        "path": "plugins/not-ai"
       }
     },
     {
@@ -19196,6 +19343,13 @@
       }
     },
     {
+      "name": "pfalkowski-skills",
+      "source": {
+        "source": "github",
+        "repo": "PFalkowski/skills"
+      }
+    },
+    {
       "name": "pgbot",
       "source": {
         "source": "github",
@@ -20077,6 +20231,13 @@
       }
     },
     {
+      "name": "pr-sentinel",
+      "source": {
+        "source": "github",
+        "repo": "karlkfi/claude-pr-sentinel"
+      }
+    },
+    {
       "name": "pr-shepherd",
       "source": {
         "source": "github",
@@ -20151,6 +20312,14 @@
         "source": "git-subdir",
         "url": "ncaq/konoka",
         "path": "plugins/prefer-builtin-update"
+      }
+    },
+    {
+      "name": "presentation-production",
+      "source": {
+        "source": "git-subdir",
+        "url": "Alcan-Dental-Cooperative/alcan-workflows",
+        "path": "plugins/presentation-production"
       }
     },
     {
@@ -22126,6 +22295,14 @@
       }
     },
     {
+      "name": "review-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "joshjhall/librarian",
+        "path": "plugins/review-audit"
+      }
+    },
+    {
       "name": "rh",
       "source": {
         "source": "git-subdir",
@@ -22348,6 +22525,14 @@
         "source": "git-subdir",
         "url": "yyqrc/SachaOrchestra",
         "path": "plugins/sacha-orchestra"
+      }
+    },
+    {
+      "name": "safeguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsjavi/skills",
+        "path": "plugins/safeguard"
       }
     },
     {
@@ -22985,6 +23170,14 @@
       }
     },
     {
+      "name": "security-assessment",
+      "source": {
+        "source": "git-subdir",
+        "url": "bdfinst/agentic-dev-team",
+        "path": "plugins/security-assessment"
+      }
+    },
+    {
       "name": "security-audit-reporter",
       "source": {
         "source": "git-subdir",
@@ -23591,6 +23784,13 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/simulation-harness"
+      }
+    },
+    {
+      "name": "siteos",
+      "source": {
+        "source": "github",
+        "repo": "pixel-point/siteos"
       }
     },
     {
@@ -25728,6 +25928,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-167/_assets/rulebook-skeleton/test-authoring/test-authoring"
+      }
+    },
+    {
+      "name": "test-autoevermation-harness-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "1223v/test-autoevermation-harness",
+        "path": "test-autoevermation-harness-plugin"
       }
     },
     {
@@ -27933,6 +28141,14 @@
       }
     },
     {
+      "name": "webcraft",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsjavi/skills",
+        "path": "plugins/webcraft"
+      }
+    },
+    {
       "name": "webflow-pack",
       "source": {
         "source": "git-subdir",
@@ -28385,6 +28601,14 @@
       "source": {
         "source": "git-subdir",
         "url": "umputun/cc-thingz",
+        "path": "plugins/workflow"
+      }
+    },
+    {
+      "name": "workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "joshjhall/librarian",
         "path": "plugins/workflow"
       }
     },

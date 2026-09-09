@@ -2009,6 +2009,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bosun",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mckissinger/bosun.git",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bouncer",
       "source": {
         "source": "url",
@@ -4324,6 +4337,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coolify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/itsjavi/skills.git",
+        "path": "./plugins/coolify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "core",
       "source": {
         "source": "url",
@@ -5141,6 +5167,19 @@
         "source": "git-subdir",
         "url": "https://github.com/akin-ozer/cc-devops-skills.git",
         "path": "./devops-skills-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devscout",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/itsjavi/skills.git",
+        "path": "./plugins/devscout"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6617,6 +6656,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/game-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gamegen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/itsjavi/skills.git",
+        "path": "./plugins/gamegen"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10052,6 +10104,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mumo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mumo-chat/mumo-codex.git",
+        "path": "./plugins/mumo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mutantkit",
       "source": {
         "source": "url",
@@ -10321,6 +10386,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/no-invalid-states"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "not-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/udaysharmadev/Not-Ai.git",
+        "path": "./plugins/not-ai"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13259,6 +13337,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "safeguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/itsjavi/skills.git",
+        "path": "./plugins/safeguard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sagemaker-ai",
       "source": {
         "source": "git-subdir",
@@ -14483,6 +14574,18 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/simplify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "siteos",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixel-point/siteos.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16775,6 +16878,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "webcraft",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/itsjavi/skills.git",
+        "path": "./plugins/webcraft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "webgpt-orchestrator",
       "source": {
         "source": "url",
@@ -16830,6 +16946,18 @@
         "source": "git-subdir",
         "url": "https://github.com/john-briggs-wgu/wgu-codex-plugins.git",
         "path": "./plugins/wgu-agent-foundation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "what-tibo-said",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rapidhere121345/what-tibo-said-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",

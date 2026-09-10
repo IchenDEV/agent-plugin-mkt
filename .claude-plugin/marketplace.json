@@ -2529,6 +2529,13 @@
       }
     },
     {
+      "name": "astir",
+      "source": {
+        "source": "github",
+        "repo": "Sertelegger/astir"
+      }
+    },
+    {
       "name": "atlas",
       "source": {
         "source": "git-subdir",
@@ -3627,6 +3634,14 @@
       "source": {
         "source": "git-subdir",
         "url": "umputun/cc-thingz",
+        "path": "plugins/brainstorm"
+      }
+    },
+    {
+      "name": "brainstorm-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
         "path": "plugins/brainstorm"
       }
     },
@@ -6790,6 +6805,14 @@
       }
     },
     {
+      "name": "core-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "schmucas/dotclaude",
+        "path": "plugins/core"
+      }
+    },
+    {
       "name": "coreweave-pack",
       "source": {
         "source": "git-subdir",
@@ -6960,6 +6983,13 @@
         "source": "git-subdir",
         "url": "cr-calleja-software/claude-toolkit",
         "path": "plugins/cr"
+      }
+    },
+    {
+      "name": "craft-2",
+      "source": {
+        "source": "github",
+        "repo": "wdx9413/craft"
       }
     },
     {
@@ -8034,6 +8064,14 @@
         "source": "git-subdir",
         "url": "awslabs/agent-plugins",
         "path": "plugins/databases-on-aws"
+      }
+    },
+    {
+      "name": "databricks",
+      "source": {
+        "source": "git-subdir",
+        "url": "schmucas/dotclaude",
+        "path": "plugins/databricks"
       }
     },
     {
@@ -9833,6 +9871,13 @@
         "source": "git-subdir",
         "url": "Rivendell-investment/edgepilot-marketplace",
         "path": "plugins/codex/edgepilot-research"
+      }
+    },
+    {
+      "name": "editorial-loop",
+      "source": {
+        "source": "github",
+        "repo": "AlastairZeved/Editorial-Loop"
       }
     },
     {
@@ -12522,6 +12567,14 @@
       }
     },
     {
+      "name": "git-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
+        "path": "plugins/git-tools"
+      }
+    },
+    {
       "name": "git-workflow",
       "source": {
         "source": "git-subdir",
@@ -12662,6 +12715,14 @@
         "source": "git-subdir",
         "url": "pyy0715/glm-plugin-cc",
         "path": "plugins/glm"
+      }
+    },
+    {
+      "name": "global-rules",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
+        "path": "plugins/global-rules"
       }
     },
     {
@@ -12836,6 +12897,14 @@
       }
     },
     {
+      "name": "governance-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "djjay0131/agentic-governance",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "gp-07-saas-cost-optimiser",
       "source": {
         "source": "git-subdir",
@@ -12873,6 +12942,13 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "research/grants"
+      }
+    },
+    {
+      "name": "graph-engineering",
+      "source": {
+        "source": "github",
+        "repo": "ShonP/graph-engineering"
       }
     },
     {
@@ -14592,6 +14668,34 @@
       }
     },
     {
+      "name": "joai-peerme",
+      "source": {
+        "source": "github",
+        "repo": "joai-plugins/peerme"
+      }
+    },
+    {
+      "name": "joai-poll",
+      "source": {
+        "source": "github",
+        "repo": "joai-plugins/poll"
+      }
+    },
+    {
+      "name": "joai-projectx",
+      "source": {
+        "source": "github",
+        "repo": "joai-plugins/projectx"
+      }
+    },
+    {
+      "name": "joai-rating",
+      "source": {
+        "source": "github",
+        "repo": "joai-plugins/rating"
+      }
+    },
+    {
       "name": "job-search-automation",
       "source": {
         "source": "github",
@@ -16110,6 +16214,22 @@
       }
     },
     {
+      "name": "lux-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "punt-labs/lux",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "lycheemem",
+      "source": {
+        "source": "git-subdir",
+        "url": "ServerSiri/Lychee-Memory",
+        "path": "claude-plugin/lycheemem"
+      }
+    },
+    {
       "name": "lyra",
       "source": {
         "source": "git-subdir",
@@ -16933,6 +17053,13 @@
       }
     },
     {
+      "name": "memesh",
+      "source": {
+        "source": "github",
+        "repo": "PCIRCLE-AI/memesh"
+      }
+    },
+    {
       "name": "memhub",
       "source": {
         "source": "git-subdir",
@@ -17676,6 +17803,14 @@
         "source": "git-subdir",
         "url": "devbasex/ai-plugins",
         "path": "plugins/ndf"
+      }
+    },
+    {
+      "name": "nemeda-agent-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "twyd-ai/nemeda-agent-kit",
+        "path": "plugins/nemeda-agent-kit"
       }
     },
     {
@@ -19851,6 +19986,14 @@
       }
     },
     {
+      "name": "planning-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
+        "path": "plugins/planning"
+      }
+    },
+    {
       "name": "planning-prd-agent",
       "source": {
         "source": "git-subdir",
@@ -21903,6 +22046,14 @@
       }
     },
     {
+      "name": "recursive-systems",
+      "source": {
+        "source": "git-subdir",
+        "url": "recursive-systems/recursive-toolkit",
+        "path": "plugins/recursive-systems"
+      }
+    },
+    {
       "name": "red-green-proof",
       "source": {
         "source": "git-subdir",
@@ -23312,6 +23463,14 @@
       }
     },
     {
+      "name": "sdlc",
+      "source": {
+        "source": "git-subdir",
+        "url": "rnagrodzki/sdlc-plugin",
+        "path": "plugins/sdlc"
+      }
+    },
+    {
       "name": "search-to-slack",
       "source": {
         "source": "git-subdir",
@@ -23791,6 +23950,13 @@
         "source": "git-subdir",
         "url": "jabworks/agentic-toolkit",
         "path": "dist/plugins/session-handoff"
+      }
+    },
+    {
+      "name": "session-namer",
+      "source": {
+        "source": "github",
+        "repo": "brunobola-portfolio/claude-session-namer"
       }
     },
     {
@@ -25121,6 +25287,13 @@
       }
     },
     {
+      "name": "startup-skills",
+      "source": {
+        "source": "github",
+        "repo": "aniket-alt/camir-startup-pack"
+      }
+    },
+    {
       "name": "state-invariant-detection",
       "source": {
         "source": "git-subdir",
@@ -25141,6 +25314,14 @@
       "source": {
         "source": "git-subdir",
         "url": "oratta/claude-harness",
+        "path": "plugins/statusline"
+      }
+    },
+    {
+      "name": "statusline-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
         "path": "plugins/statusline"
       }
     },
@@ -25317,6 +25498,14 @@
       }
     },
     {
+      "name": "style",
+      "source": {
+        "source": "git-subdir",
+        "url": "parMaster/claude-dlc",
+        "path": "plugins/style"
+      }
+    },
+    {
       "name": "subpowers",
       "source": {
         "source": "git-subdir",
@@ -25391,6 +25580,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/supabase-skills"
+      }
+    },
+    {
+      "name": "super-bootstrap",
+      "source": {
+        "source": "git-subdir",
+        "url": "RockyHong/super-bootstrap",
+        "path": "plugins/super-bootstrap"
       }
     },
     {
@@ -27177,6 +27374,13 @@
       }
     },
     {
+      "name": "ui-clone-skills",
+      "source": {
+        "source": "github",
+        "repo": "voidmatcha/ui-clone-skills"
+      }
+    },
+    {
       "name": "ui-consistency",
       "source": {
         "source": "github",
@@ -28446,6 +28650,14 @@
         "source": "git-subdir",
         "url": "haboshi/claude-code-skills",
         "path": "web-vuln-report"
+      }
+    },
+    {
+      "name": "webapp-evidence-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "TOMOSIA-VIETNAM/webapp-evidence",
+        "path": "src"
       }
     },
     {

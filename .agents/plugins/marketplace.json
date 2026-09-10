@@ -91,6 +91,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "academic-writing-assistant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LvvUP/academic-writing-assistant.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -274,6 +286,18 @@
         "source": "git-subdir",
         "url": "https://github.com/aaronjmars/aeon-bd.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "affinity-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Paloexiz/Affinity-MCP.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4464,6 +4488,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "craft",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wdx9413/craft.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "craft-skills-and-memories",
       "source": {
         "source": "git-subdir",
@@ -6597,6 +6633,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "frontend-workbench",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/akenoowww/frontend-workbench.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fulcrum-ai-toolkit",
       "source": {
         "source": "git-subdir",
@@ -8386,6 +8434,54 @@
       "category": "Developer Tools"
     },
     {
+      "name": "joai-peerme",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joai-plugins/peerme.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "joai-poll",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joai-plugins/poll.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "joai-projectx",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joai-plugins/projectx.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "joai-rating",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joai-plugins/rating.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jq",
       "source": {
         "source": "git-subdir",
@@ -9721,6 +9817,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "memesh",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PCIRCLE-AI/memesh.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "memforks",
       "source": {
         "source": "git-subdir",
@@ -10350,6 +10458,19 @@
         "source": "git-subdir",
         "url": "https://github.com/devbasex/ai-plugins.git",
         "path": "./plugins/ndf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nemeda-agent-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/twyd-ai/nemeda-agent-kit.git",
+        "path": "./plugins/nemeda-agent-kit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12960,6 +13081,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/workato-devs/recipe-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recursive-systems",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/recursive-systems/recursive-toolkit.git",
+        "path": "./plugins/recursive-systems"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16589,6 +16723,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ui-clone-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voidmatcha/ui-clone-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ui-consistency",
       "source": {
         "source": "url",
@@ -17100,6 +17246,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/web-scripting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "webapp-evidence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TOMOSIA-VIETNAM/webapp-evidence.git"
       },
       "policy": {
         "installation": "AVAILABLE",

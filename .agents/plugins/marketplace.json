@@ -143,6 +143,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adapting-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/adapting-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adaptive-engineering",
       "source": {
         "source": "url",
@@ -628,6 +641,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cleanunicorn/agents-library.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentsmd",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sdsrss/agentsmd.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4007,6 +4032,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coding-directive",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/coding-directive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cody-codex-coordinator",
       "source": {
         "source": "git-subdir",
@@ -4114,6 +4152,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rowansci/rowan-python.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "concord",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/concord"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6368,6 +6419,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "flow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/webdevMLC/flow-loop.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "flow-codeblock-rust",
       "source": {
         "source": "git-subdir",
@@ -6423,6 +6486,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fatihguner/foreman.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "forge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gyuha/forge.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6841,6 +6916,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-commit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/git-commit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-guards",
       "source": {
         "source": "git-subdir",
@@ -6854,11 +6942,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/git-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-pr-workflows",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/git-pr-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-worktree",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/git-worktree"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8776,6 +8890,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/literature-publication"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "live-architecture-context",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/TheSoulGiver/live-architecture-context.git",
+        "path": "./plugins/live-architecture-context"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10962,6 +11089,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "opdev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stolenfootball/opdev.git",
+        "path": "./plugins/opdev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "open-magi",
       "source": {
         "source": "git-subdir",
@@ -11852,6 +11992,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "polyforge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/GMISWE/ieops-aihub.git",
+        "path": "./plugins/polyforge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ponytail",
       "source": {
         "source": "url",
@@ -12321,6 +12474,18 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/psql"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TheOnlyFusionCube/potetos-for-everyone.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12846,6 +13011,19 @@
         "source": "git-subdir",
         "url": "https://github.com/RelayMessenger/Relay-SDK.git",
         "path": "./plugins/relay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "release",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/release"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14266,10 +14444,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "session-handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/session-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "session-orchestrator",
       "source": {
         "source": "url",
         "url": "https://github.com/Kanevry/session-orchestrator.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/session-report"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15053,6 +15257,19 @@
         "source": "git-subdir",
         "url": "https://github.com/angelopublio/agent-spartan-protocol-bridge.git",
         "path": "./agent-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spec-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/spec-browser"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16174,6 +16391,19 @@
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/real/toastmasters-mini"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "toolkit-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jabworks/agentic-toolkit.git",
+        "path": "./dist/plugins/toolkit-ops"
       },
       "policy": {
         "installation": "AVAILABLE",

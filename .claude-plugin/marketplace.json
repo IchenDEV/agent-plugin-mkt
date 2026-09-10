@@ -225,6 +225,14 @@
       }
     },
     {
+      "name": "adapting-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/adapting-skills"
+      }
+    },
+    {
       "name": "adaptive-engineering",
       "source": {
         "source": "github",
@@ -2241,6 +2249,14 @@
       }
     },
     {
+      "name": "app-registry",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "tools/app_registry"
+      }
+    },
+    {
       "name": "app-store-optimizer",
       "source": {
         "source": "git-subdir",
@@ -2689,6 +2705,14 @@
       }
     },
     {
+      "name": "attention",
+      "source": {
+        "source": "git-subdir",
+        "url": "raiki61/claude-plugins",
+        "path": "attention"
+      }
+    },
+    {
       "name": "attio-pack",
       "source": {
         "source": "git-subdir",
@@ -2733,6 +2757,22 @@
       "source": {
         "source": "github",
         "repo": "soapboxbuild/audette-skills"
+      }
+    },
+    {
+      "name": "audience-score-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "audience_score_system/plugin/user"
+      }
+    },
+    {
+      "name": "audience-score-system-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "audience_score_system/plugin/data"
       }
     },
     {
@@ -5957,6 +5997,14 @@
       }
     },
     {
+      "name": "coding-directive",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/coding-directive"
+      }
+    },
+    {
       "name": "cohere-pack",
       "source": {
         "source": "git-subdir",
@@ -5993,6 +6041,14 @@
       "source": {
         "source": "github",
         "repo": "aicoincom/coinos-skills"
+      }
+    },
+    {
+      "name": "coldwrite",
+      "source": {
+        "source": "git-subdir",
+        "url": "raiki61/claude-plugins",
+        "path": "coldwrite"
       }
     },
     {
@@ -6346,6 +6402,14 @@
       }
     },
     {
+      "name": "concord",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/concord"
+      }
+    },
+    {
       "name": "conductor",
       "source": {
         "source": "github",
@@ -6366,6 +6430,14 @@
         "source": "git-subdir",
         "url": "Booyaka101/agent-plugins-conformance-kit",
         "path": "fixtures/regressions/codex-39895/plugin"
+      }
+    },
+    {
+      "name": "condux-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/condux"
       }
     },
     {
@@ -6632,6 +6704,13 @@
         "source": "git-subdir",
         "url": "maguerrieri/claude-toolbox",
         "path": "plugins/conventions"
+      }
+    },
+    {
+      "name": "convergence-loops",
+      "source": {
+        "source": "github",
+        "repo": "raiki61/claude-plugins"
       }
     },
     {
@@ -8222,6 +8301,14 @@
       }
     },
     {
+      "name": "deepwiki-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "EntityProcess/allagents",
+        "path": "plugins/deepwiki"
+      }
+    },
+    {
       "name": "defaults",
       "source": {
         "source": "git-subdir",
@@ -8890,6 +8977,14 @@
       }
     },
     {
+      "name": "diff",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-code",
+        "path": "mods/diff"
+      }
+    },
+    {
       "name": "diffusers",
       "source": {
         "source": "git-subdir",
@@ -9086,6 +9181,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/docker-development"
+      }
+    },
+    {
+      "name": "docket-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/docket"
       }
     },
     {
@@ -9910,6 +10013,14 @@
       "source": {
         "source": "git-subdir",
         "url": "atman-33/workhub",
+        "path": "plugins/engineering"
+      }
+    },
+    {
+      "name": "engineering-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "EntityProcess/allagents",
         "path": "plugins/engineering"
       }
     },
@@ -11048,6 +11159,13 @@
       }
     },
     {
+      "name": "fivem-redm-performance-network",
+      "source": {
+        "source": "github",
+        "repo": "PHUMWIWAT/fivem-redm-best-practice-network"
+      }
+    },
+    {
       "name": "fix-github-issue",
       "source": {
         "source": "git-subdir",
@@ -11164,6 +11282,13 @@
         "source": "git-subdir",
         "url": "skyflash521/harness",
         "path": "plugins/flow"
+      }
+    },
+    {
+      "name": "flow-3",
+      "source": {
+        "source": "github",
+        "repo": "webdevMLC/flow-loop"
       }
     },
     {
@@ -11394,6 +11519,13 @@
       }
     },
     {
+      "name": "forge-3",
+      "source": {
+        "source": "github",
+        "repo": "gyuha/forge"
+      }
+    },
+    {
       "name": "forge-audit",
       "source": {
         "source": "git-subdir",
@@ -11407,6 +11539,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-audit"
+      }
+    },
+    {
+      "name": "forge-codemap",
+      "source": {
+        "source": "github",
+        "repo": "SidCorp-co/codemap"
       }
     },
     {
@@ -12124,6 +12263,14 @@
       }
     },
     {
+      "name": "gates-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "raiki61/claude-plugins",
+        "path": "gates"
+      }
+    },
+    {
       "name": "gavel",
       "source": {
         "source": "github",
@@ -12327,6 +12474,14 @@
       }
     },
     {
+      "name": "git-commit",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/git-commit"
+      }
+    },
+    {
       "name": "git-commit-smart",
       "source": {
         "source": "git-subdir",
@@ -12351,6 +12506,14 @@
       }
     },
     {
+      "name": "git-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/git-operations"
+      }
+    },
+    {
       "name": "git-pr-workflows",
       "source": {
         "source": "git-subdir",
@@ -12372,6 +12535,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/git-workflow"
+      }
+    },
+    {
+      "name": "git-worktree",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/git-worktree"
       }
     },
     {
@@ -15018,6 +15189,14 @@
       "source": {
         "source": "github",
         "repo": "max-sixty/leaf"
+      }
+    },
+    {
+      "name": "leaflab-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "leaflab/plugin/data"
       }
     },
     {
@@ -18332,11 +18511,26 @@
       }
     },
     {
+      "name": "onsetter",
+      "source": {
+        "source": "github",
+        "repo": "justinstimatze/onsetter"
+      }
+    },
+    {
       "name": "ontology-building",
       "source": {
         "source": "git-subdir",
         "url": "mgillett43/ontology-skills",
         "path": "plugins/ontology-building"
+      }
+    },
+    {
+      "name": "opdev",
+      "source": {
+        "source": "git-subdir",
+        "url": "stolenfootball/opdev",
+        "path": "plugins/opdev"
       }
     },
     {
@@ -19150,6 +19344,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/penetration-tester"
+      }
+    },
+    {
+      "name": "penny-engine",
+      "source": {
+        "source": "github",
+        "repo": "bkoh957/penny"
       }
     },
     {
@@ -20050,6 +20251,14 @@
       }
     },
     {
+      "name": "polyforge",
+      "source": {
+        "source": "git-subdir",
+        "url": "GMISWE/ieops-aihub",
+        "path": "plugins/polyforge"
+      }
+    },
+    {
       "name": "ponytail",
       "source": {
         "source": "github",
@@ -20710,6 +20919,14 @@
       }
     },
     {
+      "name": "project-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "tools/project-manager"
+      }
+    },
+    {
       "name": "project-multilevel-index",
       "source": {
         "source": "github",
@@ -21006,6 +21223,13 @@
       "source": {
         "source": "github",
         "repo": "theomilll/pstack-claude"
+      }
+    },
+    {
+      "name": "pstack-2",
+      "source": {
+        "source": "github",
+        "repo": "TheOnlyFusionCube/potetos-for-everyone"
       }
     },
     {
@@ -21342,6 +21566,13 @@
         "source": "git-subdir",
         "url": "AiFirstDevelopment/quorum",
         "path": "plugins/quorum"
+      }
+    },
+    {
+      "name": "quorum-2",
+      "source": {
+        "source": "github",
+        "repo": "WhereTheTunnelEnds/quorum"
       }
     },
     {
@@ -21900,6 +22131,14 @@
       }
     },
     {
+      "name": "release",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/release"
+      }
+    },
+    {
       "name": "release-tools-2",
       "source": {
         "source": "git-subdir",
@@ -22455,6 +22694,13 @@
         "source": "git-subdir",
         "url": "ScriptedAlchemy/agent-bundle",
         "path": "examples/rsc-agent-runtime/packaging/claude"
+      }
+    },
+    {
+      "name": "rules-personal",
+      "source": {
+        "source": "github",
+        "repo": "kawaz/claude-rules-personal"
       }
     },
     {
@@ -23074,6 +23320,14 @@
       }
     },
     {
+      "name": "sec-default",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-code",
+        "path": "mods/sec-default"
+      }
+    },
+    {
       "name": "sec-overlay",
       "source": {
         "source": "git-subdir",
@@ -23532,10 +23786,26 @@
       }
     },
     {
+      "name": "session-handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/session-handoff"
+      }
+    },
+    {
       "name": "session-orchestrator",
       "source": {
         "source": "github",
         "repo": "Kanevry/session-orchestrator"
+      }
+    },
+    {
+      "name": "session-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/session-report"
       }
     },
     {
@@ -24435,6 +24705,14 @@
       }
     },
     {
+      "name": "spec-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/spec-browser"
+      }
+    },
+    {
       "name": "spec-drift-guardian",
       "source": {
         "source": "git-subdir",
@@ -25160,6 +25438,13 @@
       }
     },
     {
+      "name": "superpower-writing",
+      "source": {
+        "source": "github",
+        "repo": "SipengXie2024/superpower-writing"
+      }
+    },
+    {
       "name": "superpowers",
       "source": {
         "source": "github",
@@ -25811,6 +26096,14 @@
       }
     },
     {
+      "name": "telemetry",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-code",
+        "path": "mods/telemetry"
+      }
+    },
+    {
       "name": "temporal-data",
       "source": {
         "source": "git-subdir",
@@ -26223,6 +26516,13 @@
       }
     },
     {
+      "name": "tigang-reminder",
+      "source": {
+        "source": "github",
+        "repo": "TardisBooo/tigang-plugin"
+      }
+    },
+    {
       "name": "tiktok-strategist",
       "source": {
         "source": "git-subdir",
@@ -26413,6 +26713,14 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/tool-evaluator"
+      }
+    },
+    {
+      "name": "toolkit-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "jabworks/agentic-toolkit",
+        "path": "dist/plugins/toolkit-ops"
       }
     },
     {
@@ -28247,6 +28555,14 @@
       "source": {
         "source": "github",
         "repo": "gxgeek-n/wenqu-mem"
+      }
+    },
+    {
+      "name": "whagent-net",
+      "source": {
+        "source": "git-subdir",
+        "url": "whale-net/everything",
+        "path": "whagent_net/plugin/user"
       }
     },
     {

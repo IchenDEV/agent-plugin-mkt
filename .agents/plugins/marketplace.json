@@ -1142,6 +1142,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "anime-identity-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/anime-identity-designer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "anki-flashcards",
       "source": {
         "source": "git-subdir",
@@ -4341,6 +4354,19 @@
         "source": "git-subdir",
         "url": "https://github.com/YMD7/agent-plugins.git",
         "path": "./plugins/context-shunt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "context-tree",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/15236702150master/context-tree-stack.git",
+        "path": "./plugins/context-tree"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7580,6 +7606,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hannah",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/hannah"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "happenstance",
       "source": {
         "source": "git-subdir",
@@ -8165,6 +8204,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "iflytek-digital-human",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/firstdebug/iflytek-digital-human.git",
+        "path": "./plugins/iflytek-digital-human"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "impact-lens",
       "source": {
         "source": "git-subdir",
@@ -8246,6 +8298,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/intercom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "interview-research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayan-de/interview-research-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9200,11 +9264,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "lux-swiss",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/lux-swiss"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lux-visual-systems",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/lux-visual-systems"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "machine-learning-ops",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/machine-learning-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "machine-pilgrim",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/machine-pilgrim"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9910,6 +10013,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/mermaid-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "merv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rapidreview-io/Merv.git",
+        "path": "./merv"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11412,6 +11528,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "opsphere",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/opsphere-io/opsphere-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "optimization-suite",
       "source": {
         "source": "git-subdir",
@@ -12551,6 +12679,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prompt-reverse-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/niobium617/prompt-reverse-engineer-skill.git",
+        "path": "./platform-adapters/codex/prompt-reverse-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "proplasma",
       "source": {
         "source": "git-subdir",
@@ -13654,6 +13795,19 @@
         "source": "git-subdir",
         "url": "https://github.com/itsjavi/skills.git",
         "path": "./plugins/safeguard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sage-instructor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/sage-instructor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16443,6 +16597,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "three-axes-framework",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/three-axes-framework"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "threejs-object-sculptor",
       "source": {
         "source": "url",
@@ -16625,6 +16792,19 @@
         "source": "git-subdir",
         "url": "https://github.com/kodhama/trellis.git",
         "path": "./plugins/trellis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tri-swiss",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/tri-swiss"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17372,6 +17552,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iliaal/whetstone.git",
         "path": "./plugins/whetstone"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "whiting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luxsolari/lux-solari-codex-plugins.git",
+        "path": "./plugins/whiting"
       },
       "policy": {
         "installation": "AVAILABLE",

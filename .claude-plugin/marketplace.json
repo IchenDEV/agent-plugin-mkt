@@ -1245,6 +1245,14 @@
       }
     },
     {
+      "name": "aio",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/aio"
+      }
+    },
+    {
       "name": "aitesis",
       "source": {
         "source": "git-subdir",
@@ -1417,6 +1425,14 @@
         "source": "git-subdir",
         "url": "alivecontext/alive",
         "path": "plugins/alive"
+      }
+    },
+    {
+      "name": "all-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/all-skills"
       }
     },
     {
@@ -2359,6 +2375,14 @@
       }
     },
     {
+      "name": "apply",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/apply"
+      }
+    },
+    {
       "name": "approaches",
       "source": {
         "source": "git-subdir",
@@ -3200,6 +3224,14 @@
       "source": {
         "source": "github",
         "repo": "apache/skywalking-banyandb"
+      }
+    },
+    {
+      "name": "bash-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/bash-gate"
       }
     },
     {
@@ -4270,6 +4302,13 @@
       }
     },
     {
+      "name": "career-agents",
+      "source": {
+        "source": "github",
+        "repo": "surohak/career-agents"
+      }
+    },
+    {
       "name": "career-ops",
       "source": {
         "source": "github",
@@ -4297,6 +4336,78 @@
         "source": "git-subdir",
         "url": "spacedock-dev/cargento",
         "path": "cargento"
+      }
+    },
+    {
+      "name": "carrel-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-agent"
+      }
+    },
+    {
+      "name": "carrel-convert",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-convert"
+      }
+    },
+    {
+      "name": "carrel-documents",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-documents"
+      }
+    },
+    {
+      "name": "carrel-finance",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-finance"
+      }
+    },
+    {
+      "name": "carrel-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-guard"
+      }
+    },
+    {
+      "name": "carrel-inspect",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-inspect"
+      }
+    },
+    {
+      "name": "carrel-mail",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-mail"
+      }
+    },
+    {
+      "name": "carrel-organize",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-organize"
+      }
+    },
+    {
+      "name": "carrel-watch",
+      "source": {
+        "source": "git-subdir",
+        "url": "coltonbearden/carrel",
+        "path": "plugins/carrel-watch"
       }
     },
     {
@@ -4844,6 +4955,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/checkpoint"
+      }
+    },
+    {
+      "name": "chess-esca-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "AnglerfishChess/plugins",
+        "path": "plugins/chess-esca-mcp"
       }
     },
     {
@@ -6384,6 +6503,14 @@
       }
     },
     {
+      "name": "compliance-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/compliance-review"
+      }
+    },
+    {
       "name": "compliance-team-eu-ai-act",
       "source": {
         "source": "git-subdir",
@@ -6506,6 +6633,14 @@
       "source": {
         "source": "github",
         "repo": "spotify/confidence-ai-plugins"
+      }
+    },
+    {
+      "name": "config-chunks",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/config-chunks"
       }
     },
     {
@@ -7101,6 +7236,14 @@
       }
     },
     {
+      "name": "create-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/create-skill"
+      }
+    },
+    {
       "name": "create-worktrees",
       "source": {
         "source": "git-subdir",
@@ -7399,6 +7542,14 @@
         "source": "git-subdir",
         "url": "jerryliu0103/curation-discipline",
         "path": "plugins/curation-discipline-zh"
+      }
+    },
+    {
+      "name": "curriculum",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/curriculum"
       }
     },
     {
@@ -8277,6 +8428,14 @@
       }
     },
     {
+      "name": "debut",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/debut"
+      }
+    },
+    {
       "name": "decision-board",
       "source": {
         "source": "github",
@@ -9093,6 +9252,14 @@
       }
     },
     {
+      "name": "diagnose-queries",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/diagnose-queries"
+      }
+    },
+    {
       "name": "diff",
       "source": {
         "source": "git-subdir",
@@ -9106,6 +9273,13 @@
         "source": "git-subdir",
         "url": "huggingface/diffusers",
         "path": ".ai"
+      }
+    },
+    {
+      "name": "diffwitness",
+      "source": {
+        "source": "github",
+        "repo": "TFourniax/tooltest"
       }
     },
     {
@@ -12022,6 +12196,14 @@
       }
     },
     {
+      "name": "foundry-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/foundry"
+      }
+    },
+    {
       "name": "foundryvtt-dev",
       "source": {
         "source": "github",
@@ -12432,6 +12614,14 @@
       }
     },
     {
+      "name": "gdpr-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/gdpr-review"
+      }
+    },
+    {
       "name": "geepers",
       "source": {
         "source": "git-subdir",
@@ -12547,6 +12737,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/gh-dash"
+      }
+    },
+    {
+      "name": "gh-issue-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "chalosalvador/claude-workflows",
+        "path": "plugins/gh-issue-flow"
       }
     },
     {
@@ -13177,6 +13375,14 @@
       }
     },
     {
+      "name": "grillstorm",
+      "source": {
+        "source": "git-subdir",
+        "url": "allforai/myskills",
+        "path": "claude/grillstorm"
+      }
+    },
+    {
       "name": "grimm",
       "source": {
         "source": "git-subdir",
@@ -13429,6 +13635,13 @@
       }
     },
     {
+      "name": "harness-aijient-team",
+      "source": {
+        "source": "github",
+        "repo": "bd-makers/team-harness"
+      }
+    },
+    {
       "name": "harness-analytics",
       "source": {
         "source": "git-subdir",
@@ -13641,6 +13854,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/helm-recon"
+      }
+    },
+    {
+      "name": "herdr-collab",
+      "source": {
+        "source": "git-subdir",
+        "url": "maurelian/maurelians-claude-marketplace",
+        "path": "plugins/herdr-collab"
       }
     },
     {
@@ -14990,6 +15211,13 @@
       }
     },
     {
+      "name": "kb-compiler",
+      "source": {
+        "source": "github",
+        "repo": "avatarpds/KB-Compiler-Project"
+      }
+    },
+    {
       "name": "kdbai-knowledge",
       "source": {
         "source": "git-subdir",
@@ -15671,6 +15899,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/lens-report"
+      }
+    },
+    {
+      "name": "leos-agent",
+      "source": {
+        "source": "github",
+        "repo": "foxhatleo/leos-agent"
       }
     },
     {
@@ -16900,6 +17135,14 @@
       }
     },
     {
+      "name": "matrixark-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "matrixarkai/TemporalStore",
+        "path": "integrations/claude-plugin"
+      }
+    },
+    {
       "name": "matt-loop",
       "source": {
         "source": "git-subdir",
@@ -16977,6 +17220,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/mattyp-changelog"
+      }
+    },
+    {
+      "name": "maurelians-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "maurelian/maurelians-claude-marketplace",
+        "path": "plugins/maurelians-skills"
       }
     },
     {
@@ -17360,6 +17611,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/messaging"
+      }
+    },
+    {
+      "name": "meta-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "allforai/myskills",
+        "path": "claude/meta-skill"
       }
     },
     {
@@ -18825,6 +19084,14 @@
       }
     },
     {
+      "name": "ontology-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/ontology-review"
+      }
+    },
+    {
       "name": "opdev",
       "source": {
         "source": "git-subdir",
@@ -19228,6 +19495,13 @@
       }
     },
     {
+      "name": "ottonomous",
+      "source": {
+        "source": "github",
+        "repo": "brsbl/ottonomous"
+      }
+    },
+    {
       "name": "ouroboros",
       "source": {
         "source": "github",
@@ -19335,6 +19609,14 @@
         "source": "git-subdir",
         "url": "hashicorp/agent-skills",
         "path": "packer/hcp"
+      }
+    },
+    {
+      "name": "pakt",
+      "source": {
+        "source": "git-subdir",
+        "url": "bob-collective/pakt-plugins",
+        "path": "plugins/pakt"
       }
     },
     {
@@ -19594,6 +19876,13 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/payments"
+      }
+    },
+    {
+      "name": "pb-skills",
+      "source": {
+        "source": "github",
+        "repo": "ErickEcheverria/eecheverria-skills"
       }
     },
     {
@@ -20439,6 +20728,14 @@
       }
     },
     {
+      "name": "pm-advisory",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-advisory"
+      }
+    },
+    {
       "name": "pm-ai-partner",
       "source": {
         "source": "git-subdir",
@@ -20463,11 +20760,27 @@
       }
     },
     {
+      "name": "pm-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-analytics"
+      }
+    },
+    {
       "name": "pm-data-analytics",
       "source": {
         "source": "git-subdir",
         "url": "phuryn/pm-skills",
         "path": "pm-data-analytics"
+      }
+    },
+    {
+      "name": "pm-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-docs"
       }
     },
     {
@@ -20479,11 +20792,27 @@
       }
     },
     {
+      "name": "pm-execution-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-execution"
+      }
+    },
+    {
       "name": "pm-go-to-market",
       "source": {
         "source": "git-subdir",
         "url": "phuryn/pm-skills",
         "path": "pm-go-to-market"
+      }
+    },
+    {
+      "name": "pm-lifecycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-lifecycle"
       }
     },
     {
@@ -20519,11 +20848,43 @@
       }
     },
     {
+      "name": "pm-prototype",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-prototype"
+      }
+    },
+    {
+      "name": "pm-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-research"
+      }
+    },
+    {
+      "name": "pm-shipping",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-shipping"
+      }
+    },
+    {
       "name": "pm-skills",
       "source": {
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "project-management"
+      }
+    },
+    {
+      "name": "pm-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "iDWong/pm-skills",
+        "path": "pm-strategy"
       }
     },
     {
@@ -22723,6 +23084,13 @@
       }
     },
     {
+      "name": "resell-pro",
+      "source": {
+        "source": "github",
+        "repo": "flipradar/resell-pro-claude-plugin"
+      }
+    },
+    {
       "name": "resend",
       "source": {
         "source": "github",
@@ -22805,6 +23173,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/retellai-pack"
+      }
+    },
+    {
+      "name": "retrieval-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/retrieval-review"
       }
     },
     {
@@ -23546,6 +23922,14 @@
       }
     },
     {
+      "name": "schema-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/schema-review"
+      }
+    },
+    {
       "name": "school-leader",
       "source": {
         "source": "git-subdir",
@@ -24159,6 +24543,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/session-security-checker"
+      }
+    },
+    {
+      "name": "session-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/session-tracker"
       }
     },
     {
@@ -25582,6 +25974,14 @@
       }
     },
     {
+      "name": "strangler-fig",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/strangler-fig"
+      }
+    },
+    {
       "name": "strategy",
       "source": {
         "source": "git-subdir",
@@ -25850,6 +26250,14 @@
       }
     },
     {
+      "name": "superstorm",
+      "source": {
+        "source": "git-subdir",
+        "url": "allforai/myskills",
+        "path": "claude/superstorm"
+      }
+    },
+    {
       "name": "supertool",
       "source": {
         "source": "github",
@@ -26058,6 +26466,30 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "research/syllabus"
+      }
+    },
+    {
+      "name": "symbai-accounting",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinesteziadrimo/symbaiposmcp",
+        "path": "plugins/symbai-accounting"
+      }
+    },
+    {
+      "name": "symbai-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinesteziadrimo/symbaiposmcp",
+        "path": "plugins/symbai-core"
+      }
+    },
+    {
+      "name": "symbai-supplier",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinesteziadrimo/symbaiposmcp",
+        "path": "plugins/symbai-supplier"
       }
     },
     {
@@ -27337,6 +27769,22 @@
       }
     },
     {
+      "name": "treeship",
+      "source": {
+        "source": "git-subdir",
+        "url": "zerkerlabs/treeship",
+        "path": "integrations/claude-code-plugin"
+      }
+    },
+    {
+      "name": "treeship-commerce",
+      "source": {
+        "source": "git-subdir",
+        "url": "zerkerlabs/treeship",
+        "path": "integrations/commerce-agents/plugin"
+      }
+    },
+    {
       "name": "trek-plugin-dev",
       "source": {
         "source": "github",
@@ -27838,6 +28286,14 @@
       }
     },
     {
+      "name": "util-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "mnox/mnox-ai",
+        "path": "plugins/util-review"
+      }
+    },
+    {
       "name": "utils",
       "source": {
         "source": "git-subdir",
@@ -28098,6 +28554,13 @@
       "source": {
         "source": "github",
         "repo": "ops120/video-recap-skills-plus"
+      }
+    },
+    {
+      "name": "video-recap-skills-2",
+      "source": {
+        "source": "github",
+        "repo": "zenstory-ai/video-recap-skills"
       }
     },
     {

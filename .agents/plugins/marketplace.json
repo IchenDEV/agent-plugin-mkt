@@ -5339,6 +5339,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "diffwitness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TFourniax/tooltest.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "digital-marketing",
       "source": {
         "source": "git-subdir",
@@ -5874,6 +5886,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./elenchus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "email-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/MauricioPerera/email-agent-kdd.git",
+        "path": "./plugins/email-agent"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7658,6 +7683,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "harness-aijient-team",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bd-makers/team-harness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "harness-creator",
       "source": {
         "source": "git-subdir",
@@ -8921,6 +8958,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/lemma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "leos-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/foxhatleo/leos-agent.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11642,6 +11691,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ottonomous",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brsbl/ottonomous.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ouroboros",
       "source": {
         "source": "url",
@@ -13867,6 +13928,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sao-aincrad",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/starmerx-luxuyan/SAO.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sap-abap",
       "source": {
         "source": "git-subdir",
@@ -16071,6 +16144,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "symbai-accounting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sinesteziadrimo/symbaiposmcp.git",
+        "path": "./plugins/symbai-accounting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "symbai-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sinesteziadrimo/symbaiposmcp.git",
+        "path": "./plugins/symbai-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "symbai-supplier",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sinesteziadrimo/symbaiposmcp.git",
+        "path": "./plugins/symbai-supplier"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "synthesis-skills",
       "source": {
         "source": "url",
@@ -16443,6 +16555,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "temporalstore-agent-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/matrixarkai/TemporalStore.git",
+        "path": "./integrations/agent-hooks/codex/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tend-ci-runner",
       "source": {
         "source": "git-subdir",
@@ -16754,6 +16879,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "treeship-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zerkerlabs/treeship.git",
+        "path": "./plugins/treeship-dev"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -798,6 +798,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/ai-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aiera",
       "source": {
         "source": "git-subdir",
@@ -1259,6 +1272,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "api-monitor-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zxcvbbq/API-Monitor-MCP.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "api-scaffolding",
       "source": {
         "source": "git-subdir",
@@ -1695,6 +1720,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wheakerd/axiom.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "axiom-for-herdr",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/phni3j9a/axiom_for_herdr.git",
+        "path": "./plugins/axiom-for-herdr"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4717,6 +4755,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "data-analysis-ml-agent-skills",
       "source": {
         "source": "url",
@@ -5244,6 +5295,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/developer-essentials"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5798,6 +5862,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dsh-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qjcnmd/dsh-mcp.git",
+        "path": "./plugins/dsh-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dsh-vibeify",
       "source": {
         "source": "git-subdir",
@@ -5914,6 +5991,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Rivendell-investment/edgepilot-research-claude.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "education",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/education"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6488,6 +6578,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/file-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "finance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/finance"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9416,6 +9519,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "llm-wiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/santiago-migoni/llm-wiki.git",
+        "path": "./plugins/llm-wiki"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "long-form-math",
       "source": {
         "source": "git-subdir",
@@ -10430,6 +10546,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EmanueleMinotto/minottobot.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mission",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tackeyy/mission.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11546,6 +11674,18 @@
         "source": "git-subdir",
         "url": "https://github.com/OutlineDriven/odin-claude-plugin.git",
         "path": "./plugins/odin-writing-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oh-my-short-drama",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/854771076/oh-my-short-drama.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12997,6 +13137,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prose-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Akurganow/ai-plugins.git",
+        "path": "./plugins/prose-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
@@ -13484,6 +13637,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "reasoning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/reasoning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "recall",
       "source": {
         "source": "git-subdir",
@@ -13514,6 +13680,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/workato-devs/recipe-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recipebee-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/praisondani/recipebee-cursor-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16850,6 +17028,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "temote-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/f4ah6o/temote-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "template-skill",
       "source": {
         "source": "git-subdir",
@@ -17892,6 +18082,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-app-scaffolding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/web-app-scaffolding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-performance-skills",
       "source": {
         "source": "git-subdir",
@@ -18215,6 +18418,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jwilger/ai-plugins.git",
         "path": "./plugins/development-system/components/worktrees"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
+        "path": "./plugins/writing"
       },
       "policy": {
         "installation": "AVAILABLE",

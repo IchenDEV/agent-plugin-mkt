@@ -83,6 +83,13 @@
       }
     },
     {
+      "name": "3d-ai-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Pheonix-Studio-cat/3d-ai-plugin"
+      }
+    },
+    {
       "name": "404-directory-2",
       "source": {
         "source": "git-subdir",
@@ -1245,6 +1252,14 @@
       }
     },
     {
+      "name": "ai-workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/ai-workflow"
+      }
+    },
+    {
       "name": "ai-workflow-app",
       "source": {
         "source": "git-subdir",
@@ -2045,6 +2060,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-mock-server"
+      }
+    },
+    {
+      "name": "api-monitor-mcp",
+      "source": {
+        "source": "github",
+        "repo": "zxcvbbq/API-Monitor-MCP"
       }
     },
     {
@@ -2916,6 +2938,13 @@
       }
     },
     {
+      "name": "autoharness",
+      "source": {
+        "source": "github",
+        "repo": "tigerless-labs/autoharness"
+      }
+    },
+    {
       "name": "automate",
       "source": {
         "source": "git-subdir",
@@ -3381,6 +3410,14 @@
       }
     },
     {
+      "name": "biff-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "punt-labs/biff",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "bigquery",
       "source": {
         "source": "git-subdir",
@@ -3732,6 +3769,14 @@
       }
     },
     {
+      "name": "branchdiff-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Encryptioner/branchdiff-releases",
+        "path": "plugins/branchdiff-skills"
+      }
+    },
+    {
       "name": "brand-design",
       "source": {
         "source": "git-subdir",
@@ -4063,6 +4108,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/business"
+      }
+    },
+    {
+      "name": "business-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/business"
       }
     },
     {
@@ -5356,6 +5409,22 @@
         "source": "git-subdir",
         "url": "wangjs-jacky/jacky-skills",
         "path": "plugins/claude-config"
+      }
+    },
+    {
+      "name": "claude-config-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "kcenon/claude-config",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "claude-config-lite",
+      "source": {
+        "source": "git-subdir",
+        "url": "kcenon/claude-config",
+        "path": "plugin-lite"
       }
     },
     {
@@ -7081,6 +7150,13 @@
       }
     },
     {
+      "name": "core-6",
+      "source": {
+        "source": "github",
+        "repo": "open-science-pillars/core"
+      }
+    },
+    {
       "name": "coreweave-pack",
       "source": {
         "source": "git-subdir",
@@ -7814,6 +7890,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "data"
+      }
+    },
+    {
+      "name": "data-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/data"
       }
     },
     {
@@ -8892,6 +8976,14 @@
       }
     },
     {
+      "name": "design-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/design"
+      }
+    },
+    {
       "name": "design-council",
       "source": {
         "source": "github",
@@ -9150,6 +9242,14 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "developer-growth-analysis"
+      }
+    },
+    {
+      "name": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/development"
       }
     },
     {
@@ -9805,6 +9905,13 @@
       }
     },
     {
+      "name": "dotnet-workflow-kit",
+      "source": {
+        "source": "github",
+        "repo": "chrisjainsley/claude-dotnet-workflow-kit"
+      }
+    },
+    {
       "name": "dots",
       "source": {
         "source": "git-subdir",
@@ -10264,6 +10371,14 @@
       "source": {
         "source": "github",
         "repo": "AlastairZeved/Editorial-Loop"
+      }
+    },
+    {
+      "name": "education",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/education"
       }
     },
     {
@@ -11462,6 +11577,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "finance"
+      }
+    },
+    {
+      "name": "finance-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/finance"
       }
     },
     {
@@ -13458,6 +13581,13 @@
       }
     },
     {
+      "name": "gpt-series-reasoning-style",
+      "source": {
+        "source": "github",
+        "repo": "JadeYingWah/gpt-series-reasoning-style"
+      }
+    },
+    {
       "name": "grabber-development",
       "source": {
         "source": "git-subdir",
@@ -14481,6 +14611,13 @@
       "source": {
         "source": "github",
         "repo": "hexium-agency/hxm-claude-plugin"
+      }
+    },
+    {
+      "name": "hydrology",
+      "source": {
+        "source": "github",
+        "repo": "open-science-pillars/hydrology"
       }
     },
     {
@@ -15651,6 +15788,14 @@
       }
     },
     {
+      "name": "kitbash",
+      "source": {
+        "source": "git-subdir",
+        "url": "Open-Dev-Society/kitbash",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "kk",
       "source": {
         "source": "git-subdir",
@@ -15978,6 +16123,14 @@
       "source": {
         "source": "github",
         "repo": "aadegtyarev/ldo-ai"
+      }
+    },
+    {
+      "name": "leadace",
+      "source": {
+        "source": "git-subdir",
+        "url": "aitit-inc/leadace",
+        "path": "plugin"
       }
     },
     {
@@ -18074,6 +18227,13 @@
       }
     },
     {
+      "name": "mission",
+      "source": {
+        "source": "github",
+        "repo": "tackeyy/mission"
+      }
+    },
+    {
       "name": "mistral-pack",
       "source": {
         "source": "git-subdir",
@@ -19084,6 +19244,13 @@
       }
     },
     {
+      "name": "ocean-science",
+      "source": {
+        "source": "github",
+        "repo": "open-science-pillars/ocean-science"
+      }
+    },
+    {
       "name": "oddyssey",
       "source": {
         "source": "git-subdir",
@@ -19327,6 +19494,13 @@
       "source": {
         "source": "github",
         "repo": "luckkim123/oh-my-project"
+      }
+    },
+    {
+      "name": "oh-my-short-drama",
+      "source": {
+        "source": "github",
+        "repo": "854771076/oh-my-short-drama"
       }
     },
     {
@@ -19672,6 +19846,14 @@
         "source": "git-subdir",
         "url": "openshift-eng/ai-helpers",
         "path": "plugins/ai-operator-dashboard-generator"
+      }
+    },
+    {
+      "name": "operstack-seo",
+      "source": {
+        "source": "git-subdir",
+        "url": "oper-stack/claude-plugins",
+        "path": "plugins/operstack-seo"
       }
     },
     {
@@ -22240,6 +22422,14 @@
       }
     },
     {
+      "name": "prose-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "Akurganow/ai-plugins",
+        "path": "plugins/prose-discipline"
+      }
+    },
+    {
       "name": "prose-engineers",
       "source": {
         "source": "git-subdir",
@@ -22928,6 +23118,14 @@
       }
     },
     {
+      "name": "reasoning",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/reasoning"
+      }
+    },
+    {
       "name": "recall",
       "source": {
         "source": "github",
@@ -23438,6 +23636,14 @@
       "source": {
         "source": "git-subdir",
         "url": "bendrucker/claude",
+        "path": "plugins/research"
+      }
+    },
+    {
+      "name": "research-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
         "path": "plugins/research"
       }
     },
@@ -25017,6 +25223,14 @@
         "source": "git-subdir",
         "url": "mnox/mnox-ai",
         "path": "plugins/session-tracker"
+      }
+    },
+    {
+      "name": "session-viz",
+      "source": {
+        "source": "git-subdir",
+        "url": "QSchlegel/session-viz",
+        "path": "plugins/session-viz"
       }
     },
     {
@@ -28694,6 +28908,13 @@
       }
     },
     {
+      "name": "umbrella",
+      "source": {
+        "source": "github",
+        "repo": "fbac/umbrella"
+      }
+    },
+    {
       "name": "unblocked-skills",
       "source": {
         "source": "github",
@@ -29806,6 +30027,14 @@
       }
     },
     {
+      "name": "web-app-scaffolding",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/web-app-scaffolding"
+      }
+    },
+    {
       "name": "web-dev",
       "source": {
         "source": "git-subdir",
@@ -30530,6 +30759,14 @@
       }
     },
     {
+      "name": "writing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/writing"
+      }
+    },
+    {
       "name": "writing-artifacts",
       "source": {
         "source": "git-subdir",
@@ -31008,6 +31245,13 @@
       "source": {
         "source": "github",
         "repo": "Lrosias/yougame-plugin"
+      }
+    },
+    {
+      "name": "your-plugin-name",
+      "source": {
+        "source": "github",
+        "repo": "open-science-pillars/plugin-template"
       }
     },
     {

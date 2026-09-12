@@ -1323,6 +1323,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "appletv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/appletv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "application-performance",
       "source": {
         "source": "git-subdir",
@@ -2190,6 +2203,19 @@
         "source": "git-subdir",
         "url": "https://github.com/brandonwie/codex-hud.git",
         "path": "./plugins/codex-hud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brandreport",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/brandreport"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3320,6 +3346,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/citedy/citedy-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "city-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/city-report"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5275,6 +5314,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "devlog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/devlog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devops-skills",
       "source": {
         "source": "git-subdir",
@@ -5620,6 +5672,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dots",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rishirsv/dots.git",
+        "path": "./plugins/dots"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dovetail",
       "source": {
         "source": "git-subdir",
@@ -5650,6 +5715,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EveryInc/draft-review-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "drafts",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rishirsv/dots.git",
+        "path": "./plugins/drafts"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6090,6 +6168,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./euporia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eval",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/eval"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6951,6 +7042,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ghfactory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/ghfactory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ghostty-titles",
       "source": {
         "source": "git-subdir",
@@ -6968,6 +7072,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/an2n/ghostwriter.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ghostwriter-x",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/ghostwriter-x"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7106,6 +7223,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "github-stats",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/github-stats"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gitops-skills",
       "source": {
         "source": "url",
@@ -7148,6 +7278,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/gmail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gmailtriage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/gmailtriage"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7953,6 +8096,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hitocall",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JapanMarketing-Dev/hitocall-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hledger",
       "source": {
         "source": "git-subdir",
@@ -8279,6 +8434,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "inari",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yohn-jp/gh-inari.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "incident-response",
       "source": {
         "source": "git-subdir",
@@ -8394,6 +8561,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "issueflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/issueflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "it-grundschutz",
       "source": {
         "source": "git-subdir",
@@ -8489,6 +8669,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/javascript-typescript"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jeff",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johanthoren/jeff.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10682,6 +10874,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "netwatch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/netwatch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "network-solutions",
       "source": {
         "source": "git-subdir",
@@ -12276,6 +12481,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pluginsync",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/pluginsync"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "polar-skills",
       "source": {
         "source": "git-subdir",
@@ -12513,6 +12731,19 @@
         "source": "git-subdir",
         "url": "https://github.com/EurekaRaider/Artemis.git",
         "path": "./apps/desktop/resources/bundled-artifact-plugins/plugins/presentations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "press",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/press"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13574,6 +13805,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/responsive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "resume",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/resume"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14983,6 +15227,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shipflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/shipflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shipreport",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/shipreport"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shipyard",
       "source": {
         "source": "git-subdir",
@@ -15000,6 +15270,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SummerSec/ShiroAttack2.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shode-house",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/shode666/claude-skill-shode-house.git",
+        "path": "./plugins/shode-house"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15338,6 +15621,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skill-lib",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Interdependency/skill-lib.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-reviewer",
       "source": {
         "source": "git-subdir",
@@ -15355,6 +15650,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/juew/Skill-Routing-Kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skillfactory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/skillfactory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skillhelp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/natejswenson/claude-skills.git",
+        "path": "./skills/skillhelp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16374,6 +16695,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "taskix-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenfyzhong/agentix.git",
+        "path": "./plugins/taskix-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tauri-development",
       "source": {
         "source": "git-subdir",
@@ -17349,6 +17683,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/kunjee17/vibe-architect.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vibe-cognition",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Haagndaazer/vibe-cognition.git"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -2891,6 +2891,14 @@
       }
     },
     {
+      "name": "auditfellow",
+      "source": {
+        "source": "git-subdir",
+        "url": "auditfellow/auditfellow-plugins",
+        "path": "plugins/auditfellow"
+      }
+    },
+    {
       "name": "australian-accounting-skills",
       "source": {
         "source": "github",
@@ -5379,6 +5387,13 @@
         "source": "git-subdir",
         "url": "motlin/claude-code-plugins",
         "path": "plugins/claude-code-plans"
+      }
+    },
+    {
+      "name": "claude-code-plugin-hud",
+      "source": {
+        "source": "github",
+        "repo": "sj817/claude-code-plugin-hud"
       }
     },
     {
@@ -10374,6 +10389,13 @@
       }
     },
     {
+      "name": "editorial-recension",
+      "source": {
+        "source": "github",
+        "repo": "AlastairZeved/Editorial-Recension"
+      }
+    },
+    {
       "name": "education",
       "source": {
         "source": "git-subdir",
@@ -10902,6 +10924,13 @@
       }
     },
     {
+      "name": "everos-memory",
+      "source": {
+        "source": "github",
+        "repo": "zpf2021/Self-evolution"
+      }
+    },
+    {
       "name": "everyday-causal-skills",
       "source": {
         "source": "github",
@@ -11374,6 +11403,13 @@
       "source": {
         "source": "github",
         "repo": "suboss87/FDEOps"
+      }
+    },
+    {
+      "name": "featherlog",
+      "source": {
+        "source": "github",
+        "repo": "nonscaleA/featherlog-cli"
       }
     },
     {
@@ -13634,11 +13670,27 @@
       }
     },
     {
+      "name": "graphic-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "isocialPractice/napkin-sketch",
+        "path": "ai-helper/graphic-designer"
+      }
+    },
+    {
       "name": "graphify",
       "source": {
         "source": "git-subdir",
         "url": "ulebule/claude-skills",
         "path": "plugins/graphify"
+      }
+    },
+    {
+      "name": "graphloops",
+      "source": {
+        "source": "git-subdir",
+        "url": "raiki61/claude-plugins",
+        "path": "graphloops"
       }
     },
     {
@@ -13980,6 +14032,13 @@
       }
     },
     {
+      "name": "handoff-6",
+      "source": {
+        "source": "github",
+        "repo": "mirzaakhena/handoff"
+      }
+    },
+    {
       "name": "hands-free",
       "source": {
         "source": "git-subdir",
@@ -14297,6 +14356,21 @@
       }
     },
     {
+      "name": "hermes-blind",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/hermes-blind"
+      }
+    },
+    {
+      "name": "hermes-blind-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/hermes-blind",
+        "path": "claude-plugin"
+      }
+    },
+    {
       "name": "hermes-tweet",
       "source": {
         "source": "git-subdir",
@@ -14365,6 +14439,13 @@
       "source": {
         "source": "github",
         "repo": "axisrow/hhru"
+      }
+    },
+    {
+      "name": "hilos",
+      "source": {
+        "source": "github",
+        "repo": "pablostanley/hilos-agents"
       }
     },
     {
@@ -15162,6 +15243,14 @@
         "source": "git-subdir",
         "url": "motlin/claude-code-plugins",
         "path": "plugins/iterm2-titles"
+      }
+    },
+    {
+      "name": "iyu",
+      "source": {
+        "source": "git-subdir",
+        "url": "iyulab/claude-plugins",
+        "path": "plugins/iyu"
       }
     },
     {
@@ -17106,6 +17195,13 @@
       }
     },
     {
+      "name": "m3",
+      "source": {
+        "source": "github",
+        "repo": "skynetcmd/m3-memory"
+      }
+    },
+    {
       "name": "mac",
       "source": {
         "source": "git-subdir",
@@ -17700,6 +17796,14 @@
       }
     },
     {
+      "name": "mattpocock-skills-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "flsteven87/claude-code-setup",
+        "path": "skills/mattpocock-skills"
+      }
+    },
+    {
       "name": "mattyp-changelog",
       "source": {
         "source": "git-subdir",
@@ -17753,6 +17857,14 @@
         "source": "git-subdir",
         "url": "devbasex/ai-plugins",
         "path": "plugins/mcp/mcp-chrome-devtools"
+      }
+    },
+    {
+      "name": "mcp-context7",
+      "source": {
+        "source": "git-subdir",
+        "url": "atman-33/workhub",
+        "path": "plugins/mcp-context7"
       }
     },
     {
@@ -17840,6 +17952,14 @@
         "source": "git-subdir",
         "url": "devbasex/ai-plugins",
         "path": "plugins/mcp/mcp-serena"
+      }
+    },
+    {
+      "name": "mcp-serena-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "atman-33/workhub",
+        "path": "plugins/mcp-serena"
       }
     },
     {
@@ -18781,6 +18901,14 @@
       }
     },
     {
+      "name": "nereus-game",
+      "source": {
+        "source": "git-subdir",
+        "url": "snwlee/Nereus",
+        "path": "plugins/nereus-game"
+      }
+    },
+    {
       "name": "netwatch",
       "source": {
         "source": "git-subdir",
@@ -19139,6 +19267,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-167/_assets/rulebook-skeleton/observability/observability"
+      }
+    },
+    {
+      "name": "observability-frameworks",
+      "source": {
+        "source": "git-subdir",
+        "url": "Jigeesha03/ClaudeUsecasePart3",
+        "path": "use-case-5-ip-as-skills/plugins/observability-frameworks"
       }
     },
     {
@@ -20451,6 +20587,14 @@
         "source": "git-subdir",
         "url": "haboshi/claude-code-skills",
         "path": "pdf-creator-jp"
+      }
+    },
+    {
+      "name": "pdf-detector",
+      "source": {
+        "source": "git-subdir",
+        "url": "Zihan-Zhu/pdf-detector",
+        "path": "plugins/pdf-detector"
       }
     },
     {
@@ -22459,6 +22603,14 @@
         "source": "git-subdir",
         "url": "HollandDM/my-skills",
         "path": "prove"
+      }
+    },
+    {
+      "name": "provider",
+      "source": {
+        "source": "git-subdir",
+        "url": "Tcuzzo/backs-aios-skills",
+        "path": "claude-skills/provider"
       }
     },
     {
@@ -24609,6 +24761,13 @@
       }
     },
     {
+      "name": "scopegrep",
+      "source": {
+        "source": "github",
+        "repo": "not-ekalabya/scopegrep"
+      }
+    },
+    {
       "name": "scr",
       "source": {
         "source": "github",
@@ -25442,6 +25601,14 @@
       }
     },
     {
+      "name": "sidemantic",
+      "source": {
+        "source": "git-subdir",
+        "url": "sidequery/sidemantic",
+        "path": "plugins/sidemantic"
+      }
+    },
+    {
       "name": "signal",
       "source": {
         "source": "git-subdir",
@@ -25810,6 +25977,13 @@
       }
     },
     {
+      "name": "skills-2",
+      "source": {
+        "source": "github",
+        "repo": "apresmoi/skills"
+      }
+    },
+    {
       "name": "skills-janitor",
       "source": {
         "source": "git-subdir",
@@ -26090,6 +26264,14 @@
       }
     },
     {
+      "name": "solai",
+      "source": {
+        "source": "git-subdir",
+        "url": "supervoidproxima/solai",
+        "path": "plugins/solai"
+      }
+    },
+    {
       "name": "solana-onchain",
       "source": {
         "source": "git-subdir",
@@ -26339,6 +26521,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/spinning-up-deep-rl"
+      }
+    },
+    {
+      "name": "spipe-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ormastes/simple",
+        "path": "examples/05_stdlib/spipe"
       }
     },
     {
@@ -27550,6 +27740,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/team-collaboration"
+      }
+    },
+    {
+      "name": "team-comms",
+      "source": {
+        "source": "git-subdir",
+        "url": "atman-33/workhub",
+        "path": "plugins/team-comms"
       }
     },
     {
@@ -29159,6 +29357,14 @@
         "source": "git-subdir",
         "url": "abhijit-s/ai",
         "path": "plugins/vault-librarian"
+      }
+    },
+    {
+      "name": "vectors",
+      "source": {
+        "source": "git-subdir",
+        "url": "isocialPractice/napkin-sketch",
+        "path": "ai-helper/vectors"
       }
     },
     {

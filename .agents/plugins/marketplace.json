@@ -7019,6 +7019,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "game-learning-runtime-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/loonghao/GameLearningRuntime.git",
+        "path": "./plugins/game-learning-runtime-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "game-studio",
       "source": {
         "source": "git-subdir",
@@ -12290,6 +12303,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pdf-detector",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Zihan-Zhu/pdf-detector.git",
+        "path": "./plugins/pdf-detector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "peer-review",
       "source": {
         "source": "git-subdir",
@@ -14957,6 +14983,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scopegrep",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/not-ekalabya/scopegrep.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "screenrig",
       "source": {
         "source": "git-subdir",
@@ -15523,6 +15561,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/alo-exp/sidekick.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sidemantic",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sidequery/sidemantic.git",
+        "path": "./plugins/sidemantic"
       },
       "policy": {
         "installation": "AVAILABLE",

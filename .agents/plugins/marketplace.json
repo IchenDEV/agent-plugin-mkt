@@ -371,6 +371,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/evilsamaritan/agent-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-notifier",
       "source": {
         "source": "git-subdir",
@@ -450,6 +462,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Maykbiletti/AgentSpine.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/agent-sync"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1097,6 +1122,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./analogia"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "analyst-companion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/analyst-companion"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2378,6 +2416,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "browser-test-router",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/browser-test-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bugsee",
       "source": {
         "source": "url",
@@ -3265,6 +3316,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chitta",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/genomewalker/chitta.git",
+        "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "christian",
       "source": {
         "source": "git-subdir",
@@ -4073,6 +4137,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-subagent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/codex-subagent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-usage-watch",
       "source": {
         "source": "url",
@@ -4190,6 +4267,19 @@
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/coherence/coherent-triple"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "comfyui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/comfyui"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6075,6 +6165,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "emails-to-github-issues",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/emails-to-github-issues"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "engineering",
       "source": {
         "source": "git-subdir",
@@ -6700,6 +6803,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fleet-propagate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/fleet-propagate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "flow",
       "source": {
         "source": "url",
@@ -7084,6 +7200,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gemini-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/gemini-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gemini-enterprise-agent-platform",
       "source": {
         "source": "git-subdir",
@@ -7138,6 +7267,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pablofrommars/GGNet.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gh-issue-fetch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/gh-issue-fetch"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7534,6 +7676,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/google"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-ads-strategist",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/google-ads-strategist"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8464,6 +8619,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "i18n-parity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/i18n-parity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "iceberg",
       "source": {
         "source": "url",
@@ -8664,6 +8832,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "irreversible-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/irreversible-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "issue-flow",
       "source": {
         "source": "git-subdir",
@@ -8747,6 +8928,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/janus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jarl",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/krzysztofdudek/JarlSkill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9381,6 +9574,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sunny-chandel/linkedin-campaign-operator.git",
         "path": "./plugins/linkedin-campaign-operator-v3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linkml",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NeverBlink-OSS/linkml-scala.git",
+        "path": "./.agents"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10365,6 +10571,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "merge-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/merge-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "merismos",
       "source": {
         "source": "git-subdir",
@@ -10803,6 +11022,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/multi-ecosystem-repo/codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "multi-model-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/multi-model-orchestrator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12269,6 +12501,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pax-k/pax-fullstack-harness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "payment-contract-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/payment-contract-tester"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13752,6 +13997,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "reddit-fetch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/reddit-fetch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rekall",
       "source": {
         "source": "url",
@@ -13909,6 +14167,18 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/repo-hygiene"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "repro-lens",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/00200200/repro-lens.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14262,6 +14532,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "saas-startup-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/saas-startup-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sabx",
       "source": {
         "source": "url",
@@ -14291,6 +14574,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Tan2237/safe-shell-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "safe-text-post",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/safe-text-post"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15290,6 +15586,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "session-preflight",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/session-preflight"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "session-report",
       "source": {
         "source": "git-subdir",
@@ -15612,6 +15921,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/signnow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "silent-failure-scanner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/silent-failure-scanner"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16437,6 +16759,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "study-copilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yq6666-66/study-copilot-skills.git",
+        "path": "./plugins/study-copilot"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17526,6 +17861,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tribunal-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/tribunal-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trinity-capture",
       "source": {
         "source": "git-subdir",
@@ -17944,6 +18292,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "video-guide",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/video-guide"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "view-browser-tab",
       "source": {
         "source": "url",
@@ -18247,6 +18608,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "weproxa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ennbou/weproxa-plugin.git",
+        "path": "./plugins/weproxa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "wgu-agent-foundation",
       "source": {
         "source": "git-subdir",
@@ -18341,6 +18715,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/degausai/wonda.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "work-item-triage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paat/claude-plugins.git",
+        "path": "./plugins/work-item-triage"
       },
       "policy": {
         "installation": "AVAILABLE",

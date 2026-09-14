@@ -443,6 +443,14 @@
       }
     },
     {
+      "name": "aesthetics-and-emotion-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/awesome-codex-plugins",
+        "path": "plugins/HDeibler/universal-design-principles/plugins/aesthetics-and-emotion-principles"
+      }
+    },
+    {
       "name": "agami-core",
       "source": {
         "source": "git-subdir",
@@ -3588,6 +3596,13 @@
       }
     },
     {
+      "name": "bitbank-lab-mcp",
+      "source": {
+        "source": "github",
+        "repo": "bitbankinc/bitbank-lab-mcp"
+      }
+    },
+    {
       "name": "bitranox",
       "source": {
         "source": "git-subdir",
@@ -4784,6 +4799,14 @@
       "source": {
         "source": "github",
         "repo": "amecoder/ccstatus"
+      }
+    },
+    {
+      "name": "cdkd-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "go-to-k/cdkd",
+        "path": "plugins/cdkd-skills"
       }
     },
     {
@@ -6139,6 +6162,21 @@
       }
     },
     {
+      "name": "code-quality-atlas",
+      "source": {
+        "source": "github",
+        "repo": "brandondees/code-quality-atlas"
+      }
+    },
+    {
+      "name": "code-quality-atlas-collapsed",
+      "source": {
+        "source": "git-subdir",
+        "url": "brandondees/code-quality-atlas",
+        "path": "collapsed"
+      }
+    },
+    {
       "name": "code-refactoring",
       "source": {
         "source": "git-subdir",
@@ -6429,6 +6467,14 @@
         "source": "git-subdir",
         "url": "tvrmsmith/coding-standards",
         "path": "plugins/coding-standards"
+      }
+    },
+    {
+      "name": "cognition-and-learnability-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/awesome-codex-plugins",
+        "path": "plugins/HDeibler/universal-design-principles/plugins/cognition-and-learnability-principles"
       }
     },
     {
@@ -11999,6 +12045,13 @@
       }
     },
     {
+      "name": "fleetest",
+      "source": {
+        "source": "github",
+        "repo": "wave1008/foundation-tester"
+      }
+    },
+    {
       "name": "flexport-pack",
       "source": {
         "source": "git-subdir",
@@ -12867,13 +12920,6 @@
       }
     },
     {
-      "name": "ftester",
-      "source": {
-        "source": "github",
-        "repo": "wave1008/foundation-tester"
-      }
-    },
-    {
       "name": "fulcrum-ai-toolkit",
       "source": {
         "source": "git-subdir",
@@ -12958,6 +13004,21 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/ga4-pack"
+      }
+    },
+    {
+      "name": "gala",
+      "source": {
+        "source": "git-subdir",
+        "url": "martianoff/gala",
+        "path": "ide/claude-code"
+      }
+    },
+    {
+      "name": "game-atelier",
+      "source": {
+        "source": "github",
+        "repo": "ZhongBiao-zheng/game-atelier"
       }
     },
     {
@@ -13124,6 +13185,14 @@
         "source": "git-subdir",
         "url": "google/skills",
         "path": "plugins/cloud/gemini-enterprise-agent-platform"
+      }
+    },
+    {
+      "name": "geml",
+      "source": {
+        "source": "git-subdir",
+        "url": "geml-spec/geml",
+        "path": "integrations/claude-plugin"
       }
     },
     {
@@ -14026,6 +14095,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/groq-pack"
+      }
+    },
+    {
+      "name": "groundcontrol",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpaceagencyArchitects/groundcontrol",
+        "path": "plugins/groundcontrol"
       }
     },
     {
@@ -15349,6 +15426,14 @@
       }
     },
     {
+      "name": "interaction-and-control-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/awesome-codex-plugins",
+        "path": "plugins/HDeibler/universal-design-principles/plugins/interaction-and-control-principles"
+      }
+    },
+    {
       "name": "interaction-first-design",
       "source": {
         "source": "github",
@@ -15422,6 +15507,14 @@
         "source": "git-subdir",
         "url": "c18t/agent-skills",
         "path": "plugins/issue-flow"
+      }
+    },
+    {
+      "name": "issue-triage",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/issue-triage"
       }
     },
     {
@@ -16890,6 +16983,14 @@
       }
     },
     {
+      "name": "linear-formatting",
+      "source": {
+        "source": "git-subdir",
+        "url": "jcdendrite/claude-config",
+        "path": "plugins/linear-formatting"
+      }
+    },
+    {
       "name": "linear-pack",
       "source": {
         "source": "git-subdir",
@@ -18027,6 +18128,13 @@
         "source": "git-subdir",
         "url": "flsteven87/claude-code-setup",
         "path": "skills/mattpocock-skills"
+      }
+    },
+    {
+      "name": "mattpocock-skills-9",
+      "source": {
+        "source": "github",
+        "repo": "jacgit18/Agent-Skill-Project-Skeleton"
       }
     },
     {
@@ -20925,6 +21033,14 @@
       }
     },
     {
+      "name": "perception-and-hierarchy-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/awesome-codex-plugins",
+        "path": "plugins/HDeibler/universal-design-principles/plugins/perception-and-hierarchy-principles"
+      }
+    },
+    {
       "name": "perf",
       "source": {
         "source": "git-subdir",
@@ -21435,6 +21551,14 @@
       "source": {
         "source": "github",
         "repo": "plannotator/design-artifact"
+      }
+    },
+    {
+      "name": "plantuml-renderer",
+      "source": {
+        "source": "git-subdir",
+        "url": "crvsrvn/PlantUML-Renderer-AIPlugin",
+        "path": "plugins/plantuml-renderer"
       }
     },
     {
@@ -22426,6 +22550,14 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/problem-solver-specialist"
+      }
+    },
+    {
+      "name": "process-and-robustness-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/awesome-codex-plugins",
+        "path": "plugins/HDeibler/universal-design-principles/plugins/process-and-robustness-principles"
       }
     },
     {
@@ -24592,6 +24724,14 @@
       }
     },
     {
+      "name": "s",
+      "source": {
+        "source": "git-subdir",
+        "url": "shipd-now/shipd",
+        "path": "plugins/s"
+      }
+    },
+    {
       "name": "saas-startup-team",
       "source": {
         "source": "git-subdir",
@@ -25205,6 +25345,13 @@
         "source": "git-subdir",
         "url": "cjbischoff/cjbischoff-claude-code-tools",
         "path": "plugins/sec-overlay"
+      }
+    },
+    {
+      "name": "second-brain",
+      "source": {
+        "source": "github",
+        "repo": "Diankes/second-brain"
       }
     },
     {
@@ -26887,6 +27034,14 @@
       "source": {
         "source": "github",
         "repo": "diverso-lab/splent_claude"
+      }
+    },
+    {
+      "name": "spoderman",
+      "source": {
+        "source": "git-subdir",
+        "url": "VeigaPunk/ds4cc-marketplace",
+        "path": "marketplace/plugins/spoderman"
       }
     },
     {
@@ -29433,6 +29588,13 @@
       }
     },
     {
+      "name": "ultimate-frontend-skills",
+      "source": {
+        "source": "github",
+        "repo": "ridelink0/ultimate-frontend-skills"
+      }
+    },
+    {
       "name": "ultra-deep-research",
       "source": {
         "source": "git-subdir",
@@ -29607,6 +29769,13 @@
       "source": {
         "source": "github",
         "repo": "ortimusirig/uroboros"
+      }
+    },
+    {
+      "name": "usage-limits",
+      "source": {
+        "source": "github",
+        "repo": "ridelink0/claude-code-usage-limits"
       }
     },
     {
@@ -30802,6 +30971,13 @@
         "source": "git-subdir",
         "url": "ennbou/weproxa-plugin",
         "path": "plugins/weproxa"
+      }
+    },
+    {
+      "name": "wf-orc",
+      "source": {
+        "source": "github",
+        "repo": "RomanGovorov/wf-orc"
       }
     },
     {

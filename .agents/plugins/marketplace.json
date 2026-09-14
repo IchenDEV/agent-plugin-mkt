@@ -41,6 +41,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "a-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/RBraga01/a-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "a1-marketing-skills",
       "source": {
         "source": "url",
@@ -57,6 +70,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/masuP9/a11y-specialist-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aa-jl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AtelierArith/atelier-arith-julia-development-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -269,6 +295,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aegis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/GanyuanRan/Aegis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aeokit",
       "source": {
         "source": "url",
@@ -294,10 +333,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aesthetics-and-emotion-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles/plugins/aesthetics-and-emotion-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "affinity-mcp",
       "source": {
         "source": "url",
         "url": "https://github.com/Paloexiz/Affinity-MCP.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agency-continuity-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/revertcreations/agency-continuity-audit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -358,11 +423,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-deck",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/not-so-fat/agent-deck"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-guard",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
         "path": "./plugins/agent-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-harness-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/yfge/agent-harness-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -573,11 +664,76 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-vision",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/zfifteen/agent-vision"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-workflow-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/1139030773-cmd/agent-workflow-system"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-workflows",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/alleneubank/agent-profile.git",
         "path": "./plugins/agent-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/madarco/agentbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentgram",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jerryfane/agentgram"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentguards-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/alelaguard/agentguards-plugins"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -673,11 +829,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agentpack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/vishal2612200/agentpack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agentparty",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/leeguooooo/AgentParty.git",
         "path": "./plugins/agentparty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentry",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/fr33dr4g0n/agentry-public"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -702,6 +884,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/sdsrss/agentsmd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agenttrace",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/luoyuctl/agenttrace"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agiflow-ai-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AgiFlow/ai-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -828,6 +1036,32 @@
         "source": "git-subdir",
         "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
         "path": "./plugins/ai-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aiboarding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/gustavo-meilus/aiboarding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aient",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/aient-ai/aient-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1003,6 +1237,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "alcove",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/epicsagas/alcove"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alexandria",
       "source": {
         "source": "git-subdir",
@@ -1169,6 +1416,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "anchor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/biefan/anchor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "anchor-architect",
       "source": {
         "source": "url",
@@ -1237,6 +1497,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/anthropic-office-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "antigravity-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/comprono/antigravity-2-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1386,6 +1659,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "apple-calendar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/matk0shub/apple-productivity-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "appletv",
       "source": {
         "source": "git-subdir",
@@ -1416,6 +1702,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Arch1eSUN/Arcgentic.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "archcore",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/archcore-ai/plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1468,6 +1767,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/arm-cortex-microcontrollers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "armorcodex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/armoriq/armorcodex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1551,6 +1863,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ateam",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/yimwoo/codex-agenteam"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "atelier",
       "source": {
         "source": "url",
@@ -1581,6 +1906,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/atlassian-rovo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "atomlane",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/cloudguo123/atomlane"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1644,6 +1982,19 @@
         "source": "git-subdir",
         "url": "https://github.com/weedmo/skills.git",
         "path": "./plugins/auto-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "autocad-tianzheng-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/summer521521/AutoCAD_Tianzheng_plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1771,6 +2122,19 @@
         "source": "git-subdir",
         "url": "https://github.com/phni3j9a/axiom_for_herdr.git",
         "path": "./plugins/axiom-for-herdr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "axonflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/getaxonflow/axonflow-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1931,6 +2295,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "be-serious",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/lulucatdev/codex-be-serious"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "before-you-build",
       "source": {
         "source": "git-subdir",
@@ -1975,6 +2352,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/multi-plugin-repo/plugins/beta-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bgs-modding-superpowers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/BB-84C/bgs-modding-superpowers"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2038,6 +2428,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/biorender"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bitbank-lab-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bitbankinc/bitbank-lab-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2391,6 +2793,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bringyour-migration-auditor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/unitedideas/bringyour-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "brooks-lint",
       "source": {
         "source": "url",
@@ -2555,6 +2970,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "burpsuite-mcp-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/6jeffr3y/burpsuite-mcp-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "business",
       "source": {
         "source": "git-subdir",
@@ -2656,11 +3084,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "calle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/CALLE-AI/call-e-integrations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "canva",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/canva"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "canvas-apps-plugin-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Ratnam-Mishra/canvas-apps-plugin-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2694,6 +3148,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "carsxe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/carsxe/carsxe-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "carta-crm",
       "source": {
         "source": "git-subdir",
@@ -2712,6 +3179,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Parcha-ai/parcha-skills.git",
         "path": "./cascade"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "casefile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/x4cc3/casefile"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2824,6 +3304,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sendbird/cc-plugin-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cc-academia",
       "source": {
         "source": "git-subdir",
@@ -2854,6 +3347,19 @@
         "source": "git-subdir",
         "url": "https://github.com/DawnEver/cc-market.git",
         "path": "./cc-latex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "centricmem-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/zeyu-j/centricmem-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2931,6 +3437,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tarahiman/cfnsync.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "changelog-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/changelog-forge"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3355,6 +3874,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chrome-devtools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/win4r/chrome-devtools-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chronograph-gp",
       "source": {
         "source": "git-subdir",
@@ -3469,10 +4001,49 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ck",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/JuliusBrussee/blueprint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clairvoyance",
       "source": {
         "source": "url",
         "url": "https://github.com/codybrom/clairvoyance.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/davidq888/claude-code-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-code-harness",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/dadwadw233/claude-code-harness"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3498,6 +4069,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/alirezarezvani/claude-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-math",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/vladimirrott/claude-math"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3568,6 +4152,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claudemon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/OriginalName457/claudemon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clay",
       "source": {
         "source": "git-subdir",
@@ -3586,6 +4183,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/clean-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "clean-room",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/whit3rabbit/clean-room-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3928,6 +4538,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codebase-recon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/yujiachen-y/codebase-recon-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codebase-xray",
       "source": {
         "source": "git-subdir",
@@ -3970,6 +4593,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/coderabbit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codetruss",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/DeliriumPulse/codetruss-plugins"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4027,6 +4663,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-goal-progress",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ezra-y/codex-goal-progress"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-goat",
       "source": {
         "source": "url",
@@ -4043,6 +4692,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/plastic-labs/codex-honcho.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-howto",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Phelan164/codex-howto"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4087,10 +4749,101 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/2kDarki/codex-mem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-memory-brain",
       "source": {
         "source": "url",
         "url": "https://github.com/ccycv/codex-memory-brain.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-multi-auth",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ndycode/codex-multi-auth"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/greg-asher/codex-obsidian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-process-jobs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/joelfarthing/codex-process-jobs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-project-autopilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AlexMi64/codex-project-autopilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-quota-title",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/nokisenpai/CodexQuotaTitle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/schuettc/codex-reviewer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4124,6 +4877,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-seo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/BestLemoon/codex-seo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-skill-resource-probe",
       "source": {
         "source": "git-subdir",
@@ -4137,11 +4903,76 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-skin-pack-installer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ChannelerH/codex-skin-packs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-subagent",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/codex-subagent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-tasklist",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/martinille/codex-tasklist"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-tui-proof",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/bnc4vk/codex-tui-proof"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-usage-and-resets",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/joelfarthing/codex-usage-and-resets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-usage-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/douglasmonsky/codex-usage-tracker"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4236,6 +5067,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codiris-agentizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Humiris/wwa-transform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cody-codex-coordinator",
       "source": {
         "source": "git-subdir",
@@ -4254,6 +5098,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/cogedim"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cognition-and-learnability-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles/plugins/cognition-and-learnability-principles"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4293,6 +5150,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/comment-slop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "commit-narrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/commit-narrator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4356,6 +5226,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rowansci/rowan-python.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "computer-usage-summary-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/liuyewang/computer-usage-summary-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4453,6 +5336,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "contam-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/summer521521/CONTAM_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "content-core",
       "source": {
         "source": "url",
@@ -4470,6 +5366,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/content-marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "context-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/GreenLv/codex-context-guard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4508,6 +5417,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mksglu/context-mode.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "context-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Rothschildiuk/context-pack"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4630,6 +5552,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "core-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/everclear077/codex-learning-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "costguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mbanderas/costguard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "council",
       "source": {
         "source": "git-subdir",
@@ -4698,6 +5646,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/craft-skills-and-memories"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "crawlberg",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kreuzberg-dev/plugins/plugins/crawlberg"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5024,6 +5985,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "debt-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/bcanfield/agentic-tech-debt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "debugging-toolkit",
       "source": {
         "source": "git-subdir",
@@ -5087,6 +6061,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "deepseek-minimal-anchor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/hccccc01333/codex-deepseek-mini-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "defuddle",
       "source": {
         "source": "git-subdir",
@@ -5118,6 +6105,19 @@
         "source": "git-subdir",
         "url": "https://github.com/antonbabenko/deliberation.git",
         "path": "./plugins/deliberation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "delx-recovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/davidmosiah/delx-plugins"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5242,6 +6242,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "deps-doctor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/deps-doctor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "design",
       "source": {
         "source": "git-subdir",
@@ -5342,6 +6355,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dev-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Jason-chen-coder/dev-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devbrother-skills",
       "source": {
         "source": "url",
@@ -5423,6 +6449,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wieslawsoltes/development-plugin-for-avalonia.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "development-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/reidemeister94/development-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5570,6 +6609,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "digital-marketing-pro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/indranilbanerjee/digital-marketing-pro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "digitalocean",
       "source": {
         "source": "git-subdir",
@@ -5639,6 +6691,19 @@
         "source": "git-subdir",
         "url": "https://github.com/nerymurillohnd/codex-essentials.git",
         "path": "./plugins/doc-keeper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/MedAdemBHA/docflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5787,6 +6852,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dodopayments",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/dodopayments/dodo-agent-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dokploy-skills",
       "source": {
         "source": "git-subdir",
@@ -5907,6 +6985,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/dropbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "droplinked-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/droplinked/droplinked-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6102,6 +7193,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "education-agent-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/GarethManning/education-agent-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "efficient-codex-execution",
       "source": {
         "source": "url",
@@ -6119,6 +7223,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/egnyte"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ejentum",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ejentum/ejentum-mcp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6170,6 +7287,19 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/emails-to-github-issues"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "emulo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ohad6k/ditto"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6242,6 +7372,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "env-lint",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/env-lint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "eoc",
       "source": {
         "source": "url",
@@ -6259,6 +7402,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./epharmoge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "epic",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/epicsagas/epic-harness"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6335,6 +7491,19 @@
         "source": "git-subdir",
         "url": "https://github.com/NotasHQ/esment-plugins.git",
         "path": "./plugins/esment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "espresso",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mirkobozzetto/espresso"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6449,6 +7618,19 @@
         "source": "git-subdir",
         "url": "https://github.com/DawnEver/cc-market.git",
         "path": "./evolve"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "exa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/zlsbksdxl/codex-exa"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6625,11 +7807,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "falsegreen-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/vinicq/falsegreen-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fantasy-football-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/krmisystems/fantasy-football-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fd",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/fd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "feishu2codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/zlsbksdxl/codex-lark"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6803,6 +8024,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "flaky-detector",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/flaky-detector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fleet-propagate",
       "source": {
         "source": "git-subdir",
@@ -6942,6 +8176,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "frappe-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Dkm0315/frappe-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "frontend-design-skills",
       "source": {
         "source": "git-subdir",
@@ -7024,6 +8271,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/full-research-cycle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "full-stack-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kevin592/codex-full-stack-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7174,6 +8434,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gcf-proxy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/blackwell-systems/gcf-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gcloud-tools",
       "source": {
         "source": "git-subdir",
@@ -7218,6 +8491,32 @@
         "source": "git-subdir",
         "url": "https://github.com/google/skills.git",
         "path": "./plugins/cloud/gemini-enterprise-agent-platform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "geml",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/geml-spec/geml.git",
+        "path": "./integrations/codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "generative-media-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/SamurAIGPT/Generative-Media-Skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7866,6 +9165,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "graymatter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ValkyrLabs/GrayMatter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "great-cto",
       "source": {
         "source": "url",
@@ -7973,6 +9285,19 @@
         "source": "git-subdir",
         "url": "https://github.com/daishiman/harness-dev.git",
         "path": "./plugins/guide-doc-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "guixu",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/guixu-project/guixu"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8178,6 +9503,45 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/help-scout"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hera-godot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/NotNull92/hera-agent-godot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hera-unity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/NotNull92/hera-agent-unity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "herdr-codex-subagents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/arvkonstantin/herdr-codex-subagents"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8392,6 +9756,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hol-guard-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/hashgraph-online/hol-guard-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "homelab-core",
       "source": {
         "source": "url",
@@ -8408,6 +9785,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Green-PT/honey-for-devs.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "honeydew-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/honeydew-ai/honeydew-ai-coding-agents-plugins"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8460,6 +9850,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/hostinger"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hotl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/yimwoo/hotl-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8743,6 +10146,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "infinizoom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/infinizoom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "intelligent-compact",
       "source": {
         "source": "git-subdir",
@@ -8773,6 +10189,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ljkhyeong/intent-trace.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "interaction-and-control-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles/plugins/interaction-and-control-principles"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9123,6 +10552,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "just-scrape",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ScrapeGraphAI/just-scrape"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "justfile",
       "source": {
         "source": "git-subdir",
@@ -9162,6 +10604,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kachilu-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kachilu-inc/kachilu-browser"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kaggle",
       "source": {
         "source": "url",
@@ -9192,6 +10647,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./katalepsis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kernel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ariaxhan/kernel-claude"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9275,6 +10743,58 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kreuzberg",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kreuzberg-dev/plugins/plugins/kreuzberg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kreuzberg-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kreuzberg-dev/plugins/plugins/kreuzberg-cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kreuzcrawl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kreuzberg-dev/plugins/plugins/kreuzcrawl"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "krypton",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jturntdev/krypton"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kubernetes",
       "source": {
         "source": "git-subdir",
@@ -9293,6 +10813,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/kubernetes-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lacuna-music",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/JOYLINK-LTD/lacuna-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9379,6 +10912,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "launchfast",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/BlockchainHB/launchfast_codex_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "lazarus",
       "source": {
         "source": "git-subdir",
@@ -9446,6 +10992,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pa1nrui1/legal-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "legends-seo-dungeon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/avalonreset/seo-dungeon"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9574,6 +11133,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sunny-chandel/linkedin-campaign-operator.git",
         "path": "./plugins/linkedin-campaign-operator-v3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linkedin-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sergebulaev/linkedin-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9738,6 +11310,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "llm-transpile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/epicsagas/llm-transpile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "llm-wiki",
       "source": {
         "source": "git-subdir",
@@ -9866,6 +11451,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "lvtd-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/LVTD-LLC/skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "machine-learning-ops",
       "source": {
         "source": "git-subdir",
@@ -9892,6 +11490,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "maestro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mbanderas/maestro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "magents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/abnegate/magents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "magicpath",
       "source": {
         "source": "git-subdir",
@@ -9909,6 +11533,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/magnus919/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mailagent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Alex0nder/mailagent"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10150,6 +11787,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mantis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/deonmenezes/mantishack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "marcopolo",
       "source": {
         "source": "git-subdir",
@@ -10276,6 +11926,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "matlab-simulink-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/summer521521/MATLAB_Simulink_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "matt-loop",
       "source": {
         "source": "git-subdir",
@@ -10372,6 +12035,19 @@
         "source": "git-subdir",
         "url": "https://github.com/devbasex/ai-plugins.git",
         "path": "./plugins/mcp/mcp-markitdown"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-md-reader",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/JoseEstevez520/mcp-md-reader"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10534,6 +12210,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "memoire",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sarveshsea/memi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "memory-daemon-manager",
       "source": {
         "source": "git-subdir",
@@ -10563,6 +12252,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NeoLi00/memX.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "merchant-marketing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Nova-raiding/nova.git",
+        "path": "./.codex-marketplace/plugins/merchant-marketing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10824,6 +12526,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ml-pipeline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jananthan30/ml-pipeline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mnogovid-code-scanner",
       "source": {
         "source": "git-subdir",
@@ -10842,6 +12557,19 @@
         "source": "git-subdir",
         "url": "https://github.com/BergaBruh/mnogovid.git",
         "path": "./plugins/mnogovid-system-scanner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobazha",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mobazha/mobazha-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10970,6 +12698,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/moody-s"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "morning-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/octo-patch/MorningAI"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11120,6 +12861,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "myagents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/myagents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mycommands",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/mycommands"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "myregistry-com",
       "source": {
         "source": "git-subdir",
@@ -11133,10 +12900,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "myskills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/myskills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "myspec",
       "source": {
         "source": "url",
         "url": "https://github.com/jansalwowski/myspec.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "n8n-mcp-synta-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Synta-ai/n8n-mcp-codex-plugin-synta"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11335,6 +13128,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nightshift",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/orwa-mahmoud/nightshift"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nixie",
       "source": {
         "source": "git-subdir",
@@ -11461,6 +13267,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nullcost-catalog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/johnvouros/nullcost-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nvidia",
       "source": {
         "source": "git-subdir",
@@ -11543,6 +13362,19 @@
         "source": "git-subdir",
         "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
         "path": "./plugins/obsidian-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oc-codex-multi-auth",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ndycode/oc-chatgpt-multi-auth"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11927,6 +13759,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "odw",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Suraj1235/open-dynamic-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oh-my-cassette",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Cassette-Editor/oh-my-cassette"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "oh-my-short-drama",
       "source": {
         "source": "url",
@@ -11952,11 +13810,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "omnimodal",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ZXY1240/read-image"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "one",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./tests/fixtures/promise-machine/duplicate-canonical/plugins/one"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ontoly",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/0xsarwagya/ontoly-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12116,6 +14000,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "openproject",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/varaprasadreddy9676/team-codex-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "openproject-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/varaprasadreddy9676/openproject-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "opentelemetry",
       "source": {
         "source": "git-subdir",
@@ -12159,6 +14069,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/operating-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ophis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ophis-fi/skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12235,6 +14158,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/szaffarano/org-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orgx-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/useorgx/orgx-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12434,11 +14370,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "panews",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/panewslab/skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "paper-search-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/paper-search-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "papersflow-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/papersflow-ai/papersflow-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12561,6 +14523,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pdf-monster",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jbaehova/pdf-monster"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "peer-review",
       "source": {
         "source": "git-subdir",
@@ -12578,6 +14553,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pentest-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "perception-and-hierarchy-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles/plugins/perception-and-hierarchy-principles"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12669,6 +14657,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cdcoonce/the-workshop.git",
         "path": "./plugins/persona-thinking-partner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "personal-data-protection",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AltByteSG/personal-data-protection-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12815,6 +14816,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plantuml-renderer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/crvsrvn/PlantUML-Renderer-AIPlugin.git",
+        "path": "./plugins/plantuml-renderer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "platform-engineering",
       "source": {
         "source": "git-subdir",
@@ -12833,6 +14847,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/playwright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plori",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/plori-ai/codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13085,6 +15112,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pr-storyteller",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/pr-storyteller"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "praxis",
       "source": {
         "source": "git-subdir",
@@ -13202,6 +15242,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "process-and-robustness-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles/plugins/process-and-robustness-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "procoder",
       "source": {
         "source": "url",
@@ -13304,6 +15357,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "project-memory-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/DuncanMain/project-memory-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "project-setup",
       "source": {
         "source": "git-subdir",
@@ -13387,6 +15453,19 @@
         "source": "git-subdir",
         "url": "https://github.com/niobium617/prompt-reverse-engineer-skill.git",
         "path": "./platform-adapters/codex/prompt-reverse-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prompt-to-asset",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/MohamedAbdallah-14/prompt-to-asset"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13490,6 +15569,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/publication-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "punk-records-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/punk-records-brain"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13613,11 +15705,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "qatom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/TODAQmicro/qatom-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "qrstuff-mcp-server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/qrstuff/codex-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "qualitative-research",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/qualitative-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quality-engineering-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/RBraga01/Quality-Engineering-Skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13784,6 +15915,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cadugevaerd/codex-skills.git",
         "path": "./plugins/rag-kag-decision"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rag-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mimfort/rag_for_git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14010,6 +16154,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "registry-broker-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/hashgraph-online/registry-broker-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rekall",
       "source": {
         "source": "url",
@@ -14167,6 +16324,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/repo-hygiene"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "repobrain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/study8677/antigravity-workspace-template"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14339,6 +16509,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "reviewable-html-workbench",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/u-ichi/reviewable-html-workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rigor",
       "source": {
         "source": "git-subdir",
@@ -14382,6 +16565,19 @@
         "source": "git-subdir",
         "url": "https://github.com/erwint/remaimber.git",
         "path": "./plugins/rmb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "roadmapsmith",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/PapiScholz/roadmapsmith"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14442,6 +16638,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ru-text",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/talkstream/ru-text"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rubber-duck-review",
       "source": {
         "source": "git-subdir",
@@ -14481,10 +16690,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "runtype-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/runtypelabs/skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rust-intel",
       "source": {
         "source": "url",
         "url": "https://github.com/PHPCraftdream/rust-intel.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rust-reverse-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jingjing2222/rust-reverse-engineering-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15353,6 +17588,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sealos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/labring/sealos-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "secret-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/secret-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "security-compliance",
       "source": {
         "source": "git-subdir",
@@ -15384,6 +17645,19 @@
         "source": "git-subdir",
         "url": "https://github.com/vouchington/vouchington-tooling.git",
         "path": "./plugins/security-triage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sekhmet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/sekhmet"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15501,6 +17775,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/seo-technical-optimization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "separateweb-capture",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AUN-PN/SeparateWeb"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15841,6 +18128,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shots",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/hitSlop/shots"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shuriken",
       "source": {
         "source": "url",
@@ -15955,6 +18255,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "simple-man",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Maksim-Burtsev/simple-man"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "simple-output",
       "source": {
         "source": "git-subdir",
@@ -15973,6 +18286,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/simplify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sitemd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sitemd-cc/sitemd"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16201,6 +18527,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/juew/Skill-Routing-Kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-sync-publisher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/liuyewang/skill-sync-publisher"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16473,6 +18812,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "solidworks-gpt-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Erfouni/solidworks-GPT-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spark-cli-skills",
       "source": {
         "source": "url",
@@ -16524,10 +18876,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spec-driven",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Habib0x0/spec-driven-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spec-loop",
       "source": {
         "source": "url",
         "url": "https://github.com/GhostlyGawd/spec-loop-codex.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spec-superflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/MageByte-Zero/spec-superflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16549,11 +18927,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spellbook-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/yyykf/spellbook-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spipe",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ormastes/simple.git",
         "path": "./examples/05_stdlib/spipe/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spoderman",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/spoderman"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16592,6 +18996,45 @@
       "source": {
         "source": "url",
         "url": "https://github.com/leehom0123/ssh-alias-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "staff-engineer-mode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sirmarkz/staff-engineer-mode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "standup-gen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/standup-gen"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stark",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/f0d010c/stark"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16665,6 +19108,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "stop-that-shit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/lennney/stop-that-shit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "stoplight-skills",
       "source": {
         "source": "url",
@@ -16681,6 +19137,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/danjdewhurst/story-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "storyflo-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/droplinked/storyflo-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16905,6 +19374,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "superpipelines",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/gustavo-meilus/superpipelines"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "superpowers",
       "source": {
         "source": "url",
@@ -17092,6 +19574,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sysknife",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/lacs-project/sysknife"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "system-dev-planner",
       "source": {
         "source": "git-subdir",
@@ -17208,11 +19703,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tailtest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/avansaber/tailtest-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tailwind",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/gopherguides/gopher-ai.git",
         "path": "./plugins/tailwind"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "taisly-agent-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/taisly/agent"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17234,10 +19755,49 @@
       "category": "Developer Tools"
     },
     {
+      "name": "talivia-agent-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/talivia-group/agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tamirs-superpowers",
       "source": {
         "source": "url",
         "url": "https://github.com/Tamircohen28/tamirs-superpowers.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tandem-codex-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/frumu-ai/tandem-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tartinerlabs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/tartinerlabs/skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17251,6 +19811,19 @@
         "source": "git-subdir",
         "url": "https://github.com/xxsrez/marketplace.git",
         "path": "./plugins/task-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "task-scheduler",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/6Delta9/task-scheduler-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17367,6 +19940,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wondelai/skills.git",
         "path": "./plugins/team-motivation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "team-skills-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Colin4k1024/tsp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17517,6 +20103,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "test-gap",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/test-gap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "test-marketplace",
       "source": {
         "source": "git-subdir",
@@ -17582,10 +20181,88 @@
       "category": "Developer Tools"
     },
     {
+      "name": "the-almanacker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/the-almanacker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "the-kimiraikoner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/the-kimiraikoner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "the-musketeer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/the-musketeer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "the-netsshark",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/the-netsshark"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "the-puppeteer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/the-puppeteer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "theoretical-biophysics-modeling-skills",
       "source": {
         "source": "url",
         "url": "https://github.com/surajinacademia/theoretical-biophysics-modeling-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "thermal-fluid-research-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/hanhuark/mechanical-engineering-research-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17683,6 +20360,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tmcra-local-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/reshuibuduo/TMCRA-Codex-Memory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tmcra-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/reshuibuduo/tmcra-plugin-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tmux",
       "source": {
         "source": "git-subdir",
@@ -17722,11 +20425,102 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tnt-house-risk-data-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/menantonio83-hue/codex-plugin-tnt-risk-api"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "toastmasters",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/real/toastmasters-mini"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "todo-harvest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/mturac/todo-harvest"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "token-harbor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/NickHOI/Token-Harbor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "token-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ooples/token-optimizer-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tokenchronicle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HuaHuiJian/tokenchronicle-marketplace"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tokrepo-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/henu-wang/tokrepo-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tool-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/dragon1086/claude-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17789,6 +20583,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tree-ring-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/TerminallyLazy/tree-ring-memory-codex-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18001,6 +20808,31 @@
       "category": "Developer Tools"
     },
     {
+      "name": "uizze",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/samuelbushi/uizze"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ultimate-frontend-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ridelink0/ultimate-frontend-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ultra-goal",
       "source": {
         "source": "git-subdir",
@@ -18065,6 +20897,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "unforgit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/MiguelMedeiros/unforgit-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "uniac",
       "source": {
         "source": "url",
@@ -18102,6 +20947,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "unified-ai-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/happy520ai/unified-ai-system"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "unit-testing",
       "source": {
         "source": "git-subdir",
@@ -18128,10 +20986,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "unity-agent-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/AUN-PN/unity-agent-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "unity-cli",
       "source": {
         "source": "url",
         "url": "https://github.com/akiojin/unity-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "universal-design-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/HDeibler/universal-design-principles"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18191,6 +21075,31 @@
       "category": "Developer Tools"
     },
     {
+      "name": "upwork-autopilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/klajdikkolaj/upwork-autopilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "usage-limits",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ridelink0/claude-code-usage-limits.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "uv",
       "source": {
         "source": "git-subdir",
@@ -18217,11 +21126,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vals",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/val-town/plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vanguard-frontier-agentic",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Raishin/vanguard-frontier-agentic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vantage",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/vantage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "velith",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/epicsagas/Velith"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18292,6 +21240,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vibe-portrait",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/dadwadw233/VibePortrait"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "video-guide",
       "source": {
         "source": "git-subdir",
@@ -18305,10 +21266,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vidseeds",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/CarrotGamesStudios/vidseeds-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "view-browser-tab",
       "source": {
         "source": "url",
         "url": "https://github.com/puffinsoft/peek-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "villagesql",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/villagesql/villagesql-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18380,6 +21367,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vpai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/explorium-ai/vibeprospecting-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vugola",
       "source": {
         "source": "url",
@@ -18396,6 +21396,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/clearlove7818/waa-independent-evaluation.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "waggle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Abhigyan-Shekhar/Waggle-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wakewire",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/glenncalleja/wakewire"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18447,6 +21473,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/watch-ci-after-push"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wavespeed-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/WaveSpeedAI/codex-plugin-wavespeed-cli"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18621,6 +21660,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "wf-orc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RomanGovorov/wf-orc.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "wgu-agent-foundation",
       "source": {
         "source": "git-subdir",
@@ -18698,6 +21749,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "wingman",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/lsshym/wingman.ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "wix",
       "source": {
         "source": "git-subdir",
@@ -18767,6 +21831,19 @@
         "source": "git-subdir",
         "url": "https://github.com/YMD7/agent-plugins.git",
         "path": "./plugins/workflow-graph"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workflow-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Le-Xuan-Thang/workflow-kit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18864,6 +21941,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "writers-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/xxsang/writers-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "writing",
       "source": {
         "source": "git-subdir",
@@ -18894,6 +21984,58 @@
         "source": "git-subdir",
         "url": "https://github.com/Sivan757/dsh-agent-plugins-market.git",
         "path": "./tests/fixtures/dual-dialect-codex-fallback/plugins/x"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "x-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/sergebulaev/x-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "x-twitter-scraper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Xquik-dev/x-twitter-scraper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "xbrd-gdsp-fknpft",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/xbrd-gdsp-fknpft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "xbrd-selector",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/xbrd-selector"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18953,6 +22095,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "yandex-direct-for-all",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/nebelov/yandex-direct-for-all"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "yepcode",
       "source": {
         "source": "git-subdir",
@@ -18984,6 +22139,32 @@
         "source": "git-subdir",
         "url": "https://github.com/avivsinai/skills-marketplace.git",
         "path": "./plugins/yoetz"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "youtube-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ZeroPointRepo/youtube-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zagrosi-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/zagrosi-code/zagrosi-forge"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19075,6 +22256,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/zotero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zotero-research-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/summer521521/Zotero_Research_plugin"
       },
       "policy": {
         "installation": "AVAILABLE",

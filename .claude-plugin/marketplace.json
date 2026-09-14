@@ -106,6 +106,13 @@
       }
     },
     {
+      "name": "64x-lunicorn",
+      "source": {
+        "source": "github",
+        "repo": "64x-lunicorn/skills"
+      }
+    },
+    {
       "name": "a11y-audit",
       "source": {
         "source": "git-subdir",
@@ -1312,6 +1319,30 @@
       }
     },
     {
+      "name": "aimm-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/aimm-commands"
+      }
+    },
+    {
+      "name": "aimm-newsletter",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/aimm-newsletter"
+      }
+    },
+    {
+      "name": "aimm-writing-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/aimm-writing-team"
+      }
+    },
+    {
       "name": "aio",
       "source": {
         "source": "git-subdir",
@@ -1431,6 +1462,22 @@
       }
     },
     {
+      "name": "akka-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "akka/ai-marketplace",
+        "path": "plugins/akka"
+      }
+    },
+    {
+      "name": "akka-specify",
+      "source": {
+        "source": "git-subdir",
+        "url": "akka/ai-marketplace",
+        "path": "plugins/akka-specify"
+      }
+    },
+    {
       "name": "alchemy-pack",
       "source": {
         "source": "git-subdir",
@@ -1523,6 +1570,21 @@
         "source": "git-subdir",
         "url": "awslabs/agent-plugins",
         "path": "plugins/amazon-location-service"
+      }
+    },
+    {
+      "name": "ambient-folder",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/ambient-folder"
+      }
+    },
+    {
+      "name": "ambient-library",
+      "source": {
+        "source": "github",
+        "repo": "coachlou/ambient-library"
       }
     },
     {
@@ -2928,6 +2990,22 @@
       }
     },
     {
+      "name": "audit-fix",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/audit-fix"
+      }
+    },
+    {
+      "name": "audit-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/audit-mcp"
+      }
+    },
+    {
       "name": "audit-project",
       "source": {
         "source": "git-subdir",
@@ -3433,6 +3511,13 @@
       }
     },
     {
+      "name": "beopsuny",
+      "source": {
+        "source": "github",
+        "repo": "sungjunlee/beopsuny-skill"
+      }
+    },
+    {
       "name": "berean",
       "source": {
         "source": "git-subdir",
@@ -3906,6 +3991,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "partner-built/brand-voice"
+      }
+    },
+    {
+      "name": "brand-writing-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/brand-writing-team"
       }
     },
     {
@@ -4459,6 +4552,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "productivity/capture"
+      }
+    },
+    {
+      "name": "capture-chat",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/capture-chat"
       }
     },
     {
@@ -5139,6 +5240,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/checkpoint"
+      }
+    },
+    {
+      "name": "checkpoint-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/checkpoint"
       }
     },
     {
@@ -6446,6 +6555,13 @@
       }
     },
     {
+      "name": "codexpiator",
+      "source": {
+        "source": "github",
+        "repo": "emanuelegreco29/codexpiator"
+      }
+    },
+    {
       "name": "coding",
       "source": {
         "source": "git-subdir",
@@ -6475,6 +6591,30 @@
         "source": "git-subdir",
         "url": "hashgraph-online/awesome-codex-plugins",
         "path": "plugins/HDeibler/universal-design-principles/plugins/cognition-and-learnability-principles"
+      }
+    },
+    {
+      "name": "cognitive-mirror",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/cognitive-mirror"
+      }
+    },
+    {
+      "name": "cognitive-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/cognitive-operations"
+      }
+    },
+    {
+      "name": "cognitive-stack-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "in-progress/cognitive-stack-code"
       }
     },
     {
@@ -6891,6 +7031,14 @@
       }
     },
     {
+      "name": "concise",
+      "source": {
+        "source": "git-subdir",
+        "url": "RicardoAlbuquerquet/concise",
+        "path": "skills/concise"
+      }
+    },
+    {
       "name": "concord",
       "source": {
         "source": "git-subdir",
@@ -6958,6 +7106,14 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "connect-apps"
+      }
+    },
+    {
+      "name": "connector-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/connector-bridge"
       }
     },
     {
@@ -7111,6 +7267,14 @@
       }
     },
     {
+      "name": "context-mgr",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/context-mgr"
+      }
+    },
+    {
       "name": "context-mode",
       "source": {
         "source": "github",
@@ -7211,6 +7375,22 @@
       }
     },
     {
+      "name": "conversation-consolidation-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/conversation-consolidation-system"
+      }
+    },
+    {
+      "name": "conversation-ip-extractor",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/conversation-ip-extractor"
+      }
+    },
+    {
       "name": "conversational-api-debugger",
       "source": {
         "source": "git-subdir",
@@ -7299,6 +7479,14 @@
       "source": {
         "source": "github",
         "repo": "open-science-pillars/core"
+      }
+    },
+    {
+      "name": "core-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "pastoriniMatheus/core-ai",
+        "path": "plugins/core"
       }
     },
     {
@@ -8781,6 +8969,22 @@
       }
     },
     {
+      "name": "deep-comprehension-assessment",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/deep-comprehension-assessment"
+      }
+    },
+    {
+      "name": "deep-field",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/deep-field"
+      }
+    },
+    {
       "name": "deep-learning-book",
       "source": {
         "source": "git-subdir",
@@ -8802,6 +9006,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/deep-learning-optimizer"
+      }
+    },
+    {
+      "name": "deep-mirror",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/deep-mirror"
       }
     },
     {
@@ -8951,6 +9163,38 @@
         "source": "git-subdir",
         "url": "abs1294/fulin-claude-plugins",
         "path": "plugins/deliver-report"
+      }
+    },
+    {
+      "name": "delivery",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/delivery"
+      }
+    },
+    {
+      "name": "delivery-schedule",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/delivery-schedule"
+      }
+    },
+    {
+      "name": "delivery-surface-collector",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/delivery-surface-collector"
+      }
+    },
+    {
+      "name": "delivery-surface-dashboard",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/delivery-surface-dashboard"
       }
     },
     {
@@ -9367,6 +9611,30 @@
       }
     },
     {
+      "name": "devbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/devbook"
+      }
+    },
+    {
+      "name": "devbook-collaboration",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/devbook-collaboration"
+      }
+    },
+    {
+      "name": "devbook-config",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
+        "path": "plugins/devbook-config"
+      }
+    },
+    {
       "name": "devbrother-skills",
       "source": {
         "source": "github",
@@ -9480,6 +9748,14 @@
       "source": {
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
+        "path": "plugins/devops"
+      }
+    },
+    {
+      "name": "devops-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Jerry0022/dotclaude",
         "path": "plugins/devops"
       }
     },
@@ -9789,6 +10065,22 @@
       }
     },
     {
+      "name": "distro-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/distro-kit"
+      }
+    },
+    {
+      "name": "dobbel",
+      "source": {
+        "source": "git-subdir",
+        "url": "dobbel-as/plugins",
+        "path": "plugins/dobbel"
+      }
+    },
+    {
       "name": "doc-coauthoring",
       "source": {
         "source": "git-subdir",
@@ -9826,6 +10118,14 @@
         "source": "git-subdir",
         "url": "wagneripjr/skills",
         "path": "doc-this"
+      }
+    },
+    {
+      "name": "docdd",
+      "source": {
+        "source": "git-subdir",
+        "url": "no1013kota/claude-docdd-dev-kit",
+        "path": "plugins/docdd"
       }
     },
     {
@@ -10536,6 +10836,22 @@
       }
     },
     {
+      "name": "editor",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/editor"
+      }
+    },
+    {
+      "name": "editorial-desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/editorial-desk"
+      }
+    },
+    {
       "name": "editorial-loop",
       "source": {
         "source": "github",
@@ -10562,6 +10878,14 @@
       "source": {
         "source": "github",
         "repo": "nutapong1150/ego-avatar"
+      }
+    },
+    {
+      "name": "eigenthinking",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/eigenthinking"
       }
     },
     {
@@ -10847,6 +11171,14 @@
         "source": "git-subdir",
         "url": "Gentleman-Programming/engram",
         "path": "plugin/claude-code"
+      }
+    },
+    {
+      "name": "enrich-prompt",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/enrich-prompt"
       }
     },
     {
@@ -11426,6 +11758,14 @@
       }
     },
     {
+      "name": "extract-codify-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/extract-codify-patterns"
+      }
+    },
+    {
       "name": "extract-system-blueprint",
       "source": {
         "source": "git-subdir",
@@ -11989,6 +12329,414 @@
       }
     },
     {
+      "name": "fixture",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk001/fail"
+      }
+    },
+    {
+      "name": "fixture-10",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk003/pass"
+      }
+    },
+    {
+      "name": "fixture-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk004/fail-dieser-skill"
+      }
+    },
+    {
+      "name": "fixture-12",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk004/fail-this-skill"
+      }
+    },
+    {
+      "name": "fixture-13",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk004/fail-too-few-words"
+      }
+    },
+    {
+      "name": "fixture-14",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk004/fail-you"
+      }
+    },
+    {
+      "name": "fixture-15",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk004/pass"
+      }
+    },
+    {
+      "name": "fixture-16",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk005/fail-mismatch"
+      }
+    },
+    {
+      "name": "fixture-17",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk005/fail-missing"
+      }
+    },
+    {
+      "name": "fixture-18",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk005/pass"
+      }
+    },
+    {
+      "name": "fixture-19",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/fail-single-segment"
+      }
+    },
+    {
+      "name": "fixture-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk001/pass"
+      }
+    },
+    {
+      "name": "fixture-20",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/fail-unknown-verb"
+      }
+    },
+    {
+      "name": "fixture-21",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/fail-uppercase"
+      }
+    },
+    {
+      "name": "fixture-22",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-configure"
+      }
+    },
+    {
+      "name": "fixture-23",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-harvest"
+      }
+    },
+    {
+      "name": "fixture-24",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-interview"
+      }
+    },
+    {
+      "name": "fixture-25",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-promote"
+      }
+    },
+    {
+      "name": "fixture-26",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-setup"
+      }
+    },
+    {
+      "name": "fixture-27",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass-verify"
+      }
+    },
+    {
+      "name": "fixture-28",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk006/pass"
+      }
+    },
+    {
+      "name": "fixture-29",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk007/fail-excluded-fields"
+      }
+    },
+    {
+      "name": "fixture-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk002/fail-invalid-yaml"
+      }
+    },
+    {
+      "name": "fixture-30",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk007/fail-unknown-field"
+      }
+    },
+    {
+      "name": "fixture-31",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk007/pass"
+      }
+    },
+    {
+      "name": "fixture-32",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk008/fail-false"
+      }
+    },
+    {
+      "name": "fixture-33",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk008/fail-missing"
+      }
+    },
+    {
+      "name": "fixture-34",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk008/pass"
+      }
+    },
+    {
+      "name": "fixture-35",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk009/fail"
+      }
+    },
+    {
+      "name": "fixture-36",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk009/pass"
+      }
+    },
+    {
+      "name": "fixture-37",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk010/fail"
+      }
+    },
+    {
+      "name": "fixture-38",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk010/pass"
+      }
+    },
+    {
+      "name": "fixture-39",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk011/fail"
+      }
+    },
+    {
+      "name": "fixture-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk002/fail-leading-blank-line"
+      }
+    },
+    {
+      "name": "fixture-40",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk011/pass"
+      }
+    },
+    {
+      "name": "fixture-41",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk012/fail-missing"
+      }
+    },
+    {
+      "name": "fixture-42",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk012/fail-no-case"
+      }
+    },
+    {
+      "name": "fixture-43",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk012/pass"
+      }
+    },
+    {
+      "name": "fixture-44",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk013/fail-dangling"
+      }
+    },
+    {
+      "name": "fixture-45",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk013/pass"
+      }
+    },
+    {
+      "name": "fixture-46",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/fail-missing"
+      }
+    },
+    {
+      "name": "fixture-47",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/fail-notice"
+      }
+    },
+    {
+      "name": "fixture-48",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/fail-version-missing"
+      }
+    },
+    {
+      "name": "fixture-49",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/fail-version"
+      }
+    },
+    {
+      "name": "fixture-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk002/fail-unclosed"
+      }
+    },
+    {
+      "name": "fixture-50",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/pass-setup-project"
+      }
+    },
+    {
+      "name": "fixture-51",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk014/pass"
+      }
+    },
+    {
+      "name": "fixture-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk002/pass"
+      }
+    },
+    {
+      "name": "fixture-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk003/fail-empty"
+      }
+    },
+    {
+      "name": "fixture-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk003/fail-missing"
+      }
+    },
+    {
+      "name": "fixture-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "64x-lunicorn/skills",
+        "path": "tools/validator/fixtures/sk003/fail-too-short"
+      }
+    },
+    {
       "name": "fixture-plugin",
       "source": {
         "source": "git-subdir",
@@ -12025,6 +12773,14 @@
       "source": {
         "source": "git-subdir",
         "url": "XTraceAI/agent-plugins",
+        "path": "plugins/fleet"
+      }
+    },
+    {
+      "name": "fleet-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "JSdotNet/ai-agent-stack",
         "path": "plugins/fleet"
       }
     },
@@ -12776,6 +13532,14 @@
       }
     },
     {
+      "name": "fresh-eyes",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/fresh-eyes"
+      }
+    },
+    {
       "name": "fresh-take",
       "source": {
         "source": "git-subdir",
@@ -13101,6 +13865,14 @@
       }
     },
     {
+      "name": "gauntlet",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/gauntlet"
+      }
+    },
+    {
       "name": "gavel",
       "source": {
         "source": "github",
@@ -13137,6 +13909,14 @@
         "source": "git-subdir",
         "url": "mnox/mnox-ai",
         "path": "plugins/gdpr-review"
+      }
+    },
+    {
+      "name": "gears-broadcast",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/gears-broadcast"
       }
     },
     {
@@ -13256,6 +14036,14 @@
         "source": "git-subdir",
         "url": "minazih/genesys-demo",
         "path": "src"
+      }
+    },
+    {
+      "name": "geo-authority-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/geo-authority-architect"
       }
     },
     {
@@ -13663,6 +14451,22 @@
       }
     },
     {
+      "name": "gmail-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/gmail-manager"
+      }
+    },
+    {
+      "name": "gmail-triage",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/gmail-triage"
+      }
+    },
+    {
       "name": "gmailtriage",
       "source": {
         "source": "git-subdir",
@@ -13942,6 +14746,14 @@
       }
     },
     {
+      "name": "graphify-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/graphify"
+      }
+    },
+    {
       "name": "graphloops",
       "source": {
         "source": "git-subdir",
@@ -14008,6 +14820,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/greptile"
+      }
+    },
+    {
+      "name": "grill",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/grill"
       }
     },
     {
@@ -14402,6 +15222,14 @@
         "source": "git-subdir",
         "url": "Fueav/harness-driven-development",
         "path": "plugins/harness-driven-development"
+      }
+    },
+    {
+      "name": "harness-prd",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/harness-prd"
       }
     },
     {
@@ -14829,6 +15657,14 @@
       }
     },
     {
+      "name": "hot-take-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/hot-take-forge"
+      }
+    },
+    {
       "name": "howp",
       "source": {
         "source": "git-subdir",
@@ -14878,6 +15714,13 @@
       "source": {
         "source": "github",
         "repo": "uchimata2/htmldeck"
+      }
+    },
+    {
+      "name": "htmx-skills",
+      "source": {
+        "source": "github",
+        "repo": "filippov-au/htmx-skills"
       }
     },
     {
@@ -15479,10 +16322,26 @@
       }
     },
     {
+      "name": "ireport",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/ireport"
+      }
+    },
+    {
       "name": "iris-dev",
       "source": {
         "source": "github",
         "repo": "intersystems-community/iris-agentic-dev"
+      }
+    },
+    {
+      "name": "irreplaceable-edge",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/irreplaceable-edge"
       }
     },
     {
@@ -16258,6 +17117,14 @@
       }
     },
     {
+      "name": "knowledge-base-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/knowledge-base-architect"
+      }
+    },
+    {
       "name": "knowledge-curator",
       "source": {
         "source": "git-subdir",
@@ -16504,6 +17371,14 @@
       }
     },
     {
+      "name": "latent-cartographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/latent-cartographer"
+      }
+    },
+    {
       "name": "lazarus",
       "source": {
         "source": "git-subdir",
@@ -16531,6 +17406,14 @@
         "source": "git-subdir",
         "url": "aitit-inc/leadace",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "leaderize-storytelling-framework",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/leaderize-storytelling-framework"
       }
     },
     {
@@ -17233,6 +18116,14 @@
       "source": {
         "source": "github",
         "repo": "MarcSky/loanword"
+      }
+    },
+    {
+      "name": "local-llm",
+      "source": {
+        "source": "git-subdir",
+        "url": "Jerry0022/dotclaude",
+        "path": "plugins/local-llm"
       }
     },
     {
@@ -18344,6 +19235,14 @@
       }
     },
     {
+      "name": "meeting-nuggets",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/meeting-nuggets"
+      }
+    },
+    {
       "name": "meetings",
       "source": {
         "source": "git-subdir",
@@ -18994,6 +19893,14 @@
       "source": {
         "source": "github",
         "repo": "Aijo24/mudguard"
+      }
+    },
+    {
+      "name": "multi-model-debate-live",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/multi-model-debate-live"
       }
     },
     {
@@ -20052,6 +20959,13 @@
       }
     },
     {
+      "name": "oms",
+      "source": {
+        "source": "github",
+        "repo": "goosull/oh-my-subscriptions"
+      }
+    },
+    {
       "name": "on-chain-analytics",
       "source": {
         "source": "git-subdir",
@@ -20764,6 +21678,14 @@
         "source": "git-subdir",
         "url": "Parcha-ai/parcha-skills",
         "path": "parable/skills/parable/runtime/welcome-plugin"
+      }
+    },
+    {
+      "name": "paradigm-collision-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/paradigm-collision-engine"
       }
     },
     {
@@ -22059,6 +22981,14 @@
       }
     },
     {
+      "name": "polyglot-language-coach",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/polyglot-language-coach"
+      }
+    },
+    {
       "name": "ponytail",
       "source": {
         "source": "github",
@@ -22329,6 +23259,14 @@
         "source": "git-subdir",
         "url": "ncaq/konoka",
         "path": "plugins/prefer-builtin-update"
+      }
+    },
+    {
+      "name": "prerenderbuddy",
+      "source": {
+        "source": "git-subdir",
+        "url": "kopachlager/prerenderbuddy-plugins",
+        "path": "plugins/prerenderbuddy"
       }
     },
     {
@@ -22719,6 +23657,14 @@
       }
     },
     {
+      "name": "project-brief",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/project-brief"
+      }
+    },
+    {
       "name": "project-curator",
       "source": {
         "source": "git-subdir",
@@ -22740,6 +23686,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/project-health-auditor"
+      }
+    },
+    {
+      "name": "project-index",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/project-index"
       }
     },
     {
@@ -23303,6 +24257,13 @@
       "source": {
         "source": "github",
         "repo": "lotea-be/qrspi"
+      }
+    },
+    {
+      "name": "qualiow",
+      "source": {
+        "source": "github",
+        "repo": "willcoliveira/qualiow-exploratory-testing-skills"
       }
     },
     {
@@ -24050,6 +25011,14 @@
       }
     },
     {
+      "name": "release-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "wntic/ocm",
+        "path": "template/plugins/release-kit"
+      }
+    },
+    {
       "name": "release-tools-2",
       "source": {
         "source": "git-subdir",
@@ -24335,6 +25304,14 @@
       }
     },
     {
+      "name": "researcher-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/researcher"
+      }
+    },
+    {
       "name": "resell-pro",
       "source": {
         "source": "github",
@@ -24583,6 +25560,13 @@
       }
     },
     {
+      "name": "roadmap-tracking",
+      "source": {
+        "source": "github",
+        "repo": "ehouriez/roadmap-tracking"
+      }
+    },
+    {
       "name": "roast",
       "source": {
         "source": "git-subdir",
@@ -24654,6 +25638,14 @@
       }
     },
     {
+      "name": "rranauro",
+      "source": {
+        "source": "git-subdir",
+        "url": "scientist-hq/skills",
+        "path": "plugins/rranauro"
+      }
+    },
+    {
       "name": "rsc-agent-runtime",
       "source": {
         "source": "git-subdir",
@@ -24721,6 +25713,14 @@
         "source": "git-subdir",
         "url": "stuinfla/ruvnet-brain",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "rx",
+      "source": {
+        "source": "git-subdir",
+        "url": "scientist-hq/skills",
+        "path": "plugins/rx"
       }
     },
     {
@@ -25363,6 +26363,14 @@
       }
     },
     {
+      "name": "secops-factory",
+      "source": {
+        "source": "git-subdir",
+        "url": "BOHICA-LABS/secops-factory",
+        "path": "plugins/secops-factory"
+      }
+    },
+    {
       "name": "secops-team",
       "source": {
         "source": "git-subdir",
@@ -25798,6 +26806,14 @@
       }
     },
     {
+      "name": "session",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/session"
+      }
+    },
+    {
       "name": "session-bus",
       "source": {
         "source": "github",
@@ -26184,6 +27200,14 @@
       }
     },
     {
+      "name": "skill-auditor",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/skill-auditor"
+      }
+    },
+    {
       "name": "skill-authoring",
       "source": {
         "source": "github",
@@ -26244,6 +27268,14 @@
         "source": "git-subdir",
         "url": "umputun/cc-thingz",
         "path": "plugins/skill-eval"
+      }
+    },
+    {
+      "name": "skill-evals",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/skill-evals"
       }
     },
     {
@@ -26755,6 +27787,21 @@
       }
     },
     {
+      "name": "software-dev-factory",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/software-dev-factory"
+      }
+    },
+    {
+      "name": "software-factory-skills",
+      "source": {
+        "source": "github",
+        "repo": "jaydubya818/skillz"
+      }
+    },
+    {
       "name": "software-project-governance",
       "source": {
         "source": "github",
@@ -26782,6 +27829,14 @@
       "source": {
         "source": "github",
         "repo": "fortunto2/solo-factory"
+      }
+    },
+    {
+      "name": "solofactory",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/solofactory"
       }
     },
     {
@@ -28242,6 +29297,14 @@
       }
     },
     {
+      "name": "teaching-block-synthesized",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/teaching-block-synthesized"
+      }
+    },
+    {
       "name": "team",
       "source": {
         "source": "github",
@@ -28894,6 +29957,14 @@
       }
     },
     {
+      "name": "to-issues",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/to-issues"
+      }
+    },
+    {
       "name": "toastmasters",
       "source": {
         "source": "git-subdir",
@@ -29200,6 +30271,14 @@
       }
     },
     {
+      "name": "transcript-to-content-pipeline",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/transcript-to-content-pipeline"
+      }
+    },
+    {
       "name": "transfer-learning-adapter",
       "source": {
         "source": "git-subdir",
@@ -29287,6 +30366,14 @@
       }
     },
     {
+      "name": "trello-pipeline",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/trello-pipeline"
+      }
+    },
+    {
       "name": "trend-researcher",
       "source": {
         "source": "git-subdir",
@@ -29315,6 +30402,14 @@
         "source": "git-subdir",
         "url": "paat/claude-plugins",
         "path": "plugins/tribunal-review"
+      }
+    },
+    {
+      "name": "trigger-runner",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/trigger-runner"
       }
     },
     {
@@ -29765,6 +30860,13 @@
       }
     },
     {
+      "name": "upwork-agent-plugin",
+      "source": {
+        "source": "github",
+        "repo": "upwork/upwork-agent-plugin"
+      }
+    },
+    {
       "name": "uroboros",
       "source": {
         "source": "github",
@@ -30026,6 +31128,13 @@
       }
     },
     {
+      "name": "vibe-force",
+      "source": {
+        "source": "github",
+        "repo": "grzmol/vibe-force"
+      }
+    },
+    {
       "name": "vibe-guide",
       "source": {
         "source": "git-subdir",
@@ -30274,10 +31383,26 @@
       }
     },
     {
+      "name": "voice-crm-pipeline",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/voice-crm-pipeline"
+      }
+    },
+    {
       "name": "voice-memo",
       "source": {
         "source": "github",
         "repo": "howel-jp/voice-memo-kit"
+      }
+    },
+    {
+      "name": "voice-profile-trainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/voice-profile-trainer"
       }
     },
     {
@@ -30683,6 +31808,14 @@
       }
     },
     {
+      "name": "wbs-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/wbs-toolkit"
+      }
+    },
+    {
       "name": "we-need-ds",
       "source": {
         "source": "github",
@@ -30719,6 +31852,13 @@
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
         "path": "plugins/weave"
+      }
+    },
+    {
+      "name": "weave-2",
+      "source": {
+        "source": "github",
+        "repo": "GabrielKqw/weave"
       }
     },
     {
@@ -31079,6 +32219,14 @@
       "source": {
         "source": "github",
         "repo": "alegauss/winwright"
+      }
+    },
+    {
+      "name": "wmux-claude-integration",
+      "source": {
+        "source": "git-subdir",
+        "url": "openwong2kim/wmux",
+        "path": "integrations/claude"
       }
     },
     {
@@ -31515,6 +32663,14 @@
       }
     },
     {
+      "name": "wrap",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/wrap"
+      }
+    },
+    {
       "name": "write-a-skill",
       "source": {
         "source": "git-subdir",
@@ -31528,6 +32684,14 @@
         "source": "git-subdir",
         "url": "dmitry-fomin/homemade-skills-claude-code",
         "path": "plugins/writer"
+      }
+    },
+    {
+      "name": "writer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/writer"
       }
     },
     {
@@ -31560,6 +32724,22 @@
         "source": "git-subdir",
         "url": "brokenrobot-xyz/agent-skills",
         "path": "plugins/writing-simplified-technical-english"
+      }
+    },
+    {
+      "name": "writing-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "bundles/writing-suite"
+      }
+    },
+    {
+      "name": "writing-team",
+      "source": {
+        "source": "git-subdir",
+        "url": "coachlou/ambient-library",
+        "path": "library/writing-team"
       }
     },
     {

@@ -76,6 +76,13 @@
       }
     },
     {
+      "name": "1c-quality-gate",
+      "source": {
+        "source": "github",
+        "repo": "Romandredan/1c-quality-gate"
+      }
+    },
+    {
       "name": "1f3d9-citylife",
       "source": {
         "source": "github",
@@ -223,11 +230,35 @@
       }
     },
     {
+      "name": "accessibility-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/accessibility-engineering"
+      }
+    },
+    {
+      "name": "accessibility-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "accessibility-plugin"
+      }
+    },
+    {
       "name": "accessibility-test-scanner",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/accessibility-test-scanner"
+      }
+    },
+    {
+      "name": "accounting-bookkeeping",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/accounting-bookkeeping"
       }
     },
     {
@@ -320,6 +351,14 @@
       "source": {
         "source": "github",
         "repo": "LupusDei/adjutant"
+      }
+    },
+    {
+      "name": "adlc",
+      "source": {
+        "source": "git-subdir",
+        "url": "integranz/adlc",
+        "path": "plugins/adlc"
       }
     },
     {
@@ -717,6 +756,14 @@
       }
     },
     {
+      "name": "agent-patterns-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "agent-patterns-plugin"
+      }
+    },
+    {
       "name": "agent-progress",
       "source": {
         "source": "github",
@@ -1095,6 +1142,14 @@
       }
     },
     {
+      "name": "agents-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "agents-plugin"
+      }
+    },
+    {
       "name": "agile-product-owner",
       "source": {
         "source": "git-subdir",
@@ -1135,6 +1190,14 @@
       }
     },
     {
+      "name": "ai-agent-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ai-agent-engineering"
+      }
+    },
+    {
       "name": "ai-badger",
       "source": {
         "source": "github",
@@ -1147,6 +1210,14 @@
         "source": "git-subdir",
         "url": "lazyants/claude-plugins",
         "path": "plugins/ai-cli-optout"
+      }
+    },
+    {
+      "name": "ai-coding-model-guidance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ai-coding-model-guidance"
       }
     },
     {
@@ -1291,6 +1362,14 @@
       }
     },
     {
+      "name": "ai-first-org-design-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/ai-first-org-design-kit"
+      }
+    },
+    {
       "name": "ai-hedge-fund-value",
       "source": {
         "source": "git-subdir",
@@ -1372,6 +1451,22 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/ai-prompt-lab"
+      }
+    },
+    {
+      "name": "ai-rag-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ai-rag-engineering"
+      }
+    },
+    {
+      "name": "ai-red-teaming",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ai-red-teaming"
       }
     },
     {
@@ -1791,6 +1886,14 @@
         "source": "git-subdir",
         "url": "paat/claude-plugins",
         "path": "plugins/analyst-companion"
+      }
+    },
+    {
+      "name": "analytics-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/analytics-engineering"
       }
     },
     {
@@ -2311,6 +2414,14 @@
       }
     },
     {
+      "name": "api-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/api-engineering"
+      }
+    },
+    {
       "name": "api-error-handler",
       "source": {
         "source": "git-subdir",
@@ -2451,6 +2562,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-monitoring-dashboard"
+      }
+    },
+    {
+      "name": "api-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "api-plugin"
       }
     },
     {
@@ -2828,6 +2947,14 @@
       }
     },
     {
+      "name": "applied-statistics",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/applied-statistics"
+      }
+    },
+    {
       "name": "apply",
       "source": {
         "source": "git-subdir",
@@ -2841,6 +2968,22 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/approaches"
+      }
+    },
+    {
+      "name": "appscript-clasp",
+      "source": {
+        "source": "git-subdir",
+        "url": "Vallistruqui-BP/product-focused-plugins",
+        "path": "plugins/appscript-clasp"
+      }
+    },
+    {
+      "name": "ar-vr-xr-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ar-vr-xr-engineering"
       }
     },
     {
@@ -2911,6 +3054,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/architecture/architecture"
+      }
+    },
+    {
+      "name": "architecture-aec",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/architecture-aec"
       }
     },
     {
@@ -3306,6 +3457,14 @@
       }
     },
     {
+      "name": "audio-dsp-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/audio-dsp-engineering"
+      }
+    },
+    {
       "name": "audit",
       "source": {
         "source": "git-subdir",
@@ -3361,6 +3520,14 @@
       }
     },
     {
+      "name": "auth-identity",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/auth-identity"
+      }
+    },
+    {
       "name": "authentication-validator",
       "source": {
         "source": "git-subdir",
@@ -3382,6 +3549,14 @@
         "source": "git-subdir",
         "url": "weedmo/skills",
         "path": "plugins/auto-loop"
+      }
+    },
+    {
+      "name": "auto-repair-shop-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/auto-repair-shop-operations"
       }
     },
     {
@@ -3437,6 +3612,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/automl-pipeline-builder"
+      }
+    },
+    {
+      "name": "automotive-dealership",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/automotive-dealership"
       }
     },
     {
@@ -3509,6 +3692,14 @@
       }
     },
     {
+      "name": "aws-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/aws-cloud"
+      }
+    },
+    {
       "name": "aws-harness",
       "source": {
         "source": "git-subdir",
@@ -3575,6 +3766,14 @@
       "source": {
         "source": "github",
         "repo": "MicrosoftDocs/Agent-Skills"
+      }
+    },
+    {
+      "name": "azure-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/azure-cloud"
       }
     },
     {
@@ -3695,6 +3894,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/backend-development"
+      }
+    },
+    {
+      "name": "backend-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/backend-engineering"
       }
     },
     {
@@ -3899,6 +4106,14 @@
       }
     },
     {
+      "name": "behavioral-health-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/behavioral-health-practice"
+      }
+    },
+    {
       "name": "behavioral-state-analysis",
       "source": {
         "source": "git-subdir",
@@ -3949,6 +4164,22 @@
       "source": {
         "source": "github",
         "repo": "n24q02m/better-workspace-mcp"
+      }
+    },
+    {
+      "name": "bevy-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "bevy-plugin"
+      }
+    },
+    {
+      "name": "bg",
+      "source": {
+        "source": "git-subdir",
+        "url": "b-galy/agent-kit",
+        "path": "galy"
       }
     },
     {
@@ -4078,6 +4309,14 @@
       }
     },
     {
+      "name": "bioinformatics-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/bioinformatics-engineering"
+      }
+    },
+    {
       "name": "bionexus-reliability",
       "source": {
         "source": "github",
@@ -4191,6 +4430,30 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/blockchain-web3"
+      }
+    },
+    {
+      "name": "blockchain-web3-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/blockchain-web3-engineering"
+      }
+    },
+    {
+      "name": "blog-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "blog-plugin"
+      }
+    },
+    {
+      "name": "blueprint-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "blueprint-plugin"
       }
     },
     {
@@ -4390,6 +4653,14 @@
       }
     },
     {
+      "name": "brand-identity-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/brand-identity-studio"
+      }
+    },
+    {
       "name": "brand-landingpage",
       "source": {
         "source": "git-subdir",
@@ -4576,6 +4847,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/browser-compatibility-tester"
+      }
+    },
+    {
+      "name": "browser-extension-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/browser-extension-engineering"
       }
     },
     {
@@ -4866,6 +5145,14 @@
       }
     },
     {
+      "name": "ca-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ken2403/agent-parallel-dev-plugin",
+        "path": "ca/claude"
+      }
+    },
+    {
       "name": "ca-sandbox",
       "source": {
         "source": "git-subdir",
@@ -4921,6 +5208,14 @@
       }
     },
     {
+      "name": "cairn-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "Cairn-ink/cairn-memory",
+        "path": "plugins/cairn-memory"
+      }
+    },
+    {
       "name": "calendar-to-workflow",
       "source": {
         "source": "git-subdir",
@@ -4941,6 +5236,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/candor"
+      }
+    },
+    {
+      "name": "cannabis-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/cannabis-operations"
       }
     },
     {
@@ -5395,6 +5698,14 @@
       }
     },
     {
+      "name": "centaur",
+      "source": {
+        "source": "git-subdir",
+        "url": "paradigmxyz/centaur",
+        "path": "plugins/centaur"
+      }
+    },
+    {
       "name": "ceo-quality-controller-agent",
       "source": {
         "source": "git-subdir",
@@ -5510,6 +5821,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/chaos-engineering"
+      }
+    },
+    {
+      "name": "chaos-engineering-resilience",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/chaos-engineering-resilience"
       }
     },
     {
@@ -5799,6 +6118,22 @@
       }
     },
     {
+      "name": "childcare-early-education",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/childcare-early-education"
+      }
+    },
+    {
+      "name": "chiropractic-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/chiropractic-practice"
+      }
+    },
+    {
       "name": "chitta",
       "source": {
         "source": "github",
@@ -6014,6 +6349,14 @@
       }
     },
     {
+      "name": "claude-app-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/claude-app-engineering"
+      }
+    },
+    {
       "name": "claude-bionify",
       "source": {
         "source": "git-subdir",
@@ -6035,6 +6378,14 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/claude-code"
+      }
+    },
+    {
+      "name": "claude-code-boss",
+      "source": {
+        "source": "git-subdir",
+        "url": "AllanSantos-DV/claude-code-plugins",
+        "path": "claude-code-boss"
       }
     },
     {
@@ -6103,6 +6454,13 @@
         "source": "git-subdir",
         "url": "gtapps/claude-code-hermit",
         "path": "plugins/claude-code-homeassistant-hermit"
+      }
+    },
+    {
+      "name": "claude-code-ide-org",
+      "source": {
+        "source": "github",
+        "repo": "nbest937/claude-code-ide-org.el"
       }
     },
     {
@@ -6473,6 +6831,13 @@
       }
     },
     {
+      "name": "claude-slots",
+      "source": {
+        "source": "github",
+        "repo": "WorldInnovationsDepartment/claude_slots"
+      }
+    },
+    {
       "name": "claude-telemetry-hooks",
       "source": {
         "source": "git-subdir",
@@ -6595,6 +6960,13 @@
       }
     },
     {
+      "name": "clawbio",
+      "source": {
+        "source": "github",
+        "repo": "ClawBio/ClawBio"
+      }
+    },
+    {
       "name": "clay-pack",
       "source": {
         "source": "git-subdir",
@@ -6655,6 +7027,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/cli-tool-dev"
+      }
+    },
+    {
+      "name": "cli-tooling-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/cli-tooling-engineering"
       }
     },
     {
@@ -6722,6 +7102,21 @@
       }
     },
     {
+      "name": "client-status",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/client-status"
+      }
+    },
+    {
+      "name": "clinical-trials",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/clinical-trials"
+      }
+    },
+    {
       "name": "cloud",
       "source": {
         "source": "git-subdir",
@@ -6751,6 +7146,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/cloud-infrastructure"
+      }
+    },
+    {
+      "name": "cloud-native-kubernetes",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/cloud-native-kubernetes"
       }
     },
     {
@@ -6927,6 +7330,14 @@
       }
     },
     {
+      "name": "code-quality-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "code-quality-plugin"
+      }
+    },
+    {
       "name": "code-refactoring",
       "source": {
         "source": "git-subdir",
@@ -7084,6 +7495,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/code-tour"
+      }
+    },
+    {
+      "name": "codebase-attributes-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "codebase-attributes-plugin"
       }
     },
     {
@@ -7394,6 +7813,14 @@
       }
     },
     {
+      "name": "comfyui-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "comfyui-plugin"
+      }
+    },
+    {
       "name": "command-guard",
       "source": {
         "source": "git-subdir",
@@ -7439,6 +7866,14 @@
         "source": "git-subdir",
         "url": "adobe/skills",
         "path": "plugins/commerce/app-review"
+      }
+    },
+    {
+      "name": "commercial-real-estate",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/commercial-real-estate"
       }
     },
     {
@@ -7559,6 +7994,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "partner-built/common-room"
+      }
+    },
+    {
+      "name": "communication-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "communication-plugin"
       }
     },
     {
@@ -7737,6 +8180,14 @@
       }
     },
     {
+      "name": "component-patterns-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "component-patterns-plugin"
+      }
+    },
+    {
       "name": "compras-suprimentos",
       "source": {
         "source": "git-subdir",
@@ -7765,6 +8216,14 @@
       "source": {
         "source": "github",
         "repo": "ridelink0/claude-computer-use"
+      }
+    },
+    {
+      "name": "computer-vision-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/computer-vision-engineering"
       }
     },
     {
@@ -7862,6 +8321,22 @@
       }
     },
     {
+      "name": "configure-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "configure-plugin"
+      }
+    },
+    {
+      "name": "confluence-live-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "Vallistruqui-BP/product-focused-plugins",
+        "path": "plugins/confluence-live-sync"
+      }
+    },
+    {
       "name": "conhecimento",
       "source": {
         "source": "git-subdir",
@@ -7914,6 +8389,22 @@
         "source": "git-subdir",
         "url": "HollandDM/my-skills",
         "path": "constructing-software-stepwise"
+      }
+    },
+    {
+      "name": "construction-general-contractor",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/construction-general-contractor"
+      }
+    },
+    {
+      "name": "container-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "container-plugin"
       }
     },
     {
@@ -8025,6 +8516,14 @@
         "source": "git-subdir",
         "url": "AndrewDongminYoo/cc-agents-kit",
         "path": "plugins/context-handoff"
+      }
+    },
+    {
+      "name": "context-ledger",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/context-ledger"
       }
     },
     {
@@ -8224,6 +8723,14 @@
       }
     },
     {
+      "name": "conversational-ai-voice-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/conversational-ai-voice-engineering"
+      }
+    },
+    {
       "name": "conversational-api-debugger",
       "source": {
         "source": "git-subdir",
@@ -8323,6 +8830,13 @@
       }
     },
     {
+      "name": "core-ops",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/core-ops"
+      }
+    },
+    {
       "name": "core-suite",
       "source": {
         "source": "git-subdir",
@@ -8344,6 +8858,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/coreweave-pack"
+      }
+    },
+    {
+      "name": "corporate-development-ma",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/corporate-development-ma"
       }
     },
     {
@@ -8511,6 +9033,14 @@
       }
     },
     {
+      "name": "craft-beverage-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/craft-beverage-operations"
+      }
+    },
+    {
       "name": "craft-layer",
       "source": {
         "source": "git-subdir",
@@ -8626,6 +9156,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/create-worktrees"
+      }
+    },
+    {
+      "name": "creator-economy-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/creator-economy-operations"
       }
     },
     {
@@ -8922,6 +9460,14 @@
       }
     },
     {
+      "name": "css-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "css-plugin"
+      }
+    },
+    {
       "name": "cube-3",
       "source": {
         "source": "git-subdir",
@@ -9001,6 +9547,14 @@
       }
     },
     {
+      "name": "customer-success-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/customer-success-analytics"
+      }
+    },
+    {
       "name": "customer-success-manager",
       "source": {
         "source": "git-subdir",
@@ -9030,6 +9584,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/customer-support/customer-support"
+      }
+    },
+    {
+      "name": "customer-support-cx-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/customer-support-cx-operations"
       }
     },
     {
@@ -9092,6 +9654,14 @@
         "source": "git-subdir",
         "url": "victorfalcaotembici/Skills",
         "path": "12-cx-atendimento"
+      }
+    },
+    {
+      "name": "cybersecurity-grc",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/cybersecurity-grc"
       }
     },
     {
@@ -9217,6 +9787,14 @@
       }
     },
     {
+      "name": "data-governance-privacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-governance-privacy"
+      }
+    },
+    {
       "name": "data-integration",
       "source": {
         "source": "git-subdir",
@@ -9237,6 +9815,22 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/data-modeling/data-modeling"
+      }
+    },
+    {
+      "name": "data-orchestration",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-orchestration"
+      }
+    },
+    {
+      "name": "data-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-platform"
       }
     },
     {
@@ -9296,11 +9890,27 @@
       }
     },
     {
+      "name": "data-quality-observability",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-quality-observability"
+      }
+    },
+    {
       "name": "data-safety",
       "source": {
         "source": "git-subdir",
         "url": "damson/hard-won-skills",
         "path": "plugins/data-safety"
+      }
+    },
+    {
+      "name": "data-science-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-science-research"
       }
     },
     {
@@ -9349,6 +9959,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/database/data-seeder-generator"
+      }
+    },
+    {
+      "name": "data-streaming-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/data-streaming-engineering"
       }
     },
     {
@@ -9544,6 +10162,14 @@
       }
     },
     {
+      "name": "database-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/database-engineering"
+      }
+    },
+    {
       "name": "database-health-monitor",
       "source": {
         "source": "git-subdir",
@@ -9672,6 +10298,14 @@
       }
     },
     {
+      "name": "database-reliability-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/database-reliability-engineering"
+      }
+    },
+    {
       "name": "database-replication-manager",
       "source": {
         "source": "git-subdir",
@@ -9773,6 +10407,14 @@
         "source": "git-subdir",
         "url": "schmucas/dotclaude",
         "path": "plugins/databricks"
+      }
+    },
+    {
+      "name": "databricks-lakehouse-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/databricks-lakehouse-engineering"
       }
     },
     {
@@ -9977,6 +10619,14 @@
         "source": "git-subdir",
         "url": "mnox/mnox-ai",
         "path": "plugins/debut"
+      }
+    },
+    {
+      "name": "decipon",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/decipon"
       }
     },
     {
@@ -10285,6 +10935,14 @@
       }
     },
     {
+      "name": "dental-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/dental-practice"
+      }
+    },
+    {
       "name": "dependency-audit",
       "source": {
         "source": "git-subdir",
@@ -10513,6 +11171,14 @@
       }
     },
     {
+      "name": "design-systems-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/design-systems-engineering"
+      }
+    },
+    {
       "name": "design-team",
       "source": {
         "source": "git-subdir",
@@ -10617,6 +11283,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/desktop-app-dev"
+      }
+    },
+    {
+      "name": "desktop-app-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/desktop-app-engineering"
       }
     },
     {
@@ -10730,6 +11404,14 @@
       }
     },
     {
+      "name": "dev-workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeff377/claude-plugins",
+        "path": "plugins/dev-workflow"
+      }
+    },
+    {
       "name": "devbook",
       "source": {
         "source": "git-subdir",
@@ -10782,6 +11464,22 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "developer-growth-analysis"
+      }
+    },
+    {
+      "name": "developer-relations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/developer-relations"
+      }
+    },
+    {
+      "name": "developer-tooling",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/developer-tooling"
       }
     },
     {
@@ -10940,6 +11638,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/devops-automator"
+      }
+    },
+    {
+      "name": "devops-cicd",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/devops-cicd"
       }
     },
     {
@@ -11119,6 +11825,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/digital-marketing"
+      }
+    },
+    {
+      "name": "digital-twin-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/digital-twin-engineering"
       }
     },
     {
@@ -11504,6 +12218,14 @@
       }
     },
     {
+      "name": "documentation-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "documentation-plugin"
+      }
+    },
+    {
       "name": "documentation-standards",
       "source": {
         "source": "git-subdir",
@@ -11587,6 +12309,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "research/dossier"
+      }
+    },
+    {
+      "name": "dossier-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/dossier"
       }
     },
     {
@@ -11879,6 +12609,13 @@
       }
     },
     {
+      "name": "dsh-skills-anywhere",
+      "source": {
+        "source": "github",
+        "repo": "noteflowai/dsh-skills-anywhere"
+      }
+    },
+    {
       "name": "dual-agent-pr-review",
       "source": {
         "source": "git-subdir",
@@ -11899,6 +12636,13 @@
       "source": {
         "source": "github",
         "repo": "yowcow/dude"
+      }
+    },
+    {
+      "name": "due-process-complaint",
+      "source": {
+        "source": "github",
+        "repo": "b33kman/special-education-due-process-complaint"
       }
     },
     {
@@ -12083,6 +12827,14 @@
       }
     },
     {
+      "name": "ecommerce-dtc",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ecommerce-dtc"
+      }
+    },
+    {
       "name": "ecpay",
       "source": {
         "source": "git-subdir",
@@ -12164,6 +12916,14 @@
       "source": {
         "source": "github",
         "repo": "AlastairZeved/Editorial-Recension"
+      }
+    },
+    {
+      "name": "edtech-partner-success",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/edtech-partner-success"
       }
     },
     {
@@ -12317,11 +13077,27 @@
       }
     },
     {
+      "name": "email-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/email-engineering"
+      }
+    },
+    {
       "name": "emails-to-github-issues",
       "source": {
         "source": "git-subdir",
         "url": "paat/claude-plugins",
         "path": "plugins/emails-to-github-issues"
+      }
+    },
+    {
+      "name": "embedded-iot-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/embedded-iot-engineering"
       }
     },
     {
@@ -12425,6 +13201,14 @@
         "source": "git-subdir",
         "url": "grimaldost/craft-collection",
         "path": "plugins/engineering-discipline"
+      }
+    },
+    {
+      "name": "engineering-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/engineering-management"
       }
     },
     {
@@ -12665,6 +13449,14 @@
       }
     },
     {
+      "name": "esg-sustainability-reporting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/esg-sustainability-reporting"
+      }
+    },
+    {
       "name": "esment",
       "source": {
         "source": "git-subdir",
@@ -12744,6 +13536,14 @@
       }
     },
     {
+      "name": "evaluate-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "evaluate-plugin"
+      }
+    },
+    {
       "name": "evaluator-gate",
       "source": {
         "source": "git-subdir",
@@ -12765,6 +13565,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/event-driven-service"
+      }
+    },
+    {
+      "name": "event-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/event-management"
       }
     },
     {
@@ -13083,6 +13891,14 @@
       }
     },
     {
+      "name": "experimentation-growth-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/experimentation-growth-engineering"
+      }
+    },
+    {
       "name": "explain",
       "source": {
         "source": "git-subdir",
@@ -13231,6 +14047,14 @@
         "source": "git-subdir",
         "url": "DawnEver/cc-market",
         "path": "fabric"
+      }
+    },
+    {
+      "name": "fabric-connect",
+      "source": {
+        "source": "git-subdir",
+        "url": "Vallistruqui-BP/product-focused-plugins",
+        "path": "plugins/fabric-connect"
       }
     },
     {
@@ -13432,6 +14256,14 @@
       }
     },
     {
+      "name": "feedback-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "feedback-plugin"
+      }
+    },
+    {
       "name": "feedback-synthesizer",
       "source": {
         "source": "git-subdir",
@@ -13483,6 +14315,14 @@
       "source": {
         "source": "github",
         "repo": "Laolex/fhevm-agent-skill"
+      }
+    },
+    {
+      "name": "field-service-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/field-service-management"
       }
     },
     {
@@ -13563,6 +14403,14 @@
       }
     },
     {
+      "name": "film-video-production",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/film-video-production"
+      }
+    },
+    {
       "name": "finance",
       "source": {
         "source": "git-subdir",
@@ -13575,6 +14423,14 @@
       "source": {
         "source": "git-subdir",
         "url": "trojanbox/agent-plugin-marketplace",
+        "path": "plugins/finance"
+      }
+    },
+    {
+      "name": "finance-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
         "path": "plugins/finance"
       }
     },
@@ -13650,6 +14506,22 @@
       }
     },
     {
+      "name": "finops-cloud-cost",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/finops-cloud-cost"
+      }
+    },
+    {
+      "name": "finops-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "finops-plugin"
+      }
+    },
+    {
       "name": "finta-pack",
       "source": {
         "source": "git-subdir",
@@ -13670,6 +14542,14 @@
       "source": {
         "source": "github",
         "repo": "SanketsMane/Fintech-Skills"
+      }
+    },
+    {
+      "name": "fintech-payments-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/fintech-payments-engineering"
       }
     },
     {
@@ -13740,6 +14620,14 @@
         "source": "git-subdir",
         "url": "AzJester/skills",
         "path": "skills/fishbone-diagram"
+      }
+    },
+    {
+      "name": "fitness-studio-gym-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/fitness-studio-gym-operations"
       }
     },
     {
@@ -14309,6 +15197,14 @@
       }
     },
     {
+      "name": "fleet-logistics",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/fleet-logistics"
+      }
+    },
+    {
       "name": "fleet-propagate",
       "source": {
         "source": "git-subdir",
@@ -14378,6 +15274,14 @@
       }
     },
     {
+      "name": "flow-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/flow"
+      }
+    },
+    {
       "name": "flow-next",
       "source": {
         "source": "git-subdir",
@@ -14390,6 +15294,14 @@
       "source": {
         "source": "github",
         "repo": "themesberg/flowbite-mcp"
+      }
+    },
+    {
+      "name": "flowchart-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "Vallistruqui-BP/product-focused-plugins",
+        "path": "plugins/flowchart-builder"
       }
     },
     {
@@ -14572,6 +15484,14 @@
         "source": "git-subdir",
         "url": "AzJester/skills",
         "path": "skills/fmea-analysis"
+      }
+    },
+    {
+      "name": "fn-hooks-canary",
+      "source": {
+        "source": "git-subdir",
+        "url": "yonatangross/orchestkit",
+        "path": "tests/fixtures/fn-hooks-canary"
       }
     },
     {
@@ -14994,6 +15914,14 @@
       }
     },
     {
+      "name": "forms-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/forms-engineering"
+      }
+    },
+    {
       "name": "forward-deployed-selling",
       "source": {
         "source": "github",
@@ -15028,6 +15956,14 @@
       "source": {
         "source": "github",
         "repo": "cyface/foundryvtt-dev-claude-plugin"
+      }
+    },
+    {
+      "name": "foundryvtt-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "foundryvtt-plugin"
       }
     },
     {
@@ -15083,6 +16019,22 @@
       "source": {
         "source": "github",
         "repo": "mohamed-amine-ben-mallessa/francetravail-mcp"
+      }
+    },
+    {
+      "name": "franchise-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/franchise-operations"
+      }
+    },
+    {
+      "name": "freight-forwarding-sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/freight-forwarding-sales"
       }
     },
     {
@@ -15213,6 +16165,14 @@
       }
     },
     {
+      "name": "frontend-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/frontend-engineering"
+      }
+    },
+    {
       "name": "frontend-mobile-development",
       "source": {
         "source": "git-subdir",
@@ -15333,6 +16293,14 @@
       }
     },
     {
+      "name": "funeral-home-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/funeral-home-operations"
+      }
+    },
+    {
       "name": "fused-render",
       "source": {
         "source": "github",
@@ -15375,6 +16343,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/game-development"
+      }
+    },
+    {
+      "name": "game-development-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
         "path": "plugins/game-development"
       }
     },
@@ -15478,6 +16454,14 @@
         "source": "git-subdir",
         "url": "virajp/ai-plugins",
         "path": "plugins/gcp"
+      }
+    },
+    {
+      "name": "gcp-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/gcp-cloud"
       }
     },
     {
@@ -15625,6 +16609,14 @@
       }
     },
     {
+      "name": "generative-web-media",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/generative-web-media"
+      }
+    },
+    {
       "name": "generic-ai-skills",
       "source": {
         "source": "github",
@@ -15645,6 +16637,14 @@
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/geo-authority-architect"
+      }
+    },
+    {
+      "name": "geospatial-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/geospatial-engineering"
       }
     },
     {
@@ -15700,6 +16700,14 @@
         "source": "git-subdir",
         "url": "chalosalvador/claude-workflows",
         "path": "plugins/gh-issue-flow"
+      }
+    },
+    {
+      "name": "gh-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "synaptiai/synapti-marketplace",
+        "path": "plugins/gh-workflow"
       }
     },
     {
@@ -15877,6 +16885,14 @@
       }
     },
     {
+      "name": "git-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "git-plugin"
+      }
+    },
+    {
       "name": "git-pr-workflows",
       "source": {
         "source": "git-subdir",
@@ -15906,6 +16922,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/git-workflow"
+      }
+    },
+    {
+      "name": "git-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/git-workflows"
       }
     },
     {
@@ -15956,6 +16980,14 @@
       }
     },
     {
+      "name": "github-actions-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "github-actions-plugin"
+      }
+    },
+    {
       "name": "github-dev",
       "source": {
         "source": "git-subdir",
@@ -16001,6 +17033,13 @@
         "source": "git-subdir",
         "url": "curie-eng/curie",
         "path": "examples/github-issues"
+      }
+    },
+    {
+      "name": "github-release",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/github-release-skill"
       }
     },
     {
@@ -16215,6 +17254,13 @@
       }
     },
     {
+      "name": "golf",
+      "source": {
+        "source": "github",
+        "repo": "golf-data/golf"
+      }
+    },
+    {
       "name": "gomega",
       "source": {
         "source": "git-subdir",
@@ -16365,10 +17411,26 @@
       }
     },
     {
+      "name": "grants-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/grants-management"
+      }
+    },
+    {
       "name": "graph-engineering",
       "source": {
         "source": "github",
         "repo": "ShonP/graph-engineering"
+      }
+    },
+    {
+      "name": "graph-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/graph-engineering"
       }
     },
     {
@@ -16408,6 +17470,14 @@
         "source": "git-subdir",
         "url": "raiki61/claude-plugins",
         "path": "graphloops"
+      }
+    },
+    {
+      "name": "graphql-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/graphql-engineering"
       }
     },
     {
@@ -16551,6 +17621,22 @@
       }
     },
     {
+      "name": "grok-bot-creation",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/grok-bot-creation"
+      }
+    },
+    {
+      "name": "grok-bot-delegation",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/grok-bot-delegation"
+      }
+    },
+    {
       "name": "grok-build-supervisor",
       "source": {
         "source": "git-subdir",
@@ -16685,6 +17771,30 @@
       }
     },
     {
+      "name": "gw-control",
+      "source": {
+        "source": "git-subdir",
+        "url": "aki-kii/discord-thread-workers",
+        "path": "plugins/gw-control"
+      }
+    },
+    {
+      "name": "gw-runtime",
+      "source": {
+        "source": "git-subdir",
+        "url": "aki-kii/discord-thread-workers",
+        "path": "plugins/gw-runtime"
+      }
+    },
+    {
+      "name": "ha",
+      "source": {
+        "source": "git-subdir",
+        "url": "ken2403/agent-parallel-dev-plugin",
+        "path": "ha"
+      }
+    },
+    {
       "name": "haipipe",
       "source": {
         "source": "git-subdir",
@@ -16812,6 +17922,14 @@
       }
     },
     {
+      "name": "hardware-electronics-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/hardware-electronics-engineering"
+      }
+    },
+    {
       "name": "harlan-agent-kit",
       "source": {
         "source": "git-subdir",
@@ -16933,6 +18051,21 @@
       "source": {
         "source": "github",
         "repo": "Mindbowser/health-harness"
+      }
+    },
+    {
+      "name": "health-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "health-plugin"
+      }
+    },
+    {
+      "name": "heddle",
+      "source": {
+        "source": "github",
+        "repo": "mmayasaurus/heddle"
       }
     },
     {
@@ -17228,6 +18361,14 @@
       }
     },
     {
+      "name": "higher-education-administration",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/higher-education-administration"
+      }
+    },
+    {
       "name": "hilos",
       "source": {
         "source": "github",
@@ -17258,6 +18399,14 @@
       }
     },
     {
+      "name": "hoa-community-association-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/hoa-community-association-management"
+      }
+    },
+    {
       "name": "hol-guard",
       "source": {
         "source": "git-subdir",
@@ -17278,6 +18427,22 @@
       "source": {
         "source": "github",
         "repo": "komal-SkyNET/claude-skill-homeassistant"
+      }
+    },
+    {
+      "name": "home-assistant-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "home-assistant-plugin"
+      }
+    },
+    {
+      "name": "home-health-care-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/home-health-care-operations"
       }
     },
     {
@@ -17319,6 +18484,22 @@
       }
     },
     {
+      "name": "hooks-library",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/hooks-library"
+      }
+    },
+    {
+      "name": "hooks-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "hooks-plugin"
+      }
+    },
+    {
       "name": "hootsuite-pack",
       "source": {
         "source": "git-subdir",
@@ -17343,11 +18524,35 @@
       }
     },
     {
+      "name": "hospice-referral-sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/hospice-referral-sales"
+      }
+    },
+    {
       "name": "hot-take-forge",
       "source": {
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/hot-take-forge"
+      }
+    },
+    {
+      "name": "hotel-hospitality-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/hotel-hospitality-operations"
+      }
+    },
+    {
+      "name": "housecarl",
+      "source": {
+        "source": "git-subdir",
+        "url": "Avick3110/houseCARL",
+        "path": "plugin"
       }
     },
     {
@@ -17797,6 +19002,14 @@
       }
     },
     {
+      "name": "incident-response-dfir",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/incident-response-dfir"
+      }
+    },
+    {
       "name": "inference-builder",
       "source": {
         "source": "github",
@@ -17986,6 +19199,22 @@
       }
     },
     {
+      "name": "insurance-life-health-benefits",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/insurance-life-health-benefits"
+      }
+    },
+    {
+      "name": "insurance-pc",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/insurance-pc"
+      }
+    },
+    {
       "name": "intact",
       "source": {
         "source": "git-subdir",
@@ -18046,6 +19275,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/intercom-pack"
+      }
+    },
+    {
+      "name": "internal-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/internal-audit"
       }
     },
     {
@@ -18171,6 +19408,14 @@
         "source": "git-subdir",
         "url": "motlin/claude-code-plugins",
         "path": "plugins/iterm2-titles"
+      }
+    },
+    {
+      "name": "itsm-service-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/itsm-service-management"
       }
     },
     {
@@ -18659,6 +19904,14 @@
       }
     },
     {
+      "name": "k12-school-administration",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/k12-school-administration"
+      }
+    },
+    {
       "name": "k12-teacher-skills",
       "source": {
         "source": "git-subdir",
@@ -19014,6 +20267,14 @@
       }
     },
     {
+      "name": "kubernetes-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "kubernetes-plugin"
+      }
+    },
+    {
       "name": "kubestellar-console",
       "source": {
         "source": "git-subdir",
@@ -19086,6 +20347,14 @@
         "source": "git-subdir",
         "url": "sumik5/sumik-llm-plugin",
         "path": "plugins/lang"
+      }
+    },
+    {
+      "name": "langchain-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "langchain-plugin"
       }
     },
     {
@@ -19347,6 +20616,14 @@
       }
     },
     {
+      "name": "legacy-modernization",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/legacy-modernization"
+      }
+    },
+    {
       "name": "legal",
       "source": {
         "source": "git-subdir",
@@ -19392,6 +20669,22 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/legal-compliance-checker"
+      }
+    },
+    {
+      "name": "legal-ops-clm",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/legal-ops-clm"
+      }
+    },
+    {
+      "name": "legal-small-firm",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/legal-small-firm"
       }
     },
     {
@@ -19665,6 +20958,13 @@
       }
     },
     {
+      "name": "lightbringer",
+      "source": {
+        "source": "github",
+        "repo": "lightbringer-patents/claude-plugin"
+      }
+    },
+    {
       "name": "lighthouse-runner",
       "source": {
         "source": "git-subdir",
@@ -19901,6 +21201,14 @@
       }
     },
     {
+      "name": "llm-evaluation-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/llm-evaluation-engineering"
+      }
+    },
+    {
       "name": "llm-finetuning",
       "source": {
         "source": "git-subdir",
@@ -20025,6 +21333,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/localization/localization"
+      }
+    },
+    {
+      "name": "localization-i18n-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/localization-i18n-engineering"
       }
     },
     {
@@ -20313,6 +21629,14 @@
       }
     },
     {
+      "name": "macos-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "macos-plugin"
+      }
+    },
+    {
       "name": "magic-codex",
       "source": {
         "source": "git-subdir",
@@ -20341,6 +21665,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/maintainx-pack"
+      }
+    },
+    {
+      "name": "maipai",
+      "source": {
+        "source": "git-subdir",
+        "url": "getmaipai/.github",
+        "path": "plugin"
       }
     },
     {
@@ -20510,6 +21842,14 @@
       }
     },
     {
+      "name": "manufacturing-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/manufacturing-operations"
+      }
+    },
+    {
       "name": "maos",
       "source": {
         "source": "github",
@@ -20645,6 +21985,14 @@
       }
     },
     {
+      "name": "marketing-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/marketing-operations"
+      }
+    },
+    {
       "name": "marketing-skills",
       "source": {
         "source": "git-subdir",
@@ -20706,6 +22054,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/marp-slides"
+      }
+    },
+    {
+      "name": "martech-event-instrumentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/martech-event-instrumentation"
       }
     },
     {
@@ -21113,6 +22469,14 @@
       }
     },
     {
+      "name": "med-spa-aesthetics",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/med-spa-aesthetics"
+      }
+    },
+    {
       "name": "media-io",
       "source": {
         "source": "github",
@@ -21125,6 +22489,14 @@
         "source": "git-subdir",
         "url": "wangjs-jacky/jacky-skills",
         "path": "plugins/media-toolkit"
+      }
+    },
+    {
+      "name": "medical-revenue-cycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/medical-revenue-cycle"
       }
     },
     {
@@ -21235,6 +22607,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/memory-engineering"
+      }
+    },
+    {
+      "name": "memory-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/memory-engineering"
       }
     },
     {
@@ -21452,6 +22832,30 @@
       }
     },
     {
+      "name": "microsoft-365-copilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/microsoft-365-copilot"
+      }
+    },
+    {
+      "name": "microsoft-fabric",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/microsoft-fabric"
+      }
+    },
+    {
+      "name": "microsoft-graph",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/microsoft-graph"
+      }
+    },
+    {
       "name": "migrate-tool",
       "source": {
         "source": "git-subdir",
@@ -21465,6 +22869,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/migration-generator"
+      }
+    },
+    {
+      "name": "migration-patterns-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "migration-patterns-plugin"
       }
     },
     {
@@ -21560,6 +22972,14 @@
       }
     },
     {
+      "name": "ml-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ml-engineering"
+      }
+    },
+    {
       "name": "ml-model-trainer",
       "source": {
         "source": "git-subdir",
@@ -21644,6 +23064,14 @@
       "source": {
         "source": "github",
         "repo": "kakzaki/mobile-app-ux-auditor-flutter"
+      }
+    },
+    {
+      "name": "mobile-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/mobile-engineering"
       }
     },
     {
@@ -21862,6 +23290,14 @@
       }
     },
     {
+      "name": "mortgage-lending",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/mortgage-lending"
+      }
+    },
+    {
       "name": "mrscraper",
       "source": {
         "source": "git-subdir",
@@ -21882,6 +23318,14 @@
       "source": {
         "source": "github",
         "repo": "Aijo24/mudguard"
+      }
+    },
+    {
+      "name": "muggle",
+      "source": {
+        "source": "git-subdir",
+        "url": "multiplex-ai/muggle-ai-works",
+        "path": "plugin"
       }
     },
     {
@@ -21914,6 +23358,14 @@
         "source": "git-subdir",
         "url": "lazyants/claude-plugins",
         "path": "plugins/multi-profile-plugins"
+      }
+    },
+    {
+      "name": "museum-cultural-institution-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/museum-cultural-institution-operations"
       }
     },
     {
@@ -22202,6 +23654,14 @@
       }
     },
     {
+      "name": "network-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/network-engineering"
+      }
+    },
+    {
       "name": "network-latency-analyzer",
       "source": {
         "source": "git-subdir",
@@ -22231,6 +23691,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/network-policy-manager"
+      }
+    },
+    {
+      "name": "networking-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "networking-plugin"
       }
     },
     {
@@ -22287,6 +23755,13 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/newline"
+      }
+    },
+    {
+      "name": "news-curator",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/news-curator"
       }
     },
     {
@@ -22471,6 +23946,14 @@
       }
     },
     {
+      "name": "nonprofit-fundraising",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/nonprofit-fundraising"
+      }
+    },
+    {
       "name": "norman-finance",
       "source": {
         "source": "github",
@@ -22572,10 +24055,24 @@
       }
     },
     {
+      "name": "nt-share",
+      "source": {
+        "source": "github",
+        "repo": "notambourine/share"
+      }
+    },
+    {
       "name": "nuclear-grade",
       "source": {
         "source": "github",
         "repo": "FlyFission/nuclear-grade-context-engineering"
+      }
+    },
+    {
+      "name": "nucleus",
+      "source": {
+        "source": "github",
+        "repo": "coproduct-opensource/claude-code-nucleus"
       }
     },
     {
@@ -22600,6 +24097,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/observability-monitoring"
+      }
+    },
+    {
+      "name": "observability-sre",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/observability-sre"
       }
     },
     {
@@ -22631,6 +24136,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/obsidian-pack"
+      }
+    },
+    {
+      "name": "obsidian-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "obsidian-plugin"
       }
     },
     {
@@ -22896,6 +24409,13 @@
       }
     },
     {
+      "name": "odin-skills",
+      "source": {
+        "source": "github",
+        "repo": "RubyEyedReaper/Odin-Skills"
+      }
+    },
+    {
       "name": "odin-terraform",
       "source": {
         "source": "git-subdir",
@@ -23127,6 +24647,14 @@
         "source": "git-subdir",
         "url": "ladiossoop5star/open_magi",
         "path": "adapters/claude"
+      }
+    },
+    {
+      "name": "open-source-maintenance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/open-source-maintenance"
       }
     },
     {
@@ -23409,6 +24937,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/options-flow-analyzer"
+      }
+    },
+    {
+      "name": "optometry-eyecare-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/optometry-eyecare-practice"
       }
     },
     {
@@ -23853,6 +25389,14 @@
       }
     },
     {
+      "name": "partnerships-alliances",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/partnerships-alliances"
+      }
+    },
+    {
       "name": "partnerships-bd",
       "source": {
         "source": "git-subdir",
@@ -24112,6 +25656,14 @@
       }
     },
     {
+      "name": "people-operations-hr",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/people-operations-hr"
+      }
+    },
+    {
       "name": "perception-and-hierarchy-principles",
       "source": {
         "source": "git-subdir",
@@ -24173,6 +25725,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/performance-engineering/performance-engineering"
+      }
+    },
+    {
+      "name": "performance-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/performance-engineering"
       }
     },
     {
@@ -24348,6 +25908,14 @@
       }
     },
     {
+      "name": "pharmacy-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/pharmacy-operations"
+      }
+    },
+    {
       "name": "philharmonie",
       "source": {
         "source": "git-subdir",
@@ -24376,6 +25944,14 @@
         "source": "git-subdir",
         "url": "The01Geek/prflow",
         "path": ".github/probe-plugin"
+      }
+    },
+    {
+      "name": "physical-therapy-rehab-clinic",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/physical-therapy-rehab-clinic"
       }
     },
     {
@@ -24724,6 +26300,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/platform-engineering"
+      }
+    },
+    {
+      "name": "platform-engineering-idp",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/platform-engineering-idp"
       }
     },
     {
@@ -25147,6 +26731,14 @@
       }
     },
     {
+      "name": "pm-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Vallistruqui-BP/product-focused-plugins",
+        "path": "plugins/pm-skills"
+      }
+    },
+    {
       "name": "pm-strategy",
       "source": {
         "source": "git-subdir",
@@ -25306,6 +26898,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/posthog-pack"
+      }
+    },
+    {
+      "name": "power-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/power-platform"
       }
     },
     {
@@ -25576,6 +27176,14 @@
       }
     },
     {
+      "name": "precision-agriculture",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/precision-agriculture"
+      }
+    },
+    {
       "name": "precode-system-foundations",
       "source": {
         "source": "git-subdir",
@@ -25663,6 +27271,14 @@
       }
     },
     {
+      "name": "pricing-monetization",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/pricing-monetization"
+      }
+    },
+    {
       "name": "pricing-packaging-specialist",
       "source": {
         "source": "git-subdir",
@@ -25684,6 +27300,13 @@
         "source": "git-subdir",
         "url": "neneungyul2/ne-claude-plugins",
         "path": "plugins/print-quantity"
+      }
+    },
+    {
+      "name": "prisant-utilities",
+      "source": {
+        "source": "github",
+        "repo": "prisant-labs/prisant-utilities"
       }
     },
     {
@@ -25861,6 +27484,14 @@
       }
     },
     {
+      "name": "process-improvement",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/process-improvement"
+      }
+    },
+    {
       "name": "process-suite",
       "source": {
         "source": "git-subdir",
@@ -25881,6 +27512,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/procore-pack"
+      }
+    },
+    {
+      "name": "procurement-sourcing",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/procurement-sourcing"
       }
     },
     {
@@ -25913,6 +27552,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "product-management"
+      }
+    },
+    {
+      "name": "product-management-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/product-management"
       }
     },
     {
@@ -26099,6 +27746,22 @@
       }
     },
     {
+      "name": "project-init",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/project-init"
+      }
+    },
+    {
+      "name": "project-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/project-management"
+      }
+    },
+    {
       "name": "project-manager",
       "source": {
         "source": "git-subdir",
@@ -26122,6 +27785,14 @@
       }
     },
     {
+      "name": "project-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "project-plugin"
+      }
+    },
+    {
       "name": "project-scaffold",
       "source": {
         "source": "git-subdir",
@@ -26135,6 +27806,13 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/project-setup"
+      }
+    },
+    {
+      "name": "project-setup-3",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/project-setup"
       }
     },
     {
@@ -26175,6 +27853,22 @@
         "source": "git-subdir",
         "url": "daishiman/harness-dev",
         "path": "plugins/prompt-creator"
+      }
+    },
+    {
+      "name": "prompt-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/prompt-engineering"
+      }
+    },
+    {
+      "name": "prompt-engineering-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "prompt-engineering-plugin"
       }
     },
     {
@@ -26359,6 +28053,14 @@
       }
     },
     {
+      "name": "property-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/property-management"
+      }
+    },
+    {
       "name": "proplasma",
       "source": {
         "source": "git-subdir",
@@ -26380,6 +28082,14 @@
         "source": "git-subdir",
         "url": "widnyana/eyay-toolkits",
         "path": "plugins/prose-engineers"
+      }
+    },
+    {
+      "name": "prose-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "prose-plugin"
       }
     },
     {
@@ -26458,6 +28168,14 @@
       "source": {
         "source": "github",
         "repo": "TheOnlyFusionCube/potetos-for-everyone"
+      }
+    },
+    {
+      "name": "public-sector-govtech",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/public-sector-govtech"
       }
     },
     {
@@ -26776,6 +28494,14 @@
       }
     },
     {
+      "name": "python-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "python-plugin"
+      }
+    },
+    {
       "name": "python-scripting",
       "source": {
         "source": "git-subdir",
@@ -26812,6 +28538,14 @@
         "source": "git-subdir",
         "url": "cadugevaerd/claude-skills",
         "path": "plugins/qa-planner"
+      }
+    },
+    {
+      "name": "qa-test-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/qa-test-automation"
       }
     },
     {
@@ -26890,6 +28624,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/quantitative-trading"
+      }
+    },
+    {
+      "name": "quantum-computing-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/quantum-computing-engineering"
       }
     },
     {
@@ -27112,11 +28854,67 @@
       }
     },
     {
+      "name": "ravenclaude-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ravenclaude-core"
+      }
+    },
+    {
       "name": "raycast",
       "source": {
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/raycast"
+      }
+    },
+    {
+      "name": "razor",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-noclause"
+      }
+    },
+    {
+      "name": "razor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-v1"
+      }
+    },
+    {
+      "name": "razor-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-v2"
+      }
+    },
+    {
+      "name": "razor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-v3"
+      }
+    },
+    {
+      "name": "razor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-v4"
+      }
+    },
+    {
+      "name": "razor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "V-Songbird/foundry",
+        "path": "benchmarks/razor/experiments/dependency-comparison/arms/razor-wave2"
       }
     },
     {
@@ -27234,6 +29032,14 @@
         "source": "git-subdir",
         "url": "CB-Systemer/realequity-plugins-shared",
         "path": "plugins/realequity-rapporter"
+      }
+    },
+    {
+      "name": "realtime-collaboration-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/realtime-collaboration-engineering"
       }
     },
     {
@@ -27370,6 +29176,14 @@
       }
     },
     {
+      "name": "recommendation-systems-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/recommendation-systems-engineering"
+      }
+    },
+    {
       "name": "recursive-decomposition",
       "source": {
         "source": "github",
@@ -27456,6 +29270,13 @@
       }
     },
     {
+      "name": "referral-engine",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/referral-engine"
+      }
+    },
+    {
       "name": "reflect",
       "source": {
         "source": "git-subdir",
@@ -27516,6 +29337,14 @@
       "source": {
         "source": "github",
         "repo": "LilianaZhu/regulation-to-markdown"
+      }
+    },
+    {
+      "name": "regulatory-compliance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/regulatory-compliance"
       }
     },
     {
@@ -27777,6 +29606,14 @@
       }
     },
     {
+      "name": "renewable-energy",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/renewable-energy"
+      }
+    },
+    {
       "name": "renoolab-agent-skills",
       "source": {
         "source": "github",
@@ -27843,6 +29680,14 @@
         "source": "git-subdir",
         "url": "neneungyul2/ne-claude-plugins",
         "path": "plugins/report-maker"
+      }
+    },
+    {
+      "name": "report-regeneration",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/report-regeneration"
       }
     },
     {
@@ -28047,6 +29892,14 @@
       }
     },
     {
+      "name": "residential-real-estate-brokerage",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/residential-real-estate-brokerage"
+      }
+    },
+    {
       "name": "resilience",
       "source": {
         "source": "git-subdir",
@@ -28118,6 +29971,14 @@
       }
     },
     {
+      "name": "restaurant-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/restaurant-operations"
+      }
+    },
+    {
       "name": "resume",
       "source": {
         "source": "git-subdir",
@@ -28138,6 +29999,14 @@
       "source": {
         "source": "github",
         "repo": "SankaiAI/ats-optimized-resume-agent-skill"
+      }
+    },
+    {
+      "name": "retail-store-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/retail-store-operations"
       }
     },
     {
@@ -28234,6 +30103,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/reviewer-author-loop"
+      }
+    },
+    {
+      "name": "rf-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "AllanSantos-DV/claude-code-plugins",
+        "path": "rf-reviewer"
       }
     },
     {
@@ -28336,6 +30213,14 @@
       }
     },
     {
+      "name": "robotics-autonomous-systems-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/robotics-autonomous-systems-engineering"
+      }
+    },
+    {
       "name": "roi-calculator",
       "source": {
         "source": "git-subdir",
@@ -28407,6 +30292,13 @@
       }
     },
     {
+      "name": "routemux",
+      "source": {
+        "source": "github",
+        "repo": "rootfily-ai/routemux-skills"
+      }
+    },
+    {
       "name": "rranauro",
       "source": {
         "source": "git-subdir",
@@ -28469,6 +30361,14 @@
       }
     },
     {
+      "name": "rust-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "rust-plugin"
+      }
+    },
+    {
       "name": "rust-studio",
       "source": {
         "source": "git-subdir",
@@ -28498,6 +30398,14 @@
         "source": "git-subdir",
         "url": "shipd-now/shipd",
         "path": "plugins/s"
+      }
+    },
+    {
+      "name": "sa",
+      "source": {
+        "source": "git-subdir",
+        "url": "ken2403/agent-parallel-dev-plugin",
+        "path": "sa"
       }
     },
     {
@@ -28564,6 +30472,30 @@
       }
     },
     {
+      "name": "sales-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/sales-engineering"
+      }
+    },
+    {
+      "name": "sales-revops",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/sales-revops"
+      }
+    },
+    {
+      "name": "salesforce",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/salesforce"
+      }
+    },
+    {
       "name": "salesforce-pack",
       "source": {
         "source": "git-subdir",
@@ -28577,6 +30509,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/salesloft-pack"
+      }
+    },
+    {
+      "name": "salon-spa-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/salon-spa-operations"
       }
     },
     {
@@ -29132,6 +31072,22 @@
       }
     },
     {
+      "name": "seamless",
+      "source": {
+        "source": "git-subdir",
+        "url": "null-topology/claude-plugins",
+        "path": "plugins/seamless"
+      }
+    },
+    {
+      "name": "search-relevance-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/search-relevance-engineering"
+      }
+    },
+    {
       "name": "search-to-slack",
       "source": {
         "source": "git-subdir",
@@ -29160,6 +31116,14 @@
       "source": {
         "source": "github",
         "repo": "Diankes/second-brain"
+      }
+    },
+    {
+      "name": "second-brain-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/second-brain"
       }
     },
     {
@@ -29280,6 +31244,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/security-compliance"
+      }
+    },
+    {
+      "name": "security-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/security-engineering"
       }
     },
     {
@@ -29435,6 +31407,14 @@
       }
     },
     {
+      "name": "self-storage-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/self-storage-operations"
+      }
+    },
+    {
       "name": "semantic-guard-analysis",
       "source": {
         "source": "git-subdir",
@@ -29447,6 +31427,14 @@
       "source": {
         "source": "github",
         "repo": "ZhuBit/cowork-semantic-search"
+      }
+    },
+    {
+      "name": "senior-care-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/senior-care-operations"
       }
     },
     {
@@ -29606,6 +31594,14 @@
       }
     },
     {
+      "name": "serverless-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/serverless-engineering"
+      }
+    },
+    {
       "name": "service-mesh-configurator",
       "source": {
         "source": "git-subdir",
@@ -29691,6 +31687,14 @@
       }
     },
     {
+      "name": "session-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "session-plugin"
+      }
+    },
+    {
       "name": "session-preflight",
       "source": {
         "source": "git-subdir",
@@ -29720,6 +31724,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/session-security-checker"
+      }
+    },
+    {
+      "name": "session-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/session-skills"
       }
     },
     {
@@ -29760,6 +31772,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/severity1-marketplace"
+      }
+    },
+    {
+      "name": "sf-architect-solutioning",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/sf-architect-solutioning"
       }
     },
     {
@@ -29915,6 +31935,14 @@
         "source": "git-subdir",
         "url": "shode666/claude-skill-shode-house",
         "path": "plugins/shode-house"
+      }
+    },
+    {
+      "name": "shopify-app-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/shopify-app-engineering"
       }
     },
     {
@@ -30355,6 +32383,14 @@
       }
     },
     {
+      "name": "skilled-trades-contracting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/skilled-trades-contracting"
+      }
+    },
+    {
       "name": "skillfactory",
       "source": {
         "source": "git-subdir",
@@ -30719,6 +32755,14 @@
       "source": {
         "source": "github",
         "repo": "sodam-ai/SoDam-Agentic-Eng"
+      }
+    },
+    {
+      "name": "software-design-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "software-design-plugin"
       }
     },
     {
@@ -31225,6 +33269,14 @@
       }
     },
     {
+      "name": "staffing-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/staffing-operations"
+      }
+    },
+    {
       "name": "staged-build",
       "source": {
         "source": "github",
@@ -31308,6 +33360,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/startup-business-analyst"
+      }
+    },
+    {
+      "name": "startup-fundraising",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/startup-fundraising"
       }
     },
     {
@@ -31482,6 +33542,14 @@
       }
     },
     {
+      "name": "streaming-media-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/streaming-media-engineering"
+      }
+    },
+    {
       "name": "streaming-output",
       "source": {
         "source": "git-subdir",
@@ -31591,6 +33659,14 @@
         "source": "git-subdir",
         "url": "ohiliazov/subpowers",
         "path": "subpowers"
+      }
+    },
+    {
+      "name": "subscription-billing-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/subscription-billing-engineering"
       }
     },
     {
@@ -31793,6 +33869,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/supply-chain-gate"
+      }
+    },
+    {
+      "name": "supply-chain-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/supply-chain-planning"
       }
     },
     {
@@ -32101,6 +34185,14 @@
       }
     },
     {
+      "name": "system-guide",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/system-guide"
+      }
+    },
+    {
       "name": "system-spec-harness",
       "source": {
         "source": "git-subdir",
@@ -32144,6 +34236,14 @@
       "source": {
         "source": "github",
         "repo": "stephen-zhao/szsdlc"
+      }
+    },
+    {
+      "name": "tableau",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/tableau"
       }
     },
     {
@@ -32278,6 +34378,14 @@
       }
     },
     {
+      "name": "taskwarrior-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "taskwarrior-plugin"
+      }
+    },
+    {
       "name": "tauri-dev",
       "source": {
         "source": "git-subdir",
@@ -32307,6 +34415,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/tavily-tools"
+      }
+    },
+    {
+      "name": "tax-preparation-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/tax-preparation-practice"
       }
     },
     {
@@ -32373,6 +34489,14 @@
       }
     },
     {
+      "name": "team-portfolio",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/team-portfolio"
+      }
+    },
+    {
       "name": "teams-2",
       "source": {
         "source": "git-subdir",
@@ -32411,6 +34535,14 @@
       }
     },
     {
+      "name": "technical-program-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/technical-program-management"
+      }
+    },
+    {
       "name": "technical-sales",
       "source": {
         "source": "git-subdir",
@@ -32435,6 +34567,14 @@
       }
     },
     {
+      "name": "technical-seo-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/technical-seo-engineering"
+      }
+    },
+    {
       "name": "technical-writer",
       "source": {
         "source": "git-subdir",
@@ -32456,6 +34596,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/technical-writing/technical-writing"
+      }
+    },
+    {
+      "name": "technical-writing-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/technical-writing-docs"
       }
     },
     {
@@ -32555,6 +34703,14 @@
       }
     },
     {
+      "name": "terraform-iac",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/terraform-iac"
+      }
+    },
+    {
       "name": "terraform-ls",
       "source": {
         "source": "git-subdir",
@@ -32592,6 +34748,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/terraform-patterns"
+      }
+    },
+    {
+      "name": "terraform-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "terraform-plugin"
       }
     },
     {
@@ -32811,6 +34975,14 @@
       }
     },
     {
+      "name": "testing-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "testing-plugin"
+      }
+    },
+    {
       "name": "tether",
       "source": {
         "source": "git-subdir",
@@ -33014,10 +35186,25 @@
       }
     },
     {
+      "name": "time-tracking",
+      "source": {
+        "source": "github",
+        "repo": "BrightWayAI/time-tracking"
+      }
+    },
+    {
       "name": "timebuddy",
       "source": {
         "source": "github",
         "repo": "misterbisson/timebuddy-incident-investigator"
+      }
+    },
+    {
+      "name": "title-escrow-settlement",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/title-escrow-settlement"
       }
     },
     {
@@ -33254,6 +35441,14 @@
       }
     },
     {
+      "name": "tools-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "tools-plugin"
+      }
+    },
+    {
       "name": "toprank",
       "source": {
         "source": "git-subdir",
@@ -33475,6 +35670,14 @@
       }
     },
     {
+      "name": "travel-agency-tour-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/travel-agency-tour-operations"
+      }
+    },
+    {
       "name": "travel-assistant",
       "source": {
         "source": "git-subdir",
@@ -33496,6 +35699,14 @@
         "source": "git-subdir",
         "url": "Davmunrey/Trazum",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "treasury-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/treasury-management"
       }
     },
     {
@@ -33627,6 +35838,14 @@
       "source": {
         "source": "github",
         "repo": "Goodeye-Labs/truesight-mcp-skills"
+      }
+    },
+    {
+      "name": "trust-and-safety",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/trust-and-safety"
       }
     },
     {
@@ -33784,6 +36003,14 @@
         "source": "git-subdir",
         "url": "cjthompson/claude-code-config",
         "path": "plugins/typescript-development"
+      }
+    },
+    {
+      "name": "typescript-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "typescript-plugin"
       }
     },
     {
@@ -34267,6 +36494,14 @@
       }
     },
     {
+      "name": "ux-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/ux-research"
+      }
+    },
+    {
       "name": "ux-researcher",
       "source": {
         "source": "git-subdir",
@@ -34466,6 +36701,14 @@
         "source": "git-subdir",
         "url": "korya/askl",
         "path": "test/fixtures/coherence/version-drift-manifests"
+      }
+    },
+    {
+      "name": "veterinary-practice",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/veterinary-practice"
       }
     },
     {
@@ -35085,6 +37328,14 @@
       }
     },
     {
+      "name": "wannalead",
+      "source": {
+        "source": "git-subdir",
+        "url": "ThomasMarcelin754/wannalead-plugin",
+        "path": "plugins/wannalead"
+      }
+    },
+    {
       "name": "warden-audit",
       "source": {
         "source": "git-subdir",
@@ -35173,6 +37424,14 @@
       }
     },
     {
+      "name": "waste-recycling-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/waste-recycling-operations"
+      }
+    },
+    {
       "name": "watch",
       "source": {
         "source": "github",
@@ -35210,6 +37469,13 @@
       }
     },
     {
+      "name": "wb",
+      "source": {
+        "source": "github",
+        "repo": "sneat-dev/wb"
+      }
+    },
+    {
       "name": "wboost",
       "source": {
         "source": "git-subdir",
@@ -35238,6 +37504,14 @@
         "source": "git-subdir",
         "url": "JoelLewis/finance_skills",
         "path": "plugins/wealth-management"
+      }
+    },
+    {
+      "name": "wealth-management-ria",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/wealth-management-ria"
       }
     },
     {
@@ -35335,6 +37609,22 @@
       }
     },
     {
+      "name": "web-commerce",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/web-commerce"
+      }
+    },
+    {
+      "name": "web-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/web-design"
+      }
+    },
+    {
       "name": "web-dev",
       "source": {
         "source": "git-subdir",
@@ -35380,6 +37670,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/web-performance-skills"
+      }
+    },
+    {
+      "name": "web-scraping-data-extraction",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/web-scraping-data-extraction"
       }
     },
     {
@@ -35910,6 +38208,14 @@
       }
     },
     {
+      "name": "wordpress-cms-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mcorbett51090/RavenClaude",
+        "path": "plugins/wordpress-cms-engineering"
+      }
+    },
+    {
       "name": "work-item-triage",
       "source": {
         "source": "git-subdir",
@@ -35931,6 +38237,14 @@
         "source": "git-subdir",
         "url": "neneungyul2/ne-claude-plugins",
         "path": "plugins/work-toolkit"
+      }
+    },
+    {
+      "name": "work-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/work-tracker"
       }
     },
     {
@@ -36018,6 +38332,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/workflow-optimizer"
+      }
+    },
+    {
+      "name": "workflow-orchestration-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "laurigates/claude-plugins",
+        "path": "workflow-orchestration-plugin"
       }
     },
     {
@@ -36704,6 +39026,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/xterm"
+      }
+    },
+    {
+      "name": "xyne-claw",
+      "source": {
+        "source": "git-subdir",
+        "url": "juspay/xyne-spaces",
+        "path": "packages/xyne-claw-mcp"
       }
     },
     {

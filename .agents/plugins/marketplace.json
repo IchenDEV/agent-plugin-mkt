@@ -3096,6 +3096,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ca",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ken2403/agent-parallel-dev-plugin.git",
+        "path": "./ca/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ca-codex",
       "source": {
         "source": "git-subdir",
@@ -3397,6 +3410,19 @@
         "source": "git-subdir",
         "url": "https://github.com/DawnEver/cc-market.git",
         "path": "./cc-latex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "centaur",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/paradigmxyz/centaur.git",
+        "path": "./plugins/centaur"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4341,6 +4367,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "client-status",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/client-status.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "close",
       "source": {
         "source": "git-subdir",
@@ -4681,6 +4719,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/codex-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-browser-fix",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/codex-browser-fix"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5619,6 +5670,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/everclear077/codex-learning-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "core-ops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/core-ops.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6883,6 +6946,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docs-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/docs-discipline"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8931,6 +9007,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/git-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-worktree",
       "source": {
         "source": "git-subdir",
@@ -9496,6 +9585,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ha",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ken2403/agent-parallel-dev-plugin.git",
+        "path": "./plugins/ha"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hades-openspec-java-workflow",
       "source": {
         "source": "url",
@@ -9988,6 +10090,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/honeydew-ai/honeydew-ai-coding-agents-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hooks-library",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/hooks-library"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12834,6 +12949,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "misakanet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ikalus1988/MisakaNet.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mission",
       "source": {
         "source": "url",
@@ -13430,6 +13557,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/never-twice"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "news-curator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/news-curator.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15496,6 +15635,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pr-landing-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vivswan/skills.git",
+        "path": "./skills/pr-landing-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pr-review",
       "source": {
         "source": "git-subdir",
@@ -15651,6 +15803,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prisant-utilities",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prisant-labs/prisant-utilities.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "privacy-opsec-suite",
       "source": {
         "source": "git-subdir",
@@ -15784,6 +15948,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Kaos599/professional-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-init",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/project-init"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16659,6 +16836,18 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/reddit-fetch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "referral-engine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/referral-engine.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18191,6 +18380,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "second-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/second-brain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "secret-guard",
       "source": {
         "source": "git-subdir",
@@ -18502,11 +18704,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "session-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/session-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "setu-bharat-connect-billpay",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/setu-bharat-connect-billpay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sf-architect-solutioning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/sf-architect-solutioning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20227,6 +20455,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "system-guide",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/system-guide"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "system-ops-audit",
       "source": {
         "source": "git-subdir",
@@ -20966,6 +21207,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jwilger/ai-plugins.git",
         "path": "./plugins/development-system/components/tiber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "time-tracking",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/time-tracking.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22096,6 +22349,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "wannalead",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ThomasMarcelin754/wannalead-plugin.git",
+        "path": "./plugins/wannalead"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "watch",
       "source": {
         "source": "url",
@@ -22126,6 +22392,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/WaveSpeedAI/codex-plugin-wavespeed-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wb",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sneat-dev/wb.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22457,6 +22735,19 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/work-item-triage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "work-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Mar5929/claude-toolkit.git",
+        "path": "./plugins/work-tracker"
       },
       "policy": {
         "installation": "AVAILABLE",

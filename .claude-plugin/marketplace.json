@@ -853,6 +853,14 @@
       }
     },
     {
+      "name": "agent-transcripts",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/agent-transcripts"
+      }
+    },
+    {
       "name": "agent-ui-skills",
       "source": {
         "source": "github",
@@ -3069,6 +3077,14 @@
       }
     },
     {
+      "name": "autoboundary",
+      "source": {
+        "source": "git-subdir",
+        "url": "msy920422/AutoBoundary",
+        "path": "plugins/autoboundary"
+      }
+    },
+    {
       "name": "autoharness",
       "source": {
         "source": "github",
@@ -4132,6 +4148,14 @@
       "source": {
         "source": "github",
         "repo": "khalilmaaouni/BrotherSBE"
+      }
+    },
+    {
+      "name": "browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/browser"
       }
     },
     {
@@ -5918,6 +5942,14 @@
       }
     },
     {
+      "name": "claude-transcripts",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/claude-transcripts"
+      }
+    },
+    {
       "name": "claude-ultimate-hud",
       "source": {
         "source": "github",
@@ -5969,6 +6001,13 @@
       "source": {
         "source": "github",
         "repo": "alirezarezvani/ClaudeForge"
+      }
+    },
+    {
+      "name": "claudemd",
+      "source": {
+        "source": "github",
+        "repo": "sdsrss/claudemd"
       }
     },
     {
@@ -6583,6 +6622,14 @@
         "source": "git-subdir",
         "url": "tvrmsmith/coding-standards",
         "path": "plugins/coding-standards"
+      }
+    },
+    {
+      "name": "coflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "adamchu22/coflow",
+        "path": "plugin"
       }
     },
     {
@@ -7318,6 +7365,14 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/context7-docs-fetcher"
+      }
+    },
+    {
+      "name": "contextops",
+      "source": {
+        "source": "git-subdir",
+        "url": "rhdqngusanr/contextops",
+        "path": "plugin/contextops"
       }
     },
     {
@@ -8140,6 +8195,22 @@
       "source": {
         "source": "github",
         "repo": "hskim-ecoletree/cut-the-bullshit-plugin"
+      }
+    },
+    {
+      "name": "cv",
+      "source": {
+        "source": "git-subdir",
+        "url": "francisco-perez-sorrosal/cv-forge",
+        "path": "plugins/cv"
+      }
+    },
+    {
+      "name": "cv-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "francisco-perez-sorrosal/cv-forge",
+        "path": "plugins/cv-forge"
       }
     },
     {
@@ -9481,6 +9552,13 @@
       }
     },
     {
+      "name": "design-with-claude",
+      "source": {
+        "source": "github",
+        "repo": "imsaif/design-with-claude"
+      }
+    },
+    {
       "name": "designer",
       "source": {
         "source": "github",
@@ -10606,6 +10684,14 @@
       "source": {
         "source": "github",
         "repo": "higebu/dsct"
+      }
+    },
+    {
+      "name": "dual-agent-pr-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/dual-agent-pr-review"
       }
     },
     {
@@ -11955,6 +12041,14 @@
       }
     },
     {
+      "name": "feature-dev-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/feature-dev"
+      }
+    },
+    {
       "name": "feature-engineering-toolkit",
       "source": {
         "source": "git-subdir",
@@ -12785,6 +12879,13 @@
       }
     },
     {
+      "name": "fleet-3",
+      "source": {
+        "source": "github",
+        "repo": "verkyyi/claude-fleet"
+      }
+    },
+    {
       "name": "fleet-controller",
       "source": {
         "source": "git-subdir",
@@ -13454,6 +13555,13 @@
       }
     },
     {
+      "name": "foundingnimo",
+      "source": {
+        "source": "github",
+        "repo": "foundingnimo/mauro"
+      }
+    },
+    {
       "name": "foundry",
       "source": {
         "source": "git-subdir",
@@ -14044,6 +14152,22 @@
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/geo-authority-architect"
+      }
+    },
+    {
+      "name": "get-shit-done",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/get-shit-done"
+      }
+    },
+    {
+      "name": "get-shit-done-claude",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/get-shit-done-claude"
       }
     },
     {
@@ -17141,6 +17265,14 @@
       }
     },
     {
+      "name": "knowledge-notes",
+      "source": {
+        "source": "git-subdir",
+        "url": "neneungyul2/ne-claude-plugins",
+        "path": "plugins/knowledge-notes"
+      }
+    },
+    {
       "name": "korean-asa",
       "source": {
         "source": "github",
@@ -17483,6 +17615,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/learning"
+      }
+    },
+    {
+      "name": "learning-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "robinslange/learning-loop",
+        "path": "plugin"
       }
     },
     {
@@ -18832,6 +18972,14 @@
       }
     },
     {
+      "name": "mas-ai-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "alivirgo/Major-AI-Skills",
+        "path": "plugins/mas-ai-workflows"
+      }
+    },
+    {
       "name": "mas-cad-studio",
       "source": {
         "source": "git-subdir",
@@ -19578,6 +19726,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/mindtickle-pack"
+      }
+    },
+    {
+      "name": "minimalist-code-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/minimalist-code-review"
       }
     },
     {
@@ -22421,6 +22577,14 @@
       }
     },
     {
+      "name": "plan-for-dummies",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/plan-for-dummies"
+      }
+    },
+    {
       "name": "plan-writer",
       "source": {
         "source": "git-subdir",
@@ -23098,6 +23262,14 @@
       }
     },
     {
+      "name": "pr-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/pr-flow"
+      }
+    },
+    {
       "name": "pr-issue-resolve",
       "source": {
         "source": "git-subdir",
@@ -23330,6 +23502,14 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/pricing-packaging-specialist"
+      }
+    },
+    {
+      "name": "print-quantity",
+      "source": {
+        "source": "git-subdir",
+        "url": "neneungyul2/ne-claude-plugins",
+        "path": "plugins/print-quantity"
       }
     },
     {
@@ -24133,6 +24313,150 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/pwa-expert"
+      }
+    },
+    {
+      "name": "pwdev-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-brain"
+      }
+    },
+    {
+      "name": "pwdev-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-code"
+      }
+    },
+    {
+      "name": "pwdev-copy",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-copy"
+      }
+    },
+    {
+      "name": "pwdev-devops",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-devops"
+      }
+    },
+    {
+      "name": "pwdev-excalidraw",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-excalidraw"
+      }
+    },
+    {
+      "name": "pwdev-feat",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-feat"
+      }
+    },
+    {
+      "name": "pwdev-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-flow"
+      }
+    },
+    {
+      "name": "pwdev-glpi",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-glpi"
+      }
+    },
+    {
+      "name": "pwdev-obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-obsidian"
+      }
+    },
+    {
+      "name": "pwdev-postgres",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-postgres"
+      }
+    },
+    {
+      "name": "pwdev-power",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-power"
+      }
+    },
+    {
+      "name": "pwdev-prd",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-prd"
+      }
+    },
+    {
+      "name": "pwdev-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-qa"
+      }
+    },
+    {
+      "name": "pwdev-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-skills"
+      }
+    },
+    {
+      "name": "pwdev-social-media",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-social-media"
+      }
+    },
+    {
+      "name": "pwdev-statusline",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-statusline"
+      }
+    },
+    {
+      "name": "pwdev-uiux",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-uiux"
+      }
+    },
+    {
+      "name": "pwdev-youtrack",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/pwdev-youtrack"
       }
     },
     {
@@ -25141,6 +25465,14 @@
       }
     },
     {
+      "name": "report-maker",
+      "source": {
+        "source": "git-subdir",
+        "url": "neneungyul2/ne-claude-plugins",
+        "path": "plugins/report-maker"
+      }
+    },
+    {
       "name": "requirement-manager",
       "source": {
         "source": "git-subdir",
@@ -25210,6 +25542,14 @@
         "source": "git-subdir",
         "url": "trojanbox/agent-plugin-marketplace",
         "path": "plugins/research"
+      }
+    },
+    {
+      "name": "research-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "allada-homelab/agent-harness-marketplace",
+        "path": "modules/research"
       }
     },
     {
@@ -26288,6 +26628,14 @@
       }
     },
     {
+      "name": "sdd-composy",
+      "source": {
+        "source": "git-subdir",
+        "url": "pwdev-solucoes/pwdev-claude-marketplace",
+        "path": "plugins/sdd-composy"
+      }
+    },
+    {
       "name": "sdd-factory",
       "source": {
         "source": "github",
@@ -27228,6 +27576,13 @@
         "source": "git-subdir",
         "url": "composio-community/awesome-claude-plugins",
         "path": "skill-bus"
+      }
+    },
+    {
+      "name": "skill-concierge",
+      "source": {
+        "source": "github",
+        "repo": "thinhkhuat/skill-concierge"
       }
     },
     {
@@ -32199,6 +32554,13 @@
       }
     },
     {
+      "name": "willow-mcp",
+      "source": {
+        "source": "github",
+        "repo": "willow-memory/willow-mcp"
+      }
+    },
+    {
       "name": "windsurf",
       "source": {
         "source": "git-subdir",
@@ -32458,6 +32820,14 @@
         "source": "git-subdir",
         "url": "duylam/claude-code-engineering-assembly",
         "path": "plugins/work-journal"
+      }
+    },
+    {
+      "name": "work-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "neneungyul2/ne-claude-plugins",
+        "path": "plugins/work-toolkit"
       }
     },
     {

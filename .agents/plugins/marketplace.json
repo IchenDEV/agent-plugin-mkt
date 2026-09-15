@@ -3872,6 +3872,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chorale-codex-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hxy9243/chorale.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "christian",
       "source": {
         "source": "git-subdir",
@@ -8458,6 +8470,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "game-design-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/xiaomi867/GameDesignSuite.git",
+        "path": "./plugins/game-design-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "game-development",
       "source": {
         "source": "git-subdir",
@@ -11077,6 +11102,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "learning-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/robinslange/learning-loop.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "legal-skills",
       "source": {
         "source": "url",
@@ -11959,6 +11997,110 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/marketplace-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-3d-games",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-3d-games"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-ai-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-ai-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-cad-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-cad-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-common-sense-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-common-sense-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-design-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-design-knowledge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-desktop-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-desktop-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-efficiency-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-efficiency-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mas-video-lab",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alivirgo/Major-AI-Skills.git",
+        "path": "./plugins/mas-video-lab"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15769,6 +15911,84 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pwdev-excalidraw",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-excalidraw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwdev-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwdev-glpi",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-glpi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwdev-power",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-power"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwdev-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-qa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pwdev-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/pwdev-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pylon",
       "source": {
         "source": "git-subdir",
@@ -17731,6 +17951,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sdd-composy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pwdev-solucoes/pwdev-claude-marketplace.git",
+        "path": "./plugins/sdd-composy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sdd-toolkit",
       "source": {
         "source": "url",
@@ -18527,6 +18760,18 @@
         "source": "git-subdir",
         "url": "https://github.com/YYPumpkin/Skill-.git",
         "path": "./.agents/plugins/skill-board"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-concierge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thinhkhuat/skill-concierge.git"
       },
       "policy": {
         "installation": "AVAILABLE",

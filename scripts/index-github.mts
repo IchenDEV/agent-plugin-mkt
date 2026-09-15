@@ -8,6 +8,7 @@ import {
   DEFAULT_SEARCH_QUERIES,
   GitHubApiError,
   RateLimitAbortError,
+  allocateSearchBudget,
   getFileContent,
   getRepo,
   listDirectory,
@@ -52,12 +53,14 @@ const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
 const DEFAULT_MAX_REPOSITORIES = 40;
 const SEARCH_ORDERS = ["desc", "asc"] as const;
-// Repository search runs one best-match pass plus one recently-updated pass per
-// query. Best match buries new, low-star repositories under established ones;
-// the updated window surfaces them while they are still active.
+// Repository search runs a recently-updated pass before a best-match pass.
+// Best-match ranks by relevance, which buries new, low-star repositories under
+// established ones; the updated window surfaces them while they are still
+// active and is weighted higher because best-match results are dominated by
+// already-indexed repositories that only need a metadata refresh.
 const REPOSITORY_SEARCH_PASSES = [
-  { label: "best-match window", sort: undefined, order: undefined },
-  { label: "recently-updated window", sort: "updated", order: "desc" },
+  { label: "recently-updated window", sort: "updated", order: "desc", weight: 2 },
+  { label: "best-match window", sort: undefined, order: undefined, weight: 1 },
 ] as const;
 const MAX_RESULTS_PER_SEARCH = 1_000;
 
@@ -694,24 +697,28 @@ try {
   }
 
   if (!skipRepositorySearch) {
-    // The budget is a single shared pool: each query is guaranteed an even
-    // share of what remains, and whatever a query (or one of its passes)
-    // cannot spend rolls over to the next one. Repositories already seen via
-    // an earlier query or pass do not consume budget.
+    // The budget is a single shared pool: each query takes an even share of what
+    // remains, each window takes a weighted share of its query's budget, and
+    // whatever a query (or one of its windows) cannot spend rolls over to the
+    // next one. Repositories already seen via an earlier query or pass do not
+    // consume budget.
     let remainingBudget = repositoryMax;
     for (const [queryIndex, query] of repositoryQueries.entries()) {
       const queriesLeft = repositoryQueries.length - queryIndex;
       const queryBudget = Math.floor(remainingBudget / queriesLeft);
       if (queryBudget === 0) continue;
-      console.log(`searching GitHub repositories: ${query}`);
+      console.log(`searching GitHub repositories: ${query} (budget ${queryBudget})`);
       let queryConsumed = 0;
-      let queryRemaining = queryBudget;
       for (const [passIndex, pass] of REPOSITORY_SEARCH_PASSES.entries()) {
-        const passesLeft = REPOSITORY_SEARCH_PASSES.length - passIndex;
-        const passBudget = Math.floor(queryRemaining / passesLeft);
-        if (passBudget === 0) continue;
+        const remainingQuery = queryBudget - queryConsumed;
+        if (remainingQuery <= 0) break;
+        const remainingWeights = REPOSITORY_SEARCH_PASSES.slice(passIndex).map(
+          (candidate) => candidate.weight,
+        );
+        const passBudget = allocateSearchBudget(remainingQuery, remainingWeights)[0] ?? 0;
+        if (passBudget <= 0) break;
         let passConsumed = 0;
-        console.log(`  scanning ${pass.label}`);
+        console.log(`  scanning ${pass.label} (budget ${passBudget})`);
         try {
           for await (const repositories of searchRepositories(query, {
             perPage: searchPageSize ?? Math.min(100, passBudget),
@@ -738,7 +745,6 @@ try {
             `repository search failed (${pass.label}) for ${safeLog(query)}: ${safeLog(message)}`,
           );
         }
-        queryRemaining -= passConsumed;
       }
       remainingBudget -= queryConsumed;
     }

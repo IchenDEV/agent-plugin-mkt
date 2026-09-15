@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   DEFAULT_REPOSITORY_SEARCH_QUERIES,
+  DEFAULT_SEARCH_QUERIES,
+  allocateSearchBudget,
   manifestFilesFromTree,
 } from "@/lib/github";
 import { skillFromFrontmatter } from "@/lib/indexing";
@@ -309,6 +311,40 @@ test("repository discovery is protocol-based rather than vendor-special-cased", 
       },
     ],
   );
+});
+
+test("code search matches nested Codex and Claude Code plugin roots", () => {
+  // A `path:` value containing "/" is anchored to the start of the path, so
+  // `filename:plugin.json path:.claude-plugin` only matched repository-root
+  // manifests. The bare-directory + JSON-form query matches at any depth.
+  assert.ok(
+    DEFAULT_SEARCH_QUERIES.some(
+      (query) =>
+        query.includes("path:.codex-plugin") && query.includes("language:json"),
+    ),
+  );
+  assert.ok(
+    DEFAULT_SEARCH_QUERIES.some(
+      (query) =>
+        query.includes("path:.claude-plugin") && query.includes("language:json"),
+    ),
+  );
+  assert.ok(
+    DEFAULT_SEARCH_QUERIES.every(
+      (query) =>
+        !query.includes("path:.codex-plugin/") &&
+        !query.includes("path:.claude-plugin/"),
+    ),
+  );
+});
+
+test("search budget allocation is weighted and lossless", () => {
+  assert.deepEqual(allocateSearchBudget(0, [2, 1]), [0, 0]);
+  assert.deepEqual(allocateSearchBudget(30, [2, 1]), [20, 10]);
+  assert.deepEqual(allocateSearchBudget(31, [2, 1]), [21, 10]);
+  const even = allocateSearchBudget(7, [1, 1, 1]);
+  assert.equal(even.reduce((sum, share) => sum + share, 0), 7);
+  assert.ok(even.every((share) => share >= 2));
 });
 
 test("Codex and Claude Code manifests use their runtime minimums", () => {

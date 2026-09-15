@@ -24,8 +24,14 @@ let nextCodeSearchAt = 0;
 let nextRepositorySearchAt = 0;
 
 export const DEFAULT_SEARCH_QUERIES = [
-  "filename:plugin.json path:.codex-plugin",
-  "filename:plugin.json path:.claude-plugin",
+  // GitHub anchors a `path:` value containing "/" to the start of the path, so
+  // `filename:plugin.json path:.codex-plugin` only ever matched manifests at the
+  // repository root and silently missed nested plugin roots such as
+  // `plugins/review/.claude-plugin/plugin.json`. A bare directory name in
+  // `path:` matches at any depth; `language:json` trims the result set to
+  // manifest-shaped files and the indexer still verifies the canonical path.
+  "path:.codex-plugin language:json",
+  "path:.claude-plugin language:json",
   'filename:plugin.json "agent-plugins.org/schemas"',
 ] as const;
 
@@ -46,6 +52,30 @@ export const DEFAULT_REPOSITORY_SEARCH_QUERIES = [
   "topic:codex-plugin",
   "topic:agent-plugins",
 ] as const;
+
+/**
+ * Split a shared search budget across weighted consumers. Every unit is handed
+ * out (no lost remainder) and each consumer gets a whole-number share, so the
+ * caller can divide a pool across query families and across the best-match and
+ * recently-updated windows without dropping budget.
+ */
+export function allocateSearchBudget(
+  pool: number,
+  weights: readonly number[]
+): number[] {
+  if (weights.length === 0) return [];
+  const total = weights.reduce((sum, weight) => sum + Math.max(0, weight), 0);
+  if (pool <= 0 || total <= 0) return weights.map(() => 0);
+  const shares = weights.map((weight) =>
+    Math.floor((pool * Math.max(0, weight)) / total)
+  );
+  let remainder = pool - shares.reduce((sum, share) => sum + share, 0);
+  for (let i = 0; remainder > 0; i = (i + 1) % shares.length) {
+    shares[i] += 1;
+    remainder -= 1;
+  }
+  return shares;
+}
 
 export class GitHubApiError extends Error {
   constructor(

@@ -121,6 +121,14 @@
       }
     },
     {
+      "name": "a11y-audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/a11y-audit"
+      }
+    },
+    {
       "name": "a11y-specialist-skills",
       "source": {
         "source": "github",
@@ -133,6 +141,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/a2a-client"
+      }
+    },
+    {
+      "name": "aaron-marketing",
+      "source": {
+        "source": "github",
+        "repo": "JatinyKatyal/aaron-marketing-skills"
       }
     },
     {
@@ -192,6 +207,14 @@
       }
     },
     {
+      "name": "accessibility-checker",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/accessibility-checker"
+      }
+    },
+    {
       "name": "accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -236,6 +259,14 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/activitywatch"
+      }
+    },
+    {
+      "name": "adamsreview",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/adamsreview"
       }
     },
     {
@@ -359,6 +390,14 @@
       "source": {
         "source": "git-subdir",
         "url": "motifpath/motifpath-specs",
+        "path": "plugins/adr-writer"
+      }
+    },
+    {
+      "name": "adr-writer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/adr-writer"
       }
     },
@@ -554,6 +593,14 @@
       }
     },
     {
+      "name": "agent-decision-record",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/agent-decision-record"
+      }
+    },
+    {
       "name": "agent-delegate",
       "source": {
         "source": "git-subdir",
@@ -604,6 +651,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "agent-launcher"
+      }
+    },
+    {
+      "name": "agent-manager-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/agent-manager-skill"
       }
     },
     {
@@ -698,6 +753,14 @@
       }
     },
     {
+      "name": "agent-safety-preflight-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/agent-safety-preflight"
+      }
+    },
+    {
       "name": "agent-sdk-dev",
       "source": {
         "source": "git-subdir",
@@ -734,6 +797,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/agent-sdk-dev"
+      }
+    },
+    {
+      "name": "agent-sdk-dev-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/agent-sdk-dev"
       }
     },
@@ -876,6 +947,13 @@
       }
     },
     {
+      "name": "agentdeals",
+      "source": {
+        "source": "github",
+        "repo": "robhunter/agentdeals"
+      }
+    },
+    {
       "name": "agentheim",
       "source": {
         "source": "github",
@@ -961,6 +1039,22 @@
         "source": "git-subdir",
         "url": "wrzonance/agent-kit",
         "path": "agentkit"
+      }
+    },
+    {
+      "name": "agentkits-marketing",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/agentkits-marketing"
+      }
+    },
+    {
+      "name": "agentkits-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/agentkits-memory"
       }
     },
     {
@@ -1102,6 +1196,22 @@
       }
     },
     {
+      "name": "ai-dev-jobs-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ai-dev-jobs-search"
+      }
+    },
+    {
+      "name": "ai-divination-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ai-divination-skills"
+      }
+    },
+    {
       "name": "ai-driven-dev-principles",
       "source": {
         "source": "github",
@@ -1125,10 +1235,26 @@
       }
     },
     {
+      "name": "ai-engineer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ai-engineer"
+      }
+    },
+    {
       "name": "ai-ethics-governance-specialist",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/ai-ethics-governance-specialist"
+      }
+    },
+    {
+      "name": "ai-ethics-governance-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/ai-ethics-governance-specialist"
       }
     },
@@ -1187,6 +1313,14 @@
       }
     },
     {
+      "name": "ai-meeting",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ai-meeting"
+      }
+    },
+    {
       "name": "ai-ml-engineering-pack",
       "source": {
         "source": "git-subdir",
@@ -1230,6 +1364,14 @@
       "source": {
         "source": "github",
         "repo": "lkimuk/ai-policy-runtime"
+      }
+    },
+    {
+      "name": "ai-prompt-lab",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/ai-prompt-lab"
       }
     },
     {
@@ -1324,6 +1466,22 @@
       "source": {
         "source": "github",
         "repo": "feder-cr/AIHawk"
+      }
+    },
+    {
+      "name": "ailang-go-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "sunholo-data/ailang",
+        "path": ".claude/plugins/ailang-go-lsp"
+      }
+    },
+    {
+      "name": "ailang-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "sunholo-data/ailang",
+        "path": ".claude/plugins/ailang-lsp"
       }
     },
     {
@@ -1558,6 +1716,14 @@
       }
     },
     {
+      "name": "alphai",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/alphai"
+      }
+    },
+    {
       "name": "always-on-suite",
       "source": {
         "source": "git-subdir",
@@ -1636,6 +1802,22 @@
       }
     },
     {
+      "name": "analytics-reporter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/analytics-reporter"
+      }
+    },
+    {
+      "name": "analytics-reporter-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/analytics-reporter"
+      }
+    },
+    {
       "name": "analyze-codebase",
       "source": {
         "source": "git-subdir",
@@ -1644,10 +1826,26 @@
       }
     },
     {
+      "name": "analyze-codebase-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/analyze-codebase"
+      }
+    },
+    {
       "name": "analyze-issue",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/analyze-issue"
+      }
+    },
+    {
+      "name": "analyze-issue-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/analyze-issue"
       }
     },
@@ -1675,10 +1873,41 @@
       }
     },
     {
+      "name": "andrej-karpathy-skills-2",
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills"
+      }
+    },
+    {
+      "name": "android-developer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/android-developer"
+      }
+    },
+    {
+      "name": "android-reverse-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "SimoneAvogadro/android-reverse-engineering-skill",
+        "path": "plugins/android-reverse-engineering"
+      }
+    },
+    {
       "name": "angelos-symbo",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/angelos-symbo"
+      }
+    },
+    {
+      "name": "angelos-symbo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/angelos-symbo"
       }
     },
@@ -1970,6 +2199,14 @@
       }
     },
     {
+      "name": "api-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/api-architect"
+      }
+    },
+    {
       "name": "api-authentication-builder",
       "source": {
         "source": "git-subdir",
@@ -1999,6 +2236,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-batch-processor"
+      }
+    },
+    {
+      "name": "api-benchmarker",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/api-benchmarker"
       }
     },
     {
@@ -2130,6 +2375,14 @@
       }
     },
     {
+      "name": "api-integration-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/api-integration-specialist"
+      }
+    },
+    {
       "name": "api-load-tester",
       "source": {
         "source": "git-subdir",
@@ -2214,6 +2467,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/api-rate-limiter"
+      }
+    },
+    {
+      "name": "api-reference",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/api-reference"
       }
     },
     {
@@ -2317,6 +2578,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/api-tester"
+      }
+    },
+    {
+      "name": "api-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/api-tester"
+      }
+    },
+    {
+      "name": "api-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/api-tester"
       }
     },
@@ -2448,10 +2725,26 @@
       }
     },
     {
+      "name": "app-starter",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/app-starter"
+      }
+    },
+    {
       "name": "app-store-optimizer",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/app-store-optimizer"
+      }
+    },
+    {
+      "name": "app-store-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/app-store-optimizer"
       }
     },
@@ -2628,6 +2921,13 @@
       }
     },
     {
+      "name": "argus",
+      "source": {
+        "source": "github",
+        "repo": "NathanWu8343/Argus"
+      }
+    },
+    {
       "name": "ariadne",
       "source": {
         "source": "git-subdir",
@@ -2713,6 +3013,14 @@
       }
     },
     {
+      "name": "ask",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/ask"
+      }
+    },
+    {
       "name": "aspark",
       "source": {
         "source": "github",
@@ -2733,6 +3041,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/assemblyai-pack"
+      }
+    },
+    {
+      "name": "ast-grep",
+      "source": {
+        "source": "git-subdir",
+        "url": "ast-grep/agent-skill",
+        "path": "ast-grep"
       }
     },
     {
@@ -2998,6 +3314,14 @@
       }
     },
     {
+      "name": "audit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/audit"
+      }
+    },
+    {
       "name": "audit-fix",
       "source": {
         "source": "git-subdir",
@@ -3139,6 +3463,14 @@
       }
     },
     {
+      "name": "autoresearch-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/autoresearch"
+      }
+    },
+    {
       "name": "autoresearch-agent",
       "source": {
         "source": "git-subdir",
@@ -3182,6 +3514,14 @@
         "source": "git-subdir",
         "url": "haboshi/claude-code-skills",
         "path": "aws-harness"
+      }
+    },
+    {
+      "name": "aws-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/aws-helper"
       }
     },
     {
@@ -3246,11 +3586,27 @@
       }
     },
     {
+      "name": "azure-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/azure-helper"
+      }
+    },
+    {
       "name": "azure-kusto-graph-skills",
       "source": {
         "source": "git-subdir",
         "url": "microsoft/GitHub-Copilot-for-Azure",
         "path": "plugins/azure-kusto-graph-skills"
+      }
+    },
+    {
+      "name": "azure-local-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "microsoft/GitHub-Copilot-for-Azure",
+        "path": "plugins/azure-local-skills"
       }
     },
     {
@@ -3286,6 +3642,14 @@
       }
     },
     {
+      "name": "b2b-project-shipper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/b2b-project-shipper"
+      }
+    },
+    {
       "name": "backend-api-security",
       "source": {
         "source": "git-subdir",
@@ -3306,6 +3670,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/backend-architect"
+      }
+    },
+    {
+      "name": "backend-architect-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/backend-architect"
+      }
+    },
+    {
+      "name": "backend-architect-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/backend-architect"
       }
     },
@@ -3500,6 +3880,14 @@
         "source": "git-subdir",
         "url": "trust-delta/bearing",
         "path": "carriers/claude/bearing"
+      }
+    },
+    {
+      "name": "bedrock",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/bedrock"
       }
     },
     {
@@ -3806,6 +4194,22 @@
       }
     },
     {
+      "name": "blunt",
+      "source": {
+        "source": "git-subdir",
+        "url": "raineorshine/blunt",
+        "path": "plugins/blunt"
+      }
+    },
+    {
+      "name": "bmad-planning-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "aj-geddes/claude-code-bmad-skills",
+        "path": "bmad-planning-orchestrator"
+      }
+    },
+    {
       "name": "bmad-sprint-run",
       "source": {
         "source": "git-subdir",
@@ -3974,6 +4378,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/brand-guardian"
+      }
+    },
+    {
+      "name": "brand-guardian-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/brand-guardian"
       }
     },
@@ -4206,6 +4618,22 @@
       }
     },
     {
+      "name": "bug-detective-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/bug-detective"
+      }
+    },
+    {
+      "name": "bug-detective-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/bug-detective"
+      }
+    },
+    {
       "name": "bug-fix",
       "source": {
         "source": "git-subdir",
@@ -4218,6 +4646,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/bug-fix"
+      }
+    },
+    {
+      "name": "bug-fix-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/bug-fix"
       }
     },
@@ -4281,11 +4717,27 @@
       }
     },
     {
+      "name": "bullpen",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/bullpen"
+      }
+    },
+    {
       "name": "bun",
       "source": {
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/bun"
+      }
+    },
+    {
+      "name": "bundle-analyzer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/bundle-analyzer"
       }
     },
     {
@@ -4808,6 +5260,14 @@
       }
     },
     {
+      "name": "cc-aws-keepalive",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/cc-aws-keepalive"
+      }
+    },
+    {
       "name": "cc-commands",
       "source": {
         "source": "git-subdir",
@@ -4943,6 +5403,14 @@
       }
     },
     {
+      "name": "ceo-quality-controller-agent-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ceo-quality-controller-agent"
+      }
+    },
+    {
       "name": "certificate",
       "source": {
         "source": "git-subdir",
@@ -4997,6 +5465,14 @@
       }
     },
     {
+      "name": "changelog-gen",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/changelog-gen"
+      }
+    },
+    {
       "name": "changelog-generator",
       "source": {
         "source": "git-subdir",
@@ -5010,6 +5486,22 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/changelog-generator"
+      }
+    },
+    {
+      "name": "changelog-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/changelog-generator"
+      }
+    },
+    {
+      "name": "changelog-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/changelog-writer"
       }
     },
     {
@@ -5361,6 +5853,14 @@
       }
     },
     {
+      "name": "ci-debugger",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/ci-debugger"
+      }
+    },
+    {
       "name": "ci-extras",
       "source": {
         "source": "git-subdir",
@@ -5511,6 +6011,14 @@
       "source": {
         "source": "github",
         "repo": "Hainrixz/claude-ads"
+      }
+    },
+    {
+      "name": "claude-bionify",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claude-bionify"
       }
     },
     {
@@ -5666,10 +6174,25 @@
       }
     },
     {
+      "name": "claude-context-optimizer",
+      "source": {
+        "source": "github",
+        "repo": "egorfedorov/claude-context-optimizer"
+      }
+    },
+    {
       "name": "claude-desktop-extension",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/claude-desktop-extension"
+      }
+    },
+    {
+      "name": "claude-desktop-extension-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/claude-desktop-extension"
       }
     },
@@ -5693,6 +6216,14 @@
       "source": {
         "source": "github",
         "repo": "ThePhilipWilson/claude-draw"
+      }
+    },
+    {
+      "name": "claude-ecom",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claude-ecom"
       }
     },
     {
@@ -5857,6 +6388,14 @@
       }
     },
     {
+      "name": "claude-persona",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claude-persona"
+      }
+    },
+    {
       "name": "claude-prospector",
       "source": {
         "source": "github",
@@ -5895,6 +6434,14 @@
       }
     },
     {
+      "name": "claude-reflect-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claude-reflect"
+      }
+    },
+    {
       "name": "claude-replicant",
       "source": {
         "source": "github",
@@ -5915,6 +6462,14 @@
         "source": "git-subdir",
         "url": "lucasschirm/session-analyzer",
         "path": "packages/plugins/claude-session-sync"
+      }
+    },
+    {
+      "name": "claude-session-tint",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claude-session-tint"
       }
     },
     {
@@ -6018,10 +6573,25 @@
       }
     },
     {
+      "name": "claudex",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/claudex"
+      }
+    },
+    {
       "name": "claudikins-tool-executor",
       "source": {
         "source": "github",
         "repo": "povvo/claudikins-tool-executor"
+      }
+    },
+    {
+      "name": "clauterbox",
+      "source": {
+        "source": "github",
+        "repo": "libf-de/clauterbox"
       }
     },
     {
@@ -6239,6 +6809,22 @@
       }
     },
     {
+      "name": "code-architect-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/code-architect"
+      }
+    },
+    {
+      "name": "code-architect-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/code-architect"
+      }
+    },
+    {
       "name": "code-architecture",
       "source": {
         "source": "git-subdir",
@@ -6271,10 +6857,26 @@
       }
     },
     {
+      "name": "code-explainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/code-explainer"
+      }
+    },
+    {
       "name": "code-gauntlet",
       "source": {
         "source": "github",
         "repo": "liatrio-labs/claude-code-gauntlet"
+      }
+    },
+    {
+      "name": "code-guardian",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/code-guardian"
       }
     },
     {
@@ -6389,10 +6991,34 @@
       }
     },
     {
+      "name": "code-review-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/code-review"
+      }
+    },
+    {
       "name": "code-review-assistant",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/code-review-assistant"
+      }
+    },
+    {
+      "name": "code-review-assistant-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/code-review-assistant"
+      }
+    },
+    {
+      "name": "code-review-assistant-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/code-review-assistant"
       }
     },
@@ -6417,6 +7043,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/code-reviewer"
+      }
+    },
+    {
+      "name": "code-reviewer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/code-reviewer"
       }
     },
@@ -6465,6 +7099,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/codebase-documenter"
+      }
+    },
+    {
+      "name": "codebase-documenter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/codebase-documenter"
+      }
+    },
+    {
+      "name": "codebase-documenter-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/codebase-documenter"
       }
     },
@@ -6720,6 +7370,14 @@
       }
     },
     {
+      "name": "color-contrast",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/color-contrast"
+      }
+    },
+    {
       "name": "comercial-b2b",
       "source": {
         "source": "git-subdir",
@@ -6816,6 +7474,14 @@
       }
     },
     {
+      "name": "commit-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/commit"
+      }
+    },
+    {
       "name": "commit-and-report",
       "source": {
         "source": "git-subdir",
@@ -6844,6 +7510,22 @@
       "source": {
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
+        "path": "plugins/commit-commands"
+      }
+    },
+    {
+      "name": "commit-commands-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/commit-commands"
+      }
+    },
+    {
+      "name": "commit-commands-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/commit-commands"
       }
     },
@@ -6895,6 +7577,14 @@
       }
     },
     {
+      "name": "company",
+      "source": {
+        "source": "git-subdir",
+        "url": "Shin-sibainu/cc-company",
+        "path": "plugins/company"
+      }
+    },
+    {
       "name": "compass",
       "source": {
         "source": "git-subdir",
@@ -6916,6 +7606,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/competitive-analysis"
+      }
+    },
+    {
+      "name": "complexity-reducer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/complexity-reducer"
       }
     },
     {
@@ -6943,6 +7641,14 @@
       }
     },
     {
+      "name": "compliance-automation-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/compliance-automation-specialist"
+      }
+    },
+    {
       "name": "compliance-checker",
       "source": {
         "source": "git-subdir",
@@ -6956,6 +7662,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/compliance-checker"
+      }
+    },
+    {
+      "name": "compliance-checker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/compliance-checker"
       }
     },
     {
@@ -7109,6 +7823,14 @@
       }
     },
     {
+      "name": "conductor-orchestrator-superpowers",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/conductor-orchestrator-superpowers"
+      }
+    },
+    {
       "name": "condux",
       "source": {
         "source": "git-subdir",
@@ -7242,6 +7964,22 @@
       }
     },
     {
+      "name": "content-creator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/content-creator"
+      }
+    },
+    {
+      "name": "content-creator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/content-creator"
+      }
+    },
+    {
       "name": "content-design",
       "source": {
         "source": "git-subdir",
@@ -7314,6 +8052,14 @@
       }
     },
     {
+      "name": "context-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/context-memory"
+      }
+    },
+    {
       "name": "context-mgr",
       "source": {
         "source": "git-subdir",
@@ -7326,6 +8072,14 @@
       "source": {
         "source": "github",
         "repo": "mksglu/context-mode"
+      }
+    },
+    {
+      "name": "context-mode-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/context-mode"
       }
     },
     {
@@ -7360,10 +8114,26 @@
       }
     },
     {
+      "name": "context7-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/context7-docs"
+      }
+    },
+    {
       "name": "context7-docs-fetcher",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/context7-docs-fetcher"
+      }
+    },
+    {
+      "name": "context7-docs-fetcher-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/context7-docs-fetcher"
       }
     },
@@ -7396,6 +8166,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/contract-test-validator"
+      }
+    },
+    {
+      "name": "contract-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/contract-tester"
       }
     },
     {
@@ -7542,6 +8320,14 @@
         "source": "git-subdir",
         "url": "pastoriniMatheus/core-ai",
         "path": "plugins/core"
+      }
+    },
+    {
+      "name": "core-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "galaykos/cc-marketplace",
+        "path": "plugins/core-suite"
       }
     },
     {
@@ -7741,6 +8527,14 @@
       }
     },
     {
+      "name": "craftsman",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/craftsman"
+      }
+    },
+    {
       "name": "crapkit",
       "source": {
         "source": "git-subdir",
@@ -7779,10 +8573,26 @@
       }
     },
     {
+      "name": "create-pr-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/create-pr"
+      }
+    },
+    {
       "name": "create-pull-request",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/create-pull-request"
+      }
+    },
+    {
+      "name": "create-pull-request-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/create-pull-request"
       }
     },
@@ -7799,6 +8609,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/create-worktrees"
+      }
+    },
+    {
+      "name": "create-worktrees-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/create-worktrees"
+      }
+    },
+    {
+      "name": "create-worktrees-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/create-worktrees"
       }
     },
@@ -7945,6 +8771,14 @@
       }
     },
     {
+      "name": "cron-scheduler",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/cron-scheduler"
+      }
+    },
+    {
       "name": "cross-chain-bridge-monitor",
       "source": {
         "source": "git-subdir",
@@ -8056,6 +8890,14 @@
       }
     },
     {
+      "name": "crypto-trading-desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/crypto-trading-desk"
+      }
+    },
+    {
       "name": "csp",
       "source": {
         "source": "git-subdir",
@@ -8069,6 +8911,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/csrf-protection-validator"
+      }
+    },
+    {
+      "name": "css-cleaner",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/css-cleaner"
       }
     },
     {
@@ -8155,6 +9005,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/customer-success-manager"
+      }
+    },
+    {
+      "name": "customer-success-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/customer-success-manager"
       }
     },
@@ -8249,6 +9107,13 @@
       "source": {
         "source": "github",
         "repo": "9thLevelSoftware/Daem0n-MCP"
+      }
+    },
+    {
+      "name": "daikenja",
+      "source": {
+        "source": "github",
+        "repo": "by-carlos/daikenja"
       }
     },
     {
@@ -8391,10 +9256,26 @@
       }
     },
     {
+      "name": "data-privacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/data-privacy"
+      }
+    },
+    {
       "name": "data-privacy-engineer",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/data-privacy-engineer"
+      }
+    },
+    {
+      "name": "data-privacy-engineer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/data-privacy-engineer"
       }
     },
@@ -8443,6 +9324,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/data-scientist"
+      }
+    },
+    {
+      "name": "data-scientist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/data-scientist"
       }
     },
@@ -8711,6 +9600,14 @@
       }
     },
     {
+      "name": "database-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/database-optimizer"
+      }
+    },
+    {
       "name": "database-partition-manager",
       "source": {
         "source": "git-subdir",
@@ -8731,6 +9628,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/database-performance-optimizer"
+      }
+    },
+    {
+      "name": "database-performance-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/database-performance-optimizer"
       }
     },
@@ -8948,6 +9853,14 @@
       }
     },
     {
+      "name": "db",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "db"
+      }
+    },
+    {
       "name": "db-guardrails",
       "source": {
         "source": "git-subdir",
@@ -8960,6 +9873,30 @@
       "source": {
         "source": "github",
         "repo": "EliaAlberti/dcode-agent-kit"
+      }
+    },
+    {
+      "name": "dead-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "dead-code"
+      }
+    },
+    {
+      "name": "dead-code-finder",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/dead-code-finder"
+      }
+    },
+    {
+      "name": "deapi-media",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/deapi-media"
       }
     },
     {
@@ -8979,6 +9916,22 @@
       }
     },
     {
+      "name": "debug-session-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/debug-session"
+      }
+    },
+    {
+      "name": "debug-session-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/debug-session"
+      }
+    },
+    {
       "name": "debugger",
       "source": {
         "source": "git-subdir",
@@ -8991,6 +9944,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/debugger"
+      }
+    },
+    {
+      "name": "debugger-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/debugger"
       }
     },
@@ -9030,6 +9991,14 @@
       "source": {
         "source": "github",
         "repo": "bentoware/deckhand"
+      }
+    },
+    {
+      "name": "decomposition",
+      "source": {
+        "source": "git-subdir",
+        "url": "fumiya-kume/claude-code",
+        "path": "decomposition"
       }
     },
     {
@@ -9292,6 +10261,14 @@
       }
     },
     {
+      "name": "demo-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SocialGouv/iterion",
+        "path": "third_party/codex-agent-sdk-go/examples/plugins/demo-plugin"
+      }
+    },
+    {
       "name": "demo-two",
       "source": {
         "source": "git-subdir",
@@ -9332,11 +10309,27 @@
       }
     },
     {
+      "name": "dependency-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/dependency-manager"
+      }
+    },
+    {
       "name": "deploy-on-aws",
       "source": {
         "source": "git-subdir",
         "url": "awslabs/agent-plugins",
         "path": "plugins/deploy-on-aws"
+      }
+    },
+    {
+      "name": "deploy-pilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/deploy-pilot"
       }
     },
     {
@@ -9368,6 +10361,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/deployment-engineer"
+      }
+    },
+    {
+      "name": "deployment-engineer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/deployment-engineer"
       }
     },
@@ -9489,6 +10490,14 @@
       }
     },
     {
+      "name": "design-from-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/design-from-code"
+      }
+    },
+    {
       "name": "design-lab",
       "source": {
         "source": "git-subdir",
@@ -9587,11 +10596,35 @@
       }
     },
     {
+      "name": "desktop-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/desktop-app"
+      }
+    },
+    {
       "name": "desktop-app-dev",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/desktop-app-dev"
+      }
+    },
+    {
+      "name": "desktop-app-dev-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/desktop-app-dev"
+      }
+    },
+    {
+      "name": "deslop",
+      "source": {
+        "source": "git-subdir",
+        "url": "fumiya-kume/claude-code",
+        "path": "deslop"
       }
     },
     {
@@ -9655,6 +10688,14 @@
         "source": "git-subdir",
         "url": "nesquikm/dev-process-toolkit",
         "path": "plugins/dev-process-toolkit"
+      }
+    },
+    {
+      "name": "dev-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/dev-report"
       }
     },
     {
@@ -9838,6 +10879,30 @@
       }
     },
     {
+      "name": "devops-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "07-plugins/devops-automation"
+      }
+    },
+    {
+      "name": "devops-automation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "uk/07-plugins/devops-automation"
+      }
+    },
+    {
+      "name": "devops-automation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "vi/07-plugins/devops-automation"
+      }
+    },
+    {
       "name": "devops-automation-pack",
       "source": {
         "source": "git-subdir",
@@ -9858,6 +10923,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/devops-automator"
+      }
+    },
+    {
+      "name": "devops-automator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/devops-automator"
+      }
+    },
+    {
+      "name": "devops-automator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/devops-automator"
       }
     },
@@ -9970,6 +11051,14 @@
       }
     },
     {
+      "name": "dgnengine",
+      "source": {
+        "source": "git-subdir",
+        "url": "sje0719/dgnengine-plugins",
+        "path": "plugins/dgnengine"
+      }
+    },
+    {
       "name": "dgx-spark-ops",
       "source": {
         "source": "git-subdir",
@@ -10014,6 +11103,14 @@
       "source": {
         "source": "github",
         "repo": "TFourniax/tooltest"
+      }
+    },
+    {
+      "name": "dig",
+      "source": {
+        "source": "git-subdir",
+        "url": "fumiya-kume/claude-code",
+        "path": "dig"
       }
     },
     {
@@ -10095,6 +11192,22 @@
       }
     },
     {
+      "name": "discuss-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/discuss"
+      }
+    },
+    {
+      "name": "discuss-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/discuss"
+      }
+    },
+    {
       "name": "dispatch",
       "source": {
         "source": "git-subdir",
@@ -10151,6 +11264,14 @@
       }
     },
     {
+      "name": "dna-claude-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/dna-claude-analysis"
+      }
+    },
+    {
       "name": "dobbel",
       "source": {
         "source": "git-subdir",
@@ -10164,6 +11285,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/doc-coauthoring"
+      }
+    },
+    {
+      "name": "doc-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/doc-forge"
       }
     },
     {
@@ -10239,6 +11368,14 @@
       }
     },
     {
+      "name": "docker-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/docker-helper"
+      }
+    },
+    {
       "name": "docket-2",
       "source": {
         "source": "git-subdir",
@@ -10303,6 +11440,30 @@
       }
     },
     {
+      "name": "documentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "07-plugins/documentation"
+      }
+    },
+    {
+      "name": "documentation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "uk/07-plugins/documentation"
+      }
+    },
+    {
+      "name": "documentation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "vi/07-plugins/documentation"
+      }
+    },
+    {
       "name": "documentation-architect",
       "source": {
         "source": "git-subdir",
@@ -10331,6 +11492,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/documentation-generator"
+      }
+    },
+    {
+      "name": "documentation-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/documentation-generator"
       }
     },
@@ -10452,6 +11621,13 @@
       }
     },
     {
+      "name": "dotnet-skills",
+      "source": {
+        "source": "github",
+        "repo": "Aaronontheweb/dotnet-skills"
+      }
+    },
+    {
       "name": "dotnet-workflow-kit",
       "source": {
         "source": "github",
@@ -10471,6 +11647,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/double-check"
+      }
+    },
+    {
+      "name": "double-check-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/double-check"
+      }
+    },
+    {
+      "name": "double-check-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/double-check"
       }
     },
@@ -10741,6 +11933,14 @@
       }
     },
     {
+      "name": "e2e-runner",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/e2e-runner"
+      }
+    },
+    {
       "name": "e2e-test-framework",
       "source": {
         "source": "git-subdir",
@@ -10785,6 +11985,13 @@
       "source": {
         "source": "github",
         "repo": "oaslananka/easyeda-mcp-pro"
+      }
+    },
+    {
+      "name": "ecc",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
       }
     },
     {
@@ -10873,6 +12080,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/echo-segment"
+      }
+    },
+    {
+      "name": "ecpay",
+      "source": {
+        "source": "git-subdir",
+        "url": "paid-tw/skills",
+        "path": "plugins/ecpay"
       }
     },
     {
@@ -11078,6 +12293,22 @@
       }
     },
     {
+      "name": "em-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "m-m-n/em-claude-plugins",
+        "path": "em-review"
+      }
+    },
+    {
+      "name": "em-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "m-m-n/em-claude-plugins",
+        "path": "em-workflow"
+      }
+    },
+    {
       "name": "email",
       "source": {
         "source": "git-subdir",
@@ -11091,6 +12322,14 @@
         "source": "git-subdir",
         "url": "paat/claude-plugins",
         "path": "plugins/emails-to-github-issues"
+      }
+    },
+    {
+      "name": "embedding-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/embedding-manager"
       }
     },
     {
@@ -11276,10 +12515,26 @@
       }
     },
     {
+      "name": "enterprise-integrator-architect-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/enterprise-integrator-architect"
+      }
+    },
+    {
       "name": "enterprise-onboarding-specialist",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/enterprise-onboarding-specialist"
+      }
+    },
+    {
+      "name": "enterprise-onboarding-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/enterprise-onboarding-specialist"
       }
     },
@@ -11300,10 +12555,34 @@
       }
     },
     {
+      "name": "enterprise-security-reviewer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/enterprise-security-reviewer"
+      }
+    },
+    {
       "name": "entire",
       "source": {
         "source": "github",
         "repo": "entireio/skills"
+      }
+    },
+    {
+      "name": "env-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/env-manager"
+      }
+    },
+    {
+      "name": "env-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/env-sync"
       }
     },
     {
@@ -11772,6 +13051,22 @@
       }
     },
     {
+      "name": "experiment-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/experiment-tracker"
+      }
+    },
+    {
+      "name": "experiment-tracker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/experiment-tracker"
+      }
+    },
+    {
       "name": "experiment-tracking-setup",
       "source": {
         "source": "git-subdir",
@@ -11785,6 +13080,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/experiment-tracking-setup"
+      }
+    },
+    {
+      "name": "explain",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "explain"
       }
     },
     {
@@ -11816,6 +13119,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/explore"
+      }
+    },
+    {
+      "name": "explore-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/explore"
+      }
+    },
+    {
+      "name": "explore-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/explore"
       }
     },
@@ -11865,6 +13184,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/fable-advisor"
+      }
+    },
+    {
+      "name": "fable-baton",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/fable-baton"
       }
     },
     {
@@ -12049,6 +13376,22 @@
       }
     },
     {
+      "name": "feature-dev-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/feature-dev"
+      }
+    },
+    {
+      "name": "feature-dev-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/feature-dev"
+      }
+    },
+    {
       "name": "feature-engineering-toolkit",
       "source": {
         "source": "git-subdir",
@@ -12093,6 +13436,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/feedback-synthesizer"
+      }
+    },
+    {
+      "name": "feedback-synthesizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/feedback-synthesizer"
       }
     },
@@ -12240,6 +13591,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/finance-tracker"
+      }
+    },
+    {
+      "name": "finance-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/finance-tracker"
+      }
+    },
+    {
+      "name": "finance-tracker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/finance-tracker"
       }
     },
@@ -12399,10 +13766,34 @@
       }
     },
     {
+      "name": "fix-ci",
+      "source": {
+        "source": "git-subdir",
+        "url": "fumiya-kume/claude-code",
+        "path": "fix-ci"
+      }
+    },
+    {
       "name": "fix-github-issue",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/fix-github-issue"
+      }
+    },
+    {
+      "name": "fix-github-issue-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/fix-github-issue"
+      }
+    },
+    {
+      "name": "fix-github-issue-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/fix-github-issue"
       }
     },
@@ -12415,10 +13806,34 @@
       }
     },
     {
+      "name": "fix-issue-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/fix-issue"
+      }
+    },
+    {
       "name": "fix-pr",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/fix-pr"
+      }
+    },
+    {
+      "name": "fix-pr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/fix-pr"
+      }
+    },
+    {
+      "name": "fix-pr-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/fix-pr"
       }
     },
@@ -12993,10 +14408,26 @@
       }
     },
     {
+      "name": "flutter-mobile",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/flutter-mobile"
+      }
+    },
+    {
       "name": "flutter-mobile-app-dev",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/flutter-mobile-app-dev"
+      }
+    },
+    {
+      "name": "flutter-mobile-app-dev-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/flutter-mobile-app-dev"
       }
     },
@@ -13174,6 +14605,13 @@
       }
     },
     {
+      "name": "foreman-3",
+      "source": {
+        "source": "github",
+        "repo": "surajgour1496/foreman"
+      }
+    },
+    {
       "name": "forge",
       "source": {
         "source": "git-subdir",
@@ -13297,6 +14735,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-recon"
+      }
+    },
+    {
+      "name": "forkmind",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/forkmind"
       }
     },
     {
@@ -13720,6 +15166,13 @@
       }
     },
     {
+      "name": "frontend-design-pro",
+      "source": {
+        "source": "github",
+        "repo": "claudekit/frontend-design-pro-demo"
+      }
+    },
+    {
       "name": "frontend-design-skills",
       "source": {
         "source": "git-subdir",
@@ -13740,6 +15193,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/frontend-developer"
+      }
+    },
+    {
+      "name": "frontend-developer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/frontend-developer"
+      }
+    },
+    {
+      "name": "frontend-developer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/frontend-developer"
       }
     },
@@ -13797,6 +15266,14 @@
         "source": "git-subdir",
         "url": "fulcrumapp/fulcrum-ai-toolkit",
         "path": "plugins/fulcrum-ai-toolkit"
+      }
+    },
+    {
+      "name": "full-featured-example",
+      "source": {
+        "source": "git-subdir",
+        "url": "obra/superpowers-developing-for-claude-code",
+        "path": "examples/full-featured-plugin"
       }
     },
     {
@@ -14004,6 +15481,14 @@
       }
     },
     {
+      "name": "gcp-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/gcp-helper"
+      }
+    },
+    {
       "name": "gdpr-compliance-scanner",
       "source": {
         "source": "git-subdir",
@@ -14120,6 +15605,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/generate-api-docs"
+      }
+    },
+    {
+      "name": "generate-api-docs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/generate-api-docs"
       }
     },
@@ -14360,6 +15853,14 @@
       }
     },
     {
+      "name": "git-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/git-flow"
+      }
+    },
+    {
       "name": "git-guards",
       "source": {
         "source": "git-subdir",
@@ -14471,6 +15972,22 @@
       }
     },
     {
+      "name": "github-issue-fix-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/github-issue-fix"
+      }
+    },
+    {
+      "name": "github-issue-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/github-issue-manager"
+      }
+    },
+    {
       "name": "github-issues",
       "source": {
         "source": "git-subdir",
@@ -14500,6 +16017,14 @@
         "source": "git-subdir",
         "url": "natejswenson/claude-skills",
         "path": "skills/pluginsync/skills/pluginsync/evals/fixtures/home/marketplace/skills/github-stats"
+      }
+    },
+    {
+      "name": "github-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "Subverting-complexity/claude-plugins",
+        "path": "github-workflow"
       }
     },
     {
@@ -15081,6 +16606,14 @@
       }
     },
     {
+      "name": "growth-hacker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/growth-hacker"
+      }
+    },
+    {
       "name": "grpc-service-generator",
       "source": {
         "source": "git-subdir",
@@ -15287,6 +16820,13 @@
       }
     },
     {
+      "name": "harmony-plugin",
+      "source": {
+        "source": "github",
+        "repo": "ycomplex/harmony-plugin"
+      }
+    },
+    {
       "name": "harness",
       "source": {
         "source": "github",
@@ -15386,6 +16926,20 @@
         "source": "git-subdir",
         "url": "headroomlabs-ai/headroom",
         "path": "plugins/headroom-agent-hooks"
+      }
+    },
+    {
+      "name": "health-harness",
+      "source": {
+        "source": "github",
+        "repo": "Mindbowser/health-harness"
+      }
+    },
+    {
+      "name": "hedgehog",
+      "source": {
+        "source": "github",
+        "repo": "skyf0xx/hedgehog"
       }
     },
     {
@@ -15497,6 +17051,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/helm-chart-generator"
+      }
+    },
+    {
+      "name": "helm-charts",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/helm-charts"
       }
     },
     {
@@ -15871,6 +17433,13 @@
       }
     },
     {
+      "name": "human-compiler",
+      "source": {
+        "source": "github",
+        "repo": "Gerstep/HumanCompiler"
+      }
+    },
+    {
       "name": "human-design-ai",
       "source": {
         "source": "git-subdir",
@@ -15927,6 +17496,14 @@
       }
     },
     {
+      "name": "husky-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/husky"
+      }
+    },
+    {
       "name": "hxm",
       "source": {
         "source": "github",
@@ -15954,6 +17531,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/hyperflow"
+      }
+    },
+    {
+      "name": "hyperflow-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/hyperflow"
       }
     },
     {
@@ -16070,6 +17655,14 @@
       }
     },
     {
+      "name": "idea-to-deploy",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/idea-to-deploy"
+      }
+    },
+    {
       "name": "ideogram-pack",
       "source": {
         "source": "git-subdir",
@@ -16141,6 +17734,14 @@
       }
     },
     {
+      "name": "image-link",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/image-link"
+      }
+    },
+    {
       "name": "imessage",
       "source": {
         "source": "git-subdir",
@@ -16162,6 +17763,14 @@
         "source": "git-subdir",
         "url": "duylam/claude-code-engineering-assembly",
         "path": "plugins/implementation"
+      }
+    },
+    {
+      "name": "import-organizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/import-organizer"
       }
     },
     {
@@ -16275,6 +17884,22 @@
       }
     },
     {
+      "name": "infrastructure-maintainer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/infrastructure-maintainer"
+      }
+    },
+    {
+      "name": "infrastructure-maintainer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/infrastructure-maintainer"
+      }
+    },
+    {
       "name": "infrastructure-metrics-collector",
       "source": {
         "source": "git-subdir",
@@ -16326,6 +17951,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/instagram-curator"
+      }
+    },
+    {
+      "name": "instagram-curator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/instagram-curator"
       }
     },
@@ -16443,6 +18076,14 @@
         "source": "git-subdir",
         "url": "motlin/claude-code-plugins",
         "path": "plugins/investigation-report"
+      }
+    },
+    {
+      "name": "ios-developer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/ios-developer"
       }
     },
     {
@@ -16932,6 +18573,22 @@
       }
     },
     {
+      "name": "joker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/joker"
+      }
+    },
+    {
+      "name": "journey-mapper",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/journey-mapper"
+      }
+    },
+    {
       "name": "juicebox-pack",
       "source": {
         "source": "git-subdir",
@@ -17007,6 +18664,14 @@
         "source": "git-subdir",
         "url": "anthropics/k12-teacher-skills",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "k8s-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/k8s-helper"
       }
     },
     {
@@ -17302,6 +18967,14 @@
       }
     },
     {
+      "name": "kryptogo-pay",
+      "source": {
+        "source": "git-subdir",
+        "url": "paid-tw/skills",
+        "path": "plugins/kryptogo-pay"
+      }
+    },
+    {
       "name": "ksafe",
       "source": {
         "source": "github",
@@ -17338,6 +19011,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/kubernetes-operator"
+      }
+    },
+    {
+      "name": "kubestellar-console",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/kubestellar-console"
       }
     },
     {
@@ -17682,6 +19363,14 @@
       }
     },
     {
+      "name": "legal-advisor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/legal-advisor"
+      }
+    },
+    {
       "name": "legal-compliance",
       "source": {
         "source": "git-subdir",
@@ -17694,6 +19383,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/legal-compliance-checker"
+      }
+    },
+    {
+      "name": "legal-compliance-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/legal-compliance-checker"
       }
     },
@@ -17944,6 +19641,14 @@
       }
     },
     {
+      "name": "license-checker",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/license-checker"
+      }
+    },
+    {
       "name": "lichnost",
       "source": {
         "source": "git-subdir",
@@ -17957,6 +19662,14 @@
         "source": "git-subdir",
         "url": "timsmykov/evidence-lab-plugins",
         "path": "packs/domains/life-sciences"
+      }
+    },
+    {
+      "name": "lighthouse-runner",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/lighthouse-runner"
       }
     },
     {
@@ -18011,6 +19724,14 @@
         "source": "git-subdir",
         "url": "jcdendrite/claude-config",
         "path": "plugins/linear-formatting"
+      }
+    },
+    {
+      "name": "linear-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/linear-helper"
       }
     },
     {
@@ -18249,6 +19970,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/performance/load-test-runner"
+      }
+    },
+    {
+      "name": "load-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/load-tester"
       }
     },
     {
@@ -18553,6 +20282,14 @@
       }
     },
     {
+      "name": "lyra-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/lyra"
+      }
+    },
+    {
       "name": "m3",
       "source": {
         "source": "github",
@@ -18573,6 +20310,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/machine-learning-ops"
+      }
+    },
+    {
+      "name": "magic-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/magic-cc-codex-worker"
       }
     },
     {
@@ -19509,6 +21254,14 @@
       }
     },
     {
+      "name": "memory-profiler",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/memory-profiler"
+      }
+    },
+    {
       "name": "mempool-analyzer",
       "source": {
         "source": "git-subdir",
@@ -19699,6 +21452,22 @@
       }
     },
     {
+      "name": "migrate-tool",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/migrate-tool"
+      }
+    },
+    {
+      "name": "migration-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/migration-generator"
+      }
+    },
+    {
       "name": "mikro",
       "source": {
         "source": "git-subdir",
@@ -19855,6 +21624,14 @@
       }
     },
     {
+      "name": "mobile-app-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/mobile-app-builder"
+      }
+    },
+    {
       "name": "mobile-app-tester",
       "source": {
         "source": "git-subdir",
@@ -19886,6 +21663,14 @@
       }
     },
     {
+      "name": "mobile-ux-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/mobile-ux-optimizer"
+      }
+    },
+    {
       "name": "moda",
       "source": {
         "source": "github",
@@ -19893,10 +21678,26 @@
       }
     },
     {
+      "name": "model-context-protocol",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/model-context-protocol"
+      }
+    },
+    {
       "name": "model-context-protocol-mcp-expert",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/model-context-protocol-mcp-expert"
+      }
+    },
+    {
+      "name": "model-context-protocol-mcp-expert-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/model-context-protocol-mcp-expert"
       }
     },
@@ -19930,6 +21731,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/model-evaluation-suite"
+      }
+    },
+    {
+      "name": "model-evaluator",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/model-evaluator"
       }
     },
     {
@@ -20005,6 +21814,22 @@
       }
     },
     {
+      "name": "monitoring-observability-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/monitoring-observability-specialist"
+      }
+    },
+    {
+      "name": "monitoring-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/monitoring-setup"
+      }
+    },
+    {
       "name": "monitoring-stack-deployer",
       "source": {
         "source": "git-subdir",
@@ -20018,6 +21843,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/devops/monitoring-stack-deployer"
+      }
+    },
+    {
+      "name": "monorepo-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/monorepo-manager"
       }
     },
     {
@@ -20107,6 +21940,14 @@
       }
     },
     {
+      "name": "mutation-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/mutation-tester"
+      }
+    },
+    {
       "name": "my-agent-plugin",
       "source": {
         "source": "git-subdir",
@@ -20184,10 +22025,26 @@
       }
     },
     {
+      "name": "n8n-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/n8n-workflow"
+      }
+    },
+    {
       "name": "n8n-workflow-builder",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/n8n-workflow-builder"
+      }
+    },
+    {
+      "name": "n8n-workflow-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/n8n-workflow-builder"
       }
     },
@@ -20417,6 +22274,14 @@
       }
     },
     {
+      "name": "newebpay",
+      "source": {
+        "source": "git-subdir",
+        "url": "paid-tw/skills",
+        "path": "plugins/newebpay"
+      }
+    },
+    {
       "name": "newline",
       "source": {
         "source": "git-subdir",
@@ -20453,6 +22318,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/crypto/nft-rarity-analyzer"
+      }
+    },
+    {
+      "name": "nhs-mcp-search",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/nhs-mcp-search"
       }
     },
     {
@@ -20648,6 +22521,14 @@
       "source": {
         "source": "github",
         "repo": "nowork-studio/notfair-plugin"
+      }
+    },
+    {
+      "name": "notfair-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/notfair"
       }
     },
     {
@@ -21115,6 +22996,14 @@
       }
     },
     {
+      "name": "omega-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/omega-memory"
+      }
+    },
+    {
       "name": "oms",
       "source": {
         "source": "github",
@@ -21146,6 +23035,14 @@
       }
     },
     {
+      "name": "onboarding-guide",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/onboarding-guide"
+      }
+    },
+    {
       "name": "one",
       "source": {
         "source": "git-subdir",
@@ -21174,6 +23071,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/onomastophes"
+      }
+    },
+    {
+      "name": "onomastophes-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/onomastophes"
       }
     },
@@ -21244,6 +23149,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/openapi-expert"
+      }
+    },
+    {
+      "name": "openapi-expert-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/openapi-expert"
+      }
+    },
+    {
+      "name": "openapi-expert-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/openapi-expert"
       }
     },
@@ -21459,6 +23380,22 @@
       }
     },
     {
+      "name": "optimize-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/optimize"
+      }
+    },
+    {
+      "name": "optimize-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/optimize"
+      }
+    },
+    {
       "name": "options-flow-analyzer",
       "source": {
         "source": "git-subdir",
@@ -21590,6 +23527,14 @@
       }
     },
     {
+      "name": "oss",
+      "source": {
+        "source": "git-subdir",
+        "url": "eddeee888/ai-skills",
+        "path": "oss"
+      }
+    },
+    {
       "name": "oss-autopilot",
       "source": {
         "source": "github",
@@ -21703,11 +23648,27 @@
       }
     },
     {
+      "name": "overseer",
+      "source": {
+        "source": "git-subdir",
+        "url": "galaykos/cc-marketplace",
+        "path": "plugins/overseer"
+      }
+    },
+    {
       "name": "owasp-compliance-checker",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/owasp-compliance-checker"
+      }
+    },
+    {
+      "name": "oz-harness-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "warpdotdev/claude-code-warp",
+        "path": "plugins/oz-harness-support"
       }
     },
     {
@@ -21763,6 +23724,30 @@
       "source": {
         "source": "github",
         "repo": "palladius/gemini-cli-custom-commands"
+      }
+    },
+    {
+      "name": "pancakeswap-driver",
+      "source": {
+        "source": "git-subdir",
+        "url": "pancakeswap/pancakeswap-ai",
+        "path": "packages/plugins/pancakeswap-driver"
+      }
+    },
+    {
+      "name": "pancakeswap-farming",
+      "source": {
+        "source": "git-subdir",
+        "url": "pancakeswap/pancakeswap-ai",
+        "path": "packages/plugins/pancakeswap-farming"
+      }
+    },
+    {
+      "name": "pancakeswap-hub",
+      "source": {
+        "source": "git-subdir",
+        "url": "pancakeswap/pancakeswap-ai",
+        "path": "packages/plugins/pancakeswap-hub"
       }
     },
     {
@@ -22010,6 +23995,14 @@
       }
     },
     {
+      "name": "payment-help",
+      "source": {
+        "source": "git-subdir",
+        "url": "paid-tw/skills",
+        "path": "plugins/payment-help"
+      }
+    },
+    {
       "name": "payment-processing",
       "source": {
         "source": "git-subdir",
@@ -22023,6 +24016,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/payments"
+      }
+    },
+    {
+      "name": "payuni",
+      "source": {
+        "source": "git-subdir",
+        "url": "paid-tw/skills",
+        "path": "plugins/payuni"
       }
     },
     {
@@ -22127,10 +24128,26 @@
       }
     },
     {
+      "name": "perf-profiler",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/perf-profiler"
+      }
+    },
+    {
       "name": "performance-benchmarker",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/performance-benchmarker"
+      }
+    },
+    {
+      "name": "performance-benchmarker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/performance-benchmarker"
       }
     },
@@ -22156,6 +24173,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/performance-engineering/performance-engineering"
+      }
+    },
+    {
+      "name": "performance-monitor",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/performance-monitor"
       }
     },
     {
@@ -22320,6 +24345,14 @@
       "source": {
         "source": "github",
         "repo": "rvenutolo/claude-pgrep-pkill-guard"
+      }
+    },
+    {
+      "name": "philharmonie",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/philharmonie"
       }
     },
     {
@@ -22577,11 +24610,34 @@
       }
     },
     {
+      "name": "plan-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/plan"
+      }
+    },
+    {
+      "name": "plan-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/plan"
+      }
+    },
+    {
       "name": "plan-for-dummies",
       "source": {
         "source": "git-subdir",
         "url": "allada-homelab/agent-harness-marketplace",
         "path": "modules/plan-for-dummies"
+      }
+    },
+    {
+      "name": "plan-staged-rollout",
+      "source": {
+        "source": "github",
+        "repo": "by-carlos/plan-staged-rollout"
       }
     },
     {
@@ -22629,6 +24685,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/planning-prd-agent"
+      }
+    },
+    {
+      "name": "planning-prd-agent-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/planning-prd-agent"
       }
     },
@@ -23175,6 +25239,21 @@
       }
     },
     {
+      "name": "poppify",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/poppify"
+      }
+    },
+    {
+      "name": "portal",
+      "source": {
+        "source": "github",
+        "repo": "spotify/portal-ai-plugins"
+      }
+    },
+    {
       "name": "portaljs",
       "source": {
         "source": "git-subdir",
@@ -23254,6 +25333,14 @@
       }
     },
     {
+      "name": "pr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "eddeee888/ai-skills",
+        "path": "pr"
+      }
+    },
+    {
       "name": "pr-communications",
       "source": {
         "source": "git-subdir",
@@ -23274,6 +25361,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/pr-issue-resolve"
+      }
+    },
+    {
+      "name": "pr-issue-resolve-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/pr-issue-resolve"
       }
     },
@@ -23310,6 +25405,38 @@
       }
     },
     {
+      "name": "pr-review-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/pr-review"
+      }
+    },
+    {
+      "name": "pr-review-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "07-plugins/pr-review"
+      }
+    },
+    {
+      "name": "pr-review-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "uk/07-plugins/pr-review"
+      }
+    },
+    {
+      "name": "pr-review-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "luongnv89/claude-howto",
+        "path": "vi/07-plugins/pr-review"
+      }
+    },
+    {
       "name": "pr-review-toolkit",
       "source": {
         "source": "git-subdir",
@@ -23339,6 +25466,22 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/pr-review-toolkit"
+      }
+    },
+    {
+      "name": "pr-review-toolkit-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/pr-review-toolkit"
+      }
+    },
+    {
+      "name": "pr-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/pr-reviewer"
       }
     },
     {
@@ -23372,6 +25515,21 @@
       }
     },
     {
+      "name": "praetor",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/praetor"
+      }
+    },
+    {
+      "name": "pragmatic-engineering",
+      "source": {
+        "source": "github",
+        "repo": "dmltdev/pragmatic-engineering"
+      }
+    },
+    {
       "name": "praxis",
       "source": {
         "source": "github",
@@ -23398,6 +25556,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/prd-specialist"
+      }
+    },
+    {
+      "name": "prd-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/prd-specialist"
       }
     },
@@ -23501,6 +25667,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/pricing-packaging-specialist"
+      }
+    },
+    {
+      "name": "pricing-packaging-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/pricing-packaging-specialist"
       }
     },
@@ -23671,6 +25845,14 @@
       }
     },
     {
+      "name": "problem-solver-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/problem-solver-specialist"
+      }
+    },
+    {
       "name": "process-and-robustness-principles",
       "source": {
         "source": "git-subdir",
@@ -23734,11 +25916,35 @@
       }
     },
     {
+      "name": "product-org-os",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/product-org-os"
+      }
+    },
+    {
       "name": "product-sales-specialist",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/product-sales-specialist"
+      }
+    },
+    {
+      "name": "product-sales-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/product-sales-specialist"
+      }
+    },
+    {
+      "name": "product-shipper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/product-shipper"
       }
     },
     {
@@ -23853,6 +26059,14 @@
       }
     },
     {
+      "name": "project-curator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/project-curator"
+      }
+    },
+    {
       "name": "project-health-auditor",
       "source": {
         "source": "git-subdir",
@@ -23908,6 +26122,14 @@
       }
     },
     {
+      "name": "project-scaffold",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/project-scaffold"
+      }
+    },
+    {
       "name": "project-setup",
       "source": {
         "source": "git-subdir",
@@ -23920,6 +26142,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/project-shipper"
+      }
+    },
+    {
+      "name": "project-shipper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/project-shipper"
       }
     },
@@ -23968,6 +26198,14 @@
         "source": "git-subdir",
         "url": "cadugevaerd/claude-skills",
         "path": "plugins/prompt-only-agent"
+      }
+    },
+    {
+      "name": "prompt-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/prompt-optimizer"
       }
     },
     {
@@ -24522,6 +26760,22 @@
       }
     },
     {
+      "name": "python-expert-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/python-expert"
+      }
+    },
+    {
+      "name": "python-expert-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/python-expert"
+      }
+    },
+    {
       "name": "python-scripting",
       "source": {
         "source": "git-subdir",
@@ -24647,6 +26901,14 @@
       }
     },
     {
+      "name": "query-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/query-optimizer"
+      }
+    },
+    {
       "name": "query-performance-analyzer",
       "source": {
         "source": "git-subdir",
@@ -24748,6 +27010,14 @@
       }
     },
     {
+      "name": "rag-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/rag-builder"
+      }
+    },
+    {
       "name": "rag-development",
       "source": {
         "source": "git-subdir",
@@ -24803,6 +27073,13 @@
       }
     },
     {
+      "name": "ralph-wiggum-marketer",
+      "source": {
+        "source": "github",
+        "repo": "muratcankoylan/ralph-wiggum-marketer"
+      }
+    },
+    {
       "name": "ramp-pack",
       "source": {
         "source": "git-subdir",
@@ -24815,6 +27092,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/rapid-prototyper"
+      }
+    },
+    {
+      "name": "rapid-prototyper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/rapid-prototyper"
+      }
+    },
+    {
+      "name": "rapid-prototyper-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/rapid-prototyper"
       }
     },
@@ -24874,6 +27167,22 @@
       }
     },
     {
+      "name": "react-native-dev-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/react-native-dev"
+      }
+    },
+    {
+      "name": "react-native-dev-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/react-native-dev"
+      }
+    },
+    {
       "name": "react-native-ease",
       "source": {
         "source": "github",
@@ -24893,6 +27202,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/react-skills"
+      }
+    },
+    {
+      "name": "readme-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/readme-generator"
       }
     },
     {
@@ -25092,6 +27409,14 @@
       }
     },
     {
+      "name": "reddit-community-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/reddit-community-builder"
+      }
+    },
+    {
       "name": "reddit-fetch",
       "source": {
         "source": "git-subdir",
@@ -25105,6 +27430,14 @@
         "source": "git-subdir",
         "url": "quillai-network/quillshield_skills",
         "path": "plugins/reentrancy-pattern-analysis"
+      }
+    },
+    {
+      "name": "refactor-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/refactor-engine"
       }
     },
     {
@@ -25136,6 +27469,22 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/refractor"
+      }
+    },
+    {
+      "name": "refractor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/refractor"
+      }
+    },
+    {
+      "name": "regex-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/regex-builder"
       }
     },
     {
@@ -25335,11 +27684,27 @@
       }
     },
     {
+      "name": "release-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "release"
+      }
+    },
+    {
       "name": "release-kit",
       "source": {
         "source": "git-subdir",
         "url": "wntic/ocm",
         "path": "template/plugins/release-kit"
+      }
+    },
+    {
+      "name": "release-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/release-manager"
       }
     },
     {
@@ -25427,6 +27792,14 @@
       }
     },
     {
+      "name": "repo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "repo"
+      }
+    },
+    {
       "name": "repo-contribution-scout",
       "source": {
         "source": "github",
@@ -25478,6 +27851,14 @@
         "source": "git-subdir",
         "url": "alxmax/Requirement-manager",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "requirements-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "requirements"
       }
     },
     {
@@ -25713,6 +28094,14 @@
       }
     },
     {
+      "name": "responsive-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/responsive-designer"
+      }
+    },
+    {
       "name": "rest-api-generator",
       "source": {
         "source": "git-subdir",
@@ -25768,6 +28157,14 @@
       }
     },
     {
+      "name": "retro-daily",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/retro-daily"
+      }
+    },
+    {
       "name": "revenue-team",
       "source": {
         "source": "git-subdir",
@@ -25808,6 +28205,14 @@
       }
     },
     {
+      "name": "review-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "review"
+      }
+    },
+    {
       "name": "review-agent-governance",
       "source": {
         "source": "git-subdir",
@@ -25821,6 +28226,14 @@
         "source": "git-subdir",
         "url": "joshjhall/librarian",
         "path": "plugins/review-audit"
+      }
+    },
+    {
+      "name": "reviewer-author-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/reviewer-author-loop"
       }
     },
     {
@@ -25875,6 +28288,14 @@
       "source": {
         "source": "github",
         "repo": "s977043/river-review"
+      }
+    },
+    {
+      "name": "rk",
+      "source": {
+        "source": "git-subdir",
+        "url": "tuannguyen-everfit/rock288_claude_plugin",
+        "path": "plugins/rock288"
       }
     },
     {
@@ -25967,6 +28388,14 @@
         "source": "git-subdir",
         "url": "aetos382/roslyn-skills",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "rote",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/rote"
       }
     },
     {
@@ -26507,6 +28936,13 @@
       }
     },
     {
+      "name": "sbrodol-ai",
+      "source": {
+        "source": "github",
+        "repo": "lunhilion/sbrodol-ai"
+      }
+    },
+    {
       "name": "sc",
       "source": {
         "source": "github",
@@ -26553,6 +28989,14 @@
       }
     },
     {
+      "name": "schema-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/schema-designer"
+      }
+    },
+    {
       "name": "schema-review",
       "source": {
         "source": "git-subdir",
@@ -26590,6 +29034,14 @@
       }
     },
     {
+      "name": "screen-reader-tester",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/screen-reader-tester"
+      }
+    },
+    {
       "name": "screencast-desktop",
       "source": {
         "source": "github",
@@ -26602,6 +29054,14 @@
         "source": "git-subdir",
         "url": "screenrig/plugin",
         "path": "plugins/screenrig"
+      }
+    },
+    {
+      "name": "screenshot-janitor",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/screenshot-janitor"
       }
     },
     {
@@ -26871,6 +29331,22 @@
       }
     },
     {
+      "name": "security-guidance-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/security-guidance"
+      }
+    },
+    {
+      "name": "security-guidance-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/security-guidance"
+      }
+    },
+    {
       "name": "security-headers-analyzer",
       "source": {
         "source": "git-subdir",
@@ -26940,6 +29416,14 @@
         "source": "git-subdir",
         "url": "vouchington/vouchington-tooling",
         "path": "plugins/security-triage"
+      }
+    },
+    {
+      "name": "seed-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/seed-generator"
       }
     },
     {
@@ -27162,6 +29646,14 @@
       }
     },
     {
+      "name": "session-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "session"
+      }
+    },
+    {
       "name": "session-bus",
       "source": {
         "source": "github",
@@ -27231,6 +29723,14 @@
       }
     },
     {
+      "name": "session-tax",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/session-tax"
+      }
+    },
+    {
       "name": "session-tracker",
       "source": {
         "source": "git-subdir",
@@ -27283,6 +29783,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/shell-scripting"
+      }
+    },
+    {
+      "name": "shellgate",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/shellgate"
       }
     },
     {
@@ -27433,6 +29941,14 @@
       }
     },
     {
+      "name": "shunt",
+      "source": {
+        "source": "git-subdir",
+        "url": "spotify/portal-ai-plugins",
+        "path": "plugins/shunt"
+      }
+    },
+    {
       "name": "shuriken",
       "source": {
         "source": "github",
@@ -27502,6 +30018,22 @@
       }
     },
     {
+      "name": "silicon-friendly",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/silicon-friendly"
+      }
+    },
+    {
+      "name": "simple-greeter",
+      "source": {
+        "source": "git-subdir",
+        "url": "obra/superpowers-developing-for-claude-code",
+        "path": "examples/simple-greeter-plugin"
+      }
+    },
+    {
       "name": "simplecore",
       "source": {
         "source": "git-subdir",
@@ -27568,6 +30100,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/skill-authoring"
+      }
+    },
+    {
+      "name": "skill-auto-installer",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/skill-auto-installer"
       }
     },
     {
@@ -27869,6 +30409,14 @@
       }
     },
     {
+      "name": "skills-equipe",
+      "source": {
+        "source": "git-subdir",
+        "url": "JRAYES000/marketplace-equipe",
+        "path": "plugins/skills-equipe"
+      }
+    },
+    {
       "name": "skills-janitor",
       "source": {
         "source": "git-subdir",
@@ -27980,6 +30528,22 @@
       }
     },
     {
+      "name": "slack-message-formatter",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/slack-message-formatter"
+      }
+    },
+    {
+      "name": "slack-notifier",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/slack-notifier"
+      }
+    },
+    {
       "name": "slash",
       "source": {
         "source": "github",
@@ -28000,6 +30564,14 @@
         "source": "git-subdir",
         "url": "slashwork-sh/plugin",
         "path": "plugins/work"
+      }
+    },
+    {
+      "name": "slicewise",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/slicewise"
       }
     },
     {
@@ -28046,6 +30618,14 @@
         "source": "git-subdir",
         "url": "anthropics/knowledge-work-plugins",
         "path": "small-business"
+      }
+    },
+    {
+      "name": "smart-commit",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/smart-commit"
       }
     },
     {
@@ -28117,6 +30697,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/social-publishing"
+      }
+    },
+    {
+      "name": "social-vision",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/social-vision"
       }
     },
     {
@@ -28479,6 +31067,22 @@
       }
     },
     {
+      "name": "sprint-prioritizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/sprint-prioritizer"
+      }
+    },
+    {
+      "name": "sprint-prioritizer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/sprint-prioritizer"
+      }
+    },
+    {
       "name": "sql-injection-detector",
       "source": {
         "source": "git-subdir",
@@ -28610,6 +31214,14 @@
         "source": "git-subdir",
         "url": "virajp/ai-plugins",
         "path": "plugins/stackgen"
+      }
+    },
+    {
+      "name": "stackwich",
+      "source": {
+        "source": "git-subdir",
+        "url": "ovhirup/stackwich",
+        "path": "plugins/stackwich"
       }
     },
     {
@@ -28839,6 +31451,14 @@
       }
     },
     {
+      "name": "stratarts",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/stratarts"
+      }
+    },
+    {
       "name": "strategy",
       "source": {
         "source": "git-subdir",
@@ -28926,10 +31546,26 @@
       }
     },
     {
+      "name": "studio-coach-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/studio-coach"
+      }
+    },
+    {
       "name": "studio-producer",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/studio-producer"
+      }
+    },
+    {
+      "name": "studio-producer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/studio-producer"
       }
     },
@@ -29093,6 +31729,20 @@
       }
     },
     {
+      "name": "superpowers-4",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      }
+    },
+    {
+      "name": "superpowers-developing-for-claude-code",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-developing-for-claude-code"
+      }
+    },
+    {
       "name": "superpowers-orchestrator",
       "source": {
         "source": "github",
@@ -29138,6 +31788,14 @@
       }
     },
     {
+      "name": "supply-chain-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/supply-chain-gate"
+      }
+    },
+    {
       "name": "supply-operacoes",
       "source": {
         "source": "git-subdir",
@@ -29158,6 +31816,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/support-responder"
+      }
+    },
+    {
+      "name": "support-responder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/support-responder"
       }
     },
@@ -29302,6 +31968,14 @@
       "source": {
         "source": "github",
         "repo": "Soein/swarmesh"
+      }
+    },
+    {
+      "name": "swarmvault",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/swarmvault"
       }
     },
     {
@@ -29737,10 +32411,26 @@
       }
     },
     {
+      "name": "technical-sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/technical-sales"
+      }
+    },
+    {
       "name": "technical-sales-engineer",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/technical-sales-engineer"
+      }
+    },
+    {
+      "name": "technical-sales-engineer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/technical-sales-engineer"
       }
     },
@@ -29857,6 +32547,14 @@
       }
     },
     {
+      "name": "terraform-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/terraform-helper"
+      }
+    },
+    {
       "name": "terraform-ls",
       "source": {
         "source": "git-subdir",
@@ -29953,6 +32651,14 @@
       }
     },
     {
+      "name": "test-data-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/test-data-generator"
+      }
+    },
+    {
       "name": "test-doubles-generator",
       "source": {
         "source": "git-subdir",
@@ -29973,6 +32679,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/test-file"
+      }
+    },
+    {
+      "name": "test-file-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/test-file"
       }
     },
@@ -30025,6 +32739,30 @@
       }
     },
     {
+      "name": "test-results-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/test-results-analyzer"
+      }
+    },
+    {
+      "name": "test-results-analyzer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/test-results-analyzer"
+      }
+    },
+    {
+      "name": "test-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/test-writer"
+      }
+    },
+    {
       "name": "test-writer-fixer",
       "source": {
         "source": "git-subdir",
@@ -30037,6 +32775,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/test-writer-fixer"
+      }
+    },
+    {
+      "name": "test-writer-fixer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/test-writer-fixer"
       }
     },
@@ -30131,6 +32877,14 @@
       "source": {
         "source": "github",
         "repo": "surajinacademia/theoretical-biophysics-modeling-skills"
+      }
+    },
+    {
+      "name": "thermal-fluid-research-workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/thermal-fluid-research-workflow"
       }
     },
     {
@@ -30236,6 +32990,14 @@
       }
     },
     {
+      "name": "tiktok-strategist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/tiktok-strategist"
+      }
+    },
+    {
       "name": "time-series-forecaster",
       "source": {
         "source": "git-subdir",
@@ -30270,6 +33032,14 @@
       "source": {
         "source": "git-subdir",
         "url": "alphabravo-oss/guild",
+        "path": "plugins/tldr"
+      }
+    },
+    {
+      "name": "tldr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/tldr"
       }
     },
@@ -30429,6 +33199,37 @@
       }
     },
     {
+      "name": "tool-evaluator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/tool-evaluator"
+      }
+    },
+    {
+      "name": "tool-evaluator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/tool-evaluator"
+      }
+    },
+    {
+      "name": "tool-timer",
+      "source": {
+        "source": "github",
+        "repo": "UtakataKyosui/exp-claude-mod-sample"
+      }
+    },
+    {
+      "name": "toolchain-experts",
+      "source": {
+        "source": "git-subdir",
+        "url": "galaykos/cc-marketplace",
+        "path": "plugins/toolchain-experts"
+      }
+    },
+    {
       "name": "toolkit-ops",
       "source": {
         "source": "git-subdir",
@@ -30442,6 +33243,22 @@
         "source": "git-subdir",
         "url": "markus7h/tools-registry",
         "path": "plugins/tools"
+      }
+    },
+    {
+      "name": "tools-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "muhackel/claude-code-plugins",
+        "path": "plugins/tools"
+      }
+    },
+    {
+      "name": "toprank",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/toprank"
       }
     },
     {
@@ -30737,6 +33554,14 @@
       }
     },
     {
+      "name": "trend-researcher-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/trend-researcher"
+      }
+    },
+    {
       "name": "tres-finance-plugin",
       "source": {
         "source": "git-subdir",
@@ -30883,6 +33708,14 @@
       }
     },
     {
+      "name": "twitter-engager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/twitter-engager"
+      }
+    },
+    {
       "name": "two",
       "source": {
         "source": "git-subdir",
@@ -30906,11 +33739,27 @@
       }
     },
     {
+      "name": "tycana",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/tycana"
+      }
+    },
+    {
       "name": "type-ignore",
       "source": {
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/type-ignore"
+      }
+    },
+    {
+      "name": "type-migrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/type-migrator"
       }
     },
     {
@@ -30950,6 +33799,54 @@
         "source": "git-subdir",
         "url": "daishiman/harness-dev",
         "path": "plugins/ubm-goal-setting"
+      }
+    },
+    {
+      "name": "ugt-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-core"
+      }
+    },
+    {
+      "name": "ugt-nextjs-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-nextjs-platform"
+      }
+    },
+    {
+      "name": "ugt-nextjs-standard-mattpocock",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-nextjs-standard-mattpocock"
+      }
+    },
+    {
+      "name": "ugt-nextjs-standard-superpowers",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-nextjs-standard-superpowers"
+      }
+    },
+    {
+      "name": "ugt-php-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-php-platform"
+      }
+    },
+    {
+      "name": "ugt-python-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "pakornkub/ugt-claude-platform",
+        "path": "plugins/ugt-python-platform"
       }
     },
     {
@@ -31002,6 +33899,22 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/ui-designer"
+      }
+    },
+    {
+      "name": "ui-designer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ui-designer"
+      }
+    },
+    {
+      "name": "ui-designer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/ui-designer"
       }
     },
@@ -31077,10 +33990,34 @@
       }
     },
     {
+      "name": "ultraship",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ultraship"
+      }
+    },
+    {
       "name": "ultrathink-2",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/ultrathink"
+      }
+    },
+    {
+      "name": "ultrathink-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/ultrathink"
+      }
+    },
+    {
+      "name": "ultrathink-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/ultrathink"
       }
     },
@@ -31138,6 +34075,22 @@
       }
     },
     {
+      "name": "unit-test-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/unit-test-generator"
+      }
+    },
+    {
+      "name": "unit-test-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/unit-test-generator"
+      }
+    },
+    {
       "name": "unit-testing",
       "source": {
         "source": "git-subdir",
@@ -31191,11 +34144,27 @@
       }
     },
     {
+      "name": "unslop-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/unslop"
+      }
+    },
+    {
       "name": "uo-03-recruiter-assistant",
       "source": {
         "source": "git-subdir",
         "url": "new-digital-intelligence-com/UO-03-Recruiter-Assistant",
         "path": "plugins/uo-03-recruiter-assistant"
+      }
+    },
+    {
+      "name": "update-branch",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/update-branch"
       }
     },
     {
@@ -31207,10 +34176,26 @@
       }
     },
     {
+      "name": "update-branch-name-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/update-branch-name"
+      }
+    },
+    {
       "name": "update-claudemd",
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/update-claudemd"
+      }
+    },
+    {
+      "name": "update-claudemd-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/update-claudemd"
       }
     },
@@ -31226,6 +34211,13 @@
       "source": {
         "source": "github",
         "repo": "ortimusirig/uroboros"
+      }
+    },
+    {
+      "name": "uroshcs-skills",
+      "source": {
+        "source": "github",
+        "repo": "UrosHCS/skills"
       }
     },
     {
@@ -31279,6 +34271,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/ux-researcher"
+      }
+    },
+    {
+      "name": "ux-researcher-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/ux-researcher"
       }
     },
@@ -31442,6 +34442,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/verify-content"
+      }
+    },
+    {
+      "name": "verifying-phd-citations",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/verifying-phd-citations"
       }
     },
     {
@@ -31654,6 +34662,22 @@
       }
     },
     {
+      "name": "vision-specialist-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/vision-specialist"
+      }
+    },
+    {
+      "name": "vision-specialist-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/vision-specialist"
+      }
+    },
+    {
       "name": "vistack",
       "source": {
         "source": "github",
@@ -31692,6 +34716,14 @@
       }
     },
     {
+      "name": "visual-regression",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/visual-regression"
+      }
+    },
+    {
       "name": "visual-regression-tester",
       "source": {
         "source": "git-subdir",
@@ -31705,6 +34737,21 @@
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
         "path": "plugins/visual-storyteller"
+      }
+    },
+    {
+      "name": "visual-storyteller-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/visual-storyteller"
+      }
+    },
+    {
+      "name": "visualize",
+      "source": {
+        "source": "github",
+        "repo": "careerhackeralex/visualize"
       }
     },
     {
@@ -32118,6 +35165,14 @@
       }
     },
     {
+      "name": "warp",
+      "source": {
+        "source": "git-subdir",
+        "url": "warpdotdev/claude-code-warp",
+        "path": "plugins/warp"
+      }
+    },
+    {
       "name": "watch",
       "source": {
         "source": "github",
@@ -32296,6 +35351,22 @@
       }
     },
     {
+      "name": "web-dev-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/web-dev"
+      }
+    },
+    {
+      "name": "web-dev-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/web-dev"
+      }
+    },
+    {
       "name": "web-frontend-dev",
       "source": {
         "source": "git-subdir",
@@ -32317,6 +35388,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/web-scripting"
+      }
+    },
+    {
+      "name": "web-security-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/web-security-guard"
       }
     },
     {
@@ -32438,6 +35517,22 @@
       }
     },
     {
+      "name": "weft",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/weft"
+      }
+    },
+    {
+      "name": "wellnizz",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/wellnizz"
+      }
+    },
+    {
       "name": "wendao",
       "source": {
         "source": "git-subdir",
@@ -32520,6 +35615,14 @@
       "source": {
         "source": "git-subdir",
         "url": "xbim08/awesome-claude-code-plugins",
+        "path": "plugins/whimsy-injector"
+      }
+    },
+    {
+      "name": "whimsy-injector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/whimsy-injector"
       }
     },
@@ -32902,6 +36005,22 @@
       }
     },
     {
+      "name": "workflow-optimizer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/workflow-optimizer"
+      }
+    },
+    {
+      "name": "workflow-optimizer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "rohitg00/awesome-claude-code-toolkit",
+        "path": "plugins/workflow-optimizer"
+      }
+    },
+    {
       "name": "workflow-orchestrator",
       "source": {
         "source": "git-subdir",
@@ -32915,6 +36034,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/mcp/workflow-orchestrator"
+      }
+    },
+    {
+      "name": "workflow-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "galaykos/cc-marketplace",
+        "path": "plugins/workflow-suite"
       }
     },
     {
@@ -33008,6 +36135,14 @@
         "source": "git-subdir",
         "url": "oratta/claude-harness",
         "path": "plugins/worktree"
+      }
+    },
+    {
+      "name": "worktree-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sebastiansulinski/claude-plugins",
+        "path": "worktree"
       }
     },
     {
@@ -33187,6 +36322,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/api-development/x-twitter-scraper"
+      }
+    },
+    {
+      "name": "x-twitter-scraper-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/x-twitter-scraper"
       }
     },
     {
@@ -33532,6 +36675,14 @@
       }
     },
     {
+      "name": "xpoz-brand-intelligence",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/xpoz-brand-intelligence"
+      }
+    },
+    {
       "name": "xss-vulnerability-scanner",
       "source": {
         "source": "git-subdir",
@@ -33561,6 +36712,134 @@
         "source": "git-subdir",
         "url": "maguerrieri/claude-toolbox",
         "path": "plugins/yaml"
+      }
+    },
+    {
+      "name": "yandex-360-admin",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-360-admin"
+      }
+    },
+    {
+      "name": "yandex-audience",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-audience"
+      }
+    },
+    {
+      "name": "yandex-auth",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-auth"
+      }
+    },
+    {
+      "name": "yandex-bot-platform",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-bot-platform"
+      }
+    },
+    {
+      "name": "yandex-calendar",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-calendar"
+      }
+    },
+    {
+      "name": "yandex-direct",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-direct"
+      }
+    },
+    {
+      "name": "yandex-disk",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-disk"
+      }
+    },
+    {
+      "name": "yandex-forms",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-forms"
+      }
+    },
+    {
+      "name": "yandex-mail",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-mail"
+      }
+    },
+    {
+      "name": "yandex-messenger",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-messenger"
+      }
+    },
+    {
+      "name": "yandex-metrika",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-metrika"
+      }
+    },
+    {
+      "name": "yandex-telemost",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-telemost"
+      }
+    },
+    {
+      "name": "yandex-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-tracker"
+      }
+    },
+    {
+      "name": "yandex-webmaster",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-webmaster"
+      }
+    },
+    {
+      "name": "yandex-wordstat",
+      "source": {
+        "source": "git-subdir",
+        "url": "atomachinskiy/claude-yandex-skills",
+        "path": "plugins/yandex-wordstat"
+      }
+    },
+    {
+      "name": "yaohe",
+      "source": {
+        "source": "git-subdir",
+        "url": "ccplugins/awesome-claude-code-plugins",
+        "path": "plugins/yaohe"
       }
     },
     {

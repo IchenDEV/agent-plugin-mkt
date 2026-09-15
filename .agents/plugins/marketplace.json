@@ -1773,6 +1773,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "argus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NathanWu8343/Argus.git",
+        "path": "./codex/plugins/argus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ariadne",
       "source": {
         "source": "git-subdir",
@@ -1854,6 +1867,19 @@
         "source": "git-subdir",
         "url": "https://github.com/rse/ase.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ask",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/ask"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6021,6 +6047,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "db",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/db"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dead-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/dead-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "debt-ops",
       "source": {
         "source": "git-subdir",
@@ -6992,6 +7044,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dotnet-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aaronontheweb/dotnet-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dots",
       "source": {
         "source": "git-subdir",
@@ -7236,6 +7300,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jackyzhang69/plugins.git",
         "path": "./plugins/easybooks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ecc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/affaan-m/ECC.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7784,6 +7860,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Labiey/expert-council-router.git",
         "path": "./packages/codex-integration/plugin/expert-council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "explain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/explain"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10239,6 +10328,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/incident-response"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "infinite-mission-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LanicBlue/infinite-mission.git",
+        "path": "./plugins/codex/infinite-mission-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14985,6 +15087,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "philharmonie",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/philharmonie"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "picsart",
       "source": {
         "source": "git-subdir",
@@ -15266,6 +15381,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "portal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spotify/portal-ai-plugins.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "postgres-admin",
       "source": {
         "source": "git-subdir",
@@ -15400,6 +15527,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/mturac/pr-storyteller"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pragmatic-engineering",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dmltdev/pragmatic-engineering.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16706,6 +16845,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "repo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/repo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "repo-hygiene",
       "source": {
         "source": "git-subdir",
@@ -16736,6 +16888,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/00200200/repro-lens.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "requirements",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/requirements"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16862,6 +17027,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/reverse-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/review"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18239,6 +18417,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/sequential-thinking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/session"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20978,6 +21169,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/muhackel/claude-code-plugins.git",
+        "path": "./plugins/tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trace-mcp",
       "source": {
         "source": "url",
@@ -22355,6 +22559,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cdcoonce/the-workshop.git",
         "path": "./plugins/workshop-maintainer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "worktree",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sebastiansulinski/claude-plugins.git",
+        "path": "./plugins/worktree"
       },
       "policy": {
         "installation": "AVAILABLE",

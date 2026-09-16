@@ -396,6 +396,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-bounties",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NSPG13/agent-bounties.git",
+        "path": "./plugins/agent-bounties"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -1862,6 +1875,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "artifact-publish",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/artifact-publish"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "arxiv-mcp-server",
       "source": {
         "source": "url",
@@ -2374,6 +2400,18 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/bash-guards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "batuta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/batuta-ai/batuta.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3404,6 +3442,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "catlass-dsl-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hicann/cannbot-skills.git",
+        "path": "./plugins-community/catlass-dsl-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "caveman-stable",
       "source": {
         "source": "git-subdir",
@@ -3974,6 +4025,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chisle",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JayPokale/Chisle.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chitta",
       "source": {
         "source": "git-subdir",
@@ -4315,6 +4378,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/raghubetina/cross-review.git",
+        "path": "./plugins/claude-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-telemetry-hooks",
       "source": {
         "source": "git-subdir",
@@ -4480,6 +4556,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clients",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/clients.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "close",
       "source": {
         "source": "git-subdir",
@@ -4524,6 +4612,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/cloudflare"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-dns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/cloudflare-dns"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4845,6 +4946,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Xiangyu-CAS/codex-canvas.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-celebrate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ningzimu/codex-celebrate.git",
+        "path": "./plugins/codex-celebrate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5896,8 +6010,87 @@
     {
       "name": "craft",
       "source": {
-        "source": "url",
-        "url": "https://github.com/wdx9413/craft.git"
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-capability",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-capability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-context",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-context"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-knowledge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-memory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-quality",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-quality"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-skill-quality",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-skill-quality"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5911,6 +6104,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/craft-skills-and-memories"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "craft-workflow-evolution",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wdx9413/craft.git",
+        "path": "./plugins/craft-workflow-evolution"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7081,6 +7287,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "docgrad",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/redtear1115/docgrad.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "docker",
       "source": {
         "source": "git-subdir",
@@ -7550,6 +7768,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/dow-jones-factiva"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "draft-detective",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agencyenterprise/draft-detective.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8758,6 +8988,18 @@
         "source": "git-subdir",
         "url": "https://github.com/flyteorg/flyte-agent-plugins.git",
         "path": "./plugins/flyte"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fno",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bllshttng/footnote.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10691,6 +10933,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "html-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/html-report"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "html2wp",
       "source": {
         "source": "url",
@@ -10972,6 +11227,19 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/infra-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "install-tend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/max-sixty/tend.git",
+        "path": "./plugins/install-tend"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11360,6 +11628,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "jule",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tryjule/jule-agent-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "julia-development",
       "source": {
         "source": "git-subdir",
@@ -11660,6 +11940,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/JOYLINK-LTD/lacuna-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lagrange",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KZvilla/lagrange-agent-runtime.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13491,6 +13783,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "miro-board",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/miro-board"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "misakanet",
       "source": {
         "source": "url",
@@ -14119,6 +14424,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nexaedge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/nexaedge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nextboard-hardware-solution",
       "source": {
         "source": "url",
@@ -14231,6 +14549,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "noacg",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NoaCG/NoaCG-Studio.git",
+        "path": "./cli/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "noacg-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NoaCG/NoaCG-Studio.git",
+        "path": "./cli/plugin-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "not-ai",
       "source": {
         "source": "git-subdir",
@@ -14248,6 +14592,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nowork-studio/notfair-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "notify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cboone/agent-harness-plugins.git",
+        "path": "./dist/codex/plugins/notify"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15143,6 +15500,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrightWayAI/ops.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "opsphere",
       "source": {
         "source": "url",
@@ -15972,6 +16341,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plaud",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/plaud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "playwright",
       "source": {
         "source": "git-subdir",
@@ -16067,6 +16449,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/pluginsync"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pmanager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/glapsfun/pmanager.git",
+        "path": "./plugins/pmanager"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18977,6 +19372,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "schematic-planner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ridanit-ruma/schematic-planner-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scientific-method",
       "source": {
         "source": "git-subdir",
@@ -20570,6 +20977,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sprut-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xor777/sprut-agent.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sqlite",
       "source": {
         "source": "git-subdir",
@@ -20639,6 +21058,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/startup-business-analyst"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stateport",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/StatePort-Dev/stateport-agent-skills.git",
+        "path": "./plugins/stateport"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21506,6 +21938,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/taxdown"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tdd-playbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/davalst/tdd-playbook.git",
+        "path": "./plugins/tdd-playbook"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22883,6 +23328,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vendored-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
+        "path": "./plugins/vendored-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vercel",
       "source": {
         "source": "git-subdir",
@@ -23078,6 +23536,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/explorium-ai/vibeprospecting-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vruum",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vruum-gtm/skills.git",
+        "path": "./plugins/vruum"
       },
       "policy": {
         "installation": "AVAILABLE",

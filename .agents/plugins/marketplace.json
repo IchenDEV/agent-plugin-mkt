@@ -129,6 +129,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "accelbyte-ai-plugins",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AccelByte/ai-plugins.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -441,6 +453,18 @@
         "source": "git-subdir",
         "url": "https://github.com/tenfyzhong/agent-plugins-hub.git",
         "path": "./plugins/agent-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-harness-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khanhduong22/agent-harness-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -872,6 +896,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cleanunicorn/agents-library.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentskill-kaizen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/agentskill-kaizen"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2319,6 +2356,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bash-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/bash-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bash-guards",
       "source": {
         "source": "git-subdir",
@@ -2679,6 +2729,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rootcause-org/rootcause-brain-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brainstorming-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/brainstorming-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4001,6 +4064,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ci-boardroom",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/andrewtanci/ci-boardroom.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cicd-automation",
       "source": {
         "source": "git-subdir",
@@ -4114,6 +4189,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clang-format-configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/clang-format"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code",
       "source": {
         "source": "git-subdir",
@@ -4194,6 +4282,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nyldn/claude-octopus.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-plus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/cc-plugin.git",
+        "path": "./claude-plus"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5167,6 +5268,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coding-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/coding-agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "coding-directive",
       "source": {
         "source": "git-subdir",
@@ -5276,6 +5390,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/mturac/commit-narrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "commitlint",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/commitlint"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5602,6 +5729,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "contribute",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/contribute"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "conventional-commits",
       "source": {
         "source": "git-subdir",
@@ -5911,6 +6051,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./tests/host-probes/codex/plugins/probe"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dasel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/dasel"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6761,6 +6914,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dh",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/development-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "diffusers",
       "source": {
         "source": "git-subdir",
@@ -7107,6 +7273,84 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dot-dash",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/dot-dash"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-advanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-aspnetcore",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-aspnetcore"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-blazor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-blazor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dotnet-contribution",
       "source": {
         "source": "git-subdir",
@@ -7120,10 +7364,153 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dotnet-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-diag",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-diag"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-experimental",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-experimental"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-maui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-maui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-msbuild",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-msbuild"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-nuget",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-nuget"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dotnet-skills",
       "source": {
         "source": "url",
         "url": "https://github.com/Aaronontheweb/dotnet-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-template-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-template-engine"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-test",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-test"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-test-migration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-test-migration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet-upgrade",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet-upgrade"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dotnet11",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/managedcode/dotnet-skills.git",
+        "path": "./external-sources/upstreams/dotnet-skills/dotnet11"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8086,6 +8473,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fastmcp-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/fastmcp-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fd",
       "source": {
         "source": "git-subdir",
@@ -8442,6 +8842,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "frontend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/frontend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "frontend-design-skills",
       "source": {
         "source": "git-subdir",
@@ -8498,6 +8911,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/akenoowww/frontend-workbench.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "frustration-analyzer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/frustration-analyzer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9072,6 +9498,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gitlab-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/gitlab-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gitops-skills",
       "source": {
         "source": "url",
@@ -9127,6 +9566,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/gmailtriage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "go",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/go"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9332,6 +9784,18 @@
         "source": "git-subdir",
         "url": "https://github.com/google/skills.git",
         "path": "./plugins/cloud/google-cloud-run"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-cloud-storage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/google-cloud-storage.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9752,6 +10216,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hdl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/hdl"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "headerlab",
       "source": {
         "source": "git-subdir",
@@ -10053,6 +10530,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/hashgraph-online/hol-guard-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "holistic-linting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/holistic-linting"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10482,6 +10972,19 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/infra-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "instructions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/instructions"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11524,6 +12027,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "litellm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/litellm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "literature-publication",
       "source": {
         "source": "git-subdir",
@@ -11594,6 +12110,19 @@
         "source": "git-subdir",
         "url": "https://github.com/thewoolleyman/livespec-orchestrator-beads-fabro.git",
         "path": "./.claude-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "llamafile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/llamafile"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12111,6 +12640,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/malicious-skill-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mandalore",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/acoz-labs/mandalore.git",
+        "path": "./plugins/codex/plugins/mandalore"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14639,11 +15181,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "orbit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/constellation-works/orbit.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "orchestration",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orchestrator-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/orchestrator-discipline"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15098,6 +15666,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "perdure",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/arbelh/perdure.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "performance-testing-review",
       "source": {
         "source": "git-subdir",
@@ -15116,6 +15696,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./periagoge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "perl-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/perl-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15410,6 +16003,19 @@
         "source": "git-subdir",
         "url": "https://github.com/motlin/claude-code-plugins.git",
         "path": "./plugins/plugin-and-skill-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plugin-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/plugin-creator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15854,6 +16460,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "process-siren",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/process-siren"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "procoder",
       "source": {
         "source": "url",
@@ -16091,6 +16710,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./proplasma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prose",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/prose"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16343,11 +16975,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "python",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/python"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "python-development",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/python-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "python-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/python-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16374,6 +17032,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/python-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "python3-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/python3-development"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17404,6 +18075,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rtfp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/rtfp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ru-text",
       "source": {
         "source": "git-subdir",
@@ -17469,6 +18153,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rust",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/rust"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rust-intel",
       "source": {
         "source": "url",
@@ -17512,6 +18209,19 @@
         "source": "git-subdir",
         "url": "https://github.com/stuinfla/ruvnet-brain.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rwr",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/the-rewrite-room"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18259,6 +18969,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Rimagination/scansci-pdf.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "scientific-method",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/scientific-method"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19769,6 +20492,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spec-tree",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/spec-tree"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "specification",
       "source": {
         "source": "git-subdir",
@@ -20000,6 +20736,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "storybloq",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Storybloq/storybloq.git",
+        "path": "./plugins/storybloq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "storyflo-codex-plugin",
       "source": {
         "source": "git-subdir",
@@ -20146,6 +20895,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/JasonColapietro/suede-creator-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "summarizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/summarizer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21599,6 +22361,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "twelve-factor-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/twelve-factor-app"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "twilio-developer-kit",
       "source": {
         "source": "git-subdir",
@@ -21630,6 +22405,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/ty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "typescript",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/typescript"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21693,6 +22481,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/ui-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "uipath",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/UiPath/skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22088,6 +22888,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/vercel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "verification-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/verification-gate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22730,6 +23543,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "work",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/outcomeeng/plugins.git",
+        "path": "./dist/claude/work"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "work-item-triage",
       "source": {
         "source": "git-subdir",
@@ -23005,6 +23831,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/xbrd-selector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "xdg-base-directory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
+        "path": "./plugins/xdg-base-directory"
       },
       "policy": {
         "installation": "AVAILABLE",

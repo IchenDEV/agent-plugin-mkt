@@ -724,6 +724,14 @@
       }
     },
     {
+      "name": "aeon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stevenxiao/aeon",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "aesthetics-and-emotion-principles",
       "source": {
         "source": "git-subdir",
@@ -803,11 +811,26 @@
       }
     },
     {
+      "name": "agent-cache-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "agent-cache-plugin"
+      }
+    },
+    {
       "name": "agent-collab",
       "source": {
         "source": "git-subdir",
         "url": "sumitake/agent-collab",
         "path": "plugins/agent-collab"
+      }
+    },
+    {
+      "name": "agent-comms",
+      "source": {
+        "source": "github",
+        "repo": "ExaDev/agent-comms"
       }
     },
     {
@@ -874,6 +897,14 @@
       }
     },
     {
+      "name": "agent-eval-updates",
+      "source": {
+        "source": "git-subdir",
+        "url": "Bellwether-AI/btc-claude-plugins",
+        "path": "plugins/agent-eval-updates"
+      }
+    },
+    {
       "name": "agent-gauntlet",
       "source": {
         "source": "github",
@@ -901,6 +932,14 @@
       "source": {
         "source": "github",
         "repo": "khanhduong22/agent-harness-kit"
+      }
+    },
+    {
+      "name": "agent-isdd",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "agent-isdd"
       }
     },
     {
@@ -954,6 +993,14 @@
         "source": "git-subdir",
         "url": "joelhelbling/marketplace",
         "path": "plugins/agent-native-clis"
+      }
+    },
+    {
+      "name": "agent-nelly",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "agent-nelly"
       }
     },
     {
@@ -1155,6 +1202,14 @@
       }
     },
     {
+      "name": "agent-tdd",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "agent-tdd"
+      }
+    },
+    {
       "name": "agent-team-development",
       "source": {
         "source": "git-subdir",
@@ -1231,6 +1286,14 @@
       "source": {
         "source": "github",
         "repo": "shawn-sandy/agent-ui-skills"
+      }
+    },
+    {
+      "name": "agent-ux",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "agent-ux"
       }
     },
     {
@@ -1421,6 +1484,14 @@
       }
     },
     {
+      "name": "agentspec",
+      "source": {
+        "source": "git-subdir",
+        "url": "luanmorenommaciel/agentspec",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "agile-product-owner",
       "source": {
         "source": "git-subdir",
@@ -1458,6 +1529,13 @@
         "source": "git-subdir",
         "url": "sumik5/sumik-llm-plugin",
         "path": "plugins/ai"
+      }
+    },
+    {
+      "name": "ai-2",
+      "source": {
+        "source": "github",
+        "repo": "judigot/ai"
       }
     },
     {
@@ -2165,6 +2243,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/analytics-engineering"
+      }
+    },
+    {
+      "name": "analytics-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "Ask-Y-Data-Products/analytics-qa-plugin",
+        "path": "plugins/analytics-qa"
       }
     },
     {
@@ -3380,6 +3466,13 @@
       }
     },
     {
+      "name": "architecture-2",
+      "source": {
+        "source": "github",
+        "repo": "hieuxn/architecture-kit"
+      }
+    },
+    {
       "name": "architecture-aec",
       "source": {
         "source": "git-subdir",
@@ -3960,6 +4053,14 @@
       }
     },
     {
+      "name": "autobuild",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/autobuild"
+      }
+    },
+    {
       "name": "autoharness",
       "source": {
         "source": "github",
@@ -4051,6 +4152,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/avoid-ai-writing"
+      }
+    },
+    {
+      "name": "awake",
+      "source": {
+        "source": "git-subdir",
+        "url": "FinalMindAI/agents-shared",
+        "path": "plugins/awake"
       }
     },
     {
@@ -4153,6 +4262,14 @@
       }
     },
     {
+      "name": "azure-appservice-cert-rollout",
+      "source": {
+        "source": "git-subdir",
+        "url": "Bellwether-AI/btc-claude-plugins",
+        "path": "plugins/azure-appservice-cert-rollout"
+      }
+    },
+    {
       "name": "azure-cloud",
       "source": {
         "source": "git-subdir",
@@ -4237,6 +4354,13 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/b2b-project-shipper"
+      }
+    },
+    {
+      "name": "babs",
+      "source": {
+        "source": "github",
+        "repo": "babs/skills"
       }
     },
     {
@@ -4594,6 +4718,14 @@
         "source": "git-subdir",
         "url": "muhackel/claude-code-plugins",
         "path": "plugins/bertram"
+      }
+    },
+    {
+      "name": "better-compact",
+      "source": {
+        "source": "git-subdir",
+        "url": "AshishKumar4/better-compact",
+        "path": "packages/claude-code"
       }
     },
     {
@@ -5047,6 +5179,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/brain"
+      }
+    },
+    {
+      "name": "brainiac",
+      "source": {
+        "source": "git-subdir",
+        "url": "inewi/brainiac-dist",
+        "path": "plugins/brainiac"
       }
     },
     {
@@ -5748,6 +5888,13 @@
       }
     },
     {
+      "name": "camunda-migration",
+      "source": {
+        "source": "github",
+        "repo": "camunda/camunda-7-to-8-migration-tooling"
+      }
+    },
+    {
       "name": "canary",
       "source": {
         "source": "github",
@@ -6100,6 +6247,14 @@
         "source": "git-subdir",
         "url": "hicann/cannbot-skills",
         "path": "plugins-official/catlass-op-generator"
+      }
+    },
+    {
+      "name": "catwrangler",
+      "source": {
+        "source": "git-subdir",
+        "url": "CatWranglerAI/plugins",
+        "path": "plugins/catwrangler"
       }
     },
     {
@@ -7280,6 +7435,14 @@
       }
     },
     {
+      "name": "claude-extra-usage-limiter-bellwether",
+      "source": {
+        "source": "git-subdir",
+        "url": "Bellwether-AI/btc-claude-plugins",
+        "path": "plugins/claude-extra-usage-limiter-bellwether"
+      }
+    },
+    {
       "name": "claude-harness",
       "source": {
         "source": "github",
@@ -7857,6 +8020,13 @@
       }
     },
     {
+      "name": "clone-and-clean",
+      "source": {
+        "source": "github",
+        "repo": "berdantx/clone-and-clean-plugin"
+      }
+    },
+    {
       "name": "clooks",
       "source": {
         "source": "git-subdir",
@@ -7966,6 +8136,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-ml/clustering-algorithm-runner"
+      }
+    },
+    {
+      "name": "co-dwerker",
+      "source": {
+        "source": "git-subdir",
+        "url": "Bellwether-AI/btc-claude-plugins",
+        "path": "plugins/co-dwerker"
       }
     },
     {
@@ -8251,6 +8429,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/code-reviewer"
+      }
+    },
+    {
+      "name": "code-reviewer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "code-reviewer"
       }
     },
     {
@@ -9608,6 +9794,14 @@
       }
     },
     {
+      "name": "conventional-commit",
+      "source": {
+        "source": "git-subdir",
+        "url": "SiegeSailor/Claude-Plugins",
+        "path": "plugins/conventional-commit"
+      }
+    },
+    {
       "name": "conventional-commits-2",
       "source": {
         "source": "git-subdir",
@@ -9801,6 +9995,14 @@
       }
     },
     {
+      "name": "cortex",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdeust/Cortex",
+        "path": "plugins/cortex-deprecated"
+      }
+    },
+    {
       "name": "cortex-eval",
       "source": {
         "source": "git-subdir",
@@ -9878,6 +10080,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/cortex-recon"
+      }
+    },
+    {
+      "name": "cortex-viz",
+      "source": {
+        "source": "git-subdir",
+        "url": "cdeust/Cortex",
+        "path": "plugins/cortex-viz-deprecated"
       }
     },
     {
@@ -9986,6 +10196,30 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/craftsman"
+      }
+    },
+    {
+      "name": "crank",
+      "source": {
+        "source": "git-subdir",
+        "url": "ChrisLiva/liva-toolbench",
+        "path": "plugins/crank"
+      }
+    },
+    {
+      "name": "crank-lite",
+      "source": {
+        "source": "git-subdir",
+        "url": "ChrisLiva/liva-toolbench",
+        "path": "plugins/crank-lite"
+      }
+    },
+    {
+      "name": "crank-wizard",
+      "source": {
+        "source": "git-subdir",
+        "url": "ChrisLiva/liva-toolbench",
+        "path": "plugins/crank-wizard"
       }
     },
     {
@@ -11517,6 +11751,14 @@
       }
     },
     {
+      "name": "datascience",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/datascience"
+      }
+    },
+    {
       "name": "dataset-splitter",
       "source": {
         "source": "git-subdir",
@@ -11974,6 +12216,14 @@
       "source": {
         "source": "github",
         "repo": "hieuphung97/dely"
+      }
+    },
+    {
+      "name": "demo-mu5sbfmd",
+      "source": {
+        "source": "git-subdir",
+        "url": "vdemkiv/taskPlane",
+        "path": "corpus/plugin-md"
       }
     },
     {
@@ -12540,6 +12790,14 @@
       }
     },
     {
+      "name": "dev-workflow-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "wolf123450/ClaudeSkills",
+        "path": "plugins/dev-workflow"
+      }
+    },
+    {
       "name": "devbook",
       "source": {
         "source": "git-subdir",
@@ -12655,6 +12913,14 @@
         "source": "git-subdir",
         "url": "gytkk/nix-flakes",
         "path": "modules/claude/marketplace/skills/devils-advocate"
+      }
+    },
+    {
+      "name": "devils-advocate-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/devils-advocate"
       }
     },
     {
@@ -13352,6 +13618,14 @@
       }
     },
     {
+      "name": "document-processing",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/document-processing"
+      }
+    },
+    {
       "name": "document-summary",
       "source": {
         "source": "git-subdir",
@@ -13499,6 +13773,13 @@
         "source": "git-subdir",
         "url": "jasonm4130/claude-skills",
         "path": "plugins/domain-modeling"
+      }
+    },
+    {
+      "name": "donald-skills",
+      "source": {
+        "source": "github",
+        "repo": "donald2028/donald-skills"
       }
     },
     {
@@ -13712,6 +13993,14 @@
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet11"
+      }
+    },
+    {
+      "name": "dotrush",
+      "source": {
+        "source": "git-subdir",
+        "url": "nevse/dotrush-cc",
+        "path": "plugins/dotrush"
       }
     },
     {
@@ -14329,6 +14618,14 @@
         "source": "git-subdir",
         "url": "patrickdappollonio/claude-plugins",
         "path": "plugins/effective-go"
+      }
+    },
+    {
+      "name": "effective-html",
+      "source": {
+        "source": "git-subdir",
+        "url": "ChrisLiva/liva-toolbench",
+        "path": "plugins/effective-html"
       }
     },
     {
@@ -15334,6 +15631,13 @@
       }
     },
     {
+      "name": "explainmyrepo",
+      "source": {
+        "source": "github",
+        "repo": "stuinfla/Repo-Explainer"
+      }
+    },
+    {
       "name": "explanatory-output-style",
       "source": {
         "source": "git-subdir",
@@ -15688,6 +15992,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "engineering/feature-flags-architect"
+      }
+    },
+    {
+      "name": "feature-maturity",
+      "source": {
+        "source": "git-subdir",
+        "url": "wolf123450/ClaudeSkills",
+        "path": "plugins/feature-maturity"
       }
     },
     {
@@ -16818,6 +17130,13 @@
       }
     },
     {
+      "name": "flutter-mobx-kit",
+      "source": {
+        "source": "github",
+        "repo": "NarekManukyan/flutter-mobx-kit"
+      }
+    },
+    {
       "name": "flutter-styleguide",
       "source": {
         "source": "git-subdir",
@@ -16953,6 +17272,14 @@
       }
     },
     {
+      "name": "flywheel",
+      "source": {
+        "source": "git-subdir",
+        "url": "Bellwether-AI/btc-claude-plugins",
+        "path": "plugins/flywheel"
+      }
+    },
+    {
       "name": "fmea-analysis",
       "source": {
         "source": "git-subdir",
@@ -17021,6 +17348,13 @@
       }
     },
     {
+      "name": "foreman-4",
+      "source": {
+        "source": "github",
+        "repo": "mohammad-malik/foreman"
+      }
+    },
+    {
       "name": "forge",
       "source": {
         "source": "git-subdir",
@@ -17041,6 +17375,13 @@
       "source": {
         "source": "github",
         "repo": "gyuha/forge"
+      }
+    },
+    {
+      "name": "forge-4",
+      "source": {
+        "source": "github",
+        "repo": "Tessellate-Studio/forge"
       }
     },
     {
@@ -17144,6 +17485,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-recon"
+      }
+    },
+    {
+      "name": "forker",
+      "source": {
+        "source": "github",
+        "repo": "mchristoffers/forker"
       }
     },
     {
@@ -17891,6 +18239,14 @@
       }
     },
     {
+      "name": "game-catchup",
+      "source": {
+        "source": "git-subdir",
+        "url": "wolf123450/ClaudeSkills",
+        "path": "plugins/game-catchup"
+      }
+    },
+    {
       "name": "game-development",
       "source": {
         "source": "git-subdir",
@@ -18038,6 +18394,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/gcp-helper"
+      }
+    },
+    {
+      "name": "gddy",
+      "source": {
+        "source": "git-subdir",
+        "url": "godaddy/cli",
+        "path": "plugins/gddy"
       }
     },
     {
@@ -18811,6 +19175,14 @@
       }
     },
     {
+      "name": "go-standards",
+      "source": {
+        "source": "git-subdir",
+        "url": "alexmorbo/claude-plugins",
+        "path": "plugins/go-standards"
+      }
+    },
+    {
       "name": "go-web",
       "source": {
         "source": "git-subdir",
@@ -18995,6 +19367,14 @@
       }
     },
     {
+      "name": "google-secops",
+      "source": {
+        "source": "git-subdir",
+        "url": "google/skills",
+        "path": "plugins/cloud/google-secops"
+      }
+    },
+    {
       "name": "google-workspace-cli",
       "source": {
         "source": "git-subdir",
@@ -19039,6 +19419,14 @@
       "source": {
         "source": "github",
         "repo": "JadeYingWah/gpt-series-reasoning-style"
+      }
+    },
+    {
+      "name": "gpu-inspector",
+      "source": {
+        "source": "git-subdir",
+        "url": "brendan-duncan/gpu_inspector",
+        "path": "claude-plugin"
       }
     },
     {
@@ -20016,6 +20404,13 @@
       }
     },
     {
+      "name": "hermes-2",
+      "source": {
+        "source": "github",
+        "repo": "loggger101/Hermes_Skills"
+      }
+    },
+    {
       "name": "hermes-blind",
       "source": {
         "source": "github",
@@ -20336,6 +20731,14 @@
       }
     },
     {
+      "name": "hsc-marketplace",
+      "source": {
+        "source": "git-subdir",
+        "url": "the-fin-at/hsc-marketplace",
+        "path": "plugins/hsc-marketplace"
+      }
+    },
+    {
       "name": "ht-skills",
       "source": {
         "source": "github",
@@ -20565,6 +20968,13 @@
       }
     },
     {
+      "name": "hypermnesia-mcp",
+      "source": {
+        "source": "github",
+        "repo": "cdeust/Cortex"
+      }
+    },
+    {
       "name": "hyperparameter-tuner",
       "source": {
         "source": "git-subdir",
@@ -20693,6 +21103,13 @@
         "source": "git-subdir",
         "url": "firstdebug/iflytek-digital-human",
         "path": "claude/iflytek-digital-human"
+      }
+    },
+    {
+      "name": "im-mcp-codeagent",
+      "source": {
+        "source": "github",
+        "repo": "MatCaviar/BRIDGE"
       }
     },
     {
@@ -21019,6 +21436,14 @@
       }
     },
     {
+      "name": "instruction-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "sidhanthapoddar99/sids-plugin-marketplace",
+        "path": "plugins/instruction-writing"
+      }
+    },
+    {
       "name": "instructions",
       "source": {
         "source": "git-subdir",
@@ -21176,11 +21601,26 @@
       }
     },
     {
+      "name": "invoice-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "CatCatUncle/toolward",
+        "path": "examples/vulnerable"
+      }
+    },
+    {
       "name": "ios-developer",
       "source": {
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/ios-developer"
+      }
+    },
+    {
+      "name": "ios-swift-skills",
+      "source": {
+        "source": "github",
+        "repo": "fal3/claude-skills-collection"
       }
     },
     {
@@ -21236,6 +21676,14 @@
         "source": "git-subdir",
         "url": "jcdendrite/claude-config",
         "path": "plugins/issue-triage"
+      }
+    },
+    {
+      "name": "issuecreator",
+      "source": {
+        "source": "git-subdir",
+        "url": "natejswenson/claude-skills",
+        "path": "skills/issuecreator"
       }
     },
     {
@@ -21596,11 +22044,41 @@
       }
     },
     {
+      "name": "jetty",
+      "source": {
+        "source": "github",
+        "repo": "jettyio/jettyio-skills"
+      }
+    },
+    {
+      "name": "jevra",
+      "source": {
+        "source": "git-subdir",
+        "url": "dsandrade/jevra",
+        "path": "plugins/claude-code/jevra"
+      }
+    },
+    {
       "name": "jhu-research-it",
       "source": {
         "source": "git-subdir",
         "url": "jluo41/Tools",
         "path": "plugins/_todo/jhu-research-it"
+      }
+    },
+    {
+      "name": "jig",
+      "source": {
+        "source": "github",
+        "repo": "ramboz/jig"
+      }
+    },
+    {
+      "name": "jig-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ramboz/jig",
+        "path": "hosts/claude"
       }
     },
     {
@@ -21677,6 +22155,13 @@
       }
     },
     {
+      "name": "john-superpowers",
+      "source": {
+        "source": "github",
+        "repo": "JCaraballo113/claude-skills"
+      }
+    },
+    {
       "name": "joker",
       "source": {
         "source": "git-subdir",
@@ -21690,6 +22175,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/joker"
+      }
+    },
+    {
+      "name": "journal",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/journal"
       }
     },
     {
@@ -21786,19 +22279,19 @@
       }
     },
     {
+      "name": "k12-education",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/k12-teacher-skills",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "k12-school-administration",
       "source": {
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/k12-school-administration"
-      }
-    },
-    {
-      "name": "k12-teacher-skills",
-      "source": {
-        "source": "git-subdir",
-        "url": "anthropics/k12-teacher-skills",
-        "path": "plugin"
       }
     },
     {
@@ -21814,6 +22307,21 @@
       "source": {
         "source": "github",
         "repo": "shepsci/kaggle-skill"
+      }
+    },
+    {
+      "name": "kairos-forge",
+      "source": {
+        "source": "github",
+        "repo": "VilelaAI/KairOS-Forge"
+      }
+    },
+    {
+      "name": "kairos-forge-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "VilelaAI/KairOS-Forge",
+        "path": "plugin"
       }
     },
     {
@@ -22109,6 +22617,14 @@
       }
     },
     {
+      "name": "kotlin-agent-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Kotlin/kotlin-agent-skills",
+        "path": "plugins/kotlin-agent-skills"
+      }
+    },
+    {
       "name": "kotlin-coroutines-skill",
       "source": {
         "source": "github",
@@ -22206,6 +22722,14 @@
         "source": "git-subdir",
         "url": "KxSystems/kx-skills",
         "path": "plugins/kx-dashboards-knowledge"
+      }
+    },
+    {
+      "name": "kxm",
+      "source": {
+        "source": "git-subdir",
+        "url": "kontextmind/kxm",
+        "path": "plugins/kxm"
       }
     },
     {
@@ -22994,6 +23518,14 @@
       }
     },
     {
+      "name": "lingshu-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "FuRongJun-1999/dsh-memory",
+        "path": "claude/lingshu-memory"
+      }
+    },
+    {
       "name": "linkedin",
       "source": {
         "source": "git-subdir",
@@ -23427,6 +23959,13 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/loop-goal"
+      }
+    },
+    {
+      "name": "loop-spec",
+      "source": {
+        "source": "github",
+        "repo": "aztechead/loop-spec"
       }
     },
     {
@@ -24059,6 +24598,13 @@
         "source": "git-subdir",
         "url": "frankdays/bigslick",
         "path": "upstream/marketingskills"
+      }
+    },
+    {
+      "name": "marketing-skills-3",
+      "source": {
+        "source": "github",
+        "repo": "irinabuht12-oss/marketing-skills"
       }
     },
     {
@@ -25056,6 +25602,13 @@
       }
     },
     {
+      "name": "miru",
+      "source": {
+        "source": "github",
+        "repo": "takara-ai/miru-code"
+      }
+    },
+    {
       "name": "mission",
       "source": {
         "source": "github",
@@ -25445,6 +25998,14 @@
       }
     },
     {
+      "name": "morgan",
+      "source": {
+        "source": "git-subdir",
+        "url": "andreyblck/morgan",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "morning-brief",
       "source": {
         "source": "git-subdir",
@@ -25607,6 +26168,14 @@
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/mutation-testing"
+      }
+    },
+    {
+      "name": "mwdat-android",
+      "source": {
+        "source": "git-subdir",
+        "url": "farodamemoria/android",
+        "path": "plugins/mwdat-android"
       }
     },
     {
@@ -25884,6 +26453,13 @@
         "source": "git-subdir",
         "url": "snwlee/Nereus",
         "path": "plugins/nereus-game"
+      }
+    },
+    {
+      "name": "netlify-skills",
+      "source": {
+        "source": "github",
+        "repo": "netlify/context-and-tools"
       }
     },
     {
@@ -26296,6 +26872,14 @@
       }
     },
     {
+      "name": "notify-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "FinalMindAI/agents-shared",
+        "path": "plugins/notify"
+      }
+    },
+    {
       "name": "notion-pack",
       "source": {
         "source": "git-subdir",
@@ -26362,6 +26946,13 @@
       "source": {
         "source": "github",
         "repo": "coproduct-opensource/claude-code-nucleus"
+      }
+    },
+    {
+      "name": "nyxid",
+      "source": {
+        "source": "github",
+        "repo": "ChronoAIProject/NyxID"
       }
     },
     {
@@ -26929,6 +27520,13 @@
       }
     },
     {
+      "name": "onward",
+      "source": {
+        "source": "github",
+        "repo": "dallascrilley/onward"
+      }
+    },
+    {
       "name": "opdev",
       "source": {
         "source": "git-subdir",
@@ -26950,6 +27548,14 @@
         "source": "git-subdir",
         "url": "ladiossoop5star/open_magi",
         "path": "adapters/claude"
+      }
+    },
+    {
+      "name": "open-pr-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "TOMOSIA-VIETNAM/open-pr",
+        "path": "src"
       }
     },
     {
@@ -27445,6 +28051,13 @@
       }
     },
     {
+      "name": "orka",
+      "source": {
+        "source": "github",
+        "repo": "Dusttoo/orka"
+      }
+    },
+    {
       "name": "orm-code-generator",
       "source": {
         "source": "git-subdir",
@@ -27466,6 +28079,14 @@
         "source": "git-subdir",
         "url": "royrojas/Claude-Orquesta",
         "path": "plugins/orquesta"
+      }
+    },
+    {
+      "name": "os",
+      "source": {
+        "source": "git-subdir",
+        "url": "arivodeaux/startup",
+        "path": "plugins/os"
       }
     },
     {
@@ -27621,6 +28242,13 @@
       }
     },
     {
+      "name": "oya-browser",
+      "source": {
+        "source": "github",
+        "repo": "OyadotAI/oya-browser"
+      }
+    },
+    {
       "name": "oz-harness-support",
       "source": {
         "source": "git-subdir",
@@ -27666,6 +28294,13 @@
         "source": "git-subdir",
         "url": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/games/pacman"
+      }
+    },
+    {
+      "name": "pairwork",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/pairwork-skill"
       }
     },
     {
@@ -28347,6 +28982,13 @@
       }
     },
     {
+      "name": "personal-data-protection-2",
+      "source": {
+        "source": "github",
+        "repo": "AltByteSG/personal-data-protection-skill"
+      }
+    },
+    {
       "name": "personas",
       "source": {
         "source": "github",
@@ -28491,6 +29133,13 @@
         "source": "git-subdir",
         "url": "moessimple/dotfiles",
         "path": "home/.claude/skills/php-lsp-herd"
+      }
+    },
+    {
+      "name": "php-modernization",
+      "source": {
+        "source": "github",
+        "repo": "netresearch/php-modernization-skill"
       }
     },
     {
@@ -28734,6 +29383,14 @@
       }
     },
     {
+      "name": "pivotly",
+      "source": {
+        "source": "git-subdir",
+        "url": "casibanryan/sample-release",
+        "path": "claude"
+      }
+    },
+    {
       "name": "piyaz",
       "source": {
         "source": "git-subdir",
@@ -28938,6 +29595,14 @@
       }
     },
     {
+      "name": "playhtml",
+      "source": {
+        "source": "git-subdir",
+        "url": "spencerc99/playhtml",
+        "path": "claude-plugin"
+      }
+    },
+    {
       "name": "playpark-core",
       "source": {
         "source": "git-subdir",
@@ -29132,6 +29797,14 @@
         "source": "git-subdir",
         "url": "abs1294/fulin-claude-plugins",
         "path": "plugins/plugin-manager"
+      }
+    },
+    {
+      "name": "plugin-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "renfordn/claude-plugins",
+        "path": "plugin-orchestrator"
       }
     },
     {
@@ -29459,6 +30132,13 @@
       }
     },
     {
+      "name": "polylane",
+      "source": {
+        "source": "github",
+        "repo": "coreplanelabs/skills"
+      }
+    },
+    {
       "name": "pong",
       "source": {
         "source": "git-subdir",
@@ -29551,6 +30231,13 @@
       }
     },
     {
+      "name": "pos",
+      "source": {
+        "source": "github",
+        "repo": "BLIZZARD2306/POS"
+      }
+    },
+    {
       "name": "post-patch-validation",
       "source": {
         "source": "git-subdir",
@@ -29572,6 +30259,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/posthog-pack"
+      }
+    },
+    {
+      "name": "postman-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "postmanlabs/skills",
+        "path": "plugins/postman"
       }
     },
     {
@@ -30483,6 +31178,14 @@
       }
     },
     {
+      "name": "project-management-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/project-management"
+      }
+    },
+    {
       "name": "project-manager",
       "source": {
         "source": "git-subdir",
@@ -30534,6 +31237,14 @@
       "source": {
         "source": "github",
         "repo": "BrightWayAI/project-setup"
+      }
+    },
+    {
+      "name": "project-setup-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sidhanthapoddar99/sids-plugin-marketplace",
+        "path": "plugins/project-setup"
       }
     },
     {
@@ -32887,6 +33598,14 @@
       }
     },
     {
+      "name": "resource-catalog",
+      "source": {
+        "source": "git-subdir",
+        "url": "arivodeaux/startup",
+        "path": "plugins/resource-catalog"
+      }
+    },
+    {
       "name": "resource-usage-tracker",
       "source": {
         "source": "git-subdir",
@@ -33311,6 +34030,22 @@
       }
     },
     {
+      "name": "rolepod",
+      "source": {
+        "source": "git-subdir",
+        "url": "nuttaruj/rolepod",
+        "path": "adapters/claude"
+      }
+    },
+    {
+      "name": "rolepod-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "nuttaruj/rolepod",
+        "path": "plugins/rolepod"
+      }
+    },
+    {
       "name": "rolepod-brain",
       "source": {
         "source": "git-subdir",
@@ -33678,6 +34413,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/salon-spa-operations"
+      }
+    },
+    {
+      "name": "sandbox-conventions",
+      "source": {
+        "source": "git-subdir",
+        "url": "arivodeaux/startup",
+        "path": "plugins/sandbox-conventions"
       }
     },
     {
@@ -35450,6 +36193,14 @@
       }
     },
     {
+      "name": "shipyard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "serhii-nochevnyi/shipyard",
+        "path": "plugins/delivery-pipeline"
+      }
+    },
+    {
       "name": "shiro-attack2",
       "source": {
         "source": "github",
@@ -35518,11 +36269,25 @@
       }
     },
     {
+      "name": "showmewhy",
+      "source": {
+        "source": "github",
+        "repo": "vishnu-77/showmewhy"
+      }
+    },
+    {
       "name": "shunt",
       "source": {
         "source": "git-subdir",
         "url": "spotify/portal-ai-plugins",
         "path": "plugins/shunt"
+      }
+    },
+    {
+      "name": "shunt-ollama",
+      "source": {
+        "source": "github",
+        "repo": "tarcisiojr/shunt-ollama"
       }
     },
     {
@@ -36002,6 +36767,13 @@
       }
     },
     {
+      "name": "skills-3",
+      "source": {
+        "source": "github",
+        "repo": "michielvandermeer/skills"
+      }
+    },
+    {
       "name": "skills-equipe",
       "source": {
         "source": "git-subdir",
@@ -36034,6 +36806,21 @@
       }
     },
     {
+      "name": "skillwiki",
+      "source": {
+        "source": "github",
+        "repo": "karlorz/llm-wiki"
+      }
+    },
+    {
+      "name": "skillwiki-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "karlorz/llm-wiki",
+        "path": "packages/skills"
+      }
+    },
+    {
       "name": "skiphow",
       "source": {
         "source": "git-subdir",
@@ -36063,6 +36850,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/skyvern"
+      }
+    },
+    {
+      "name": "sl-ui-library",
+      "source": {
+        "source": "git-subdir",
+        "url": "SLtowl/sl-ui-library",
+        "path": "plugins/sl-ui-library"
       }
     },
     {
@@ -36331,6 +37126,13 @@
       }
     },
     {
+      "name": "soffner",
+      "source": {
+        "source": "github",
+        "repo": "Casadororo/soffner-plugin"
+      }
+    },
+    {
       "name": "software-design-plugin",
       "source": {
         "source": "git-subdir",
@@ -36385,6 +37187,14 @@
       }
     },
     {
+      "name": "soleur",
+      "source": {
+        "source": "git-subdir",
+        "url": "jikig-ai/soleur",
+        "path": "plugins/soleur"
+      }
+    },
+    {
       "name": "solidforge",
       "source": {
         "source": "github",
@@ -36436,6 +37246,13 @@
         "source": "git-subdir",
         "url": "openshift-eng/ai-helpers",
         "path": "plugins/sosreport"
+      }
+    },
+    {
+      "name": "soujo",
+      "source": {
+        "source": "github",
+        "repo": "SilentMalachite/Soujo"
       }
     },
     {
@@ -36601,6 +37418,20 @@
       "source": {
         "source": "github",
         "repo": "andyko18/specops-ko"
+      }
+    },
+    {
+      "name": "spectra",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/spectra"
+      }
+    },
+    {
+      "name": "spiceai-skills",
+      "source": {
+        "source": "github",
+        "repo": "spiceai/skills"
       }
     },
     {
@@ -37257,6 +38088,13 @@
       }
     },
     {
+      "name": "stride",
+      "source": {
+        "source": "github",
+        "repo": "eschizoid/stride"
+      }
+    },
+    {
       "name": "stripe-2",
       "source": {
         "source": "git-subdir",
@@ -37779,6 +38617,14 @@
       }
     },
     {
+      "name": "svg-infographics",
+      "source": {
+        "source": "git-subdir",
+        "url": "stellarshenson/claude-code-plugins",
+        "path": "plugins/svg-infographics"
+      }
+    },
+    {
       "name": "svg-to-webp",
       "source": {
         "source": "git-subdir",
@@ -38139,6 +38985,13 @@
       }
     },
     {
+      "name": "taskplane",
+      "source": {
+        "source": "github",
+        "repo": "vdemkiv/taskPlane"
+      }
+    },
+    {
       "name": "tasks",
       "source": {
         "source": "git-subdir",
@@ -38445,6 +39298,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-code",
         "path": "mods/telemetry"
+      }
+    },
+    {
+      "name": "telltale",
+      "source": {
+        "source": "git-subdir",
+        "url": "ryu111/telltale",
+        "path": "plugins/telltale"
       }
     },
     {
@@ -38837,6 +39698,13 @@
         "source": "git-subdir",
         "url": "cjthompson/claude-code-config",
         "path": "plugins/textual"
+      }
+    },
+    {
+      "name": "tezgah",
+      "source": {
+        "source": "github",
+        "repo": "r1z4x/tezgah"
       }
     },
     {
@@ -39664,6 +40532,14 @@
         "source": "git-subdir",
         "url": "kodhama/trellis",
         "path": "plugins/trellis"
+      }
+    },
+    {
+      "name": "trellis-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mtch3n/trellis",
+        "path": "plugin"
       }
     },
     {
@@ -40734,6 +41610,14 @@
       }
     },
     {
+      "name": "vault-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "karlorz/llm-wiki",
+        "path": "packages/vault-sync"
+      }
+    },
+    {
       "name": "vectors",
       "source": {
         "source": "git-subdir",
@@ -40932,6 +41816,13 @@
         "source": "git-subdir",
         "url": "vibeic/vibe-ic",
         "path": "vibe-ic-marketplace/plugins/vibe-ic"
+      }
+    },
+    {
+      "name": "vibe-testing",
+      "source": {
+        "source": "github",
+        "repo": "AishwaryShrivastav/vibe-testing"
       }
     },
     {
@@ -42094,6 +42985,14 @@
       }
     },
     {
+      "name": "wendy",
+      "source": {
+        "source": "git-subdir",
+        "url": "Footbridge-Federal/wendy-plugin",
+        "path": "plugins/wendy"
+      }
+    },
+    {
       "name": "wenlan-2",
       "source": {
         "source": "git-subdir",
@@ -42214,6 +43113,14 @@
       "source": {
         "source": "github",
         "repo": "willow-memory/willow-mcp"
+      }
+    },
+    {
+      "name": "winappcli",
+      "source": {
+        "source": "git-subdir",
+        "url": "microsoft/winappCli",
+        "path": "plugins/winapp"
       }
     },
     {
@@ -43905,6 +44812,14 @@
       "source": {
         "source": "github",
         "repo": "somePeopleFireAndWood/zyz-worker"
+      }
+    },
+    {
+      "name": "zzzprobe",
+      "source": {
+        "source": "git-subdir",
+        "url": "jikig-ai/soleur",
+        "path": "knowledge-base/project/specs/feat-one-shot-7450-git-root-anchor-untrusted/arm4-probe"
       }
     }
   ]

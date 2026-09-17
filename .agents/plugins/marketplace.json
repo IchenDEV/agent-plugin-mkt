@@ -268,6 +268,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adversarial-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/adversarial-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "advisor",
       "source": {
         "source": "git-subdir",
@@ -1772,6 +1785,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "appropriate-comments-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/appropriate-comments-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "arcgentic",
       "source": {
         "source": "url",
@@ -1951,6 +1977,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ask-me-again",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/ask-me-again"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "assembly-api-mcp",
       "source": {
         "source": "url",
@@ -2108,6 +2147,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/summer521521/AutoCAD_Tianzheng_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "automatis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/automatis-tools/automatis-skills.git",
+        "path": "./automatis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2987,6 +3039,31 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/browser-test-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "browserclaw",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/GoldenLoaf24h/browserclaw.git",
+        "path": "./plugins/browserclaw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bugbug",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bugbug-io/agent-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4568,6 +4645,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/codestripes-dev/clooks-marketplace.git",
+        "path": "./clooks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "close",
       "source": {
         "source": "git-subdir",
@@ -4754,6 +4844,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cadugevaerd/codex-skills.git",
         "path": "./plugins/code-review-cadu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-simplification",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/code-simplification"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5210,6 +5313,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/BestLemoon/codex-seo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-skill-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JinHoonPark/SkyAgentPlugins.git",
+        "path": "./plugins/codex-skill-creator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8055,6 +8171,32 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/GarethManning/education-agent-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "effective-communicator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/effective-communicator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "effective-go",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/effective-go"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11159,6 +11301,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "implement-plan",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/implement-plan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "imweb-ai-toolkit",
       "source": {
         "source": "url",
@@ -11812,6 +11967,19 @@
         "source": "git-subdir",
         "url": "https://github.com/serpro69/claude-toolbox.git",
         "path": "./kodex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kollate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Kollate-prompt/kollate-plugin.git",
+        "path": "./plugins/kollate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12531,6 +12699,19 @@
         "source": "git-subdir",
         "url": "https://github.com/rocky2431/loop-graph-design-skill.git",
         "path": "./plugins/loop-graph-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loupe",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eriksaulnier/loupe.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15233,6 +15414,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "omnischolar",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/luffysolution-svg/omnischolar.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "one",
       "source": {
         "source": "git-subdir",
@@ -15908,6 +16101,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "paseo-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JinHoonPark/SkyAgentPlugins.git",
+        "path": "./plugins/paseo-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "patinaproject-skills",
       "source": {
         "source": "url",
@@ -16295,6 +16501,19 @@
         "source": "git-subdir",
         "url": "https://github.com/thongphan23/codex-planner.git",
         "path": "./plugins/planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "planning-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/planning-flow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17795,6 +18014,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "read-the-docs-first",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/read-the-docs-first"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "readwise",
       "source": {
         "source": "git-subdir",
@@ -18207,6 +18439,19 @@
         "source": "git-subdir",
         "url": "https://github.com/timsmykov/evidence-lab-plugins.git",
         "path": "./packs/workflows/research-images"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "research-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jeongseokO/Research-Loop-Plugin.git",
+        "path": "./plugins/research-loop"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21855,6 +22100,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tapper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jlrickert/tapper.git",
+        "path": "./integrations/rendered/codex/tapper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tapper-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jlrickert/tapper.git",
+        "path": "./integrations/rendered/codex/tapper-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tartinerlabs",
       "source": {
         "source": "git-subdir",
@@ -21886,6 +22157,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/6Delta9/task-scheduler-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "taskflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hkwuks/TaskFlow.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22642,6 +22925,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "topo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/topo-io/topo-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trace-mcp",
       "source": {
         "source": "url",
@@ -23238,6 +23533,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "use-claude-limits-efficiently",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/use-claude-limits-efficiently"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "use-premium-models-efficiently",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/use-premium-models-efficiently"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "uv",
       "source": {
         "source": "git-subdir",
@@ -23472,6 +23793,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vianch/vistack.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "visual-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/patrickdappollonio/claude-plugins.git",
+        "path": "./plugins/visual-docs"
       },
       "policy": {
         "installation": "AVAILABLE",

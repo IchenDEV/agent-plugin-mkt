@@ -47,11 +47,18 @@ export const DEFAULT_REPOSITORY_SEARCH_QUERIES = [
   '"claude plugin marketplace add" in:readme',
   '".codex-plugin/plugin.json" in:readme',
   '"agent-plugins.org" in:readme',
+  // Marketplace catalogs are a strong signal for multi-plugin publishers whose
+  // nested manifests are easy to miss in legacy Code Search's 1,000-hit cap.
+  '".claude-plugin/marketplace.json" in:readme',
+  '".agents/plugins/marketplace.json" in:readme',
   "topic:claude-code-plugin",
   "topic:claude-code-plugins",
   "topic:codex-plugin",
   "topic:agent-plugins",
 ] as const;
+
+/** Cap sibling-repo fan-out so one prolific org cannot exhaust the whole run. */
+export const DEFAULT_OWNER_FANOUT_MAX_REPOS = 80;
 
 /**
  * Split a shared search budget across weighted consumers. Every unit is handed
@@ -567,4 +574,87 @@ export async function listDirectory(
       type: entry.type ?? "file",
       size: typeof entry.size === "number" ? entry.size : 0,
     }));
+}
+
+/**
+ * Extract the GitHub login from `owner/repo`. Empty when the name is invalid.
+ */
+export function ownerFromFullName(fullName: string): string {
+  const parts = fullName.split("/");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return "";
+  if (parts.some((part) => part.includes(" "))) return "";
+  return parts[0];
+}
+
+interface OwnerReposPage {
+  full_name?: string;
+  html_url?: string;
+  stargazers_count?: number;
+  forks_count?: number;
+  open_issues_count?: number;
+  pushed_at?: string | null;
+  license?: { spdx_id?: string | null; name?: string | null } | null;
+  default_branch?: string;
+  fork?: boolean;
+  archived?: boolean;
+}
+
+/**
+ * List public non-fork repositories for a user or organization, newest push
+ * first. Tries the org endpoint then the user endpoint so callers do not need
+ * to know which kind of account owns a discovered plugin.
+ */
+export async function listOwnerPublicRepositories(
+  owner: string,
+  opts: { max?: number; includeForks?: boolean } = {},
+): Promise<RepoMetadata[]> {
+  const login = owner.trim();
+  if (!login || login.includes("/") || login.includes(" ")) {
+    throw new GitHubApiError(`invalid GitHub owner login: ${owner}`);
+  }
+  const max = Math.max(1, opts.max ?? DEFAULT_OWNER_FANOUT_MAX_REPOS);
+  const includeForks = opts.includeForks === true;
+  const encoded = encodeURIComponent(login);
+  const paths = [`/orgs/${encoded}/repos`, `/users/${encoded}/repos`];
+  const collected: RepoMetadata[] = [];
+  const seen = new Set<string>();
+
+  for (const path of paths) {
+    let page = 1;
+    let usedPath = false;
+    for (;;) {
+      let batch: OwnerReposPage[];
+      try {
+        batch = await githubJson<OwnerReposPage[]>(path, {
+          type: "public",
+          sort: "pushed",
+          direction: "desc",
+          per_page: String(Math.min(100, max - collected.length)),
+          page: String(page),
+        });
+      } catch (err) {
+        if (err instanceof GitHubApiError && (err.status === 404 || err.status === 403)) {
+          break;
+        }
+        throw err;
+      }
+      usedPath = true;
+      if (!Array.isArray(batch) || batch.length === 0) break;
+      for (const repo of batch) {
+        if (typeof repo.full_name !== "string" || typeof repo.html_url !== "string") {
+          continue;
+        }
+        if (!includeForks && repo.fork === true) continue;
+        if (repo.archived === true) continue;
+        if (seen.has(repo.full_name)) continue;
+        seen.add(repo.full_name);
+        collected.push(repoMetadata(repo as RepoResponse));
+        if (collected.length >= max) return collected;
+      }
+      if (batch.length < 100) break;
+      page += 1;
+    }
+    if (usedPath) break;
+  }
+  return collected;
 }

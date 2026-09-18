@@ -100,7 +100,7 @@ flowchart LR
     H --> I["Web · REST · MCP · llms.txt"]
 ```
 
-Discovery combines repository metadata, topics, README signals, Git-tree inspection, and — when a dedicated token is configured — GitHub's legacy Code Search. It searches for all three supported manifest families instead of relying on a hand-maintained allowlist, so first-party and community repositories follow the same path.
+Discovery combines repository metadata, topics, README signals, Git-tree inspection, publisher fan-out across sibling repositories, and — when a dedicated token is configured — GitHub's legacy Code Search. It searches for all three supported manifest families instead of relying on a hand-maintained allowlist, so first-party and community repositories follow the same path.
 
 Each sync:
 
@@ -115,7 +115,7 @@ Unchanged repositories reuse their indexed components based on GitHub's `pushed_
 
 ### Coverage boundaries
 
-GitHub search is broad but not mathematically exhaustive. Individual search queries are capped at 1,000 results, API quotas apply, repositories can be private or temporarily unavailable, and some projects do not publish a canonical manifest. The workflow uses multiple protocol-specific windows and safely commits completed transactions when a run becomes quota-limited, but it does not claim to enumerate every repository on GitHub.
+GitHub search is broad but not mathematically exhaustive. Individual search queries are capped at 1,000 results, API quotas apply, repositories can be private or temporarily unavailable, and some projects do not publish a canonical manifest. When a publisher does appear, the indexer fans out across their other public repositories so nested plugin roots are not lost solely because Code Search omitted them. The workflow uses multiple protocol-specific windows and safely commits completed transactions when a run becomes quota-limited, but it does not claim to enumerate every repository on GitHub.
 
 ## REST API
 

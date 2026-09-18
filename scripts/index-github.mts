@@ -4,6 +4,7 @@
 
 import { prisma } from "@/lib/db";
 import {
+  DEFAULT_OWNER_FANOUT_MAX_REPOS,
   DEFAULT_REPOSITORY_SEARCH_QUERIES,
   DEFAULT_SEARCH_QUERIES,
   GitHubApiError,
@@ -12,7 +13,9 @@ import {
   getFileContent,
   getRepo,
   listDirectory,
+  listOwnerPublicRepositories,
   listRepositoryManifestFiles,
+  ownerFromFullName,
   searchCode,
   searchRepositories,
   type CodeSearchItem,
@@ -78,7 +81,10 @@ interface CliOptions {
   allowPartial: boolean;
   skipCodeSearch: boolean;
   skipRepositorySearch: boolean;
+  skipOwnerFanout: boolean;
+  ownerFanoutMax: number;
   directRepositories: string[];
+  directOwners: string[];
 }
 
 function parseArgs(argv: string[]): CliOptions {
@@ -91,7 +97,10 @@ function parseArgs(argv: string[]): CliOptions {
   let allowPartial = false;
   let skipCodeSearch = false;
   let skipRepositorySearch = false;
+  let skipOwnerFanout = false;
+  let ownerFanoutMax = DEFAULT_OWNER_FANOUT_MAX_REPOS;
   const directRepositories: string[] = [];
+  const directOwners: string[] = [];
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--max") {
@@ -138,6 +147,14 @@ function parseArgs(argv: string[]): CliOptions {
     } else if (arg === "--skip-repository-search" || arg === "--skip-priority") {
       // --skip-priority is retained as a compatibility alias for one release.
       skipRepositorySearch = true;
+    } else if (arg === "--skip-owner-fanout") {
+      skipOwnerFanout = true;
+    } else if (arg === "--owner-fanout-max") {
+      const value = Number(argv[++i]);
+      if (Number.isFinite(value) && value > 0) ownerFanoutMax = Math.floor(value);
+    } else if (arg.startsWith("--owner-fanout-max=")) {
+      const value = Number(arg.slice("--owner-fanout-max=".length));
+      if (Number.isFinite(value) && value > 0) ownerFanoutMax = Math.floor(value);
     } else if (arg === "--repo") {
       const value = argv[++i];
       if (value && /^[^/\s]+\/[^/\s]+$/.test(value)) {
@@ -146,6 +163,12 @@ function parseArgs(argv: string[]): CliOptions {
     } else if (arg.startsWith("--repo=")) {
       const value = arg.slice("--repo=".length);
       if (/^[^/\s]+\/[^/\s]+$/.test(value)) directRepositories.push(value);
+    } else if (arg === "--owner") {
+      const value = argv[++i];
+      if (value && /^[^/\s]+$/.test(value)) directOwners.push(value);
+    } else if (arg.startsWith("--owner=")) {
+      const value = arg.slice("--owner=".length);
+      if (/^[^/\s]+$/.test(value)) directOwners.push(value);
     } else {
       console.warn(`ignoring unknown argument: ${arg}`);
     }
@@ -162,7 +185,10 @@ function parseArgs(argv: string[]): CliOptions {
     allowPartial,
     skipCodeSearch,
     skipRepositorySearch,
+    skipOwnerFanout,
+    ownerFanoutMax,
     directRepositories: [...new Set(directRepositories)],
+    directOwners: [...new Set(directOwners)],
   };
 }
 
@@ -601,12 +627,18 @@ const {
   allowPartial,
   skipCodeSearch,
   skipRepositorySearch,
+  skipOwnerFanout,
+  ownerFanoutMax,
   directRepositories,
+  directOwners,
 } = parseArgs(process.argv.slice(2));
 console.log(
   `searching ${skipRepositorySearch ? 0 : repositoryQueries.length} repository families ` +
     `with up to ${repositoryMax} candidates; searching ${skipCodeSearch ? 0 : queries.length} ` +
-    `legacy code families with up to ${max} hits`,
+    `legacy code families with up to ${max} hits` +
+    (skipOwnerFanout
+      ? "; owner fan-out disabled"
+      : `; owner fan-out up to ${ownerFanoutMax} repos per publisher`),
 );
 if (searchPage) {
   console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
@@ -622,8 +654,17 @@ let gotFirstPage = false;
 let exitCode = 0;
 const seen = new Set<string>();
 const seenRepositories = new Set<string>();
+const ownersToFanOut = new Set<string>();
+const fannedOutOwners = new Set<string>();
 let repositoryCandidates = 0;
 let repositoryMatches = 0;
+let ownerFanoutCandidates = 0;
+
+function queueOwnerFanout(repoFullName: string): void {
+  if (skipOwnerFanout) return;
+  const owner = ownerFromFullName(repoFullName);
+  if (owner) ownersToFanOut.add(owner);
+}
 
 async function processHit(item: CodeSearchItem): Promise<void> {
   const location = manifestLocation(item.path);
@@ -640,6 +681,7 @@ async function processHit(item: CodeSearchItem): Promise<void> {
       if (outcome.status === "metadata") metadata++;
       if (outcome.status === "unchanged") unchanged++;
       console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
+      queueOwnerFanout(item.repository.full_name);
     } else {
       skipped++;
       console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
@@ -666,6 +708,7 @@ async function processRepository(repo: RepoMetadata): Promise<void> {
     }
     if (inventory.files.length === 0) return;
     repositoryMatches++;
+    queueOwnerFanout(repo.fullName);
     console.log(
       `found ${inventory.files.length} canonical manifests in ${safeLog(repo.fullName)}`,
     );
@@ -684,7 +727,50 @@ async function processRepository(repo: RepoMetadata): Promise<void> {
   }
 }
 
+/**
+ * When discovery finds one plugin from a publisher, walk their other public
+ * repositories. Legacy Code Search often omits an entire active org once the
+ * global 1,000-hit window fills with older repositories.
+ */
+async function fanOutOwners(seedOwners: Iterable<string> = ownersToFanOut): Promise<void> {
+  if (skipOwnerFanout) return;
+  const pending = [...new Set([...seedOwners].map((owner) => owner.toLowerCase()))].filter(
+    (owner) => owner.length > 0 && !fannedOutOwners.has(owner),
+  );
+  for (const owner of pending) {
+    fannedOutOwners.add(owner);
+    console.log(
+      `owner fan-out: listing public repositories for ${safeLog(owner)} (max ${ownerFanoutMax})`,
+    );
+    let siblings: RepoMetadata[];
+    try {
+      siblings = await listOwnerPublicRepositories(owner, { max: ownerFanoutMax });
+    } catch (err) {
+      if (err instanceof RateLimitAbortError) throw err;
+      errors++;
+      const message = err instanceof Error ? err.message : String(err);
+      console.error(`owner fan-out failed for ${safeLog(owner)}: ${safeLog(message)}`);
+      continue;
+    }
+    gotFirstPage = true;
+    let scanned = 0;
+    for (const repo of siblings) {
+      if (seenRepositories.has(repo.fullName)) continue;
+      scanned++;
+      ownerFanoutCandidates++;
+      await processRepository(repo);
+    }
+    console.log(
+      `owner fan-out: scanned ${scanned} new repositories under ${safeLog(owner)}`,
+    );
+  }
+}
+
 try {
+  for (const owner of directOwners) {
+    ownersToFanOut.add(owner.toLowerCase());
+  }
+
   for (const repoFullName of directRepositories) {
     console.log(`scanning requested repository: ${safeLog(repoFullName)}`);
     const repo = await getRepo(repoFullName);
@@ -695,6 +781,10 @@ try {
     }
     await processRepository(repo);
   }
+
+  // Fan out from --repo / --owner seeds before broad search so issue-reported
+  // publishers are covered even when the shared search budget runs out early.
+  await fanOutOwners();
 
   if (!skipRepositorySearch) {
     // The budget is a single shared pool: each query takes an even share of what
@@ -790,6 +880,9 @@ try {
       }
     }
   }
+
+  // Second fan-out pass catches publishers discovered during broad search.
+  await fanOutOwners();
 } catch (err) {
   if (err instanceof RateLimitAbortError) {
     console.error(`aborted: ${err.message}`);
@@ -813,6 +906,7 @@ try {
 
 console.log(
   `done: examined ${repositoryCandidates} repositories, matched ${repositoryMatches}; ` +
+    `owner fan-out scanned ${ownerFanoutCandidates}; ` +
     `processed ${processed} plugin roots, indexed ${indexed}, metadata ${metadata}, ` +
     `unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`,
 );

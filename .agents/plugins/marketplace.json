@@ -167,6 +167,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "acepilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/acepilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ach-memory",
       "source": {
         "source": "git-subdir",
@@ -784,6 +797,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/jerryfane/agentgram"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/MerchantGuard/agentguard-codex-plugin.git",
+        "path": "./compat/codex-0.154/agentguard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1516,6 +1542,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "anban",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anbanai/creator-harness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "anchor",
       "source": {
         "source": "git-subdir",
@@ -1683,6 +1721,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "apac-equity-desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eloriahu/apac-equity-desk.git",
+        "path": "./plugins/apac-equity-desk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "api-monitor-mcp",
       "source": {
         "source": "url",
@@ -1764,6 +1815,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/matk0shub/apple-productivity-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "apple-mail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/isityael/apple-mail-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2045,6 +2108,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/martinffx/atelier.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "atlas",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aiua-dev/atlas.git",
+        "path": "./plugins/atlas"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2511,6 +2587,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "beautiful-dreamer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/beautiful-dreamer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "before-you-build",
       "source": {
         "source": "git-subdir",
@@ -2680,6 +2769,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CorentinLumineau/blackhole.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "blast-radius",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./blast-radius"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4222,6 +4324,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/chronograph-lp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chronos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/chronos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6344,6 +6459,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "crowdstrike-falcon-foundry",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrowdStrike/foundry-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "csp",
       "source": {
         "source": "git-subdir",
@@ -8206,6 +8333,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "edgar-rumple",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/edgar-rumple"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "edgepilot",
       "source": {
         "source": "url",
@@ -8537,6 +8677,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "equipo-agentes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rodrico16/equipo-producto-ia.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "eric-agent-skills",
       "source": {
         "source": "url",
@@ -8785,6 +8937,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Labiey/expert-council-router.git",
         "path": "./packages/codex-integration/plugin/expert-council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "expert-moriarty",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/expert-moriarty"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9157,6 +9322,19 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/fleet-propagate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "flight-attendant",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/flight-attendant"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9770,6 +9948,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/ghfactory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ghost-blogger",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/ghost-blogger"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11517,6 +11708,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "incubator-build",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/the-incubator/incubator-build-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "infinite-mission-codex",
       "source": {
         "source": "git-subdir",
@@ -11548,6 +11751,19 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/infra-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "inspire-lestrade",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/inspire-lestrade"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12164,6 +12380,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "karta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Engen-Tech/karta.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "katalepsis",
       "source": {
         "source": "git-subdir",
@@ -12232,6 +12460,19 @@
         "source": "git-subdir",
         "url": "https://github.com/serpro69/claude-toolbox.git",
         "path": "./kodex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/knowledge"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13644,6 +13885,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "massdo-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/massdo/massdo-marketplace.git",
+        "path": "./plugins/massdo-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "masterplan",
       "source": {
         "source": "url",
@@ -14267,6 +14521,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "minto",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/welltraum/minto.git",
+        "path": "./plugins/minto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "miro-board",
       "source": {
         "source": "git-subdir",
@@ -14522,6 +14789,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "moodle-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mansigambhir-1313/Moodle-MCP.git",
+        "path": "./plugins/moodle-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "moody-s",
       "source": {
         "source": "git-subdir",
@@ -14566,6 +14846,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/motherduck"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mrs-legal-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/mrs-legal-advisor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14729,6 +15022,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mycroft-debater",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/mycroft-debater"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "myregistry-com",
       "source": {
         "source": "git-subdir",
@@ -14861,6 +15167,32 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/neon-postgres"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nestor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/massdo/massdo-marketplace.git",
+        "path": "./plugins/nestor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nestor-beta",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/massdo/massdo-marketplace.git",
+        "path": "./plugins/nestor-beta"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15153,6 +15485,18 @@
         "source": "git-subdir",
         "url": "https://github.com/notrestai/notrest.git",
         "path": "./plugins/notrest"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nowyourlink-agent-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ArneFfm/nowyourlink-agent-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17193,6 +17537,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "powerpoint-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kzarzycki/powerpoint-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ppt-image2-editable-rebuild",
       "source": {
         "source": "url",
@@ -17635,6 +17991,18 @@
         "source": "git-subdir",
         "url": "https://github.com/shrekshrek/project-workflow.git",
         "path": "./adapters/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "projectops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Cassiiopeia/projectops.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18962,6 +19330,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "review-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./review-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "review-suite",
       "source": {
         "source": "git-subdir",
@@ -19069,6 +19450,19 @@
         "source": "git-subdir",
         "url": "https://github.com/korya/askl.git",
         "path": "./test/fixtures/coherence/rootless-drift"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rorschach-security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/rorschach-security"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20428,6 +20822,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "session-chat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/session-chat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "session-facts",
       "source": {
         "source": "git-subdir",
@@ -20446,6 +20853,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jabworks/agentic-toolkit.git",
         "path": "./dist/plugins/session-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/session-manager"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20492,11 +20912,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "session-scheduler",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/session-scheduler"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "session-skills",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Mar5929/claude-toolkit.git",
         "path": "./plugins/session-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-workspace",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devgirishattri/agent-plugins.git",
+        "path": "./codex/plugins/session-workspace"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20523,6 +20969,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Mar5929/claude-toolkit.git",
         "path": "./plugins/sf-architect-solutioning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sg-harness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/han0001/sg-harness.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20600,6 +21058,32 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/shell-scripting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shendumao-context-map",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/signerzwb/shendumao-codex-context-map.git",
+        "path": "./plugins/shendumao-context-map"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sherlock-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/sherlock-report"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21626,6 +22110,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/specification"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "specpowers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/john-weiwei/SpecPowers.git",
+        "path": "./plugins/specpowers"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22741,6 +23238,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tdd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./tdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tdd-playbook",
       "source": {
         "source": "git-subdir",
@@ -22792,11 +23302,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "team-codex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/we1jia/TeamCodex.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "team-collaboration",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/team-collaboration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "team-engineering-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Suppacha/team-engineering-skills-plugin.git",
+        "path": "./plugins/team-engineering-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23281,6 +23816,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tmux-agent-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ohyeh/tmux-agent-tools.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tmux-reboot",
       "source": {
         "source": "git-subdir",
@@ -23338,6 +23885,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/mturac/todo-harvest"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "todo-list",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ferterahadi/todo-list.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23969,6 +24528,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "universal-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/universal-plugin.git",
+        "path": "./packages/universal-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "universal-repo-audit-backlog-architect",
       "source": {
         "source": "git-subdir",
@@ -24213,6 +24785,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "verify-release",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Parcha-ai/parcha-skills.git",
+        "path": "./verify-release"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "verify-with-controls",
       "source": {
         "source": "git-subdir",
@@ -24255,6 +24840,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/dadwadw233/VibePortrait"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vibesurfer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/frane/vibesurfer.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24708,6 +25306,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "weed-harness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/weedmo/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "wenlan",
       "source": {
         "source": "git-subdir",
@@ -24788,6 +25398,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cadugevaerd/codex-skills.git",
         "path": "./plugins/whatsapp-business-platform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "where-tokens-went",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ianho7/where-tokens-went.git",
+        "path": "./skills/where-tokens-went"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24878,6 +25501,19 @@
         "source": "git-subdir",
         "url": "https://github.com/outcomeeng/plugins.git",
         "path": "./dist/claude/work"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "work-force",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sharakusatoh/codex-plugins.git",
+        "path": "./plugins/work-force"
       },
       "policy": {
         "installation": "AVAILABLE",

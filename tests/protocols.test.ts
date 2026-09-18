@@ -5,6 +5,7 @@ import {
   DEFAULT_SEARCH_QUERIES,
   allocateSearchBudget,
   manifestFilesFromTree,
+  ownerFromFullName,
 } from "@/lib/github";
 import { skillFromFrontmatter } from "@/lib/indexing";
 import { parseEnums, PROTOCOLS } from "@/lib/api-helpers";
@@ -278,6 +279,16 @@ test("repository discovery is protocol-based rather than vendor-special-cased", 
   assert.ok(
     DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) => query.includes("agent-plugins.org")),
   );
+  assert.ok(
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) =>
+      query.includes(".claude-plugin/marketplace.json"),
+    ),
+  );
+  assert.ok(
+    DEFAULT_REPOSITORY_SEARCH_QUERIES.some((query) =>
+      query.includes(".agents/plugins/marketplace.json"),
+    ),
+  );
 
   assert.deepEqual(
     manifestFilesFromTree([
@@ -345,6 +356,12 @@ test("search budget allocation is weighted and lossless", () => {
   const even = allocateSearchBudget(7, [1, 1, 1]);
   assert.equal(even.reduce((sum, share) => sum + share, 0), 7);
   assert.ok(even.every((share) => share >= 2));
+});
+
+test("owner login is parsed from repository full names", () => {
+  assert.equal(ownerFromFullName("hermes-labs-ai/hermeneutic"), "hermes-labs-ai");
+  assert.equal(ownerFromFullName("VZezelin/first"), "VZezelin");
+  assert.equal(ownerFromFullName("not-a-repo"), "");
 });
 
 test("Codex and Claude Code manifests use their runtime minimums", () => {

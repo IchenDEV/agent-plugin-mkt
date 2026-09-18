@@ -943,6 +943,13 @@
       }
     },
     {
+      "name": "agent-kickstart",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/agent-kickstart"
+      }
+    },
+    {
       "name": "agent-kit",
       "source": {
         "source": "github",
@@ -1279,6 +1286,13 @@
         "source": "git-subdir",
         "url": "allada-homelab/agent-harness-marketplace",
         "path": "modules/agent-transcripts"
+      }
+    },
+    {
+      "name": "agent-trash-guard",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/agent-trash-guard"
       }
     },
     {
@@ -7743,6 +7757,14 @@
       }
     },
     {
+      "name": "claude-trash-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/agent-trash-guard",
+        "path": "integrations/claude"
+      }
+    },
+    {
       "name": "claude-ultimate-hud",
       "source": {
         "source": "github",
@@ -10687,6 +10709,13 @@
         "source": "git-subdir",
         "url": "laurigates/claude-plugins",
         "path": "css-plugin"
+      }
+    },
+    {
+      "name": "csv-quality-gate",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/csv-quality-gate"
       }
     },
     {
@@ -20396,6 +20425,14 @@
       }
     },
     {
+      "name": "hermeneutic-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/hermeneutic",
+        "path": "claude-plugin"
+      }
+    },
+    {
       "name": "hermes",
       "source": {
         "source": "git-subdir",
@@ -20423,6 +20460,21 @@
         "source": "git-subdir",
         "url": "hermes-labs-ai/hermes-blind",
         "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "hermes-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/hermes-gate",
+        "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "hermes-jailbench",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/hermes-jailbench"
       }
     },
     {
@@ -21521,6 +21573,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/productivity/intent-labs-pack"
+      }
+    },
+    {
+      "name": "intent-verify",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/intent-verify"
       }
     },
     {
@@ -23582,6 +23641,14 @@
       }
     },
     {
+      "name": "lintlang",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/lintlang",
+        "path": "integrations/claude-code"
+      }
+    },
+    {
       "name": "liquidity-pool-analyzer",
       "source": {
         "source": "git-subdir",
@@ -23642,6 +23709,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "research/litreview"
+      }
+    },
+    {
+      "name": "little-canary",
+      "source": {
+        "source": "git-subdir",
+        "url": "hermes-labs-ai/little-canary",
+        "path": "plugins/claude-code"
       }
     },
     {
@@ -32224,6 +32299,20 @@
       }
     },
     {
+      "name": "quick-gate-js",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/quick-gate-js"
+      }
+    },
+    {
+      "name": "quick-gate-python",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/quick-gate-python"
+      }
+    },
+    {
       "name": "quickdesign",
       "source": {
         "source": "git-subdir",
@@ -34137,6 +34226,13 @@
         "source": "git-subdir",
         "url": "Jamie-BitFlight/claude_skills",
         "path": "plugins/rtfp"
+      }
+    },
+    {
+      "name": "rule-audit",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/rule-audit"
       }
     },
     {
@@ -38399,6 +38495,13 @@
       "source": {
         "source": "github",
         "repo": "procoders/superpowers-v"
+      }
+    },
+    {
+      "name": "supersearch",
+      "source": {
+        "source": "github",
+        "repo": "hermes-labs-ai/supersearch"
       }
     },
     {

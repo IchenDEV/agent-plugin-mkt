@@ -12589,6 +12589,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kagura-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kagura-ai/memory-cloud.git",
+        "path": "./plugins/kagura-memory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kairos-forge",
       "source": {
         "source": "url",
@@ -12694,6 +12707,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/aklofas/kicad-happy.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dwarvesf/dwarves-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",

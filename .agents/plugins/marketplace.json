@@ -712,6 +712,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-team-lab",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Benemox/agent-team-lab.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-teams",
       "source": {
         "source": "git-subdir",
@@ -910,6 +922,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/alelaguard/agentguards-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentic-harness-agents",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/powerpuff-kitty/agentic-harness-agents.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2273,6 +2297,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hollobit/assembly-api-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "assetforge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yanick-Salzmann/assetforge.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3711,6 +3747,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/earthtojake/text-to-cad.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cairn",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eas4ai/cairn.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5385,6 +5433,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "code-smells",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/insomnius/harness.git",
+        "path": "./plugins/code-smells"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code-standards",
       "source": {
         "source": "git-subdir",
@@ -5818,6 +5879,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mgritzbach/codex-recall.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-review-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lab1702/codex-review-loop.git",
+        "path": "./plugins/codex-review-loop"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6572,6 +6646,18 @@
         "source": "git-subdir",
         "url": "https://github.com/15236702150master/context-tree-stack.git",
         "path": "./plugins/context-tree"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "contextual-writing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/optimelv/contextual-writing-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7796,6 +7882,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "design-thinking",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/insomnius/harness.git",
+        "path": "./plugins/design-thinking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "designless",
       "source": {
         "source": "url",
@@ -8319,6 +8418,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "doc-util",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./doc-util"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "docflow",
       "source": {
         "source": "git-subdir",
@@ -8515,6 +8627,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/dokploy-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dom-analyzer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./dom-analyzer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9036,6 +9161,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Irixil/irixi-project-forge.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "e-colleagues",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gnuruzzi/e-colleagues.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9963,6 +10100,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "feature-books",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PonlawatP/feature-books-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "feishu2codex",
       "source": {
         "source": "git-subdir",
@@ -10096,6 +10245,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "firecrawl-lean",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cosimochellini/one-piece-zero-spoiler.git",
+        "path": "./.agents/skills/firecrawl-lean"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10826,6 +10988,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Ensys-Consultores-Informaticos/chatgpt-plugins.git",
         "path": "./plugins/gesia-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "get-fable",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imMamdouhaboammar/get-fable.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11658,6 +11832,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pairofmonths/grounded-asset-sheets.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./guard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12826,6 +13013,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "inmates",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nestedmind/inmates.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "inspire-lestrade",
       "source": {
         "source": "git-subdir",
@@ -13635,6 +13834,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "knuaf-doc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/knuaf-devcat/knuaf-doc.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kollate",
       "source": {
         "source": "git-subdir",
@@ -13652,6 +13863,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Kolonie-AI/kolonie-codex.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "korea-gov-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./korea-gov-data"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13959,6 +14183,18 @@
         "source": "git-subdir",
         "url": "https://github.com/robinslange/learning-loop.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lecture-to-knowledge-map",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yanglixian1106-design/lecture-to-knowledge-map.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16744,6 +16980,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "noisy-studio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/noisy/noisy-studio.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "not-ai",
       "source": {
         "source": "git-subdir",
@@ -17533,6 +17781,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/0xsarwagya/ontoly-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "opc-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/boh5/opc-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18353,6 +18613,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pentest-rs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/raystyle/pentest_rs.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "people-context",
       "source": {
         "source": "url",
@@ -18702,6 +18974,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/plannotator/design-artifact.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plantuml",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./plantuml"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19677,6 +19962,18 @@
         "source": "git-subdir",
         "url": "https://github.com/niobium617/prompt-reverse-engineer-skill.git",
         "path": "./platform-adapters/codex/prompt-reverse-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prompt-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mwrforever/prompt.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24059,6 +24356,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spectrack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/studykit/studykit-plugins.git",
+        "path": "./spectrack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spectre",
       "source": {
         "source": "git-subdir",
@@ -25324,6 +25634,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wondelai/skills.git",
         "path": "./plugins/team-motivation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "team-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kir-kopylov/codex-team-skills.git",
+        "path": "./plugins/team-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27486,6 +27809,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "whatsai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/irouter-eu/whatsai.git",
+        "path": "./plugins/whatsai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "whatsapp-business-platform",
       "source": {
         "source": "git-subdir",
@@ -28083,6 +28419,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/ZeroPointRepo/youtube-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "z80-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/IgnacioMonge/z80-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",

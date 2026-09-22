@@ -299,6 +299,13 @@
       }
     },
     {
+      "name": "acceptance",
+      "source": {
+        "source": "github",
+        "repo": "lobehub/acceptance"
+      }
+    },
+    {
       "name": "access-control-auditor",
       "source": {
         "source": "git-subdir",
@@ -794,6 +801,34 @@
       }
     },
     {
+      "name": "advisor-copywriting",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-advisor-copywriting"
+      }
+    },
+    {
+      "name": "advisor-decision",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-advisor-decision"
+      }
+    },
+    {
+      "name": "advisor-influence",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-advisor-influence"
+      }
+    },
+    {
+      "name": "advisor-product",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-advisor-product"
+      }
+    },
+    {
       "name": "advisor-product-design",
       "source": {
         "source": "git-subdir",
@@ -807,6 +842,13 @@
         "source": "git-subdir",
         "url": "cdcoonce/the-workshop",
         "path": "plugins/advisor-product-strategy"
+      }
+    },
+    {
+      "name": "advisor-sales",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-advisor-sales"
       }
     },
     {
@@ -1005,6 +1047,13 @@
       }
     },
     {
+      "name": "agent-bus",
+      "source": {
+        "source": "github",
+        "repo": "fblissjr/agent-bus"
+      }
+    },
+    {
       "name": "agent-cache-plugin",
       "source": {
         "source": "git-subdir",
@@ -1119,6 +1168,13 @@
       "source": {
         "source": "github",
         "repo": "masuP9/agent-dialectics"
+      }
+    },
+    {
+      "name": "agent-dispatcher",
+      "source": {
+        "source": "github",
+        "repo": "nahid-sparktales/agent-dispatcher"
       }
     },
     {
@@ -1297,6 +1353,13 @@
       }
     },
     {
+      "name": "agent-orchestration-3",
+      "source": {
+        "source": "github",
+        "repo": "DevInventor/Agent-Orchestration"
+      }
+    },
+    {
       "name": "agent-owner",
       "source": {
         "source": "git-subdir",
@@ -1338,6 +1401,14 @@
       "source": {
         "source": "github",
         "repo": "examinare000/agent-recall"
+      }
+    },
+    {
+      "name": "agent-router",
+      "source": {
+        "source": "git-subdir",
+        "url": "alexandernicholson/agent-router",
+        "path": "agent-router"
       }
     },
     {
@@ -2243,6 +2314,13 @@
       }
     },
     {
+      "name": "ai-power-apps",
+      "source": {
+        "source": "github",
+        "repo": "RoeySmallTree/ai-power-apps"
+      }
+    },
+    {
       "name": "ai-prompt-lab",
       "source": {
         "source": "git-subdir",
@@ -2387,6 +2465,13 @@
       "source": {
         "source": "github",
         "repo": "feder-cr/aihawk_mcp_server"
+      }
+    },
+    {
+      "name": "aihawk-3",
+      "source": {
+        "source": "github",
+        "repo": "feder-cr/invisible_playwright_mcp"
       }
     },
     {
@@ -2900,6 +2985,22 @@
       "source": {
         "source": "github",
         "repo": "adewanggar/anchor-architect"
+      }
+    },
+    {
+      "name": "andon",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/andon"
+      }
+    },
+    {
+      "name": "andon-official",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "pilot-armc/andon-official"
       }
     },
     {
@@ -4244,6 +4345,14 @@
       }
     },
     {
+      "name": "arbeitsplan",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/arbeitsplan"
+      }
+    },
+    {
       "name": "arbitrage-opportunity-finder",
       "source": {
         "source": "git-subdir",
@@ -4382,6 +4491,14 @@
       }
     },
     {
+      "name": "architecture-scan",
+      "source": {
+        "source": "git-subdir",
+        "url": "EdwinVW/agentic-architecture-plugins",
+        "path": "plugins/architecture-scan"
+      }
+    },
+    {
       "name": "archsight-aios",
       "source": {
         "source": "github",
@@ -4408,6 +4525,13 @@
       "source": {
         "source": "github",
         "repo": "mouadja02/arkitect"
+      }
+    },
+    {
+      "name": "arkspace",
+      "source": {
+        "source": "github",
+        "repo": "arch3rPro/Ark-Space"
       }
     },
     {
@@ -4812,6 +4936,14 @@
       }
     },
     {
+      "name": "atomic-commits",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/atomic-commits"
+      }
+    },
+    {
       "name": "attention",
       "source": {
         "source": "git-subdir",
@@ -4857,6 +4989,22 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/atuin"
+      }
+    },
+    {
+      "name": "au-cowork-moderator",
+      "source": {
+        "source": "git-subdir",
+        "url": "8hats/marketplace",
+        "path": "plugins/au-cowork-moderator"
+      }
+    },
+    {
+      "name": "au-cowork-personal",
+      "source": {
+        "source": "git-subdir",
+        "url": "8hats/marketplace",
+        "path": "plugins/au-cowork-personal"
       }
     },
     {
@@ -5252,6 +5400,22 @@
       }
     },
     {
+      "name": "aws-startup-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "awslabs/startups",
+        "path": "advisor/plugins/aws-startup-advisor"
+      }
+    },
+    {
+      "name": "aws-startups-solution-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "awslabs/startups",
+        "path": "solution-architecture/plugins/aws-startups-solution-architecture"
+      }
+    },
+    {
       "name": "aws-transform",
       "source": {
         "source": "git-subdir",
@@ -5313,6 +5477,14 @@
       }
     },
     {
+      "name": "azure-cost",
+      "source": {
+        "source": "git-subdir",
+        "url": "microsoft/GitHub-Copilot-for-Azure",
+        "path": "plugins/azure-cost"
+      }
+    },
+    {
       "name": "azure-devops",
       "source": {
         "source": "git-subdir",
@@ -5350,6 +5522,14 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/azure-tools"
+      }
+    },
+    {
+      "name": "b",
+      "source": {
+        "source": "git-subdir",
+        "url": "joeblau/skills",
+        "path": "b"
       }
     },
     {
@@ -5674,6 +5854,14 @@
       }
     },
     {
+      "name": "baton-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jhuizingh/maestro",
+        "path": "baton"
+      }
+    },
+    {
       "name": "batuta",
       "source": {
         "source": "github",
@@ -5754,6 +5942,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/before-you-build"
+      }
+    },
+    {
+      "name": "befund",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/befund"
       }
     },
     {
@@ -5992,6 +6188,13 @@
       }
     },
     {
+      "name": "biik",
+      "source": {
+        "source": "github",
+        "repo": "tom-heo-biik/surisomath"
+      }
+    },
+    {
       "name": "bio-research",
       "source": {
         "source": "git-subdir",
@@ -6008,10 +6211,25 @@
       }
     },
     {
+      "name": "biomcp",
+      "source": {
+        "source": "github",
+        "repo": "genomoncology/biomcp"
+      }
+    },
+    {
       "name": "bionexus-reliability",
       "source": {
         "source": "github",
         "repo": "HERRY423/BioNexus"
+      }
+    },
+    {
+      "name": "bios-implant",
+      "source": {
+        "source": "git-subdir",
+        "url": "8hats/marketplace",
+        "path": "plugins/bios-implant"
       }
     },
     {
@@ -6794,6 +7012,14 @@
       }
     },
     {
+      "name": "browser-compat",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/browser-compat"
+      }
+    },
+    {
       "name": "browser-compatibility-tester",
       "source": {
         "source": "git-subdir",
@@ -6822,6 +7048,14 @@
       "source": {
         "source": "github",
         "repo": "raystyle/browser-harness"
+      }
+    },
+    {
+      "name": "browser-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/browser-qa"
       }
     },
     {
@@ -7001,6 +7235,14 @@
       }
     },
     {
+      "name": "burn",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-assets-1"
+      }
+    },
+    {
       "name": "burpsuite-project-parser",
       "source": {
         "source": "git-subdir",
@@ -7085,6 +7327,86 @@
       "source": {
         "source": "github",
         "repo": "sam-mountainman/BuzzAssist"
+      }
+    },
+    {
+      "name": "bymax-all",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-all"
+      }
+    },
+    {
+      "name": "bymax-bootstrap",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-bootstrap"
+      }
+    },
+    {
+      "name": "bymax-mobile",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-mobile"
+      }
+    },
+    {
+      "name": "bymax-pm",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-pm"
+      }
+    },
+    {
+      "name": "bymax-pr",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-pr"
+      }
+    },
+    {
+      "name": "bymax-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-qa"
+      }
+    },
+    {
+      "name": "bymax-quality",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-quality"
+      }
+    },
+    {
+      "name": "bymax-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-report"
+      }
+    },
+    {
+      "name": "bymax-web-verify",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-web-verify"
+      }
+    },
+    {
+      "name": "bymax-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "bymaxone/bymax-agent-kit",
+        "path": "plugins/bymax-workflow"
       }
     },
     {
@@ -7895,6 +8217,13 @@
       }
     },
     {
+      "name": "ccxp-skills",
+      "source": {
+        "source": "github",
+        "repo": "Synx-Data-Labs/ccxp-skills"
+      }
+    },
+    {
       "name": "cd-blocker",
       "source": {
         "source": "git-subdir",
@@ -8287,6 +8616,14 @@
       "source": {
         "source": "github",
         "repo": "diazoxide/charter"
+      }
+    },
+    {
+      "name": "chat-handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonid74/ai-skills",
+        "path": "plugins/chat-handoff"
       }
     },
     {
@@ -9044,6 +9381,13 @@
       }
     },
     {
+      "name": "claude-jev",
+      "source": {
+        "source": "github",
+        "repo": "0x7067/claude-jev"
+      }
+    },
+    {
       "name": "claude-job-hunt",
       "source": {
         "source": "github",
@@ -9564,6 +9908,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/clerk-pack"
+      }
+    },
+    {
+      "name": "cli-scaffold",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/cli-scaffold"
       }
     },
     {
@@ -10317,6 +10669,13 @@
       }
     },
     {
+      "name": "codememory-plugin",
+      "source": {
+        "source": "github",
+        "repo": "harrylettering/CodeMemory"
+      }
+    },
+    {
       "name": "codemender-security",
       "source": {
         "source": "github",
@@ -10558,6 +10917,13 @@
         "source": "git-subdir",
         "url": "hashgraph-online/awesome-codex-plugins",
         "path": "plugins/HDeibler/universal-design-principles/plugins/cognition-and-learnability-principles"
+      }
+    },
+    {
+      "name": "cognitive-biases",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-cognitive-biases"
       }
     },
     {
@@ -12877,11 +13243,26 @@
       }
     },
     {
+      "name": "cueloop",
+      "source": {
+        "source": "github",
+        "repo": "mmurakaru/cueloop"
+      }
+    },
+    {
       "name": "culture-index",
       "source": {
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/culture-index"
+      }
+    },
+    {
+      "name": "cupertino",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/cupertino"
       }
     },
     {
@@ -13028,6 +13409,14 @@
       }
     },
     {
+      "name": "cut-release",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/cut-release"
+      }
+    },
+    {
       "name": "cut-the-bullshit",
       "source": {
         "source": "github",
@@ -13048,6 +13437,13 @@
         "source": "git-subdir",
         "url": "francisco-perez-sorrosal/cv-forge",
         "path": "plugins/cv-forge"
+      }
+    },
+    {
+      "name": "cw",
+      "source": {
+        "source": "github",
+        "repo": "victorkzam/claude-code-setup"
       }
     },
     {
@@ -14835,6 +15231,38 @@
       }
     },
     {
+      "name": "demo-mucxapst",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit-hooks-shape/plugins/demo"
+      }
+    },
+    {
+      "name": "demo-mucxaqkf",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit-preflight-mixed/plugins/demo"
+      }
+    },
+    {
+      "name": "demo-mucxarax",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit-stale-lock/plugins/demo"
+      }
+    },
+    {
+      "name": "demo-mucxas4t",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit-uncompleted-run/plugins/demo"
+      }
+    },
+    {
       "name": "demo-one",
       "source": {
         "source": "git-subdir",
@@ -14955,6 +15383,14 @@
       }
     },
     {
+      "name": "dependabot-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/dependabot-review"
+      }
+    },
+    {
       "name": "dependency-audit",
       "source": {
         "source": "git-subdir",
@@ -14992,6 +15428,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-ariff/dependency-validator"
+      }
+    },
+    {
+      "name": "dependency-vetting",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/dependency-vetting"
       }
     },
     {
@@ -15585,6 +16029,14 @@
       }
     },
     {
+      "name": "dev-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonid74/ai-skills",
+        "path": "plugins/dev-toolkit"
+      }
+    },
+    {
       "name": "dev-tools",
       "source": {
         "source": "git-subdir",
@@ -16123,6 +16575,14 @@
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/differential-review"
+      }
+    },
+    {
+      "name": "diffle-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "codywilliamson/diffle",
+        "path": "integrations/claude-code/diffle-review"
       }
     },
     {
@@ -16686,6 +17146,13 @@
         "source": "git-subdir",
         "url": "stellarshenson/claude-code-plugins",
         "path": "plugins/document-processing"
+      }
+    },
+    {
+      "name": "document-specialist",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/document-specialist-skill"
       }
     },
     {
@@ -17351,6 +17818,21 @@
       }
     },
     {
+      "name": "drift-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-assets-2"
+      }
+    },
+    {
+      "name": "driftnote",
+      "source": {
+        "source": "github",
+        "repo": "khanh-an-569/driftnote"
+      }
+    },
+    {
       "name": "drogon",
       "source": {
         "source": "github",
@@ -17430,6 +17912,13 @@
       "source": {
         "source": "github",
         "repo": "b33kman/special-education-due-process-complaint"
+      }
+    },
+    {
+      "name": "duolingo",
+      "source": {
+        "source": "github",
+        "repo": "HKTITAN/duolingo"
       }
     },
     {
@@ -18359,6 +18848,13 @@
       }
     },
     {
+      "name": "eridian",
+      "source": {
+        "source": "github",
+        "repo": "jpboliv/eridian"
+      }
+    },
+    {
       "name": "error-debugging",
       "source": {
         "source": "git-subdir",
@@ -18869,6 +19365,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "c-level-advisor/executive-mentor"
+      }
+    },
+    {
+      "name": "exitbind-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "veyndrasystems/exitbind",
+        "path": "plugins/exitbind"
       }
     },
     {
@@ -19462,6 +19966,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/feedback-synthesizer"
+      }
+    },
+    {
+      "name": "fence",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-manifest-1"
       }
     },
     {
@@ -21603,6 +22115,13 @@
       }
     },
     {
+      "name": "frontend-axiom",
+      "source": {
+        "source": "github",
+        "repo": "zrajesh/frontend-axiom"
+      }
+    },
+    {
       "name": "frontend-conventions",
       "source": {
         "source": "git-subdir",
@@ -22110,6 +22629,14 @@
       }
     },
     {
+      "name": "gatekeep",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-hooks-1"
+      }
+    },
+    {
       "name": "gates",
       "source": {
         "source": "git-subdir",
@@ -22134,6 +22661,14 @@
       }
     },
     {
+      "name": "gauge",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/sealed-assets-1"
+      }
+    },
+    {
       "name": "gauntlet",
       "source": {
         "source": "git-subdir",
@@ -22146,6 +22681,14 @@
       "source": {
         "source": "github",
         "repo": "junkim100/gavel"
+      }
+    },
+    {
+      "name": "gborges-standard",
+      "source": {
+        "source": "git-subdir",
+        "url": "gborges0727/claude-plugins",
+        "path": "plugins/gborges-standard"
       }
     },
     {
@@ -22194,6 +22737,13 @@
         "source": "git-subdir",
         "url": "godaddy/cli",
         "path": "plugins/gddy"
+      }
+    },
+    {
+      "name": "gdocsmith",
+      "source": {
+        "source": "github",
+        "repo": "bdombro/gdocsmith"
       }
     },
     {
@@ -23282,6 +23832,13 @@
       }
     },
     {
+      "name": "god-prompt-mcp",
+      "source": {
+        "source": "github",
+        "repo": "AKzar1el/god-prompt-mcp"
+      }
+    },
+    {
       "name": "godmode",
       "source": {
         "source": "github",
@@ -23559,6 +24116,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/grabber-development"
+      }
+    },
+    {
+      "name": "grace",
+      "source": {
+        "source": "git-subdir",
+        "url": "osovv/grace-marketplace",
+        "path": "plugins/grace"
       }
     },
     {
@@ -23921,6 +24486,13 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/grounded-research"
+      }
+    },
+    {
+      "name": "groupsplit",
+      "source": {
+        "source": "github",
+        "repo": "Sussman-Club/group-split"
       }
     },
     {
@@ -24512,6 +25084,14 @@
       }
     },
     {
+      "name": "hatch",
+      "source": {
+        "source": "git-subdir",
+        "url": "jamiejefferson/Hatch",
+        "path": "plugins/hatch"
+      }
+    },
+    {
       "name": "hatsu",
       "source": {
         "source": "github",
@@ -24595,6 +25175,14 @@
         "source": "git-subdir",
         "url": "laurigates/claude-plugins",
         "path": "health-plugin"
+      }
+    },
+    {
+      "name": "healthypress",
+      "source": {
+        "source": "git-subdir",
+        "url": "Automattic/Agent-Use-Cases",
+        "path": "plugins/healthypress"
       }
     },
     {
@@ -24948,6 +25536,22 @@
         "source": "git-subdir",
         "url": "wildcat-finance/skills",
         "path": "plugins/hexaemeron"
+      }
+    },
+    {
+      "name": "hfi-deals",
+      "source": {
+        "source": "git-subdir",
+        "url": "mikedidierhfi/claude-plugins",
+        "path": "plugins/hfi-deals"
+      }
+    },
+    {
+      "name": "hfi-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "mikedidierhfi/claude-plugins",
+        "path": "plugins/hfi-skills"
       }
     },
     {
@@ -26536,6 +27140,21 @@
       }
     },
     {
+      "name": "jadlis-claudecode",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-claudecode"
+      }
+    },
+    {
+      "name": "jadlis-hub",
+      "source": {
+        "source": "git-subdir",
+        "url": "beCyborg/jadlis-hub",
+        "path": "plugins/jadlis-hub"
+      }
+    },
+    {
       "name": "janus",
       "source": {
         "source": "git-subdir",
@@ -27598,6 +28217,13 @@
       }
     },
     {
+      "name": "kingdom-factor",
+      "source": {
+        "source": "github",
+        "repo": "jclev-dev/kf-plugin"
+      }
+    },
+    {
       "name": "kit",
       "source": {
         "source": "git-subdir",
@@ -28372,6 +28998,14 @@
       }
     },
     {
+      "name": "ledgerly",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-manifest-2"
+      }
+    },
+    {
       "name": "legacy-modernization",
       "source": {
         "source": "git-subdir",
@@ -28473,6 +29107,14 @@
         "source": "git-subdir",
         "url": "runlegion/legion",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "lehre",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/lehre"
       }
     },
     {
@@ -29328,6 +29970,14 @@
       }
     },
     {
+      "name": "lockstep",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/sealed-hooks-1"
+      }
+    },
+    {
       "name": "log-aggregation-setup",
       "source": {
         "source": "git-subdir",
@@ -29486,11 +30136,27 @@
       }
     },
     {
+      "name": "loop-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "reach0908/paul-loop",
+        "path": "tools/loop-engine"
+      }
+    },
+    {
       "name": "loop-goal",
       "source": {
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/loop-goal"
+      }
+    },
+    {
+      "name": "loop-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "reach0908/paul-loop",
+        "path": "tools/loop-memory"
       }
     },
     {
@@ -30098,6 +30764,30 @@
       }
     },
     {
+      "name": "marathon",
+      "source": {
+        "source": "git-subdir",
+        "url": "standards-lab/claude-plugins",
+        "path": "plugins/marathon"
+      }
+    },
+    {
+      "name": "marathon-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "standards-lab/claude-plugins",
+        "path": "plugins/marathon-architecture"
+      }
+    },
+    {
+      "name": "marathon-roadmap",
+      "source": {
+        "source": "git-subdir",
+        "url": "standards-lab/claude-plugins",
+        "path": "plugins/marathon-roadmap"
+      }
+    },
+    {
       "name": "marc",
       "source": {
         "source": "git-subdir",
@@ -30223,6 +30913,13 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/market-sizing"
+      }
+    },
+    {
+      "name": "marketbase",
+      "source": {
+        "source": "github",
+        "repo": "marketbase-dev/marketbase"
       }
     },
     {
@@ -30506,6 +31203,14 @@
         "source": "git-subdir",
         "url": "matrixarkai/TemporalStore",
         "path": "integrations/claude-plugin"
+      }
+    },
+    {
+      "name": "matrize",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/matrize"
       }
     },
     {
@@ -31338,6 +32043,13 @@
       }
     },
     {
+      "name": "midnight-vibe",
+      "source": {
+        "source": "github",
+        "repo": "hyperitycorp-jkh/midnight-vibe"
+      }
+    },
+    {
       "name": "migrate-tool",
       "source": {
         "source": "git-subdir",
@@ -31359,6 +32071,14 @@
         "source": "git-subdir",
         "url": "laurigates/claude-plugins",
         "path": "migration-patterns-plugin"
+      }
+    },
+    {
+      "name": "migration-to-aws-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "awslabs/startups",
+        "path": "migrate/plugins/migration-to-aws"
       }
     },
     {
@@ -31577,6 +32297,13 @@
         "source": "git-subdir",
         "url": "mlab-sh/mlab-claude",
         "path": "plugins/mlab"
+      }
+    },
+    {
+      "name": "mnemon",
+      "source": {
+        "source": "github",
+        "repo": "hakastein/mnemon"
       }
     },
     {
@@ -32351,6 +33078,14 @@
       }
     },
     {
+      "name": "nacharbeit",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/nacharbeit"
+      }
+    },
+    {
       "name": "naksha",
       "source": {
         "source": "github",
@@ -32407,6 +33142,13 @@
       "source": {
         "source": "github",
         "repo": "cheng199896/SCI"
+      }
+    },
+    {
+      "name": "nautilus-compass",
+      "source": {
+        "source": "github",
+        "repo": "chunxiaoxx/nautilus-compass"
       }
     },
     {
@@ -33181,6 +33923,13 @@
       }
     },
     {
+      "name": "nupp",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-nupp"
+      }
+    },
+    {
       "name": "nyxid",
       "source": {
         "source": "github",
@@ -33807,6 +34556,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/omega-memory"
+      }
+    },
+    {
+      "name": "omni",
+      "source": {
+        "source": "git-subdir",
+        "url": "automagik-dev/omni",
+        "path": "plugins/omni"
       }
     },
     {
@@ -35140,6 +35897,14 @@
       }
     },
     {
+      "name": "passung",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/passung"
+      }
+    },
+    {
       "name": "pasture",
       "source": {
         "source": "github",
@@ -36375,6 +37140,14 @@
       }
     },
     {
+      "name": "planwerk",
+      "source": {
+        "source": "git-subdir",
+        "url": "Planwerk/planwerk-agent",
+        "path": "plugins/planwerk"
+      }
+    },
+    {
       "name": "planwright",
       "source": {
         "source": "github",
@@ -36741,6 +37514,14 @@
       "source": {
         "source": "git-subdir",
         "url": "byjunyoung/claude-product-skills",
+        "path": "plugins/pm"
+      }
+    },
+    {
+      "name": "pm-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "niancilyu-2/eyp-pm",
         "path": "plugins/pm"
       }
     },
@@ -37854,6 +38635,14 @@
       "source": {
         "source": "github",
         "repo": "rohitg00/pro-workflow"
+      }
+    },
+    {
+      "name": "probe",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-scripts-2"
       }
     },
     {
@@ -39311,6 +40100,14 @@
       }
     },
     {
+      "name": "qa-ai-stlc",
+      "source": {
+        "source": "git-subdir",
+        "url": "Klim-101/QA-AI-STLC",
+        "path": "adapters/claude-plugin"
+      }
+    },
+    {
       "name": "qa-copilot",
       "source": {
         "source": "github",
@@ -39535,6 +40332,14 @@
         "source": "git-subdir",
         "url": "cyberuni/cyber-sdd",
         "path": "plugins/quill"
+      }
+    },
+    {
+      "name": "quill-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-docs-2"
       }
     },
     {
@@ -40805,6 +41610,14 @@
       }
     },
     {
+      "name": "report-upstream",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/report-upstream"
+      }
+    },
+    {
       "name": "reports",
       "source": {
         "source": "git-subdir",
@@ -40974,6 +41787,13 @@
       "source": {
         "source": "github",
         "repo": "hamelsmu/research-council"
+      }
+    },
+    {
+      "name": "research-council-2",
+      "source": {
+        "source": "github",
+        "repo": "abhisheksharma001/research-council"
       }
     },
     {
@@ -41513,6 +42333,14 @@
       }
     },
     {
+      "name": "rhapsody",
+      "source": {
+        "source": "git-subdir",
+        "url": "makewhatis/rhapsody",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "riffads",
       "source": {
         "source": "github",
@@ -41638,6 +42466,13 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "productivity/roast"
+      }
+    },
+    {
+      "name": "robert-greene",
+      "source": {
+        "source": "github",
+        "repo": "beCyborg/jadlis-robert-greene"
       }
     },
     {
@@ -43486,6 +44321,14 @@
       }
     },
     {
+      "name": "sentry-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-hooks-2"
+      }
+    },
+    {
       "name": "sentry-pack",
       "source": {
         "source": "git-subdir",
@@ -44072,6 +44915,14 @@
       }
     },
     {
+      "name": "ship-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "reach0908/paul-loop",
+        "path": "tools/ship-flow"
+      }
+    },
+    {
       "name": "ship-gate",
       "source": {
         "source": "git-subdir",
@@ -44359,6 +45210,14 @@
       "source": {
         "source": "git-subdir",
         "url": "bendrucker/claude",
+        "path": "plugins/shortcuts"
+      }
+    },
+    {
+      "name": "shortcuts-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
         "path": "plugins/shortcuts"
       }
     },
@@ -45574,10 +46433,26 @@
       }
     },
     {
+      "name": "sot-runtime",
+      "source": {
+        "source": "git-subdir",
+        "url": "looptech-ai/sot-runtime-plugin",
+        "path": "plugins/sot-runtime"
+      }
+    },
+    {
       "name": "soujo",
       "source": {
         "source": "github",
         "repo": "SilentMalachite/Soujo"
+      }
+    },
+    {
+      "name": "soulmate",
+      "source": {
+        "source": "git-subdir",
+        "url": "veyndrasystems/exitbind",
+        "path": "systems.veyndra.soulmate"
       }
     },
     {
@@ -46007,6 +46882,13 @@
       }
     },
     {
+      "name": "splash",
+      "source": {
+        "source": "github",
+        "repo": "buriedsignals/splash"
+      }
+    },
+    {
       "name": "splent",
       "source": {
         "source": "github",
@@ -46027,6 +46909,14 @@
         "source": "git-subdir",
         "url": "akunzai/agent-skills",
         "path": "plugins/spoken-tts"
+      }
+    },
+    {
+      "name": "spool",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/sealed-manifest-1"
       }
     },
     {
@@ -47570,6 +48460,14 @@
       }
     },
     {
+      "name": "takt",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/takt"
+      }
+    },
+    {
       "name": "talent-sourcing",
       "source": {
         "source": "git-subdir",
@@ -47582,6 +48480,14 @@
       "source": {
         "source": "github",
         "repo": "jasonrr/herdr-tally"
+      }
+    },
+    {
+      "name": "tally-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-scripts-1"
       }
     },
     {
@@ -48526,6 +49432,14 @@
       }
     },
     {
+      "name": "tether-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/sealed-docs-1"
+      }
+    },
+    {
       "name": "tetris",
       "source": {
         "source": "git-subdir",
@@ -48951,6 +49865,22 @@
       }
     },
     {
+      "name": "toastmasters-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "actions-marketplace-validations/korya_askl",
+        "path": "test/fixtures/real/toastmasters-mini"
+      }
+    },
+    {
+      "name": "toastmasters-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "actions-marketplace-validations/korya_askl",
+        "path": "test/fixtures/real/toastmasters-root/plugins/toastmasters"
+      }
+    },
+    {
       "name": "todo-list",
       "source": {
         "source": "github",
@@ -49002,6 +49932,13 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/token-launch-tracker"
+      }
+    },
+    {
+      "name": "token-optimizator",
+      "source": {
+        "source": "github",
+        "repo": "Kakhramon/token-optimizator"
       }
     },
     {
@@ -49355,6 +50292,14 @@
         "source": "git-subdir",
         "url": "nicoleman0/touchneedle",
         "path": "plugins/touchneedle"
+      }
+    },
+    {
+      "name": "toy-check",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/workflows/fixtures/toy-plugin"
       }
     },
     {
@@ -50274,6 +51219,14 @@
       }
     },
     {
+      "name": "ultimate-seo-geo",
+      "source": {
+        "source": "git-subdir",
+        "url": "mykpono/ultimate-seo-geo",
+        "path": "plugins/ultimate-seo-geo"
+      }
+    },
+    {
       "name": "ultra-deep-research",
       "source": {
         "source": "git-subdir",
@@ -50998,6 +51951,14 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/verify-content"
+      }
+    },
+    {
+      "name": "verify-marketplace",
+      "source": {
+        "source": "git-subdir",
+        "url": "svyatov/agent-toolkit",
+        "path": "plugins/verify-marketplace"
       }
     },
     {
@@ -51845,6 +52806,13 @@
       }
     },
     {
+      "name": "wadb",
+      "source": {
+        "source": "github",
+        "repo": "LinDevHard/wadb"
+      }
+    },
+    {
       "name": "wagmi-skills",
       "source": {
         "source": "github",
@@ -52527,6 +53495,14 @@
       }
     },
     {
+      "name": "weigh",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/sealed-scripts-1"
+      }
+    },
+    {
       "name": "wellnizz",
       "source": {
         "source": "git-subdir",
@@ -52759,6 +53735,14 @@
         "source": "git-subdir",
         "url": "SummerSec/DeepSonar-Skills",
         "path": "whitebox/xxe"
+      }
+    },
+    {
+      "name": "wick",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "test/plugins/fixtures/nacharbeit/tune-docs-1"
       }
     },
     {
@@ -54700,11 +55684,27 @@
       }
     },
     {
+      "name": "zeugnis",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/zeugnis"
+      }
+    },
+    {
       "name": "zhide915-skills",
       "source": {
         "source": "git-subdir",
         "url": "zhide915/skills",
         "path": "plugins/zhide915-skills"
+      }
+    },
+    {
+      "name": "zirkel",
+      "source": {
+        "source": "git-subdir",
+        "url": "Anselmoo/werkstoff",
+        "path": "plugins/zirkel"
       }
     },
     {

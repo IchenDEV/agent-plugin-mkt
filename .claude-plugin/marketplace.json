@@ -1412,6 +1412,14 @@
       }
     },
     {
+      "name": "agent-router-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Ajw2003/AjsClaudeCodeTools",
+        "path": "claude-agent-router/plugins/agent-router"
+      }
+    },
+    {
       "name": "agent-rules",
       "source": {
         "source": "github",
@@ -5213,6 +5221,14 @@
       }
     },
     {
+      "name": "autoflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/autoflow"
+      }
+    },
+    {
       "name": "autoharness",
       "source": {
         "source": "github",
@@ -5659,6 +5675,14 @@
       }
     },
     {
+      "name": "backlog-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/backlog"
+      }
+    },
+    {
       "name": "backlot",
       "source": {
         "source": "github",
@@ -5892,6 +5916,14 @@
       }
     },
     {
+      "name": "beacon",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/beacon"
+      }
+    },
+    {
       "name": "beads",
       "source": {
         "source": "github",
@@ -5985,6 +6017,22 @@
       }
     },
     {
+      "name": "benchkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/benchkit"
+      }
+    },
+    {
+      "name": "bend-spec",
+      "source": {
+        "source": "git-subdir",
+        "url": "Emerging-Patterns/skills",
+        "path": "plugins/bend-spec"
+      }
+    },
+    {
       "name": "beopsuny",
       "source": {
         "source": "github",
@@ -6051,6 +6099,13 @@
         "source": "git-subdir",
         "url": "b-galy/agent-kit",
         "path": "galy"
+      }
+    },
+    {
+      "name": "bgutschke-skills",
+      "source": {
+        "source": "github",
+        "repo": "bgutschke/skills"
       }
     },
     {
@@ -6371,6 +6426,14 @@
         "source": "git-subdir",
         "url": "Parcha-ai/parcha-skills",
         "path": "blast-radius"
+      }
+    },
+    {
+      "name": "blastguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/blastguard"
       }
     },
     {
@@ -7072,6 +7135,14 @@
         "source": "git-subdir",
         "url": "RoninForge/budgetclaw",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "budgetguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/budgetguard"
       }
     },
     {
@@ -11349,6 +11420,14 @@
       }
     },
     {
+      "name": "compass-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/compass"
+      }
+    },
+    {
       "name": "compat-fixture",
       "source": {
         "source": "git-subdir",
@@ -11665,6 +11744,14 @@
       }
     },
     {
+      "name": "condukt",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/condukt"
+      }
+    },
+    {
       "name": "condux",
       "source": {
         "source": "git-subdir",
@@ -11939,6 +12026,14 @@
         "source": "git-subdir",
         "url": "amir-arad/claude-arad",
         "path": "plugins/context"
+      }
+    },
+    {
+      "name": "context-governor",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/context-governor"
       }
     },
     {
@@ -12526,6 +12621,14 @@
         "source": "git-subdir",
         "url": "cdeust/Cortex",
         "path": "plugins/cortex-viz-deprecated"
+      }
+    },
+    {
+      "name": "cost-ledger",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/cost-ledger"
       }
     },
     {
@@ -13235,6 +13338,14 @@
       }
     },
     {
+      "name": "ctxrot",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/ctxrot"
+      }
+    },
+    {
       "name": "cube-3",
       "source": {
         "source": "git-subdir",
@@ -13263,6 +13374,14 @@
         "source": "git-subdir",
         "url": "Anselmoo/werkstoff",
         "path": "plugins/cupertino"
+      }
+    },
+    {
+      "name": "curate",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/curate"
       }
     },
     {
@@ -13548,6 +13667,14 @@
       }
     },
     {
+      "name": "daily-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/daily"
+      }
+    },
+    {
       "name": "daily-driver",
       "source": {
         "source": "github",
@@ -13568,6 +13695,14 @@
         "source": "git-subdir",
         "url": "oratta/claude-harness",
         "path": "plugins/daily-report"
+      }
+    },
+    {
+      "name": "daily-report-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/daily-report"
       }
     },
     {
@@ -15027,6 +15162,14 @@
       }
     },
     {
+      "name": "deepwiki-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/deepwiki"
+      }
+    },
+    {
       "name": "defaults",
       "source": {
         "source": "git-subdir",
@@ -15931,6 +16074,13 @@
       }
     },
     {
+      "name": "dev-lead",
+      "source": {
+        "source": "github",
+        "repo": "aarontzeng/dev-lead"
+      }
+    },
+    {
       "name": "dev-loop",
       "source": {
         "source": "git-subdir",
@@ -16583,6 +16733,14 @@
         "source": "git-subdir",
         "url": "codywilliamson/diffle",
         "path": "integrations/claude-code/diffle-review"
+      }
+    },
+    {
+      "name": "difflog",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/difflog"
       }
     },
     {
@@ -17350,6 +17508,14 @@
         "source": "git-subdir",
         "url": "XRenSiu/claude-code-forge",
         "path": "plugins/done-when-pipeline"
+      }
+    },
+    {
+      "name": "donegate",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/donegate"
       }
     },
     {
@@ -19014,6 +19180,14 @@
       }
     },
     {
+      "name": "evalkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/evalkit"
+      }
+    },
+    {
       "name": "evaluate-plugin",
       "source": {
         "source": "git-subdir",
@@ -19982,6 +20156,14 @@
         "source": "git-subdir",
         "url": "HernandoR/agent-skillset",
         "path": "plugins/fetch-external-knowledge"
+      }
+    },
+    {
+      "name": "fetchguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/fetchguard"
       }
     },
     {
@@ -21127,6 +21309,14 @@
         "source": "git-subdir",
         "url": "synaptiai/synapti-marketplace",
         "path": "plugins/flow"
+      }
+    },
+    {
+      "name": "flow-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/flow"
       }
     },
     {
@@ -22289,6 +22479,14 @@
       }
     },
     {
+      "name": "fugu-router",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/fugu-router"
+      }
+    },
+    {
       "name": "fulcrum-ai-toolkit",
       "source": {
         "source": "git-subdir",
@@ -22406,6 +22604,13 @@
         "source": "git-subdir",
         "url": "eduardofurihata/lp-skills",
         "path": "plugins/furi-toolbox"
+      }
+    },
+    {
+      "name": "fusebase",
+      "source": {
+        "source": "github",
+        "repo": "ryan-haver/fusebase-mcp"
       }
     },
     {
@@ -22669,6 +22874,14 @@
       }
     },
     {
+      "name": "gauge-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/gauge"
+      }
+    },
+    {
       "name": "gauntlet",
       "source": {
         "source": "git-subdir",
@@ -22776,6 +22989,14 @@
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/gears-broadcast"
+      }
+    },
+    {
+      "name": "gecko-surf-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "GeckoVision/gecko-surf",
+        "path": "skills"
       }
     },
     {
@@ -24953,6 +25174,14 @@
       }
     },
     {
+      "name": "harness-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "juandarn/harness",
+        "path": "plugin/claude-code"
+      }
+    },
+    {
       "name": "harness-2",
       "source": {
         "source": "git-subdir",
@@ -25066,6 +25295,14 @@
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/harness-prd"
+      }
+    },
+    {
+      "name": "harness-status",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/harness-status"
       }
     },
     {
@@ -25796,6 +26033,14 @@
       }
     },
     {
+      "name": "house-rules",
+      "source": {
+        "source": "git-subdir",
+        "url": "Ajw2003/AjsClaudeCodeTools",
+        "path": "claude-house-rules/plugins/house-rules"
+      }
+    },
+    {
       "name": "housecarl",
       "source": {
         "source": "git-subdir",
@@ -25913,6 +26158,13 @@
         "source": "git-subdir",
         "url": "743v45/taevas-plugins",
         "path": "plugins/hugo"
+      }
+    },
+    {
+      "name": "huitzo",
+      "source": {
+        "source": "github",
+        "repo": "Huitzo-Inc/pack-claude-env"
       }
     },
     {
@@ -26170,6 +26422,14 @@
         "source": "git-subdir",
         "url": "jongwony/epistemic-protocols",
         "path": "hyphegesis"
+      }
+    },
+    {
+      "name": "hypothesis",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/hypothesis"
       }
     },
     {
@@ -28472,6 +28732,13 @@
       }
     },
     {
+      "name": "kpopper",
+      "source": {
+        "source": "github",
+        "repo": "ilanbm/kpopper"
+      }
+    },
+    {
       "name": "kramme-cc-workflow",
       "source": {
         "source": "git-subdir",
@@ -30686,6 +30953,14 @@
       }
     },
     {
+      "name": "maltese-workspace",
+      "source": {
+        "source": "git-subdir",
+        "url": "PeacePan/peace-agent-marketplace",
+        "path": "plugins/maltese-workspace"
+      }
+    },
+    {
       "name": "manage-repo-licensing",
       "source": {
         "source": "git-subdir",
@@ -31536,6 +31811,22 @@
         "source": "git-subdir",
         "url": "Centrepoint-Church/mcpbrain",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "md-eval",
+      "source": {
+        "source": "git-subdir",
+        "url": "ash-singh/md-eval",
+        "path": "plugins/md-eval"
+      }
+    },
+    {
+      "name": "md-eval-plan-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "ash-singh/md-eval",
+        "path": "plugins/md-eval-plan-gate"
       }
     },
     {
@@ -33116,6 +33407,14 @@
       }
     },
     {
+      "name": "narness",
+      "source": {
+        "source": "git-subdir",
+        "url": "BestNathan/narness-engineering",
+        "path": "plugins/narness"
+      }
+    },
+    {
       "name": "naswerks",
       "source": {
         "source": "github",
@@ -33405,6 +33704,13 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/neural-network-builder"
+      }
+    },
+    {
+      "name": "neuraldsp-preset-generator",
+      "source": {
+        "source": "github",
+        "repo": "YoavBZ/neuraldsp-preset-generator"
       }
     },
     {
@@ -33725,6 +34031,14 @@
       "source": {
         "source": "github",
         "repo": "norman-finance/norman-mcp-server"
+      }
+    },
+    {
+      "name": "norwegianforest-workspace",
+      "source": {
+        "source": "git-subdir",
+        "url": "PeacePan/peace-agent-marketplace",
+        "path": "plugins/norwegianforest-workspace"
       }
     },
     {
@@ -35561,6 +35875,14 @@
       }
     },
     {
+      "name": "overwatch",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/overwatch"
+      }
+    },
+    {
       "name": "owasp-compliance-checker",
       "source": {
         "source": "git-subdir",
@@ -35684,6 +36006,14 @@
         "source": "git-subdir",
         "url": "padosoft/skills",
         "path": "plugins/padosoft-react-native"
+      }
+    },
+    {
+      "name": "pair-watch",
+      "source": {
+        "source": "git-subdir",
+        "url": "inakaegg/pair-watch",
+        "path": "plugins/pair-watch"
       }
     },
     {
@@ -35847,6 +36177,14 @@
       "source": {
         "source": "github",
         "repo": "parallel-web/parallel-agent-skills"
+      }
+    },
+    {
+      "name": "parallelguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/parallelguard"
       }
     },
     {
@@ -37187,6 +37525,14 @@
       }
     },
     {
+      "name": "playbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/playbook"
+      }
+    },
+    {
       "name": "playground",
       "source": {
         "source": "git-subdir",
@@ -38363,6 +38709,14 @@
       }
     },
     {
+      "name": "precommit-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/precommit-audit"
+      }
+    },
+    {
       "name": "predictive-resource-allocation",
       "source": {
         "source": "git-subdir",
@@ -38769,6 +39123,14 @@
         "source": "git-subdir",
         "url": "motifpath/motifpath-specs",
         "path": "plugins/product-discovery"
+      }
+    },
+    {
+      "name": "product-handover",
+      "source": {
+        "source": "git-subdir",
+        "url": "oratta/claude-harness",
+        "path": "plugins/product-handover"
       }
     },
     {
@@ -39284,6 +39646,14 @@
       }
     },
     {
+      "name": "prompt-workshop",
+      "source": {
+        "source": "git-subdir",
+        "url": "Ajw2003/AjsClaudeCodeTools",
+        "path": "claude-prompt-workshop/plugins/prompt-workshop"
+      }
+    },
+    {
       "name": "promptbook",
       "source": {
         "source": "git-subdir",
@@ -39434,6 +39804,14 @@
       }
     },
     {
+      "name": "propguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/propguard"
+      }
+    },
+    {
       "name": "proplasma",
       "source": {
         "source": "git-subdir",
@@ -39522,6 +39900,14 @@
       }
     },
     {
+      "name": "protocol-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "Mar5929/claude-toolkit",
+        "path": "plugins/protocol-guard"
+      }
+    },
+    {
       "name": "prototype",
       "source": {
         "source": "git-subdir",
@@ -39598,6 +39984,14 @@
         "source": "git-subdir",
         "url": "Pseudogiant-xr/Pseudolife-MCP",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "pseudoplan",
+      "source": {
+        "source": "git-subdir",
+        "url": "nev-dru/claude-plugins",
+        "path": "pseudoplan"
       }
     },
     {
@@ -40123,6 +40517,14 @@
       }
     },
     {
+      "name": "qa-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "hongbietcode/qa-kit",
+        "path": "plugins/qa-kit"
+      }
+    },
+    {
       "name": "qa-planner",
       "source": {
         "source": "git-subdir",
@@ -40289,6 +40691,13 @@
       }
     },
     {
+      "name": "questionpunk",
+      "source": {
+        "source": "github",
+        "repo": "questionpunk/claude-plugin"
+      }
+    },
+    {
       "name": "quick-gate-js",
       "source": {
         "source": "github",
@@ -40446,6 +40855,14 @@
       "source": {
         "source": "github",
         "repo": "zeabur/rag-service"
+      }
+    },
+    {
+      "name": "ragdoll-workspace",
+      "source": {
+        "source": "git-subdir",
+        "url": "PeacePan/peace-agent-marketplace",
+        "path": "plugins/ragdoll-workspace"
       }
     },
     {
@@ -41501,6 +41918,14 @@
       }
     },
     {
+      "name": "replaykit",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/replaykit"
+      }
+    },
+    {
       "name": "replit-pack",
       "source": {
         "source": "git-subdir",
@@ -42301,6 +42726,14 @@
       }
     },
     {
+      "name": "reviewgate",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/reviewgate"
+      }
+    },
+    {
       "name": "rf-reviewer",
       "source": {
         "source": "git-subdir",
@@ -42337,6 +42770,14 @@
       "source": {
         "source": "git-subdir",
         "url": "makewhatis/rhapsody",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "rhiza",
+      "source": {
+        "source": "git-subdir",
+        "url": "Jebel-Quant/rhiza-claude",
         "path": "plugin"
       }
     },
@@ -42692,6 +43133,14 @@
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/runapi-mcp"
+      }
+    },
+    {
+      "name": "runbook",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/runbook"
       }
     },
     {
@@ -43508,6 +43957,14 @@
       }
     },
     {
+      "name": "schemaguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/schemaguard"
+      }
+    },
+    {
       "name": "schematic-planner",
       "source": {
         "source": "github",
@@ -43572,6 +44029,14 @@
       "source": {
         "source": "github",
         "repo": "not-ekalabya/scopegrep"
+      }
+    },
+    {
+      "name": "scout",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/scout"
       }
     },
     {
@@ -43770,6 +44235,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/skill-enhancers/search-to-slack"
+      }
+    },
+    {
+      "name": "searchlink-lite",
+      "source": {
+        "source": "github",
+        "repo": "GlobalMatchHub/searchlink-lite"
       }
     },
     {
@@ -44593,6 +45065,14 @@
       }
     },
     {
+      "name": "session-insights",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/session-insights"
+      }
+    },
+    {
       "name": "session-manager-2",
       "source": {
         "source": "git-subdir",
@@ -44837,6 +45317,13 @@
       }
     },
     {
+      "name": "shapeup-sdlc-plugin",
+      "source": {
+        "source": "github",
+        "repo": "nguyenvanphituoc/shapeup-sdlc-plugin"
+      }
+    },
+    {
       "name": "shared",
       "source": {
         "source": "github",
@@ -44912,6 +45399,14 @@
         "source": "git-subdir",
         "url": "mikersays/mikersays-plugins",
         "path": "plugins/ship"
+      }
+    },
+    {
+      "name": "ship-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/ship"
       }
     },
     {
@@ -45424,6 +45919,13 @@
         "source": "git-subdir",
         "url": "lazygophers/ccplugin",
         "path": "plugins/tools/skein"
+      }
+    },
+    {
+      "name": "skill-architect",
+      "source": {
+        "source": "github",
+        "repo": "Okja-Engineering/skill-architect"
       }
     },
     {
@@ -46646,6 +47148,14 @@
       }
     },
     {
+      "name": "specguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/specguard"
+      }
+    },
+    {
       "name": "specialists",
       "source": {
         "source": "git-subdir",
@@ -47562,6 +48072,14 @@
         "source": "git-subdir",
         "url": "studykit/studykit-plugins",
         "path": "structurizr"
+      }
+    },
+    {
+      "name": "stuckguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/stuckguard"
       }
     },
     {
@@ -48668,6 +49186,14 @@
       }
     },
     {
+      "name": "taskprog",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/taskprog"
+      }
+    },
+    {
       "name": "tasks",
       "source": {
         "source": "git-subdir",
@@ -48737,6 +49263,14 @@
         "source": "git-subdir",
         "url": "Parcha-ai/parcha-skills",
         "path": "tdd"
+      }
+    },
+    {
+      "name": "tdd-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/tdd"
       }
     },
     {
@@ -50303,6 +50837,14 @@
       }
     },
     {
+      "name": "tracekit",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/tracekit"
+      }
+    },
+    {
       "name": "traceme",
       "source": {
         "source": "git-subdir",
@@ -50416,6 +50958,14 @@
       "source": {
         "source": "github",
         "repo": "kanopi/training-video-generator"
+      }
+    },
+    {
+      "name": "trajectoryeval",
+      "source": {
+        "source": "git-subdir",
+        "url": "yukineko/claude-harnesses",
+        "path": "crates/trajectoryeval"
       }
     },
     {
@@ -51759,6 +52309,13 @@
       }
     },
     {
+      "name": "vaadin-agent-tools",
+      "source": {
+        "source": "github",
+        "repo": "vaadin/agent-tools"
+      }
+    },
+    {
       "name": "valcraft",
       "source": {
         "source": "git-subdir",
@@ -53048,6 +53605,13 @@
       }
     },
     {
+      "name": "watermarks-remover-2",
+      "source": {
+        "source": "github",
+        "repo": "kyubiez96/wm-remove"
+      }
+    },
+    {
       "name": "watermelon-ui",
       "source": {
         "source": "github",
@@ -54037,6 +54601,14 @@
       }
     },
     {
+      "name": "wonderpet-general",
+      "source": {
+        "source": "git-subdir",
+        "url": "PeacePan/peace-agent-marketplace",
+        "path": "plugins/wonderpet-general"
+      }
+    },
+    {
       "name": "wordpress-block-theme",
       "source": {
         "source": "git-subdir",
@@ -54333,6 +54905,14 @@
       "source": {
         "source": "github",
         "repo": "TreeX-X/WorkFlowX"
+      }
+    },
+    {
+      "name": "workflowy",
+      "source": {
+        "source": "git-subdir",
+        "url": "JeongseokChoi/j-ch-marketplace",
+        "path": "plugins/workflowy"
       }
     },
     {

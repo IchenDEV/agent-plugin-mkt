@@ -11524,6 +11524,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fusebase",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ryan-haver/fusebase-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fuzzy-filter",
       "source": {
         "source": "git-subdir",
@@ -15055,6 +15067,18 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/kotlin-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kpopper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ilanbm/kpopper.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19753,6 +19777,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pair-watch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/inakaegg/pair-watch.git",
+        "path": "./plugins/pair-watch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "palladius-common-commands",
       "source": {
         "source": "url",
@@ -21882,6 +21919,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
         "path": "./plugins/python3-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "qa-kit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hongbietcode/qa-kit.git",
+        "path": "./plugins/qa-kit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25298,6 +25348,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/jmqbataller/SiteProof.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-architect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Okja-Engineering/skill-architect.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28989,6 +29051,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wondelai/skills.git",
         "path": "./plugins/ux-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vaadin-agent-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vaadin/agent-tools.git"
       },
       "policy": {
         "installation": "AVAILABLE",

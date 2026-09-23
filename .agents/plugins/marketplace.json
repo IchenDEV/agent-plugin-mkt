@@ -1665,6 +1665,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "alex-coding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alex-coding-studio/skills.git",
+        "path": "./plugins/alex-coding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alexandria",
       "source": {
         "source": "git-subdir",
@@ -2192,6 +2205,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/isityael/apple-mail-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "apple-notes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sweetrb/apple-notes-mcp.git",
+        "path": "./codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7352,6 +7378,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cortex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/socra/agent-plugins.git",
+        "path": "./providers/codex/cortex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "costguard",
       "source": {
         "source": "git-subdir",
@@ -7627,6 +7666,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/creative-production"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cross-platform-agent-template",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VincentChuWaiChow/vanguard-frontier-agentic.git",
+        "path": "./plugins/cross-platform-agent-template"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8814,6 +8866,19 @@
         "source": "git-subdir",
         "url": "https://github.com/akin-ozer/cc-devops-skills.git",
         "path": "./devops-skills-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devrecap",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/jquinteiroo/devrecap"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10838,6 +10903,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
         "path": "./plugins/fastmcp-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fastsqla",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hadrien/FastSQLA.git",
+        "path": "./plugin/fastsqla"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14167,6 +14245,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "invisible-playwright-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/feder-cr/invisible_playwright_mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ios-27-xcode-skills",
       "source": {
         "source": "git-subdir",
@@ -14891,6 +14981,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/aklofas/kicad-happy.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kiss",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baldaworks/kiss.git",
+        "path": "./plugins/kiss"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17428,6 +17531,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mktux",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/markintux/mktux-harness.git",
+        "path": "./plugins/mktux-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ml-pipeline",
       "source": {
         "source": "git-subdir",
@@ -18576,6 +18692,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/annual30k/obsidian-memory-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "obsidian-organize",
       "source": {
         "source": "git-subdir",
@@ -19680,6 +19808,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/outreach"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "overclick",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ustoppble/overclick.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21566,19 +21707,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "prose-discipline",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/Akurganow/ai-plugins.git",
-        "path": "./plugins/prose-discipline"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
@@ -23177,6 +23305,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "robium",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/robium-ai/robium.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rootless-b",
       "source": {
         "source": "git-subdir",
@@ -24537,6 +24677,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "seo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bogusyogi/SEO.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "seo-analysis-monitoring",
       "source": {
         "source": "git-subdir",
@@ -25602,6 +25754,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/liuyewang/skill-sync-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill2openai-converter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/chenhz01/zhengming-openai-plugins.git",
+        "path": "./plugins/skill2openai-converter"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26877,6 +27042,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "switchboard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cielecki/switchboard.git",
+        "path": "./plugins/switchboard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "syarif-laravel-ai-skills",
       "source": {
         "source": "url",
@@ -28106,6 +28284,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tokamak",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mantty/tokamak.git",
+        "path": "./ai/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "token-harbor",
       "source": {
         "source": "git-subdir",
@@ -28325,6 +28516,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tralalero",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YCSE/tralalero-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29231,6 +29434,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/verify-with-controls"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "veteran-engineer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/9529360-cpu/veteran-engineer.git"
       },
       "policy": {
         "installation": "AVAILABLE",

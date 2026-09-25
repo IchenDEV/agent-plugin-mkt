@@ -329,6 +329,14 @@
       }
     },
     {
+      "name": "access-control-auditor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/access-control-auditor"
+      }
+    },
+    {
       "name": "accessibility",
       "source": {
         "source": "git-subdir",
@@ -397,6 +405,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/accessibility-test-scanner"
+      }
+    },
+    {
+      "name": "accessibility-test-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/accessibility-test-scanner"
       }
     },
     {
@@ -1592,6 +1608,14 @@
       }
     },
     {
+      "name": "agent-sdk-dev-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/agent-sdk-dev"
+      }
+    },
+    {
       "name": "agent-sdlc",
       "source": {
         "source": "github",
@@ -2630,6 +2654,13 @@
         "source": "git-subdir",
         "url": "bowers-illinois-edu/ai_workflow",
         "path": "plugins/ai-workflow-app"
+      }
+    },
+    {
+      "name": "aiad-sdd",
+      "source": {
+        "source": "github",
+        "repo": "everssteeve/sdd-mode"
       }
     },
     {
@@ -3957,6 +3988,14 @@
       }
     },
     {
+      "name": "api-fuzzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/api-fuzzer"
+      }
+    },
+    {
       "name": "api-gateway-builder",
       "source": {
         "source": "git-subdir",
@@ -4281,6 +4320,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/api-test-automation"
+      }
+    },
+    {
+      "name": "api-test-automation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/api-test-automation"
       }
     },
     {
@@ -4946,6 +4993,14 @@
       }
     },
     {
+      "name": "asana-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/asana"
+      }
+    },
+    {
       "name": "ascendc-port-orchestrator",
       "source": {
         "source": "git-subdir",
@@ -5484,11 +5539,27 @@
       }
     },
     {
+      "name": "authentication-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/authentication-validator"
+      }
+    },
+    {
       "name": "authoring",
       "source": {
         "source": "git-subdir",
         "url": "atman-33/workhub",
         "path": "plugins/authoring"
+      }
+    },
+    {
+      "name": "auto-format",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/auto-format"
       }
     },
     {
@@ -7488,6 +7559,14 @@
       }
     },
     {
+      "name": "breadboard-wiring",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/breadboard-wiring"
+      }
+    },
+    {
       "name": "breakpoints-adapter",
       "source": {
         "source": "git-subdir",
@@ -7642,6 +7721,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/browser-compatibility-tester"
+      }
+    },
+    {
+      "name": "browser-compatibility-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/browser-compatibility-tester"
       }
     },
     {
@@ -8266,6 +8353,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/skill-enhancers/calendar-to-workflow"
+      }
+    },
+    {
+      "name": "calendar-to-workflow-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/calendar-to-workflow"
       }
     },
     {
@@ -9142,6 +9237,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/chaos-engineering-toolkit"
+      }
+    },
+    {
+      "name": "chaos-engineering-toolkit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/chaos-engineering-toolkit"
       }
     },
     {
@@ -11407,6 +11510,14 @@
       }
     },
     {
+      "name": "code-review-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/code-review"
+      }
+    },
+    {
       "name": "code-review-2",
       "source": {
         "source": "git-subdir",
@@ -11548,6 +11659,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "plugins/code-simplifier"
+      }
+    },
+    {
+      "name": "code-simplifier-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/code-simplifier"
       }
     },
     {
@@ -11790,6 +11909,14 @@
       "source": {
         "source": "github",
         "repo": "hamza-aziz-ai/codex-claude-council"
+      }
+    },
+    {
+      "name": "codex-consult",
+      "source": {
+        "source": "git-subdir",
+        "url": "xelth-com/claude-codex-consult",
+        "path": "plugins/codex-consult"
       }
     },
     {
@@ -12308,6 +12435,14 @@
       }
     },
     {
+      "name": "commit-commands-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/commit-commands"
+      }
+    },
+    {
       "name": "commit-message-generator",
       "source": {
         "source": "git-subdir",
@@ -12607,6 +12742,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/compliance-report-generator"
+      }
+    },
+    {
+      "name": "compliance-report-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/compliance-report-generator"
       }
     },
     {
@@ -13287,6 +13430,14 @@
       }
     },
     {
+      "name": "context7-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/context7"
+      }
+    },
+    {
       "name": "context7-docs",
       "source": {
         "source": "git-subdir",
@@ -13346,6 +13497,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/contract-test-validator"
+      }
+    },
+    {
+      "name": "contract-test-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/contract-test-validator"
       }
     },
     {
@@ -13635,6 +13794,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/cors-policy-validator"
+      }
+    },
+    {
+      "name": "cors-policy-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/cors-policy-validator"
       }
     },
     {
@@ -14488,6 +14655,14 @@
       }
     },
     {
+      "name": "csrf-protection-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/csrf-protection-validator"
+      }
+    },
+    {
       "name": "css-cleaner",
       "source": {
         "source": "git-subdir",
@@ -15198,6 +15373,14 @@
       }
     },
     {
+      "name": "data-privacy-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/data-privacy-scanner"
+      }
+    },
+    {
       "name": "data-quality",
       "source": {
         "source": "git-subdir",
@@ -15867,6 +16050,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/database-test-manager"
+      }
+    },
+    {
+      "name": "database-test-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/database-test-manager"
       }
     },
     {
@@ -16866,6 +17057,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/dependency-checker"
+      }
+    },
+    {
+      "name": "dependency-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/dependency-checker"
       }
     },
     {
@@ -19642,6 +19841,14 @@
       }
     },
     {
+      "name": "e2e-test-framework-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/e2e-test-framework"
+      }
+    },
+    {
       "name": "ea-delivery",
       "source": {
         "source": "git-subdir",
@@ -20165,6 +20372,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/encryption-tool"
+      }
+    },
+    {
+      "name": "encryption-tool-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/encryption-tool"
       }
     },
     {
@@ -21056,6 +21271,14 @@
       }
     },
     {
+      "name": "example-plugin-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/example-plugin"
+      }
+    },
+    {
       "name": "excel-analyst-pro",
       "source": {
         "source": "git-subdir",
@@ -21251,6 +21474,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/explanatory-output-style"
+      }
+    },
+    {
+      "name": "explanatory-output-style-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/explanatory-output-style"
       }
     },
     {
@@ -21664,6 +21895,14 @@
       }
     },
     {
+      "name": "feature-dev-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/feature-dev"
+      }
+    },
+    {
       "name": "feature-engineering-toolkit",
       "source": {
         "source": "git-subdir",
@@ -21945,6 +22184,14 @@
       }
     },
     {
+      "name": "file-to-code-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/file-to-code"
+      }
+    },
+    {
       "name": "filesystem-pipeline",
       "source": {
         "source": "git-subdir",
@@ -22140,6 +22387,14 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/firebase"
+      }
+    },
+    {
+      "name": "firebase-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/firebase"
       }
     },
     {
@@ -24047,6 +24302,14 @@
       }
     },
     {
+      "name": "frontend-design-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/frontend-design"
+      }
+    },
+    {
       "name": "frontend-design-pro",
       "source": {
         "source": "github",
@@ -24682,6 +24945,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/gdpr-compliance-scanner"
+      }
+    },
+    {
+      "name": "gdpr-compliance-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/gdpr-compliance-scanner"
       }
     },
     {
@@ -25404,6 +25675,14 @@
       }
     },
     {
+      "name": "github-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/github"
+      }
+    },
+    {
       "name": "github-3",
       "source": {
         "source": "git-subdir",
@@ -25584,6 +25863,14 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/gitlab"
+      }
+    },
+    {
+      "name": "gitlab-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/gitlab"
       }
     },
     {
@@ -26384,6 +26671,14 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/greptile"
+      }
+    },
+    {
+      "name": "greptile-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/greptile"
       }
     },
     {
@@ -27837,6 +28132,14 @@
       }
     },
     {
+      "name": "hipaa-compliance-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/hipaa-compliance-checker"
+      }
+    },
+    {
       "name": "hitocall",
       "source": {
         "source": "github",
@@ -27942,6 +28245,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/hookify"
+      }
+    },
+    {
+      "name": "hookify-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/hookify"
       }
     },
     {
@@ -28398,6 +28709,13 @@
       "source": {
         "source": "github",
         "repo": "banqingyuan/lynlo-hyperframes-mirror"
+      }
+    },
+    {
+      "name": "hyperframes-6",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
       }
     },
     {
@@ -29040,6 +29358,14 @@
       }
     },
     {
+      "name": "input-validation-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/input-validation-scanner"
+      }
+    },
+    {
       "name": "insecure-defaults",
       "source": {
         "source": "git-subdir",
@@ -29187,6 +29513,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/integration-test-runner"
+      }
+    },
+    {
+      "name": "integration-test-runner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/integration-test-runner"
       }
     },
     {
@@ -31331,6 +31665,14 @@
       }
     },
     {
+      "name": "laravel-boost-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/laravel-boost"
+      }
+    },
+    {
       "name": "laravel-ddd",
       "source": {
         "source": "git-subdir",
@@ -31560,6 +31902,14 @@
         "source": "git-subdir",
         "url": "LING71671/Open-ClaudeCode",
         "path": "plugins/learning-output-style"
+      }
+    },
+    {
+      "name": "learning-output-style-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/learning-output-style"
       }
     },
     {
@@ -32114,6 +32464,14 @@
       }
     },
     {
+      "name": "linear-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/linear"
+      }
+    },
+    {
       "name": "linear-formatting",
       "source": {
         "source": "git-subdir",
@@ -32530,6 +32888,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/load-balancer-tester"
+      }
+    },
+    {
+      "name": "load-balancer-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/load-balancer-tester"
       }
     },
     {
@@ -35308,6 +35674,14 @@
       }
     },
     {
+      "name": "mobile-app-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/mobile-app-tester"
+      }
+    },
+    {
       "name": "mobile-app-ux-auditor",
       "source": {
         "source": "github",
@@ -35875,6 +36249,14 @@
       }
     },
     {
+      "name": "mutation-test-runner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/mutation-test-runner"
+      }
+    },
+    {
       "name": "mutation-tester",
       "source": {
         "source": "git-subdir",
@@ -35907,6 +36289,14 @@
       }
     },
     {
+      "name": "my-agent-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/templates/agent-plugin"
+      }
+    },
+    {
       "name": "my-command-plugin",
       "source": {
         "source": "git-subdir",
@@ -35915,11 +36305,27 @@
       }
     },
     {
+      "name": "my-command-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/templates/command-plugin"
+      }
+    },
+    {
       "name": "my-full-plugin",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "templates/full-plugin"
+      }
+    },
+    {
+      "name": "my-full-plugin-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/templates/full-plugin"
       }
     },
     {
@@ -35936,6 +36342,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "templates/minimal-plugin"
+      }
+    },
+    {
+      "name": "my-plugin-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/templates/minimal-plugin"
       }
     },
     {
@@ -37833,6 +38247,14 @@
       }
     },
     {
+      "name": "onramp",
+      "source": {
+        "source": "git-subdir",
+        "url": "timmywheels/onramp",
+        "path": "integrations/claude-code/plugin"
+      }
+    },
+    {
       "name": "onsetter",
       "source": {
         "source": "github",
@@ -37922,6 +38344,14 @@
       "source": {
         "source": "github",
         "repo": "openaccountant/skills"
+      }
+    },
+    {
+      "name": "openagents-decision-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "OpenAgentsInc/openagents",
+        "path": "plugins/claude"
       }
     },
     {
@@ -38796,6 +39226,14 @@
       }
     },
     {
+      "name": "owasp-compliance-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/owasp-compliance-checker"
+      }
+    },
+    {
       "name": "oya-browser",
       "source": {
         "source": "github",
@@ -39368,6 +39806,14 @@
       }
     },
     {
+      "name": "pci-dss-validator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/pci-dss-validator"
+      }
+    },
+    {
       "name": "pdf-creator-jp",
       "source": {
         "source": "git-subdir",
@@ -39460,6 +39906,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/penetration-tester"
+      }
+    },
+    {
+      "name": "penetration-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/penetration-tester"
       }
     },
     {
@@ -39679,6 +40133,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/performance-test-suite"
+      }
+    },
+    {
+      "name": "performance-test-suite-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/performance-test-suite"
       }
     },
     {
@@ -40557,6 +41019,14 @@
       }
     },
     {
+      "name": "playground-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/playground"
+      }
+    },
+    {
       "name": "playhtml",
       "source": {
         "source": "git-subdir",
@@ -40586,6 +41056,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/playwright"
+      }
+    },
+    {
+      "name": "playwright-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/playwright"
       }
     },
     {
@@ -41665,6 +42143,14 @@
       }
     },
     {
+      "name": "pr-review-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/pr-review"
+      }
+    },
+    {
       "name": "pr-review-toolkit",
       "source": {
         "source": "git-subdir",
@@ -41710,6 +42196,14 @@
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/code-improver/tests/fixtures/pr-review-toolkit"
+      }
+    },
+    {
+      "name": "pr-review-toolkit-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/pr-review-toolkit"
       }
     },
     {
@@ -44241,6 +44735,14 @@
       }
     },
     {
+      "name": "ralph-loop-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/ralph-loop"
+      }
+    },
+    {
       "name": "ralph-trio",
       "source": {
         "source": "git-subdir",
@@ -44498,6 +45000,14 @@
         "source": "git-subdir",
         "url": "ibootz/claude-devkit-marketplace",
         "path": "plugins/readable-citations"
+      }
+    },
+    {
+      "name": "readable-schematic",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/readable-schematic"
       }
     },
     {
@@ -45014,6 +45524,14 @@
       }
     },
     {
+      "name": "regression-test-tracker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/regression-test-tracker"
+      }
+    },
+    {
       "name": "regulation-to-markdown",
       "source": {
         "source": "github",
@@ -45355,6 +45873,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/replit-pack"
+      }
+    },
+    {
+      "name": "replit-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/replit-pack"
       }
     },
     {
@@ -45732,6 +46258,14 @@
       }
     },
     {
+      "name": "research-to-deploy-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/research-to-deploy"
+      }
+    },
+    {
       "name": "research-tools",
       "source": {
         "source": "git-subdir",
@@ -45971,6 +46505,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/retellai-pack"
+      }
+    },
+    {
+      "name": "retellai-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/retellai-pack"
       }
     },
     {
@@ -47831,6 +48373,14 @@
       }
     },
     {
+      "name": "search-to-slack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/search-to-slack"
+      }
+    },
+    {
       "name": "searchlink-lite",
       "source": {
         "source": "github",
@@ -47922,6 +48472,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/secret-scanner"
+      }
+    },
+    {
+      "name": "secret-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/secret-scanner"
       }
     },
     {
@@ -48045,6 +48603,14 @@
       }
     },
     {
+      "name": "security-audit-reporter-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-audit-reporter"
+      }
+    },
+    {
       "name": "security-blue-red-team",
       "source": {
         "source": "git-subdir",
@@ -48074,6 +48640,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-code",
         "path": "plugins/security-guidance"
+      }
+    },
+    {
+      "name": "security-guidance-10",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/security-guidance"
       }
     },
     {
@@ -48149,11 +48723,27 @@
       }
     },
     {
+      "name": "security-headers-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-headers-analyzer"
+      }
+    },
+    {
       "name": "security-incident-responder",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/security-incident-responder"
+      }
+    },
+    {
+      "name": "security-incident-responder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-incident-responder"
       }
     },
     {
@@ -48170,6 +48760,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/security-misconfiguration-finder"
+      }
+    },
+    {
+      "name": "security-misconfiguration-finder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-misconfiguration-finder"
       }
     },
     {
@@ -48218,6 +48816,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/security-test-scanner"
+      }
+    },
+    {
+      "name": "security-test-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/security-test-scanner"
       }
     },
     {
@@ -48458,6 +49064,14 @@
       }
     },
     {
+      "name": "sentry-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/sentry-pack"
+      }
+    },
+    {
       "name": "sentry-skills",
       "source": {
         "source": "github",
@@ -48570,6 +49184,14 @@
         "source": "git-subdir",
         "url": "anthropics/claude-plugins-official",
         "path": "external_plugins/serena"
+      }
+    },
+    {
+      "name": "serena-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/serena"
       }
     },
     {
@@ -48820,6 +49442,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/session-security-checker"
+      }
+    },
+    {
+      "name": "session-security-checker-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/session-security-checker"
       }
     },
     {
@@ -50250,6 +50880,14 @@
       }
     },
     {
+      "name": "slack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/slack"
+      }
+    },
+    {
       "name": "slack-agent",
       "source": {
         "source": "git-subdir",
@@ -50502,6 +51140,14 @@
       }
     },
     {
+      "name": "smoke-test-runner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/smoke-test-runner"
+      }
+    },
+    {
       "name": "snake",
       "source": {
         "source": "git-subdir",
@@ -50515,6 +51161,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/snapshot-test-manager"
+      }
+    },
+    {
+      "name": "snapshot-test-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/snapshot-test-manager"
       }
     },
     {
@@ -50547,6 +51201,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/soc2-audit-helper"
+      }
+    },
+    {
+      "name": "soc2-audit-helper-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/soc2-audit-helper"
       }
     },
     {
@@ -50903,6 +51565,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/speak-pack"
+      }
+    },
+    {
+      "name": "speak-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/speak-pack"
       }
     },
     {
@@ -51378,6 +52048,14 @@
       }
     },
     {
+      "name": "sql-injection-detector-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/sql-injection-detector"
+      }
+    },
+    {
       "name": "sql-query-optimizer",
       "source": {
         "source": "git-subdir",
@@ -51461,6 +52139,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/ssl-certificate-manager"
+      }
+    },
+    {
+      "name": "ssl-certificate-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/ssl-certificate-manager"
       }
     },
     {
@@ -51966,6 +52652,14 @@
       }
     },
     {
+      "name": "stripe-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/stripe"
+      }
+    },
+    {
       "name": "stripe-developer",
       "source": {
         "source": "git-subdir",
@@ -52225,6 +52919,14 @@
       }
     },
     {
+      "name": "supabase-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-official/external_plugins/supabase"
+      }
+    },
+    {
       "name": "supabase-js",
       "source": {
         "source": "git-subdir",
@@ -52238,6 +52940,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/supabase-pack"
+      }
+    },
+    {
+      "name": "supabase-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/supabase-pack"
       }
     },
     {
@@ -53853,6 +54563,14 @@
       }
     },
     {
+      "name": "test-coverage-analyzer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-coverage-analyzer"
+      }
+    },
+    {
       "name": "test-data-generator",
       "source": {
         "source": "git-subdir",
@@ -53869,6 +54587,14 @@
       }
     },
     {
+      "name": "test-data-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-data-generator"
+      }
+    },
+    {
       "name": "test-doubles-generator",
       "source": {
         "source": "git-subdir",
@@ -53877,11 +54603,27 @@
       }
     },
     {
+      "name": "test-doubles-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-doubles-generator"
+      }
+    },
+    {
       "name": "test-environment-manager",
       "source": {
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/test-environment-manager"
+      }
+    },
+    {
+      "name": "test-environment-manager-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-environment-manager"
       }
     },
     {
@@ -53917,6 +54659,14 @@
       }
     },
     {
+      "name": "test-orchestrator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-orchestrator"
+      }
+    },
+    {
       "name": "test-plugin",
       "source": {
         "source": "git-subdir",
@@ -53938,6 +54688,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/testing/test-report-generator"
+      }
+    },
+    {
+      "name": "test-report-generator-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-report-generator"
       }
     },
     {
@@ -55609,6 +56367,14 @@
       }
     },
     {
+      "name": "twinmind-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/twinmind-pack"
+      }
+    },
+    {
       "name": "twitter-engager",
       "source": {
         "source": "git-subdir",
@@ -56137,6 +56903,46 @@
       }
     },
     {
+      "name": "unic-archon-dlc",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/unic-archon-dlc"
+      }
+    },
+    {
+      "name": "unic-confluence",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/unic-confluence"
+      }
+    },
+    {
+      "name": "unic-learning-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/unic-learning-loop"
+      }
+    },
+    {
+      "name": "unic-pr-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/unic-pr-review"
+      }
+    },
+    {
+      "name": "unic-spec-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "unic/unic-agents-plugins",
+        "path": "apps/claude-code/unic-spec-review"
+      }
+    },
+    {
       "name": "unica",
       "source": {
         "source": "git-subdir",
@@ -56181,6 +56987,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/unit-test-generator"
+      }
+    },
+    {
+      "name": "unit-test-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/unit-test-generator"
       }
     },
     {
@@ -56637,6 +57451,14 @@
       }
     },
     {
+      "name": "vastai-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/vastai-pack"
+      }
+    },
+    {
       "name": "vastlint",
       "source": {
         "source": "github",
@@ -56735,6 +57557,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/vercel-pack"
+      }
+    },
+    {
+      "name": "vercel-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/vercel-pack"
       }
     },
     {
@@ -57266,6 +58096,14 @@
       }
     },
     {
+      "name": "visual-regression-tester-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/visual-regression-tester"
+      }
+    },
+    {
       "name": "visual-storyteller",
       "source": {
         "source": "git-subdir",
@@ -57713,6 +58551,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/vulnerability-scanner"
+      }
+    },
+    {
+      "name": "vulnerability-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/vulnerability-scanner"
       }
     },
     {
@@ -58301,6 +59147,14 @@
       }
     },
     {
+      "name": "web-to-github-issue-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/web-to-github-issue"
+      }
+    },
+    {
       "name": "web-vuln-report",
       "source": {
         "source": "git-subdir",
@@ -58784,6 +59638,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/windsurf-pack"
+      }
+    },
+    {
+      "name": "windsurf-pack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/windsurf-pack"
       }
     },
     {
@@ -60453,6 +61315,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/security/xss-vulnerability-scanner"
+      }
+    },
+    {
+      "name": "xss-vulnerability-scanner-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Dicklesworthstone/pi_agent_rust",
+        "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/xss-vulnerability-scanner"
       }
     },
     {

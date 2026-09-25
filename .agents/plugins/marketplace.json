@@ -20822,6 +20822,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "openagents-decision-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OpenAgentsInc/openagents.git",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "openai-ads-conversions",
       "source": {
         "source": "git-subdir",

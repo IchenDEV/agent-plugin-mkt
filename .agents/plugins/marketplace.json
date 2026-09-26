@@ -485,6 +485,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "afk-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AlvinShenSSW/afk.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agency-continuity-audit",
       "source": {
         "source": "git-subdir",
@@ -743,6 +755,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Seretos/agent-project-issues.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-rally-point",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/agent-rally-point.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-relay",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/akashpandey/agent-relay.git",
+        "path": "./plugins/agent-relay"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11714,6 +11751,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "feedback-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lyainc/claude-kit.git",
+        "path": "./feedback-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "feishu2codex",
       "source": {
         "source": "git-subdir",
@@ -12679,6 +12729,19 @@
         "source": "git-subdir",
         "url": "https://github.com/gborges0727/claude-plugins.git",
         "path": "./plugins/gborges-standard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gbot",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ScriptedAlchemy/grok-bot-cli.git",
+        "path": "./artifact"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13793,6 +13856,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pairofmonths/grounded-asset-sheets.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grounded-forge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chrisgagne/grounded-forge.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15624,6 +15699,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tomtyiu/Jev-decision-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jev-sim-use",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Ryu0118/jev-sim-use.git",
+        "path": "./plugins/jev-sim-use"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20191,6 +20279,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-vault-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lyainc/claude-kit.git",
+        "path": "./obsidian-vault-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "oc-codex-multi-auth",
       "source": {
         "source": "git-subdir",
@@ -22066,6 +22167,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plan-dispatcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/whichguy/skill-craft.git",
+        "path": "./plugins/plan-dispatcher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plan-test",
       "source": {
         "source": "git-subdir",
@@ -23246,6 +23360,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "projector",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ninjudd/projector.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "prompt-align",
       "source": {
         "source": "git-subdir",
@@ -24099,6 +24225,19 @@
         "source": "git-subdir",
         "url": "https://github.com/railwayapp/railway-skills.git",
         "path": "./plugins/railway"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ralph-trio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pandas-studio/agent-team-plugins.git",
+        "path": "./ralph-trio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27176,6 +27315,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "showrunner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/emilvaintrub/ShowRunner.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shuriken",
       "source": {
         "source": "url",
@@ -27671,6 +27822,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skilletor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Getty/skilletor.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skillfactory",
       "source": {
         "source": "git-subdir",
@@ -28015,6 +28178,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "software-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/t-step/skills.git",
+        "path": "./plugins/software-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "software-factory-skills",
       "source": {
         "source": "url",
@@ -28242,6 +28418,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spec-trio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pandas-studio/agent-team-plugins.git",
+        "path": "./spec-trio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "specification",
       "source": {
         "source": "git-subdir",
@@ -28323,6 +28512,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Vanyangyang/spellcast.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sphica",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iroha924/sphica.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -30092,6 +30294,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "thinking-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lyainc/claude-kit.git",
+        "path": "./thinking-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "third-bridge",
       "source": {
         "source": "git-subdir",
@@ -31031,6 +31246,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ulazai-media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ulazai/agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ult",
       "source": {
         "source": "git-subdir",
@@ -31530,6 +31757,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vault-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lyainc/claude-kit.git",
+        "path": "./vault-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vault-sync",
       "source": {
         "source": "git-subdir",
@@ -31700,6 +31940,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/dadwadw233/VibePortrait"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vibecheck",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mgd34msu/vibecheck.git"
       },
       "policy": {
         "installation": "AVAILABLE",

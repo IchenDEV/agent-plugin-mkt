@@ -257,6 +257,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "actuary",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/richhaase/toolshed.git",
+        "path": "./plugins/actuary"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adant",
       "source": {
         "source": "git-subdir",
@@ -1318,6 +1331,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agtmls",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sebastienrousseau/agtmls.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agy",
       "source": {
         "source": "git-subdir",
@@ -1546,6 +1571,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aigate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/psyb0t/aigate.git",
+        "path": "./.agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aihawk",
       "source": {
         "source": "url",
@@ -1653,6 +1691,19 @@
         "source": "git-subdir",
         "url": "https://github.com/choisungwook/akbun-aitools.git",
         "path": "./plugins/akbun-draw-architecture"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "akbun-editvideo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/choisungwook/akbun-aitools.git",
+        "path": "./plugins/akbun-editvideo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2594,6 +2645,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "armory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/naman10parikh/armory.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "artifact-production",
       "source": {
         "source": "git-subdir",
@@ -3019,6 +3082,19 @@
         "source": "git-subdir",
         "url": "https://github.com/baleen37/bstack.git",
         "path": "./plugins/autoresearch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "autoseo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/codextde/autoseo.git",
+        "path": "./plugins/autoseo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4804,6 +4880,19 @@
         "source": "git-subdir",
         "url": "https://github.com/CatWranglerAI/plugins.git",
         "path": "./plugins/catwrangler"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EdgarSocrates98/spark-forge-aws.git",
+        "path": "./vendor/caveman/plugins/caveman"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12033,6 +12122,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "fixture",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/soelinmyat/pm.git",
+        "path": "./tests/fixtures/plugin-contract/valid"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fk",
       "source": {
         "source": "git-subdir",
@@ -12191,6 +12293,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bllshttng/footnote.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "foliade",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gekkode-dev/foliade-connectors.git",
+        "path": "./.agents/plugins/foliade"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13440,6 +13555,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gomore-qa-master",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stonebomdic/GoMore-QA-Master.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "google",
       "source": {
         "source": "git-subdir",
@@ -13702,6 +13829,45 @@
         "source": "git-subdir",
         "url": "https://github.com/neuromechanist/research-skills.git",
         "path": "./plugins/grant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "graphhelm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stabem/GraphHelm.git",
+        "path": "./plugins/graphhelm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "graphhelm-development-contracts",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stabem/GraphHelm.git",
+        "path": "./extensions/builtin/graphhelm-development-contracts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "graphhelm-jpd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stabem/GraphHelm.git",
+        "path": "./extensions/builtin/graphhelm-jpd"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16110,6 +16276,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kcap",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kurrent-io/kcap-cli.git",
+        "path": "./kcap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kdrive-connector",
       "source": {
         "source": "url",
@@ -18416,6 +18595,19 @@
         "source": "git-subdir",
         "url": "https://github.com/devkitio/mem0-codex-self-hosted-marketplace.git",
         "path": "./plugins/mem0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "memento",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/richhaase/toolshed.git",
+        "path": "./plugins/memento"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21354,6 +21546,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ostrich",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/richhaase/toolshed.git",
+        "path": "./plugins/ostrich"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "otelux",
       "source": {
         "source": "git-subdir",
@@ -22494,6 +22699,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Lutoshi-me/plumlayer-marketplace.git",
         "path": "./plugins/plumlayer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/soelinmyat/pm.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24238,6 +24455,18 @@
         "source": "git-subdir",
         "url": "https://github.com/pandas-studio/agent-team-plugins.git",
         "path": "./ralph-trio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rams",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rams-design/rams-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29318,6 +29547,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "synthex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bluminal/lumenai.git",
+        "path": "./plugins/synthex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "synthteam",
       "source": {
         "source": "url",
@@ -31569,6 +31811,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jtsternberg/claude-plugins.git",
         "path": "./plugins/pr-workflow/update-pr-description"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "uploads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buildinternet/uploads.git"
       },
       "policy": {
         "installation": "AVAILABLE",

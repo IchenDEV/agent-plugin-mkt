@@ -1066,6 +1066,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agentdesk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ArthurZakirov/AgentDesk.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agentgram",
       "source": {
         "source": "git-subdir",
@@ -3447,6 +3459,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "battery-review-forge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/arrizabalagags-png/BatteryReviewForge.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "batuta",
       "source": {
         "source": "url",
@@ -4598,6 +4622,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/earthtojake/text-to-cad.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cai-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/millerlai/claude-all-in-one.git",
+        "path": "./plugins/cai-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7300,6 +7337,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coding-friend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dinhanhthi/coding-friend.git",
+        "path": "./plugin-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codiris-agentizer",
       "source": {
         "source": "git-subdir",
@@ -8387,6 +8437,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cstack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Camgineer/cstack.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cube",
       "source": {
         "source": "git-subdir",
@@ -9248,6 +9310,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AgentsORG/design-engineering.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-helper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Dessert99/design-helper"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10747,6 +10822,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "due-diligence",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./due-diligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "durable-threads",
       "source": {
         "source": "url",
@@ -11281,6 +11369,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/prest4u/eric-agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eric-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AkaraChen/eric-design-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12814,6 +12914,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gangway",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/charlesabarnes/gangway.git",
+        "path": "./plugin/gangway"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gatekeeper",
       "source": {
         "source": "git-subdir",
@@ -14042,6 +14155,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gtg",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./gtg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "guard",
       "source": {
         "source": "git-subdir",
@@ -14354,6 +14480,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hei5enbug/hei5enbug-agent-setup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hello-world",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/liuww06/skills.git",
+        "path": "./plugins/hello-world"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15163,6 +15302,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "image",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/liuww06/skills.git",
+        "path": "./plugins/image"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "image-factory",
       "source": {
         "source": "url",
@@ -15510,6 +15662,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ayan-de/interview-research-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "invest",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/liuww06/skills.git",
+        "path": "./plugins/invest"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16344,6 +16509,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/keybid-puls"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "keyhole",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/L-Jovi/keyhole.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17375,6 +17552,19 @@
         "source": "git-subdir",
         "url": "https://github.com/santiago-migoni/llm-wiki.git",
         "path": "./plugins/llm-wiki"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "logical-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./logical-research"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22948,6 +23138,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "postman",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./postman"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "postmortem",
       "source": {
         "source": "git-subdir",
@@ -23581,6 +23784,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ninjudd/projector.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "projects",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./projects"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25652,6 +25868,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/runapi-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "runbooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thelogicmatrix/lm-tools.git",
+        "path": "./runbooks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27808,6 +28037,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "skill-craft",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/whichguy/skill-craft.git",
+        "path": "./plugins/skill-craft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "skill-creator",
       "source": {
         "source": "git-subdir",
@@ -29308,6 +29550,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "superdurable-dex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superdurable/dex-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "superhuman",
       "source": {
         "source": "git-subdir",
@@ -29694,6 +29948,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/systems-programming"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "systemsmith",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ArthurZakirov/SystemSmith.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32067,6 +32333,19 @@
         "source": "git-subdir",
         "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
         "path": "./plugins/vendored-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "veo-match-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/g-six/clubatx-ai.git",
+        "path": "./plugins/veo-match-analytics"
       },
       "policy": {
         "installation": "AVAILABLE",

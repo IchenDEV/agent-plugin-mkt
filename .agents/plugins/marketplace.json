@@ -346,6 +346,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "adlane",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adlane-app/plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "adobe",
       "source": {
         "source": "git-subdir",
@@ -793,6 +805,18 @@
         "source": "git-subdir",
         "url": "https://github.com/akashpandey/agent-relay.git",
         "path": "./plugins/agent-relay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-rules",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jvsteiner/agent-rules.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1411,6 +1435,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Morrison-Lab/ai-config.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ai-context-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MSiccDev/ai-context-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2695,6 +2731,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "arx-ui-spec",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aryanibos/arx-ui-spec.git",
+        "path": "./plugins/arx-ui-spec"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "arxiv-mcp-server",
       "source": {
         "source": "url",
@@ -2941,6 +2990,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/cloudguo123/atomlane"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "attention-guard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vinhthang/codex-attention-guard-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11176,6 +11237,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "engage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jgautheron/engage.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "engineering",
       "source": {
         "source": "git-subdir",
@@ -14015,6 +14088,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gravity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/chrizpower/skillz.git",
+        "path": "./plugins/gravity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "graymatter",
       "source": {
         "source": "git-subdir",
@@ -14147,6 +14233,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/chrisgagne/grounded-forge.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gt-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KingInYellows/yellow-plugins.git",
+        "path": "./plugins/gt-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15159,6 +15258,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./hyphegesis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hypotyposis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jongwony/epistemic-protocols.git",
+        "path": "./hypotyposis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16382,6 +16494,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/VilelaAI/KairOS-Forge.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kaleidara",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/findgriff/kaleidara.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17909,6 +18033,18 @@
         "source": "git-subdir",
         "url": "https://github.com/mikersays/mikersays-plugins.git",
         "path": "./plugins/maintenance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "maisecrets",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Mcpgate-de/maisecrets.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20648,6 +20784,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "obsidian-second-brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./obsidian-second-brain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "obsidian-skills",
       "source": {
         "source": "git-subdir",
@@ -21106,6 +21255,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/Cassette-Editor/oh-my-cassette"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oh-my-goal",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yc9954/oh-my-goal.git",
+        "path": "./plugins/oh-my-goal"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23549,6 +23711,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "procedural-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./procedural-memory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "process-and-robustness-principles",
       "source": {
         "source": "git-subdir",
@@ -25575,6 +25750,84 @@
         "source": "git-subdir",
         "url": "https://github.com/fab7hq/fab7.git",
         "path": "./products/ringframe/plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-context-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-context-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-devflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-devflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-outreach",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-outreach"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhize-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rhize-Media/rhize-plugins.git",
+        "path": "./rhize-tasks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27835,6 +28088,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sidepilot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yuezhiui/SidePilot.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "signatureapi",
       "source": {
         "source": "url",
@@ -29080,6 +29345,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sql-data-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yangarige/sql-data-agent.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sqlite",
       "source": {
         "source": "git-subdir",
@@ -29742,6 +30019,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/soden46/syarif-laravel-ai-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sylphx-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SylphxAI/skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31290,6 +31579,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nikolai-vysotskyi/trace-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trace-paper-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Ahmet-Ruchan/trace-research-paper-studio.git",
+        "path": "./plugins/trace-paper-studio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33986,6 +34288,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "yellow-ci",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KingInYellows/yellow-plugins.git",
+        "path": "./plugins/yellow-ci"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "yellow-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KingInYellows/yellow-plugins.git",
+        "path": "./plugins/yellow-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "yellow-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KingInYellows/yellow-plugins.git",
+        "path": "./plugins/yellow-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "yepcode",
       "source": {
         "source": "git-subdir",
@@ -34120,6 +34461,19 @@
         "source": "git-subdir",
         "url": "https://github.com/idealstarry/Zetema.git",
         "path": "./plugins/zetema"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zhyvyi-redaktor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/theamp1/redactor.git",
+        "path": "./plugins/zhyvyi-redaktor"
       },
       "policy": {
         "installation": "AVAILABLE",

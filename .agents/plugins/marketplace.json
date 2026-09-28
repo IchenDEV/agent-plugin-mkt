@@ -522,6 +522,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agency",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lucidIT-LLC/o-matic-agency.git",
+        "path": "./agency"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agency-continuity-audit",
       "source": {
         "source": "git-subdir",
@@ -669,6 +682,18 @@
         "source": "git-subdir",
         "url": "https://github.com/K999999999999/agent-plugins.git",
         "path": "./plugins/agent-engineering-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-firm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/joshualblau/agent-firm.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1567,6 +1592,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-skills-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/terzastella/italy-work-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-tooling",
       "source": {
         "source": "git-subdir",
@@ -1944,6 +1981,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/alpaca"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "alpha-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PalionTech/palm.git",
+        "path": "./test/fixtures/nested-plugins-like/plugins/alpha"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3457,6 +3507,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "backend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/joseAlfaro25/customs_agents.git",
+        "path": "./plugins/backend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "backend-api-security",
       "source": {
         "source": "git-subdir",
@@ -4192,10 +4255,36 @@
       "category": "Developer Tools"
     },
     {
+      "name": "brain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/karch4162/agent-infra.git",
+        "path": "./brain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "brain-dev",
       "source": {
         "source": "url",
         "url": "https://github.com/rootcause-org/rootcause-brain-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "brainstorm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Falconiere/toolu.git",
+        "path": "./plugins/brainstorm"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4925,6 +5014,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SriBYJU/Cascade.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "case-flags",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VicassoAI/vicasso-skills.git",
+        "path": "./plugins/case-flags"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7285,6 +7387,31 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/melodic-software/codex-plugins.git",
+        "path": "./plugins/codex-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Shredi/codex-orchestrator.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-peasant",
       "source": {
         "source": "git-subdir",
@@ -8486,6 +8613,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "course-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/luiscoco/atmira-OpenAI-Agents-API-Lab1-31_Understand-the-agent-harness.git",
+        "path": "./plugins/course-docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "coursetrace",
       "source": {
         "source": "git-subdir",
@@ -9405,6 +9545,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "delivery-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Falconiere/toolu.git",
+        "path": "./plugins/delivery-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "delivery-governance",
       "source": {
         "source": "git-subdir",
@@ -9539,6 +9692,18 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/dependency-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dependency-checker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/steventimes/dependency-checker.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10062,6 +10227,19 @@
         "source": "git-subdir",
         "url": "https://github.com/whichguy/skill-craft.git",
         "path": "./plugins/devloop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "devops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/joseAlfaro25/customs_agents.git",
+        "path": "./plugins/devops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11721,6 +11899,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "epic-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Falconiere/toolu.git",
+        "path": "./plugins/epic-orchestrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "episodic-memory",
       "source": {
         "source": "url",
@@ -12748,6 +12939,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ninihen1/power-automate-mcp-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "flowzone",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tjs-w/FlowZone.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13875,6 +14078,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fluxcd/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gitrelease",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/keithmackay/port-skill.git",
+        "path": "./examples/gitrelease-ported"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16167,6 +16383,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "investments",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dengrish/obsidian-skills.git",
+        "path": "./plugins/investments"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "invisible-playwright-mcp",
       "source": {
         "source": "url",
@@ -16247,6 +16476,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/iskron-ai/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "issue-delivery-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/benjaminlillo/issue-delivery-orchestrator.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17509,6 +17750,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/zznabil/lean-agent-skill-collection.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "lean-and-mean",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spinlockdevelopment/lean-and-mean.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19672,6 +19925,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/steve228uk/metro-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "micronaut-endpoints-config-root-level",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/voitta-ai/skillz.git",
+        "path": "./plugins/micronaut-endpoints-config-root-level"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22255,6 +22521,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "orchestrate-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gabros20/orchestrate-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "orchestration",
       "source": {
         "source": "git-subdir",
@@ -22349,6 +22627,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/orpc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cedricziel/claude-plugins.git",
+        "path": "./plugins/oss"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22692,6 +22983,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/parallel-web/parallel-agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "parallel-agent-session-collisions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/voitta-ai/skillz.git",
+        "path": "./plugins/parallel-agent-session-collisions"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23528,6 +23832,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plugin-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/melodic-software/codex-plugins.git",
+        "path": "./plugins/plugin-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pluginsync",
       "source": {
         "source": "git-subdir",
@@ -23618,6 +23935,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "polka",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/artkruglov/polka.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "polyforge",
       "source": {
         "source": "git-subdir",
@@ -23684,6 +24013,18 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/port"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "port-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/keithmackay/port-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26444,6 +26785,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "robotcode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/robotcodedev/robotframework-agent-plugins.git",
+        "path": "./plugins/robotcode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "room",
       "source": {
         "source": "git-subdir",
@@ -27516,6 +27870,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/sceneview/sceneview.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "scheduled-tasks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/melodic-software/codex-plugins.git",
+        "path": "./plugins/scheduled-tasks"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28689,6 +29056,19 @@
         "source": "git-subdir",
         "url": "https://github.com/silbaram/skill-plugin.git",
         "path": "./plugins/simple-output"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "simple-survey",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VicassoAI/vicasso-skills.git",
+        "path": "./plugins/simple-survey"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29931,6 +30311,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/sirmarkz/staff-engineer-mode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "staged-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dayowe/arcana-codex-plugins.git",
+        "path": "./plugins/staged-implementation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31441,6 +31834,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "test-a-commit-blocking-hook",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/voitta-ai/skillz.git",
+        "path": "./plugins/test-a-commit-blocking-hook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "test-android-apps",
       "source": {
         "source": "git-subdir",
@@ -32211,6 +32617,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/atilaahmettaner/tradingview-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trakt-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/swack-tools/trakt-ai-plugin.git",
+        "path": "./plugins/trakt-mcp"
       },
       "policy": {
         "installation": "AVAILABLE",

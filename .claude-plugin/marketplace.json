@@ -137,6 +137,14 @@
       }
     },
     {
+      "name": "1password-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/1password-cli"
+      }
+    },
+    {
       "name": "2048",
       "source": {
         "source": "git-subdir",
@@ -760,6 +768,14 @@
       }
     },
     {
+      "name": "adguard",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/adguard"
+      }
+    },
+    {
       "name": "adhd",
       "source": {
         "source": "git-subdir",
@@ -1242,6 +1258,14 @@
       }
     },
     {
+      "name": "agent-browser-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/agent-browser"
+      }
+    },
+    {
       "name": "agent-bundle-native-smoke",
       "source": {
         "source": "git-subdir",
@@ -1540,6 +1564,14 @@
       }
     },
     {
+      "name": "agent-link",
+      "source": {
+        "source": "git-subdir",
+        "url": "UberMorgott/agent-link",
+        "path": "plugins/agent-link"
+      }
+    },
+    {
       "name": "agent-manager-skill",
       "source": {
         "source": "git-subdir",
@@ -1630,6 +1662,13 @@
         "source": "git-subdir",
         "url": "oratta/claude-harness",
         "path": "plugins/agent-owner"
+      }
+    },
+    {
+      "name": "agent-pair-programming",
+      "source": {
+        "source": "github",
+        "repo": "rennerdo30/pair-desk"
       }
     },
     {
@@ -1858,6 +1897,22 @@
       "source": {
         "source": "github",
         "repo": "JeongJaeSoon/agent-skills"
+      }
+    },
+    {
+      "name": "agent-skills-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/agent-skills"
+      }
+    },
+    {
+      "name": "agent-skills-12",
+      "source": {
+        "source": "git-subdir",
+        "url": "PortSwigger/agent-wrangler",
+        "path": "agent-skills"
       }
     },
     {
@@ -2276,6 +2331,14 @@
         "source": "git-subdir",
         "url": "jtsternberg/claude-plugins",
         "path": "plugins/agentmail"
+      }
+    },
+    {
+      "name": "agentnews",
+      "source": {
+        "source": "git-subdir",
+        "url": "H1R-AI/agentnews",
+        "path": "plugins/agentnews"
       }
     },
     {
@@ -2911,6 +2974,14 @@
       }
     },
     {
+      "name": "ai-sdk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/ai-sdk"
+      }
+    },
+    {
       "name": "ai-sdk-agents",
       "source": {
         "source": "git-subdir",
@@ -3210,6 +3281,54 @@
         "source": "git-subdir",
         "url": "AI-Unified-Process/marketplace",
         "path": "aiup-vaadin-jooq"
+      }
+    },
+    {
+      "name": "aiwos-business",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/business"
+      }
+    },
+    {
+      "name": "aiwos-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/core"
+      }
+    },
+    {
+      "name": "aiwos-marketing",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/marketing"
+      }
+    },
+    {
+      "name": "aiwos-thinking",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/thinking"
+      }
+    },
+    {
+      "name": "aiwos-video",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/video"
+      }
+    },
+    {
+      "name": "aiwos-web",
+      "source": {
+        "source": "git-subdir",
+        "url": "Rebelzxr/ai-work-os",
+        "path": "packs/web"
       }
     },
     {
@@ -5189,6 +5308,14 @@
         "source": "git-subdir",
         "url": "mnox/mnox-ai",
         "path": "plugins/apply"
+      }
+    },
+    {
+      "name": "apprise-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/apprise-api"
       }
     },
     {
@@ -7271,6 +7398,14 @@
       }
     },
     {
+      "name": "beads-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/beads"
+      }
+    },
+    {
       "name": "beads-workflow",
       "source": {
         "source": "git-subdir",
@@ -7971,6 +8106,13 @@
         "source": "git-subdir",
         "url": "widnyana/eyay-toolkits",
         "path": "plugins/bmad-sprint-run"
+      }
+    },
+    {
+      "name": "bnb-investment-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "glodyfimpa/bnb-investment-toolkit"
       }
     },
     {
@@ -9118,6 +9260,14 @@
       }
     },
     {
+      "name": "c2c-client",
+      "source": {
+        "source": "git-subdir",
+        "url": "k0rp-com/claude2claude-mcp",
+        "path": "client-plugin"
+      }
+    },
+    {
       "name": "c4-architecture",
       "source": {
         "source": "git-subdir",
@@ -9219,6 +9369,13 @@
       }
     },
     {
+      "name": "cag",
+      "source": {
+        "source": "github",
+        "repo": "ArtemArzi/codex-agent-graphs"
+      }
+    },
+    {
       "name": "cagan-check",
       "source": {
         "source": "git-subdir",
@@ -9246,6 +9403,14 @@
       "source": {
         "source": "github",
         "repo": "SamMausberg/cairn"
+      }
+    },
+    {
+      "name": "cairn-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sandstrom99/cairn",
+        "path": "plugins/cairn"
       }
     },
     {
@@ -9465,6 +9630,14 @@
         "source": "git-subdir",
         "url": "kalinbogatzevski/captain-memo",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "captain-whiskers",
+      "source": {
+        "source": "git-subdir",
+        "url": "falkenslab/agent-kit",
+        "path": "examples/captain-whiskers/plugin"
       }
     },
     {
@@ -9708,6 +9881,14 @@
         "source": "git-subdir",
         "url": "coalesce-labs/catalyst",
         "path": "plugins/meta"
+      }
+    },
+    {
+      "name": "catalyst-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "Catalyst-Shift/catalyst-shift-plugins",
+        "path": "catalyst-ops"
       }
     },
     {
@@ -10591,6 +10772,14 @@
       }
     },
     {
+      "name": "chat-sdk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/chat-sdk"
+      }
+    },
+    {
       "name": "chat-style",
       "source": {
         "source": "git-subdir",
@@ -10815,6 +11004,13 @@
         "source": "git-subdir",
         "url": "jongwony/cc-plugin",
         "path": "choi-voice"
+      }
+    },
+    {
+      "name": "chrisbanes-skills",
+      "source": {
+        "source": "github",
+        "repo": "chrisbanes/skills"
       }
     },
     {
@@ -11336,6 +11532,14 @@
         "source": "git-subdir",
         "url": "gtapps/claude-code-hermit",
         "path": "plugins/claude-code-dev-hermit"
+      }
+    },
+    {
+      "name": "claude-code-expert",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/claude-code-expert"
       }
     },
     {
@@ -12008,6 +12212,13 @@
       }
     },
     {
+      "name": "claude-status-bar",
+      "source": {
+        "source": "github",
+        "repo": "jeancarlo-javier/claude-status-bar"
+      }
+    },
+    {
       "name": "claude-team-toolkit",
       "source": {
         "source": "github",
@@ -12234,6 +12445,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/clay-pack"
+      }
+    },
+    {
+      "name": "cldn-productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "chrisleedotninja/cldn-marketplace",
+        "path": "plugins/cldn-productivity"
+      }
+    },
+    {
+      "name": "cldn-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "chrisleedotninja/cldn-marketplace",
+        "path": "plugins/cldn-skills"
       }
     },
     {
@@ -15455,6 +15682,14 @@
       }
     },
     {
+      "name": "copper-board",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/copper-board"
+      }
+    },
+    {
       "name": "copyeditor",
       "source": {
         "source": "git-subdir",
@@ -15766,6 +16001,14 @@
       "source": {
         "source": "github",
         "repo": "jongmin-oh/cover-letter-pitch"
+      }
+    },
+    {
+      "name": "coverage-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/coverage-self-monitoring"
       }
     },
     {
@@ -16330,6 +16573,13 @@
       "source": {
         "source": "github",
         "repo": "CrowdStrike/foundry-skills"
+      }
+    },
+    {
+      "name": "crowdstrike-falcon-fusion",
+      "source": {
+        "source": "github",
+        "repo": "CrowdStrike/fusion-skills"
       }
     },
     {
@@ -18389,6 +18639,13 @@
       }
     },
     {
+      "name": "decupler-seo",
+      "source": {
+        "source": "github",
+        "repo": "NathanFenina/decupler-seo"
+      }
+    },
+    {
       "name": "deej-stack",
       "source": {
         "source": "github",
@@ -19385,6 +19642,14 @@
       }
     },
     {
+      "name": "design-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "Catalyst-Shift/catalyst-shift-plugins",
+        "path": "design-skill"
+      }
+    },
+    {
       "name": "design-studio",
       "source": {
         "source": "github",
@@ -19582,6 +19847,14 @@
       "source": {
         "source": "git-subdir",
         "url": "baijunjie/agent-skills",
+        "path": "plugins/dev"
+      }
+    },
+    {
+      "name": "dev-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rsvalerio/ai",
         "path": "plugins/dev"
       }
     },
@@ -20845,6 +21118,13 @@
         "source": "git-subdir",
         "url": "dlt-hub/dlthub-ai-harness",
         "path": "workbench/dlthub-platform"
+      }
+    },
+    {
+      "name": "dn-cli",
+      "source": {
+        "source": "github",
+        "repo": "jasikpark/dn-cli"
       }
     },
     {
@@ -22850,6 +23130,13 @@
       }
     },
     {
+      "name": "enlint",
+      "source": {
+        "source": "github",
+        "repo": "Textoic/textoic-skill"
+      }
+    },
+    {
       "name": "enrich-prompt",
       "source": {
         "source": "git-subdir",
@@ -23053,6 +23340,14 @@
         "source": "git-subdir",
         "url": "jongwony/epistemic-protocols",
         "path": "epistemic-cooperative"
+      }
+    },
+    {
+      "name": "epistemic-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/epistemic-self-monitoring"
       }
     },
     {
@@ -23736,6 +24031,14 @@
         "source": "git-subdir",
         "url": "alirezarezvani/claude-skills",
         "path": "c-level-advisor/executive-mentor"
+      }
+    },
+    {
+      "name": "executive-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/executive-self-monitoring"
       }
     },
     {
@@ -24741,6 +25044,13 @@
       }
     },
     {
+      "name": "financial-evidence",
+      "source": {
+        "source": "github",
+        "repo": "beepboop2025/financial-evidence-skills"
+      }
+    },
+    {
       "name": "find-before-build",
       "source": {
         "source": "git-subdir",
@@ -24878,6 +25188,14 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/firecrawl"
+      }
+    },
+    {
+      "name": "firecrawl-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/firecrawl"
       }
     },
     {
@@ -25599,6 +25917,13 @@
       }
     },
     {
+      "name": "flaim-fantasy",
+      "source": {
+        "source": "github",
+        "repo": "jdguggs10/flaim"
+      }
+    },
+    {
       "name": "flaky-memory",
       "source": {
         "source": "git-subdir",
@@ -25840,6 +26165,14 @@
       }
     },
     {
+      "name": "flue",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/flue"
+      }
+    },
+    {
       "name": "fluent-languages",
       "source": {
         "source": "git-subdir",
@@ -25900,6 +26233,13 @@
         "source": "git-subdir",
         "url": "kai-tw/claude-plugins",
         "path": "plugins/flutter-toolkit"
+      }
+    },
+    {
+      "name": "fluttersdk",
+      "source": {
+        "source": "github",
+        "repo": "fluttersdk/ai"
       }
     },
     {
@@ -27866,6 +28206,13 @@
       }
     },
     {
+      "name": "geniro",
+      "source": {
+        "source": "github",
+        "repo": "geniro-io/geniro-claude-harness"
+      }
+    },
+    {
       "name": "genius-skills",
       "source": {
         "source": "github",
@@ -28003,6 +28350,14 @@
         "source": "git-subdir",
         "url": "chalosalvador/claude-workflows",
         "path": "plugins/gh-issue-flow"
+      }
+    },
+    {
+      "name": "gh-issue-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/gh-issue-tracker"
       }
     },
     {
@@ -28703,6 +29058,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/glean-pack"
+      }
+    },
+    {
+      "name": "glinet",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/glinet"
       }
     },
     {
@@ -30262,6 +30625,14 @@
       }
     },
     {
+      "name": "handoff-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/handoff-self-monitoring"
+      }
+    },
+    {
       "name": "handover",
       "source": {
         "source": "git-subdir",
@@ -30462,6 +30833,13 @@
         "source": "git-subdir",
         "url": "Fueav/harness-driven-development",
         "path": "plugins/harness-driven-development"
+      }
+    },
+    {
+      "name": "harness-engineering-skills",
+      "source": {
+        "source": "github",
+        "repo": "meisijiya/harness-engineering-skills"
       }
     },
     {
@@ -31013,6 +31391,14 @@
       }
     },
     {
+      "name": "hermes-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/hermes"
+      }
+    },
+    {
       "name": "hermes-blind",
       "source": {
         "source": "github",
@@ -31278,10 +31664,26 @@
       }
     },
     {
+      "name": "homelab",
+      "source": {
+        "source": "git-subdir",
+        "url": "0xc0-homelab/claude-config",
+        "path": "plugins/homelab"
+      }
+    },
+    {
       "name": "homelab-core",
       "source": {
         "source": "github",
         "repo": "jmagar/claude-homelab"
+      }
+    },
+    {
+      "name": "honcho",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/honcho"
       }
     },
     {
@@ -31392,6 +31794,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/hospice-referral-sales"
+      }
+    },
+    {
+      "name": "hot-campaign-workbook-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "paulhinz/LF-Marketing-OS",
+        "path": "plugins/hot-campaign-workbook-agent"
       }
     },
     {
@@ -32181,6 +32591,14 @@
       }
     },
     {
+      "name": "immich",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/immich"
+      }
+    },
+    {
       "name": "impact-lens",
       "source": {
         "source": "git-subdir",
@@ -32637,6 +33055,14 @@
       }
     },
     {
+      "name": "install-axon",
+      "source": {
+        "source": "git-subdir",
+        "url": "dinglebear-ai/axon",
+        "path": "plugins/install-axon"
+      }
+    },
+    {
       "name": "install-labs",
       "source": {
         "source": "github",
@@ -32724,6 +33150,14 @@
       }
     },
     {
+      "name": "instrument-screen",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/instrument-screen"
+      }
+    },
+    {
       "name": "insurance-life-health-benefits",
       "source": {
         "source": "git-subdir",
@@ -32761,6 +33195,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/integration-test-runner"
+      }
+    },
+    {
+      "name": "integrity-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/integrity-self-monitoring"
       }
     },
     {
@@ -34447,6 +34889,14 @@
       }
     },
     {
+      "name": "keepr",
+      "source": {
+        "source": "git-subdir",
+        "url": "zbiewend/keepr-agent",
+        "path": "plugins/keepr"
+      }
+    },
+    {
       "name": "kepner-tregoe-analysis",
       "source": {
         "source": "git-subdir",
@@ -34731,6 +35181,14 @@
       }
     },
     {
+      "name": "knowledge-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "falkenslab/agent-kit",
+        "path": "assets/knowledge-plugin"
+      }
+    },
+    {
       "name": "knowledge-base",
       "source": {
         "source": "git-subdir",
@@ -34880,6 +35338,22 @@
       "source": {
         "source": "github",
         "repo": "ilanbm/kpopper"
+      }
+    },
+    {
+      "name": "kraft",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsOmidKarami/kraft",
+        "path": "plugins/kraft"
+      }
+    },
+    {
+      "name": "kraft-lite",
+      "source": {
+        "source": "git-subdir",
+        "url": "itsOmidKarami/kraft",
+        "path": "plugins/kraft-lite"
       }
     },
     {
@@ -37902,6 +38376,14 @@
       }
     },
     {
+      "name": "marketing-committee-chair-recommendation",
+      "source": {
+        "source": "git-subdir",
+        "url": "paulhinz/LF-Marketing-OS",
+        "path": "plugins/marketing-committee-chair-recommendation"
+      }
+    },
+    {
       "name": "marketing-operations",
       "source": {
         "source": "git-subdir",
@@ -39734,6 +40216,14 @@
       }
     },
     {
+      "name": "mnema",
+      "source": {
+        "source": "git-subdir",
+        "url": "felipesauer/mnema",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "mnemon",
       "source": {
         "source": "github",
@@ -41060,6 +41550,13 @@
       }
     },
     {
+      "name": "network-solutions-claude",
+      "source": {
+        "source": "github",
+        "repo": "netsolaicoe/netsol-claude-brand-builder"
+      }
+    },
+    {
       "name": "networking-plugin",
       "source": {
         "source": "git-subdir",
@@ -41214,6 +41711,13 @@
         "source": "git-subdir",
         "url": "Sleestk/Skills-Pipeline",
         "path": "SaaS/nextjs-developer"
+      }
+    },
+    {
+      "name": "nexty-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "nextdata-tech/nexty-agent-skills"
       }
     },
     {
@@ -41911,6 +42415,14 @@
         "source": "git-subdir",
         "url": "marsmike/agentic-toolkit",
         "path": "plugins/obsidian"
+      }
+    },
+    {
+      "name": "obsidian-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/obsidian"
       }
     },
     {
@@ -44555,6 +45067,14 @@
       }
     },
     {
+      "name": "perfboard-wiring",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/perfboard-wiring"
+      }
+    },
+    {
       "name": "performance",
       "source": {
         "source": "git-subdir",
@@ -44787,6 +45307,14 @@
       }
     },
     {
+      "name": "persistence-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/persistence-self-monitoring"
+      }
+    },
+    {
       "name": "persona",
       "source": {
         "source": "git-subdir",
@@ -44878,6 +45406,14 @@
         "source": "git-subdir",
         "url": "NightZpy/claude-skills",
         "path": "plugins/personal-ops"
+      }
+    },
+    {
+      "name": "personal-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "a-magdy/skills",
+        "path": "plugin"
       }
     },
     {
@@ -45081,6 +45617,14 @@
       }
     },
     {
+      "name": "pi",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/pi"
+      }
+    },
+    {
       "name": "pi-agent-for-claude",
       "source": {
         "source": "git-subdir",
@@ -45191,6 +45735,13 @@
       "source": {
         "source": "github",
         "repo": "MasonFlint44/claude-pins"
+      }
+    },
+    {
+      "name": "pinta-cc",
+      "source": {
+        "source": "github",
+        "repo": "pinta-ai/pinta-cc"
       }
     },
     {
@@ -46525,6 +47076,14 @@
       }
     },
     {
+      "name": "portainerctl",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/portainerctl"
+      }
+    },
+    {
       "name": "portal",
       "source": {
         "source": "github",
@@ -47025,6 +47584,14 @@
       "source": {
         "source": "github",
         "repo": "jonathanong/pr-shepherd"
+      }
+    },
+    {
+      "name": "pr-standard",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/pr-standard"
       }
     },
     {
@@ -47664,6 +48231,14 @@
       }
     },
     {
+      "name": "product-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "rsvalerio/ai",
+        "path": "plugins/product"
+      }
+    },
+    {
       "name": "product-discovery",
       "source": {
         "source": "git-subdir",
@@ -47851,6 +48426,14 @@
         "source": "git-subdir",
         "url": "sbigstar0310/daegyu-plugins",
         "path": "progress"
+      }
+    },
+    {
+      "name": "progress-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/progress-self-monitoring"
       }
     },
     {
@@ -50008,6 +50591,14 @@
         "source": "git-subdir",
         "url": "ibootz/claude-devkit-marketplace",
         "path": "plugins/readable-citations"
+      }
+    },
+    {
+      "name": "readable-graph",
+      "source": {
+        "source": "git-subdir",
+        "url": "tommie-jp/electronics-drawing-skills",
+        "path": "plugins/readable-graph"
       }
     },
     {
@@ -52729,6 +53320,14 @@
       }
     },
     {
+      "name": "safe-delete",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/safe-delete"
+      }
+    },
+    {
       "name": "safe-text-post",
       "source": {
         "source": "git-subdir",
@@ -54655,6 +55254,14 @@
       }
     },
     {
+      "name": "servarr",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/servarr"
+      }
+    },
+    {
       "name": "serverless-engineering",
       "source": {
         "source": "git-subdir",
@@ -55227,6 +55834,14 @@
         "source": "git-subdir",
         "url": "shin-corp/shinnn-app-plugins",
         "path": "plugins/shinnn-app"
+      }
+    },
+    {
+      "name": "shiny",
+      "source": {
+        "source": "git-subdir",
+        "url": "shinyorg/skills",
+        "path": "plugins/shiny"
       }
     },
     {
@@ -56162,6 +56777,14 @@
         "source": "git-subdir",
         "url": "dev-yakuza/deku-claude-plugins",
         "path": "plugins/skill-quality-plugin"
+      }
+    },
+    {
+      "name": "skill-release-preflight",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/skill-release-preflight"
       }
     },
     {
@@ -57558,6 +58181,13 @@
       }
     },
     {
+      "name": "spie-claude-skills",
+      "source": {
+        "source": "github",
+        "repo": "kevinmatspie/claude-skills"
+      }
+    },
+    {
       "name": "spike-hello-runtime",
       "source": {
         "source": "git-subdir",
@@ -58120,6 +58750,13 @@
         "source": "git-subdir",
         "url": "HollandDM/my-skills",
         "path": "stargazer-subagent-dev"
+      }
+    },
+    {
+      "name": "starmemory",
+      "source": {
+        "source": "github",
+        "repo": "albericliu0/starmemory"
       }
     },
     {
@@ -59263,6 +59900,20 @@
       }
     },
     {
+      "name": "swarm-3",
+      "source": {
+        "source": "github",
+        "repo": "fcarucci/Swarm"
+      }
+    },
+    {
+      "name": "swarm-dev",
+      "source": {
+        "source": "github",
+        "repo": "redscaresu/swarm-dev"
+      }
+    },
+    {
       "name": "swarmesh",
       "source": {
         "source": "github",
@@ -59320,6 +59971,14 @@
         "source": "git-subdir",
         "url": "cielecki/switchboard",
         "path": "plugins/switchboard"
+      }
+    },
+    {
+      "name": "switchyard",
+      "source": {
+        "source": "git-subdir",
+        "url": "brennanMKE/Switchyard",
+        "path": "skills/switchyard"
       }
     },
     {
@@ -60093,6 +60752,13 @@
       }
     },
     {
+      "name": "team-2",
+      "source": {
+        "source": "github",
+        "repo": "wtlmarco/scrum-team-plugin"
+      }
+    },
+    {
       "name": "team-collaboration",
       "source": {
         "source": "git-subdir",
@@ -60423,6 +61089,14 @@
         "source": "git-subdir",
         "url": "wmxscott/ai-toolkit",
         "path": "plugins/terminal-title"
+      }
+    },
+    {
+      "name": "termination-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/termination-self-monitoring"
       }
     },
     {
@@ -61917,6 +62591,14 @@
       }
     },
     {
+      "name": "tower",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/tower"
+      }
+    },
+    {
       "name": "toy-check",
       "source": {
         "source": "git-subdir",
@@ -63108,6 +63790,22 @@
       }
     },
     {
+      "name": "umami",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/umami"
+      }
+    },
+    {
+      "name": "umbrel-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/umbrel-app"
+      }
+    },
+    {
       "name": "umbrella",
       "source": {
         "source": "github",
@@ -63534,6 +64232,13 @@
         "source": "git-subdir",
         "url": "mentorano/ai-marketplace-mentorano",
         "path": "plugins/utils"
+      }
+    },
+    {
+      "name": "ux",
+      "source": {
+        "source": "github",
+        "repo": "Laith0003/ux-skill"
       }
     },
     {
@@ -64249,6 +64954,13 @@
       "source": {
         "source": "github",
         "repo": "zenstory-ai/video-recap-skills"
+      }
+    },
+    {
+      "name": "video-studio",
+      "source": {
+        "source": "github",
+        "repo": "harshil-1411/claude_plugin_video_studio"
       }
     },
     {
@@ -65279,6 +65991,13 @@
       }
     },
     {
+      "name": "wayfare",
+      "source": {
+        "source": "github",
+        "repo": "ai-hero/wayfare-skills"
+      }
+    },
+    {
       "name": "wayfind",
       "source": {
         "source": "github",
@@ -65361,6 +66080,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/wealth-management-ria"
+      }
+    },
+    {
+      "name": "wealthfolio",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/wealthfolio"
       }
     },
     {
@@ -67534,6 +68261,14 @@
         "source": "git-subdir",
         "url": "dvakatsiienko/frame",
         "path": "home/.claude/plugin-x-cw"
+      }
+    },
+    {
+      "name": "x-engagement",
+      "source": {
+        "source": "git-subdir",
+        "url": "zot24/skills",
+        "path": "skills/x-engagement"
       }
     },
     {

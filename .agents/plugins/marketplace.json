@@ -764,6 +764,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-link",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/UberMorgott/agent-link.git",
+        "path": "./plugins/agent-link"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-notifier",
       "source": {
         "source": "git-subdir",
@@ -1295,6 +1308,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wrzonance/agent-kit.git",
         "path": "./tests/probe/agentkit-probe"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentnews",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/H1R-AI/agentnews.git",
+        "path": "./plugins/agentnews"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6154,6 +6180,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chrisbanes-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chrisbanes/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "christian",
       "source": {
         "source": "git-subdir",
@@ -8765,6 +8803,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coverage-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/coverage-self-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cowart",
       "source": {
         "source": "url",
@@ -9013,6 +9064,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/foundry-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "crowdstrike-falcon-fusion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrowdStrike/fusion-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10985,6 +11048,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "done-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/kuroudo-ai/done-gate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "doon-dev",
       "source": {
         "source": "url",
@@ -11960,6 +12036,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "enlint",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Textoic/textoic-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "enter-fixture-result",
       "source": {
         "source": "git-subdir",
@@ -12066,6 +12154,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./epistemic-cooperative"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "epistemic-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/epistemic-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12397,6 +12498,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/hol-guard.git",
         "path": "./tests/fixtures/good-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "executive-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/executive-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12842,6 +12956,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "financial-evidence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/beepboop2025/financial-evidence-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "find-skills",
       "source": {
         "source": "git-subdir",
@@ -13000,6 +13126,18 @@
         "source": "git-subdir",
         "url": "https://github.com/DenisPapushaJava/figwright-kiwi-reader.git",
         "path": "./packages/kiwi-reader/release/codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "flaim-fantasy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jdguggs10/flaim.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15118,6 +15256,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "handoff-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/handoff-self-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hands-free",
       "source": {
         "source": "git-subdir",
@@ -16461,6 +16612,19 @@
         "source": "git-subdir",
         "url": "https://github.com/outcomeeng/plugins.git",
         "path": "./dist/claude/instructions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "integrity-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/integrity-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18653,6 +18817,19 @@
         "source": "git-subdir",
         "url": "https://github.com/kouko/loom-plugins.git",
         "path": "./loom-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loomaly",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/loomaly/loomaly"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23594,6 +23771,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "persistence-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/persistence-self-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "persona-pair-programmer",
       "source": {
         "source": "git-subdir",
@@ -25018,6 +25208,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Kaos599/professional-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "progress-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/progress-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29287,6 +29490,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "si-claude-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coreybowlby-os/si-claude-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sidekick",
       "source": {
         "source": "url",
@@ -30737,6 +30952,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/f0d010c/stark"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "starmemory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/albericliu0/starmemory.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32212,6 +32439,19 @@
         "source": "git-subdir",
         "url": "https://github.com/max-sixty/tend.git",
         "path": "./plugins/tend-ci-runner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "termination-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/termination-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34672,6 +34912,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/WaveSpeedAI/codex-plugin-wavespeed-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wayfare",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ai-hero/wayfare-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",

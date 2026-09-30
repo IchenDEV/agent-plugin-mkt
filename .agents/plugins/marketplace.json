@@ -999,6 +999,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-todos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/agent-todos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-toolkit-agents",
       "source": {
         "source": "git-subdir",
@@ -3428,6 +3441,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "awesome-agents-md",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khasky/awesome-agents-md.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "awesome-rules",
       "source": {
         "source": "url",
@@ -4177,6 +4202,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "blossom-hill-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khandrew1/blossom-hill-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bnbagent-studio",
       "source": {
         "source": "git-subdir",
@@ -4579,6 +4616,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hyhmrright/brooks-lint.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/browser"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6919,6 +6969,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cmux-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/cmux-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "co-author-harness",
       "source": {
         "source": "url",
@@ -9009,6 +9072,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "create",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baijunjie/agent-skills.git",
+        "path": "./plugins/create"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "create-diagram",
       "source": {
         "source": "url",
@@ -10131,6 +10207,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dev-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/dev-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dev-graph",
       "source": {
         "source": "git-subdir",
@@ -10657,6 +10746,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ibootz/claude-devkit-marketplace.git",
         "path": "./plugins/discover-unknowns"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/discovery"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12584,6 +12686,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "external-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/IsseiMatsuzoe/agent-skill-marketplace.git",
+        "path": "./plugins/external-agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "extra",
       "source": {
         "source": "git-subdir",
@@ -12935,6 +13050,18 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/file-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fin3000",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Fin3000/fin3000-ai-plugins.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14270,6 +14397,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/git-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-guards",
       "source": {
         "source": "git-subdir",
@@ -14309,6 +14449,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "git-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/git-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "git-workflows",
       "source": {
         "source": "git-subdir",
@@ -14327,6 +14480,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jabworks/agentic-toolkit.git",
         "path": "./dist/plugins/git-worktree"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "githits",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/githits-com/githits-cli.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15488,6 +15653,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hearting-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dmlguq456/hearting.git",
+        "path": "./adapters/codex/plugins/hearting-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hebbia",
       "source": {
         "source": "git-subdir",
@@ -16078,6 +16256,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hugo-blog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/hugo-blog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "human-cli",
       "source": {
         "source": "git-subdir",
@@ -16522,6 +16713,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/inflowpayai/inflow-cli.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "infra-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/infra-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18349,6 +18553,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "lidfly",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/awaik/lidfly-plugins.git",
+        "path": "./plugins/lidfly"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "life-science-research",
       "source": {
         "source": "git-subdir",
@@ -18982,6 +19199,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/LVTD-LLC/skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mac-mail-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/mac-mail-app"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20970,6 +21200,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "multi-agent-folder-cleanup",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JesseRaber/multi-agent-folder-cleanup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "multi-codex-plugin",
       "source": {
         "source": "git-subdir",
@@ -22441,6 +22683,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "office",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/office"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "office-plugin",
       "source": {
         "source": "git-subdir",
@@ -22650,6 +22905,18 @@
         "source": "git-subdir",
         "url": "https://github.com/stolenfootball/opdev.git",
         "path": "./plugins/opdev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "open-jev-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/louis-szeto/open-jev-bridge.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23545,6 +23812,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "patricia",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/patricia-app/patricia-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pattern",
       "source": {
         "source": "url",
@@ -23650,6 +23929,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ky1290-hub/pdf-parser.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pdf-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/pdf-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24561,6 +24853,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "portable-agent-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/IsseiMatsuzoe/agent-skill-marketplace.git",
+        "path": "./plugins/portable-agent-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "portal",
       "source": {
         "source": "url",
@@ -25208,6 +25513,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Kaos599/professional-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "programming",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/programming"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28710,6 +29028,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "semantic-scholar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ekunish/claude-semantic-scholar.git",
+        "path": "./plugins/semantic-scholar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "semble",
       "source": {
         "source": "git-subdir",
@@ -29097,6 +29428,58 @@
       "category": "Developer Tools"
     },
     {
+      "name": "setup-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baijunjie/agent-skills.git",
+        "path": "./plugins/setup-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "setup-git",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baijunjie/agent-skills.git",
+        "path": "./plugins/setup-git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "setup-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baijunjie/agent-skills.git",
+        "path": "./plugins/setup-knowledge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "setup-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/baijunjie/agent-skills.git",
+        "path": "./plugins/setup-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "setup-user",
       "source": {
         "source": "git-subdir",
@@ -29395,6 +29778,19 @@
         "source": "git-subdir",
         "url": "https://github.com/shode666/claude-skill-shode-house.git",
         "path": "./plugins/shode-house"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shokunin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
+        "path": "./marketplace/plugins/shokunin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29989,6 +30385,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/liuyewang/skill-sync-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skill-teaching",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/skill-teaching"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -30597,6 +31006,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/Habib0x0/spec-driven-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spec-flow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexei-led/cc-thingz.git",
+        "path": "./dist/codex/spec-flow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31258,6 +31680,31 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/style-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "styleseed",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bitjaru/styleseed.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "styleseed-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bitjaru/styleseed.git",
+        "path": "./extensions/learning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33215,6 +33662,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tracecat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/TracecatHQ/tracecat-plugins.git",
+        "path": "./plugins/tracecat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tracker",
       "source": {
         "source": "url",
@@ -33345,6 +33805,19 @@
         "source": "git-subdir",
         "url": "https://github.com/kodhama/trellis.git",
         "path": "./plugins/trellis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trello2obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/erich3000/ji-agent-skills.git",
+        "path": "./plugins/trello2obsidian"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35089,6 +35562,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/capitalparser/webgpt-orchestrator.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "websitepublisher",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alfandza/websitepublisher-codex-marketplace.git",
+        "path": "./plugins/websitepublisher"
       },
       "policy": {
         "installation": "AVAILABLE",

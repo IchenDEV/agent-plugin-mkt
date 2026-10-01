@@ -510,6 +510,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "afk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/midnightblur/afk-driver.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "afk-skills",
       "source": {
         "source": "url",
@@ -1485,6 +1497,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/AgiFlow/ai-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agterm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/umputun/agterm.git",
+        "path": "./plugins/agterm"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2837,6 +2862,19 @@
         "source": "git-subdir",
         "url": "https://github.com/levnikolaevich/claude-code-skills.git",
         "path": "./plugins/architecture-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "arcmira",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/arcmira/mcp.git",
+        "path": "./plugins/arcmira"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4271,6 +4309,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/khandrew1/blossom-hill-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "blueprint-mode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rickardp/blueprint-mode.git",
+        "path": "./plugins/blueprint-mode"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7444,6 +7495,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-attachment-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/chipfighter/codex-attachment-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-browser-fix",
       "source": {
         "source": "git-subdir",
@@ -7928,6 +7992,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/martinille/codex-tasklist"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-tools-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/KunHcz/codex-tools-bridge"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8982,6 +9059,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "court-rules",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/foklepoint/court-rules-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "coveo",
       "source": {
         "source": "git-subdir",
@@ -9406,6 +9496,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/kgelster/ecom-cwv-audit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cyber-asana",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyber-asana.git",
+        "path": "./packages/cyber-asana"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11094,6 +11197,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/docs-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docsbot-administration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/uglyrobot/docsbot-agent-skills.git",
+        "path": "./plugins/docsbot-administration"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18130,6 +18246,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kh-uaf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GNh0/KH.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kibi-codex",
       "source": {
         "source": "git-subdir",
@@ -22462,6 +22590,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nymrel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nymrel/nymrel-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nyxid",
       "source": {
         "source": "url",
@@ -23490,6 +23630,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/o11y-dev/opentelemetry-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "opentide-detection-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/opentidehq/skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25679,6 +25831,18 @@
         "source": "git-subdir",
         "url": "https://github.com/nerymurillohnd/codex-essentials.git",
         "path": "./plugins/prettier-after-edit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "priorify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/toba-solutions/priorify-agent-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29590,6 +29754,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "seo-agent-suite",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/majiayu000/seo-agent-suite.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "seo-analysis-monitoring",
       "source": {
         "source": "git-subdir",
@@ -31333,6 +31509,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sonmat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jun0-ds/sonmat.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sot-runtime",
       "source": {
         "source": "git-subdir",
@@ -31936,6 +32124,18 @@
         "source": "git-subdir",
         "url": "https://github.com/coachpo/3mi-plugins.git",
         "path": "./plugins/steward"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stingray",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nanako0129/stingray.git"
       },
       "policy": {
         "installation": "AVAILABLE",

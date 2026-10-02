@@ -4469,6 +4469,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "bland",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CINTELLILABS/bland-plugins.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "blast-radius",
       "source": {
         "source": "git-subdir",
@@ -5111,6 +5123,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "browsers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/FunnyQ/cc-plugins.git",
+        "path": "./packages/browsers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bug-triage-agent",
       "source": {
         "source": "git-subdir",
@@ -5203,6 +5228,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/build-macos-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "build-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cblack34/skills.git",
+        "path": "./plugins/build-pack"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5702,6 +5740,19 @@
         "source": "git-subdir",
         "url": "https://github.com/coalesce-labs/catalyst.git",
         "path": "./plugins/playground/pm-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "catherd",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/47vigen/catherd.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6986,6 +7037,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/alirezarezvani/claude-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CSparks/claude-kit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9298,6 +9361,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "corply",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/corply-dev/corply-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cortex",
       "source": {
         "source": "git-subdir",
@@ -9726,6 +9801,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Camgineer/cstack.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ctx",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ctxrs/ctx.git",
+        "path": "./plugins/ctx"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17239,6 +17327,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hypersolutions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hyper-Solutions/hypersolutions-codex.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hyphegesis",
       "source": {
         "source": "git-subdir",
@@ -17269,6 +17369,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ayghri/i-have-adhd.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "i-have-asd-ste100",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hiendang7613/i-have-asd-ste100.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19431,6 +19543,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "legalizaobra",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thiagosalvatore/legalizaobra-plugins.git",
+        "path": "./plugins/legalizaobra"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "legends-seo-dungeon",
       "source": {
         "source": "git-subdir",
@@ -19900,6 +20025,19 @@
         "source": "git-subdir",
         "url": "https://github.com/aequitas-labs/lobstah.git",
         "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "local-first",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/depatchedmode/oughta.git",
+        "path": "./local-first"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22841,6 +22979,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nitpick",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LVTD-LLC/nitpick-skills.git",
+        "path": "./plugins/nitpick"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nixie",
       "source": {
         "source": "git-subdir",
@@ -22945,6 +23096,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/noootwo/noootwo-vibe.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "norm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CINTELLILABS/bland-plugins.git",
+        "path": "./v2"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25720,6 +25884,18 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/please-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pleiad",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/barucoh/pleiad.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29035,6 +29211,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "roundhouse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/novotnyllc/roundhouse.git",
+        "path": "./plugins/roundhouse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "route",
       "source": {
         "source": "git-subdir",
@@ -30029,6 +30218,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "satchel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NeerajG03/satchel.git",
+        "path": "./integrations/codex/satchel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sato-hub",
       "source": {
         "source": "url",
@@ -30521,6 +30723,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "senpi-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Senpi-ai/senpi-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sensemaking",
       "source": {
         "source": "git-subdir",
@@ -30989,6 +31203,18 @@
         "source": "git-subdir",
         "url": "https://github.com/avivsinai/skills-marketplace.git",
         "path": "./plugins/shaon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sharecube",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/infragate/sharecube-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32144,6 +32370,18 @@
         "source": "git-subdir",
         "url": "https://github.com/srobroek/slopvac.git",
         "path": "./packages/slopvac"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "smithy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dyasnurhakim/smithy-claude.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33517,6 +33755,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "swiftux",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SwiftUX-app/swiftux-codex-plugin.git",
+        "path": "./plugins/swiftux"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "swingle",
       "source": {
         "source": "url",
@@ -33597,6 +33848,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sinesteziadrimo/symbaiposmcp.git",
         "path": "./plugins/symbai-supplier"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sync-business-logic-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/joyceowo/skill-forge.git",
+        "path": "./plugins/sync-business-logic-docs"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34885,7 +35149,7 @@
       "category": "Developer Tools"
     },
     {
-      "name": "tmux-agent",
+      "name": "tmux-agent-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ohyeh/tmux-agent-tools.git"

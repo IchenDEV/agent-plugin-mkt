@@ -1,0 +1,35 @@
+{
+  "formatVersion": 1,
+  "snapshotId": "catalog-bootstrap-1675520b3683",
+  "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
+  "createdAt": "2026-10-04T06:36:48.463Z",
+  "coverage": {
+    "status": "bootstrap",
+    "scope": "Historical committed catalog; freshness and discovery completeness are unknown"
+  },
+  "database": {
+    "sha256": "fbd16299f606f6a6f0d547138f527adf904f60748f6970d3bd0af39de1019fd7",
+    "bytes": 104488960,
+    "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
+    "counts": {
+      "Plugin": 12033,
+      "Skill": 47211,
+      "McpServer": 2916
+    }
+  },
+  "source": {
+    "kind": "legacy-git",
+    "commit": "1675520b3683ed60465894f41896116edf5b22d9",
+    "url": "https://raw.githubusercontent.com/IchenDEV/agent-plugin-mkt/1675520b3683ed60465894f41896116edf5b22d9/prisma/marketplace.db"
+  },
+  "catalogs": {
+    "codex": {
+      "sha256": "3418290e34a6cd01db8abbca66ae3b722a6e327dc824817166dfed28650ec737",
+      "bytes": 1038065
+    },
+    "claude": {
+      "sha256": "bac0a4e60543d2b11834835dd6d1e9438fe570b94d6b104f2776bd328d160a4f",
+      "bytes": 1804844
+    }
+  }
+}

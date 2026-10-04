@@ -53,3 +53,9 @@ dev.db*
 
 # playwright QA artifacts
 .playwright-mcp/
+
+# Immutable catalog snapshots are restored from prisma/snapshot.json
+/prisma/marketplace.db
+/prisma/index-state.json
+/prisma/index-state.json.*
+/.snapshot/

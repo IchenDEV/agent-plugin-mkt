@@ -7,6 +7,7 @@ import {
 } from "@/lib/queries";
 import { PLUGIN_PROTOCOLS } from "@/lib/protocols";
 import { SITE_NAME } from "@/lib/site";
+import { CATALOG_SNAPSHOT, CATALOG_SNAPSHOT_RESOURCE_URI } from "@/lib/catalog-snapshot";
 
 // MCP server protocol logic (Streamable HTTP, stateless), kept as a pure
 // function over parsed JSON so it is testable without an HTTP layer.
@@ -248,14 +249,17 @@ function initializeResult(params: Record<string, unknown>): Record<string, unkno
     : LATEST_PROTOCOL_VERSION;
   return {
     protocolVersion,
-    capabilities: { tools: { listChanged: false } },
+    capabilities: {
+      tools: { listChanged: false },
+      resources: { subscribe: false, listChanged: false },
+    },
     serverInfo: {
       name: "agent-plugin-marketplace",
       title: SITE_NAME,
       version: "0.1.0",
     },
     instructions:
-      "Find Codex, Claude Code, and Agent Plugins packages. Use search_plugins to filter by plugin format, query, tag, included component, or transport; get_plugin for details by slug; and get_stats for directory totals.",
+      "Find Codex, Claude Code, and Agent Plugins packages. Use search_plugins to filter by plugin format, query, tag, included component, or transport; get_plugin for details by slug; and get_stats for directory totals. Read catalog://snapshot for this deployment's snapshot identity and coverage status.",
   };
 }
 
@@ -331,6 +335,31 @@ export async function handleMcpPost(body: unknown): Promise<McpHandlerResult> {
         return ok(id, { tools: TOOLS });
       case "tools/call":
         return await handleToolCall(id, params);
+      case "resources/list":
+        return ok(id, {
+          resources: [{
+            uri: CATALOG_SNAPSHOT_RESOURCE_URI,
+            name: "catalog_snapshot",
+            description: "Build-pinned catalog snapshot identity and coverage status shared by the website and API.",
+            mimeType: "application/json",
+          }],
+        });
+      case "resources/templates/list":
+        return ok(id, { resourceTemplates: [] });
+      case "resources/read":
+        if (typeof params.uri !== "string") {
+          return rpcError(id, -32602, 'Invalid params: "uri" must be a string');
+        }
+        if (params.uri !== CATALOG_SNAPSHOT_RESOURCE_URI) {
+          return rpcError(id, -32002, "Resource not found");
+        }
+        return ok(id, {
+          contents: [{
+            uri: CATALOG_SNAPSHOT_RESOURCE_URI,
+            mimeType: "application/json",
+            text: JSON.stringify(CATALOG_SNAPSHOT, null, 2),
+          }],
+        });
       default:
         return rpcError(id, -32601, `Method not found: ${method || "(missing method)"}`);
     }

@@ -1,5 +1,6 @@
 import { Buffer } from "node:buffer";
 import { manifestLocation } from "@/lib/protocols";
+import { emptyRequestMetrics, rateLimitDecision, requestResource } from "@/lib/github-request-policy";
 
 // Minimal GitHub REST client on global fetch. Talks to https://api.github.com
 // ONLY — every URL is constructed against that base and origin-checked before
@@ -22,6 +23,30 @@ const REPOSITORY_SEARCH_MIN_INTERVAL_MS = 2_100;
 const SEARCH_RESULT_CAP = 1_000;
 let nextCodeSearchAt = 0;
 let nextRepositorySearchAt = 0;
+let metrics = emptyRequestMetrics();
+let requestBudget = Infinity;
+let deadline = Infinity;
+let coreReserve = 0;
+
+/** Per-invocation limits, not per-query result counts. No extra quota API calls. */
+export function configureGitHubRequests(options: { requestBudget: number; timeBudgetMs: number; coreReserve?: number }): void {
+  metrics = emptyRequestMetrics();
+  nextCodeSearchAt = 0;
+  nextRepositorySearchAt = 0;
+  requestBudget = options.requestBudget;
+  deadline = Date.now() + options.timeBudgetMs;
+  coreReserve = options.coreReserve ?? 25;
+}
+export function githubRequestMetrics() { return structuredClone(metrics); }
+export function assertGitHubBudget(): void {
+  if (Date.now() >= deadline) throw new RateLimitAbortError("Invocation time budget reached; resume from checkpoint.");
+  if (metrics.requests >= requestBudget) throw new RateLimitAbortError("Invocation request budget reached; resume from checkpoint.");
+}
+async function budgetedWait(ms: number): Promise<void> {
+  if (Date.now() + ms >= deadline) throw new RateLimitAbortError("Wait exceeds invocation time budget; resume later.");
+  metrics.waitedMs += ms;
+  await sleep(ms);
+}
 
 export const DEFAULT_SEARCH_QUERIES = [
   // GitHub anchors a `path:` value containing "/" to the start of the path, so
@@ -139,62 +164,64 @@ async function githubJson<T>(
 
   let serverFailures = 0;
   let rateLimitWaits = 0;
+  let rateLimitWaitMs = 0;
+  const resource = requestResource(url.pathname);
 
   for (;;) {
+    assertGitHubBudget();
+    const bucket = metrics.buckets[resource];
+    if (resource === "core" && bucket && bucket.remaining <= coreReserve && (bucket.resetAt === null || bucket.resetAt > Date.now())) {
+      throw new RateLimitAbortError(`GitHub core quota reserve reached (${bucket.remaining} remaining); resume after reset.`);
+    }
+    const nextAt = resource === "code_search" ? nextCodeSearchAt : resource === "search" ? nextRepositorySearchAt : 0;
+    if (nextAt > Date.now()) await budgetedWait(nextAt - Date.now());
+    assertGitHubBudget();
+    if (resource === "code_search") nextCodeSearchAt = Date.now() + CODE_SEARCH_MIN_INTERVAL_MS;
+    if (resource === "search") nextRepositorySearchAt = Date.now() + REPOSITORY_SEARCH_MIN_INTERVAL_MS;
+    metrics.requests++;
+    metrics.byResource[resource]++;
     let res: Response;
     try {
       res = await fetch(url, {
         headers: buildHeaders(),
-        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+        signal: AbortSignal.timeout(Math.max(1, Math.min(REQUEST_TIMEOUT_MS, deadline - Date.now()))),
       });
-    } catch (err) {
+    } catch {
       serverFailures++;
       if (serverFailures > MAX_5XX_RETRIES) {
-        const detail = err instanceof Error ? err.message : "network error";
         throw new GitHubApiError(
-          `GitHub request ${url.pathname} failed after ${MAX_5XX_RETRIES} retries: ${detail}`
+          `GitHub request ${url.pathname} failed after ${MAX_5XX_RETRIES} retries (network error)`
         );
       }
-      await sleep(1_000 * 2 ** (serverFailures - 1));
+      await budgetedWait(1_000 * 2 ** (serverFailures - 1));
       continue;
     }
 
+    const remainingHeader = res.headers.get("x-ratelimit-remaining");
+    const resetHeader = res.headers.get("x-ratelimit-reset");
+    if (remainingHeader !== null && Number.isInteger(Number(remainingHeader)) && Number(remainingHeader) >= 0) {
+      metrics.buckets[res.headers.get("x-ratelimit-resource") ?? resource] = {
+        remaining: Number(remainingHeader),
+        resetAt: resetHeader !== null && Number.isFinite(Number(resetHeader)) ? Number(resetHeader) * 1000 : null,
+      };
+    }
     if (res.ok) {
       return (await res.json()) as T;
     }
 
-    // Rate limits: primary (x-ratelimit-remaining: 0) or secondary (retry-after).
     if (res.status === 403 || res.status === 429) {
-      const remaining = res.headers.get("x-ratelimit-remaining");
-      const retryAfter = res.headers.get("retry-after");
-      let waitMs: number | null = null;
-      if (remaining === "0") {
-        const reset = Number(res.headers.get("x-ratelimit-reset"));
-        if (Number.isFinite(reset)) {
-          waitMs = Math.max(0, reset * 1_000 - Date.now()) + 1_000;
-        }
-      } else if (retryAfter !== null) {
-        const seconds = Number(retryAfter);
-        if (Number.isFinite(seconds)) waitMs = seconds * 1_000 + 1_000;
-      }
-      if (waitMs !== null) {
-        if (waitMs > MAX_RATE_LIMIT_WAIT_MS) {
-          throw new RateLimitAbortError(
-            `GitHub rate limit hit; it resets in ~${Math.ceil(waitMs / 1_000)}s, ` +
-              `beyond the 120s wait cap. Aborting this run — re-run later, or set ` +
-              `GITHUB_TOKEN for a higher limit.`
-          );
-        }
+      // Inspect only the message for classification; never echo response bodies.
+      const body = await res.json().catch(() => null) as { message?: unknown } | null;
+      const decision = rateLimitDecision(res.status, res.headers, typeof body?.message === "string" ? body.message : "", Date.now(), rateLimitWaits);
+      if (decision) {
+        metrics.rateLimitResponses++;
         rateLimitWaits++;
-        if (rateLimitWaits > MAX_RATE_LIMIT_WAITS) {
-          throw new RateLimitAbortError(
-            "GitHub rate limit hit repeatedly on the same request; aborting this run."
-          );
+        rateLimitWaitMs += decision.waitMs;
+        if (decision.waitMs > MAX_RATE_LIMIT_WAIT_MS || rateLimitWaitMs > 180_000 || rateLimitWaits > MAX_RATE_LIMIT_WAITS) {
+          throw new RateLimitAbortError(`GitHub ${decision.kind} rate limit (${resource}); bounded wait exhausted. Resume later.`);
         }
-        console.warn(
-          `rate limited by GitHub; waiting ${Math.ceil(waitMs / 1_000)}s before retrying`
-        );
-        await sleep(waitMs);
+        console.warn(`GitHub ${decision.kind} rate limit (${resource}); waiting ${Math.ceil(decision.waitMs / 1000)}s`);
+        await budgetedWait(decision.waitMs);
         continue;
       }
     }
@@ -207,7 +234,7 @@ async function githubJson<T>(
           res.status
         );
       }
-      await sleep(1_000 * 2 ** (serverFailures - 1));
+      await budgetedWait(1_000 * 2 ** (serverFailures - 1));
       continue;
     }
 
@@ -270,8 +297,8 @@ interface CodeSearchPage {
 }
 
 /**
- * Paginated code search. Yields one page of items at a time, pausing ~2s
- * between page fetches to stay under GitHub's secondary rate limits.
+ * Paginated code search. The shared request client paces every attempt,
+ * including retries, against the code-search interval.
  */
 export async function* searchCode(
   query: string,
@@ -279,6 +306,7 @@ export async function* searchCode(
     perPage?: number;
     maxPages?: number;
     startPage?: number;
+    onPage?: (info: { hasMore: boolean; incomplete: boolean }) => void;
     sort?: "indexed";
     order?: "asc" | "desc";
   } = {}
@@ -293,9 +321,6 @@ export async function* searchCode(
   const endPage = startPage + maxPages - 1;
 
   for (let page = startPage; page <= endPage; page++) {
-    const waitMs = Math.max(0, nextCodeSearchAt - Date.now());
-    if (waitMs > 0) await sleep(waitMs);
-    nextCodeSearchAt = Date.now() + CODE_SEARCH_MIN_INTERVAL_MS;
     let result: CodeSearchPage;
     try {
       const searchParams: Record<string, string> = {
@@ -315,7 +340,8 @@ export async function* searchCode(
       }
       throw err;
     }
-    if (!Array.isArray(result.items)) return;
+    if (!Array.isArray(result.items)) throw new GitHubApiError("Malformed GitHub search response");
+    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true });
     yield result.items;
     if (
       result.items.length === 0 ||
@@ -393,6 +419,7 @@ export async function* searchRepositories(
     perPage?: number;
     maxPages?: number;
     startPage?: number;
+    onPage?: (info: { hasMore: boolean; incomplete: boolean }) => void;
     sort?: "stars" | "forks" | "updated";
     order?: "asc" | "desc";
   } = {},
@@ -407,9 +434,6 @@ export async function* searchRepositories(
   const endPage = startPage + maxPages - 1;
 
   for (let page = startPage; page <= endPage; page++) {
-    const waitMs = Math.max(0, nextRepositorySearchAt - Date.now());
-    if (waitMs > 0) await sleep(waitMs);
-    nextRepositorySearchAt = Date.now() + REPOSITORY_SEARCH_MIN_INTERVAL_MS;
     const searchParams: Record<string, string> = {
       q: query,
       per_page: String(perPage),
@@ -421,7 +445,8 @@ export async function* searchRepositories(
       "/search/repositories",
       searchParams,
     );
-    if (!Array.isArray(result.items)) return;
+    if (!Array.isArray(result.items)) throw new GitHubApiError("Malformed GitHub search response");
+    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true });
     yield result.items.map(repoMetadata);
     if (
       result.items.length === 0 ||
@@ -506,8 +531,9 @@ export async function listRepositoryManifestFiles(
     `/repos/${encodeRepoFullName(repoFullName)}/git/trees/${encodeURIComponent(ref)}`,
     { recursive: "1" },
   );
+  if (!tree || !Array.isArray(tree.tree)) throw new GitHubApiError("Malformed GitHub repository tree response");
   return {
-    files: manifestFilesFromTree(Array.isArray(tree.tree) ? tree.tree : []),
+    files: manifestFilesFromTree(tree.tree),
     truncated: tree.truncated === true,
   };
 }
@@ -614,10 +640,12 @@ export async function listOwnerPublicRepositories(
   }
   const max = Math.max(1, opts.max ?? DEFAULT_OWNER_FANOUT_MAX_REPOS);
   const includeForks = opts.includeForks === true;
+  const perPage = Math.min(100, max);
   const encoded = encodeURIComponent(login);
   const paths = [`/orgs/${encoded}/repos`, `/users/${encoded}/repos`];
   const collected: RepoMetadata[] = [];
   const seen = new Set<string>();
+  let foundOwner = false;
 
   for (const path of paths) {
     let page = 1;
@@ -629,20 +657,22 @@ export async function listOwnerPublicRepositories(
           type: "public",
           sort: "pushed",
           direction: "desc",
-          per_page: String(Math.min(100, max - collected.length)),
+          per_page: String(perPage),
           page: String(page),
         });
       } catch (err) {
-        if (err instanceof GitHubApiError && (err.status === 404 || err.status === 403)) {
+        if (err instanceof GitHubApiError && err.status === 404 && page === 1) {
           break;
         }
         throw err;
       }
       usedPath = true;
-      if (!Array.isArray(batch) || batch.length === 0) break;
+      foundOwner = true;
+      if (!Array.isArray(batch)) throw new GitHubApiError("Malformed GitHub owner repository response");
+      if (batch.length === 0) break;
       for (const repo of batch) {
-        if (typeof repo.full_name !== "string" || typeof repo.html_url !== "string") {
-          continue;
+        if (!repo || typeof repo.full_name !== "string" || typeof repo.html_url !== "string") {
+          throw new GitHubApiError("Malformed GitHub owner repository entry");
         }
         if (!includeForks && repo.fork === true) continue;
         if (repo.archived === true) continue;
@@ -651,10 +681,11 @@ export async function listOwnerPublicRepositories(
         collected.push(repoMetadata(repo as RepoResponse));
         if (collected.length >= max) return collected;
       }
-      if (batch.length < 100) break;
+      if (batch.length < perPage) break;
       page += 1;
     }
     if (usedPath) break;
   }
+  if (!foundOwner) throw new GitHubApiError(`GitHub owner unavailable: ${login}`, 404);
   return collected;
 }

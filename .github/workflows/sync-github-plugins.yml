@@ -2,7 +2,7 @@ name: Sync GitHub plugins
 
 on:
   schedule:
-    # GitHub cron uses UTC: 00:17 and 12:17 UTC are 08:17 and 20:17 Singapore time.
+    # 08:17 and 20:17 Singapore time. Preserve the existing twice-daily cadence.
     - cron: "17 0,12 * * *"
   workflow_dispatch: {}
 
@@ -20,6 +20,7 @@ jobs:
     env:
       DATABASE_URL: file:./marketplace.db
       MARKETPLACE_GITHUB_TOKEN: ${{ secrets.MARKETPLACE_GITHUB_TOKEN }}
+      SNAPSHOT_ID: catalog-${{ github.run_id }}-${{ github.run_attempt }}
 
     steps:
       - name: Check out main
@@ -36,45 +37,92 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Report GitHub search coverage
+      - name: Restore the exact published database and checkpoint
         run: |
-          if [[ -z "$MARKETPLACE_GITHUB_TOKEN" ]]; then
-            echo "::warning::MARKETPLACE_GITHUB_TOKEN is not configured. Repository Search plus Git-tree validation remains enabled; legacy Code Search is skipped."
-          fi
+          npm run snapshot:restore
+          npx prisma generate
+          echo "BASE_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
       - name: Discover and refresh GitHub plugins
         if: env.MARKETPLACE_GITHUB_TOKEN != ''
-        # Six windows: newest and oldest 1,000 results for each manifest family.
-        # A quota-limited run keeps only plugins whose transactions completed.
         env:
           GITHUB_TOKEN: ${{ env.MARKETPLACE_GITHUB_TOKEN }}
-        run: npm run index:github -- --max 6000 --repository-max 500 --allow-partial
+        run: npm run index:github -- --max 6000 --repository-max 500 --allow-partial --request-budget 4000 --time-budget-seconds 6000
 
       - name: Discover repositories without legacy code search
         if: env.MARKETPLACE_GITHUB_TOKEN == ''
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: npm run index:github -- --skip-code-search --repository-max 120 --allow-partial
+        run: npm run index:github -- --skip-code-search --repository-max 120 --allow-partial --request-budget 800 --time-budget-seconds 6000
 
-      - name: Generate install marketplaces
-        run: npm run marketplace:generate
-
-      - name: Validate the refreshed snapshot
+      - name: Generate and validate both catalogs from the same database
         run: |
+          npm run marketplace:generate
           npm run db:validate
           npm run marketplace:check
+
+      - name: Prepare compact immutable candidate
+        run: |
+          npm run snapshot:prepare
+          cp ".snapshot/$SNAPSHOT_ID/snapshot.json" prisma/snapshot.json
+
+      - name: Test and build the exact candidate before publication
+        env:
+          SNAPSHOT_ASSET_DIRECTORY: .snapshot/${{ env.SNAPSHOT_ID }}
+        run: |
           npm test
           npm run lint
+          npm run build
+          npm run marketplace:check
 
-      - name: Commit and push snapshot changes
+      - name: Save recoverable candidate before publishing
+        uses: actions/upload-artifact@v4
+        with:
+          name: snapshot-${{ env.SNAPSHOT_ID }}
+          path: |
+            .snapshot/${{ env.SNAPSHOT_ID }}/*.gz
+            .snapshot/${{ env.SNAPSHOT_ID }}/*.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Publish a new release without overwriting older assets
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- prisma/marketplace.db .agents/plugins/marketplace.json .claude-plugin/marketplace.json; then
-            echo "The marketplace snapshot is already current."
-            exit 0
-          fi
+          # A new run attempt has its own ID. Never use --clobber or mutable latest.
+          gh release create "$SNAPSHOT_ID" \
+            ".snapshot/$SNAPSHOT_ID/$SNAPSHOT_ID.db.gz" \
+            ".snapshot/$SNAPSHOT_ID/$SNAPSHOT_ID.index-state.json" \
+            ".snapshot/$SNAPSHOT_ID/snapshot.json" \
+            ".snapshot/$SNAPSHOT_ID/codex-marketplace.json" \
+            ".snapshot/$SNAPSHOT_ID/claude-marketplace.json" \
+            --target "$BASE_COMMIT" --prerelease --title "$SNAPSHOT_ID" \
+            --notes "Validated catalog snapshot. See snapshot.json for coverage; partial means the bounded discovery cycle is unfinished. Older assets are retained for rollback."
 
+      - name: Verify public immutable assets before moving the repository pin
+        run: node scripts/verify-published-snapshot.mjs
+
+      - name: Commit manifest and both catalogs atomically
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add prisma/marketplace.db .agents/plugins/marketplace.json .claude-plugin/marketplace.json
-          git commit -m "chore(index): refresh GitHub plugin snapshot"
+          git add prisma/snapshot.json .agents/plugins/marketplace.json .claude-plugin/marketplace.json
+          git commit -m "chore(index): publish $SNAPSHOT_ID"
+          # No force push or rebase of generated data. A concurrent main change
+          # rejects this push; the candidate artifact and release remain recoverable.
           git push origin HEAD:main
+
+      - name: Retain interrupted or rejected work for manual recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recovery-${{ env.SNAPSHOT_ID }}
+          path: |
+            prisma/marketplace.db
+            prisma/index-state.json
+            prisma/snapshot.json
+            .agents/plugins/marketplace.json
+            .claude-plugin/marketplace.json
+          include-hidden-files: true
+          retention-days: 14

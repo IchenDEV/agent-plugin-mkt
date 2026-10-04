@@ -5,18 +5,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "prisma generate",
+    "prebuild": "npm run snapshot:restore && prisma generate",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "node --import tsx --test tests/*.test.ts && node --test tests/*.test.mjs",
     "db:push": "prisma db push",
-    "db:seed": "tsx scripts/seed.mts",
-    "db:validate": "tsx scripts/validate-database.mts",
-    "marketplace:generate": "tsx scripts/generate-marketplaces.mts",
-    "marketplace:check": "tsx scripts/generate-marketplaces.mts --check",
-    "index:github": "tsx scripts/index-github.mts",
-    "test:mcp": "tsx scripts/test-mcp.ts"
+    "db:seed": "node --import tsx scripts/seed.mts",
+    "db:validate": "node --import tsx scripts/validate-database.mts",
+    "marketplace:generate": "node --import tsx scripts/generate-marketplaces.mts",
+    "marketplace:check": "node --import tsx scripts/generate-marketplaces.mts --check",
+    "index:github": "node --import tsx scripts/index-github.mts",
+    "test:mcp": "node --import tsx scripts/test-mcp.ts",
+    "snapshot:restore": "node scripts/restore-snapshot.mjs",
+    "snapshot:prepare": "node scripts/prepare-snapshot.mjs"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",
@@ -41,5 +43,8 @@
     "tailwindcss": "^4",
     "tsx": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }

@@ -1,35 +1,71 @@
 {
   "formatVersion": 1,
-  "snapshotId": "catalog-bootstrap-1675520b3683",
+  "snapshotId": "catalog-37218262206-1",
   "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
-  "createdAt": "2026-10-04T06:36:48.463Z",
+  "createdAt": "2026-10-04T17:03:20.528Z",
   "coverage": {
-    "status": "bootstrap",
-    "scope": "Historical committed catalog; freshness and discovery completeness are unknown"
+    "status": "partial",
+    "cycleId": "37e41b25-02e8-46f0-bf7b-913e16ee9529",
+    "startedAt": "2026-10-04T16:51:10.020Z",
+    "completedAt": null,
+    "reason": "Invocation request budget reached; resume from checkpoint.",
+    "scope": "Configured bounded discovery cycle; not all of GitHub and not a guarantee of freshness",
+    "requestMetrics": {
+      "requests": 4000,
+      "byResource": {
+        "core": 3972,
+        "search": 22,
+        "code_search": 6
+      },
+      "rateLimitResponses": 0,
+      "waitedMs": 18343,
+      "buckets": {
+        "search": {
+          "remaining": 17,
+          "resetAt": 1791132877000
+        },
+        "core": {
+          "remaining": 850,
+          "resetAt": 1791133666000
+        },
+        "code_search": {
+          "remaining": 7,
+          "resetAt": 1791132815000
+        }
+      }
+    }
   },
   "database": {
-    "sha256": "fbd16299f606f6a6f0d547138f527adf904f60748f6970d3bd0af39de1019fd7",
-    "bytes": 104488960,
+    "sha256": "a950f817f86b082ea92cfc177b9c87c17b73314e39703b4f401169e55b086496",
+    "bytes": 102367232,
     "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
     "counts": {
-      "Plugin": 12033,
-      "Skill": 47211,
-      "McpServer": 2916
+      "Plugin": 12260,
+      "Skill": 47967,
+      "McpServer": 2959
     }
   },
   "source": {
-    "kind": "legacy-git",
-    "commit": "1675520b3683ed60465894f41896116edf5b22d9",
-    "url": "https://raw.githubusercontent.com/IchenDEV/agent-plugin-mkt/1675520b3683ed60465894f41896116edf5b22d9/prisma/marketplace.db"
+    "kind": "github-release",
+    "tag": "catalog-37218262206-1",
+    "asset": "catalog-37218262206-1.db.gz",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-37218262206-1/catalog-37218262206-1.db.gz",
+    "sha256": "1af9c0089e8df7f05702a89808cb42c7efae4565b47bea0f4e3a010e7a088b58",
+    "bytes": 18723455
+  },
+  "checkpoint": {
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-37218262206-1/catalog-37218262206-1.index-state.json",
+    "sha256": "7b6a755d55b14ea671edb52706da44b3791288188c22c70af098dc4eb07ae62d",
+    "bytes": 3293781
   },
   "catalogs": {
     "codex": {
-      "sha256": "3418290e34a6cd01db8abbca66ae3b722a6e327dc824817166dfed28650ec737",
-      "bytes": 1038065
+      "sha256": "423f979687ca5f42e7af08826316c4a0da0bc2aee2c231c49465530f857ca910",
+      "bytes": 1045181
     },
     "claude": {
-      "sha256": "bac0a4e60543d2b11834835dd6d1e9438fe570b94d6b104f2776bd328d160a4f",
-      "bytes": 1804844
+      "sha256": "40fc55b2b7d6585e6adc2b4c208c4e9b801059238c75746f8b98c5a278ab9372",
+      "bytes": 1822509
     }
   }
 }

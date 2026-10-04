@@ -1499,6 +1499,14 @@
       }
     },
     {
+      "name": "agent-config-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "AraneaDev/aranea-marketplace",
+        "path": "plugins/agent-config-audit"
+      }
+    },
+    {
       "name": "agent-context-manager",
       "source": {
         "source": "git-subdir",
@@ -2467,6 +2475,14 @@
       "source": {
         "source": "git-subdir",
         "url": "calorie/agentic-engineering",
+        "path": "plugins/agentic-engineering"
+      }
+    },
+    {
+      "name": "agentic-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
         "path": "plugins/agentic-engineering"
       }
     },
@@ -6342,6 +6358,14 @@
       }
     },
     {
+      "name": "assist",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "assist"
+      }
+    },
+    {
       "name": "assistant",
       "source": {
         "source": "git-subdir",
@@ -6759,6 +6783,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/audit"
+      }
+    },
+    {
+      "name": "audit-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "audit"
       }
     },
     {
@@ -9794,6 +9826,14 @@
       }
     },
     {
+      "name": "build-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "build"
+      }
+    },
+    {
       "name": "build-agent",
       "source": {
         "source": "github",
@@ -10104,6 +10144,13 @@
       }
     },
     {
+      "name": "c-code-style",
+      "source": {
+        "source": "github",
+        "repo": "MaJerle/c-code-style"
+      }
+    },
+    {
       "name": "c-level-agents",
       "source": {
         "source": "git-subdir",
@@ -10326,6 +10373,14 @@
         "source": "git-subdir",
         "url": "Cairn-ink/cairn-memory",
         "path": "plugins/cairn-memory"
+      }
+    },
+    {
+      "name": "cairo-auditor",
+      "source": {
+        "source": "git-subdir",
+        "url": "keep-starknet-strange/starknet-agentic",
+        "path": "skills/cairo-auditor"
       }
     },
     {
@@ -12052,6 +12107,13 @@
       }
     },
     {
+      "name": "chrome-devtools-mcp-4",
+      "source": {
+        "source": "github",
+        "repo": "ChromeDevTools/chrome-devtools-mcp"
+      }
+    },
+    {
       "name": "chrome-localhost-mic-autoblock",
       "source": {
         "source": "git-subdir",
@@ -12445,6 +12507,14 @@
       "source": {
         "source": "github",
         "repo": "nathanaday/claude-atlas"
+      }
+    },
+    {
+      "name": "claude-basic-prod",
+      "source": {
+        "source": "git-subdir",
+        "url": "777genius/universal-agent-plugins",
+        "path": "examples/plugins/claude-basic-prod"
       }
     },
     {
@@ -12870,6 +12940,14 @@
       }
     },
     {
+      "name": "claude-go-starter",
+      "source": {
+        "source": "git-subdir",
+        "url": "777genius/universal-agent-plugins",
+        "path": "examples/starters/claude-go-starter"
+      }
+    },
+    {
       "name": "claude-harness",
       "source": {
         "source": "github",
@@ -13038,6 +13116,29 @@
       }
     },
     {
+      "name": "claude-node-typescript-runtime-package-starter",
+      "source": {
+        "source": "git-subdir",
+        "url": "777genius/universal-agent-plugins",
+        "path": "examples/starters/claude-node-typescript-runtime-package-starter"
+      }
+    },
+    {
+      "name": "claude-node-typescript-starter",
+      "source": {
+        "source": "git-subdir",
+        "url": "777genius/universal-agent-plugins",
+        "path": "examples/starters/claude-node-typescript-starter"
+      }
+    },
+    {
+      "name": "claude-notifications-go",
+      "source": {
+        "source": "github",
+        "repo": "777genius/agent-notifications"
+      }
+    },
+    {
       "name": "claude-notify",
       "source": {
         "source": "git-subdir",
@@ -13158,6 +13259,14 @@
       "source": {
         "source": "github",
         "repo": "glitchwerks/claude-prospector"
+      }
+    },
+    {
+      "name": "claude-python-starter",
+      "source": {
+        "source": "git-subdir",
+        "url": "777genius/universal-agent-plugins",
+        "path": "examples/starters/claude-python-starter"
       }
     },
     {
@@ -14794,6 +14903,14 @@
       }
     },
     {
+      "name": "codebase-scorecard",
+      "source": {
+        "source": "git-subdir",
+        "url": "AraneaDev/aranea-marketplace",
+        "path": "plugins/codebase-scorecard"
+      }
+    },
+    {
       "name": "codebase-xray",
       "source": {
         "source": "git-subdir",
@@ -16005,6 +16122,14 @@
         "source": "git-subdir",
         "url": "victorfalcaotembici/Skills",
         "path": "08-compras-suprimentos"
+      }
+    },
+    {
+      "name": "comprehensive-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "AraneaDev/aranea-marketplace",
+        "path": "plugins/comprehensive-audit"
       }
     },
     {
@@ -17337,6 +17462,30 @@
         "source": "git-subdir",
         "url": "3dgiordano/agent-plugins",
         "path": "plugins/coverage-self-monitoring"
+      }
+    },
+    {
+      "name": "cowork-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack/skills/cowork-management"
+      }
+    },
+    {
+      "name": "cowork-management-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/codex/prometheus-skill-pack/skills/cowork-management"
+      }
+    },
+    {
+      "name": "cowork-management-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/process/cowork-management"
       }
     },
     {
@@ -19815,6 +19964,14 @@
       }
     },
     {
+      "name": "datenbeschaffung",
+      "source": {
+        "source": "git-subdir",
+        "url": "RankM8/outreach-plugins",
+        "path": "plugins/datenbeschaffung"
+      }
+    },
+    {
       "name": "daube-agent-bridge",
       "source": {
         "source": "github",
@@ -20122,6 +20279,14 @@
         "source": "git-subdir",
         "url": "weirdapps/plessas-marketplace",
         "path": "plugins/decks"
+      }
+    },
+    {
+      "name": "decompose",
+      "source": {
+        "source": "git-subdir",
+        "url": "AraneaDev/aranea-marketplace",
+        "path": "plugins/decompose"
       }
     },
     {
@@ -22374,6 +22539,13 @@
       }
     },
     {
+      "name": "diagnostics-report-analyzer",
+      "source": {
+        "source": "github",
+        "repo": "AvdLee/Diagnostics"
+      }
+    },
+    {
       "name": "diagram",
       "source": {
         "source": "git-subdir",
@@ -22710,6 +22882,30 @@
         "source": "git-subdir",
         "url": "KilimcininKorOglu/claude-code-mods",
         "path": "plugins/disk-janitor"
+      }
+    },
+    {
+      "name": "disk-space-guardian",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack/skills/disk-space-guardian"
+      }
+    },
+    {
+      "name": "disk-space-guardian-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/codex/prometheus-skill-pack/skills/disk-space-guardian"
+      }
+    },
+    {
+      "name": "disk-space-guardian-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/devops/disk-space-guardian"
       }
     },
     {
@@ -23565,11 +23761,27 @@
       }
     },
     {
+      "name": "dotnet-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet"
+      }
+    },
+    {
       "name": "dotnet-advanced",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-advanced"
+      }
+    },
+    {
+      "name": "dotnet-advanced-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-advanced"
       }
     },
     {
@@ -23581,11 +23793,27 @@
       }
     },
     {
+      "name": "dotnet-ai-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-ai"
+      }
+    },
+    {
       "name": "dotnet-aspnetcore",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-aspnetcore"
+      }
+    },
+    {
+      "name": "dotnet-aspnetcore-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-aspnetcore"
       }
     },
     {
@@ -23602,6 +23830,14 @@
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-blazor"
+      }
+    },
+    {
+      "name": "dotnet-blazor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-blazor"
       }
     },
     {
@@ -23629,11 +23865,27 @@
       }
     },
     {
+      "name": "dotnet-data-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-data"
+      }
+    },
+    {
       "name": "dotnet-diag",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-diag"
+      }
+    },
+    {
+      "name": "dotnet-diag-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-diag"
       }
     },
     {
@@ -23645,11 +23897,27 @@
       }
     },
     {
+      "name": "dotnet-experimental-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-experimental"
+      }
+    },
+    {
       "name": "dotnet-maui",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-maui"
+      }
+    },
+    {
+      "name": "dotnet-maui-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-maui"
       }
     },
     {
@@ -23661,11 +23929,27 @@
       }
     },
     {
+      "name": "dotnet-msbuild-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-msbuild"
+      }
+    },
+    {
       "name": "dotnet-nuget",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-nuget"
+      }
+    },
+    {
+      "name": "dotnet-nuget-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-nuget"
       }
     },
     {
@@ -23684,11 +23968,27 @@
       }
     },
     {
+      "name": "dotnet-template-engine-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-template-engine"
+      }
+    },
+    {
       "name": "dotnet-test",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-test"
+      }
+    },
+    {
+      "name": "dotnet-test-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-test"
       }
     },
     {
@@ -23700,11 +24000,35 @@
       }
     },
     {
+      "name": "dotnet-test-migration-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-test-migration"
+      }
+    },
+    {
       "name": "dotnet-upgrade",
       "source": {
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet-upgrade"
+      }
+    },
+    {
+      "name": "dotnet-upgrade-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-upgrade"
+      }
+    },
+    {
+      "name": "dotnet-winforms",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet-winforms"
       }
     },
     {
@@ -23720,6 +24044,14 @@
         "source": "git-subdir",
         "url": "managedcode/dotnet-skills",
         "path": "external-sources/upstreams/dotnet-skills/dotnet11"
+      }
+    },
+    {
+      "name": "dotnet11-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "dotnet/skills",
+        "path": "plugins/dotnet11"
       }
     },
     {
@@ -24996,6 +25328,14 @@
       "source": {
         "source": "git-subdir",
         "url": "alleneubank/agent-profile",
+        "path": "plugins/engineering-practices"
+      }
+    },
+    {
+      "name": "engineering-practices-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
         "path": "plugins/engineering-practices"
       }
     },
@@ -26422,6 +26762,13 @@
         "source": "git-subdir",
         "url": "mattwalters/skills",
         "path": "plugins/factory"
+      }
+    },
+    {
+      "name": "factory-2",
+      "source": {
+        "source": "github",
+        "repo": "clockgrove/factory"
       }
     },
     {
@@ -29557,6 +29904,14 @@
       }
     },
     {
+      "name": "frontend-design-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/frontend-design"
+      }
+    },
+    {
       "name": "frontend-design-director",
       "source": {
         "source": "git-subdir",
@@ -31023,6 +31378,14 @@
       }
     },
     {
+      "name": "git-gates",
+      "source": {
+        "source": "git-subdir",
+        "url": "bahaospanov/skills",
+        "path": "git-gates"
+      }
+    },
+    {
       "name": "git-graft-worktree-onto-remote",
       "source": {
         "source": "git-subdir",
@@ -31276,6 +31639,14 @@
       }
     },
     {
+      "name": "github-17",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/github"
+      }
+    },
+    {
       "name": "github-3",
       "source": {
         "source": "git-subdir",
@@ -31523,6 +31894,14 @@
       }
     },
     {
+      "name": "gitops-kubernetes",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/gitops-kubernetes"
+      }
+    },
+    {
       "name": "gitops-workflow-builder",
       "source": {
         "source": "git-subdir",
@@ -31664,6 +32043,14 @@
         "source": "git-subdir",
         "url": "outcomeeng/plugins",
         "path": "src/plugins/go"
+      }
+    },
+    {
+      "name": "go-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/go"
       }
     },
     {
@@ -34229,6 +34616,14 @@
       }
     },
     {
+      "name": "hintvim",
+      "source": {
+        "source": "git-subdir",
+        "url": "JeongJaeSoon/hintvim",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "hipaa-compliance-checker",
       "source": {
         "source": "git-subdir",
@@ -35016,6 +35411,13 @@
       }
     },
     {
+      "name": "huggingface-skills",
+      "source": {
+        "source": "github",
+        "repo": "huggingface/skills"
+      }
+    },
+    {
       "name": "hugo",
       "source": {
         "source": "git-subdir",
@@ -35347,6 +35749,13 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/hyperparameter-tuner"
+      }
+    },
+    {
+      "name": "hyperresearch",
+      "source": {
+        "source": "github",
+        "repo": "jordan-gibbs/hyperresearch"
       }
     },
     {
@@ -36762,6 +37171,30 @@
         "source": "git-subdir",
         "url": "TomVDH/toolshed",
         "path": "iteration-shelf"
+      }
+    },
+    {
+      "name": "iterative-evolver",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/codex/prometheus-skill-pack/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/process/iterative-evolver"
       }
     },
     {
@@ -38514,6 +38947,13 @@
       }
     },
     {
+      "name": "knossos",
+      "source": {
+        "source": "github",
+        "repo": "AraneaDev/Knossos-MCP"
+      }
+    },
+    {
       "name": "knowgt",
       "source": {
         "source": "github",
@@ -38660,6 +39100,14 @@
       }
     },
     {
+      "name": "kondukt",
+      "source": {
+        "source": "git-subdir",
+        "url": "animalxshadow/Klood-Pluginz",
+        "path": "plugins/kondukt"
+      }
+    },
+    {
       "name": "korea-gov-data",
       "source": {
         "source": "git-subdir",
@@ -38794,6 +39242,14 @@
       "source": {
         "source": "github",
         "repo": "ioannisa/KSafe"
+      }
+    },
+    {
+      "name": "ksail",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/ksail"
       }
     },
     {
@@ -39328,10 +39784,34 @@
       }
     },
     {
+      "name": "lean-comments",
+      "source": {
+        "source": "git-subdir",
+        "url": "bahaospanov/skills",
+        "path": "lean-comments"
+      }
+    },
+    {
+      "name": "lean-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "bahaospanov/skills",
+        "path": "lean-docs"
+      }
+    },
+    {
       "name": "lean-harness-cs-v1",
       "source": {
         "source": "github",
         "repo": "cwijayasundara/harness_lite_for_claude_v1.0"
+      }
+    },
+    {
+      "name": "lean-scripts",
+      "source": {
+        "source": "git-subdir",
+        "url": "bahaospanov/skills",
+        "path": "lean-scripts"
       }
     },
     {
@@ -39348,6 +39828,14 @@
         "source": "git-subdir",
         "url": "thelogicmatrix/lm-tools",
         "path": "learn"
+      }
+    },
+    {
+      "name": "learn-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/learn"
       }
     },
     {
@@ -39434,6 +39922,13 @@
         "source": "git-subdir",
         "url": "Anselmoo/werkstoff",
         "path": "test/plugins/fixtures/nacharbeit/tune-manifest-2"
+      }
+    },
+    {
+      "name": "leek-skills",
+      "source": {
+        "source": "github",
+        "repo": "leek/agent-skills"
       }
     },
     {
@@ -41332,6 +41827,14 @@
       }
     },
     {
+      "name": "mac-maintenance",
+      "source": {
+        "source": "git-subdir",
+        "url": "basitalisandhu/mac-maintenance-skills",
+        "path": "plugins/mac-maintenance"
+      }
+    },
+    {
       "name": "macdoc",
       "source": {
         "source": "git-subdir",
@@ -41514,6 +42017,14 @@
         "source": "git-subdir",
         "url": "codeyogi911/mainmind-plugins",
         "path": "plugins/mainmind"
+      }
+    },
+    {
+      "name": "maintain",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "maintain"
       }
     },
     {
@@ -46458,6 +46969,14 @@
       }
     },
     {
+      "name": "obsidian-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "obsidian"
+      }
+    },
+    {
       "name": "obsidian-cli",
       "source": {
         "source": "git-subdir",
@@ -48325,6 +48844,14 @@
       }
     },
     {
+      "name": "outreach-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "RankM8/outreach-plugins",
+        "path": "plugins/outreach"
+      }
+    },
+    {
       "name": "outrider-recon",
       "source": {
         "source": "github",
@@ -48432,6 +48959,13 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/owasp-compliance-checker"
+      }
+    },
+    {
+      "name": "ownhand",
+      "source": {
+        "source": "github",
+        "repo": "jordan-gibbs/ownhand"
       }
     },
     {
@@ -48838,6 +49372,14 @@
         "source": "git-subdir",
         "url": "tokenmaxxxer/on-the-record",
         "path": "docs/issue-170/_assets/rulebook-skeleton/partnerships-bd/partnerships-bd"
+      }
+    },
+    {
+      "name": "parvez",
+      "source": {
+        "source": "git-subdir",
+        "url": "parvez-ahammed/claude-skills",
+        "path": "plugins/parvez"
       }
     },
     {
@@ -50285,6 +50827,14 @@
       }
     },
     {
+      "name": "plan-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "plan"
+      }
+    },
+    {
       "name": "plan-bash-guard",
       "source": {
         "source": "git-subdir",
@@ -51585,6 +52135,21 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/posthog-pack"
+      }
+    },
+    {
+      "name": "postlane",
+      "source": {
+        "source": "github",
+        "repo": "zwebso/postlane-plugin"
+      }
+    },
+    {
+      "name": "postlane-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "zwebso/postlane",
+        "path": "postlane-cursor"
       }
     },
     {
@@ -53148,6 +53713,118 @@
         "source": "git-subdir",
         "url": "thelogicmatrix/lm-tools",
         "path": "projects"
+      }
+    },
+    {
+      "name": "prometheus-devops-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/devops"
+      }
+    },
+    {
+      "name": "prometheus-librefang-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack/skills/librefang-wasm-skill"
+      }
+    },
+    {
+      "name": "prometheus-librefang-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/codex/prometheus-skill-pack/skills/librefang-wasm-skill"
+      }
+    },
+    {
+      "name": "prometheus-librefang-skills-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/rust/librefang-wasm-skill"
+      }
+    },
+    {
+      "name": "prometheus-process-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/process"
+      }
+    },
+    {
+      "name": "prometheus-react-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack/skills/prometheus-entity-skills"
+      }
+    },
+    {
+      "name": "prometheus-react-skills-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/codex/prometheus-skill-pack/skills/prometheus-entity-skills"
+      }
+    },
+    {
+      "name": "prometheus-react-skills-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/react/prometheus-entity-skills"
+      }
+    },
+    {
+      "name": "prometheus-research-server",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "substrate/prometheus-research"
+      }
+    },
+    {
+      "name": "prometheus-research-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/research"
+      }
+    },
+    {
+      "name": "prometheus-skill-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "dist/plugins/claude/prometheus-skill-pack"
+      }
+    },
+    {
+      "name": "prometheus-skills-mini",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skills-mini",
+        "path": "dist/plugins/claude/prometheus-skills-mini"
+      }
+    },
+    {
+      "name": "prometheus-testing-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/testing"
+      }
+    },
+    {
+      "name": "prometheus-ui-ux-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/prometheus-skill-system",
+        "path": "skills/ui-ux"
       }
     },
     {
@@ -56387,6 +57064,13 @@
       }
     },
     {
+      "name": "repobrain-2",
+      "source": {
+        "source": "github",
+        "repo": "study8677/repobrain"
+      }
+    },
+    {
       "name": "repocount",
       "source": {
         "source": "git-subdir",
@@ -57081,6 +57765,14 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/review"
+      }
+    },
+    {
+      "name": "review-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "review"
       }
     },
     {
@@ -59495,6 +60187,14 @@
       }
     },
     {
+      "name": "security-audit-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "AraneaDev/aranea-marketplace",
+        "path": "plugins/security-audit"
+      }
+    },
+    {
       "name": "security-audit-pack",
       "source": {
         "source": "git-subdir",
@@ -61010,6 +61710,14 @@
         "source": "git-subdir",
         "url": "yukineko/claude-harnesses",
         "path": "crates/ship"
+      }
+    },
+    {
+      "name": "ship-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "ship"
       }
     },
     {
@@ -64101,6 +64809,13 @@
         "source": "git-subdir",
         "url": "HollandDM/my-skills",
         "path": "stargazer-subagent-dev"
+      }
+    },
+    {
+      "name": "starknet-agentic-skills",
+      "source": {
+        "source": "github",
+        "repo": "keep-starknet-strange/starknet-agentic"
       }
     },
     {
@@ -70621,6 +71336,14 @@
       }
     },
     {
+      "name": "vibe-coding",
+      "source": {
+        "source": "git-subdir",
+        "url": "devantler-tech/agent-plugins",
+        "path": "plugins/vibe-coding"
+      }
+    },
+    {
       "name": "vibe-coding-course",
       "source": {
         "source": "git-subdir",
@@ -73306,6 +74029,14 @@
       }
     },
     {
+      "name": "workflow-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "workflow"
+      }
+    },
+    {
       "name": "workflow-builder",
       "source": {
         "source": "git-subdir",
@@ -73716,6 +74447,14 @@
         "source": "git-subdir",
         "url": "chetanism/writ",
         "path": "writ"
+      }
+    },
+    {
+      "name": "write",
+      "source": {
+        "source": "git-subdir",
+        "url": "edloidas/skills",
+        "path": "write"
       }
     },
     {

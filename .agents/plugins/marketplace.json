@@ -1482,6 +1482,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agentkit-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/veadk-python.git",
+        "path": "./plugins/agentkit-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agentnews",
       "source": {
         "source": "git-subdir",
@@ -7184,6 +7197,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-notifications-go",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/777genius/agent-notifications.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-octopus",
       "source": {
         "source": "url",
@@ -8255,6 +8280,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Shredi/codex-orchestrator.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-package-prod",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins.git",
+        "path": "./examples/plugins/codex-package-prod"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12249,6 +12287,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dotnet-winforms",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dotnet/skills.git",
+        "path": "./plugins/dotnet-winforms"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dotnet11",
       "source": {
         "source": "git-subdir",
@@ -12692,6 +12743,136 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Rivendell-investment/edgepilot-research-claude.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-assist",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-assist"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-build"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-maintain",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-maintain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-obsidian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-plan",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-plan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-ship",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-ship"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-workflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "edloidas-write",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edloidas/skills.git",
+        "path": "./plugins/edloidas-write"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13687,6 +13868,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/defog-ai/factiq-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "factory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clockgrove/factory.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17517,6 +17710,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hyperresearch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jordan-gibbs/hyperresearch.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hypersolutions",
       "source": {
         "source": "url",
@@ -19184,6 +19389,19 @@
         "source": "git-subdir",
         "url": "https://github.com/serpro69/claude-toolbox.git",
         "path": "./kodex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "knossos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/AraneaDev/Knossos-MCP.git",
+        "path": "./plugins/knossos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26627,6 +26845,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "postlane",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zwebso/postlane-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "postman",
       "source": {
         "source": "git-subdir",
@@ -27337,6 +27567,32 @@
         "source": "git-subdir",
         "url": "https://github.com/thelogicmatrix/lm-tools.git",
         "path": "./projects"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prometheus-skill-pack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Prometheus-AGS/prometheus-skill-system.git",
+        "path": "./dist/plugins/codex/prometheus-skill-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prometheus-skills-mini",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Prometheus-AGS/prometheus-skills-mini.git",
+        "path": "./dist/plugins/codex/prometheus-skills-mini"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39105,6 +39361,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/summer521521/Zotero_Research_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zui",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/easysoft/zui.git"
       },
       "policy": {
         "installation": "AVAILABLE",

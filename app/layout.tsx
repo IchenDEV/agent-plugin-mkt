@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { JsonLd } from "@/components/json-ld";
 import { Preferences } from "@/components/preferences";
+import { CATALOG_SNAPSHOT } from "@/lib/catalog-snapshot";
 import type { Locale } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
 import { SITE_DESCRIPTION, SITE_DESCRIPTION_ZH, SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/site";
@@ -178,6 +179,11 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   return (
     <html lang={locale} className="h-full antialiased" suppressHydrationWarning>
       <head>
+        <meta name="catalog-snapshot-id" content={CATALOG_SNAPSHOT.snapshotId} />
+        <meta name="catalog-schema-id" content={CATALOG_SNAPSHOT.schemaId} />
+        <meta name="catalog-snapshot-created-at" content={CATALOG_SNAPSHOT.createdAt} />
+        <meta name="catalog-snapshot-coverage" content={CATALOG_SNAPSHOT.coverage.status} />
+        <link rel="alternate" type="application/json" href="/api/catalog-snapshot" title="Catalog snapshot identity" />
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM site guide" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Full LLM catalog" />

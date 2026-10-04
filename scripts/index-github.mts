@@ -8,6 +8,9 @@ import {
   DEFAULT_REPOSITORY_SEARCH_QUERIES,
   DEFAULT_SEARCH_QUERIES,
   GitHubApiError,
+  configureGitHubRequests,
+  githubRequestMetrics,
+  assertGitHubBudget,
   RateLimitAbortError,
   allocateSearchBudget,
   getFileContent,
@@ -48,6 +51,8 @@ import {
   type UpstreamMarketplace,
 } from "@/lib/marketplaces";
 
+import { configHash, loadCheckpoint, nextTask, restoreRepo, saveCheckpoint, storeRepo, type IndexTask } from "@/lib/index-checkpoint";
+
 const MAX_MANIFEST_BYTES = 200 * 1024;
 const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
 const MAX_MARKETPLACE_BYTES = 1024 * 1024;
@@ -73,6 +78,8 @@ function safeLog(value: string): string {
 
 interface CliOptions {
   max: number;
+  requestBudget: number;
+  timeBudgetSeconds: number;
   queries: string[];
   repositoryMax: number;
   repositoryQueries: string[];
@@ -89,6 +96,8 @@ interface CliOptions {
 
 function parseArgs(argv: string[]): CliOptions {
   let max = DEFAULT_MAX_PLUGINS;
+  let requestBudget = 3500;
+  let timeBudgetSeconds = 2400;
   let repositoryMax = DEFAULT_MAX_REPOSITORIES;
   let customQuery: string | undefined;
   let customRepositoryQuery: string | undefined;
@@ -103,7 +112,15 @@ function parseArgs(argv: string[]): CliOptions {
   const directOwners: string[] = [];
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
-    if (arg === "--max") {
+    if (arg === "--request-budget" || arg.startsWith("--request-budget=")) {
+      const value = Number(arg.includes("=") ? arg.split("=")[1] : argv[++i]);
+      if (!Number.isSafeInteger(value) || value < 1) throw new Error("--request-budget must be a positive integer");
+      requestBudget = value;
+    } else if (arg === "--time-budget-seconds" || arg.startsWith("--time-budget-seconds=")) {
+      const value = Number(arg.includes("=") ? arg.split("=")[1] : argv[++i]);
+      if (!Number.isSafeInteger(value) || value < 1) throw new Error("--time-budget-seconds must be a positive integer");
+      timeBudgetSeconds = value;
+    } else if (arg === "--max") {
       const value = Number(argv[++i]);
       if (Number.isFinite(value) && value > 0) max = Math.floor(value);
     } else if (arg.startsWith("--max=")) {
@@ -175,6 +192,8 @@ function parseArgs(argv: string[]): CliOptions {
   }
   return {
     max,
+    requestBudget,
+    timeBudgetSeconds,
     queries: customQuery ? [customQuery] : [...DEFAULT_SEARCH_QUERIES],
     repositoryMax,
     repositoryQueries: customRepositoryQuery
@@ -617,299 +636,193 @@ async function indexHit(item: CodeSearchItem): Promise<HitOutcome> {
   return { ok: true, name: canonical.manifest.name, status: "indexed" };
 }
 
-const {
-  max,
-  queries,
-  repositoryMax,
-  repositoryQueries,
-  searchPage,
-  searchPageSize,
-  allowPartial,
-  skipCodeSearch,
-  skipRepositorySearch,
-  skipOwnerFanout,
-  ownerFanoutMax,
-  directRepositories,
-  directOwners,
-} = parseArgs(process.argv.slice(2));
-console.log(
-  `searching ${skipRepositorySearch ? 0 : repositoryQueries.length} repository families ` +
-    `with up to ${repositoryMax} candidates; searching ${skipCodeSearch ? 0 : queries.length} ` +
-    `legacy code families with up to ${max} hits` +
-    (skipOwnerFanout
-      ? "; owner fan-out disabled"
-      : `; owner fan-out up to ${ownerFanoutMax} repos per publisher`),
-);
-if (searchPage) {
-  console.log(`using rotating search page ${searchPage} with ${searchPageSize ?? 100} results per page`);
-}
+const options = parseArgs(process.argv.slice(2));
+const { max, queries, repositoryMax, repositoryQueries, searchPage, searchPageSize,
+  allowPartial, skipCodeSearch, skipRepositorySearch, skipOwnerFanout,
+  ownerFanoutMax, directRepositories, directOwners, requestBudget, timeBudgetSeconds } = options;
+const statePath = process.env.INDEX_STATE_PATH ?? "prisma/index-state.json";
+// Invocation limits can change while resuming; discovery bounds cannot.
+const { requestBudget: _requestBudget, timeBudgetSeconds: _timeBudget, allowPartial: _allowPartial, ...discoveryOptions } = options;
+void _requestBudget; void _timeBudget; void _allowPartial;
 
+function makeTask(kind: IndexTask["kind"], id: string, query: string, budget: number, extra: Partial<IndexTask> = {}): IndexTask {
+  const perPage = searchPageSize ?? Math.min(100, Math.max(1, budget));
+  return { id, kind, query, page: searchPage ?? 1,
+    endPage: searchPage ?? Math.ceil(MAX_RESULTS_PER_SEARCH / perPage), perPage,
+    remaining: budget, repos: [], hits: [], exhausted: false, done: budget === 0, ...extra };
+}
+const initialTasks: IndexTask[] = directRepositories.map((repo) => makeTask("direct", `direct:${repo}`, repo, 1));
+for (const owner of directOwners) if (!skipOwnerFanout) initialTasks.push(makeTask("owner", `owner:${owner.toLowerCase()}`, owner, ownerFanoutMax));
+// Fixed shares make the checkpoint stable across retries. Each task gets one
+// candidate per turn; a large first repository/query cannot starve later families.
+const repositoryBudgets = allocateSearchBudget(repositoryMax, repositoryQueries.map(() => 1));
+const codeBudgets = allocateSearchBudget(max, queries.map(() => 1));
+for (let index = 0; index < Math.max(repositoryQueries.length, queries.length); index++) {
+  if (!skipRepositorySearch && index < repositoryQueries.length) {
+    const shares = allocateSearchBudget(repositoryBudgets[index], REPOSITORY_SEARCH_PASSES.map((pass) => pass.weight));
+    REPOSITORY_SEARCH_PASSES.forEach((pass, passIndex) => initialTasks.push(makeTask("repository-search", `repository:${index}:${passIndex}`, repositoryQueries[index], shares[passIndex], { sort: pass.sort, order: pass.order })));
+  }
+  if (!skipCodeSearch && index < queries.length) {
+    const shares = allocateSearchBudget(codeBudgets[index], SEARCH_ORDERS.map(() => 1));
+    SEARCH_ORDERS.forEach((order, passIndex) => initialTasks.push(makeTask("code-search", `code:${index}:${passIndex}`, queries[index], Math.min(MAX_RESULTS_PER_SEARCH, shares[passIndex]), { sort: "indexed", order })));
+  }
+}
+const state = loadCheckpoint(statePath, configHash(discoveryOptions), initialTasks);
+const seen = new Set(state.seenRoots);
+const seenRepositories = new Set(state.seenRepositories);
 let processed = 0;
 let indexed = 0;
 let metadata = 0;
 let unchanged = 0;
 let skipped = 0;
 let errors = 0;
-let gotFirstPage = false;
-let exitCode = 0;
-const seen = new Set<string>();
-const seenRepositories = new Set<string>();
-const ownersToFanOut = new Set<string>();
-const fannedOutOwners = new Set<string>();
 let repositoryCandidates = 0;
 let repositoryMatches = 0;
-let ownerFanoutCandidates = 0;
+configureGitHubRequests({ requestBudget, timeBudgetMs: timeBudgetSeconds * 1000 });
+state.status = "running";
+state.reason = null;
+function checkpoint(): void {
+  state.seenRoots = [...seen];
+  state.seenRepositories = [...seenRepositories];
+  state.requestMetrics = githubRequestMetrics();
+  saveCheckpoint(statePath, state);
+}
+checkpoint();
+console.log(`cycle ${state.cycleId}: ${state.tasks.filter((task) => !task.done).length} pending tasks; request budget ${requestBudget}, time budget ${timeBudgetSeconds}s`);
+console.log(`--max=${max} bounds code hits only; --repository-max=${repositoryMax} bounds repository candidates. Completion covers the configured cycle, not all GitHub.`);
 
 function queueOwnerFanout(repoFullName: string): void {
   if (skipOwnerFanout) return;
-  const owner = ownerFromFullName(repoFullName);
-  if (owner) ownersToFanOut.add(owner);
+  const owner = ownerFromFullName(repoFullName).toLowerCase();
+  if (owner && !state.tasks.some((task) => task.id === `owner:${owner}`)) state.tasks.push(makeTask("owner", `owner:${owner}`, owner, ownerFanoutMax));
 }
-
 async function processHit(item: CodeSearchItem): Promise<void> {
   const location = manifestLocation(item.path);
-  const rootKey = location
-    ? `${item.repository.full_name}#${location.pluginPath}`
-    : `${item.repository.full_name}#${item.path}`;
+  const rootKey = `${item.repository.full_name.toLowerCase()}#${location?.pluginPath ?? item.path}`;
   if (seen.has(rootKey)) return;
+  const outcome = await indexHit(item);
+  // Mark only after the DB transaction/metadata update finishes. Replaying a
+  // committed root after a crash is harmless; pre-marking would lose updates.
   seen.add(rootKey);
   processed++;
-  try {
-    const outcome = await indexHit(item);
-    if (outcome.ok) {
-      if (outcome.status === "indexed") indexed++;
-      if (outcome.status === "metadata") metadata++;
-      if (outcome.status === "unchanged") unchanged++;
-      console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
-      queueOwnerFanout(item.repository.full_name);
-    } else {
-      skipped++;
-      console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
-    }
-  } catch (err) {
-    if (err instanceof RateLimitAbortError) throw err;
-    errors++;
-    const message = err instanceof Error ? err.message : String(err);
-    console.error(`error ${safeLog(rootKey)}: ${safeLog(message)}`);
+  if (outcome.ok) {
+    if (outcome.status === "indexed") indexed++;
+    if (outcome.status === "metadata") metadata++;
+    if (outcome.status === "unchanged") unchanged++;
+    queueOwnerFanout(item.repository.full_name);
+    console.log(`${outcome.status} ${outcome.name}@${safeLog(item.repository.full_name)}`);
+  } else {
+    skipped++;
+    console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
   }
+  checkpoint();
 }
-
 async function processRepository(repo: RepoMetadata): Promise<void> {
-  if (seenRepositories.has(repo.fullName)) return;
-  seenRepositories.add(repo.fullName);
-  repositoryCandidates++;
+  const key = repo.fullName.toLowerCase();
+  if (seenRepositories.has(key)) return;
   repoCache.set(repo.fullName, repo);
-  try {
-    const inventory = await listRepositoryManifestFiles(repo.fullName, repo.defaultBranch);
-    if (inventory.truncated) {
-      console.warn(
-        `repository tree was truncated; coverage is incomplete: ${safeLog(repo.fullName)}`,
-      );
-    }
-    if (inventory.files.length === 0) return;
+  const inventory = await listRepositoryManifestFiles(repo.fullName, repo.defaultBranch);
+  if (inventory.files.length) {
     repositoryMatches++;
     queueOwnerFanout(repo.fullName);
-    console.log(
-      `found ${inventory.files.length} canonical manifests in ${safeLog(repo.fullName)}`,
-    );
-    for (const file of inventory.files) {
-      await processHit({
-        ...file,
-        html_url: `${repo.htmlUrl}/blob/${repo.defaultBranch}/${file.path}`,
-        repository: { full_name: repo.fullName, html_url: repo.htmlUrl },
-      });
-    }
-  } catch (err) {
-    if (err instanceof RateLimitAbortError) throw err;
-    errors++;
-    const message = err instanceof Error ? err.message : String(err);
-    console.error(`repository scan failed for ${safeLog(repo.fullName)}: ${safeLog(message)}`);
+    for (const file of inventory.files) await processHit({ ...file, html_url: `${repo.htmlUrl}/blob/${repo.defaultBranch}/${file.path}`, repository: { full_name: repo.fullName, html_url: repo.htmlUrl } });
   }
+  // Known roots may be committed, but a truncated tree is never full coverage.
+  if (inventory.truncated) throw new GitHubApiError(`Truncated repository tree: ${repo.fullName}`);
+  seenRepositories.add(key);
+  repositoryCandidates++;
+  checkpoint();
 }
-
-/**
- * When discovery finds one plugin from a publisher, walk their other public
- * repositories. Legacy Code Search often omits an entire active org once the
- * global 1,000-hit window fills with older repositories.
- */
-async function fanOutOwners(seedOwners: Iterable<string> = ownersToFanOut): Promise<void> {
-  if (skipOwnerFanout) return;
-  const pending = [...new Set([...seedOwners].map((owner) => owner.toLowerCase()))].filter(
-    (owner) => owner.length > 0 && !fannedOutOwners.has(owner),
-  );
-  for (const owner of pending) {
-    fannedOutOwners.add(owner);
-    console.log(
-      `owner fan-out: listing public repositories for ${safeLog(owner)} (max ${ownerFanoutMax})`,
-    );
-    let siblings: RepoMetadata[];
-    try {
-      siblings = await listOwnerPublicRepositories(owner, { max: ownerFanoutMax });
-    } catch (err) {
-      if (err instanceof RateLimitAbortError) throw err;
-      errors++;
-      const message = err instanceof Error ? err.message : String(err);
-      console.error(`owner fan-out failed for ${safeLog(owner)}: ${safeLog(message)}`);
-      continue;
-    }
-    gotFirstPage = true;
-    let scanned = 0;
-    for (const repo of siblings) {
-      if (seenRepositories.has(repo.fullName)) continue;
-      scanned++;
-      ownerFanoutCandidates++;
-      await processRepository(repo);
-    }
-    console.log(
-      `owner fan-out: scanned ${scanned} new repositories under ${safeLog(owner)}`,
-    );
-  }
-}
-
-try {
-  for (const owner of directOwners) {
-    ownersToFanOut.add(owner.toLowerCase());
-  }
-
-  for (const repoFullName of directRepositories) {
-    console.log(`scanning requested repository: ${safeLog(repoFullName)}`);
-    const repo = await getRepo(repoFullName);
-    if (!repo) {
-      errors++;
-      console.error(`requested repository unavailable: ${safeLog(repoFullName)}`);
-      continue;
-    }
+async function step(task: IndexTask): Promise<void> {
+  if (task.kind === "direct") {
+    const repo = await getRepo(task.query);
+    if (!repo) throw new GitHubApiError(`Requested repository unavailable: ${task.query}`, 404);
     await processRepository(repo);
+    task.done = true;
+    return;
   }
-
-  // Fan out from --repo / --owner seeds before broad search so issue-reported
-  // publishers are covered even when the shared search budget runs out early.
-  await fanOutOwners();
-
-  if (!skipRepositorySearch) {
-    // The budget is a single shared pool: each query takes an even share of what
-    // remains, each window takes a weighted share of its query's budget, and
-    // whatever a query (or one of its windows) cannot spend rolls over to the
-    // next one. Repositories already seen via an earlier query or pass do not
-    // consume budget.
-    let remainingBudget = repositoryMax;
-    for (const [queryIndex, query] of repositoryQueries.entries()) {
-      const queriesLeft = repositoryQueries.length - queryIndex;
-      const queryBudget = Math.floor(remainingBudget / queriesLeft);
-      if (queryBudget === 0) continue;
-      console.log(`searching GitHub repositories: ${query} (budget ${queryBudget})`);
-      let queryConsumed = 0;
-      for (const [passIndex, pass] of REPOSITORY_SEARCH_PASSES.entries()) {
-        const remainingQuery = queryBudget - queryConsumed;
-        if (remainingQuery <= 0) break;
-        const remainingWeights = REPOSITORY_SEARCH_PASSES.slice(passIndex).map(
-          (candidate) => candidate.weight,
-        );
-        const passBudget = allocateSearchBudget(remainingQuery, remainingWeights)[0] ?? 0;
-        if (passBudget <= 0) break;
-        let passConsumed = 0;
-        console.log(`  scanning ${pass.label} (budget ${passBudget})`);
-        try {
-          for await (const repositories of searchRepositories(query, {
-            perPage: searchPageSize ?? Math.min(100, passBudget),
-            startPage: searchPage,
-            maxPages: searchPage ? 1 : undefined,
-            sort: pass.sort,
-            order: pass.order,
-          })) {
-            gotFirstPage = true;
-            for (const repo of repositories) {
-              if (passConsumed >= passBudget) break;
-              if (seenRepositories.has(repo.fullName)) continue;
-              passConsumed++;
-              queryConsumed++;
-              await processRepository(repo);
-            }
-            if (passConsumed >= passBudget) break;
-          }
-        } catch (err) {
-          if (err instanceof RateLimitAbortError) throw err;
-          errors++;
-          const message = err instanceof Error ? err.message : String(err);
-          console.error(
-            `repository search failed (${pass.label}) for ${safeLog(query)}: ${safeLog(message)}`,
-          );
+  if (task.kind === "owner" && !task.exhausted) {
+    task.repos = (await listOwnerPublicRepositories(task.query, { max: ownerFanoutMax })).map(storeRepo);
+    task.exhausted = true;
+    checkpoint();
+  }
+  if (task.kind === "repository-search" || task.kind === "code-search") {
+    if (!task.repos.length && !task.hits.length && !task.exhausted && task.remaining > 0) {
+      let hasMore = false;
+      let incomplete = false;
+      const onPage = (info: { hasMore: boolean; incomplete: boolean }) => { hasMore = info.hasMore; incomplete = info.incomplete; };
+      if (task.kind === "repository-search") {
+        for await (const repos of searchRepositories(task.query, { perPage: task.perPage, startPage: task.page, maxPages: 1, sort: task.sort === "updated" ? "updated" : undefined, order: task.order, onPage })) {
+          if (incomplete) throw new GitHubApiError("GitHub repository search returned incomplete results; page retained for retry");
+          task.repos = repos.map(storeRepo);
+        }
+      } else {
+        for await (const hits of searchCode(task.query, { perPage: task.perPage, startPage: task.page, maxPages: 1, sort: "indexed", order: task.order, onPage })) {
+          if (incomplete) throw new GitHubApiError("GitHub code search returned incomplete results; page retained for retry");
+          task.hits = hits;
         }
       }
-      remainingBudget -= queryConsumed;
+      task.page++;
+      task.exhausted = !hasMore || task.page > task.endPage;
+      // Persist the exact page, not just its offset: rankings can change between runs.
+      checkpoint();
     }
   }
-
-  if (!skipCodeSearch) {
-    for (const [queryIndex, query] of queries.entries()) {
-      const baseBudget = Math.floor(max / queries.length);
-      const queryBudget = baseBudget + (queryIndex < max % queries.length ? 1 : 0);
-      if (queryBudget === 0) continue;
-      console.log(`searching GitHub code: ${query}`);
-      for (const [orderIndex, order] of SEARCH_ORDERS.entries()) {
-        const basePassBudget = Math.floor(queryBudget / SEARCH_ORDERS.length);
-        const passBudget = Math.min(
-          MAX_RESULTS_PER_SEARCH,
-          basePassBudget + (orderIndex < queryBudget % SEARCH_ORDERS.length ? 1 : 0),
-        );
-        if (passBudget === 0) continue;
-        let passExamined = 0;
-        console.log(`  scanning ${order === "desc" ? "newest" : "oldest"}-indexed window`);
-        try {
-          for await (const items of searchCode(query, {
-            perPage: searchPageSize ?? Math.min(100, passBudget),
-            startPage: searchPage,
-            maxPages: searchPage ? 1 : undefined,
-            sort: "indexed",
-            order,
-          })) {
-            gotFirstPage = true;
-            for (const item of items) {
-              if (passExamined >= passBudget) break;
-              passExamined++;
-              await processHit(item);
-            }
-            if (passExamined >= passBudget) break;
-          }
-        } catch (err) {
-          if (err instanceof RateLimitAbortError) throw err;
-          errors++;
-          const message = err instanceof Error ? err.message : String(err);
-          console.error(`search pass failed (${order}) for ${safeLog(query)}: ${safeLog(message)}`);
-        }
-      }
-    }
+  if (task.hits.length && task.remaining > 0) {
+    await processHit(task.hits[0]);
+    task.hits.shift();
+    task.remaining--;
+  } else if (task.repos.length && task.remaining > 0) {
+    const repo = restoreRepo(task.repos[0]);
+    const duplicate = seenRepositories.has(repo.fullName.toLowerCase());
+    await processRepository(repo);
+    task.repos.shift();
+    if (!duplicate) task.remaining--;
   }
-
-  // Second fan-out pass catches publishers discovered during broad search.
-  await fanOutOwners();
-} catch (err) {
-  if (err instanceof RateLimitAbortError) {
-    console.error(`aborted: ${err.message}`);
-    if (allowPartial) {
-      console.error("keeping fully committed plugin updates from this partial run");
-    } else {
-      exitCode = 1;
-    }
-  } else {
-    const message =
-      err instanceof GitHubApiError || err instanceof Error ? err.message : String(err);
-    if (!gotFirstPage) {
-      console.error(`discovery failed: ${message}`);
-      exitCode = 1;
-    } else {
-      console.error(`search stopped early: ${message}`);
-      errors++;
-    }
+  if (task.remaining === 0 || (task.exhausted && !task.hits.length && !task.repos.length)) {
+    task.done = true;
+    task.hits = [];
+    task.repos = [];
   }
 }
-
-console.log(
-  `done: examined ${repositoryCandidates} repositories, matched ${repositoryMatches}; ` +
-    `owner fan-out scanned ${ownerFanoutCandidates}; ` +
-    `processed ${processed} plugin roots, indexed ${indexed}, metadata ${metadata}, ` +
-    `unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`,
-);
-
-await prisma.$disconnect();
+const blocked = new Set<string>();
+let exitCode = 0;
+let fatal = false;
+try {
+  for (;;) {
+    const task = nextTask(state, blocked);
+    if (!task) break;
+    // The cursor is saved before work. Even a budget interruption during an
+    // expensive root gives the next family priority when the cycle resumes.
+    checkpoint();
+    try {
+      assertGitHubBudget();
+      await step(task);
+      delete task.lastError;
+      checkpoint();
+    } catch (err) {
+      if (err instanceof RateLimitAbortError || !(err instanceof GitHubApiError)) throw err;
+      errors++;
+      task.lastError = safeLog(err instanceof Error ? err.message : "Unknown task error");
+      blocked.add(task.id);
+      console.error(`task ${task.id} paused: ${task.lastError}`);
+      checkpoint();
+    }
+  }
+  const pending = state.tasks.filter((task) => !task.done);
+  state.status = pending.length ? "partial" : "completed";
+  state.reason = pending.length ? `${pending.length} tasks need retry` : null;
+  state.completedAt = pending.length ? null : new Date().toISOString();
+} catch (err) {
+  fatal = !(err instanceof RateLimitAbortError);
+  state.status = "partial";
+  state.reason = safeLog(err instanceof Error ? err.message : "Unknown indexing error");
+  console.error(`paused: ${state.reason}`);
+} finally {
+  checkpoint();
+  await prisma.$disconnect();
+}
+if (fatal || (state.status !== "completed" && !allowPartial)) exitCode = 1;
+console.log(`${state.status}: examined ${repositoryCandidates} repositories, matched ${repositoryMatches}; processed ${processed} roots, indexed ${indexed}, metadata ${metadata}, unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`);
+console.log(`requests: ${JSON.stringify(state.requestMetrics)}; checkpoint: ${statePath}`);
 process.exit(exitCode);

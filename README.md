@@ -95,7 +95,7 @@ flowchart LR
     C --> D["Validate skills and MCP config"]
     D --> E["Merge runtimes and upsert plugins"]
     E --> F["Validate SQLite snapshot"]
-    F --> G["Commit snapshot to main"]
+    F --> G["Publish Release; commit manifest + catalogs"]
     G --> H["Vercel production deploy"]
     H --> I["Web · REST · MCP · llms.txt"]
 ```
@@ -108,8 +108,10 @@ Each sync:
 2. Inspects their trees for canonical manifests, including monorepos with multiple plugin roots.
 3. Validates manifest fields, skills, and MCP server declarations.
 4. Merges sibling runtime manifests and updates repository metadata and star counts.
-5. Runs database integrity checks, protocol tests, and linting.
-6. Commits a changed snapshot to `main`; Vercel deploys that snapshot automatically.
+5. Validates SQLite, generates both install catalogs, and tests/builds a compact candidate.
+6. Saves a recoverable artifact, publishes versioned Release assets, then commits only the verified manifest and both catalogs together. Vercel restores the exact pin at build time.
+
+See [snapshot rollout, coverage, and recovery](docs/catalog-snapshots.md). The raw database is no longer tracked in new Git commits.
 
 Unchanged repositories reuse their indexed components based on GitHub's `pushed_at` value. Sync is deliberately **upsert-only**: a plugin is not deleted merely because a bounded search fails to return it on a later run.
 
@@ -126,6 +128,7 @@ The API is read-only, requires no authentication, and allows cross-origin reques
 | `GET /api/v1/plugins` | Search and paginate plugins |
 | `GET /api/v1/plugins/:slug` | Retrieve one plugin with manifests and components |
 | `GET /api/v1/stats` | Retrieve live directory totals |
+| `GET /api/catalog-snapshot` | Inspect pinned snapshot identity and coverage |
 | `GET /api/v1/categories` | List manifest-keyword tags with counts |
 
 Useful list parameters include `q`, `category`, `type`, `transport`, `sort`, `page`, and `per_page`. Repeat `protocol` to match any selected plugin format:
@@ -138,7 +141,7 @@ See the [interactive documentation](https://pluginsmp.com/docs) for response sha
 
 ## Run locally
 
-Requirements: Node.js 20.9+ and npm. The synchronization workflow currently runs on Node.js 24.
+Requirements: Node.js 24 and npm. Snapshot validation uses Node’s built-in SQLite module.
 
 ```bash
 git clone https://github.com/IchenDEV/agent-plugin-mkt.git
@@ -168,7 +171,9 @@ Useful options:
 |---|---|
 | `--repository-max <n>` | Limit repository candidates |
 | `--skip-code-search` | Use repository discovery and Git-tree validation only |
-| `--allow-partial` | Keep completed transactions if an API quota is exhausted |
+| `--allow-partial` | Publish safe completed transactions with partial coverage |
+| `--request-budget <n>` | Bound measured API requests, including retries |
+| `--time-budget-seconds <n>` | Bound this invocation, retaining a resumable checkpoint |
 
 The indexer only talks to `api.github.com`, caps fetched file sizes, respects rate limits, and is idempotent.
 
@@ -179,7 +184,9 @@ To clear the local database before loading fixtures, run `npm run db:seed -- --r
 | Command | Purpose |
 |---|---|
 | `npm run dev` | Start the Next.js development server |
-| `npm run build` | Create a production build |
+| `npm run build` | Restore the exact pin and create a production build |
+| `npm run snapshot:restore` | Verify and restore the pinned DB/checkpoint |
+| `npm run snapshot:prepare` | Prepare a local compact Release candidate; does not publish |
 | `npm test` | Run protocol and validation tests |
 | `npm run lint` | Run ESLint |
 | `npm run db:push` | Apply the Prisma schema |
@@ -216,7 +223,7 @@ An index entry is evidence that a repository published a structurally valid mani
 app/                  Next.js pages, REST routes, MCP, and text feeds
 components/           Shared server and client UI components
 lib/                  Queries, validation, GitHub discovery, and MCP logic
-prisma/               Schema and deployable directory snapshot
+prisma/               Schema, tracked snapshot pin, and restored local database
 scripts/              Indexing, seeding, validation, and MCP test tools
 tests/                Protocol validation tests
 fixtures/             Fictional local development plugins

@@ -1,0 +1,33 @@
+name: Validate catalog application
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run snapshot:restore
+      - run: npx prisma generate
+      - run: npm test
+      - run: npm run lint
+      - run: npm run db:validate
+      - run: npm run marketplace:check
+      - run: npm run build

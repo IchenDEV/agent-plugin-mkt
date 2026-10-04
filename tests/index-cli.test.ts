@@ -113,3 +113,85 @@ test("search-page buffers persist while budgeted resumes rotate into code search
     assert.deepEqual(readFileSync(f.env.MOCK_TRACE, "utf8").trim().split("\n"), ["/search/repositories", "/search/repositories", "/search/code"]);
   } finally { f.cleanup(); }
 });
+
+test("historical search splits capped results and carries the unfetched window and buffered tail into the next cycle", () => {
+  const f = fixture();
+  const trace = join(f.directory, "queries.jsonl");
+  const env = { MOCK_SEARCH_TEST: "1", MOCK_PARTITION_TEST: "cap", MOCK_REQUESTS: trace };
+  const args = ["--skip-code-search", "--repository-max", "2"];
+  try {
+    const first = f.cli(env, args);
+    assert.equal(first.status, 0, first.stderr + first.stdout);
+    assert.equal(f.state().status, "completed");
+    const history = f.state().tasks.find((task) => task.traversal)!;
+    assert.equal(history.repos[0]?.fullName, "fixture/fast");
+    assert.equal(history.traversal!.windows.length, 1);
+    assert.deepEqual(f.state().seenRoots, ["fixture/slow#"]);
+    const requests = readFileSync(trace, "utf8").trim().split("\n").map((line) => JSON.parse(line));
+    assert.equal(requests.filter((request) => request.query?.includes("created:")).length, 2);
+    writeFileSync(trace, "");
+    const second = f.cli(env, args);
+    assert.equal(second.status, 0, second.stderr + second.stdout);
+    assert.deepEqual(f.state().seenRoots, ["fixture/fast#"]);
+    assert.equal(f.state().tasks.find((task) => task.traversal)!.traversal!.windows.length, 1);
+    assert.ok(!readFileSync(trace, "utf8").includes("created:"), "the buffered tail must not be replaced by a new search page");
+    const third = f.cli(env, args);
+    assert.equal(third.status, 0, third.stderr + third.stdout);
+    assert.deepEqual(f.state().tasks.find((task) => task.traversal)!.traversal!.windows, []);
+  } finally { f.cleanup(); }
+});
+
+test("incomplete historical searches narrow their window; unsplittable overflow stays pending", () => {
+  const f = fixture();
+  const args = ["--skip-code-search", "--repository-max", "2"];
+  try {
+    const first = f.cli({ MOCK_SEARCH_TEST: "1", MOCK_PARTITION_TEST: "incomplete" }, args);
+    assert.equal(first.status, 0, first.stderr + first.stdout);
+    assert.deepEqual(f.state().seenRoots, ["fixture/slow#"]);
+    const state = f.state();
+    state.status = "partial";
+    const task = state.tasks.find((task) => task.traversal)!;
+    task.done = false;
+    task.remaining = 1;
+    task.repos = [];
+    task.traversal!.windows = [{ from: 1, to: 1 }];
+    writeFileSync(f.env.INDEX_STATE_PATH, JSON.stringify(state));
+    const saturated = f.cli({ MOCK_SEARCH_TEST: "1", MOCK_PARTITION_TEST: "saturated" }, args);
+    assert.equal(saturated.status, 0, saturated.stderr + saturated.stdout);
+    assert.equal(f.state().status, "partial");
+    assert.match(f.state().tasks.find((task) => task.traversal)!.lastError!, /cannot be fully enumerated/);
+    assert.deepEqual(f.state().tasks.find((task) => task.traversal)!.traversal!.windows, [{ from: 1, to: 1 }]);
+  } finally { f.cleanup(); }
+});
+
+test("duplicate runtime manifests and non-manifest code hits do not spend unique-root budget", () => {
+  const f = fixture();
+  try {
+    const result = f.cli({ MOCK_SEARCH_TEST: "1", MOCK_DUPLICATE_CODE: "1" }, ["--skip-repository-search", "--max", "2"]);
+    assert.equal(result.status, 0, result.stderr + result.stdout);
+    assert.equal(f.state().status, "completed");
+    assert.deepEqual(f.state().seenRoots, ["fixture/slow#", "fixture/fast#"]);
+  } finally { f.cleanup(); }
+});
+
+test("complete empty trees are excluded across cycles until a push; truncated trees are never cached", () => {
+  const f = fixture();
+  try {
+    const incomplete = f.cli({ MOCK_EMPTY_REPOS: "1", MOCK_TRUNCATED: "1" });
+    assert.equal(incomplete.status, 0, incomplete.stderr + incomplete.stdout);
+    assert.equal(f.state().status, "partial");
+    assert.deepEqual(f.state().emptyRepositories, {});
+    const inspected = f.cli({ MOCK_EMPTY_REPOS: "1" });
+    assert.equal(inspected.status, 0, inspected.stderr + inspected.stdout);
+    assert.equal(f.state().status, "completed");
+    assert.equal(Object.keys(f.state().emptyRepositories).length, 2);
+    writeFileSync(f.env.MOCK_TRACE, "");
+    const skipped = f.cli({ MOCK_EMPTY_REPOS: "1" });
+    assert.equal(skipped.status, 0, skipped.stderr + skipped.stdout);
+    assert.ok(!readFileSync(f.env.MOCK_TRACE, "utf8").includes("/git/trees/"));
+    const pushed = f.cli({ MOCK_PUSHED_AT: "2026-10-05T00:00:00Z" });
+    assert.equal(pushed.status, 0, pushed.stderr + pushed.stdout);
+    assert.equal(f.state().seenRoots.length, 2);
+    assert.deepEqual(f.state().emptyRepositories, {});
+  } finally { f.cleanup(); }
+});

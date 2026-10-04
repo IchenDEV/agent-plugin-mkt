@@ -52,6 +52,7 @@ import {
 } from "@/lib/marketplaces";
 
 import { configHash, loadCheckpoint, nextTask, restoreRepo, saveCheckpoint, storeRepo, type IndexTask } from "@/lib/index-checkpoint";
+import { canSkipEmptyRepository, newRepositoryTraversal, repositoryWindowQuery, splitSearchWindow } from "@/lib/discovery";
 
 const MAX_MANIFEST_BYTES = 200 * 1024;
 const MAX_COMPONENT_FILE_BYTES = 200 * 1024;
@@ -61,14 +62,12 @@ const MAX_MCP_SERVERS_PER_PLUGIN = 50;
 const DEFAULT_MAX_PLUGINS = 40;
 const DEFAULT_MAX_REPOSITORIES = 40;
 const SEARCH_ORDERS = ["desc", "asc"] as const;
-// Repository search runs a recently-updated pass before a best-match pass.
-// Best-match ranks by relevance, which buries new, low-star repositories under
-// established ones; the updated window surfaces them while they are still
-// active and is weighted higher because best-match results are dominated by
-// already-indexed repositories that only need a metadata refresh.
+// Keep a fresh window alongside a historical traversal. The latter partitions
+// by creation time and carries its cursor across bounded cycles instead of
+// repeatedly visiting only the top best-match results.
 const REPOSITORY_SEARCH_PASSES = [
-  { label: "recently-updated window", sort: "updated", order: "desc", weight: 2 },
-  { label: "best-match window", sort: undefined, order: undefined, weight: 1 },
+  { sort: "updated", order: "desc", weight: 1, traverse: false },
+  { sort: undefined, order: undefined, weight: 1, traverse: true },
 ] as const;
 const MAX_RESULTS_PER_SEARCH = 1_000;
 
@@ -660,7 +659,10 @@ const codeBudgets = allocateSearchBudget(max, queries.map(() => 1));
 for (let index = 0; index < Math.max(repositoryQueries.length, queries.length); index++) {
   if (!skipRepositorySearch && index < repositoryQueries.length) {
     const shares = allocateSearchBudget(repositoryBudgets[index], REPOSITORY_SEARCH_PASSES.map((pass) => pass.weight));
-    REPOSITORY_SEARCH_PASSES.forEach((pass, passIndex) => initialTasks.push(makeTask("repository-search", `repository:${index}:${passIndex}`, repositoryQueries[index], shares[passIndex], { sort: pass.sort, order: pass.order })));
+    REPOSITORY_SEARCH_PASSES.forEach((pass, passIndex) => initialTasks.push(makeTask("repository-search", `repository:${index}:${passIndex}`, repositoryQueries[index], shares[passIndex], {
+      sort: pass.sort, order: pass.order,
+      ...(pass.traverse && searchPage === undefined ? { traversal: newRepositoryTraversal() } : {}),
+    })));
   }
   if (!skipCodeSearch && index < queries.length) {
     const shares = allocateSearchBudget(codeBudgets[index], SEARCH_ORDERS.map(() => 1));
@@ -678,6 +680,7 @@ let skipped = 0;
 let errors = 0;
 let repositoryCandidates = 0;
 let repositoryMatches = 0;
+let excludedRepositories = 0;
 configureGitHubRequests({ requestBudget, timeBudgetMs: timeBudgetSeconds * 1000 });
 state.status = "running";
 state.reason = null;
@@ -689,17 +692,18 @@ function checkpoint(): void {
 }
 checkpoint();
 console.log(`cycle ${state.cycleId}: ${state.tasks.filter((task) => !task.done).length} pending tasks; request budget ${requestBudget}, time budget ${timeBudgetSeconds}s`);
-console.log(`--max=${max} bounds code hits only; --repository-max=${repositoryMax} bounds repository candidates. Completion covers the configured cycle, not all GitHub.`);
+console.log(`--max=${max} bounds unique canonical code roots; --repository-max=${repositoryMax} bounds repository inspections. Historical search cursors continue across cycles; completion is not all-GitHub coverage.`);
 
 function queueOwnerFanout(repoFullName: string): void {
   if (skipOwnerFanout) return;
   const owner = ownerFromFullName(repoFullName).toLowerCase();
   if (owner && !state.tasks.some((task) => task.id === `owner:${owner}`)) state.tasks.push(makeTask("owner", `owner:${owner}`, owner, ownerFanoutMax));
 }
-async function processHit(item: CodeSearchItem): Promise<void> {
+async function processHit(item: CodeSearchItem): Promise<boolean> {
   const location = manifestLocation(item.path);
-  const rootKey = `${item.repository.full_name.toLowerCase()}#${location?.pluginPath ?? item.path}`;
-  if (seen.has(rootKey)) return;
+  if (!location || item.path.split("/").some((segment) => !isSafePathSegment(segment))) return false;
+  const rootKey = `${item.repository.full_name.toLowerCase()}#${location.pluginPath}`;
+  if (seen.has(rootKey)) return false;
   const outcome = await indexHit(item);
   // Mark only after the DB transaction/metadata update finishes. Replaying a
   // committed root after a crash is harmless; pre-marking would lose updates.
@@ -716,10 +720,18 @@ async function processHit(item: CodeSearchItem): Promise<void> {
     console.log(`skipped ${safeLog(rootKey)}: ${safeLog(outcome.reason)}`);
   }
   checkpoint();
+  return true;
 }
-async function processRepository(repo: RepoMetadata): Promise<void> {
+async function processRepository(repo: RepoMetadata): Promise<boolean> {
   const key = repo.fullName.toLowerCase();
-  if (seenRepositories.has(key)) return;
+  if (seenRepositories.has(key)) return false;
+  if (canSkipEmptyRepository(repo, state.emptyRepositories[key])) {
+    excludedRepositories++;
+    seenRepositories.add(key);
+    checkpoint();
+    return false;
+  }
+  delete state.emptyRepositories[key];
   repoCache.set(repo.fullName, repo);
   const inventory = await listRepositoryManifestFiles(repo.fullName, repo.defaultBranch);
   if (inventory.files.length) {
@@ -729,9 +741,13 @@ async function processRepository(repo: RepoMetadata): Promise<void> {
   }
   // Known roots may be committed, but a truncated tree is never full coverage.
   if (inventory.truncated) throw new GitHubApiError(`Truncated repository tree: ${repo.fullName}`);
+  if (inventory.files.length === 0 && repo.pushedAt) {
+    state.emptyRepositories[key] = { pushedAt: repo.pushedAt.toISOString(), defaultBranch: repo.defaultBranch, checkedAt: new Date().toISOString() };
+  }
   seenRepositories.add(key);
   repositoryCandidates++;
   checkpoint();
+  return true;
 }
 async function step(task: IndexTask): Promise<void> {
   if (task.kind === "direct") {
@@ -750,9 +766,20 @@ async function step(task: IndexTask): Promise<void> {
     if (!task.repos.length && !task.hits.length && !task.exhausted && task.remaining > 0) {
       let hasMore = false;
       let incomplete = false;
-      const onPage = (info: { hasMore: boolean; incomplete: boolean }) => { hasMore = info.hasMore; incomplete = info.incomplete; };
+      let totalCount = 0;
+      const onPage = (info: { hasMore: boolean; incomplete: boolean; totalCount: number }) => { hasMore = info.hasMore; incomplete = info.incomplete; totalCount = info.totalCount; };
       if (task.kind === "repository-search") {
-        for await (const repos of searchRepositories(task.query, { perPage: task.perPage, startPage: task.page, maxPages: 1, sort: task.sort === "updated" ? "updated" : undefined, order: task.order, onPage })) {
+        const window = task.traversal?.windows[0];
+        const query = window ? repositoryWindowQuery(task.query, window) : task.query;
+        for await (const repos of searchRepositories(query, { perPage: task.perPage, startPage: task.page, maxPages: 1, sort: task.sort === "updated" ? "updated" : undefined, order: task.order, onPage })) {
+          if (window && (totalCount > MAX_RESULTS_PER_SEARCH || incomplete)) {
+            const parts = splitSearchWindow(window);
+            if (!parts) throw new GitHubApiError(`Search window cannot be fully enumerated: ${query}; ${totalCount} results, incomplete=${incomplete}`);
+            task.traversal!.windows.splice(0, 1, ...parts);
+            task.page = 1;
+            checkpoint();
+            return;
+          }
           if (incomplete) throw new GitHubApiError("GitHub repository search returned incomplete results; page retained for retry");
           task.repos = repos.map(storeRepo);
         }
@@ -764,25 +791,31 @@ async function step(task: IndexTask): Promise<void> {
       }
       task.page++;
       task.exhausted = !hasMore || task.page > task.endPage;
+      if (task.traversal && task.exhausted) {
+        task.traversal.windows.shift();
+        task.page = 1;
+        task.exhausted = task.traversal.windows.length === 0;
+      }
       // Persist the exact page, not just its offset: rankings can change between runs.
       checkpoint();
     }
   }
   if (task.hits.length && task.remaining > 0) {
-    await processHit(task.hits[0]);
+    const inspected = await processHit(task.hits[0]);
     task.hits.shift();
-    task.remaining--;
+    if (inspected) task.remaining--;
   } else if (task.repos.length && task.remaining > 0) {
     const repo = restoreRepo(task.repos[0]);
-    const duplicate = seenRepositories.has(repo.fullName.toLowerCase());
-    await processRepository(repo);
+    const inspected = await processRepository(repo);
     task.repos.shift();
-    if (!duplicate) task.remaining--;
+    if (inspected) task.remaining--;
   }
   if (task.remaining === 0 || (task.exhausted && !task.hits.length && !task.repos.length)) {
     task.done = true;
     task.hits = [];
-    task.repos = [];
+    // A historical page can straddle the bounded-cycle limit. Retain its tail
+    // so the next cycle starts with the exact next candidate, not page one.
+    if (!task.traversal) task.repos = [];
   }
 }
 const blocked = new Set<string>();
@@ -824,5 +857,6 @@ try {
 }
 if (fatal || (state.status !== "completed" && !allowPartial)) exitCode = 1;
 console.log(`${state.status}: examined ${repositoryCandidates} repositories, matched ${repositoryMatches}; processed ${processed} roots, indexed ${indexed}, metadata ${metadata}, unchanged ${unchanged}, skipped ${skipped}, errors ${errors}`);
+console.log(`discovery: ${excludedRepositories} unchanged empty repositories excluded; ${state.tasks.filter((task) => task.traversal && (task.traversal.windows.length || task.repos.length)).length} historical traversals retain work for subsequent cycles`);
 console.log(`requests: ${JSON.stringify(state.requestMetrics)}; checkpoint: ${statePath}`);
 process.exit(exitCode);

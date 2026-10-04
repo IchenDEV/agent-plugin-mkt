@@ -306,7 +306,7 @@ export async function* searchCode(
     perPage?: number;
     maxPages?: number;
     startPage?: number;
-    onPage?: (info: { hasMore: boolean; incomplete: boolean }) => void;
+    onPage?: (info: { hasMore: boolean; incomplete: boolean; totalCount: number }) => void;
     sort?: "indexed";
     order?: "asc" | "desc";
   } = {}
@@ -340,8 +340,8 @@ export async function* searchCode(
       }
       throw err;
     }
-    if (!Array.isArray(result.items)) throw new GitHubApiError("Malformed GitHub search response");
-    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true });
+    if (!Array.isArray(result.items) || !Number.isSafeInteger(result.total_count) || result.total_count < 0) throw new GitHubApiError("Malformed GitHub search response");
+    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true, totalCount: result.total_count });
     yield result.items;
     if (
       result.items.length === 0 ||
@@ -419,7 +419,7 @@ export async function* searchRepositories(
     perPage?: number;
     maxPages?: number;
     startPage?: number;
-    onPage?: (info: { hasMore: boolean; incomplete: boolean }) => void;
+    onPage?: (info: { hasMore: boolean; incomplete: boolean; totalCount: number }) => void;
     sort?: "stars" | "forks" | "updated";
     order?: "asc" | "desc";
   } = {},
@@ -445,8 +445,8 @@ export async function* searchRepositories(
       "/search/repositories",
       searchParams,
     );
-    if (!Array.isArray(result.items)) throw new GitHubApiError("Malformed GitHub search response");
-    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true });
+    if (!Array.isArray(result.items) || !Number.isSafeInteger(result.total_count) || result.total_count < 0) throw new GitHubApiError("Malformed GitHub search response");
+    opts.onPage?.({ hasMore: result.items.length > 0 && page * perPage < Math.min(result.total_count, SEARCH_RESULT_CAP), incomplete: result.incomplete_results === true, totalCount: result.total_count });
     yield result.items.map(repoMetadata);
     if (
       result.items.length === 0 ||

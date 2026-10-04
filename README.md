@@ -119,6 +119,8 @@ Unchanged repositories reuse their indexed components based on GitHub's `pushed_
 
 GitHub search is broad but not mathematically exhaustive. Individual search queries are capped at 1,000 results, API quotas apply, repositories can be private or temporarily unavailable, and some projects do not publish a canonical manifest. When a publisher does appear, the indexer fans out across their other public repositories so nested plugin roots are not lost solely because Code Search omitted them. The workflow uses multiple protocol-specific windows and safely commits completed transactions when a run becomes quota-limited, but it does not claim to enumerate every repository on GitHub.
 
+Repository discovery pairs a recent-update window with a creation-time traversal. Oversized or incomplete historical searches split into smaller ranges; pending ranges and buffered pages continue across budgeted cycles instead of starting at the top again. Duplicate manifests do not consume code-search candidate slots. Repositories with a fully inspected empty manifest inventory are skipped while unchanged for up to seven days, then checked again. Pushes or default-branch changes invalidate that exclusion. See [discovery budgets and checkpoint behavior](docs/catalog-snapshots.md#coverage-and-request-budgets).
+
 ## REST API
 
 The API is read-only, requires no authentication, and allows cross-origin requests.

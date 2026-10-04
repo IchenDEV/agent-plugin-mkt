@@ -24,7 +24,7 @@ export type Transport = "stdio" | "streamable-http" | "sse";
 export type SortOrder = "stars" | "updated" | "recent";
 
 export interface PluginFilters {
-  /** Free-text query over name, description, keywords, author. */
+  /** Free-text query over plugin metadata and GitHub repository identity. */
   q?: string;
   /** Exact GitHub owner login (creator pages). */
   owner?: string;
@@ -229,6 +229,8 @@ export function pluginWhereForFilters(filters: PluginFilters = {}): Prisma.Plugi
         { description: { contains: q } },
         { keywords: { contains: q } },
         { authorName: { contains: q } },
+        { repoUrl: { contains: q } },
+        { repoOwner: { contains: q } },
       ],
     });
   }

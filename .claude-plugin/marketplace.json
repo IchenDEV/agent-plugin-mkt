@@ -523,6 +523,14 @@
       }
     },
     {
+      "name": "acli",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/acli"
+      }
+    },
+    {
       "name": "acme-tools",
       "source": {
         "source": "git-subdir",
@@ -21951,6 +21959,14 @@
       }
     },
     {
+      "name": "dev-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/dev-workflows"
+      }
+    },
+    {
       "name": "dev3000",
       "source": {
         "source": "git-subdir",
@@ -23310,6 +23326,14 @@
         "source": "git-subdir",
         "url": "Cl3mi/claude-setup",
         "path": "plugins/docs-workflow"
+      }
+    },
+    {
+      "name": "docs-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/docs-workflows"
       }
     },
     {
@@ -28398,6 +28422,14 @@
       }
     },
     {
+      "name": "fixture-two",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "scripts/fixtures/docs/pass/plugins/fixture-two"
+      }
+    },
+    {
       "name": "flagrare",
       "source": {
         "source": "git-subdir",
@@ -33274,6 +33306,14 @@
         "source": "git-subdir",
         "url": "jermn007/GUIDE",
         "path": "skill/guide-instructional-design-plugin"
+      }
+    },
+    {
+      "name": "guideline-reviewers",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/guideline-reviewers"
       }
     },
     {
@@ -47001,6 +47041,14 @@
       }
     },
     {
+      "name": "obsidian-llm-wiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/obsidian-llm-wiki"
+      }
+    },
+    {
       "name": "obsidian-organize",
       "source": {
         "source": "git-subdir",
@@ -53340,6 +53388,14 @@
       }
     },
     {
+      "name": "product-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/product-workflows"
+      }
+    },
+    {
       "name": "production",
       "source": {
         "source": "git-subdir",
@@ -54251,6 +54307,14 @@
         "source": "git-subdir",
         "url": "shimo4228/harness-scope",
         "path": "tools/probe"
+      }
+    },
+    {
+      "name": "prose-style",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/prose-style"
       }
     },
     {
@@ -56936,6 +57000,14 @@
         "source": "git-subdir",
         "url": "tomerhayundev/skills",
         "path": "plugins/remotion-video-tutorial"
+      }
+    },
+    {
+      "name": "renamed-namespace",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "scripts/fixtures/docs/pass/plugins/fixture-unlisted"
       }
     },
     {
@@ -74191,6 +74263,14 @@
       "source": {
         "source": "github",
         "repo": "edwinhu/workflows"
+      }
+    },
+    {
+      "name": "workflows-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "ihudak/ai-workflows",
+        "path": "plugins/workflows-core"
       }
     },
     {

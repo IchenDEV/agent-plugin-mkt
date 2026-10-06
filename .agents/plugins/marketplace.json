@@ -7272,6 +7272,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-timestamp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AraneaDev/claude-timestamp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-tools",
       "source": {
         "source": "git-subdir",
@@ -11562,6 +11574,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/indranilbanerjee/digital-marketing-pro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "digital-sztu",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Shuang-su/digital-sztu.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26018,6 +26042,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "peter537-agent-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Peter537/peter537-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "petmysite",
       "source": {
         "source": "url",
@@ -34356,6 +34392,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Soein/swarmesh.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "swiftui-expert",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",

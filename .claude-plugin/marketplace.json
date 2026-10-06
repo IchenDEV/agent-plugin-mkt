@@ -1677,6 +1677,14 @@
       }
     },
     {
+      "name": "agent-guard-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "JeongJaeSoon/agent-guard",
+        "path": "plugins/agent-guard"
+      }
+    },
+    {
       "name": "agent-harness",
       "source": {
         "source": "git-subdir",
@@ -2224,6 +2232,14 @@
         "source": "git-subdir",
         "url": "paat/claude-plugins",
         "path": "plugins/agent-sync"
+      }
+    },
+    {
+      "name": "agent-systems-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/tons-of-skills-marketplace",
+        "path": "plugins/skill-enhancers/agent-systems-toolkit"
       }
     },
     {
@@ -13412,6 +13428,13 @@
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/claude-telemetry-hooks"
+      }
+    },
+    {
+      "name": "claude-timestamp",
+      "source": {
+        "source": "github",
+        "repo": "AraneaDev/claude-timestamp"
       }
     },
     {
@@ -37238,6 +37261,46 @@
       }
     },
     {
+      "name": "iterative-evolver-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".agent/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".claude/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".codex/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".cursor/skills/iterative-evolver"
+      }
+    },
+    {
+      "name": "iterative-evolver-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".windsurf/skills/iterative-evolver"
+      }
+    },
+    {
       "name": "iterm2-titles",
       "source": {
         "source": "git-subdir",
@@ -42633,6 +42696,13 @@
       }
     },
     {
+      "name": "marketing-engine",
+      "source": {
+        "source": "github",
+        "repo": "RankM8/marketing-engine"
+      }
+    },
+    {
       "name": "marketing-operations",
       "source": {
         "source": "git-subdir",
@@ -45691,6 +45761,13 @@
         "source": "git-subdir",
         "url": "feiskyer/claude-code-settings",
         "path": "plugins/nanobanana-skill"
+      }
+    },
+    {
+      "name": "nanoclaw-e2e",
+      "source": {
+        "source": "github",
+        "repo": "nanocoai/nanoclaw-oss-dev-tools"
       }
     },
     {
@@ -51633,10 +51710,26 @@
       }
     },
     {
+      "name": "pm-2027",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-2027"
+      }
+    },
+    {
       "name": "pm-3",
       "source": {
         "source": "github",
         "repo": "cfdude/pm"
+      }
+    },
+    {
+      "name": "pm-3d-explorer",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-3d-explorer"
       }
     },
     {
@@ -51655,11 +51748,75 @@
       }
     },
     {
+      "name": "pm-accessibility",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-accessibility"
+      }
+    },
+    {
+      "name": "pm-accounting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-accounting"
+      }
+    },
+    {
+      "name": "pm-advanced",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-advanced"
+      }
+    },
+    {
       "name": "pm-advisory",
       "source": {
         "source": "git-subdir",
         "url": "iDWong/pm-skills",
         "path": "pm-advisory"
+      }
+    },
+    {
+      "name": "pm-agentnative",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-agentnative"
+      }
+    },
+    {
+      "name": "pm-agentops",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-agentops"
+      }
+    },
+    {
+      "name": "pm-aging-parents",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-aging-parents"
+      }
+    },
+    {
+      "name": "pm-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-ai"
+      }
+    },
+    {
+      "name": "pm-ai-native",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-ai-native"
       }
     },
     {
@@ -51687,11 +51844,299 @@
       }
     },
     {
+      "name": "pm-aiwork",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-aiwork"
+      }
+    },
+    {
       "name": "pm-analytics",
       "source": {
         "source": "git-subdir",
         "url": "iDWong/pm-skills",
         "path": "pm-analytics"
+      }
+    },
+    {
+      "name": "pm-analytics-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-analytics"
+      }
+    },
+    {
+      "name": "pm-architecture",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-architecture"
+      }
+    },
+    {
+      "name": "pm-autopilot",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-autopilot"
+      }
+    },
+    {
+      "name": "pm-banking",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-banking"
+      }
+    },
+    {
+      "name": "pm-business",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-business"
+      }
+    },
+    {
+      "name": "pm-calculators",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-calculators"
+      }
+    },
+    {
+      "name": "pm-career",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-career"
+      }
+    },
+    {
+      "name": "pm-caregiving",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-caregiving"
+      }
+    },
+    {
+      "name": "pm-china-compliance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-compliance"
+      }
+    },
+    {
+      "name": "pm-china-exams",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-exams"
+      }
+    },
+    {
+      "name": "pm-china-life",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-life"
+      }
+    },
+    {
+      "name": "pm-china-manufacturing",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-manufacturing"
+      }
+    },
+    {
+      "name": "pm-china-parents",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-parents"
+      }
+    },
+    {
+      "name": "pm-china-teachers",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-teachers"
+      }
+    },
+    {
+      "name": "pm-china-trade",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-trade"
+      }
+    },
+    {
+      "name": "pm-china-work",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-work"
+      }
+    },
+    {
+      "name": "pm-china-yearend",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-china-yearend"
+      }
+    },
+    {
+      "name": "pm-chuhai",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-chuhai"
+      }
+    },
+    {
+      "name": "pm-civic",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-civic"
+      }
+    },
+    {
+      "name": "pm-climate",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-climate"
+      }
+    },
+    {
+      "name": "pm-committee",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-committee"
+      }
+    },
+    {
+      "name": "pm-comms",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-comms"
+      }
+    },
+    {
+      "name": "pm-compliance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-compliance"
+      }
+    },
+    {
+      "name": "pm-construction",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-construction"
+      }
+    },
+    {
+      "name": "pm-consulting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-consulting"
+      }
+    },
+    {
+      "name": "pm-copy",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-copy"
+      }
+    },
+    {
+      "name": "pm-cowork",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-cowork"
+      }
+    },
+    {
+      "name": "pm-cowork-live",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-cowork-live"
+      }
+    },
+    {
+      "name": "pm-craft",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-craft"
+      }
+    },
+    {
+      "name": "pm-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-creator"
+      }
+    },
+    {
+      "name": "pm-crisis",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-crisis"
+      }
+    },
+    {
+      "name": "pm-cross",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-cross"
+      }
+    },
+    {
+      "name": "pm-cs",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-cs"
+      }
+    },
+    {
+      "name": "pm-cv",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-cv"
+      }
+    },
+    {
+      "name": "pm-data",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-data"
       }
     },
     {
@@ -51703,11 +52148,163 @@
       }
     },
     {
+      "name": "pm-dataeng",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-dataeng"
+      }
+    },
+    {
+      "name": "pm-dead-mentors",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-dead-mentors"
+      }
+    },
+    {
+      "name": "pm-decisions",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-decisions"
+      }
+    },
+    {
+      "name": "pm-decoders",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-decoders"
+      }
+    },
+    {
+      "name": "pm-delivery",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-delivery"
+      }
+    },
+    {
+      "name": "pm-dentistry",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-dentistry"
+      }
+    },
+    {
+      "name": "pm-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-design"
+      }
+    },
+    {
+      "name": "pm-design-taste",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-design-taste"
+      }
+    },
+    {
+      "name": "pm-devrel",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-devrel"
+      }
+    },
+    {
+      "name": "pm-digital-safety",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-digital-safety"
+      }
+    },
+    {
+      "name": "pm-discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-discovery"
+      }
+    },
+    {
       "name": "pm-docs",
       "source": {
         "source": "git-subdir",
         "url": "iDWong/pm-skills",
         "path": "pm-docs"
+      }
+    },
+    {
+      "name": "pm-documents",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-documents"
+      }
+    },
+    {
+      "name": "pm-ecommerce",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-ecommerce"
+      }
+    },
+    {
+      "name": "pm-education",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-education"
+      }
+    },
+    {
+      "name": "pm-emergency",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-emergency"
+      }
+    },
+    {
+      "name": "pm-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-engineering"
+      }
+    },
+    {
+      "name": "pm-essentials",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-essentials"
+      }
+    },
+    {
+      "name": "pm-estate",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-estate"
+      }
+    },
+    {
+      "name": "pm-events",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-events"
       }
     },
     {
@@ -59446,6 +60043,38 @@
       }
     },
     {
+      "name": "sc-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "simplecore-inc/claude-mods",
+        "path": "mods/sc"
+      }
+    },
+    {
+      "name": "sc-accounts",
+      "source": {
+        "source": "git-subdir",
+        "url": "simplecore-inc/claude-mods",
+        "path": "mods/accounts"
+      }
+    },
+    {
+      "name": "sc-toolbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "simplecore-inc/claude-mods",
+        "path": "mods/toolbox"
+      }
+    },
+    {
+      "name": "sc-workspace",
+      "source": {
+        "source": "git-subdir",
+        "url": "simplecore-inc/claude-mods",
+        "path": "mods/workspace"
+      }
+    },
+    {
       "name": "scaffold-claude-plugin-gold",
       "source": {
         "source": "git-subdir",
@@ -65180,6 +65809,13 @@
       }
     },
     {
+      "name": "stop-that-shit-2",
+      "source": {
+        "source": "github",
+        "repo": "lennney/stop-that-shit"
+      }
+    },
+    {
       "name": "stored-procedure-generator",
       "source": {
         "source": "git-subdir",
@@ -66169,6 +66805,13 @@
         "source": "git-subdir",
         "url": "mathisk2095/jko-claude-plugins",
         "path": "plugins/swiftui"
+      }
+    },
+    {
+      "name": "swiftui-expert",
+      "source": {
+        "source": "github",
+        "repo": "AvdLee/SwiftUI-Agent-Skill"
       }
     },
     {
@@ -69872,6 +70515,14 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/typos-format"
+      }
+    },
+    {
+      "name": "uar-config-wizard",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/universal-agent-runtime",
+        "path": ".agent/skills/uar-config-wizard"
       }
     },
     {

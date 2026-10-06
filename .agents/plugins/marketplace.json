@@ -817,6 +817,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/agent-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-engineering-skills",
       "source": {
         "source": "git-subdir",
@@ -3343,6 +3356,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aspiration-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/aspiration-self-monitoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "assembly-api-mcp",
       "source": {
         "source": "url",
@@ -4596,11 +4622,102 @@
       "category": "Developer Tools"
     },
     {
+      "name": "block-curl-pipe-sh",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-curl-pipe-sh"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-destructive-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-destructive-commands"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-invisible-unicode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-invisible-unicode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "block-no-verify",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/block-no-verify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-test-skips",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-test-skips"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-unapproved-egress",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-unapproved-egress"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-unguarded-agent-spawn",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-unguarded-agent-spawn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "block-wildcard-agent-permissions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/block-wildcard-agent-permissions"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6806,6 +6923,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chock-mise",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/chock-mise"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chongdae",
       "source": {
         "source": "url",
@@ -7750,6 +7880,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cadugevaerd/codex-skills.git",
         "path": "./plugins/code-review-cadu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "code-safety",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/code-safety"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9220,6 +9363,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "context-hygiene",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/context-hygiene"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "context-maintainer",
       "source": {
         "source": "git-subdir",
@@ -10138,6 +10294,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "darkmoon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ASCIT31/darkmoon-mcp-server"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dart-mcp",
       "source": {
         "source": "git-subdir",
@@ -10435,7 +10604,7 @@
       "name": "debugging-toolkit",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/debugging-toolkit"
       },
       "policy": {
@@ -10819,7 +10988,7 @@
       "name": "dependency-management",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/dependency-management"
       },
       "policy": {
@@ -10845,7 +11014,7 @@
       "name": "deployment-strategies",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/deployment-strategies"
       },
       "policy": {
@@ -10858,7 +11027,7 @@
       "name": "deployment-validation",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/deployment-validation"
       },
       "policy": {
@@ -11661,7 +11830,7 @@
       "name": "distributed-debugging",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/distributed-debugging"
       },
       "policy": {
@@ -13427,7 +13596,7 @@
       "name": "error-debugging",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/error-debugging"
       },
       "policy": {
@@ -13440,7 +13609,7 @@
       "name": "error-diagnostics",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/error-diagnostics"
       },
       "policy": {
@@ -14320,6 +14489,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "firecrawl-fallback-only",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/firecrawl-fallback-only"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "firecrawl-lean",
       "source": {
         "source": "git-subdir",
@@ -14843,7 +15025,7 @@
       "name": "frontend-mobile-security",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/frontend-mobile-security"
       },
       "policy": {
@@ -14933,7 +15115,7 @@
       "name": "full-stack-orchestration",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/full-stack-orchestration"
       },
       "policy": {
@@ -14959,7 +15141,7 @@
       "name": "functional-programming",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/functional-programming"
       },
       "policy": {
@@ -15038,6 +15220,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/fuzzy-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "fxmacrodata",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/fxmacrodata/claude-plugin-fxmacrodata"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15689,8 +15884,21 @@
       "name": "git-pr-workflows",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/git-pr-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "git-safety",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/git-safety"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16619,6 +16827,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "guard-memory-writes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/guard-memory-writes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "guide-doc-generator",
       "source": {
         "source": "git-subdir",
@@ -17377,6 +17598,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "homie",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/homie-rocks/homie"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "honey",
       "source": {
         "source": "url",
@@ -17688,6 +17922,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hexium-agency/hxm-claude-plugin.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hygiene-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/3dgiordano/agent-plugins.git",
+        "path": "./plugins/hygiene-self-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18176,6 +18423,19 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/infra-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "injection-defense",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/injection-defense"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18732,6 +18992,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "java-security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/java-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "javascript-typescript",
       "source": {
         "source": "git-subdir",
@@ -19021,7 +19294,7 @@
       "name": "julia-development",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/julia-development"
       },
       "policy": {
@@ -19073,7 +19346,7 @@
       "name": "jvm-languages",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/jvm-languages"
       },
       "policy": {
@@ -20171,6 +20444,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/liftaven/plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "limit-diff-size",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/limit-diff-size"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21862,7 +22148,7 @@
       "name": "meigen-ai-design",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/meigen-ai-design"
       },
       "policy": {
@@ -21993,6 +22279,19 @@
         "source": "git-subdir",
         "url": "https://github.com/omriariav/memory-daemon.git",
         "path": "./plugins/memory-daemon-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "memory-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/memory-discipline"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22891,7 +23190,7 @@
       "name": "multi-platform-apps",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/multi-platform-apps"
       },
       "policy": {
@@ -23529,6 +23828,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nielsmadan/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "no-a11y-regression",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/no-a11y-regression"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24969,7 +25281,7 @@
       "name": "operating-kit",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/operating-kit"
       },
       "policy": {
@@ -25878,7 +26190,7 @@
       "name": "performance-testing-review",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
+        "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/performance-testing-review"
       },
       "policy": {
@@ -26108,6 +26420,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bsmi021/pil-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pin-github-actions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/pin-github-actions"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27843,11 +28168,76 @@
       "category": "Developer Tools"
     },
     {
+      "name": "protect-agent-config",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/protect-agent-config"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "protect-ci-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/protect-ci-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "protect-commit-privacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/protect-commit-privacy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "protect-main-branch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/protect-main-branch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/protect-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "protect-test-integrity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/protect-test-integrity"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29933,6 +30323,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rtk-dangerous-actions-blocker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/rtk-dangerous-actions-blocker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ru-text",
       "source": {
         "source": "git-subdir",
@@ -30900,6 +31303,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scan-secrets",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/scan-secrets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scansci-pdf",
       "source": {
         "source": "url",
@@ -31189,19 +31605,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "security-compliance",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/security-compliance"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "security-scanning",
       "source": {
         "source": "git-subdir",
@@ -31418,50 +31821,11 @@
       "category": "Developer Tools"
     },
     {
-      "name": "seo-analysis-monitoring",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/seo-analysis-monitoring"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "seo-content-creation",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/seo-content-creation"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "seo-skills",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/seo-skills"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "seo-technical-optimization",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/seo-technical-optimization"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35100,19 +35464,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "tdd-workflows",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/tdd-workflows"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "tdq-workflow",
       "source": {
         "source": "url",
@@ -35154,19 +35505,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/we1jia/TeamCodex.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "team-collaboration",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/team-collaboration"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35913,6 +36251,19 @@
         "source": "git-subdir",
         "url": "https://github.com/mantty/tokamak.git",
         "path": "./ai/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "token-efficiency",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/token-efficiency"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36835,19 +37186,6 @@
       "category": "Developer Tools"
     },
     {
-      "name": "unit-testing",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/unit-testing"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "united-rentals",
       "source": {
         "source": "git-subdir",
@@ -37328,6 +37666,32 @@
         "source": "git-subdir",
         "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
         "path": "./plugins/verification-gate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "verify-dependency-exists",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/verify-dependency-exists"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "verify-mcp-allowlist",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
+        "path": "./codex/verify-mcp-allowlist"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38117,19 +38481,6 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/web-performance-skills"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "web-scripting",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/wshobson/agents.git",
-        "path": "./plugins/web-scripting"
       },
       "policy": {
         "installation": "AVAILABLE",

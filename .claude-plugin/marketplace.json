@@ -3928,6 +3928,13 @@
       }
     },
     {
+      "name": "alon-skills",
+      "source": {
+        "source": "github",
+        "repo": "alonbaron/claude-skills"
+      }
+    },
+    {
       "name": "alpha-codex",
       "source": {
         "source": "git-subdir",
@@ -6348,6 +6355,14 @@
       "source": {
         "source": "github",
         "repo": "a-lottes/aSPARK"
+      }
+    },
+    {
+      "name": "aspiration-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/aspiration-self-monitoring"
       }
     },
     {
@@ -23336,6 +23351,14 @@
       }
     },
     {
+      "name": "docs-naming",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/docs-naming"
+      }
+    },
+    {
       "name": "docs-warden",
       "source": {
         "source": "git-subdir",
@@ -23657,6 +23680,14 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/dometrain"
+      }
+    },
+    {
+      "name": "dometrain-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/dometrain-mcp"
       }
     },
     {
@@ -26564,6 +26595,14 @@
         "source": "git-subdir",
         "url": "cjus/cjus-skills",
         "path": "plugins/explain"
+      }
+    },
+    {
+      "name": "explainer-video",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/explainer-video"
       }
     },
     {
@@ -33873,6 +33912,14 @@
       }
     },
     {
+      "name": "harness-config",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/harness-config"
+      }
+    },
+    {
       "name": "harness-creator",
       "source": {
         "source": "git-subdir",
@@ -33922,6 +33969,22 @@
       "source": {
         "source": "github",
         "repo": "Ecro/harness-maker"
+      }
+    },
+    {
+      "name": "harness-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/harness-memory"
+      }
+    },
+    {
+      "name": "harness-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/harness-ops"
       }
     },
     {
@@ -35712,6 +35775,14 @@
         "source": "git-subdir",
         "url": "kangmomin/harness-plugins",
         "path": "hyeondongs-harness"
+      }
+    },
+    {
+      "name": "hygiene-self-monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "3dgiordano/agent-plugins",
+        "path": "plugins/hygiene-self-monitoring"
       }
     },
     {
@@ -40847,6 +40918,14 @@
       }
     },
     {
+      "name": "litellm-key",
+      "source": {
+        "source": "git-subdir",
+        "url": "juninmd/cc-litellm",
+        "path": "plugins/litellm-key"
+      }
+    },
+    {
       "name": "literary-translator",
       "source": {
         "source": "git-subdir",
@@ -43712,6 +43791,14 @@
       }
     },
     {
+      "name": "memory-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/surreal-memory-server",
+        "path": ".agent-team/memory-core/exports/claude/plugins/memory-core"
+      }
+    },
+    {
       "name": "memory-daemon-manager",
       "source": {
         "source": "git-subdir",
@@ -45311,6 +45398,14 @@
         "source": "git-subdir",
         "url": "multiplex-ai/muggle-ai-works",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "multi-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/multi-agent"
       }
     },
     {
@@ -58357,6 +58452,14 @@
       }
     },
     {
+      "name": "retro-audio",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/retro-audio"
+      }
+    },
+    {
       "name": "retro-daily",
       "source": {
         "source": "git-subdir",
@@ -60344,6 +60447,14 @@
         "source": "git-subdir",
         "url": "yukineko/claude-harnesses",
         "path": "crates/scout"
+      }
+    },
+    {
+      "name": "scout-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "Raven-Scout/scout-plugin",
+        "path": "plugin"
       }
     },
     {
@@ -64859,6 +64970,14 @@
         "source": "git-subdir",
         "url": "joenandez/spectre",
         "path": "plugins/spectre"
+      }
+    },
+    {
+      "name": "speech",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/speech"
       }
     },
     {
@@ -71328,6 +71447,14 @@
       }
     },
     {
+      "name": "user-interface",
+      "source": {
+        "source": "git-subdir",
+        "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/user-interface"
+      }
+    },
+    {
       "name": "userscript-development",
       "source": {
         "source": "github",
@@ -74900,6 +75027,14 @@
         "source": "git-subdir",
         "url": "home-dev-lab/workflow-toolbox",
         "path": "plugin/launch-agents"
+      }
+    },
+    {
+      "name": "workflow-watch",
+      "source": {
+        "source": "git-subdir",
+        "url": "alonbaron/claude-skills",
+        "path": "mods/workflow-watch"
       }
     },
     {

@@ -230,6 +230,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aceternity-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/aceternity-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ach-memory",
       "source": {
         "source": "git-subdir",
@@ -758,6 +771,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wagneripjr/skills.git",
         "path": "./plugins/agent-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-code-navigator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/agent-code-navigator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2820,6 +2846,97 @@
       "category": "Developer Tools"
     },
     {
+      "name": "api-authentication",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-authentication"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-changelog-versioning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-changelog-versioning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-contract-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-contract-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-design-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-design-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-error-handling",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-error-handling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-filtering-sorting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-filtering-sorting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-gateway-configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-gateway-configuration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "api-governance-openai",
       "source": {
         "source": "git-subdir",
@@ -2845,6 +2962,58 @@
       "category": "Developer Tools"
     },
     {
+      "name": "api-pagination",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-pagination"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-rate-limiting",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-rate-limiting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-reference-documentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-reference-documentation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-response-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-response-optimization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "api-scaffolding",
       "source": {
         "source": "git-subdir",
@@ -2858,11 +3027,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "api-security-hardening",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-security-hardening"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "api-testing-observability",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/api-testing-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "api-versioning-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/api-versioning-strategy"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2914,6 +3122,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/withAutograph/autograph-app-builder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "app-store-deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/app-store-deployment"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3118,6 +3339,19 @@
         "source": "git-subdir",
         "url": "https://github.com/onetinov/vibe-mentor.git",
         "path": "./plugins/architecture-mentor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "architecture-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/architecture-patterns"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3672,6 +3906,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "auto-animate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/auto-animate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "auto-engineering",
       "source": {
         "source": "url",
@@ -4121,6 +4368,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/apache/skywalking-banyandb.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "base-ui-react",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/base-ui-react"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7278,6 +7538,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-code-bash-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/claude-code-bash-patterns"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code-harness",
       "source": {
         "source": "git-subdir",
@@ -7308,6 +7581,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/alirezarezvani/claude-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-hook-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/claude-hook-writer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7734,6 +8020,71 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cloudflare-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-agents"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-bindings",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/cloudflare-bindings"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-browser-rendering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-browser-rendering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-cron-triggers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-cron-triggers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-d1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-d1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cloudflare-dns",
       "source": {
         "source": "git-subdir",
@@ -7747,11 +8098,271 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cloudflare-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/cloudflare-docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-durable-objects",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-durable-objects"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-email-routing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-email-routing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-hyperdrive",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-hyperdrive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-images",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-images"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-kv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-kv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-mcp-server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-mcp-server"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-nextjs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-nextjs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-observability",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/cloudflare-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-queues",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-queues"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-r2",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-r2"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-radar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/cloudflare-radar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-sandbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-sandbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cloudflare-skills",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/cloudflare-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-turnstile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-turnstile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-vectorize",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-vectorize"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-workers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-workers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-workers-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-workers-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-zero-trust-access",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cloudflare-zero-trust-access"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10221,6 +10832,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "csrf-protection",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/csrf-protection"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cstack",
       "source": {
         "source": "url",
@@ -10364,6 +10988,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cyberuni/cyber-asana.git",
         "path": "./packages/cyber-asana"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cybersecurity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/cybersecurity"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10870,6 +11507,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "defense-in-depth-validation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/defense-in-depth-validation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "defuddle",
       "source": {
         "source": "git-subdir",
@@ -10914,6 +11564,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/WhiteBite/dejavu-gates"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "delegate-my-work",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/delegate-my-work"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11127,6 +11790,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dependency-upgrade",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/dependency-upgrade"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "deploy-on-aws",
       "source": {
         "source": "git-subdir",
@@ -11299,6 +11975,32 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/design-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/design-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-system-creation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/design-system-creation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12097,6 +12799,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "docker-hub",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/docker-hub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "docket",
       "source": {
         "source": "git-subdir",
@@ -12739,6 +13454,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/khanh-an-569/driftnote.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "drizzle-orm-d1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/drizzle-orm-d1"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14363,6 +15091,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "feature-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/feature-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "feedback-loop",
       "source": {
         "source": "git-subdir",
@@ -14670,6 +15411,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "firecrawl-scraper",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/firecrawl-scraper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "firecrawl-workflows",
       "source": {
         "source": "url",
@@ -14890,6 +15644,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sonsu-lee/sonsu-marketplace.git",
         "path": "./plugins/fluent-languages"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "flutter-ai-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/evanca/flutter-ai-rules.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15130,6 +15896,19 @@
         "source": "git-subdir",
         "url": "https://github.com/outcomeeng/plugins.git",
         "path": "./dist/claude/frontend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/frontend-design"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16151,6 +16930,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "github-project-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/github-project-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "github-radar",
       "source": {
         "source": "url",
@@ -16181,6 +16973,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cblack34/skills.git",
         "path": "./plugins/gitignore"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gitlab",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/gitlab"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16778,6 +17583,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "graphql-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/graphql-implementation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gravity",
       "source": {
         "source": "git-subdir",
@@ -17341,6 +18159,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "health-check-endpoints",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/health-check-endpoints"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hearting-codex",
       "source": {
         "source": "git-subdir",
@@ -17527,6 +18358,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/hermes-tweet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "heroku",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/heroku"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17791,6 +18635,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hono-routing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/hono-routing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hooks-library",
       "source": {
         "source": "git-subdir",
@@ -17983,11 +18840,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hubspot-crm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/hubspot-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hubspot-developer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/hubspot-developer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hugging-face",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/hugging-face"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hugo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/hugo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18052,6 +18948,19 @@
         "source": "git-subdir",
         "url": "https://github.com/fcakyon/claude-codex-settings.git",
         "path": "./plugins/humanize"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "humanize-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/humanize-writing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18320,6 +19229,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "idempotency-handling",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/idempotency-handling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "idle-skills",
       "source": {
         "source": "url",
@@ -18387,6 +19309,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/full-aigc-plugins/image-factory-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "image-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/image-optimization"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18611,6 +19546,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "inspira-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/inspira-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "inspire-lestrade",
       "source": {
         "source": "git-subdir",
@@ -18740,6 +19688,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "interaction-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/interaction-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "intercom",
       "source": {
         "source": "git-subdir",
@@ -18758,6 +19719,19 @@
         "source": "git-subdir",
         "url": "https://github.com/harness-start/plugins.git",
         "path": "./plugins/interface-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "internationalization-i18n",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/internationalization-i18n"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19177,6 +20151,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/johanthoren/jeff.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jest-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/jest-generator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20017,6 +21004,19 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/kotlin-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kpi-dashboard-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/kpi-dashboard-design"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20988,6 +21988,19 @@
         "source": "git-subdir",
         "url": "https://github.com/depatchedmode/oughta.git",
         "path": "./local-first"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "logging-best-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/logging-best-practices"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22121,6 +23134,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "maz-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/maz-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mcp-aws-docs",
       "source": {
         "source": "git-subdir",
@@ -22191,6 +23217,32 @@
         "source": "git-subdir",
         "url": "https://github.com/devbasex/ai-plugins.git",
         "path": "./plugins/mcp/mcp-devin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-dynamic-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mcp-dynamic-orchestrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mcp-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mcp-management"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22747,6 +23799,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "microservices-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/microservices-patterns"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "midpage",
       "source": {
         "source": "git-subdir",
@@ -22972,11 +24037,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ml-model-training",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/ml-model-training"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ml-pipeline",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/jananthan30/ml-pipeline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ml-pipeline-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/ml-pipeline-automation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23074,10 +24165,62 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mobile-app-debugging",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mobile-app-debugging"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobile-app-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mobile-app-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mobile-app-ux-auditor",
       "source": {
         "source": "url",
         "url": "https://github.com/kakzaki/mobile-app-ux-auditor-flutter.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobile-first-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mobile-first-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mobile-offline-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mobile-offline-support"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23103,6 +24246,19 @@
         "source": "git-subdir",
         "url": "https://github.com/studioxvii/modbus-skills.git",
         "path": "./plugins/modbus-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "model-deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/model-deployment"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23305,6 +24461,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "motion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/motion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mrs-legal-advisor",
       "source": {
         "source": "git-subdir",
@@ -23360,6 +24529,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/JesseRaber/multi-agent-folder-cleanup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "multi-ai-consultant",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/multi-ai-consultant"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23449,6 +24631,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/juntaki/mutantkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mutation-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/mutation-testing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23625,6 +24820,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nano-banana-prompts",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nano-banana-prompts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nano-spec",
       "source": {
         "source": "url",
@@ -23730,6 +24938,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/neo4j-contrib/neo4j-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "neon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/neon"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23910,6 +25131,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/LeoKemp223/NextBoard.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nextjs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nextjs"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24347,6 +25581,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nuxt-content",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nuxt-content"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nuxt-i18n",
       "source": {
         "source": "git-subdir",
@@ -24373,11 +25620,63 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nuxt-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nuxt-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nuxt-ui",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/nuxt-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nuxt-ui-v4",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nuxt-ui-v4"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nuxt-v4",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nuxt-v4"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nuxt-v5",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/nuxt-v5"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24415,6 +25714,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChronoAIProject/NyxID.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oauth-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/oauth-implementation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26243,6 +27555,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "payment-gateway-integration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/payment-gateway-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "payment-processing",
       "source": {
         "source": "git-subdir",
@@ -26661,6 +27986,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pinia-colada",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/pinia-colada"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pinia-v3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/pinia-v3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pioneer",
       "source": {
         "source": "git-subdir",
@@ -26793,6 +28144,19 @@
         "source": "git-subdir",
         "url": "https://github.com/whichguy/skill-craft.git",
         "path": "./plugins/plan-dispatcher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plan-interview",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/plan-interview"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28041,6 +29405,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "progressive-web-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/progressive-web-app"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "project",
       "source": {
         "source": "git-subdir",
@@ -28610,6 +29987,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/DataDog/pup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "push-notification-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/push-notification-setup"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29334,6 +30724,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "react-composition-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/react-composition-patterns"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "react-development",
       "source": {
         "source": "git-subdir",
@@ -29347,11 +30750,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "react-hook-form-zod",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/react-hook-form-zod"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "react-native",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/react-native"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "react-native-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/react-native-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29504,6 +30933,32 @@
       "source": {
         "source": "url",
         "url": "https://github.com/praisondani/recipebee-cursor-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recommendation-engine",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/recommendation-engine"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "recommendation-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/recommendation-system"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -30082,6 +31537,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "responsive-web-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/responsive-web-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rest-api-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/rest-api-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "resume",
       "source": {
         "source": "git-subdir",
@@ -30459,6 +31940,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/kotinder/codex-roomcomm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "root-cause-tracing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/root-cause-tracing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31916,6 +33410,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "security-headers-configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/security-headers-configuration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "security-scanning",
       "source": {
         "source": "git-subdir",
@@ -32145,6 +33652,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "seo-keyword-cluster-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/seo-keyword-cluster-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "seo-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/seo-optimizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "seo-skills",
       "source": {
         "source": "git-subdir",
@@ -32267,6 +33800,19 @@
         "source": "git-subdir",
         "url": "https://github.com/jabworks/agentic-toolkit.git",
         "path": "./dist/plugins/session-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/session-management"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32498,6 +34044,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/shadcn-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shadcn-vue",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/shadcn-vue"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35114,6 +36673,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "swift-concurrency",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AvdLee/Swift-Concurrency-Agent-Skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "swiftui-expert",
       "source": {
         "source": "url",
@@ -35368,6 +36939,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "systematic-debugging",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/systematic-debugging"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "systematic-review",
       "source": {
         "source": "git-subdir",
@@ -35509,6 +37093,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tailwind-v4-shadcn",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tailwind-v4-shadcn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "taisly-agent-kit",
       "source": {
         "source": "git-subdir",
@@ -35578,6 +37175,71 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/tanstack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tanstack-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tanstack-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tanstack-query",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tanstack-query"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tanstack-router",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tanstack-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tanstack-start",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tanstack-start"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tanstack-table",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tanstack-table"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35967,11 +37629,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tech-debt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/tech-debt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tech-writer",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mikersays/mikersays-plugins.git",
         "path": "./plugins/tech-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "technical-specification",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/technical-specification"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36174,6 +37862,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "test-quality-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/test-quality-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "test-sloc-cut",
       "source": {
         "source": "git-subdir",
@@ -36342,6 +38043,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "thesys-generative-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/thesys-generative-ui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "thinking-tools",
       "source": {
         "source": "git-subdir",
@@ -36406,6 +38120,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "threejs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/threejs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "threejs-object-sculptor",
       "source": {
         "source": "url",
@@ -36460,6 +38187,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/tinman-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tinyfish",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/universal-agent-plugins-registry.git",
+        "path": "./compat/openai/plugins/tinyfish"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37259,6 +38999,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "typescript-migration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/typescript-migration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "uagent-sync",
       "source": {
         "source": "url",
@@ -37427,6 +39180,19 @@
         "source": "git-subdir",
         "url": "https://github.com/rocky2431/ultra-goal-skill.git",
         "path": "./plugins/ultra-goal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ultracite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/ultracite"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37669,6 +39435,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/university"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "unknowns-discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/unknowns-discovery"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38419,6 +40198,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vitest-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/vitest-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vizmatic",
       "source": {
         "source": "git-subdir",
@@ -38591,6 +40383,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/VCoder25/vugola-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vulnerability-scanning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/vulnerability-scanning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38878,6 +40683,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-performance-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/web-performance-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "web-performance-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/web-performance-optimization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-performance-skills",
       "source": {
         "source": "git-subdir",
@@ -38933,6 +40764,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alfandza/websitepublisher-codex-marketplace.git",
         "path": "./plugins/websitepublisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "websocket-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/websocket-implementation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39234,6 +41078,58 @@
       "category": "Developer Tools"
     },
     {
+      "name": "woocommerce-backend-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/woocommerce-backend-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "woocommerce-code-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/woocommerce-code-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "woocommerce-copy-guidelines",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/woocommerce-copy-guidelines"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "woocommerce-dev-cycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/woocommerce-dev-cycle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "woodpecker-ci",
       "source": {
         "source": "url",
@@ -39251,6 +41147,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/wordpress"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "wordpress-plugin-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/wordpress-plugin-core"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39822,6 +41731,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "xss-prevention",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/xss-prevention"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "xtctx",
       "source": {
         "source": "git-subdir",
@@ -40187,6 +42109,19 @@
         "source": "git-subdir",
         "url": "https://github.com/zuke-build/zuke.git",
         "path": "./plugins/zuke"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zustand-state-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/claude-skills.git",
+        "path": "./plugins/zustand-state-management"
       },
       "policy": {
         "installation": "AVAILABLE",

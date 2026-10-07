@@ -343,6 +343,14 @@
       }
     },
     {
+      "name": "accelerator-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/accelerator-physicist"
+      }
+    },
+    {
       "name": "acceptance",
       "source": {
         "source": "github",
@@ -507,6 +515,14 @@
       }
     },
     {
+      "name": "aceternity-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/aceternity-ui"
+      }
+    },
+    {
       "name": "acg",
       "source": {
         "source": "git-subdir",
@@ -536,6 +552,22 @@
         "source": "git-subdir",
         "url": "Jamie-BitFlight/claude_skills",
         "path": "plugins/plugin-creator/skills/output-style-creator/evals/files/hidden-styles"
+      }
+    },
+    {
+      "name": "acoustical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/acoustical-engineer"
+      }
+    },
+    {
+      "name": "acoustics-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/acoustics-physicist"
       }
     },
     {
@@ -583,6 +615,14 @@
         "source": "git-subdir",
         "url": "bendrucker/claude",
         "path": "plugins/activitywatch"
+      }
+    },
+    {
+      "name": "actuarial-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/actuarial-scientist"
       }
     },
     {
@@ -771,6 +811,14 @@
         "source": "git-subdir",
         "url": "cboone/agent-harness-plugins",
         "path": "plugins/add-scrut-cli-tests"
+      }
+    },
+    {
+      "name": "additive-manufacturing-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/additive-manufacturing-engineer"
       }
     },
     {
@@ -1113,6 +1161,14 @@
       }
     },
     {
+      "name": "adr-writer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/adr-writer"
+      }
+    },
+    {
       "name": "adversarial-debugger",
       "source": {
         "source": "git-subdir",
@@ -1279,6 +1335,38 @@
         "source": "git-subdir",
         "url": "brycewang-stanford/Auto-Empirical-Research-Skills",
         "path": "skills/50-brycewang-aer-skills"
+      }
+    },
+    {
+      "name": "aerodynamicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/aerodynamicist"
+      }
+    },
+    {
+      "name": "aeronautical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/aeronautical-engineer"
+      }
+    },
+    {
+      "name": "aeronomy-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/aeronomy-scientist"
+      }
+    },
+    {
+      "name": "aerospace-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/aerospace-engineer"
       }
     },
     {
@@ -1720,6 +1808,14 @@
         "source": "git-subdir",
         "url": "voitta-ai/skillz",
         "path": "plugins/agent-host-skill-loading"
+      }
+    },
+    {
+      "name": "agent-instructions",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/agent-instructions"
       }
     },
     {
@@ -2791,6 +2887,38 @@
       }
     },
     {
+      "name": "agricultural-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/agricultural-engineer"
+      }
+    },
+    {
+      "name": "agricultural-entomologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/agricultural-entomologist"
+      }
+    },
+    {
+      "name": "agroecologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/agroecologist"
+      }
+    },
+    {
+      "name": "agronomist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/agronomist"
+      }
+    },
+    {
       "name": "agterm",
       "source": {
         "source": "git-subdir",
@@ -3283,6 +3411,14 @@
       }
     },
     {
+      "name": "ai-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ai-researcher"
+      }
+    },
+    {
       "name": "ai-sbom",
       "source": {
         "source": "git-subdir",
@@ -3542,6 +3678,14 @@
         "source": "git-subdir",
         "url": "Accelerated-Innovation/govkit-plugins",
         "path": "plugins/aipos-p2"
+      }
+    },
+    {
+      "name": "air-quality-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/air-quality-scientist"
       }
     },
     {
@@ -3896,6 +4040,14 @@
       }
     },
     {
+      "name": "algebraist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/algebraist"
+      }
+    },
+    {
       "name": "algolia-pack",
       "source": {
         "source": "git-subdir",
@@ -3909,6 +4061,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/algolia-pack"
+      }
+    },
+    {
+      "name": "algorithms-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/algorithms-researcher"
       }
     },
     {
@@ -4075,6 +4235,14 @@
       }
     },
     {
+      "name": "analytical-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/analytical-chemist"
+      }
+    },
+    {
       "name": "analytics-engineering",
       "source": {
         "source": "git-subdir",
@@ -4168,6 +4336,14 @@
         "source": "git-subdir",
         "url": "jongwony/epistemic-protocols",
         "path": "anamnesis"
+      }
+    },
+    {
+      "name": "anatomist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/anatomist"
       }
     },
     {
@@ -4328,6 +4504,14 @@
       }
     },
     {
+      "name": "anesthesiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/anesthesiologist"
+      }
+    },
+    {
       "name": "angelos-symbo",
       "source": {
         "source": "git-subdir",
@@ -4381,6 +4565,30 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/anima-pack"
+      }
+    },
+    {
+      "name": "animal-geneticist-breeder",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/animal-geneticist-breeder"
+      }
+    },
+    {
+      "name": "animal-nutritionist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/animal-nutritionist"
+      }
+    },
+    {
+      "name": "animal-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/animal-scientist"
       }
     },
     {
@@ -4541,6 +4749,14 @@
       }
     },
     {
+      "name": "antenna-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/antenna-engineer"
+      }
+    },
+    {
       "name": "antfu",
       "source": {
         "source": "git-subdir",
@@ -4585,6 +4801,14 @@
       "source": {
         "source": "github",
         "repo": "GryAsl/Polyphony"
+      }
+    },
+    {
+      "name": "antimicrobial-resistance-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/antimicrobial-resistance-scientist"
       }
     },
     {
@@ -4801,6 +5025,14 @@
       }
     },
     {
+      "name": "api-authentication",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-authentication"
+      }
+    },
+    {
       "name": "api-authentication-builder",
       "source": {
         "source": "git-subdir",
@@ -4881,6 +5113,14 @@
       }
     },
     {
+      "name": "api-changelog-versioning",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-changelog-versioning"
+      }
+    },
+    {
       "name": "api-contract-generator",
       "source": {
         "source": "git-subdir",
@@ -4905,6 +5145,14 @@
       }
     },
     {
+      "name": "api-contract-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-contract-testing"
+      }
+    },
+    {
       "name": "api-design",
       "source": {
         "source": "git-subdir",
@@ -4918,6 +5166,14 @@
         "source": "git-subdir",
         "url": "galaykos/cc-marketplace",
         "path": "plugins/api-design"
+      }
+    },
+    {
+      "name": "api-design-principles",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-design-principles"
       }
     },
     {
@@ -4985,6 +5241,14 @@
       }
     },
     {
+      "name": "api-error-handling",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-error-handling"
+      }
+    },
+    {
       "name": "api-event-emitter",
       "source": {
         "source": "git-subdir",
@@ -5006,6 +5270,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-event-emitter"
+      }
+    },
+    {
+      "name": "api-filtering-sorting",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-filtering-sorting"
       }
     },
     {
@@ -5046,6 +5318,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-gateway-builder"
+      }
+    },
+    {
+      "name": "api-gateway-configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-gateway-configuration"
       }
     },
     {
@@ -5176,6 +5456,14 @@
       }
     },
     {
+      "name": "api-pagination",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-pagination"
+      }
+    },
+    {
       "name": "api-plugin",
       "source": {
         "source": "git-subdir",
@@ -5208,11 +5496,27 @@
       }
     },
     {
+      "name": "api-rate-limiting",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-rate-limiting"
+      }
+    },
+    {
       "name": "api-reference",
       "source": {
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/api-reference"
+      }
+    },
+    {
+      "name": "api-reference-documentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-reference-documentation"
       }
     },
     {
@@ -5237,6 +5541,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-request-logger"
+      }
+    },
+    {
+      "name": "api-response-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-response-optimization"
       }
     },
     {
@@ -5328,6 +5640,14 @@
       }
     },
     {
+      "name": "api-security-hardening",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-security-hardening"
+      }
+    },
+    {
       "name": "api-security-scanner",
       "source": {
         "source": "git-subdir",
@@ -5392,6 +5712,14 @@
       }
     },
     {
+      "name": "api-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-testing"
+      }
+    },
+    {
       "name": "api-testing-observability",
       "source": {
         "source": "git-subdir",
@@ -5453,6 +5781,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-versioning-manager"
+      }
+    },
+    {
+      "name": "api-versioning-strategy",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/api-versioning-strategy"
       }
     },
     {
@@ -5588,6 +5924,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/app-starter"
+      }
+    },
+    {
+      "name": "app-store-deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/app-store-deployment"
       }
     },
     {
@@ -5731,6 +6075,14 @@
       }
     },
     {
+      "name": "applied-mathematician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/applied-mathematician"
+      }
+    },
+    {
       "name": "applied-statistics",
       "source": {
         "source": "git-subdir",
@@ -5807,6 +6159,14 @@
         "source": "git-subdir",
         "url": "apptweak/ai-plugins",
         "path": "plugins/apptweak-intelligence"
+      }
+    },
+    {
+      "name": "aquaculture-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/aquaculture-scientist"
       }
     },
     {
@@ -6046,6 +6406,14 @@
         "source": "git-subdir",
         "url": "onetinov/vibe-mentor",
         "path": "plugins/architecture-mentor"
+      }
+    },
+    {
+      "name": "architecture-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/architecture-patterns"
       }
     },
     {
@@ -6492,6 +6860,78 @@
       }
     },
     {
+      "name": "astrobiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astrobiologist"
+      }
+    },
+    {
+      "name": "astrochemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astrochemist"
+      }
+    },
+    {
+      "name": "astrodynamicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astrodynamicist"
+      }
+    },
+    {
+      "name": "astronautical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astronautical-engineer"
+      }
+    },
+    {
+      "name": "astronomer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astronomer"
+      }
+    },
+    {
+      "name": "astronomical-instrumentation-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astronomical-instrumentation-scientist"
+      }
+    },
+    {
+      "name": "astroparticle-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astroparticle-physicist"
+      }
+    },
+    {
+      "name": "astrophysicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astrophysicist"
+      }
+    },
+    {
+      "name": "astrostatistician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/astrostatistician"
+      }
+    },
+    {
       "name": "atelier-2",
       "source": {
         "source": "git-subdir",
@@ -6699,10 +7139,26 @@
       }
     },
     {
+      "name": "atmospheric-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/atmospheric-chemist"
+      }
+    },
+    {
       "name": "atmospheric-physics",
       "source": {
         "source": "github",
         "repo": "open-science-pillars/atmospheric-physics"
+      }
+    },
+    {
+      "name": "atmospheric-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/atmospheric-scientist"
       }
     },
     {
@@ -6711,6 +7167,14 @@
         "source": "git-subdir",
         "url": "svyatov/agent-toolkit",
         "path": "plugins/atomic-commits"
+      }
+    },
+    {
+      "name": "atomic-molecular-optical-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/atomic-molecular-optical-physicist"
       }
     },
     {
@@ -6814,6 +7278,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/audio-dsp-engineering"
+      }
+    },
+    {
+      "name": "audiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/audiologist"
       }
     },
     {
@@ -6963,6 +7435,14 @@
       "source": {
         "source": "github",
         "repo": "dEitY719/authoring-skills"
+      }
+    },
+    {
+      "name": "auto-animate",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/auto-animate"
       }
     },
     {
@@ -7142,6 +7622,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/automotive-dealership"
+      }
+    },
+    {
+      "name": "automotive-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/automotive-engineer"
       }
     },
     {
@@ -7799,6 +8287,14 @@
       }
     },
     {
+      "name": "bacteriologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bacteriologist"
+      }
+    },
+    {
       "name": "bad-mcp-inline-plugin",
       "source": {
         "source": "git-subdir",
@@ -7914,6 +8410,14 @@
         "source": "git-subdir",
         "url": "raimondifernando-web/claude-catalogo",
         "path": "plugins/base-segura"
+      }
+    },
+    {
+      "name": "base-ui-react",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/base-ui-react"
       }
     },
     {
@@ -8067,6 +8571,14 @@
       }
     },
     {
+      "name": "bayesian-statistician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bayesian-statistician"
+      }
+    },
+    {
       "name": "bb-pr-review",
       "source": {
         "source": "git-subdir",
@@ -8205,11 +8717,27 @@
       }
     },
     {
+      "name": "behavioral-ecologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/behavioral-ecologist"
+      }
+    },
+    {
       "name": "behavioral-health-practice",
       "source": {
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/behavioral-health-practice"
+      }
+    },
+    {
+      "name": "behavioral-neuroscientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/behavioral-neuroscientist"
       }
     },
     {
@@ -8310,6 +8838,14 @@
       "source": {
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
+        "path": "plugins/better-auth"
+      }
+    },
+    {
+      "name": "better-auth-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
         "path": "plugins/better-auth"
       }
     },
@@ -8523,11 +9059,67 @@
       }
     },
     {
+      "name": "biochemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biochemist"
+      }
+    },
+    {
+      "name": "biogeochemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biogeochemist"
+      }
+    },
+    {
+      "name": "biogeographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biogeographer"
+      }
+    },
+    {
+      "name": "bioinformatician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bioinformatician"
+      }
+    },
+    {
+      "name": "bioinformatics-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bioinformatics-engineer"
+      }
+    },
+    {
       "name": "bioinformatics-engineering",
       "source": {
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/bioinformatics-engineering"
+      }
+    },
+    {
+      "name": "biological-oceanographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biological-oceanographer"
+      }
+    },
+    {
+      "name": "biomaterials-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biomaterials-scientist"
       }
     },
     {
@@ -8546,10 +9138,58 @@
       }
     },
     {
+      "name": "biomedical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biomedical-engineer"
+      }
+    },
+    {
+      "name": "biomedical-imaging-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biomedical-imaging-scientist"
+      }
+    },
+    {
       "name": "bionexus-reliability",
       "source": {
         "source": "github",
         "repo": "HERRY423/BioNexus"
+      }
+    },
+    {
+      "name": "biophysical-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biophysical-chemist"
+      }
+    },
+    {
+      "name": "biophysicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biophysicist"
+      }
+    },
+    {
+      "name": "bioprocess-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bioprocess-engineer"
+      }
+    },
+    {
+      "name": "bioprocess-microbiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bioprocess-microbiologist"
       }
     },
     {
@@ -8558,6 +9198,22 @@
         "source": "git-subdir",
         "url": "8hats/marketplace",
         "path": "plugins/bios-implant"
+      }
+    },
+    {
+      "name": "biostatistician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biostatistician"
+      }
+    },
+    {
+      "name": "biosystems-agricultural-process-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/biosystems-agricultural-process-engineer"
       }
     },
     {
@@ -8901,6 +9557,14 @@
       }
     },
     {
+      "name": "blog-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/blog-writer"
+      }
+    },
+    {
       "name": "blog-writing",
       "source": {
         "source": "git-subdir",
@@ -9195,6 +9859,14 @@
       }
     },
     {
+      "name": "botanist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/botanist"
+      }
+    },
+    {
       "name": "bottleneck-detector",
       "source": {
         "source": "git-subdir",
@@ -9325,6 +9997,14 @@
         "source": "git-subdir",
         "url": "karch4162/agent-infra",
         "path": "brain"
+      }
+    },
+    {
+      "name": "brain-computer-interface-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/brain-computer-interface-engineer"
       }
     },
     {
@@ -9612,6 +10292,14 @@
         "source": "git-subdir",
         "url": "kochetkov-ma/claude-brewcode",
         "path": "brewui"
+      }
+    },
+    {
+      "name": "bridge-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/bridge-engineer"
       }
     },
     {
@@ -9988,6 +10676,14 @@
       }
     },
     {
+      "name": "building-science-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/building-science-engineer"
+      }
+    },
+    {
       "name": "building-secure-contracts",
       "source": {
         "source": "git-subdir",
@@ -10031,6 +10727,14 @@
       "source": {
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
+        "path": "plugins/bun"
+      }
+    },
+    {
+      "name": "bun-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
         "path": "plugins/bun"
       }
     },
@@ -10495,6 +11199,14 @@
       }
     },
     {
+      "name": "cairo-auditor-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "keep-starknet-strange/starknet-skills",
+        "path": "cairo-auditor"
+      }
+    },
+    {
       "name": "cake",
       "source": {
         "source": "git-subdir",
@@ -10553,6 +11265,14 @@
         "source": "git-subdir",
         "url": "osauer/canary",
         "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "cancer-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cancer-biologist"
       }
     },
     {
@@ -10746,11 +11466,27 @@
       }
     },
     {
+      "name": "carbon-cycle-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/carbon-cycle-scientist"
+      }
+    },
+    {
       "name": "cardinal",
       "source": {
         "source": "git-subdir",
         "url": "cardinalhq/cardinal-claude-plugin",
         "path": "plugins/cardinal"
+      }
+    },
+    {
+      "name": "cardiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cardiologist"
       }
     },
     {
@@ -10934,6 +11670,22 @@
       }
     },
     {
+      "name": "catalysis-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/catalysis-engineer"
+      }
+    },
+    {
+      "name": "catalysis-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/catalysis-scientist"
+      }
+    },
+    {
       "name": "catalyst",
       "source": {
         "source": "github",
@@ -11050,6 +11802,14 @@
         "source": "git-subdir",
         "url": "CatWranglerAI/plugins",
         "path": "plugins/catwrangler"
+      }
+    },
+    {
+      "name": "causal-inference-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/causal-inference-scientist"
       }
     },
     {
@@ -11375,6 +12135,30 @@
       }
     },
     {
+      "name": "cell-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cell-biologist"
+      }
+    },
+    {
+      "name": "cell-signaling-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cell-signaling-biologist"
+      }
+    },
+    {
+      "name": "cellular-neuroscientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cellular-neuroscientist"
+      }
+    },
+    {
       "name": "centaur",
       "source": {
         "source": "git-subdir",
@@ -11410,6 +12194,14 @@
       "source": {
         "source": "github",
         "repo": "xzrq-net/ception"
+      }
+    },
+    {
+      "name": "ceramics-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ceramics-engineer"
       }
     },
     {
@@ -12031,6 +12823,38 @@
       }
     },
     {
+      "name": "chemical-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/chemical-biologist"
+      }
+    },
+    {
+      "name": "chemical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/chemical-engineer"
+      }
+    },
+    {
+      "name": "chemical-oceanographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/chemical-oceanographer"
+      }
+    },
+    {
+      "name": "cheminformatician",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cheminformatician"
+      }
+    },
+    {
       "name": "chess",
       "source": {
         "source": "git-subdir",
@@ -12194,6 +13018,14 @@
       }
     },
     {
+      "name": "chromatin-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/chromatin-biologist"
+      }
+    },
+    {
       "name": "chrome-agent",
       "source": {
         "source": "git-subdir",
@@ -12270,6 +13102,14 @@
         "source": "git-subdir",
         "url": "FunnyQ/cc-plugins",
         "path": "packages/chronicle"
+      }
+    },
+    {
+      "name": "chronobiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/chronobiologist"
       }
     },
     {
@@ -12456,6 +13296,14 @@
         "source": "git-subdir",
         "url": "dylanclaywell/civil-agreement",
         "path": "plugins/civil-agreement"
+      }
+    },
+    {
+      "name": "civil-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/civil-engineer"
       }
     },
     {
@@ -12692,6 +13540,14 @@
       }
     },
     {
+      "name": "claude-code-bash-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/claude-code-bash-patterns"
+      }
+    },
+    {
       "name": "claude-code-boss",
       "source": {
         "source": "git-subdir",
@@ -12915,6 +13771,13 @@
       }
     },
     {
+      "name": "claude-code-usage-quota",
+      "source": {
+        "source": "github",
+        "repo": "anantraghunath/claude-code-usage-quota-mod"
+      }
+    },
+    {
       "name": "claude-code-zh-cn",
       "source": {
         "source": "git-subdir",
@@ -13087,6 +13950,14 @@
         "source": "git-subdir",
         "url": "jcdendrite/claude-config",
         "path": "plugins/claude-hook-review"
+      }
+    },
+    {
+      "name": "claude-hook-writer",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/claude-hook-writer"
       }
     },
     {
@@ -14022,6 +14893,86 @@
       }
     },
     {
+      "name": "climate-risk-analyst",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/climate-risk-analyst"
+      }
+    },
+    {
+      "name": "climate-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/climate-scientist"
+      }
+    },
+    {
+      "name": "climatologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/climatologist"
+      }
+    },
+    {
+      "name": "clinical-data-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-data-manager"
+      }
+    },
+    {
+      "name": "clinical-embryologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-embryologist"
+      }
+    },
+    {
+      "name": "clinical-epidemiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-epidemiologist"
+      }
+    },
+    {
+      "name": "clinical-laboratory-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-laboratory-scientist"
+      }
+    },
+    {
+      "name": "clinical-microbiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-microbiologist"
+      }
+    },
+    {
+      "name": "clinical-pharmacologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-pharmacologist"
+      }
+    },
+    {
+      "name": "clinical-trial-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/clinical-trial-scientist"
+      }
+    },
+    {
       "name": "clinical-trials",
       "source": {
         "source": "git-subdir",
@@ -14212,6 +15163,38 @@
       }
     },
     {
+      "name": "cloudflare-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-agents"
+      }
+    },
+    {
+      "name": "cloudflare-browser-rendering",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-browser-rendering"
+      }
+    },
+    {
+      "name": "cloudflare-cron-triggers",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-cron-triggers"
+      }
+    },
+    {
+      "name": "cloudflare-d1",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-d1"
+      }
+    },
+    {
       "name": "cloudflare-dns",
       "source": {
         "source": "git-subdir",
@@ -14220,11 +15203,147 @@
       }
     },
     {
+      "name": "cloudflare-durable-objects",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-durable-objects"
+      }
+    },
+    {
+      "name": "cloudflare-email-routing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-email-routing"
+      }
+    },
+    {
+      "name": "cloudflare-hyperdrive",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-hyperdrive"
+      }
+    },
+    {
+      "name": "cloudflare-images",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-images"
+      }
+    },
+    {
+      "name": "cloudflare-kv",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-kv"
+      }
+    },
+    {
+      "name": "cloudflare-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-manager"
+      }
+    },
+    {
+      "name": "cloudflare-mcp-server",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-mcp-server"
+      }
+    },
+    {
+      "name": "cloudflare-nextjs",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-nextjs"
+      }
+    },
+    {
+      "name": "cloudflare-queues",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-queues"
+      }
+    },
+    {
+      "name": "cloudflare-r2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-r2"
+      }
+    },
+    {
+      "name": "cloudflare-sandbox",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-sandbox"
+      }
+    },
+    {
       "name": "cloudflare-skills",
       "source": {
         "source": "git-subdir",
         "url": "fcakyon/claude-codex-settings",
         "path": "plugins/cloudflare-skills"
+      }
+    },
+    {
+      "name": "cloudflare-turnstile",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-turnstile"
+      }
+    },
+    {
+      "name": "cloudflare-vectorize",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-vectorize"
+      }
+    },
+    {
+      "name": "cloudflare-workers",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-workers"
+      }
+    },
+    {
+      "name": "cloudflare-workers-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-workers-ai"
+      }
+    },
+    {
+      "name": "cloudflare-workflows",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-workflows"
+      }
+    },
+    {
+      "name": "cloudflare-zero-trust-access",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cloudflare-zero-trust-access"
       }
     },
     {
@@ -14445,6 +15564,14 @@
         "source": "git-subdir",
         "url": "kulykivska/claude-plugins",
         "path": "coach"
+      }
+    },
+    {
+      "name": "coastal-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/coastal-engineer"
       }
     },
     {
@@ -14714,6 +15841,14 @@
         "source": "git-subdir",
         "url": "allada-homelab/agent-harness-marketplace",
         "path": "modules/code-review"
+      }
+    },
+    {
+      "name": "code-review-13",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/code-review"
       }
     },
     {
@@ -15458,11 +16593,27 @@
       }
     },
     {
+      "name": "cognitive-neuroscientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cognitive-neuroscientist"
+      }
+    },
+    {
       "name": "cognitive-operations",
       "source": {
         "source": "git-subdir",
         "url": "coachlou/ambient-library",
         "path": "library/cognitive-operations"
+      }
+    },
+    {
+      "name": "cognitive-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cognitive-scientist"
       }
     },
     {
@@ -15561,11 +16712,35 @@
       }
     },
     {
+      "name": "colloid-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/colloid-chemist"
+      }
+    },
+    {
       "name": "color-contrast",
       "source": {
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/color-contrast"
+      }
+    },
+    {
+      "name": "combinatorialist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/combinatorialist"
+      }
+    },
+    {
+      "name": "combustion-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/combustion-engineer"
       }
     },
     {
@@ -15952,6 +17127,22 @@
       }
     },
     {
+      "name": "communications-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/communications-engineer"
+      }
+    },
+    {
+      "name": "community-ecologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/community-ecologist"
+      }
+    },
+    {
       "name": "community-import-smoke-test",
       "source": {
         "source": "git-subdir",
@@ -15994,6 +17185,22 @@
         "source": "git-subdir",
         "url": "Shin-sibainu/cc-company",
         "path": "plugins/company"
+      }
+    },
+    {
+      "name": "comparative-medicine-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/comparative-medicine-researcher"
+      }
+    },
+    {
+      "name": "comparative-physiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/comparative-physiologist"
       }
     },
     {
@@ -16236,6 +17443,14 @@
       }
     },
     {
+      "name": "composites-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/composites-engineer"
+      }
+    },
+    {
       "name": "compound-engineering-3",
       "source": {
         "source": "github",
@@ -16298,6 +17513,94 @@
       }
     },
     {
+      "name": "computational-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-chemist"
+      }
+    },
+    {
+      "name": "computational-linguist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-linguist"
+      }
+    },
+    {
+      "name": "computational-neuroscientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-neuroscientist"
+      }
+    },
+    {
+      "name": "computational-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-physicist"
+      }
+    },
+    {
+      "name": "computational-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-scientist"
+      }
+    },
+    {
+      "name": "computational-social-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computational-social-scientist"
+      }
+    },
+    {
+      "name": "computer-architecture-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-architecture-researcher"
+      }
+    },
+    {
+      "name": "computer-graphics-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-graphics-researcher"
+      }
+    },
+    {
+      "name": "computer-hardware-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-hardware-engineer"
+      }
+    },
+    {
+      "name": "computer-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-scientist"
+      }
+    },
+    {
+      "name": "computer-security-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-security-researcher"
+      }
+    },
+    {
       "name": "computer-use",
       "source": {
         "source": "github",
@@ -16345,6 +17648,14 @@
       }
     },
     {
+      "name": "computer-vision-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/computer-vision-scientist"
+      }
+    },
+    {
       "name": "concept-dev",
       "source": {
         "source": "git-subdir",
@@ -16382,6 +17693,14 @@
         "source": "git-subdir",
         "url": "arinyaho/concord",
         "path": "plugins/concord"
+      }
+    },
+    {
+      "name": "condensed-matter-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/condensed-matter-physicist"
       }
     },
     {
@@ -16519,6 +17838,14 @@
       }
     },
     {
+      "name": "connectomics-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/connectomics-scientist"
+      }
+    },
+    {
       "name": "connector-bridge",
       "source": {
         "source": "git-subdir",
@@ -16532,6 +17859,22 @@
         "source": "git-subdir",
         "url": "nathanvale/dotfiles-private",
         "path": "config/agents/plugins/connectors"
+      }
+    },
+    {
+      "name": "conservation-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/conservation-biologist"
+      }
+    },
+    {
+      "name": "conservation-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/conservation-scientist"
       }
     },
     {
@@ -16593,6 +17936,14 @@
         "source": "git-subdir",
         "url": "HollandDM/my-skills",
         "path": "constructing-software-stepwise"
+      }
+    },
+    {
+      "name": "construction-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/construction-engineer"
       }
     },
     {
@@ -17154,6 +18505,14 @@
       }
     },
     {
+      "name": "control-systems-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/control-systems-engineer"
+      }
+    },
+    {
       "name": "control-workflow",
       "source": {
         "source": "git-subdir",
@@ -17378,6 +18737,14 @@
       }
     },
     {
+      "name": "coregraph",
+      "source": {
+        "source": "git-subdir",
+        "url": "simplecore-inc/coregraph",
+        "path": "agents/coregraph"
+      }
+    },
+    {
       "name": "coreweave-pack",
       "source": {
         "source": "git-subdir",
@@ -17422,6 +18789,14 @@
         "source": "git-subdir",
         "url": "Aquaticat/Monochromatic",
         "path": "package/claude-code-plugin/correction-reminder"
+      }
+    },
+    {
+      "name": "corrosion-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/corrosion-engineer"
       }
     },
     {
@@ -17557,6 +18932,22 @@
         "source": "git-subdir",
         "url": "centauri-ai/coslash",
         "path": "plugins/coslash"
+      }
+    },
+    {
+      "name": "cosmochemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cosmochemist"
+      }
+    },
+    {
+      "name": "cosmologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cosmologist"
       }
     },
     {
@@ -18189,11 +19580,35 @@
       }
     },
     {
+      "name": "critical-care-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/critical-care-researcher"
+      }
+    },
+    {
       "name": "cron-scheduler",
       "source": {
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/cron-scheduler"
+      }
+    },
+    {
+      "name": "crop-protection-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/crop-protection-scientist"
+      }
+    },
+    {
+      "name": "crop-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/crop-scientist"
       }
     },
     {
@@ -18270,6 +19685,14 @@
       "source": {
         "source": "github",
         "repo": "BIG-BEARC/crules-flutter"
+      }
+    },
+    {
+      "name": "cryo-em-structural-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cryo-em-structural-biologist"
       }
     },
     {
@@ -18401,6 +19824,38 @@
       }
     },
     {
+      "name": "cryptographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cryptographer"
+      }
+    },
+    {
+      "name": "cryptography-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cryptography-engineer"
+      }
+    },
+    {
+      "name": "crystal-growth-specialist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/crystal-growth-specialist"
+      }
+    },
+    {
+      "name": "crystallographer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/crystallographer"
+      }
+    },
+    {
       "name": "cs",
       "source": {
         "source": "git-subdir",
@@ -18414,6 +19869,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/csp"
+      }
+    },
+    {
+      "name": "csrf-protection",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/csrf-protection"
       }
     },
     {
@@ -18807,6 +20270,14 @@
       }
     },
     {
+      "name": "cybersecurity",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/cybersecurity"
+      }
+    },
+    {
       "name": "cybersecurity-grc",
       "source": {
         "source": "git-subdir",
@@ -18819,6 +20290,14 @@
       "source": {
         "source": "github",
         "repo": "mikhailkogan17/cycler"
+      }
+    },
+    {
+      "name": "cytogeneticist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/cytogeneticist"
       }
     },
     {
@@ -18931,6 +20410,14 @@
       }
     },
     {
+      "name": "dairy-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/dairy-scientist"
+      }
+    },
+    {
       "name": "daisy-mode",
       "source": {
         "source": "github",
@@ -18942,6 +20429,14 @@
       "source": {
         "source": "github",
         "repo": "saadeghi/daisyui"
+      }
+    },
+    {
+      "name": "daisyui-blueprint",
+      "source": {
+        "source": "git-subdir",
+        "url": "saadeghi/daisyui",
+        "path": "packages/blueprint"
       }
     },
     {
@@ -19105,6 +20600,14 @@
         "source": "git-subdir",
         "url": "timsmykov/evidence-lab-plugins",
         "path": "packs/workflows/data-and-pdf"
+      }
+    },
+    {
+      "name": "data-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/data-engineer"
       }
     },
     {
@@ -19328,6 +20831,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/data-scientist"
+      }
+    },
+    {
+      "name": "data-scientist-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/data-scientist"
       }
     },
     {
@@ -19955,6 +21466,14 @@
       }
     },
     {
+      "name": "database-systems-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/database-systems-researcher"
+      }
+    },
+    {
       "name": "database-test-manager",
       "source": {
         "source": "git-subdir",
@@ -20524,6 +22043,14 @@
       }
     },
     {
+      "name": "deep-learning-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/deep-learning-scientist"
+      }
+    },
+    {
       "name": "deep-mirror",
       "source": {
         "source": "git-subdir",
@@ -20722,6 +22249,14 @@
       }
     },
     {
+      "name": "defense-in-depth-validation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/defense-in-depth-validation"
+      }
+    },
+    {
       "name": "defi-yield-optimizer",
       "source": {
         "source": "git-subdir",
@@ -20782,6 +22317,14 @@
         "source": "git-subdir",
         "url": "jtsternberg/claude-plugins",
         "path": "plugins/delayed-work"
+      }
+    },
+    {
+      "name": "delegate-my-work",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/delegate-my-work"
       }
     },
     {
@@ -21044,6 +22587,14 @@
       }
     },
     {
+      "name": "demo-plugin-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-agent-sdk-python",
+        "path": "examples/plugins/demo-plugin"
+      }
+    },
+    {
       "name": "demo-progress",
       "source": {
         "source": "git-subdir",
@@ -21156,6 +22707,14 @@
       }
     },
     {
+      "name": "dentist-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/dentist-scientist"
+      }
+    },
+    {
       "name": "dependabot-review",
       "source": {
         "source": "git-subdir",
@@ -21209,6 +22768,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/dependency-manager"
+      }
+    },
+    {
+      "name": "dependency-upgrade",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/dependency-upgrade"
       }
     },
     {
@@ -21396,6 +22963,14 @@
       }
     },
     {
+      "name": "dermatologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/dermatologist"
+      }
+    },
+    {
       "name": "desc-drift",
       "source": {
         "source": "git-subdir",
@@ -21575,6 +23150,14 @@
       }
     },
     {
+      "name": "design-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/design-review"
+      }
+    },
+    {
       "name": "design-skill",
       "source": {
         "source": "git-subdir",
@@ -21587,6 +23170,14 @@
       "source": {
         "source": "github",
         "repo": "George-RD/design-studio"
+      }
+    },
+    {
+      "name": "design-system-creation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/design-system-creation"
       }
     },
     {
@@ -22267,6 +23858,22 @@
       }
     },
     {
+      "name": "developmental-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/developmental-biologist"
+      }
+    },
+    {
+      "name": "developmental-psychologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/developmental-psychologist"
+      }
+    },
+    {
       "name": "devenv-doctor",
       "source": {
         "source": "git-subdir",
@@ -22759,6 +24366,14 @@
       }
     },
     {
+      "name": "differential-geometer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/differential-geometer"
+      }
+    },
+    {
       "name": "differential-review",
       "source": {
         "source": "git-subdir",
@@ -22811,6 +24426,14 @@
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/digital-marketing"
+      }
+    },
+    {
+      "name": "digital-pathology-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/digital-pathology-scientist"
       }
     },
     {
@@ -23135,6 +24758,14 @@
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
         "path": "plugins/distributed-debugging"
+      }
+    },
+    {
+      "name": "distributed-systems-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/distributed-systems-researcher"
       }
     },
     {
@@ -23743,6 +25374,14 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/domain-driven-design"
+      }
+    },
+    {
+      "name": "domain-language",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/domain-language"
       }
     },
     {
@@ -24519,6 +26158,14 @@
       }
     },
     {
+      "name": "drizzle-orm-d1",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/drizzle-orm-d1"
+      }
+    },
+    {
       "name": "drogon",
       "source": {
         "source": "github",
@@ -24672,6 +26319,14 @@
       }
     },
     {
+      "name": "dynamical-systems-theorist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/dynamical-systems-theorist"
+      }
+    },
+    {
       "name": "e-colleagues",
       "source": {
         "source": "github",
@@ -24763,6 +26418,14 @@
         "source": "git-subdir",
         "url": "untilled/aumos-catalogue",
         "path": "managers/earnings-drift-watcher"
+      }
+    },
+    {
+      "name": "earthquake-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/earthquake-engineer"
       }
     },
     {
@@ -24883,6 +26546,14 @@
       }
     },
     {
+      "name": "ecologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ecologist"
+      }
+    },
+    {
       "name": "ecommerce-dtc",
       "source": {
         "source": "git-subdir",
@@ -24891,11 +26562,51 @@
       }
     },
     {
+      "name": "economic-geologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/economic-geologist"
+      }
+    },
+    {
+      "name": "ecosystem-ecologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ecosystem-ecologist"
+      }
+    },
+    {
+      "name": "ecotoxicologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ecotoxicologist"
+      }
+    },
+    {
       "name": "ecpay",
       "source": {
         "source": "git-subdir",
         "url": "paid-tw/skills",
         "path": "plugins/ecpay"
+      }
+    },
+    {
+      "name": "edge-embedded-ai-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/edge-embedded-ai-engineer"
+      }
+    },
+    {
+      "name": "edge-hosting",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/edge-hosting"
       }
     },
     {
@@ -25170,6 +26881,62 @@
       }
     },
     {
+      "name": "electric-machines-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electric-machines-engineer"
+      }
+    },
+    {
+      "name": "electrical-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electrical-engineer"
+      }
+    },
+    {
+      "name": "electrochemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electrochemist"
+      }
+    },
+    {
+      "name": "electromagnetics-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electromagnetics-engineer"
+      }
+    },
+    {
+      "name": "electronic-materials-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electronic-materials-engineer"
+      }
+    },
+    {
+      "name": "electronics-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electronics-engineer"
+      }
+    },
+    {
+      "name": "electrophysiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/electrophysiologist"
+      }
+    },
+    {
       "name": "elegant-coding",
       "source": {
         "source": "git-subdir",
@@ -25274,6 +27041,14 @@
       }
     },
     {
+      "name": "embedded-systems-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/embedded-systems-engineer"
+      }
+    },
+    {
       "name": "embedding-manager",
       "source": {
         "source": "git-subdir",
@@ -25294,6 +27069,14 @@
         "source": "git-subdir",
         "url": "Vortx-AI/emem",
         "path": "plugins/emem"
+      }
+    },
+    {
+      "name": "emergency-medicine-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/emergency-medicine-researcher"
       }
     },
     {
@@ -25375,11 +27158,35 @@
       }
     },
     {
+      "name": "endocrinologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/endocrinologist"
+      }
+    },
+    {
       "name": "enduser-handbook",
       "source": {
         "source": "git-subdir",
         "url": "lazyants/claude-plugins",
         "path": "plugins/enduser-handbook"
+      }
+    },
+    {
+      "name": "energy-storage-battery-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/energy-storage-battery-scientist"
+      }
+    },
+    {
+      "name": "energy-systems-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/energy-systems-engineer"
       }
     },
     {
@@ -25716,6 +27523,14 @@
       }
     },
     {
+      "name": "entomologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/entomologist"
+      }
+    },
+    {
       "name": "entry-point-analyzer",
       "source": {
         "source": "git-subdir",
@@ -25803,6 +27618,62 @@
       }
     },
     {
+      "name": "environmental-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-chemist"
+      }
+    },
+    {
+      "name": "environmental-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-engineer"
+      }
+    },
+    {
+      "name": "environmental-health-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-health-scientist"
+      }
+    },
+    {
+      "name": "environmental-microbiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-microbiologist"
+      }
+    },
+    {
+      "name": "environmental-policy-analyst",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-policy-analyst"
+      }
+    },
+    {
+      "name": "environmental-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/environmental-scientist"
+      }
+    },
+    {
+      "name": "enzymologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/enzymologist"
+      }
+    },
+    {
       "name": "eo-reason",
       "source": {
         "source": "git-subdir",
@@ -25840,6 +27711,22 @@
         "source": "git-subdir",
         "url": "Falconiere/toolu",
         "path": "plugins/epic-orchestrator"
+      }
+    },
+    {
+      "name": "epidemiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/epidemiologist"
+      }
+    },
+    {
+      "name": "epigeneticist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/epigeneticist"
       }
     },
     {
@@ -26093,6 +27980,14 @@
       }
     },
     {
+      "name": "ethologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/ethologist"
+      }
+    },
+    {
       "name": "euporia",
       "source": {
         "source": "git-subdir",
@@ -26340,6 +28235,14 @@
       "source": {
         "source": "github",
         "repo": "mickeyyaya/evolve-loop"
+      }
+    },
+    {
+      "name": "evolutionary-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/evolutionary-biologist"
       }
     },
     {
@@ -26605,11 +28508,27 @@
       }
     },
     {
+      "name": "exercise-physiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/exercise-physiologist"
+      }
+    },
+    {
       "name": "exitbind-2",
       "source": {
         "source": "git-subdir",
         "url": "veyndrasystems/exitbind",
         "path": "plugins/exitbind"
+      }
+    },
+    {
+      "name": "exoplanet-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/exoplanet-scientist"
       }
     },
     {
@@ -26674,6 +28593,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/experiment-tracking-setup"
+      }
+    },
+    {
+      "name": "experimental-physicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/experimental-physicist"
       }
     },
     {
@@ -26788,6 +28715,14 @@
       }
     },
     {
+      "name": "expressive-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/expressive-design"
+      }
+    },
+    {
       "name": "external-ai-assist",
       "source": {
         "source": "git-subdir",
@@ -26833,6 +28768,14 @@
         "source": "git-subdir",
         "url": "daishiman/harness-dev",
         "path": "plugins/extract-system-blueprint"
+      }
+    },
+    {
+      "name": "extremophile-biologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/extremophile-biologist"
       }
     },
     {
@@ -27164,6 +29107,14 @@
       }
     },
     {
+      "name": "feature-dev-10",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/feature-dev"
+      }
+    },
+    {
       "name": "feature-dev-2",
       "source": {
         "source": "git-subdir",
@@ -27321,6 +29272,14 @@
         "source": "git-subdir",
         "url": "Anselmoo/werkstoff",
         "path": "test/plugins/fixtures/nacharbeit/tune-manifest-1"
+      }
+    },
+    {
+      "name": "fermentation-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fermentation-scientist"
       }
     },
     {
@@ -27728,6 +29687,14 @@
       }
     },
     {
+      "name": "finite-element-analyst",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/finite-element-analyst"
+      }
+    },
+    {
       "name": "finops-cloud-cost",
       "source": {
         "source": "git-subdir",
@@ -27780,6 +29747,14 @@
         "source": "git-subdir",
         "url": "risingdream/fintool-plugin",
         "path": "plugins/fintool"
+      }
+    },
+    {
+      "name": "fire-protection-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fire-protection-engineer"
       }
     },
     {
@@ -27878,6 +29853,14 @@
       }
     },
     {
+      "name": "firecrawl-scraper",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/firecrawl-scraper"
+      }
+    },
+    {
       "name": "firecrawl-workflows",
       "source": {
         "source": "github",
@@ -27929,6 +29912,14 @@
         "source": "git-subdir",
         "url": "AzJester/skills",
         "path": "skills/fishbone-diagram"
+      }
+    },
+    {
+      "name": "fisheries-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fisheries-scientist"
       }
     },
     {
@@ -28674,6 +30665,14 @@
       }
     },
     {
+      "name": "flavor-fragrance-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/flavor-fragrance-chemist"
+      }
+    },
+    {
       "name": "fleet",
       "source": {
         "source": "git-subdir",
@@ -28921,11 +30920,34 @@
       }
     },
     {
+      "name": "fluid-dynamicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fluid-dynamicist"
+      }
+    },
+    {
+      "name": "fluid-mechanics-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fluid-mechanics-engineer"
+      }
+    },
+    {
       "name": "flutter",
       "source": {
         "source": "git-subdir",
         "url": "virajp/ai-plugins",
         "path": "plugins/flutter"
+      }
+    },
+    {
+      "name": "flutter-ai-skills",
+      "source": {
+        "source": "github",
+        "repo": "evanca/flutter-ai-rules"
       }
     },
     {
@@ -29235,6 +31257,38 @@
       }
     },
     {
+      "name": "food-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/food-chemist"
+      }
+    },
+    {
+      "name": "food-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/food-engineer"
+      }
+    },
+    {
+      "name": "food-microbiologist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/food-microbiologist"
+      }
+    },
+    {
+      "name": "food-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/food-scientist"
+      }
+    },
+    {
       "name": "forecast-scaffold",
       "source": {
         "source": "github",
@@ -29267,6 +31321,22 @@
       "source": {
         "source": "github",
         "repo": "mohammad-malik/foreman"
+      }
+    },
+    {
+      "name": "forensic-chemist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/forensic-chemist"
+      }
+    },
+    {
+      "name": "forestry-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/forestry-scientist"
       }
     },
     {
@@ -29713,6 +31783,14 @@
       }
     },
     {
+      "name": "formal-methods-researcher",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/formal-methods-researcher"
+      }
+    },
+    {
       "name": "formatter",
       "source": {
         "source": "git-subdir",
@@ -29772,6 +31850,14 @@
         "source": "git-subdir",
         "url": "kattakath/skills",
         "path": "plugins/foundation-audit"
+      }
+    },
+    {
+      "name": "foundation-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/foundation-engineer"
       }
     },
     {
@@ -29849,6 +31935,14 @@
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/fp-check"
+      }
+    },
+    {
+      "name": "fpga-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fpga-engineer"
       }
     },
     {
@@ -30125,6 +32219,14 @@
       }
     },
     {
+      "name": "frontend-design-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/frontend-design"
+      }
+    },
+    {
       "name": "frontend-design-director",
       "source": {
         "source": "git-subdir",
@@ -30388,6 +32490,14 @@
       }
     },
     {
+      "name": "functional-genomics-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/functional-genomics-scientist"
+      }
+    },
+    {
       "name": "functional-programming",
       "source": {
         "source": "git-subdir",
@@ -30458,6 +32568,14 @@
       }
     },
     {
+      "name": "fusion-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/fusion-scientist"
+      }
+    },
+    {
       "name": "fusionx-ai-skills",
       "source": {
         "source": "github",
@@ -30493,6 +32611,14 @@
         "source": "git-subdir",
         "url": "martianoff/gala",
         "path": "ide/claude-code"
+      }
+    },
+    {
+      "name": "galactic-astronomer",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/galactic-astronomer"
       }
     },
     {
@@ -30970,6 +33096,14 @@
       }
     },
     {
+      "name": "gemini-cli-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/gemini-cli"
+      }
+    },
+    {
       "name": "gemini-compact",
       "source": {
         "source": "git-subdir",
@@ -31015,6 +33149,14 @@
         "source": "git-subdir",
         "url": "geml-spec/geml",
         "path": "integrations/claude-plugin"
+      }
+    },
+    {
+      "name": "gene-therapy-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/gene-therapy-scientist"
       }
     },
     {
@@ -31152,6 +33294,22 @@
       }
     },
     {
+      "name": "genetic-counselor",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/genetic-counselor"
+      }
+    },
+    {
+      "name": "geneticist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/geneticist"
+      }
+    },
+    {
       "name": "genie-harness",
       "source": {
         "source": "github",
@@ -31178,6 +33336,22 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/genkit"
+      }
+    },
+    {
+      "name": "genome-engineering-crispr-scientist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/genome-engineering-crispr-scientist"
+      }
+    },
+    {
+      "name": "genomicist",
+      "source": {
+        "source": "git-subdir",
+        "url": "K-Dense-AI/scientific-agents",
+        "path": "scientific-agents/genomicist"
       }
     },
     {
@@ -31413,6 +33587,14 @@
         "source": "git-subdir",
         "url": "natejswenson/claude-skills",
         "path": "skills/pluginsync/skills/pluginsync/evals/fixtures/home/marketplace/skills/ghostwriter-x"
+      }
+    },
+    {
+      "name": "ginkgo",
+      "source": {
+        "source": "git-subdir",
+        "url": "onsi/ginkgo",
+        "path": "plugins/ginkgo"
       }
     },
     {
@@ -31993,6 +34175,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-ariff/github-operations"
+      }
+    },
+    {
+      "name": "github-project-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/github-project-automation"
       }
     },
     {
@@ -32925,6 +35115,14 @@
       }
     },
     {
+      "name": "graphql-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/graphql-implementation"
+      }
+    },
+    {
       "name": "graphql-server-builder",
       "source": {
         "source": "git-subdir",
@@ -33448,6 +35646,14 @@
         "source": "git-subdir",
         "url": "open-coder-ai/chock-copilot-plugins",
         "path": "claude/guard-memory-writes"
+      }
+    },
+    {
+      "name": "guard-secrets",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/guard-secrets"
       }
     },
     {
@@ -34162,6 +36368,14 @@
       }
     },
     {
+      "name": "harvest-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/harvest-knowledge"
+      }
+    },
+    {
       "name": "haskell-tasuke",
       "source": {
         "source": "git-subdir",
@@ -34254,6 +36468,14 @@
         "source": "git-subdir",
         "url": "ibootz/claude-devkit-marketplace",
         "path": "plugins/heal"
+      }
+    },
+    {
+      "name": "health-check-endpoints",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/health-check-endpoints"
       }
     },
     {
@@ -35361,6 +37583,14 @@
       }
     },
     {
+      "name": "hono-routing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/hono-routing"
+      }
+    },
+    {
       "name": "hookify",
       "source": {
         "source": "git-subdir",
@@ -35695,6 +37925,14 @@
       }
     },
     {
+      "name": "hugo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/hugo"
+      }
+    },
+    {
       "name": "hugo-blog",
       "source": {
         "source": "git-subdir",
@@ -35828,11 +38066,27 @@
       }
     },
     {
+      "name": "humanize-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/humanize"
+      }
+    },
+    {
       "name": "humanize-prose",
       "source": {
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/humanize-prose"
+      }
+    },
+    {
+      "name": "humanize-writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/humanize-writing"
       }
     },
     {
@@ -36224,6 +38478,14 @@
       }
     },
     {
+      "name": "idempotency-handling",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/idempotency-handling"
+      }
+    },
+    {
       "name": "ideogram-pack",
       "source": {
         "source": "git-subdir",
@@ -36361,6 +38623,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/image-link"
+      }
+    },
+    {
+      "name": "image-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/image-optimization"
       }
     },
     {
@@ -36898,6 +39168,14 @@
       }
     },
     {
+      "name": "inspira-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/inspira-ui"
+      }
+    },
+    {
       "name": "instagram-curator",
       "source": {
         "source": "git-subdir",
@@ -37143,6 +39421,14 @@
       }
     },
     {
+      "name": "interaction-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/interaction-design"
+      }
+    },
+    {
       "name": "interaction-first-design",
       "source": {
         "source": "github",
@@ -37179,6 +39465,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/internal-audit"
+      }
+    },
+    {
+      "name": "internationalization-i18n",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/internationalization-i18n"
       }
     },
     {
@@ -38101,6 +40395,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/jeremy-vertex-validator"
+      }
+    },
+    {
+      "name": "jest-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/jest-generator"
       }
     },
     {
@@ -39506,6 +41808,22 @@
         "source": "git-subdir",
         "url": "youndie/kotlin-skills",
         "path": "plugins/kotlin-fullstack"
+      }
+    },
+    {
+      "name": "kpi-dashboard-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/kpi-dashboard-design"
+      }
+    },
+    {
+      "name": "kpi-groomer",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/kpi-groomer"
       }
     },
     {
@@ -40988,6 +43306,14 @@
       }
     },
     {
+      "name": "linkedin-post",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/linkedin-post"
+      }
+    },
+    {
       "name": "linkedin-post-agent",
       "source": {
         "source": "git-subdir",
@@ -41587,6 +43913,14 @@
         "source": "git-subdir",
         "url": "ncaq/konoka",
         "path": "plugins/log-analyzer"
+      }
+    },
+    {
+      "name": "logging-best-practices",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/logging-best-practices"
       }
     },
     {
@@ -43482,6 +45816,14 @@
       }
     },
     {
+      "name": "maz-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/maz-ui"
+      }
+    },
+    {
       "name": "mcp-aws-docs",
       "source": {
         "source": "git-subdir",
@@ -43554,6 +45896,14 @@
       }
     },
     {
+      "name": "mcp-dynamic-orchestrator",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mcp-dynamic-orchestrator"
+      }
+    },
+    {
       "name": "mcp-expose",
       "source": {
         "source": "git-subdir",
@@ -43583,6 +45933,14 @@
         "source": "git-subdir",
         "url": "voitta-ai/skillz",
         "path": "plugins/mcp-language-server-orphan-fd-exhaustion"
+      }
+    },
+    {
+      "name": "mcp-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mcp-management"
       }
     },
     {
@@ -44589,6 +46947,14 @@
       }
     },
     {
+      "name": "microservices-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/microservices-patterns"
+      }
+    },
+    {
       "name": "microsoft-365",
       "source": {
         "source": "git-subdir",
@@ -44944,6 +47310,22 @@
       }
     },
     {
+      "name": "ml-model-training",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/ml-model-training"
+      }
+    },
+    {
+      "name": "ml-pipeline-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/ml-pipeline-automation"
+      }
+    },
+    {
       "name": "ml-training",
       "source": {
         "source": "git-subdir",
@@ -45062,6 +47444,14 @@
       }
     },
     {
+      "name": "mobile-app-debugging",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mobile-app-debugging"
+      }
+    },
+    {
       "name": "mobile-app-tester",
       "source": {
         "source": "git-subdir",
@@ -45075,6 +47465,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/mobile-app-tester"
+      }
+    },
+    {
+      "name": "mobile-app-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mobile-app-testing"
       }
     },
     {
@@ -45105,6 +47503,22 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/mobile-engineering"
+      }
+    },
+    {
+      "name": "mobile-first-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mobile-first-design"
+      }
+    },
+    {
+      "name": "mobile-offline-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/mobile-offline-support"
       }
     },
     {
@@ -45176,6 +47590,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/model-context-protocol-mcp-expert"
+      }
+    },
+    {
+      "name": "model-deployment",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/model-deployment"
       }
     },
     {
@@ -45530,6 +47952,14 @@
       }
     },
     {
+      "name": "motion",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/motion"
+      }
+    },
+    {
       "name": "motion-graphics-music-video",
       "source": {
         "source": "github",
@@ -45618,6 +48048,14 @@
       "source": {
         "source": "github",
         "repo": "mbaic/mb-cohestra-agent-plugin"
+      }
+    },
+    {
+      "name": "multi-ai-consultant",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/multi-ai-consultant"
       }
     },
     {
@@ -45781,6 +48219,14 @@
       "source": {
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
+        "path": "plugins/mutation-testing"
+      }
+    },
+    {
+      "name": "mutation-testing-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
         "path": "plugins/mutation-testing"
       }
     },
@@ -46046,6 +48492,14 @@
         "source": "git-subdir",
         "url": "ADn-001/NANITES_MCP",
         "path": "plugin/nanites"
+      }
+    },
+    {
+      "name": "nano-banana-prompts",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nano-banana-prompts"
       }
     },
     {
@@ -46563,6 +49017,14 @@
       "source": {
         "source": "github",
         "repo": "LeoKemp223/NextBoard"
+      }
+    },
+    {
+      "name": "nextjs-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nextjs"
       }
     },
     {
@@ -47142,6 +49604,14 @@
       }
     },
     {
+      "name": "nuxt-content",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-content"
+      }
+    },
+    {
       "name": "nuxt-i18n",
       "source": {
         "source": "git-subdir",
@@ -47158,11 +49628,51 @@
       }
     },
     {
+      "name": "nuxt-seo-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-seo"
+      }
+    },
+    {
+      "name": "nuxt-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-studio"
+      }
+    },
+    {
       "name": "nuxt-ui",
       "source": {
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/nuxt-ui"
+      }
+    },
+    {
+      "name": "nuxt-ui-v4",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-ui-v4"
+      }
+    },
+    {
+      "name": "nuxt-v4",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-v4"
+      }
+    },
+    {
+      "name": "nuxt-v5",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/nuxt-v5"
       }
     },
     {
@@ -47289,6 +49799,14 @@
         "source": "git-subdir",
         "url": "Open-Agent-Tools/General-OAT-Skills",
         "path": "skill-test"
+      }
+    },
+    {
+      "name": "oauth-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/oauth-implementation"
       }
     },
     {
@@ -50011,6 +52529,14 @@
       }
     },
     {
+      "name": "payment-gateway-integration",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/payment-gateway-integration"
+      }
+    },
+    {
       "name": "payment-help",
       "source": {
         "source": "git-subdir",
@@ -50987,6 +53513,22 @@
       }
     },
     {
+      "name": "pinia-colada",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/pinia-colada"
+      }
+    },
+    {
+      "name": "pinia-v3",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/pinia-v3"
+      }
+    },
+    {
       "name": "pinion-os",
       "source": {
         "source": "github",
@@ -51290,6 +53832,14 @@
         "source": "git-subdir",
         "url": "allada-homelab/agent-harness-marketplace",
         "path": "modules/plan-for-dummies"
+      }
+    },
+    {
+      "name": "plan-interview",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/plan-interview"
       }
     },
     {
@@ -51621,6 +54171,14 @@
       "source": {
         "source": "git-subdir",
         "url": "claude-contrib/claude-services",
+        "path": "plugins/playwright"
+      }
+    },
+    {
+      "name": "playwright-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
         "path": "plugins/playwright"
       }
     },
@@ -54927,6 +57485,14 @@
       }
     },
     {
+      "name": "product-owner",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/product-owner"
+      }
+    },
+    {
       "name": "product-planning",
       "source": {
         "source": "git-subdir",
@@ -54987,6 +57553,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/bundle/product-team"
+      }
+    },
+    {
+      "name": "product-ux",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/product-ux"
       }
     },
     {
@@ -55106,6 +57680,14 @@
         "source": "git-subdir",
         "url": "3dgiordano/agent-plugins",
         "path": "plugins/progress-self-monitoring"
+      }
+    },
+    {
+      "name": "progressive-web-app",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/progressive-web-app"
       }
     },
     {
@@ -56007,6 +58589,14 @@
       }
     },
     {
+      "name": "protocol-fit-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/protocol-fit-research"
+      }
+    },
+    {
       "name": "protocol-guard",
       "source": {
         "source": "git-subdir",
@@ -56186,6 +58776,14 @@
       }
     },
     {
+      "name": "pstack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "michael-denyer/pstack-claude",
+        "path": "plugins/pstack"
+      }
+    },
+    {
       "name": "pstack-anywhere",
       "source": {
         "source": "github",
@@ -56330,6 +58928,14 @@
       "source": {
         "source": "github",
         "repo": "DataDog/pup"
+      }
+    },
+    {
+      "name": "push-notification-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/push-notification-setup"
       }
     },
     {
@@ -57522,11 +60128,35 @@
       }
     },
     {
+      "name": "react-best-practices-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/react-best-practices"
+      }
+    },
+    {
+      "name": "react-composition-patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/react-composition-patterns"
+      }
+    },
+    {
       "name": "react-development",
       "source": {
         "source": "git-subdir",
         "url": "acaprino/daodan",
         "path": "exports/claude/plugins/react-development"
+      }
+    },
+    {
+      "name": "react-hook-form-zod",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/react-hook-form-zod"
       }
     },
     {
@@ -57573,6 +60203,14 @@
       "source": {
         "source": "github",
         "repo": "RamboWasReal/react-native-preflight"
+      }
+    },
+    {
+      "name": "react-native-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/react-native-skills"
       }
     },
     {
@@ -57922,6 +60560,22 @@
       }
     },
     {
+      "name": "recommendation-engine-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/recommendation-engine"
+      }
+    },
+    {
+      "name": "recommendation-system",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/recommendation-system"
+      }
+    },
+    {
       "name": "recommendation-systems-engineering",
       "source": {
         "source": "git-subdir",
@@ -58061,6 +60715,14 @@
         "source": "git-subdir",
         "url": "fabiandistler/agents",
         "path": "plugins/refactoring"
+      }
+    },
+    {
+      "name": "refactoring-economics",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/refactoring-economics"
       }
     },
     {
@@ -59307,6 +61969,22 @@
       }
     },
     {
+      "name": "responsive-web-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/responsive-web-design"
+      }
+    },
+    {
+      "name": "rest-api-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/rest-api-design"
+      }
+    },
+    {
       "name": "rest-api-generator",
       "source": {
         "source": "git-subdir",
@@ -60096,6 +62774,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-ariff/root-cause-tracing"
+      }
+    },
+    {
+      "name": "root-cause-tracing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/root-cause-tracing"
       }
     },
     {
@@ -61760,6 +64446,14 @@
       }
     },
     {
+      "name": "search-visibility",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/search-visibility"
+      }
+    },
+    {
       "name": "searchlink-lite",
       "source": {
         "source": "github",
@@ -61883,6 +64577,14 @@
         "source": "git-subdir",
         "url": "voitta-ai/skillz",
         "path": "plugins/secrets-in-agent-sessions"
+      }
+    },
+    {
+      "name": "secrets-levels",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/secrets-levels"
       }
     },
     {
@@ -62154,6 +64856,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-headers-analyzer"
+      }
+    },
+    {
+      "name": "security-headers-configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/security-headers-configuration"
       }
     },
     {
@@ -62666,6 +65376,22 @@
       }
     },
     {
+      "name": "seo-keyword-cluster-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/seo-keyword-cluster-builder"
+      }
+    },
+    {
+      "name": "seo-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/seo-optimizer"
+      }
+    },
+    {
       "name": "seo-skills",
       "source": {
         "source": "git-subdir",
@@ -62709,6 +65435,14 @@
       "source": {
         "source": "git-subdir",
         "url": "dashed/claude-marketplace",
+        "path": "plugins/sequential-thinking"
+      }
+    },
+    {
+      "name": "sequential-thinking-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
         "path": "plugins/sequential-thinking"
       }
     },
@@ -62986,6 +65720,14 @@
         "source": "git-subdir",
         "url": "kai-tw/claude-plugins",
         "path": "plugins/session-journal"
+      }
+    },
+    {
+      "name": "session-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/session-management"
       }
     },
     {
@@ -63349,6 +66091,14 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/shadcn-ui"
+      }
+    },
+    {
+      "name": "shadcn-vue",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/shadcn-vue"
       }
     },
     {
@@ -63940,6 +66690,14 @@
       }
     },
     {
+      "name": "shvix",
+      "source": {
+        "source": "git-subdir",
+        "url": "thedotmack/Shmerminal",
+        "path": "shvix"
+      }
+    },
+    {
       "name": "si",
       "source": {
         "source": "git-subdir",
@@ -64148,6 +66906,14 @@
       "source": {
         "source": "github",
         "repo": "DarkStarMatters/Singularity-Agent"
+      }
+    },
+    {
+      "name": "site-performance",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/site-performance"
       }
     },
     {
@@ -64558,6 +67324,14 @@
       }
     },
     {
+      "name": "skill-usage",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/skill-usage"
+      }
+    },
+    {
       "name": "skillcrossroads",
       "source": {
         "source": "github",
@@ -64737,6 +67511,14 @@
       "source": {
         "source": "github",
         "repo": "opendatahub-io/skills-registry"
+      }
+    },
+    {
+      "name": "skillsmith",
+      "source": {
+        "source": "git-subdir",
+        "url": "webgrip/ai-skills",
+        "path": "skills/skillsmith"
       }
     },
     {
@@ -66637,6 +69419,13 @@
       }
     },
     {
+      "name": "starknet-skills",
+      "source": {
+        "source": "github",
+        "repo": "keep-starknet-strange/starknet-skills"
+      }
+    },
+    {
       "name": "starmemory",
       "source": {
         "source": "github",
@@ -67917,6 +70706,13 @@
       }
     },
     {
+      "name": "swift-concurrency",
+      "source": {
+        "source": "github",
+        "repo": "AvdLee/Swift-Concurrency-Agent-Skill"
+      }
+    },
+    {
       "name": "swiftui",
       "source": {
         "source": "git-subdir",
@@ -68176,6 +70972,14 @@
       }
     },
     {
+      "name": "systematic-debugging-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/systematic-debugging"
+      }
+    },
+    {
       "name": "systematic-review",
       "source": {
         "source": "git-subdir",
@@ -68297,6 +71101,14 @@
       }
     },
     {
+      "name": "tailwind-v4-shadcn",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tailwind-v4-shadcn"
+      }
+    },
+    {
       "name": "taiwanmd",
       "source": {
         "source": "git-subdir",
@@ -68401,6 +71213,46 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/tanstack"
+      }
+    },
+    {
+      "name": "tanstack-ai",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tanstack-ai"
+      }
+    },
+    {
+      "name": "tanstack-query",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tanstack-query"
+      }
+    },
+    {
+      "name": "tanstack-router",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tanstack-router"
+      }
+    },
+    {
+      "name": "tanstack-start",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tanstack-start"
+      }
+    },
+    {
+      "name": "tanstack-table",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tanstack-table"
       }
     },
     {
@@ -68900,6 +71752,14 @@
       }
     },
     {
+      "name": "tech-debt",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/tech-debt"
+      }
+    },
+    {
       "name": "tech-selector",
       "source": {
         "source": "git-subdir",
@@ -68976,6 +71836,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/technical-seo-engineering"
+      }
+    },
+    {
+      "name": "technical-specification",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/technical-specification"
       }
     },
     {
@@ -69499,6 +72367,14 @@
       }
     },
     {
+      "name": "test-quality-analysis",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/test-quality-analysis"
+      }
+    },
+    {
       "name": "test-report-generator",
       "source": {
         "source": "git-subdir",
@@ -69767,6 +72643,14 @@
       }
     },
     {
+      "name": "thesys-generative-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/thesys-generative-ui"
+      }
+    },
+    {
       "name": "things",
       "source": {
         "source": "git-subdir",
@@ -69841,6 +72725,14 @@
       "source": {
         "source": "github",
         "repo": "ziyilam3999/three-role-model"
+      }
+    },
+    {
+      "name": "threejs",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/threejs"
       }
     },
     {
@@ -71433,6 +74325,14 @@
       }
     },
     {
+      "name": "turborepo-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/turborepo"
+      }
+    },
+    {
       "name": "tweetclaw",
       "source": {
         "source": "git-subdir",
@@ -71602,6 +74502,14 @@
         "source": "git-subdir",
         "url": "cjthompson/claude-code-config",
         "path": "plugins/typescript-development"
+      }
+    },
+    {
+      "name": "typescript-migration",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/typescript-migration"
       }
     },
     {
@@ -71953,6 +74861,14 @@
       }
     },
     {
+      "name": "ultracite",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/ultracite"
+      }
+    },
+    {
       "name": "ultralytics-branding",
       "source": {
         "source": "git-subdir",
@@ -72216,6 +75132,14 @@
       "source": {
         "source": "github",
         "repo": "ajitta/know-your-unknowns"
+      }
+    },
+    {
+      "name": "unknowns-discovery",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/unknowns-discovery"
       }
     },
     {
@@ -73710,6 +76634,14 @@
       }
     },
     {
+      "name": "vitest-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/vitest-testing"
+      }
+    },
+    {
       "name": "vivswan-skills",
       "source": {
         "source": "github",
@@ -74181,6 +77113,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/vulnerability-scanner"
+      }
+    },
+    {
+      "name": "vulnerability-scanning",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/vulnerability-scanning"
       }
     },
     {
@@ -74784,6 +77724,22 @@
       }
     },
     {
+      "name": "web-performance-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/web-performance-audit"
+      }
+    },
+    {
+      "name": "web-performance-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/web-performance-optimization"
+      }
+    },
+    {
       "name": "web-performance-skills",
       "source": {
         "source": "git-subdir",
@@ -74895,6 +77851,13 @@
       }
     },
     {
+      "name": "webgrip",
+      "source": {
+        "source": "github",
+        "repo": "webgrip/ai-skills"
+      }
+    },
+    {
       "name": "webhook-handler-creator",
       "source": {
         "source": "git-subdir",
@@ -74955,6 +77918,14 @@
       "source": {
         "source": "github",
         "repo": "keeganratner/website-one-shot"
+      }
+    },
+    {
+      "name": "websocket-implementation",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/websocket-implementation"
       }
     },
     {
@@ -75649,6 +78620,38 @@
       }
     },
     {
+      "name": "woocommerce-backend-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/woocommerce-backend-dev"
+      }
+    },
+    {
+      "name": "woocommerce-code-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/woocommerce-code-review"
+      }
+    },
+    {
+      "name": "woocommerce-copy-guidelines",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/woocommerce-copy-guidelines"
+      }
+    },
+    {
+      "name": "woocommerce-dev-cycle",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/woocommerce-dev-cycle"
+      }
+    },
+    {
       "name": "wordpress",
       "source": {
         "source": "git-subdir",
@@ -75678,6 +78681,14 @@
         "source": "git-subdir",
         "url": "voitta-ai/skillz",
         "path": "plugins/wordpress-com-publish"
+      }
+    },
+    {
+      "name": "wordpress-plugin-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/wordpress-plugin-core"
       }
     },
     {
@@ -77349,6 +80360,14 @@
       }
     },
     {
+      "name": "xss-prevention",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/xss-prevention"
+      }
+    },
+    {
       "name": "xss-vulnerability-scanner",
       "source": {
         "source": "git-subdir",
@@ -77984,6 +81003,14 @@
       }
     },
     {
+      "name": "zod-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/zod"
+      }
+    },
+    {
       "name": "zoho-crm",
       "source": {
         "source": "git-subdir",
@@ -78039,11 +81066,26 @@
       }
     },
     {
+      "name": "zstack",
+      "source": {
+        "source": "github",
+        "repo": "duolahypercho/zstack"
+      }
+    },
+    {
       "name": "zuke",
       "source": {
         "source": "git-subdir",
         "url": "zuke-build/zuke",
         "path": "plugins/zuke"
+      }
+    },
+    {
+      "name": "zustand-state-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "secondsky/claude-skills",
+        "path": "plugins/zustand-state-management"
       }
     },
     {

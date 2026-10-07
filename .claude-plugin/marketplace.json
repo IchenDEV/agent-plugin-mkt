@@ -1609,6 +1609,14 @@
       }
     },
     {
+      "name": "agent-discipline-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/agent-discipline"
+      }
+    },
+    {
       "name": "agent-dispatcher",
       "source": {
         "source": "github",
@@ -8741,6 +8749,14 @@
       }
     },
     {
+      "name": "block-curl-pipe-sh-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-curl-pipe-sh"
+      }
+    },
+    {
       "name": "block-destructive-commands",
       "source": {
         "source": "git-subdir",
@@ -8749,11 +8765,27 @@
       }
     },
     {
+      "name": "block-destructive-commands-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-destructive-commands"
+      }
+    },
+    {
       "name": "block-forbidden-git-add",
       "source": {
         "source": "git-subdir",
         "url": "widnyana/eyay-toolkits",
         "path": "plugins/block-forbidden-git-add"
+      }
+    },
+    {
+      "name": "block-invisible-unicode-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-invisible-unicode"
       }
     },
     {
@@ -8770,6 +8802,46 @@
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
         "path": "plugins/block-no-verify"
+      }
+    },
+    {
+      "name": "block-no-verify-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-no-verify"
+      }
+    },
+    {
+      "name": "block-test-skips-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-test-skips"
+      }
+    },
+    {
+      "name": "block-unapproved-egress-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-unapproved-egress"
+      }
+    },
+    {
+      "name": "block-unguarded-agent-spawn-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-unguarded-agent-spawn"
+      }
+    },
+    {
+      "name": "block-wildcard-agent-permissions-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/block-wildcard-agent-permissions"
       }
     },
     {
@@ -12084,6 +12156,14 @@
       }
     },
     {
+      "name": "chock-mise-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/chock-mise"
+      }
+    },
+    {
       "name": "choi-voice",
       "source": {
         "source": "git-subdir",
@@ -12709,6 +12789,14 @@
         "source": "git-subdir",
         "url": "gtapps/claude-code-hermit",
         "path": "plugins/claude-code-homeassistant-hermit"
+      }
+    },
+    {
+      "name": "claude-code-hub",
+      "source": {
+        "source": "git-subdir",
+        "url": "NikiforovAll/claude-code-hub",
+        "path": "plugin/plugins/claude-code-hub"
       }
     },
     {
@@ -14781,6 +14869,14 @@
       }
     },
     {
+      "name": "code-safety-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/code-safety"
+      }
+    },
+    {
       "name": "code-simplification",
       "source": {
         "source": "git-subdir",
@@ -16758,6 +16854,14 @@
         "source": "git-subdir",
         "url": "MojoAI-King/Skilliton",
         "path": "packs/base/plugins/context-hygiene"
+      }
+    },
+    {
+      "name": "context-hygiene-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/context-hygiene"
       }
     },
     {
@@ -18831,6 +18935,13 @@
       "source": {
         "source": "github",
         "repo": "panguin6010/daisy-mode-plugin"
+      }
+    },
+    {
+      "name": "daisyui",
+      "source": {
+        "source": "github",
+        "repo": "saadeghi/daisyui"
       }
     },
     {
@@ -27727,6 +27838,14 @@
       }
     },
     {
+      "name": "firecrawl-fallback-only-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/firecrawl-fallback-only"
+      }
+    },
+    {
       "name": "firecrawl-lean",
       "source": {
         "source": "git-subdir",
@@ -31552,6 +31671,14 @@
       }
     },
     {
+      "name": "git-safety-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/git-safety"
+      }
+    },
+    {
       "name": "git-sidebar",
       "source": {
         "source": "git-subdir",
@@ -31842,6 +31969,14 @@
         "source": "git-subdir",
         "url": "curie-eng/curie",
         "path": "examples/github-issues"
+      }
+    },
+    {
+      "name": "github-manager",
+      "source": {
+        "source": "git-subdir",
+        "url": "basitalisandhu/github-manager-skills",
+        "path": "plugins/github-manager"
       }
     },
     {
@@ -33305,6 +33440,14 @@
         "source": "git-subdir",
         "url": "AndrewDongminYoo/cc-agents-kit",
         "path": "plugins/guard-hooks"
+      }
+    },
+    {
+      "name": "guard-memory-writes-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/guard-memory-writes"
       }
     },
     {
@@ -36670,6 +36813,14 @@
       }
     },
     {
+      "name": "injection-defense-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/injection-defense"
+      }
+    },
+    {
       "name": "inkprint",
       "source": {
         "source": "github",
@@ -36970,6 +37121,13 @@
       }
     },
     {
+      "name": "intent-outreach",
+      "source": {
+        "source": "github",
+        "repo": "jeremylongshore/intent-outreach"
+      }
+    },
+    {
       "name": "intent-verify",
       "source": {
         "source": "github",
@@ -37143,6 +37301,14 @@
       "source": {
         "source": "github",
         "repo": "fal3/claude-skills-collection"
+      }
+    },
+    {
+      "name": "ipfs-sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "Prometheus-AGS/obsidian-ipfs-sync",
+        "path": ".agent-team/export/claude/plugins/ipfs-sync"
       }
     },
     {
@@ -37523,6 +37689,14 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/java-development"
+      }
+    },
+    {
+      "name": "java-security-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/java-security"
       }
     },
     {
@@ -40609,6 +40783,14 @@
       }
     },
     {
+      "name": "limit-diff-size-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/limit-diff-size"
+      }
+    },
+    {
       "name": "limit-watch",
       "source": {
         "source": "git-subdir",
@@ -42423,6 +42605,14 @@
       }
     },
     {
+      "name": "mama",
+      "source": {
+        "source": "git-subdir",
+        "url": "jungjaehoon-lifegamez/MAMA",
+        "path": "packages/claude-code-plugin"
+      }
+    },
+    {
       "name": "mana",
       "source": {
         "source": "github",
@@ -43804,6 +43994,14 @@
         "source": "git-subdir",
         "url": "omriariav/memory-daemon",
         "path": "plugins/memory-daemon-manager"
+      }
+    },
+    {
+      "name": "memory-discipline-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/memory-discipline"
       }
     },
     {
@@ -46543,6 +46741,14 @@
       "source": {
         "source": "github",
         "repo": "nielsmadan/skills"
+      }
+    },
+    {
+      "name": "no-a11y-regression-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/no-a11y-regression"
       }
     },
     {
@@ -50765,6 +50971,14 @@
       }
     },
     {
+      "name": "pin-github-actions-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/pin-github-actions"
+      }
+    },
+    {
       "name": "pinia",
       "source": {
         "source": "git-subdir",
@@ -52419,6 +52633,62 @@
       }
     },
     {
+      "name": "pm-family",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-family"
+      }
+    },
+    {
+      "name": "pm-figma",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-figma"
+      }
+    },
+    {
+      "name": "pm-finance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-finance"
+      }
+    },
+    {
+      "name": "pm-fleet",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-fleet"
+      }
+    },
+    {
+      "name": "pm-focus",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-focus"
+      }
+    },
+    {
+      "name": "pm-founders",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-founders"
+      }
+    },
+    {
+      "name": "pm-freelance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-freelance"
+      }
+    },
+    {
       "name": "pm-go-to-market",
       "source": {
         "source": "git-subdir",
@@ -52427,11 +52697,227 @@
       }
     },
     {
+      "name": "pm-gov",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-gov"
+      }
+    },
+    {
+      "name": "pm-grief",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-grief"
+      }
+    },
+    {
+      "name": "pm-growth",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-growth"
+      }
+    },
+    {
+      "name": "pm-gtm",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-gtm"
+      }
+    },
+    {
+      "name": "pm-hardship",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hardship"
+      }
+    },
+    {
+      "name": "pm-hardware",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hardware"
+      }
+    },
+    {
+      "name": "pm-health",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-health"
+      }
+    },
+    {
+      "name": "pm-hk-tw",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hk-tw"
+      }
+    },
+    {
+      "name": "pm-hobbies",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hobbies"
+      }
+    },
+    {
+      "name": "pm-hospitality",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hospitality"
+      }
+    },
+    {
+      "name": "pm-hr",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-hr"
+      }
+    },
+    {
+      "name": "pm-identity",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-identity"
+      }
+    },
+    {
+      "name": "pm-insurance",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-insurance"
+      }
+    },
+    {
+      "name": "pm-investing-literacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-investing-literacy"
+      }
+    },
+    {
+      "name": "pm-invisible-illness",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-invisible-illness"
+      }
+    },
+    {
+      "name": "pm-japan",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-japan"
+      }
+    },
+    {
+      "name": "pm-jobsearch",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-jobsearch"
+      }
+    },
+    {
+      "name": "pm-journalism",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-journalism"
+      }
+    },
+    {
+      "name": "pm-kitchen",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-kitchen"
+      }
+    },
+    {
+      "name": "pm-korea",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-korea"
+      }
+    },
+    {
+      "name": "pm-layoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-layoff"
+      }
+    },
+    {
+      "name": "pm-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-learning"
+      }
+    },
+    {
+      "name": "pm-legal",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-legal"
+      }
+    },
+    {
+      "name": "pm-lifeadmin",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-lifeadmin"
+      }
+    },
+    {
       "name": "pm-lifecycle",
       "source": {
         "source": "git-subdir",
         "url": "iDWong/pm-skills",
         "path": "pm-lifecycle"
+      }
+    },
+    {
+      "name": "pm-live",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-live"
+      }
+    },
+    {
+      "name": "pm-localization",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-localization"
+      }
+    },
+    {
+      "name": "pm-maintainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-maintainer"
       }
     },
     {
@@ -52451,11 +52937,147 @@
       }
     },
     {
+      "name": "pm-method",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-method"
+      }
+    },
+    {
+      "name": "pm-money",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-money"
+      }
+    },
+    {
+      "name": "pm-musician",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-musician"
+      }
+    },
+    {
+      "name": "pm-neurodivergent",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-neurodivergent"
+      }
+    },
+    {
+      "name": "pm-newcomer",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-newcomer"
+      }
+    },
+    {
+      "name": "pm-newgen",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-newgen"
+      }
+    },
+    {
+      "name": "pm-nonprofit",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-nonprofit"
+      }
+    },
+    {
+      "name": "pm-operations",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-operations"
+      }
+    },
+    {
+      "name": "pm-operator",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-operator"
+      }
+    },
+    {
       "name": "pm-os-setup",
       "source": {
         "source": "git-subdir",
         "url": "manansuneja/skills",
         "path": "skills/product-management/pm-os-setup"
+      }
+    },
+    {
+      "name": "pm-oss-launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-oss-launch"
+      }
+    },
+    {
+      "name": "pm-parents",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-parents"
+      }
+    },
+    {
+      "name": "pm-people",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-people"
+      }
+    },
+    {
+      "name": "pm-personal",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-personal"
+      }
+    },
+    {
+      "name": "pm-pharmacy",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-pharmacy"
+      }
+    },
+    {
+      "name": "pm-physio",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-physio"
+      }
+    },
+    {
+      "name": "pm-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-planning"
+      }
+    },
+    {
+      "name": "pm-pmm",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-pmm"
       }
     },
     {
@@ -52483,6 +53105,46 @@
       }
     },
     {
+      "name": "pm-qa",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-qa"
+      }
+    },
+    {
+      "name": "pm-realestate",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-realestate"
+      }
+    },
+    {
+      "name": "pm-recruiting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-recruiting"
+      }
+    },
+    {
+      "name": "pm-reentry",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-reentry"
+      }
+    },
+    {
+      "name": "pm-renters",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-renters"
+      }
+    },
+    {
       "name": "pm-research",
       "source": {
         "source": "git-subdir",
@@ -52491,11 +53153,99 @@
       }
     },
     {
+      "name": "pm-research-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-research"
+      }
+    },
+    {
+      "name": "pm-resignation",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-resignation"
+      }
+    },
+    {
+      "name": "pm-rituals",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-rituals"
+      }
+    },
+    {
+      "name": "pm-sales",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-sales"
+      }
+    },
+    {
+      "name": "pm-scam-defense",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-scam-defense"
+      }
+    },
+    {
+      "name": "pm-sea",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-sea"
+      }
+    },
+    {
+      "name": "pm-seatbelt",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-seatbelt"
+      }
+    },
+    {
+      "name": "pm-security",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-security"
+      }
+    },
+    {
       "name": "pm-shipping",
       "source": {
         "source": "git-subdir",
         "url": "iDWong/pm-skills",
         "path": "pm-shipping"
+      }
+    },
+    {
+      "name": "pm-sidehustle",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-sidehustle"
+      }
+    },
+    {
+      "name": "pm-simulators",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-simulators"
+      }
+    },
+    {
+      "name": "pm-skill-promoter",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-skill-promoter"
       }
     },
     {
@@ -52515,6 +53265,14 @@
       }
     },
     {
+      "name": "pm-social",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-social"
+      }
+    },
+    {
       "name": "pm-strategy",
       "source": {
         "source": "git-subdir",
@@ -52523,11 +53281,163 @@
       }
     },
     {
+      "name": "pm-strategy-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-strategy"
+      }
+    },
+    {
+      "name": "pm-students",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-students"
+      }
+    },
+    {
+      "name": "pm-supplychain",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-supplychain"
+      }
+    },
+    {
+      "name": "pm-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-support"
+      }
+    },
+    {
+      "name": "pm-tabletop",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-tabletop"
+      }
+    },
+    {
+      "name": "pm-teaching",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-teaching"
+      }
+    },
+    {
+      "name": "pm-thinking",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-thinking"
+      }
+    },
+    {
+      "name": "pm-tokens",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-tokens"
+      }
+    },
+    {
       "name": "pm-toolkit",
       "source": {
         "source": "git-subdir",
         "url": "phuryn/pm-skills",
         "path": "pm-toolkit"
+      }
+    },
+    {
+      "name": "pm-trades",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-trades"
+      }
+    },
+    {
+      "name": "pm-uxwriting",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-uxwriting"
+      }
+    },
+    {
+      "name": "pm-veterinary",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-veterinary"
+      }
+    },
+    {
+      "name": "pm-vision",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-vision"
+      }
+    },
+    {
+      "name": "pm-visuals",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-visuals"
+      }
+    },
+    {
+      "name": "pm-warroom",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-warroom"
+      }
+    },
+    {
+      "name": "pm-wealth",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-wealth"
+      }
+    },
+    {
+      "name": "pm-wedding",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-wedding"
+      }
+    },
+    {
+      "name": "pm-wellbeing",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-wellbeing"
+      }
+    },
+    {
+      "name": "pm-writers",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-writers"
+      }
+    },
+    {
+      "name": "pm-zh-content",
+      "source": {
+        "source": "git-subdir",
+        "url": "mohitagw15856/pm-claude-skills",
+        "path": "plugins/pm-zh-content"
       }
     },
     {
@@ -55026,11 +55936,51 @@
       }
     },
     {
+      "name": "protect-agent-config-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/protect-agent-config"
+      }
+    },
+    {
+      "name": "protect-ci-workflows-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/protect-ci-workflows"
+      }
+    },
+    {
+      "name": "protect-commit-privacy-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/protect-commit-privacy"
+      }
+    },
+    {
+      "name": "protect-main-branch-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/protect-main-branch"
+      }
+    },
+    {
       "name": "protect-mcp",
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
         "path": "plugins/protect-mcp"
+      }
+    },
+    {
+      "name": "protect-test-integrity-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/protect-test-integrity"
       }
     },
     {
@@ -59273,6 +60223,14 @@
       }
     },
     {
+      "name": "rtk-dangerous-actions-blocker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/rtk-dangerous-actions-blocker"
+      }
+    },
+    {
       "name": "rubro-estudio-arquitectura",
       "source": {
         "source": "git-subdir",
@@ -60065,6 +61023,30 @@
       }
     },
     {
+      "name": "sapsynk-dyl",
+      "source": {
+        "source": "git-subdir",
+        "url": "builder-sapsynk/sapsynk-plugins",
+        "path": "plugins/sapsynk-dyl"
+      }
+    },
+    {
+      "name": "sapsynk-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "builder-sapsynk/sapsynk-plugins",
+        "path": "plugins/sapsynk-learning"
+      }
+    },
+    {
+      "name": "sapsynk-teamkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "builder-sapsynk/sapsynk-plugins",
+        "path": "plugins/sapsynk-teamkit"
+      }
+    },
+    {
       "name": "sapui5",
       "source": {
         "source": "git-subdir",
@@ -60319,6 +61301,14 @@
       }
     },
     {
+      "name": "scan-secrets-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/scan-secrets"
+      }
+    },
+    {
       "name": "schedule-after-usage-reset",
       "source": {
         "source": "git-subdir",
@@ -60454,6 +61444,14 @@
       "source": {
         "source": "git-subdir",
         "url": "Raven-Scout/scout-plugin",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "scout-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Raven-Scout/Scout",
         "path": "plugin"
       }
     },
@@ -69274,6 +70272,14 @@
       }
     },
     {
+      "name": "token-efficiency-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/token-efficiency"
+      }
+    },
+    {
       "name": "token-launch-tracker",
       "source": {
         "source": "git-subdir",
@@ -71972,11 +72978,27 @@
       }
     },
     {
+      "name": "verify-dependency-exists-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/verify-dependency-exists"
+      }
+    },
+    {
       "name": "verify-marketplace",
       "source": {
         "source": "git-subdir",
         "url": "svyatov/agent-toolkit",
         "path": "plugins/verify-marketplace"
+      }
+    },
+    {
+      "name": "verify-mcp-allowlist-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "open-coder-ai/chock-copilot-plugins",
+        "path": "claude/verify-mcp-allowlist"
       }
     },
     {
@@ -77022,6 +78044,13 @@
         "source": "git-subdir",
         "url": "zuke-build/zuke",
         "path": "plugins/zuke"
+      }
+    },
+    {
+      "name": "zvm",
+      "source": {
+        "source": "github",
+        "repo": "tristanisham/zvm"
       }
     },
     {

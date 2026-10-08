@@ -1019,6 +1019,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-project-card",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CoralLeiCN/Agent-Rumble.git",
+        "path": "./.agents/plugins/agent-project-card"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-project-issues",
       "source": {
         "source": "url",
@@ -1941,6 +1954,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/gustavo-meilus/aiboarding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aident-loadout",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/Aident-AI/aident-skill"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3501,6 +3527,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "arx-be",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aryanibos/arx-backend.git",
+        "path": "./plugins/arx-be"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "arx-ui-spec",
       "source": {
         "source": "git-subdir",
@@ -4875,6 +4914,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sstoehrm/blend.git",
         "path": "./plugins/blend"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "blender-agent-studio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ifBars/blender-agent-studio.git",
+        "path": "./plugins/blender-agent-studio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8397,6 +8449,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "clueless",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/ADanMan/clueless"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cmux-tools",
       "source": {
         "source": "git-subdir",
@@ -9343,6 +9408,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/ChannelerH/codex-skin-packs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-slides",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nexu-io/codex-slides.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12663,6 +12740,19 @@
         "source": "git-subdir",
         "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/distributed-debugging"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "distribution-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ossianhempel/distribution-engineering.git",
+        "path": "./plugins/distribution-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21996,6 +22086,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "local-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
+        "path": "./plugins/colibird-ai/local-mcp-releases"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "logging-best-practices",
       "source": {
         "source": "git-subdir",
@@ -26316,6 +26419,149 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ogxo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-debug",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-debug"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-decide",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-decide"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-format",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-format"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-git",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-guards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-route",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-route"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-specialists",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-specialists"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ogxo-statusline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/ogxo-statusline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "oh-my-cassette",
       "source": {
         "source": "git-subdir",
@@ -28478,6 +28724,19 @@
         "source": "git-subdir",
         "url": "https://github.com/melodic-software/codex-plugins.git",
         "path": "./plugins/plugin-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plugin-shared",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leikunx/skill-marketplace-shared.git",
+        "path": "./plugins/plugin-shared"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34382,6 +34641,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shortcuts-playground",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/viticci/shortcuts-playground-plugin.git",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shots",
       "source": {
         "source": "git-subdir",
@@ -35717,6 +35989,19 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/specification"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "speckit-pro",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/racecraft-lab/racecraft-plugins-public.git",
+        "path": "./dist/codex/speckit-pro"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38145,6 +38430,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "thryx",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ogxo-io/plugins.git",
+        "path": "./plugins/thryx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tiber",
       "source": {
         "source": "git-subdir",
@@ -38965,6 +39263,19 @@
         "source": "git-subdir",
         "url": "https://github.com/ngallodev-software/typesafe-ai-implementation-skill.git",
         "path": "./plugins/typesafe-ai-implementation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "typesafe-jev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/racecraft-lab/racecraft-plugins-public.git",
+        "path": "./typesafe-jev/plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39961,6 +40272,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/dadwadw233/VibePortrait"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vibeaudio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kiril6/vibeaudio.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41968,6 +42291,18 @@
         "source": "git-subdir",
         "url": "https://github.com/idealstarry/Zetema.git",
         "path": "./plugins/zetema"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zeus",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ml-energy/zeus.git"
       },
       "policy": {
         "installation": "AVAILABLE",

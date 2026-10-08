@@ -1936,6 +1936,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-ui-cleaner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MustafaHam123/ai-ui-cleaner.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-workflow",
       "source": {
         "source": "git-subdir",
@@ -2592,6 +2604,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/duolahypercho/andrej-karpathy-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "anidoodle",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexgreensh/anidoodle.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4009,6 +4033,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "autodesk-fusion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/community-plugins.git",
+        "path": "./plugins/autodesk-fusion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "automatis",
       "source": {
         "source": "git-subdir",
@@ -4618,6 +4655,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "behavior-diff",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/spacedock-dev/behavior-diff.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bello",
       "source": {
         "source": "git-subdir",
@@ -4751,6 +4801,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/binance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bioflow",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Qgzeng-Bio/Bio-workflow.git",
+        "path": "./plugins/bioflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7766,6 +7829,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-smart",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ReflexioAI/claude-smart.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-telemetry-hooks",
       "source": {
         "source": "git-subdir",
@@ -9377,6 +9453,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-settings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/feiskyer/codex-settings.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-skill-creator",
       "source": {
         "source": "git-subdir",
@@ -9572,6 +9660,19 @@
         "source": "git-subdir",
         "url": "https://github.com/akunzai/agent-skills.git",
         "path": "./plugins/codexbar-quota-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codexskills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/masskrdjn/codexskills.git",
+        "path": "./fixtures/release_0_8_0/plugins/codexskills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17582,6 +17683,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "grafana-observability",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/community-plugins.git",
+        "path": "./plugins/grafana-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "granola",
       "source": {
         "source": "git-subdir",
@@ -19046,6 +19160,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "humanize-japanese",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JeongJaeSoon/im-not-ai-ja.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "humanize-writing",
       "source": {
         "source": "git-subdir",
@@ -20089,6 +20215,18 @@
         "source": "git-subdir",
         "url": "https://github.com/ITIXO/itixo-marketplace.git",
         "path": "./plugins/codex/itixo-component-library"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "its-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Red-Hat-AI-Innovation-Team/its_hub.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21741,6 +21879,19 @@
         "source": "git-subdir",
         "url": "https://github.com/k1-c/linear-tui.git",
         "path": "./agent-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linggen",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/linggen/linggen-memory.git",
+        "path": "./plugins/linggen"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24192,6 +24343,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mlenergy-data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ml-energy/data.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mnemon",
       "source": {
         "source": "url",
@@ -25801,6 +25964,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nvidia-kaggle",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NVIDIA/nvidia-kaggle.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nymrel",
       "source": {
         "source": "url",
@@ -26771,6 +26946,19 @@
         "source": "git-subdir",
         "url": "https://github.com/stolenfootball/opdev.git",
         "path": "./plugins/opdev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "open-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexu-io/open-design-agent-plugins.git",
+        "path": "./plugins/codex/open-design"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31048,6 +31236,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "react-native-to-swiftui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/community-plugins.git",
+        "path": "./plugins/react-native-to-swiftui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "react-skills",
       "source": {
         "source": "git-subdir",
@@ -31695,6 +31896,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "research-companion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/andrehuang/research-companion.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "research-design",
       "source": {
         "source": "git-subdir",
@@ -31956,6 +32169,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/u-ichi/reviewable-html-workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "reviewops-auditor-benchmark",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/community-plugins.git",
+        "path": "./plugins/reviewops-auditor-benchmark"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32709,6 +32935,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sandbase-codex-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sandbaseai/sandbase-codex-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sanity",
       "source": {
         "source": "url",
@@ -33442,6 +33680,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "science-superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/K-Dense-AI/science-superpowers.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scientific-method",
       "source": {
         "source": "git-subdir",
@@ -34002,6 +34252,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "servo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ramboz/servo.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "session",
       "source": {
         "source": "git-subdir",
@@ -34324,11 +34586,35 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shaderkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jamesrochabrun/ShaderKit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shaon",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/avivsinai/skills-marketplace.git",
         "path": "./plugins/shaon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shaper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ramboz/shaper.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35817,6 +36103,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spacedock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spacedock-dev/spacedock.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spark",
       "source": {
         "source": "git-subdir",
@@ -36167,6 +36465,18 @@
         "source": "git-subdir",
         "url": "https://github.com/akunzai/agent-skills.git",
         "path": "./plugins/spoken-tts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spotify-ads-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spotify/ads-agentic-tools.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38964,6 +39274,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "training-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Red-Hat-AI-Innovation-Team/training_hub.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trakt-mcp",
       "source": {
         "source": "git-subdir",
@@ -38981,6 +39303,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/YCSE/tralalero-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "travel-planning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mater1996/travel-planning.git",
+        "path": "./plugins/travel-planning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39793,6 +40128,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "until-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/whichguy/until-loop.git",
+        "path": "./plugins/until-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "update-pr-description",
       "source": {
         "source": "git-subdir",
@@ -40577,6 +40925,97 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/prateeks367/voicemoat-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-containers-middleware",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-containers-middleware"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-database",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-database"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-identity-access-control",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-identity-access-control"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-service-support",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-service-support"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "volcengine-storage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/volcengine/volcengine-skills.git",
+        "path": "./plugins/volcengine-storage"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1886,6 +1886,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-mentor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./ai-mentor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-policy-runtime",
       "source": {
         "source": "url",
@@ -3358,6 +3371,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "architect-critic",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./architect-critic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "architecture-explainer",
       "source": {
         "source": "git-subdir",
@@ -3530,6 +3556,18 @@
         "source": "git-subdir",
         "url": "https://github.com/nexaedge/nexaedge-marketplace.git",
         "path": "./plugins/artifact-publish"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "artifact-sftp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iicmaster/artifact-sftp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3822,6 +3860,19 @@
         "source": "git-subdir",
         "url": "https://github.com/baleen37/bstack.git",
         "path": "./plugins/atlassian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "atlassian-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./atlassian-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4478,6 +4529,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "basemind",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Goldziher/basemind.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "bash-development",
       "source": {
         "source": "git-subdir",
@@ -4901,6 +4964,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bitrouter/bitrouter.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bits-and-bolts",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/mcp-extensions.git",
+        "path": "./plugins/bits-and-bolts"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6137,6 +6213,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "canary",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/0xnyn/canary.git",
+        "path": "./plugins/canary"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "canva",
       "source": {
         "source": "git-subdir",
@@ -7234,6 +7323,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chatwoot-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./chatwoot-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cheap-dev-workers",
       "source": {
         "source": "git-subdir",
@@ -7304,6 +7406,19 @@
         "source": "git-subdir",
         "url": "https://github.com/chestnutzoe/chestnut-copy-skill.git",
         "path": "./plugins/chestnut-wechat-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chinese",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hangwenlei/My-Skills.git",
+        "path": "./plugins/chinese/codex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7821,6 +7936,19 @@
         "source": "git-subdir",
         "url": "https://github.com/raghubetina/cross-review.git",
         "path": "./plugins/claude-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-security-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./claude-security-audit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8627,6 +8755,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "code-judo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./code-judo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code-ops-suite",
       "source": {
         "source": "git-subdir",
@@ -8863,6 +9004,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cosai-oasis/project-codeguard.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codemap-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./codemap-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11443,6 +11597,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dataforseo-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./dataforseo-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dataproduct-builder-dbt",
       "source": {
         "source": "url",
@@ -11612,6 +11779,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NeetigyaShah/deep-research.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "deep-research-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./deep-research-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12088,6 +12268,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AgentsORG/design-engineering.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "design-harness",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tigerless-labs/design-harness.git",
+        "path": "./plugins/design-harness"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12734,6 +12927,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "dify-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./dify-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "digital-marketing",
       "source": {
         "source": "git-subdir",
@@ -12777,6 +12983,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/digitalocean"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "directus-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./directus-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13068,6 +13287,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "document-generator-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./document-generator-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "document-specialist",
       "source": {
         "source": "url",
@@ -13186,6 +13418,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/dodopayments/dodo-agent-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dokploy-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./dokploy-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -13746,6 +13991,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/v20227/dsh-codex-workflow.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dsh-crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./dsh-crew"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15729,6 +15987,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "flask-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./flask-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "fleet-propagate",
       "source": {
         "source": "git-subdir",
@@ -17581,6 +17852,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "google-workspace-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./google-workspace-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "gopher-guides",
       "source": {
         "source": "git-subdir",
@@ -17688,6 +17972,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/community-plugins.git",
         "path": "./plugins/grafana-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grammy-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./grammy-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18505,6 +18802,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "herdr-crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./herdr-crew"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "herdr-reboot",
       "source": {
         "source": "git-subdir",
@@ -19135,6 +19445,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "human-speak",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nateherkai/human-speak.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "human-training",
       "source": {
         "source": "url",
@@ -19691,6 +20013,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VeigaPunk/ds4cc-marketplace.git",
         "path": "./marketplace/plugins/infinizoom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "infisical-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./infisical-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20976,6 +21311,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "khuym",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hoangnb24/skills.git",
+        "path": "./plugins/khuym"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kibi-codex",
       "source": {
         "source": "git-subdir",
@@ -21750,6 +22098,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/addressanup/level7-dev-loop.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "levistack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pahlevikun/levistack.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22592,6 +22952,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "macstack-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./macstack-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "maestro",
       "source": {
         "source": "git-subdir",
@@ -23375,6 +23748,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mattermost-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./mattermost-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mattpocock-skills",
       "source": {
         "source": "git-subdir",
@@ -23868,6 +24254,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Nova-raiding/nova.git",
         "path": "./.codex-marketplace/plugins/merchant-marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "merge-bar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./merge-bar"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25060,11 +25459,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "n8n-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./n8n-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "n8n-mcp-synta-codex",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/Synta-ai/n8n-mcp-codex-plugin-synta"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "n8n-provision",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./n8n-provision"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25418,6 +25843,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nextjs-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./nextjs-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nextjs-provision",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./nextjs-provision"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ngs-analysis",
       "source": {
         "source": "git-subdir",
@@ -25599,6 +26050,45 @@
         "source": "git-subdir",
         "url": "https://github.com/NoaCG/NoaCG-Studio.git",
         "path": "./cli/plugin-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nocobase-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./nocobase-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nocodb-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./nocodb-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nocodb-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./nocodb-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27093,6 +27583,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "openclaw-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./openclaw-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "openclaw-security-monitor-bundle",
       "source": {
         "source": "url",
@@ -27333,6 +27836,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "orca-crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./orca-crew"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "orca-dev-ops",
       "source": {
         "source": "url",
@@ -27484,6 +28000,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ossify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./ossify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ostrich",
       "source": {
         "source": "git-subdir",
@@ -27551,6 +28080,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Q00/ouroboros.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "outline-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./outline-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27891,6 +28433,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "paseo-crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./paseo-crew"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "paseo-toolkit",
       "source": {
         "source": "git-subdir",
@@ -27968,6 +28523,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pax-k/pax-fullstack-harness.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "payloadcms-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./payloadcms-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28612,6 +29180,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "plane-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./plane-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "plangate",
       "source": {
         "source": "git-subdir",
@@ -29216,6 +29797,19 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/postgres-sql"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgresql-external-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./postgresql-external-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29935,6 +30529,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cjthompson/claude-code-config.git",
         "path": "./plugins/project-tasks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "project-template-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./project-template-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31758,6 +32365,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "repo-forensics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexgreensh/repo-forensics.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "repo-hygiene",
       "source": {
         "source": "git-subdir",
@@ -31934,6 +32553,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "research-knowledge-capture",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/research-knowledge-capture.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "research-loop",
       "source": {
         "source": "git-subdir",
@@ -32027,6 +32658,19 @@
         "source": "git-subdir",
         "url": "https://github.com/secondsky/claude-skills.git",
         "path": "./plugins/rest-api-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "restic-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./restic-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33593,6 +34237,32 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scaffold-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./scaffold-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "scaffold-onboard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./scaffold-onboard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scaffold-skill",
       "source": {
         "source": "url",
@@ -34061,6 +34731,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sendpulse-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./sendpulse-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sendsets",
       "source": {
         "source": "url",
@@ -34153,6 +34836,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/majiayu000/seo-agent-suite.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "seo-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./seo-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34282,6 +34978,19 @@
         "source": "git-subdir",
         "url": "https://github.com/devgirishattri/agent-plugins.git",
         "path": "./codex/plugins/session-chat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "session-doctor-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./session-doctor-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36447,6 +37156,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "splat-transform-for-lcc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Shuang-su/splat-transform-workflow-for-lcc.git",
+        "path": "./plugins/splat-transform-for-lcc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spoderman",
       "source": {
         "source": "git-subdir",
@@ -36535,6 +37257,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sqlalchemy-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./sqlalchemy-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sqlite",
       "source": {
         "source": "git-subdir",
@@ -36577,6 +37312,58 @@
       "source": {
         "source": "url",
         "url": "https://github.com/leehom0123/ssh-alias-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stack-composable-stack-v1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./stack-composable-stack-v1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stack-directus-nextjs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./stack-directus-nextjs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stack-directus-nextjs-trigger",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./stack-directus-nextjs-trigger"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stack-flask-sqlalchemy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./stack-flask-sqlalchemy"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36972,6 +37759,18 @@
         "source": "git-subdir",
         "url": "https://github.com/bitjaru/styleseed.git",
         "path": "./extensions/learning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "subspace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spacedock-dev/subspace.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37393,6 +38192,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sync",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hangwenlei/My-Skills.git",
+        "path": "./plugins/sync/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sync-business-logic-docs",
       "source": {
         "source": "git-subdir",
@@ -37654,6 +38466,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Phalegethon/the-agentic-fieldbook.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "taiga-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./taiga-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38211,6 +39036,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "teams-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./teams-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "teamwork-com",
       "source": {
         "source": "git-subdir",
@@ -38281,6 +39119,19 @@
         "source": "git-subdir",
         "url": "https://github.com/gigun-dev/claude-code.git",
         "path": "./plugins/telemetry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "teleshop-ops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./teleshop-ops"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39452,6 +40303,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "trigger-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./trigger-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "trinity-capture",
       "source": {
         "source": "git-subdir",
@@ -39911,6 +40775,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "unbrowse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/unbrowse-ai/unbrowse.git",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "unforgit",
       "source": {
         "source": "git-subdir",
@@ -40030,6 +40907,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/HDeibler/universal-design-principles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "universal-modder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rehan-remade/universal-modder.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -40385,6 +41274,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vaultwarden-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./vaultwarden-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vekayinuvis",
       "source": {
         "source": "git-subdir",
@@ -40467,6 +41369,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/vercel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vercel-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./vercel-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41484,6 +42399,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-search-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Agents-Store/codex-plugins.git",
+        "path": "./web-search-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "webapp-evidence",
       "source": {
         "source": "url",
@@ -42165,6 +43093,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cdcoonce/the-workshop.git",
         "path": "./plugins/workshop-maintainer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "workspace-init",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pulseai-labs/claude-agent-scaffolding.git",
+        "path": "./workspace-init"
       },
       "policy": {
         "installation": "AVAILABLE",

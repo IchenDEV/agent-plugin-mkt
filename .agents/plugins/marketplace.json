@@ -753,6 +753,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-bridge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kodaas/agent-bridge.git",
+        "path": "./plugins/agent-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-browser",
       "source": {
         "source": "git-subdir",
@@ -1999,6 +2012,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai-visibility-tracker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khadinakbarlabs/ai-visibility-tracker.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ai-workflow",
       "source": {
         "source": "git-subdir",
@@ -2423,6 +2448,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "alluvo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alluvoai/ki-plugin-personaldienstleister.git",
+        "path": "./plugins/alluvo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "alpaca",
       "source": {
         "source": "git-subdir",
@@ -2675,11 +2713,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "animate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/animate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "animate-expo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/animate-expo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "animation-studio",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/glebedel/glstack-plugins.git",
         "path": "./plugins/design/animation-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "animation-vocabulary",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/animation-vocabulary"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3257,6 +3334,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "apple-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/apple-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "apple-mail",
       "source": {
         "source": "url",
@@ -3755,6 +3845,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ask-sonner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/ask-sonner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aspiration-self-monitoring",
       "source": {
         "source": "git-subdir",
@@ -3847,6 +3950,18 @@
         "source": "git-subdir",
         "url": "https://github.com/nerymurillohnd/codex-essentials.git",
         "path": "./plugins/astro-cli-commands"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "asu-resume-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Claycui828/ASu-resume-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4545,6 +4660,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Tcuzzo/backs-aios-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "bagel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Extelligence-ai/bagel.git",
+        "path": "./plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5679,6 +5807,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/brandreport"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "break-ui",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/break-ui"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7856,6 +7997,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-code-advisor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iicmaster/claude-plugin-for-codex.git",
+        "path": "./plugins/claude-code-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code-bash-patterns",
       "source": {
         "source": "git-subdir",
@@ -7924,6 +8078,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CSparks/claude-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-leverage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Filip-Podstavec/claude-leverage.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9113,6 +9279,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codemem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kunickiaj/codemem.git",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codemender-security",
       "source": {
         "source": "url",
@@ -9402,6 +9581,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-knowledge-llm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/duolahypercho/codex-knowledge-llm.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-ledger",
       "source": {
         "source": "url",
@@ -9604,6 +9795,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-quota-mini",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yfwu2020/codex-quota-mini.git",
+        "path": "./plugins/codex-quota-mini"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-quota-optimizer",
       "source": {
         "source": "git-subdir",
@@ -9711,6 +9915,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/BestLemoon/codex-seo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-session-delete",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/juew/codex-session-delete.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10284,6 +10500,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ucirello/compound-engineering-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "compound-marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/t0ddharris/compound-marketing.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11644,6 +11872,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "data-engineering-knowledge-capture",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "data-liberation",
       "source": {
         "source": "url",
@@ -12660,6 +12900,30 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/Jason-chen-coder/dev-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dev-team",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/dev-team.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dev-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/dev-tools.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14759,6 +15023,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "emil-design-eng",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/emil-design-eng"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "emulate",
       "source": {
         "source": "git-subdir",
@@ -15208,6 +15485,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/eve"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "everme",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EverMind-AI/EverMe.git",
+        "path": "./plugins/everme"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -15923,6 +16213,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/beepboop2025/financial-evidence-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/find-animation-opportunities"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20415,6 +20718,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "improve-animations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/improve-animations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "improve-system-prompt",
       "source": {
         "source": "git-subdir",
@@ -20482,6 +20798,19 @@
         "source": "git-subdir",
         "url": "https://github.com/LanicBlue/infinite-mission.git",
         "path": "./plugins/codex/infinite-mission-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "infinity-context-agent-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/777genius/infinity-context.git",
+        "path": "./plugins/infinity-context-agent-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21279,6 +21608,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "jev-architect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/karanb192/jev-architect.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jev-decision",
       "source": {
         "source": "url",
@@ -21596,6 +21937,58 @@
         "source": "git-subdir",
         "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/jvm-languages"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "k12-check-for-understanding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/k12-check-for-understanding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "k12-lesson-differentiation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/k12-lesson-differentiation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "k12-lesson-plan-creation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/k12-lesson-plan-creation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "k12-lesson-prep",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/k12-lesson-prep"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24060,6 +24453,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "marketplace-admin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bradautomates/company-skills-marketplace-template.git",
+        "path": "./plugins/marketplace-admin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "marketplace-ops",
       "source": {
         "source": "git-subdir",
@@ -25461,6 +25867,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mobile-native",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/mobile-native"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mobile-offline-support",
       "source": {
         "source": "git-subdir",
@@ -26612,6 +27031,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "no-staging",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NotLeonian/no-staging.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "noacg",
       "source": {
         "source": "git-subdir",
@@ -27228,6 +27659,19 @@
         "source": "git-subdir",
         "url": "https://github.com/Lyainc/claude-kit.git",
         "path": "./obsidian-vault-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oc",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iicmaster/opencode-plugins.git",
+        "path": "./plugins/oc"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27913,6 +28357,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wagneripjr/skills.git",
         "path": "./plugins/okf-maintain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "okf-remote",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/okf-remote.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29578,6 +30034,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pick-ui-library",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/pick-ui-library"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "picsart",
       "source": {
         "source": "git-subdir",
@@ -30249,6 +30718,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/artkruglov/polka.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "poly",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Goldziher/poly.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31600,6 +32081,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "prototype",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/prototype"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "prototype-spike",
       "source": {
         "source": "git-subdir",
@@ -31681,6 +32175,45 @@
       "source": {
         "source": "url",
         "url": "https://github.com/puente-os/agent-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "punk-avatar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/punk-avatar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "punk-cover",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/punk-cover"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "punk-poster-layout",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/punk-poster-layout"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33205,6 +33738,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "research-graph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/research-graph.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "research-images",
       "source": {
         "source": "git-subdir",
@@ -33401,6 +33946,19 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/review-agent-governance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "review-animations",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/review-animations"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35996,6 +36554,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shanirez-style",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/shanirez-style"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shaon",
       "source": {
         "source": "git-subdir",
@@ -36305,6 +36876,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/shopify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shopify-app-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khadinakbarlabs/shopify-app-builder.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41131,6 +41714,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tunnel-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/tunnel-client.git",
+        "path": "./plugins/tunnel-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "turborepo",
       "source": {
         "source": "git-subdir",
@@ -43151,6 +43747,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-quality-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/addyosmani/web-quality-skills.git",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-search-dev",
       "source": {
         "source": "git-subdir",
@@ -43969,6 +44578,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "write-swift",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ShanireZ/Aptinery.git",
+        "path": "./plugins/write-swift"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "writers-loop",
       "source": {
         "source": "git-subdir",
@@ -44037,6 +44659,18 @@
         "source": "git-subdir",
         "url": "https://github.com/davekim917/bootstrap.git",
         "path": "./plugins/wwed"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "x-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Xquik-dev/x-api.git"
       },
       "policy": {
         "installation": "AVAILABLE",

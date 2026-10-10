@@ -3767,6 +3767,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "as",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AlpacaLabsLLC/skills-for-architects.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "asana",
       "source": {
         "source": "git-subdir",
@@ -15506,6 +15518,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "everos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EverMind-AI/Plugins.git",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "everyday-causal-skills",
       "source": {
         "source": "url",
@@ -20267,6 +20292,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "humanizer-pro",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khadinakbarlabs/humanizer-pro-cli-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hxm",
       "source": {
         "source": "git-subdir",
@@ -21127,6 +21164,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "internet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rohitg00/internet-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "interview",
       "source": {
         "source": "url",
@@ -21449,6 +21498,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wildcat-finance/skills.git",
         "path": "./plugins/janus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "japanese-nominalization-audit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NotLeonian/japanese-nominalization-audit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22516,6 +22577,30 @@
         "source": "git-subdir",
         "url": "https://github.com/acaprino/daodan.git",
         "path": "./exports/codex/plugins/kotlin-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kova",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kovatools/kova-agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kova-strategy-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kovatools/kova-strategy-builder.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28352,11 +28437,35 @@
       "category": "Developer Tools"
     },
     {
+      "name": "okf-agent-graph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/okf-agent-graph.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "okf-maintain",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wagneripjr/skills.git",
         "path": "./plugins/okf-maintain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "okf-pointers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/okf-pointers.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29522,6 +29631,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/particl-market-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pascal-agent-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pascalorg/editor.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39982,6 +40103,19 @@
         "source": "git-subdir",
         "url": "https://github.com/secondsky/claude-skills.git",
         "path": "./plugins/tanstack-table"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tao",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/recursivecurry/tao-of-agent.git",
+        "path": "./plugins/codex/tao"
       },
       "policy": {
         "installation": "AVAILABLE",

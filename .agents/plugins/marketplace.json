@@ -1320,6 +1320,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kairyou/agent-tools.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-trash-guard",
       "source": {
         "source": "git-subdir",
@@ -3512,6 +3524,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "architecture-assessment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aaronontheweb/architecture-assessment.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "architecture-explainer",
       "source": {
         "source": "git-subdir",
@@ -4425,11 +4449,414 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aws-agentcore-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-agentcore-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-ai-ml",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-ai-ml"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aws-amplify",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
         "path": "./plugins/aws-amplify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-amplify-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-amplify-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-analytics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-analytics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-cloud-security-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-cloud-security-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-codebase-documentor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-codebase-documentor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-compute",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-compute"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-containers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-containers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-cost-optimization",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-cost-optimization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-data-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-data-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-database-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-database-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-databases",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-databases"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-deployment-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-deployment-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-devsecops-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-devsecops-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-end-user-computing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-end-user-computing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-essentials",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-essentials"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-finops-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-finops-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-iac-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-iac-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-infrastructure-as-code",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-infrastructure-as-code"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-location-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-location-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-marketplace-seller",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-marketplace-seller"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-messaging-and-streaming",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-messaging-and-streaming"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-migration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-migration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-modernization-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-modernization-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-networking",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-networking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-observability",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-platform-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-platform-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-quantum-computing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-quantum-computing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-resilience",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-resilience"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-sagemaker-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-sagemaker-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-security-identity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-security-identity"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4451,6 +4878,45 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aws-serverless-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-serverless-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-solutions-architect",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-solutions-architect"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-sre-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/agent-plugins/aws-sre-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aws-startup-advisor",
       "source": {
         "source": "git-subdir",
@@ -4464,11 +4930,50 @@
       "category": "Developer Tools"
     },
     {
+      "name": "aws-storage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-storage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aws-transform",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
         "path": "./plugins/aws-transform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-web-and-mobile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-web-and-mobile"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "aws-well-architected",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/vertical-plugins/aws-well-architected"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7798,6 +8303,18 @@
         "source": "git-subdir",
         "url": "https://github.com/gigun-dev/claude-code.git",
         "path": "./plugins/chrome-devtools-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "chrome-extension-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khadinakbarlabs/chrome-extension-builder-openai.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11465,6 +11982,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "crew",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ourostack/desk.git",
+        "path": "./plugins/crew"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "crit",
       "source": {
         "source": "git-subdir",
@@ -11483,6 +12013,19 @@
         "source": "git-subdir",
         "url": "https://github.com/VincentChuWaiChow/vanguard-frontier-agentic.git",
         "path": "./plugins/cross-platform-agent-template"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "crossplane-aws-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/talkops-ai/devops-plugins.git",
+        "path": "./plugins/partner-built/crossplane-aws-engineer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12811,6 +13354,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/designlesshq/designless-agent.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "desk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ourostack/desk.git",
+        "path": "./plugins/desk"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16996,6 +17552,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "frugal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yuanboP/frugal.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "frustration-analyzer",
       "source": {
         "source": "git-subdir",
@@ -18574,6 +19142,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "google-docs-style",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/google-docs-style.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "google-drive",
       "source": {
         "source": "git-subdir",
@@ -18592,6 +19172,19 @@
         "source": "git-subdir",
         "url": "https://github.com/google/skills.git",
         "path": "./plugins/cloud/google-secops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-sheets-plg",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zapier/connectors.git",
+        "path": "./plugins/google-sheets-plg"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20645,6 +21238,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/full-aigc-plugins/image-factory-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "image-gen",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/image_gen.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25901,6 +26506,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mobile-app-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/khadinakbarlabs/expo-mobile-app-builder.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mobile-app-debugging",
       "source": {
         "source": "git-subdir",
@@ -28218,6 +28835,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ogilvy-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stromy-org/ogilvy-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ogxo",
       "source": {
         "source": "git-subdir",
@@ -28441,6 +29070,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SpillwaveSolutions/okf-agent-graph.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "okf-graph-eng",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/okf-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -30339,6 +30980,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/voygr-tech/placecall"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "plain-language",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ourostack/desk.git",
+        "path": "./plugins/plain-language"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32850,6 +33504,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mgaitan/quilombo.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quire-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/quire-cli.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36763,6 +37429,30 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shaughv-code",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RealEmmettS/shaughv-code.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "shaughv-tasks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RealEmmettS/shaughv-tasks.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shd-mcp-plugin",
       "source": {
         "source": "git-subdir",
@@ -38528,6 +39218,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Spicrawl/agent-plugins.git",
         "path": "./plugins/spicrawl"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "spillwave-skills-marketplace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/skills-marketplace.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41128,6 +41830,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/tiptap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/x-mesh/term-mesh.git",
+        "path": "./plugins/tm"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -44418,6 +45133,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "work-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ourostack/desk.git",
+        "path": "./tests/desk/mcp/__tests__/fixtures/legacy-providers/plugins/work-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "work-tracker",
       "source": {
         "source": "git-subdir",
@@ -45172,6 +45900,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "zapier-notion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zapier/connectors.git",
+        "path": "./apps/notion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "zellij",
       "source": {
         "source": "git-subdir",
@@ -45331,6 +46072,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/summer521521/Zotero_Research_plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zstack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fullerzz/agent-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",

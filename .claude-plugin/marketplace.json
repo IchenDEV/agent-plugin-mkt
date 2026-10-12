@@ -36,6 +36,38 @@
       }
     },
     {
+      "name": "000-jeremy-content-consistency-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/000-jeremy-content-consistency-validator"
+      }
+    },
+    {
+      "name": "000-jeremy-content-consistency-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/000-jeremy-content-consistency-validator"
+      }
+    },
+    {
+      "name": "001-jeremy-taskwarrior-integration",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/001-jeremy-taskwarrior-integration"
+      }
+    },
+    {
+      "name": "001-jeremy-taskwarrior-integration-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/001-jeremy-taskwarrior-integration"
+      }
+    },
+    {
       "name": "002-jeremy-yaml-master-agent",
       "source": {
         "source": "git-subdir",
@@ -57,6 +89,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/productivity/002-jeremy-yaml-master-agent"
+      }
+    },
+    {
+      "name": "002-jeremy-yaml-master-agent-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/002-jeremy-yaml-master-agent"
+      }
+    },
+    {
+      "name": "002-jeremy-yaml-master-agent-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/002-jeremy-yaml-master-agent"
       }
     },
     {
@@ -84,6 +132,22 @@
       }
     },
     {
+      "name": "003-jeremy-vertex-ai-media-master-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/003-jeremy-vertex-ai-media-master"
+      }
+    },
+    {
+      "name": "003-jeremy-vertex-ai-media-master-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/003-jeremy-vertex-ai-media-master"
+      }
+    },
+    {
       "name": "004-jeremy-google-cloud-agent-sdk",
       "source": {
         "source": "git-subdir",
@@ -105,6 +169,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/productivity/004-jeremy-google-cloud-agent-sdk"
+      }
+    },
+    {
+      "name": "004-jeremy-google-cloud-agent-sdk-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/004-jeremy-google-cloud-agent-sdk"
+      }
+    },
+    {
+      "name": "004-jeremy-google-cloud-agent-sdk-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/004-jeremy-google-cloud-agent-sdk"
       }
     },
     {
@@ -436,6 +516,22 @@
       }
     },
     {
+      "name": "access-control-auditor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/access-control-auditor"
+      }
+    },
+    {
+      "name": "access-control-auditor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/access-control-auditor"
+      }
+    },
+    {
       "name": "accessibility",
       "source": {
         "source": "git-subdir",
@@ -536,6 +632,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/accessibility-test-scanner_20251020_003753"
+      }
+    },
+    {
+      "name": "accessibility-test-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/accessibility-test-scanner"
+      }
+    },
+    {
+      "name": "accessibility-test-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/accessibility-test-scanner"
       }
     },
     {
@@ -3424,6 +3536,22 @@
       }
     },
     {
+      "name": "ai-commit-gen-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/ai-commit-gen"
+      }
+    },
+    {
+      "name": "ai-commit-gen-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/ai-commit-gen"
+      }
+    },
+    {
       "name": "ai-config",
       "source": {
         "source": "github",
@@ -3600,6 +3728,22 @@
       }
     },
     {
+      "name": "ai-ethics-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ai-ethics-validator"
+      }
+    },
+    {
+      "name": "ai-ethics-validator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/ai-ethics-validator"
+      }
+    },
+    {
       "name": "ai-experiment-logger",
       "source": {
         "source": "git-subdir",
@@ -3637,6 +3781,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-experiment-logger_20251020_015444"
+      }
+    },
+    {
+      "name": "ai-experiment-logger-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/ai-experiment-logger"
+      }
+    },
+    {
+      "name": "ai-experiment-logger-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/ai-experiment-logger"
       }
     },
     {
@@ -3783,6 +3943,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-ml-engineering-pack_20251020_011030"
+      }
+    },
+    {
+      "name": "ai-ml-engineering-pack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/packages/ai-ml-engineering-pack"
+      }
+    },
+    {
+      "name": "ai-ml-engineering-pack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/packages/ai-ml-engineering-pack"
       }
     },
     {
@@ -3963,6 +4139,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-sdk-agents_20251020_025914"
+      }
+    },
+    {
+      "name": "ai-sdk-agents-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ai-sdk-agents"
+      }
+    },
+    {
+      "name": "ai-sdk-agents-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/ai-sdk-agents"
       }
     },
     {
@@ -4585,6 +4777,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/alerting-rule-creator_20251020_073021"
+      }
+    },
+    {
+      "name": "alerting-rule-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/alerting-rule-creator"
+      }
+    },
+    {
+      "name": "alerting-rule-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/alerting-rule-creator"
       }
     },
     {
@@ -5376,6 +5584,22 @@
       }
     },
     {
+      "name": "anomaly-detection-system-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/anomaly-detection-system"
+      }
+    },
+    {
+      "name": "anomaly-detection-system-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/anomaly-detection-system"
+      }
+    },
+    {
       "name": "ansible-docs",
       "source": {
         "source": "git-subdir",
@@ -5453,6 +5677,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ansible-playbook-creator_20251020_070359"
+      }
+    },
+    {
+      "name": "ansible-playbook-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/ansible-playbook-creator"
+      }
+    },
+    {
+      "name": "ansible-playbook-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/ansible-playbook-creator"
       }
     },
     {
@@ -5802,6 +6042,22 @@
       }
     },
     {
+      "name": "api-authentication-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-authentication-builder"
+      }
+    },
+    {
+      "name": "api-authentication-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-authentication-builder"
+      }
+    },
+    {
       "name": "api-batch-processor",
       "source": {
         "source": "git-subdir",
@@ -5839,6 +6095,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-batch-processor_20251020_035854"
+      }
+    },
+    {
+      "name": "api-batch-processor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-batch-processor"
+      }
+    },
+    {
+      "name": "api-batch-processor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-batch-processor"
       }
     },
     {
@@ -5890,6 +6162,22 @@
       }
     },
     {
+      "name": "api-cache-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-cache-manager"
+      }
+    },
+    {
+      "name": "api-cache-manager-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-cache-manager"
+      }
+    },
+    {
       "name": "api-changelog-versioning",
       "source": {
         "source": "git-subdir",
@@ -5935,6 +6223,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-contract-generator_20251020_030627"
+      }
+    },
+    {
+      "name": "api-contract-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-contract-generator"
+      }
+    },
+    {
+      "name": "api-contract-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-contract-generator"
       }
     },
     {
@@ -6018,6 +6322,22 @@
       }
     },
     {
+      "name": "api-documentation-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-documentation-generator"
+      }
+    },
+    {
+      "name": "api-documentation-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-documentation-generator"
+      }
+    },
+    {
       "name": "api-engineering",
       "source": {
         "source": "git-subdir",
@@ -6063,6 +6383,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-error-handler_20251020_033724"
+      }
+    },
+    {
+      "name": "api-error-handler-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-error-handler"
+      }
+    },
+    {
+      "name": "api-error-handler-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-error-handler"
       }
     },
     {
@@ -6114,6 +6450,22 @@
       }
     },
     {
+      "name": "api-event-emitter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-event-emitter"
+      }
+    },
+    {
+      "name": "api-event-emitter-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-event-emitter"
+      }
+    },
+    {
       "name": "api-filtering-sorting",
       "source": {
         "source": "git-subdir",
@@ -6154,6 +6506,22 @@
       }
     },
     {
+      "name": "api-fuzzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/api-fuzzer"
+      }
+    },
+    {
+      "name": "api-fuzzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/api-fuzzer"
+      }
+    },
+    {
       "name": "api-gateway-builder",
       "source": {
         "source": "git-subdir",
@@ -6191,6 +6559,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-gateway-builder_20251020_032205"
+      }
+    },
+    {
+      "name": "api-gateway-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-gateway-builder"
+      }
+    },
+    {
+      "name": "api-gateway-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-gateway-builder"
       }
     },
     {
@@ -6266,6 +6650,22 @@
       }
     },
     {
+      "name": "api-load-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-load-tester"
+      }
+    },
+    {
+      "name": "api-load-tester-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-load-tester"
+      }
+    },
+    {
       "name": "api-migration-tool",
       "source": {
         "source": "git-subdir",
@@ -6306,6 +6706,22 @@
       }
     },
     {
+      "name": "api-migration-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-migration-tool"
+      }
+    },
+    {
+      "name": "api-migration-tool-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-migration-tool"
+      }
+    },
+    {
       "name": "api-mock-server",
       "source": {
         "source": "git-subdir",
@@ -6343,6 +6759,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-mock-server_20251020_040903"
+      }
+    },
+    {
+      "name": "api-mock-server-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-mock-server"
+      }
+    },
+    {
+      "name": "api-mock-server-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-mock-server"
       }
     },
     {
@@ -6390,6 +6822,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-monitoring-dashboard_20251020_031546"
+      }
+    },
+    {
+      "name": "api-monitoring-dashboard-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-monitoring-dashboard"
+      }
+    },
+    {
+      "name": "api-monitoring-dashboard-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-monitoring-dashboard"
       }
     },
     {
@@ -6446,6 +6894,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-rate-limiter_20251020_041354"
+      }
+    },
+    {
+      "name": "api-rate-limiter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-rate-limiter"
+      }
+    },
+    {
+      "name": "api-rate-limiter-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-rate-limiter"
       }
     },
     {
@@ -6513,6 +6977,22 @@
       }
     },
     {
+      "name": "api-request-logger-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-request-logger"
+      }
+    },
+    {
+      "name": "api-request-logger-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-request-logger"
+      }
+    },
+    {
       "name": "api-response-optimization",
       "source": {
         "source": "git-subdir",
@@ -6550,6 +7030,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-response-validator_20251019_220047"
+      }
+    },
+    {
+      "name": "api-response-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-response-validator"
+      }
+    },
+    {
+      "name": "api-response-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-response-validator"
       }
     },
     {
@@ -6609,6 +7105,22 @@
       }
     },
     {
+      "name": "api-schema-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-schema-validator"
+      }
+    },
+    {
+      "name": "api-schema-validator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-schema-validator"
+      }
+    },
+    {
       "name": "api-sdk-generator",
       "source": {
         "source": "git-subdir",
@@ -6646,6 +7158,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-sdk-generator_20251020_041812"
+      }
+    },
+    {
+      "name": "api-sdk-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-sdk-generator"
+      }
+    },
+    {
+      "name": "api-sdk-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-sdk-generator"
       }
     },
     {
@@ -6697,6 +7225,22 @@
       }
     },
     {
+      "name": "api-security-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-security-scanner"
+      }
+    },
+    {
+      "name": "api-security-scanner-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-security-scanner"
+      }
+    },
+    {
       "name": "api-test-automation",
       "source": {
         "source": "git-subdir",
@@ -6726,6 +7270,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-test-automation_20251020_003558"
+      }
+    },
+    {
+      "name": "api-test-automation-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/api-test-automation"
+      }
+    },
+    {
+      "name": "api-test-automation-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/api-test-automation"
       }
     },
     {
@@ -6825,6 +7385,22 @@
       }
     },
     {
+      "name": "api-throttling-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-throttling-manager"
+      }
+    },
+    {
+      "name": "api-throttling-manager-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-throttling-manager"
+      }
+    },
+    {
       "name": "api-versioning-manager",
       "source": {
         "source": "git-subdir",
@@ -6862,6 +7438,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-versioning-manager_20251020_033116"
+      }
+    },
+    {
+      "name": "api-versioning-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/api-versioning-manager"
+      }
+    },
+    {
+      "name": "api-versioning-manager-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/api-versioning-manager"
       }
     },
     {
@@ -6925,6 +7517,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/apm-dashboard-creator_20251020_073211"
+      }
+    },
+    {
+      "name": "apm-dashboard-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/apm-dashboard-creator"
+      }
+    },
+    {
+      "name": "apm-dashboard-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/apm-dashboard-creator"
       }
     },
     {
@@ -7188,6 +7796,22 @@
       }
     },
     {
+      "name": "application-profiler-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/application-profiler"
+      }
+    },
+    {
+      "name": "application-profiler-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/application-profiler"
+      }
+    },
+    {
       "name": "applied-mathematician",
       "source": {
         "source": "git-subdir",
@@ -7366,6 +7990,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/arbitrage-opportunity-finder_20251020_044041"
+      }
+    },
+    {
+      "name": "arbitrage-opportunity-finder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/arbitrage-opportunity-finder"
+      }
+    },
+    {
+      "name": "arbitrage-opportunity-finder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/arbitrage-opportunity-finder"
       }
     },
     {
@@ -8513,6 +9153,13 @@
       }
     },
     {
+      "name": "attention-control",
+      "source": {
+        "source": "github",
+        "repo": "aaddrick/attention-control"
+      }
+    },
+    {
       "name": "attention-span",
       "source": {
         "source": "github",
@@ -8789,6 +9436,22 @@
       }
     },
     {
+      "name": "authentication-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/authentication-validator"
+      }
+    },
+    {
+      "name": "authentication-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/authentication-validator"
+      }
+    },
+    {
       "name": "authoring",
       "source": {
         "source": "git-subdir",
@@ -8928,6 +9591,22 @@
       }
     },
     {
+      "name": "auto-scaling-configurator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/auto-scaling-configurator"
+      }
+    },
+    {
+      "name": "auto-scaling-configurator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/auto-scaling-configurator"
+      }
+    },
+    {
       "name": "auto-session-name",
       "source": {
         "source": "git-subdir",
@@ -9050,6 +9729,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/automl-pipeline-builder_20251020_030140"
+      }
+    },
+    {
+      "name": "automl-pipeline-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/automl-pipeline-builder"
+      }
+    },
+    {
+      "name": "automl-pipeline-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/automl-pipeline-builder"
       }
     },
     {
@@ -10079,6 +10774,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/backup-strategy-implementor_20251020_065147"
+      }
+    },
+    {
+      "name": "backup-strategy-implementor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/backup-strategy-implementor"
+      }
+    },
+    {
+      "name": "backup-strategy-implementor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/backup-strategy-implementor"
       }
     },
     {
@@ -11580,6 +12291,22 @@
       }
     },
     {
+      "name": "blockchain-explorer-cli-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/blockchain-explorer-cli"
+      }
+    },
+    {
+      "name": "blockchain-explorer-cli-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/blockchain-explorer-cli"
+      }
+    },
+    {
       "name": "blockchain-web3",
       "source": {
         "source": "git-subdir",
@@ -11959,6 +12686,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/bottleneck-detector_20251020_072140"
+      }
+    },
+    {
+      "name": "bottleneck-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/bottleneck-detector"
+      }
+    },
+    {
+      "name": "bottleneck-detector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/bottleneck-detector"
       }
     },
     {
@@ -12568,6 +13311,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/browser-compatibility-tester_20251020_003947"
+      }
+    },
+    {
+      "name": "browser-compatibility-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/browser-compatibility-tester"
+      }
+    },
+    {
+      "name": "browser-compatibility-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/browser-compatibility-tester"
       }
     },
     {
@@ -13314,6 +14073,22 @@
       }
     },
     {
+      "name": "cache-performance-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/cache-performance-optimizer"
+      }
+    },
+    {
+      "name": "cache-performance-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/cache-performance-optimizer"
+      }
+    },
+    {
       "name": "cache-tax",
       "source": {
         "source": "github",
@@ -13487,6 +14262,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/calendar-to-workflow_20251020_081412"
+      }
+    },
+    {
+      "name": "calendar-to-workflow-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/skill-enhancers/calendar-to-workflow"
+      }
+    },
+    {
+      "name": "calendar-to-workflow-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/skill-enhancers/calendar-to-workflow"
       }
     },
     {
@@ -13706,6 +14497,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/capacity-planning-analyzer_20251020_074147"
+      }
+    },
+    {
+      "name": "capacity-planning-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/capacity-planning-analyzer"
+      }
+    },
+    {
+      "name": "capacity-planning-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/capacity-planning-analyzer"
       }
     },
     {
@@ -14753,6 +15560,22 @@
       }
     },
     {
+      "name": "chaos-engineering-toolkit-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/chaos-engineering-toolkit"
+      }
+    },
+    {
+      "name": "chaos-engineering-toolkit-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/chaos-engineering-toolkit"
+      }
+    },
+    {
       "name": "character-pipeline",
       "source": {
         "source": "git-subdir",
@@ -15673,6 +16496,22 @@
       }
     },
     {
+      "name": "ci-cd-pipeline-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/ci-cd-pipeline-builder"
+      }
+    },
+    {
+      "name": "ci-cd-pipeline-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/ci-cd-pipeline-builder"
+      }
+    },
+    {
       "name": "ci-debugger",
       "source": {
         "source": "git-subdir",
@@ -15949,6 +16788,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/classification-model-builder_20251020_025141"
+      }
+    },
+    {
+      "name": "classification-model-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/classification-model-builder"
+      }
+    },
+    {
+      "name": "classification-model-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/classification-model-builder"
       }
     },
     {
@@ -17742,6 +18597,22 @@
       }
     },
     {
+      "name": "cloud-cost-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/cloud-cost-optimizer"
+      }
+    },
+    {
+      "name": "cloud-cost-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/cloud-cost-optimizer"
+      }
+    },
+    {
       "name": "cloud-harness",
       "source": {
         "source": "git-subdir",
@@ -18113,6 +18984,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/clustering-algorithm-runner_20251020_030331"
+      }
+    },
+    {
+      "name": "clustering-algorithm-runner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/clustering-algorithm-runner"
+      }
+    },
+    {
+      "name": "clustering-algorithm-runner-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/clustering-algorithm-runner"
       }
     },
     {
@@ -20314,6 +21201,22 @@
       }
     },
     {
+      "name": "compliance-checker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/compliance-checker"
+      }
+    },
+    {
+      "name": "compliance-checker-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/compliance-checker"
+      }
+    },
+    {
       "name": "compliance-evidence",
       "source": {
         "source": "git-subdir",
@@ -20390,6 +21293,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/compliance-report-generator_20251020_001904"
+      }
+    },
+    {
+      "name": "compliance-report-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/compliance-report-generator"
+      }
+    },
+    {
+      "name": "compliance-report-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/compliance-report-generator"
       }
     },
     {
@@ -20697,6 +21616,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/computer-vision-processor_20251020_023234"
+      }
+    },
+    {
+      "name": "computer-vision-processor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/computer-vision-processor"
+      }
+    },
+    {
+      "name": "computer-vision-processor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/computer-vision-processor"
       }
     },
     {
@@ -21103,6 +22038,22 @@
       }
     },
     {
+      "name": "container-registry-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/container-registry-manager"
+      }
+    },
+    {
+      "name": "container-registry-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/container-registry-manager"
+      }
+    },
+    {
       "name": "container-security-scanner",
       "source": {
         "source": "git-subdir",
@@ -21132,6 +22083,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/container-security-scanner_20251020_061950"
+      }
+    },
+    {
+      "name": "container-security-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/container-security-scanner"
+      }
+    },
+    {
+      "name": "container-security-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/container-security-scanner"
       }
     },
     {
@@ -21652,6 +22619,22 @@
       }
     },
     {
+      "name": "contract-test-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/contract-test-validator"
+      }
+    },
+    {
+      "name": "contract-test-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/contract-test-validator"
+      }
+    },
+    {
       "name": "contract-tester",
       "source": {
         "source": "git-subdir",
@@ -21816,6 +22799,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/conversational-api-debugger_20251020_015144"
+      }
+    },
+    {
+      "name": "conversational-api-debugger-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/conversational-api-debugger"
+      }
+    },
+    {
+      "name": "conversational-api-debugger-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/conversational-api-debugger"
       }
     },
     {
@@ -22071,6 +23070,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cors-policy-validator_20251019_235759"
+      }
+    },
+    {
+      "name": "cors-policy-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/cors-policy-validator"
+      }
+    },
+    {
+      "name": "cors-policy-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/cors-policy-validator"
       }
     },
     {
@@ -22385,6 +23400,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cpu-usage-monitor_20251020_073602"
+      }
+    },
+    {
+      "name": "cpu-usage-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/cpu-usage-monitor"
+      }
+    },
+    {
+      "name": "cpu-usage-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/cpu-usage-monitor"
       }
     },
     {
@@ -22743,6 +23774,22 @@
       }
     },
     {
+      "name": "creator-studio-pack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/packages/creator-studio-pack"
+      }
+    },
+    {
+      "name": "creator-studio-pack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/packages/creator-studio-pack"
+      }
+    },
+    {
       "name": "credential-audit-rerun",
       "source": {
         "source": "git-subdir",
@@ -22879,6 +23926,14 @@
       }
     },
     {
+      "name": "crew-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "ourostack/ouroboros-skills",
+        "path": "plugins/crew"
+      }
+    },
+    {
       "name": "crit",
       "source": {
         "source": "github",
@@ -22989,6 +24044,22 @@
       }
     },
     {
+      "name": "cross-chain-bridge-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/cross-chain-bridge-monitor"
+      }
+    },
+    {
+      "name": "cross-chain-bridge-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/cross-chain-bridge-monitor"
+      }
+    },
+    {
       "name": "cross-model-review",
       "source": {
         "source": "github",
@@ -23096,6 +24167,22 @@
       }
     },
     {
+      "name": "crypto-derivatives-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/crypto-derivatives-tracker"
+      }
+    },
+    {
+      "name": "crypto-derivatives-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/crypto-derivatives-tracker"
+      }
+    },
+    {
       "name": "crypto-news-aggregator",
       "source": {
         "source": "git-subdir",
@@ -23136,6 +24223,22 @@
       }
     },
     {
+      "name": "crypto-news-aggregator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/crypto-news-aggregator"
+      }
+    },
+    {
+      "name": "crypto-news-aggregator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/crypto-news-aggregator"
+      }
+    },
+    {
       "name": "crypto-portfolio-tracker",
       "source": {
         "source": "git-subdir",
@@ -23168,6 +24271,22 @@
       }
     },
     {
+      "name": "crypto-portfolio-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/crypto-portfolio-tracker"
+      }
+    },
+    {
+      "name": "crypto-portfolio-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/crypto-portfolio-tracker"
+      }
+    },
+    {
       "name": "crypto-signal-generator",
       "source": {
         "source": "git-subdir",
@@ -23197,6 +24316,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-signal-generator_20251020_050821"
+      }
+    },
+    {
+      "name": "crypto-signal-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/crypto-signal-generator"
+      }
+    },
+    {
+      "name": "crypto-signal-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/crypto-signal-generator"
       }
     },
     {
@@ -23237,6 +24372,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-tax-calculator_20251020_043441"
+      }
+    },
+    {
+      "name": "crypto-tax-calculator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/crypto-tax-calculator"
+      }
+    },
+    {
+      "name": "crypto-tax-calculator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/crypto-tax-calculator"
       }
     },
     {
@@ -23349,6 +24500,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/csrf-protection-validator_20251019_234618"
+      }
+    },
+    {
+      "name": "csrf-protection-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/csrf-protection-validator"
+      }
+    },
+    {
+      "name": "csrf-protection-validator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/csrf-protection-validator"
       }
     },
     {
@@ -24254,6 +25421,22 @@
       }
     },
     {
+      "name": "data-preprocessing-pipeline-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/data-preprocessing-pipeline"
+      }
+    },
+    {
+      "name": "data-preprocessing-pipeline-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/data-preprocessing-pipeline"
+      }
+    },
+    {
       "name": "data-privacy",
       "source": {
         "source": "git-subdir",
@@ -24307,6 +25490,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-privacy-scanner_20251020_000341"
+      }
+    },
+    {
+      "name": "data-privacy-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/data-privacy-scanner"
+      }
+    },
+    {
+      "name": "data-privacy-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/data-privacy-scanner"
       }
     },
     {
@@ -24430,6 +25629,22 @@
       }
     },
     {
+      "name": "data-seeder-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/data-seeder-generator"
+      }
+    },
+    {
+      "name": "data-seeder-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/data-seeder-generator"
+      }
+    },
+    {
       "name": "data-streaming-engineering",
       "source": {
         "source": "git-subdir",
@@ -24467,6 +25682,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-validation-engine_20251020_054714"
+      }
+    },
+    {
+      "name": "data-validation-engine-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/data-validation-engine"
+      }
+    },
+    {
+      "name": "data-validation-engine-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/data-validation-engine"
       }
     },
     {
@@ -24526,6 +25757,22 @@
       }
     },
     {
+      "name": "data-visualization-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/data-visualization-creator"
+      }
+    },
+    {
+      "name": "data-visualization-creator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/data-visualization-creator"
+      }
+    },
+    {
       "name": "database",
       "source": {
         "source": "git-subdir",
@@ -24574,6 +25821,22 @@
       }
     },
     {
+      "name": "database-archival-system-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-archival-system"
+      }
+    },
+    {
+      "name": "database-archival-system-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-archival-system"
+      }
+    },
+    {
       "name": "database-audit-logger",
       "source": {
         "source": "git-subdir",
@@ -24603,6 +25866,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-audit-logger_20251020_060651"
+      }
+    },
+    {
+      "name": "database-audit-logger-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-audit-logger"
+      }
+    },
+    {
+      "name": "database-audit-logger-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-audit-logger"
       }
     },
     {
@@ -24638,6 +25917,22 @@
       }
     },
     {
+      "name": "database-backup-automator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-backup-automator"
+      }
+    },
+    {
+      "name": "database-backup-automator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-backup-automator"
+      }
+    },
+    {
       "name": "database-cache-layer",
       "source": {
         "source": "git-subdir",
@@ -24667,6 +25962,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-cache-layer_20251020_055636"
+      }
+    },
+    {
+      "name": "database-cache-layer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-cache-layer"
+      }
+    },
+    {
+      "name": "database-cache-layer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-cache-layer"
       }
     },
     {
@@ -24710,6 +26021,22 @@
       }
     },
     {
+      "name": "database-connection-pooler-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-connection-pooler"
+      }
+    },
+    {
+      "name": "database-connection-pooler-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-connection-pooler"
+      }
+    },
+    {
       "name": "database-deadlock-detector",
       "source": {
         "source": "git-subdir",
@@ -24739,6 +26066,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-deadlock-detector_20251020_060502"
+      }
+    },
+    {
+      "name": "database-deadlock-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-deadlock-detector"
+      }
+    },
+    {
+      "name": "database-deadlock-detector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-deadlock-detector"
       }
     },
     {
@@ -24790,6 +26133,22 @@
       }
     },
     {
+      "name": "database-diff-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-diff-tool"
+      }
+    },
+    {
+      "name": "database-diff-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-diff-tool"
+      }
+    },
+    {
       "name": "database-documentation-gen",
       "source": {
         "source": "git-subdir",
@@ -24819,6 +26178,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-documentation-gen_20251020_055252"
+      }
+    },
+    {
+      "name": "database-documentation-gen-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-documentation-gen"
+      }
+    },
+    {
+      "name": "database-documentation-gen-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-documentation-gen"
       }
     },
     {
@@ -24862,6 +26237,22 @@
       }
     },
     {
+      "name": "database-health-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-health-monitor"
+      }
+    },
+    {
+      "name": "database-health-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-health-monitor"
+      }
+    },
+    {
       "name": "database-index-advisor",
       "source": {
         "source": "git-subdir",
@@ -24894,6 +26285,22 @@
       }
     },
     {
+      "name": "database-index-advisor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-index-advisor"
+      }
+    },
+    {
+      "name": "database-index-advisor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-index-advisor"
+      }
+    },
+    {
       "name": "database-migration-manager",
       "source": {
         "source": "git-subdir",
@@ -24923,6 +26330,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-migration-manager_20251020_054521"
+      }
+    },
+    {
+      "name": "database-migration-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-migration-manager"
+      }
+    },
+    {
+      "name": "database-migration-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-migration-manager"
       }
     },
     {
@@ -24982,6 +26405,22 @@
       }
     },
     {
+      "name": "database-partition-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-partition-manager"
+      }
+    },
+    {
+      "name": "database-partition-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-partition-manager"
+      }
+    },
+    {
       "name": "database-performance-optimizer",
       "source": {
         "source": "git-subdir",
@@ -25030,6 +26469,22 @@
       }
     },
     {
+      "name": "database-query-profiler-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/database-query-profiler"
+      }
+    },
+    {
+      "name": "database-query-profiler-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/database-query-profiler"
+      }
+    },
+    {
       "name": "database-recovery-manager",
       "source": {
         "source": "git-subdir",
@@ -25059,6 +26514,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-recovery-manager_20251020_061227"
+      }
+    },
+    {
+      "name": "database-recovery-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-recovery-manager"
+      }
+    },
+    {
+      "name": "database-recovery-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-recovery-manager"
       }
     },
     {
@@ -25102,6 +26573,22 @@
       }
     },
     {
+      "name": "database-replication-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-replication-manager"
+      }
+    },
+    {
+      "name": "database-replication-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-replication-manager"
+      }
+    },
+    {
       "name": "database-schema-designer",
       "source": {
         "source": "git-subdir",
@@ -25131,6 +26618,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-schema-designer_20251020_055834"
+      }
+    },
+    {
+      "name": "database-schema-designer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-schema-designer"
+      }
+    },
+    {
+      "name": "database-schema-designer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-schema-designer"
       }
     },
     {
@@ -25166,6 +26669,22 @@
       }
     },
     {
+      "name": "database-security-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-security-scanner"
+      }
+    },
+    {
+      "name": "database-security-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-security-scanner"
+      }
+    },
+    {
       "name": "database-sharding-manager",
       "source": {
         "source": "git-subdir",
@@ -25195,6 +26714,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-sharding-manager_20251020_061029"
+      }
+    },
+    {
+      "name": "database-sharding-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-sharding-manager"
+      }
+    },
+    {
+      "name": "database-sharding-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-sharding-manager"
       }
     },
     {
@@ -25238,6 +26773,22 @@
       }
     },
     {
+      "name": "database-test-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/database-test-manager"
+      }
+    },
+    {
+      "name": "database-test-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/database-test-manager"
+      }
+    },
+    {
       "name": "database-transaction-monitor",
       "source": {
         "source": "git-subdir",
@@ -25267,6 +26818,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-transaction-monitor_20251020_054256"
+      }
+    },
+    {
+      "name": "database-transaction-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/database-transaction-monitor"
+      }
+    },
+    {
+      "name": "database-transaction-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/database-transaction-monitor"
       }
     },
     {
@@ -25431,6 +26998,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dataset-splitter_20251020_024618"
+      }
+    },
+    {
+      "name": "dataset-splitter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/dataset-splitter"
+      }
+    },
+    {
+      "name": "dataset-splitter-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/dataset-splitter"
       }
     },
     {
@@ -25924,6 +27507,22 @@
       }
     },
     {
+      "name": "deep-learning-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/deep-learning-optimizer"
+      }
+    },
+    {
+      "name": "deep-learning-optimizer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/deep-learning-optimizer"
+      }
+    },
+    {
       "name": "deep-learning-scientist",
       "source": {
         "source": "git-subdir",
@@ -26191,6 +27790,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/defi-yield-optimizer_20251020_044847"
+      }
+    },
+    {
+      "name": "defi-yield-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/defi-yield-optimizer"
+      }
+    },
+    {
+      "name": "defi-yield-optimizer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/defi-yield-optimizer"
       }
     },
     {
@@ -26730,6 +28345,22 @@
       }
     },
     {
+      "name": "dependency-checker-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/dependency-checker"
+      }
+    },
+    {
+      "name": "dependency-checker-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/dependency-checker"
+      }
+    },
+    {
       "name": "dependency-management",
       "source": {
         "source": "git-subdir",
@@ -26890,6 +28521,22 @@
       }
     },
     {
+      "name": "deployment-pipeline-orchestrator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/deployment-pipeline-orchestrator"
+      }
+    },
+    {
+      "name": "deployment-pipeline-orchestrator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/deployment-pipeline-orchestrator"
+      }
+    },
+    {
       "name": "deployment-rollback-manager",
       "source": {
         "source": "git-subdir",
@@ -26919,6 +28566,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/deployment-rollback-manager_20251020_070125"
+      }
+    },
+    {
+      "name": "deployment-rollback-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/deployment-rollback-manager"
+      }
+    },
+    {
+      "name": "deployment-rollback-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/deployment-rollback-manager"
       }
     },
     {
@@ -27307,6 +28970,22 @@
       }
     },
     {
+      "name": "design-to-code-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/design-to-code"
+      }
+    },
+    {
+      "name": "design-to-code-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/design-to-code"
+      }
+    },
+    {
       "name": "design-with-claude",
       "source": {
         "source": "github",
@@ -27346,6 +29025,14 @@
       "source": {
         "source": "git-subdir",
         "url": "ourostack/desk",
+        "path": "plugins/desk"
+      }
+    },
+    {
+      "name": "desk-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ourostack/ouroboros-skills",
         "path": "plugins/desk"
       }
     },
@@ -27948,6 +29635,13 @@
       }
     },
     {
+      "name": "developing-with-docker",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/developing-with-docker-agentic-skill"
+      }
+    },
+    {
       "name": "development",
       "source": {
         "source": "git-subdir",
@@ -28213,6 +29907,22 @@
       }
     },
     {
+      "name": "devops-automation-pack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/packages/devops-automation-pack"
+      }
+    },
+    {
+      "name": "devops-automation-pack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/packages/devops-automation-pack"
+      }
+    },
+    {
       "name": "devops-automator",
       "source": {
         "source": "git-subdir",
@@ -28382,6 +30092,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dex-aggregator-router_20251020_043743"
+      }
+    },
+    {
+      "name": "dex-aggregator-router-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/dex-aggregator-router"
+      }
+    },
+    {
+      "name": "dex-aggregator-router-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/dex-aggregator-router"
       }
     },
     {
@@ -28684,6 +30410,22 @@
       }
     },
     {
+      "name": "disaster-recovery-planner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/disaster-recovery-planner"
+      }
+    },
+    {
+      "name": "disaster-recovery-planner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/disaster-recovery-planner"
+      }
+    },
+    {
       "name": "discipline",
       "source": {
         "source": "git-subdir",
@@ -28838,6 +30580,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/discovery-questionnaire_20251020_020426"
+      }
+    },
+    {
+      "name": "discovery-questionnaire-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/discovery-questionnaire"
+      }
+    },
+    {
+      "name": "discovery-questionnaire-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/discovery-questionnaire"
       }
     },
     {
@@ -29022,6 +30780,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/distributed-tracing-setup_20251020_073405"
+      }
+    },
+    {
+      "name": "distributed-tracing-setup-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/distributed-tracing-setup"
+      }
+    },
+    {
+      "name": "distributed-tracing-setup-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/distributed-tracing-setup"
       }
     },
     {
@@ -29267,6 +31041,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/docker-compose-generator_20251020_070739"
+      }
+    },
+    {
+      "name": "docker-compose-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/docker-compose-generator"
+      }
+    },
+    {
+      "name": "docker-compose-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/docker-compose-generator"
       }
     },
     {
@@ -29725,6 +31515,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/domain-memory-agent_20251020_014542"
+      }
+    },
+    {
+      "name": "domain-memory-agent-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/domain-memory-agent"
+      }
+    },
+    {
+      "name": "domain-memory-agent-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/domain-memory-agent"
       }
     },
     {
@@ -30818,6 +32624,22 @@
       }
     },
     {
+      "name": "e2e-test-framework-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/e2e-test-framework"
+      }
+    },
+    {
+      "name": "e2e-test-framework-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/e2e-test-framework"
+      }
+    },
+    {
       "name": "e2eprobe",
       "source": {
         "source": "git-subdir",
@@ -31705,6 +33527,22 @@
       }
     },
     {
+      "name": "encryption-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/encryption-tool"
+      }
+    },
+    {
+      "name": "encryption-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/encryption-tool"
+      }
+    },
+    {
       "name": "endocrinologist",
       "source": {
         "source": "git-subdir",
@@ -32212,6 +34050,22 @@
       }
     },
     {
+      "name": "environment-config-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/environment-config-manager"
+      }
+    },
+    {
+      "name": "environment-config-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/environment-config-manager"
+      }
+    },
+    {
       "name": "environmental-chemist",
       "source": {
         "source": "git-subdir",
@@ -32453,6 +34307,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/error-rate-monitor_20251020_072624"
+      }
+    },
+    {
+      "name": "error-rate-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/error-rate-monitor"
+      }
+    },
+    {
+      "name": "error-rate-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/error-rate-monitor"
       }
     },
     {
@@ -33101,6 +34971,22 @@
       }
     },
     {
+      "name": "excel-analyst-pro-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/business-tools/excel-analyst-pro"
+      }
+    },
+    {
+      "name": "excel-analyst-pro-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/business-tools/excel-analyst-pro"
+      }
+    },
+    {
       "name": "execue-campaigns",
       "source": {
         "source": "github",
@@ -33281,6 +35167,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/experiment-tracking-setup_20251020_022501"
+      }
+    },
+    {
+      "name": "experiment-tracking-setup-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/experiment-tracking-setup"
+      }
+    },
+    {
+      "name": "experiment-tracking-setup-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/experiment-tracking-setup"
       }
     },
     {
@@ -33648,6 +35550,38 @@
       }
     },
     {
+      "name": "fairdb-operations-kit-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/fairdb-operations-kit"
+      }
+    },
+    {
+      "name": "fairdb-operations-kit-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/fairdb-operations-kit"
+      }
+    },
+    {
+      "name": "fairdb-operations-kit-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/fairdb-operations-kit"
+      }
+    },
+    {
+      "name": "fairdb-operations-kit-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/fairdb-operations-kit"
+      }
+    },
+    {
       "name": "fairdb-ops-manager",
       "source": {
         "source": "git-subdir",
@@ -33685,6 +35619,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fairdb-ops-manager_20251020_013637"
+      }
+    },
+    {
+      "name": "fairdb-ops-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/community/fairdb-ops-manager"
+      }
+    },
+    {
+      "name": "fairdb-ops-manager-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/community/fairdb-ops-manager"
       }
     },
     {
@@ -33960,6 +35910,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/feature-engineering-toolkit_20251020_022103"
+      }
+    },
+    {
+      "name": "feature-engineering-toolkit-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/feature-engineering-toolkit"
+      }
+    },
+    {
+      "name": "feature-engineering-toolkit-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/feature-engineering-toolkit"
       }
     },
     {
@@ -34320,6 +36286,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/file-to-code_20251020_081721"
+      }
+    },
+    {
+      "name": "file-to-code-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/skill-enhancers/file-to-code"
+      }
+    },
+    {
+      "name": "file-to-code-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/skill-enhancers/file-to-code"
       }
     },
     {
@@ -35551,6 +37533,22 @@
       }
     },
     {
+      "name": "flash-loan-simulator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/flash-loan-simulator"
+      }
+    },
+    {
+      "name": "flash-loan-simulator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/flash-loan-simulator"
+      }
+    },
+    {
       "name": "flashcards",
       "source": {
         "source": "git-subdir",
@@ -36764,6 +38762,22 @@
       }
     },
     {
+      "name": "formatter-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/examples/formatter"
+      }
+    },
+    {
+      "name": "formatter-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/examples/formatter"
+      }
+    },
+    {
       "name": "formbro",
       "source": {
         "source": "git-subdir",
@@ -37486,6 +39500,22 @@
       }
     },
     {
+      "name": "fullstack-starter-pack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/packages/fullstack-starter-pack"
+      }
+    },
+    {
+      "name": "fullstack-starter-pack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/packages/fullstack-starter-pack"
+      }
+    },
+    {
       "name": "functional-genomics-scientist",
       "source": {
         "source": "git-subdir",
@@ -37952,6 +39982,22 @@
       }
     },
     {
+      "name": "gas-fee-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/gas-fee-optimizer"
+      }
+    },
+    {
+      "name": "gas-fee-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/gas-fee-optimizer"
+      }
+    },
+    {
       "name": "gas-suite",
       "source": {
         "source": "git-subdir",
@@ -38207,6 +40253,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gdpr-compliance-scanner_20251019_235407"
+      }
+    },
+    {
+      "name": "gdpr-compliance-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/gdpr-compliance-scanner"
+      }
+    },
+    {
+      "name": "gdpr-compliance-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/gdpr-compliance-scanner"
       }
     },
     {
@@ -39063,6 +41125,22 @@
       }
     },
     {
+      "name": "git-commit-smart-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/git-commit-smart"
+      }
+    },
+    {
+      "name": "git-commit-smart-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/git-commit-smart"
+      }
+    },
+    {
       "name": "git-commits",
       "source": {
         "source": "git-subdir",
@@ -39752,6 +41830,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gitops-workflow-builder_20251020_062141"
+      }
+    },
+    {
+      "name": "gitops-workflow-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/gitops-workflow-builder"
+      }
+    },
+    {
+      "name": "gitops-workflow-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/gitops-workflow-builder"
       }
     },
     {
@@ -40760,6 +42854,22 @@
       }
     },
     {
+      "name": "graphql-server-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/graphql-server-builder"
+      }
+    },
+    {
+      "name": "graphql-server-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/graphql-server-builder"
+      }
+    },
+    {
       "name": "graphtime",
       "source": {
         "source": "git-subdir",
@@ -41229,6 +43339,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/grpc-service-generator_20251020_030933"
+      }
+    },
+    {
+      "name": "grpc-service-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/grpc-service-generator"
+      }
+    },
+    {
+      "name": "grpc-service-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/grpc-service-generator"
       }
     },
     {
@@ -42626,6 +44752,22 @@
       }
     },
     {
+      "name": "hello-world-11",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/examples/hello-world"
+      }
+    },
+    {
+      "name": "hello-world-12",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/examples/hello-world"
+      }
+    },
+    {
       "name": "hello-world-2",
       "source": {
         "source": "git-subdir",
@@ -42767,6 +44909,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/helm-chart-generator_20251020_063108"
+      }
+    },
+    {
+      "name": "helm-chart-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/helm-chart-generator"
+      }
+    },
+    {
+      "name": "helm-chart-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/helm-chart-generator"
       }
     },
     {
@@ -43272,6 +45430,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hipaa-compliance-checker_20251020_001529"
+      }
+    },
+    {
+      "name": "hipaa-compliance-checker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/hipaa-compliance-checker"
+      }
+    },
+    {
+      "name": "hipaa-compliance-checker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/hipaa-compliance-checker"
       }
     },
     {
@@ -44581,6 +46755,22 @@
       }
     },
     {
+      "name": "hyperparameter-tuner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/hyperparameter-tuner"
+      }
+    },
+    {
+      "name": "hyperparameter-tuner-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/hyperparameter-tuner"
+      }
+    },
+    {
       "name": "hyperresearch",
       "source": {
         "source": "github",
@@ -45443,6 +47633,22 @@
       }
     },
     {
+      "name": "infrastructure-as-code-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/infrastructure-as-code-generator"
+      }
+    },
+    {
+      "name": "infrastructure-as-code-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/infrastructure-as-code-generator"
+      }
+    },
+    {
       "name": "infrastructure-drift-detector",
       "source": {
         "source": "git-subdir",
@@ -45464,6 +47670,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/infrastructure-drift-detector"
+      }
+    },
+    {
+      "name": "infrastructure-drift-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/infrastructure-drift-detector"
+      }
+    },
+    {
+      "name": "infrastructure-drift-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/infrastructure-drift-detector"
       }
     },
     {
@@ -45520,6 +47742,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/infrastructure-metrics-collector_20251020_073952"
+      }
+    },
+    {
+      "name": "infrastructure-metrics-collector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/infrastructure-metrics-collector"
+      }
+    },
+    {
+      "name": "infrastructure-metrics-collector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/infrastructure-metrics-collector"
       }
     },
     {
@@ -45661,6 +47899,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/input-validation-scanner_20251019_233518"
+      }
+    },
+    {
+      "name": "input-validation-scanner-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/input-validation-scanner"
+      }
+    },
+    {
+      "name": "input-validation-scanner-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/input-validation-scanner"
       }
     },
     {
@@ -45950,6 +48204,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/integration-test-runner_20251020_004130"
+      }
+    },
+    {
+      "name": "integration-test-runner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/integration-test-runner"
+      }
+    },
+    {
+      "name": "integration-test-runner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/integration-test-runner"
       }
     },
     {
@@ -48903,6 +51173,22 @@
       }
     },
     {
+      "name": "kubernetes-deployment-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/kubernetes-deployment-creator"
+      }
+    },
+    {
+      "name": "kubernetes-deployment-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/kubernetes-deployment-creator"
+      }
+    },
+    {
       "name": "kubernetes-operations",
       "source": {
         "source": "git-subdir",
@@ -50607,6 +52893,22 @@
       }
     },
     {
+      "name": "liquidity-pool-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/liquidity-pool-analyzer"
+      }
+    },
+    {
+      "name": "liquidity-pool-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/liquidity-pool-analyzer"
+      }
+    },
+    {
       "name": "listing-asset-studio",
       "source": {
         "source": "git-subdir",
@@ -50985,6 +53287,22 @@
       }
     },
     {
+      "name": "load-balancer-configurator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/load-balancer-configurator"
+      }
+    },
+    {
+      "name": "load-balancer-configurator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/load-balancer-configurator"
+      }
+    },
+    {
       "name": "load-balancer-tester",
       "source": {
         "source": "git-subdir",
@@ -51017,6 +53335,22 @@
       }
     },
     {
+      "name": "load-balancer-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/load-balancer-tester"
+      }
+    },
+    {
+      "name": "load-balancer-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/load-balancer-tester"
+      }
+    },
+    {
       "name": "load-test-runner",
       "source": {
         "source": "git-subdir",
@@ -51046,6 +53380,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/load-test-runner_20251020_075641"
+      }
+    },
+    {
+      "name": "load-test-runner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/load-test-runner"
+      }
+    },
+    {
+      "name": "load-test-runner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/load-test-runner"
       }
     },
     {
@@ -51191,6 +53541,22 @@
       }
     },
     {
+      "name": "log-aggregation-setup-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/log-aggregation-setup"
+      }
+    },
+    {
+      "name": "log-aggregation-setup-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/log-aggregation-setup"
+      }
+    },
+    {
       "name": "log-analysis-tool",
       "source": {
         "source": "git-subdir",
@@ -51220,6 +53586,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/log-analysis-tool_20251020_080038"
+      }
+    },
+    {
+      "name": "log-analysis-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/log-analysis-tool"
+      }
+    },
+    {
+      "name": "log-analysis-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/log-analysis-tool"
       }
     },
     {
@@ -52354,6 +54736,22 @@
       }
     },
     {
+      "name": "make-scenario-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/make-scenario-builder"
+      }
+    },
+    {
+      "name": "make-scenario-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/make-scenario-builder"
+      }
+    },
+    {
       "name": "makoto",
       "source": {
         "source": "git-subdir",
@@ -52699,6 +55097,22 @@
       }
     },
     {
+      "name": "market-movers-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/market-movers-scanner"
+      }
+    },
+    {
+      "name": "market-movers-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/market-movers-scanner"
+      }
+    },
+    {
       "name": "market-price-tracker",
       "source": {
         "source": "git-subdir",
@@ -52739,6 +55153,22 @@
       }
     },
     {
+      "name": "market-price-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/market-price-tracker"
+      }
+    },
+    {
+      "name": "market-price-tracker-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/market-price-tracker"
+      }
+    },
+    {
       "name": "market-sentiment-analyzer",
       "source": {
         "source": "git-subdir",
@@ -52776,6 +55206,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-sentiment-analyzer_20251020_045559"
+      }
+    },
+    {
+      "name": "market-sentiment-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/market-sentiment-analyzer"
+      }
+    },
+    {
+      "name": "market-sentiment-analyzer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/market-sentiment-analyzer"
       }
     },
     {
@@ -53177,6 +55623,13 @@
         "source": "git-subdir",
         "url": "BigStartByXuyb/test",
         "path": "plugins/mastergo-wpf-transcoder"
+      }
+    },
+    {
+      "name": "mastering-aws-cdk",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/mastering-aws-cdk-plugin"
       }
     },
     {
@@ -54259,6 +56712,22 @@
       }
     },
     {
+      "name": "memory-leak-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/memory-leak-detector"
+      }
+    },
+    {
+      "name": "memory-leak-detector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/memory-leak-detector"
+      }
+    },
+    {
       "name": "memory-lens",
       "source": {
         "source": "git-subdir",
@@ -54367,6 +56836,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mempool-analyzer_20251020_051129"
+      }
+    },
+    {
+      "name": "mempool-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/mempool-analyzer"
+      }
+    },
+    {
+      "name": "mempool-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/mempool-analyzer"
       }
     },
     {
@@ -54836,6 +57321,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/metrics-aggregator_20251020_073800"
+      }
+    },
+    {
+      "name": "metrics-aggregator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/metrics-aggregator"
+      }
+    },
+    {
+      "name": "metrics-aggregator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/metrics-aggregator"
       }
     },
     {
@@ -55468,6 +57969,22 @@
       }
     },
     {
+      "name": "ml-model-trainer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ml-model-trainer"
+      }
+    },
+    {
+      "name": "ml-model-trainer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/ml-model-trainer"
+      }
+    },
+    {
       "name": "ml-model-training",
       "source": {
         "source": "git-subdir",
@@ -55684,6 +58201,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mobile-app-tester_20251020_005446"
+      }
+    },
+    {
+      "name": "mobile-app-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/mobile-app-tester"
+      }
+    },
+    {
+      "name": "mobile-app-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/mobile-app-tester"
       }
     },
     {
@@ -55963,6 +58496,22 @@
       }
     },
     {
+      "name": "model-deployment-helper-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/model-deployment-helper"
+      }
+    },
+    {
+      "name": "model-deployment-helper-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/model-deployment-helper"
+      }
+    },
+    {
       "name": "model-evaluation-suite",
       "source": {
         "source": "git-subdir",
@@ -56000,6 +58549,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-evaluation-suite_20251020_025005"
+      }
+    },
+    {
+      "name": "model-evaluation-suite-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/model-evaluation-suite"
+      }
+    },
+    {
+      "name": "model-evaluation-suite-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/model-evaluation-suite"
       }
     },
     {
@@ -56048,6 +58613,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-explainability-tool_20251020_023430"
+      }
+    },
+    {
+      "name": "model-explainability-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/model-explainability-tool"
+      }
+    },
+    {
+      "name": "model-explainability-tool-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/model-explainability-tool"
       }
     },
     {
@@ -56128,6 +58709,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-versioning-tracker_20251020_022854"
+      }
+    },
+    {
+      "name": "model-versioning-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/model-versioning-tracker"
+      }
+    },
+    {
+      "name": "model-versioning-tracker-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/model-versioning-tracker"
       }
     },
     {
@@ -56351,6 +58948,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/monitoring-stack-deployer_20251020_063938"
+      }
+    },
+    {
+      "name": "monitoring-stack-deployer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/monitoring-stack-deployer"
+      }
+    },
+    {
+      "name": "monitoring-stack-deployer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/monitoring-stack-deployer"
       }
     },
     {
@@ -56731,6 +59344,22 @@
       }
     },
     {
+      "name": "mutation-test-runner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/mutation-test-runner"
+      }
+    },
+    {
+      "name": "mutation-test-runner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/mutation-test-runner"
+      }
+    },
+    {
       "name": "mutation-tester",
       "source": {
         "source": "git-subdir",
@@ -57043,6 +59672,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/n8n-workflow-designer_20251020_020144"
+      }
+    },
+    {
+      "name": "n8n-workflow-designer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/n8n-workflow-designer"
+      }
+    },
+    {
+      "name": "n8n-workflow-designer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/n8n-workflow-designer"
       }
     },
     {
@@ -57548,6 +60193,22 @@
       }
     },
     {
+      "name": "network-latency-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/network-latency-analyzer"
+      }
+    },
+    {
+      "name": "network-latency-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/network-latency-analyzer"
+      }
+    },
+    {
       "name": "network-policy-manager",
       "source": {
         "source": "git-subdir",
@@ -57577,6 +60238,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/network-policy-manager_20251020_063303"
+      }
+    },
+    {
+      "name": "network-policy-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/network-policy-manager"
+      }
+    },
+    {
+      "name": "network-policy-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/network-policy-manager"
       }
     },
     {
@@ -57648,6 +60325,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/neural-network-builder_20251020_023815"
+      }
+    },
+    {
+      "name": "neural-network-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/neural-network-builder"
+      }
+    },
+    {
+      "name": "neural-network-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/neural-network-builder"
       }
     },
     {
@@ -57924,6 +60617,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nft-rarity-analyzer_20251020_051934"
+      }
+    },
+    {
+      "name": "nft-rarity-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/nft-rarity-analyzer"
+      }
+    },
+    {
+      "name": "nft-rarity-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/nft-rarity-analyzer"
       }
     },
     {
@@ -58242,6 +60951,22 @@
       }
     },
     {
+      "name": "nlp-text-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/nlp-text-analyzer"
+      }
+    },
+    {
+      "name": "nlp-text-analyzer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/nlp-text-analyzer"
+      }
+    },
+    {
       "name": "nlpm",
       "source": {
         "source": "github",
@@ -58407,6 +61132,13 @@
       }
     },
     {
+      "name": "nopal",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/nopal"
+      }
+    },
+    {
       "name": "norm",
       "source": {
         "source": "git-subdir",
@@ -58459,6 +61191,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nosql-data-modeler_20251020_054905"
+      }
+    },
+    {
+      "name": "nosql-data-modeler-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/nosql-data-modeler"
+      }
+    },
+    {
+      "name": "nosql-data-modeler-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/nosql-data-modeler"
       }
     },
     {
@@ -60087,6 +62835,22 @@
       }
     },
     {
+      "name": "on-chain-analytics-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/on-chain-analytics"
+      }
+    },
+    {
+      "name": "on-chain-analytics-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/on-chain-analytics"
+      }
+    },
+    {
       "name": "on-the-record",
       "source": {
         "source": "git-subdir",
@@ -60455,6 +63219,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/openbb-terminal_20251020_071237"
+      }
+    },
+    {
+      "name": "openbb-terminal-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/finance/openbb-terminal"
+      }
+    },
+    {
+      "name": "openbb-terminal-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/finance/openbb-terminal"
       }
     },
     {
@@ -60934,6 +63714,22 @@
       }
     },
     {
+      "name": "options-flow-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/options-flow-analyzer"
+      }
+    },
+    {
+      "name": "options-flow-analyzer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/options-flow-analyzer"
+      }
+    },
+    {
       "name": "optoelectronics-engineer",
       "source": {
         "source": "git-subdir",
@@ -61281,6 +64077,22 @@
       }
     },
     {
+      "name": "orm-code-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/orm-code-generator"
+      }
+    },
+    {
+      "name": "orm-code-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/orm-code-generator"
+      }
+    },
+    {
       "name": "ornithologist",
       "source": {
         "source": "git-subdir",
@@ -61612,6 +64424,14 @@
       }
     },
     {
+      "name": "overnight-dev-10",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/overnight-dev"
+      }
+    },
+    {
       "name": "overnight-dev-2",
       "source": {
         "source": "git-subdir",
@@ -61668,6 +64488,14 @@
       }
     },
     {
+      "name": "overnight-dev-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/overnight-dev"
+      }
+    },
+    {
       "name": "overseer",
       "source": {
         "source": "git-subdir",
@@ -61721,6 +64549,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/owasp-compliance-checker_20251020_000814"
+      }
+    },
+    {
+      "name": "owasp-compliance-checker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/owasp-compliance-checker"
+      }
+    },
+    {
+      "name": "owasp-compliance-checker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/owasp-compliance-checker"
       }
     },
     {
@@ -62585,6 +65429,22 @@
       }
     },
     {
+      "name": "pci-dss-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/pci-dss-validator"
+      }
+    },
+    {
+      "name": "pci-dss-validator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/pci-dss-validator"
+      }
+    },
+    {
       "name": "pdf-creator-jp",
       "source": {
         "source": "git-subdir",
@@ -62767,6 +65627,22 @@
       }
     },
     {
+      "name": "penetration-tester-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/penetration-tester"
+      }
+    },
+    {
+      "name": "penetration-tester-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/penetration-tester"
+      }
+    },
+    {
       "name": "penny-engine",
       "source": {
         "source": "github",
@@ -62922,6 +65798,22 @@
       }
     },
     {
+      "name": "performance-budget-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/performance-budget-validator"
+      }
+    },
+    {
+      "name": "performance-budget-validator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/performance-budget-validator"
+      }
+    },
+    {
       "name": "performance-engineer",
       "source": {
         "source": "git-subdir",
@@ -62986,6 +65878,22 @@
       }
     },
     {
+      "name": "performance-optimization-advisor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/performance-optimization-advisor"
+      }
+    },
+    {
+      "name": "performance-optimization-advisor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/performance-optimization-advisor"
+      }
+    },
+    {
       "name": "performance-optimizer",
       "source": {
         "source": "git-subdir",
@@ -63026,6 +65934,22 @@
       }
     },
     {
+      "name": "performance-regression-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/performance-regression-detector"
+      }
+    },
+    {
+      "name": "performance-regression-detector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/performance-regression-detector"
+      }
+    },
+    {
       "name": "performance-test-suite",
       "source": {
         "source": "git-subdir",
@@ -63055,6 +65979,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-test-suite_20251020_003228"
+      }
+    },
+    {
+      "name": "performance-test-suite-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/performance-test-suite"
+      }
+    },
+    {
+      "name": "performance-test-suite-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/performance-test-suite"
       }
     },
     {
@@ -63687,6 +66627,22 @@
       }
     },
     {
+      "name": "pi-pathfinder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/examples/pi-pathfinder"
+      }
+    },
+    {
+      "name": "pi-pathfinder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/examples/pi-pathfinder"
+      }
+    },
+    {
       "name": "pi-skill",
       "source": {
         "source": "github",
@@ -64017,6 +66973,14 @@
       "source": {
         "source": "git-subdir",
         "url": "ourostack/desk",
+        "path": "plugins/plain-language"
+      }
+    },
+    {
+      "name": "plain-language-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ourostack/ouroboros-skills",
         "path": "plugins/plain-language"
       }
     },
@@ -66667,6 +69631,14 @@
       }
     },
     {
+      "name": "ponytail-upstream",
+      "source": {
+        "source": "git-subdir",
+        "url": "ourostack/ouroboros-skills",
+        "path": "plugins/ponytail-upstream"
+      }
+    },
+    {
       "name": "popper",
       "source": {
         "source": "github",
@@ -66858,6 +69830,13 @@
         "source": "git-subdir",
         "url": "posteyai/skills",
         "path": "skills/postey"
+      }
+    },
+    {
+      "name": "postgres",
+      "source": {
+        "source": "github",
+        "repo": "GoogleCloudPlatform/postgres-plugin"
       }
     },
     {
@@ -68519,6 +71498,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/project-health-auditor_20251020_014840"
+      }
+    },
+    {
+      "name": "project-health-auditor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/project-health-auditor"
+      }
+    },
+    {
+      "name": "project-health-auditor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/project-health-auditor"
       }
     },
     {
@@ -70667,6 +73662,13 @@
       }
     },
     {
+      "name": "quarkify",
+      "source": {
+        "source": "github",
+        "repo": "companyjupiter/quarkify"
+      }
+    },
+    {
       "name": "quarry-dev",
       "source": {
         "source": "git-subdir",
@@ -70742,6 +73744,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/query-performance-analyzer_20251020_053432"
+      }
+    },
+    {
+      "name": "query-performance-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/query-performance-analyzer"
+      }
+    },
+    {
+      "name": "query-performance-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/query-performance-analyzer"
       }
     },
     {
@@ -71566,6 +74584,22 @@
       }
     },
     {
+      "name": "real-user-monitoring-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/real-user-monitoring"
+      }
+    },
+    {
+      "name": "real-user-monitoring-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/real-user-monitoring"
+      }
+    },
+    {
       "name": "realequity-rapporter",
       "source": {
         "source": "git-subdir",
@@ -71845,6 +74879,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/recommendation-engine_20251020_025333"
+      }
+    },
+    {
+      "name": "recommendation-engine-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/recommendation-engine"
+      }
+    },
+    {
+      "name": "recommendation-engine-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/recommendation-engine"
       }
     },
     {
@@ -72202,6 +75252,22 @@
       }
     },
     {
+      "name": "regression-analysis-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/regression-analysis-tool"
+      }
+    },
+    {
+      "name": "regression-analysis-tool-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/regression-analysis-tool"
+      }
+    },
+    {
       "name": "regression-test-tracker",
       "source": {
         "source": "git-subdir",
@@ -72231,6 +75297,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/regression-test-tracker_20251020_010848"
+      }
+    },
+    {
+      "name": "regression-test-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/regression-test-tracker"
+      }
+    },
+    {
+      "name": "regression-test-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/regression-test-tracker"
       }
     },
     {
@@ -73369,6 +76451,22 @@
       }
     },
     {
+      "name": "research-to-deploy-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/skill-enhancers/research-to-deploy"
+      }
+    },
+    {
+      "name": "research-to-deploy-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/skill-enhancers/research-to-deploy"
+      }
+    },
+    {
       "name": "research-tools",
       "source": {
         "source": "git-subdir",
@@ -73515,6 +76613,22 @@
       }
     },
     {
+      "name": "resource-usage-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/resource-usage-tracker"
+      }
+    },
+    {
+      "name": "resource-usage-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/resource-usage-tracker"
+      }
+    },
+    {
       "name": "respeak",
       "source": {
         "source": "git-subdir",
@@ -73552,6 +76666,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/response-time-tracker_20251020_074950"
+      }
+    },
+    {
+      "name": "response-time-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/response-time-tracker"
+      }
+    },
+    {
+      "name": "response-time-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/response-time-tracker"
       }
     },
     {
@@ -73616,6 +76746,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/rest-api-generator_20251020_031852"
+      }
+    },
+    {
+      "name": "rest-api-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/rest-api-generator"
+      }
+    },
+    {
+      "name": "rest-api-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/rest-api-generator"
       }
     },
     {
@@ -74463,6 +77609,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/roi-calculator_20251020_021041"
+      }
+    },
+    {
+      "name": "roi-calculator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/roi-calculator"
+      }
+    },
+    {
+      "name": "roi-calculator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/roi-calculator"
       }
     },
     {
@@ -76384,6 +79546,22 @@
       }
     },
     {
+      "name": "search-to-slack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/skill-enhancers/search-to-slack"
+      }
+    },
+    {
+      "name": "search-to-slack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/skill-enhancers/search-to-slack"
+      }
+    },
+    {
       "name": "search-visibility",
       "source": {
         "source": "git-subdir",
@@ -76548,6 +79726,22 @@
       }
     },
     {
+      "name": "secret-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/secret-scanner"
+      }
+    },
+    {
+      "name": "secret-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/secret-scanner"
+      }
+    },
+    {
       "name": "secret-scanning",
       "source": {
         "source": "git-subdir",
@@ -76620,6 +79814,22 @@
       }
     },
     {
+      "name": "secrets-manager-integrator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/secrets-manager-integrator"
+      }
+    },
+    {
+      "name": "secrets-manager-integrator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/secrets-manager-integrator"
+      }
+    },
+    {
       "name": "secrets-veil",
       "source": {
         "source": "git-subdir",
@@ -76689,6 +79899,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-agent_20251020_012159"
+      }
+    },
+    {
+      "name": "security-agent-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/examples/security-agent"
+      }
+    },
+    {
+      "name": "security-agent-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/examples/security-agent"
       }
     },
     {
@@ -76768,6 +79994,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-audit-reporter_20251020_000142"
+      }
+    },
+    {
+      "name": "security-audit-reporter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/security-audit-reporter"
+      }
+    },
+    {
+      "name": "security-audit-reporter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/security-audit-reporter"
       }
     },
     {
@@ -76931,6 +80173,22 @@
       }
     },
     {
+      "name": "security-headers-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/security-headers-analyzer"
+      }
+    },
+    {
+      "name": "security-headers-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/security-headers-analyzer"
+      }
+    },
+    {
       "name": "security-headers-configuration",
       "source": {
         "source": "git-subdir",
@@ -76968,6 +80226,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-incident-responder_20251019_235040"
+      }
+    },
+    {
+      "name": "security-incident-responder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/security-incident-responder"
+      }
+    },
+    {
+      "name": "security-incident-responder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/security-incident-responder"
       }
     },
     {
@@ -77011,6 +80285,22 @@
       }
     },
     {
+      "name": "security-misconfiguration-finder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/security-misconfiguration-finder"
+      }
+    },
+    {
+      "name": "security-misconfiguration-finder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/security-misconfiguration-finder"
+      }
+    },
+    {
       "name": "security-pro-pack",
       "source": {
         "source": "git-subdir",
@@ -77048,6 +80338,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-pro-pack_20251020_011228"
+      }
+    },
+    {
+      "name": "security-pro-pack-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/packages/security-pro-pack"
+      }
+    },
+    {
+      "name": "security-pro-pack-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/packages/security-pro-pack"
       }
     },
     {
@@ -77096,6 +80402,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-test-scanner_20251020_002248"
+      }
+    },
+    {
+      "name": "security-test-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/security-test-scanner"
+      }
+    },
+    {
+      "name": "security-test-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/security-test-scanner"
       }
     },
     {
@@ -77449,6 +80771,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sentiment-analysis-tool_20251020_024426"
+      }
+    },
+    {
+      "name": "sentiment-analysis-tool-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/sentiment-analysis-tool"
+      }
+    },
+    {
+      "name": "sentiment-analysis-tool-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/sentiment-analysis-tool"
       }
     },
     {
@@ -77819,6 +81157,22 @@
       }
     },
     {
+      "name": "service-mesh-configurator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/service-mesh-configurator"
+      }
+    },
+    {
+      "name": "service-mesh-configurator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/service-mesh-configurator"
+      }
+    },
+    {
       "name": "service-migration",
       "source": {
         "source": "git-subdir",
@@ -78171,6 +81525,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/session-security-checker_20251019_235217"
+      }
+    },
+    {
+      "name": "session-security-checker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/session-security-checker"
+      }
+    },
+    {
+      "name": "session-security-checker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/session-security-checker"
       }
     },
     {
@@ -79076,6 +82446,13 @@
         "source": "git-subdir",
         "url": "viticci/shortcuts-playground-plugin",
         "path": "claude"
+      }
+    },
+    {
+      "name": "show-me-the-prd",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/show-me-the-prd"
       }
     },
     {
@@ -80047,6 +83424,22 @@
       }
     },
     {
+      "name": "skills-powerkit-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/examples/skills-powerkit"
+      }
+    },
+    {
+      "name": "skills-powerkit-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/examples/skills-powerkit"
+      }
+    },
+    {
       "name": "skills-registry",
       "source": {
         "source": "github",
@@ -80169,6 +83562,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sla-sli-tracker_20251020_074609"
+      }
+    },
+    {
+      "name": "sla-sli-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/sla-sli-tracker"
+      }
+    },
+    {
+      "name": "sla-sli-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/sla-sli-tracker"
       }
     },
     {
@@ -80593,6 +84002,22 @@
       }
     },
     {
+      "name": "smoke-test-runner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/smoke-test-runner"
+      }
+    },
+    {
+      "name": "smoke-test-runner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/smoke-test-runner"
+      }
+    },
+    {
       "name": "snake",
       "source": {
         "source": "git-subdir",
@@ -80630,6 +84055,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/snapshot-test-manager_20251020_004929"
+      }
+    },
+    {
+      "name": "snapshot-test-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/snapshot-test-manager"
+      }
+    },
+    {
+      "name": "snapshot-test-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/snapshot-test-manager"
       }
     },
     {
@@ -80702,6 +84143,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/soc2-audit-helper_20251020_000534"
+      }
+    },
+    {
+      "name": "soc2-audit-helper-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/soc2-audit-helper"
+      }
+    },
+    {
+      "name": "soc2-audit-helper-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/soc2-audit-helper"
       }
     },
     {
@@ -81136,6 +84593,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sow-generator_20251020_020736"
+      }
+    },
+    {
+      "name": "sow-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/sow-generator"
+      }
+    },
+    {
+      "name": "sow-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/sow-generator"
       }
     },
     {
@@ -81971,6 +85444,22 @@
       }
     },
     {
+      "name": "sql-injection-detector-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/sql-injection-detector"
+      }
+    },
+    {
+      "name": "sql-injection-detector-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/sql-injection-detector"
+      }
+    },
+    {
       "name": "sql-query-optimizer",
       "source": {
         "source": "git-subdir",
@@ -82000,6 +85489,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-query-optimizer_20251020_055446"
+      }
+    },
+    {
+      "name": "sql-query-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/sql-query-optimizer"
+      }
+    },
+    {
+      "name": "sql-query-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/sql-query-optimizer"
       }
     },
     {
@@ -82094,6 +85599,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ssl-certificate-manager_20251020_001007"
+      }
+    },
+    {
+      "name": "ssl-certificate-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/ssl-certificate-manager"
+      }
+    },
+    {
+      "name": "ssl-certificate-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/ssl-certificate-manager"
       }
     },
     {
@@ -82275,6 +85796,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/staking-rewards-optimizer_20251020_043134"
+      }
+    },
+    {
+      "name": "staking-rewards-optimizer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/staking-rewards-optimizer"
+      }
+    },
+    {
+      "name": "staking-rewards-optimizer-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/staking-rewards-optimizer"
       }
     },
     {
@@ -82798,6 +86335,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/stored-procedure-generator_20251020_060847"
+      }
+    },
+    {
+      "name": "stored-procedure-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/database/stored-procedure-generator"
+      }
+    },
+    {
+      "name": "stored-procedure-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/database/stored-procedure-generator"
       }
     },
     {
@@ -84198,6 +87751,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/synthetic-monitoring-setup_20251020_071946"
+      }
+    },
+    {
+      "name": "synthetic-monitoring-setup-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/synthetic-monitoring-setup"
+      }
+    },
+    {
+      "name": "synthetic-monitoring-setup-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/synthetic-monitoring-setup"
       }
     },
     {
@@ -85658,6 +89227,22 @@
       }
     },
     {
+      "name": "terraform-module-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/devops/terraform-module-builder"
+      }
+    },
+    {
+      "name": "terraform-module-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/devops/terraform-module-builder"
+      }
+    },
+    {
       "name": "terraform-module-generation",
       "source": {
         "source": "git-subdir",
@@ -85794,6 +89379,22 @@
       }
     },
     {
+      "name": "test-coverage-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-coverage-analyzer"
+      }
+    },
+    {
+      "name": "test-coverage-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-coverage-analyzer"
+      }
+    },
+    {
       "name": "test-data-generator",
       "source": {
         "source": "git-subdir",
@@ -85834,6 +89435,22 @@
       }
     },
     {
+      "name": "test-data-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-data-generator"
+      }
+    },
+    {
+      "name": "test-data-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-data-generator"
+      }
+    },
+    {
       "name": "test-doubles-generator",
       "source": {
         "source": "git-subdir",
@@ -85866,6 +89483,22 @@
       }
     },
     {
+      "name": "test-doubles-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-doubles-generator"
+      }
+    },
+    {
+      "name": "test-doubles-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-doubles-generator"
+      }
+    },
+    {
       "name": "test-environment-manager",
       "source": {
         "source": "git-subdir",
@@ -85895,6 +89528,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-environment-manager_20251020_004310"
+      }
+    },
+    {
+      "name": "test-environment-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-environment-manager"
+      }
+    },
+    {
+      "name": "test-environment-manager-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-environment-manager"
       }
     },
     {
@@ -85951,6 +89600,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-orchestrator_20251020_003414"
+      }
+    },
+    {
+      "name": "test-orchestrator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-orchestrator"
+      }
+    },
+    {
+      "name": "test-orchestrator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-orchestrator"
       }
     },
     {
@@ -86015,6 +89680,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-report-generator_20251020_002708"
+      }
+    },
+    {
+      "name": "test-report-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/test-report-generator"
+      }
+    },
+    {
+      "name": "test-report-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/test-report-generator"
       }
     },
     {
@@ -86458,6 +90139,22 @@
       }
     },
     {
+      "name": "throughput-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/performance/throughput-analyzer"
+      }
+    },
+    {
+      "name": "throughput-analyzer-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/performance/throughput-analyzer"
+      }
+    },
+    {
       "name": "thryx",
       "source": {
         "source": "git-subdir",
@@ -86619,6 +90316,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/time-series-forecaster_20251020_021723"
+      }
+    },
+    {
+      "name": "time-series-forecaster-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/time-series-forecaster"
+      }
+    },
+    {
+      "name": "time-series-forecaster-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/time-series-forecaster"
       }
     },
     {
@@ -87010,6 +90723,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/token-launch-tracker_20251020_042421"
+      }
+    },
+    {
+      "name": "token-launch-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/token-launch-tracker"
+      }
+    },
+    {
+      "name": "token-launch-tracker-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/token-launch-tracker"
       }
     },
     {
@@ -87691,6 +91420,22 @@
       }
     },
     {
+      "name": "trading-strategy-backtester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/trading-strategy-backtester"
+      }
+    },
+    {
+      "name": "trading-strategy-backtester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/trading-strategy-backtester"
+      }
+    },
+    {
       "name": "tradingview",
       "source": {
         "source": "git-subdir",
@@ -87830,6 +91575,22 @@
       }
     },
     {
+      "name": "transfer-learning-adapter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-ml/transfer-learning-adapter"
+      }
+    },
+    {
+      "name": "transfer-learning-adapter-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-ml/transfer-learning-adapter"
+      }
+    },
+    {
       "name": "transformations",
       "source": {
         "source": "git-subdir",
@@ -87938,6 +91699,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/travel-assistant_20251019_233331"
+      }
+    },
+    {
+      "name": "travel-assistant-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/productivity/travel-assistant"
+      }
+    },
+    {
+      "name": "travel-assistant-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/productivity/travel-assistant"
       }
     },
     {
@@ -89270,6 +93047,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/unit-test-generator_20251020_010223"
+      }
+    },
+    {
+      "name": "unit-test-generator-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/unit-test-generator"
+      }
+    },
+    {
+      "name": "unit-test-generator-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/unit-test-generator"
       }
     },
     {
@@ -91005,6 +94798,22 @@
       }
     },
     {
+      "name": "visual-regression-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/testing/visual-regression-tester"
+      }
+    },
+    {
+      "name": "visual-regression-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/visual-regression-tester"
+      }
+    },
+    {
       "name": "visual-storyteller",
       "source": {
         "source": "git-subdir",
@@ -91677,6 +95486,22 @@
       }
     },
     {
+      "name": "vulnerability-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/vulnerability-scanner"
+      }
+    },
+    {
+      "name": "vulnerability-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/vulnerability-scanner"
+      }
+    },
+    {
       "name": "vulnerability-scanning",
       "source": {
         "source": "git-subdir",
@@ -91796,6 +95621,22 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/wallet-portfolio-tracker_20251020_051436"
+      }
+    },
+    {
+      "name": "wallet-portfolio-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/wallet-portfolio-tracker"
+      }
+    },
+    {
+      "name": "wallet-portfolio-tracker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/wallet-portfolio-tracker"
       }
     },
     {
@@ -92433,6 +96274,22 @@
       }
     },
     {
+      "name": "web-to-github-issue-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/skill-enhancers/web-to-github-issue"
+      }
+    },
+    {
+      "name": "web-to-github-issue-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/skill-enhancers/web-to-github-issue"
+      }
+    },
+    {
       "name": "web-vuln-report",
       "source": {
         "source": "git-subdir",
@@ -92512,6 +96369,38 @@
       }
     },
     {
+      "name": "webhook-handler-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/webhook-handler-creator_20251019_210925"
+      }
+    },
+    {
+      "name": "webhook-handler-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/webhook-handler-creator_20251020_034939"
+      }
+    },
+    {
+      "name": "webhook-handler-creator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/webhook-handler-creator"
+      }
+    },
+    {
+      "name": "webhook-handler-creator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/webhook-handler-creator"
+      }
+    },
+    {
       "name": "webnovel-writer",
       "source": {
         "source": "git-subdir",
@@ -92588,6 +96477,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/websocket-server-builder"
+      }
+    },
+    {
+      "name": "websocket-server-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/websocket-server-builder_20251019_202359"
+      }
+    },
+    {
+      "name": "websocket-server-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/websocket-server-builder_20251020_032353"
+      }
+    },
+    {
+      "name": "websocket-server-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/api-development/websocket-server-builder"
+      }
+    },
+    {
+      "name": "websocket-server-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/api-development/websocket-server-builder"
       }
     },
     {
@@ -92767,6 +96688,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/whale-alert-monitor"
+      }
+    },
+    {
+      "name": "whale-alert-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/whale-alert-monitor_20251019_225810"
+      }
+    },
+    {
+      "name": "whale-alert-monitor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/whale-alert-monitor_20251020_044553"
+      }
+    },
+    {
+      "name": "whale-alert-monitor-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/crypto/whale-alert-monitor"
+      }
+    },
+    {
+      "name": "whale-alert-monitor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/crypto/whale-alert-monitor"
       }
     },
     {
@@ -93473,6 +97426,14 @@
       }
     },
     {
+      "name": "work-suite-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "ourostack/ouroboros-skills",
+        "path": "plugins/work-suite"
+      }
+    },
+    {
       "name": "work-toolkit",
       "source": {
         "source": "git-subdir",
@@ -93746,6 +97707,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/mcp/workflow-orchestrator"
+      }
+    },
+    {
+      "name": "workflow-orchestrator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/workflow-orchestrator_20251019_170700"
+      }
+    },
+    {
+      "name": "workflow-orchestrator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/workflow-orchestrator_20251020_013944"
+      }
+    },
+    {
+      "name": "workflow-orchestrator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/mcp/workflow-orchestrator"
+      }
+    },
+    {
+      "name": "workflow-orchestrator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/mcp/workflow-orchestrator"
       }
     },
     {
@@ -95200,6 +99193,38 @@
       }
     },
     {
+      "name": "xss-vulnerability-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/xss-vulnerability-scanner_20251019_135758"
+      }
+    },
+    {
+      "name": "xss-vulnerability-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/xss-vulnerability-scanner_20251019_235950"
+      }
+    },
+    {
+      "name": "xss-vulnerability-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/security/xss-vulnerability-scanner"
+      }
+    },
+    {
+      "name": "xss-vulnerability-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/security/xss-vulnerability-scanner"
+      }
+    },
+    {
       "name": "xtctx",
       "source": {
         "source": "git-subdir",
@@ -95753,6 +99778,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-agency/zapier-zap-builder"
+      }
+    },
+    {
+      "name": "zapier-zap-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/zapier-zap-builder_20251019_174150"
+      }
+    },
+    {
+      "name": "zapier-zap-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/zapier-zap-builder_20251020_015837"
+      }
+    },
+    {
+      "name": "zapier-zap-builder-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skill-structure-cleanup-20251108-073936/plugins/ai-agency/zapier-zap-builder"
+      }
+    },
+    {
+      "name": "zapier-zap-builder-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/ai-agency/zapier-zap-builder"
       }
     },
     {

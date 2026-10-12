@@ -4158,6 +4158,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "attention-control",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/attention-control.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "attention-guard",
       "source": {
         "source": "url",
@@ -13791,6 +13803,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/developer-essentials"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "developing-with-docker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/developing-with-docker-agentic-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25685,6 +25709,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mastering-aws-cdk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/mastering-aws-cdk-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mastering-python-skill",
       "source": {
         "source": "url",
@@ -32072,6 +32108,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ponytail-upstream",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ourostack/ouroboros-skills.git",
+        "path": "./plugins/ponytail-upstream"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "port",
       "source": {
         "source": "git-subdir",
@@ -32140,6 +32189,18 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/portone"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "postgres",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleCloudPlatform/postgres-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -33926,6 +33987,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/quantitative-trading"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "quarkify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/companyjupiter/quarkify.git"
       },
       "policy": {
         "installation": "AVAILABLE",

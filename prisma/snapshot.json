@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "snapshotId": "catalog-38160666291-1",
+  "snapshotId": "catalog-38210227218-1",
   "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
-  "createdAt": "2026-10-11T17:56:06.612Z",
+  "createdAt": "2026-10-12T06:08:10.356Z",
   "coverage": {
     "status": "partial",
     "cycleId": "37e41b25-02e8-46f0-bf7b-913e16ee9529",
@@ -21,43 +21,43 @@
       "waitedMs": 0,
       "buckets": {
         "core": {
-          "remaining": 986,
-          "resetAt": 1791743573000
+          "remaining": 3439,
+          "resetAt": 1791788706000
         }
       }
     }
   },
   "database": {
-    "sha256": "85d24f0b7b8191f3694ff4413b77210cd5370a58d558952038788bb4ff9dde62",
-    "bytes": 125640704,
+    "sha256": "09d86d518750d585c4298c57b1e53f51f851b01532d8fab1c88d8f11ca2f3bfa",
+    "bytes": 127197184,
     "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
     "counts": {
-      "Plugin": 14972,
-      "Skill": 57575,
-      "McpServer": 3649
+      "Plugin": 15417,
+      "Skill": 57766,
+      "McpServer": 3680
     }
   },
   "source": {
     "kind": "github-release",
-    "tag": "catalog-38160666291-1",
-    "asset": "catalog-38160666291-1.db.gz",
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38160666291-1/catalog-38160666291-1.db.gz",
-    "sha256": "ab845aedbe7beda200bd81a317ebe1826a509b5882e95a5b087fe8249d446f26",
-    "bytes": 22559077
+    "tag": "catalog-38210227218-1",
+    "asset": "catalog-38210227218-1.db.gz",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38210227218-1/catalog-38210227218-1.db.gz",
+    "sha256": "28286655b53473de522ebf582e39b2a46a12830df0885e55ab53c4e6425966ff",
+    "bytes": 22746019
   },
   "checkpoint": {
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38160666291-1/catalog-38160666291-1.index-state.json",
-    "sha256": "42a7830fc58b8c2bd8dd13ce6447d02538c85bbcfe29e10c92af0585310f293e",
-    "bytes": 2482691
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38210227218-1/catalog-38210227218-1.index-state.json",
+    "sha256": "4d07c642846dd959fc061d687784d3abdae0a11e1f71659d752fb1468025e97f",
+    "bytes": 2544167
   },
   "catalogs": {
     "codex": {
-      "sha256": "cd79e1acc60c3dbb2aa735dc974a7b3e810ac17a856b5a3751241e1b951c7bed",
-      "bytes": 1243376
+      "sha256": "d8f15c9669276292e7c96a573203c0238a1d3e9544817f6820105477618f71f7",
+      "bytes": 1247808
     },
     "claude": {
-      "sha256": "e33fd78a732bb87a7cb75f6f9772db92e43d3b3e638dd661433ddab09e91dbfa",
-      "bytes": 2221722
+      "sha256": "a028af439f00f5d958d55c0e4246b6969a96096e6577a40f059322ef92f401a4",
+      "bytes": 2337546
     }
   }
 }

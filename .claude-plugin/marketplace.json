@@ -412,6 +412,30 @@
       }
     },
     {
+      "name": "access-control-auditor-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343"
+      }
+    },
+    {
+      "name": "access-control-auditor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/access-control-auditor_20251019_132521"
+      }
+    },
+    {
+      "name": "access-control-auditor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/access-control-auditor_20251019_234232"
+      }
+    },
+    {
       "name": "accessibility",
       "source": {
         "source": "git-subdir",
@@ -496,6 +520,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/accessibility-test-scanner"
+      }
+    },
+    {
+      "name": "accessibility-test-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/accessibility-test-scanner_20251019_150952"
+      }
+    },
+    {
+      "name": "accessibility-test-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/accessibility-test-scanner_20251020_003753"
       }
     },
     {
@@ -3352,6 +3392,38 @@
       }
     },
     {
+      "name": "ai-commit-gen-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-commit-gen_20251019_115922"
+      }
+    },
+    {
+      "name": "ai-commit-gen-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-commit-gen_20251019_120620"
+      }
+    },
+    {
+      "name": "ai-commit-gen-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-commit-gen_20251019_130110"
+      }
+    },
+    {
+      "name": "ai-commit-gen-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-commit-gen_20251019_233040"
+      }
+    },
+    {
       "name": "ai-config",
       "source": {
         "source": "github",
@@ -3512,6 +3584,22 @@
       }
     },
     {
+      "name": "ai-ethics-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-ethics-validator_20251019_182858"
+      }
+    },
+    {
+      "name": "ai-ethics-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-ethics-validator_20251020_022321"
+      }
+    },
+    {
       "name": "ai-experiment-logger",
       "source": {
         "source": "git-subdir",
@@ -3533,6 +3621,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/mcp/ai-experiment-logger"
+      }
+    },
+    {
+      "name": "ai-experiment-logger-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-experiment-logger_20251019_173511"
+      }
+    },
+    {
+      "name": "ai-experiment-logger-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-experiment-logger_20251020_015444"
       }
     },
     {
@@ -3663,6 +3767,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/packages/ai-ml-engineering-pack"
+      }
+    },
+    {
+      "name": "ai-ml-engineering-pack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-ml-engineering-pack_20251019_161259"
+      }
+    },
+    {
+      "name": "ai-ml-engineering-pack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-ml-engineering-pack_20251020_011030"
       }
     },
     {
@@ -3830,6 +3950,22 @@
       }
     },
     {
+      "name": "ai-sdk-agents-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-sdk-agents_20251019_193634"
+      }
+    },
+    {
+      "name": "ai-sdk-agents-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ai-sdk-agents_20251020_025914"
+      }
+    },
+    {
       "name": "ai-sdlc",
       "source": {
         "source": "github",
@@ -3939,6 +4075,13 @@
         "source": "git-subdir",
         "url": "bowers-illinois-edu/ai_workflow",
         "path": "plugins/ai-workflow-app"
+      }
+    },
+    {
+      "name": "ai4comms",
+      "source": {
+        "source": "github",
+        "repo": "stromy-org/ai4comms-plugin"
       }
     },
     {
@@ -4434,6 +4577,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/alerting-rule-creator"
+      }
+    },
+    {
+      "name": "alerting-rule-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/alerting-rule-creator_20251020_073021"
       }
     },
     {
@@ -5209,6 +5360,22 @@
       }
     },
     {
+      "name": "anomaly-detection-system-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/anomaly-detection-system_20251019_190036"
+      }
+    },
+    {
+      "name": "anomaly-detection-system-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/anomaly-detection-system_20251020_023958"
+      }
+    },
+    {
       "name": "ansible-docs",
       "source": {
         "source": "git-subdir",
@@ -5278,6 +5445,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/ansible-playbook-creator"
+      }
+    },
+    {
+      "name": "ansible-playbook-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ansible-playbook-creator_20251020_070359"
       }
     },
     {
@@ -5611,6 +5786,22 @@
       }
     },
     {
+      "name": "api-authentication-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-authentication-builder_20251019_205254"
+      }
+    },
+    {
+      "name": "api-authentication-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-authentication-builder_20251020_034030"
+      }
+    },
+    {
       "name": "api-batch-processor",
       "source": {
         "source": "git-subdir",
@@ -5632,6 +5823,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-batch-processor"
+      }
+    },
+    {
+      "name": "api-batch-processor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-batch-processor_20251019_212546"
+      }
+    },
+    {
+      "name": "api-batch-processor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-batch-processor_20251020_035854"
       }
     },
     {
@@ -5667,6 +5874,22 @@
       }
     },
     {
+      "name": "api-cache-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-cache-manager_20251019_205819"
+      }
+    },
+    {
+      "name": "api-cache-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-cache-manager_20251020_034325"
+      }
+    },
+    {
       "name": "api-changelog-versioning",
       "source": {
         "source": "git-subdir",
@@ -5696,6 +5919,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-contract-generator"
+      }
+    },
+    {
+      "name": "api-contract-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-contract-generator_20251019_194957"
+      }
+    },
+    {
+      "name": "api-contract-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-contract-generator_20251020_030627"
       }
     },
     {
@@ -5763,6 +6002,22 @@
       }
     },
     {
+      "name": "api-documentation-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-documentation-generator_20251019_210402"
+      }
+    },
+    {
+      "name": "api-documentation-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-documentation-generator_20251020_034619"
+      }
+    },
+    {
       "name": "api-engineering",
       "source": {
         "source": "git-subdir",
@@ -5792,6 +6047,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-error-handler"
+      }
+    },
+    {
+      "name": "api-error-handler-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-error-handler_20251019_204706"
+      }
+    },
+    {
+      "name": "api-error-handler-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-error-handler_20251020_033724"
       }
     },
     {
@@ -5827,6 +6098,22 @@
       }
     },
     {
+      "name": "api-event-emitter-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-event-emitter_20251019_212037"
+      }
+    },
+    {
+      "name": "api-event-emitter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-event-emitter_20251020_035542"
+      }
+    },
+    {
       "name": "api-filtering-sorting",
       "source": {
         "source": "git-subdir",
@@ -5851,6 +6138,22 @@
       }
     },
     {
+      "name": "api-fuzzer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-fuzzer_20251019_154030"
+      }
+    },
+    {
+      "name": "api-fuzzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-fuzzer_20251020_005259"
+      }
+    },
+    {
       "name": "api-gateway-builder",
       "source": {
         "source": "git-subdir",
@@ -5872,6 +6175,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-gateway-builder"
+      }
+    },
+    {
+      "name": "api-gateway-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-gateway-builder_20251019_201818"
+      }
+    },
+    {
+      "name": "api-gateway-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-gateway-builder_20251020_032205"
       }
     },
     {
@@ -5931,6 +6250,22 @@
       }
     },
     {
+      "name": "api-load-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-load-tester_20251019_202947"
+      }
+    },
+    {
+      "name": "api-load-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-load-tester_20251020_032702"
+      }
+    },
+    {
       "name": "api-migration-tool",
       "source": {
         "source": "git-subdir",
@@ -5955,6 +6290,22 @@
       }
     },
     {
+      "name": "api-migration-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-migration-tool_20251019_200102"
+      }
+    },
+    {
+      "name": "api-migration-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-migration-tool_20251020_031244"
+      }
+    },
+    {
       "name": "api-mock-server",
       "source": {
         "source": "git-subdir",
@@ -5976,6 +6327,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-mock-server"
+      }
+    },
+    {
+      "name": "api-mock-server-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-mock-server_20251019_214327"
+      }
+    },
+    {
+      "name": "api-mock-server-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-mock-server_20251020_040903"
       }
     },
     {
@@ -6007,6 +6374,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-monitoring-dashboard"
+      }
+    },
+    {
+      "name": "api-monitoring-dashboard-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-monitoring-dashboard_20251019_200630"
+      }
+    },
+    {
+      "name": "api-monitoring-dashboard-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-monitoring-dashboard_20251020_031546"
       }
     },
     {
@@ -6047,6 +6430,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-rate-limiter"
+      }
+    },
+    {
+      "name": "api-rate-limiter-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-rate-limiter_20251019_215513"
+      }
+    },
+    {
+      "name": "api-rate-limiter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-rate-limiter_20251020_041354"
       }
     },
     {
@@ -6098,6 +6497,22 @@
       }
     },
     {
+      "name": "api-request-logger-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-request-logger_20251019_213721"
+      }
+    },
+    {
+      "name": "api-request-logger-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-request-logger_20251020_040603"
+      }
+    },
+    {
       "name": "api-response-optimization",
       "source": {
         "source": "git-subdir",
@@ -6127,6 +6542,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-response-validator"
+      }
+    },
+    {
+      "name": "api-response-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-response-validator_20251019_220047"
       }
     },
     {
@@ -6170,6 +6593,22 @@
       }
     },
     {
+      "name": "api-schema-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-schema-validator_20251019_214930"
+      }
+    },
+    {
+      "name": "api-schema-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-schema-validator_20251020_041056"
+      }
+    },
+    {
       "name": "api-sdk-generator",
       "source": {
         "source": "git-subdir",
@@ -6191,6 +6630,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-sdk-generator"
+      }
+    },
+    {
+      "name": "api-sdk-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-sdk-generator_20251019_220633"
+      }
+    },
+    {
+      "name": "api-sdk-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-sdk-generator_20251020_041812"
       }
     },
     {
@@ -6226,6 +6681,22 @@
       }
     },
     {
+      "name": "api-security-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-security-scanner_20251019_211504"
+      }
+    },
+    {
+      "name": "api-security-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-security-scanner_20251020_035242"
+      }
+    },
+    {
       "name": "api-test-automation",
       "source": {
         "source": "git-subdir",
@@ -6239,6 +6710,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/api-test-automation"
+      }
+    },
+    {
+      "name": "api-test-automation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-test-automation_20251019_150625"
+      }
+    },
+    {
+      "name": "api-test-automation-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-test-automation_20251020_003558"
       }
     },
     {
@@ -6270,6 +6757,14 @@
       "source": {
         "source": "git-subdir",
         "url": "secondsky/claude-skills",
+        "path": "plugins/api-testing"
+      }
+    },
+    {
+      "name": "api-testing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
         "path": "plugins/api-testing"
       }
     },
@@ -6314,6 +6809,22 @@
       }
     },
     {
+      "name": "api-throttling-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-throttling-manager_20251019_213148"
+      }
+    },
+    {
+      "name": "api-throttling-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-throttling-manager_20251020_040258"
+      }
+    },
+    {
       "name": "api-versioning-manager",
       "source": {
         "source": "git-subdir",
@@ -6335,6 +6846,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/api-versioning-manager"
+      }
+    },
+    {
+      "name": "api-versioning-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-versioning-manager_20251019_203606"
+      }
+    },
+    {
+      "name": "api-versioning-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/api-versioning-manager_20251020_033116"
       }
     },
     {
@@ -6390,6 +6917,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/apm-dashboard-creator"
+      }
+    },
+    {
+      "name": "apm-dashboard-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/apm-dashboard-creator_20251020_073211"
       }
     },
     {
@@ -6645,6 +7180,14 @@
       }
     },
     {
+      "name": "application-profiler-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/application-profiler_20251020_075450"
+      }
+    },
+    {
       "name": "applied-mathematician",
       "source": {
         "source": "git-subdir",
@@ -6807,6 +7350,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/arbitrage-opportunity-finder"
+      }
+    },
+    {
+      "name": "arbitrage-opportunity-finder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/arbitrage-opportunity-finder_20251019_224718"
+      }
+    },
+    {
+      "name": "arbitrage-opportunity-finder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/arbitrage-opportunity-finder_20251020_044041"
       }
     },
     {
@@ -8214,6 +8773,22 @@
       }
     },
     {
+      "name": "authentication-validator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/authentication-validator_20251019_141929"
+      }
+    },
+    {
+      "name": "authentication-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/authentication-validator_20251020_001153"
+      }
+    },
+    {
       "name": "authoring",
       "source": {
         "source": "git-subdir",
@@ -8345,6 +8920,14 @@
       }
     },
     {
+      "name": "auto-scaling-configurator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/auto-scaling-configurator_20251020_065356"
+      }
+    },
+    {
       "name": "auto-session-name",
       "source": {
         "source": "git-subdir",
@@ -8407,6 +8990,14 @@
       }
     },
     {
+      "name": "automating-mac-apps-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/automating-mac-apps-plugin",
+        "path": "plugins/automating-mac-apps-plugin"
+      }
+    },
+    {
       "name": "automatis",
       "source": {
         "source": "git-subdir",
@@ -8443,6 +9034,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/automl-pipeline-builder"
+      }
+    },
+    {
+      "name": "automl-pipeline-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/automl-pipeline-builder_20251019_194050"
+      }
+    },
+    {
+      "name": "automl-pipeline-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/automl-pipeline-builder_20251020_030140"
       }
     },
     {
@@ -9464,6 +10071,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/backup-strategy-implementor"
+      }
+    },
+    {
+      "name": "backup-strategy-implementor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/backup-strategy-implementor_20251020_065147"
       }
     },
     {
@@ -10949,6 +11564,22 @@
       }
     },
     {
+      "name": "blockchain-explorer-cli-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/blockchain-explorer-cli_20251019_225247"
+      }
+    },
+    {
+      "name": "blockchain-explorer-cli-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/blockchain-explorer-cli_20251020_044242"
+      }
+    },
+    {
       "name": "blockchain-web3",
       "source": {
         "source": "git-subdir",
@@ -11320,6 +11951,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/bottleneck-detector"
+      }
+    },
+    {
+      "name": "bottleneck-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/bottleneck-detector_20251020_072140"
       }
     },
     {
@@ -11913,6 +12552,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/browser-compatibility-tester"
+      }
+    },
+    {
+      "name": "browser-compatibility-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/browser-compatibility-tester_20251019_151328"
+      }
+    },
+    {
+      "name": "browser-compatibility-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/browser-compatibility-tester_20251020_003947"
       }
     },
     {
@@ -12651,6 +13306,14 @@
       }
     },
     {
+      "name": "cache-performance-optimizer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cache-performance-optimizer_20251020_071752"
+      }
+    },
+    {
       "name": "cache-tax",
       "source": {
         "source": "github",
@@ -12816,6 +13479,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/calendar-to-workflow"
+      }
+    },
+    {
+      "name": "calendar-to-workflow-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/calendar-to-workflow_20251020_081412"
       }
     },
     {
@@ -13027,6 +13698,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/capacity-planning-analyzer"
+      }
+    },
+    {
+      "name": "capacity-planning-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/capacity-planning-analyzer_20251020_074147"
       }
     },
     {
@@ -13970,6 +14649,14 @@
       }
     },
     {
+      "name": "changelog-automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/changelog-automation"
+      }
+    },
+    {
       "name": "changelog-gen",
       "source": {
         "source": "git-subdir",
@@ -14047,6 +14734,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/chaos-engineering-toolkit"
+      }
+    },
+    {
+      "name": "chaos-engineering-toolkit-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/chaos-engineering-toolkit_20251019_155039"
+      }
+    },
+    {
+      "name": "chaos-engineering-toolkit-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/chaos-engineering-toolkit_20251020_005832"
       }
     },
     {
@@ -14962,6 +15665,14 @@
       }
     },
     {
+      "name": "ci-cd-pipeline-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ci-cd-pipeline-builder_20251020_065941"
+      }
+    },
+    {
       "name": "ci-debugger",
       "source": {
         "source": "git-subdir",
@@ -15222,6 +15933,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/classification-model-builder"
+      }
+    },
+    {
+      "name": "classification-model-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/classification-model-builder_20251019_192232"
+      }
+    },
+    {
+      "name": "classification-model-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/classification-model-builder_20251020_025141"
       }
     },
     {
@@ -17007,6 +17734,14 @@
       }
     },
     {
+      "name": "cloud-cost-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cloud-cost-optimizer_20251020_064608"
+      }
+    },
+    {
       "name": "cloud-harness",
       "source": {
         "source": "git-subdir",
@@ -17362,6 +18097,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/clustering-algorithm-runner"
+      }
+    },
+    {
+      "name": "clustering-algorithm-runner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/clustering-algorithm-runner_20251019_194426"
+      }
+    },
+    {
+      "name": "clustering-algorithm-runner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/clustering-algorithm-runner_20251020_030331"
       }
     },
     {
@@ -18235,6 +18986,22 @@
         "source": "git-subdir",
         "url": "AraneaDev/aranea-marketplace",
         "path": "plugins/codebase-scorecard"
+      }
+    },
+    {
+      "name": "codebase-wizard-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/codebase-mentor",
+        "path": "ai_codebase_mentor/plugin"
+      }
+    },
+    {
+      "name": "codebase-wizard-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/codebase-mentor",
+        "path": "plugins/codebase-wizard"
       }
     },
     {
@@ -19539,6 +20306,14 @@
       }
     },
     {
+      "name": "compliance-checker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/compliance-checker_20251020_064955"
+      }
+    },
+    {
       "name": "compliance-evidence",
       "source": {
         "source": "git-subdir",
@@ -19599,6 +20374,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/compliance-report-generator"
+      }
+    },
+    {
+      "name": "compliance-report-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/compliance-report-generator_20251019_143343"
+      }
+    },
+    {
+      "name": "compliance-report-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/compliance-report-generator_20251020_001904"
       }
     },
     {
@@ -19890,6 +20681,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/computer-vision-processor"
+      }
+    },
+    {
+      "name": "computer-vision-processor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/computer-vision-processor_20251019_184631"
+      }
+    },
+    {
+      "name": "computer-vision-processor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/computer-vision-processor_20251020_023234"
       }
     },
     {
@@ -20288,6 +21095,14 @@
       }
     },
     {
+      "name": "container-registry-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/container-registry-manager_20251020_062906"
+      }
+    },
+    {
       "name": "container-security-scanner",
       "source": {
         "source": "git-subdir",
@@ -20309,6 +21124,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/container-security-scanner"
+      }
+    },
+    {
+      "name": "container-security-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/container-security-scanner_20251020_061950"
       }
     },
     {
@@ -20813,6 +21636,22 @@
       }
     },
     {
+      "name": "contract-test-validator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/contract-test-validator_20251019_145203"
+      }
+    },
+    {
+      "name": "contract-test-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/contract-test-validator_20251020_002856"
+      }
+    },
+    {
       "name": "contract-tester",
       "source": {
         "source": "git-subdir",
@@ -20961,6 +21800,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/mcp/conversational-api-debugger"
+      }
+    },
+    {
+      "name": "conversational-api-debugger-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/conversational-api-debugger_20251019_172921"
+      }
+    },
+    {
+      "name": "conversational-api-debugger-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/conversational-api-debugger_20251020_015144"
       }
     },
     {
@@ -21200,6 +22055,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/cors-policy-validator"
+      }
+    },
+    {
+      "name": "cors-policy-validator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cors-policy-validator_20251019_135418"
+      }
+    },
+    {
+      "name": "cors-policy-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cors-policy-validator_20251019_235759"
       }
     },
     {
@@ -21509,6 +22380,14 @@
       }
     },
     {
+      "name": "cpu-usage-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cpu-usage-monitor_20251020_073602"
+      }
+    },
+    {
       "name": "cpx",
       "source": {
         "source": "git-subdir",
@@ -21800,6 +22679,14 @@
       }
     },
     {
+      "name": "creating-zola-static-sites-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/creating-zola-static-sites-plugin",
+        "path": "plugins/creating-zola-static-sites-plugin"
+      }
+    },
+    {
       "name": "creator-economy-operations",
       "source": {
         "source": "git-subdir",
@@ -21837,6 +22724,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/packages/creator-studio-pack"
+      }
+    },
+    {
+      "name": "creator-studio-pack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/creator-studio-pack_20251019_162204"
+      }
+    },
+    {
+      "name": "creator-studio-pack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/creator-studio-pack_20251020_011523"
       }
     },
     {
@@ -22022,6 +22925,14 @@
       }
     },
     {
+      "name": "crm-bug-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
+        "path": "plugins/crm-bug-suite"
+      }
+    },
+    {
       "name": "cron-scheduler",
       "source": {
         "source": "git-subdir",
@@ -22067,6 +22978,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/cross-chain-bridge-monitor"
+      }
+    },
+    {
+      "name": "cross-chain-bridge-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/cross-chain-bridge-monitor_20251020_052829"
       }
     },
     {
@@ -22169,6 +23088,14 @@
       }
     },
     {
+      "name": "crypto-derivatives-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-derivatives-tracker_20251019_230935"
+      }
+    },
+    {
       "name": "crypto-news-aggregator",
       "source": {
         "source": "git-subdir",
@@ -22190,6 +23117,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/crypto-news-aggregator"
+      }
+    },
+    {
+      "name": "crypto-news-aggregator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-news-aggregator_20251019_222317"
+      }
+    },
+    {
+      "name": "crypto-news-aggregator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-news-aggregator_20251020_042728"
       }
     },
     {
@@ -22217,6 +23160,14 @@
       }
     },
     {
+      "name": "crypto-portfolio-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-portfolio-tracker_20251020_052241"
+      }
+    },
+    {
       "name": "crypto-signal-generator",
       "source": {
         "source": "git-subdir",
@@ -22241,6 +23192,14 @@
       }
     },
     {
+      "name": "crypto-signal-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-signal-generator_20251020_050821"
+      }
+    },
+    {
       "name": "crypto-tax-calculator",
       "source": {
         "source": "git-subdir",
@@ -22262,6 +23221,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/crypto-tax-calculator"
+      }
+    },
+    {
+      "name": "crypto-tax-calculator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-tax-calculator_20251019_223536"
+      }
+    },
+    {
+      "name": "crypto-tax-calculator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/crypto-tax-calculator_20251020_043441"
       }
     },
     {
@@ -22350,6 +23325,30 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/csrf-protection-validator"
+      }
+    },
+    {
+      "name": "csrf-protection-validator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/csrf-protection-validator_20251019_123105"
+      }
+    },
+    {
+      "name": "csrf-protection-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/csrf-protection-validator_20251019_133228"
+      }
+    },
+    {
+      "name": "csrf-protection-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/csrf-protection-validator_20251019_234618"
       }
     },
     {
@@ -22738,6 +23737,14 @@
         "source": "git-subdir",
         "url": "cyberuni/cyber-asana",
         "path": "packages/cyber-asana"
+      }
+    },
+    {
+      "name": "cyber-figma",
+      "source": {
+        "source": "git-subdir",
+        "url": "cyberuni/cyber-figma",
+        "path": "packages/cyber-figma"
       }
     },
     {
@@ -23231,6 +24238,22 @@
       }
     },
     {
+      "name": "data-preprocessing-pipeline-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-preprocessing-pipeline_20251019_185330"
+      }
+    },
+    {
+      "name": "data-preprocessing-pipeline-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-preprocessing-pipeline_20251020_023617"
+      }
+    },
+    {
       "name": "data-privacy",
       "source": {
         "source": "git-subdir",
@@ -23268,6 +24291,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/data-privacy-scanner"
+      }
+    },
+    {
+      "name": "data-privacy-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-privacy-scanner_20251019_140458"
+      }
+    },
+    {
+      "name": "data-privacy-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-privacy-scanner_20251020_000341"
       }
     },
     {
@@ -23383,6 +24422,14 @@
       }
     },
     {
+      "name": "data-seeder-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-seeder-generator_20251020_055101"
+      }
+    },
+    {
       "name": "data-streaming-engineering",
       "source": {
         "source": "git-subdir",
@@ -23412,6 +24459,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/data-validation-engine"
+      }
+    },
+    {
+      "name": "data-validation-engine-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-validation-engine_20251020_054714"
       }
     },
     {
@@ -23455,6 +24510,22 @@
       }
     },
     {
+      "name": "data-visualization-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-visualization-creator_20251019_190508"
+      }
+    },
+    {
+      "name": "data-visualization-creator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/data-visualization-creator_20251020_024235"
+      }
+    },
+    {
       "name": "database",
       "source": {
         "source": "git-subdir",
@@ -23495,6 +24566,14 @@
       }
     },
     {
+      "name": "database-archival-system-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-archival-system_20251020_061422"
+      }
+    },
+    {
       "name": "database-audit-logger",
       "source": {
         "source": "git-subdir",
@@ -23516,6 +24595,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-audit-logger"
+      }
+    },
+    {
+      "name": "database-audit-logger-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-audit-logger_20251020_060651"
       }
     },
     {
@@ -23543,6 +24630,14 @@
       }
     },
     {
+      "name": "database-backup-automator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-backup-automator_20251020_053712"
+      }
+    },
+    {
       "name": "database-cache-layer",
       "source": {
         "source": "git-subdir",
@@ -23564,6 +24659,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-cache-layer"
+      }
+    },
+    {
+      "name": "database-cache-layer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-cache-layer_20251020_055636"
       }
     },
     {
@@ -23631,6 +24734,14 @@
       }
     },
     {
+      "name": "database-deadlock-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-deadlock-detector_20251020_060502"
+      }
+    },
+    {
       "name": "database-design",
       "source": {
         "source": "git-subdir",
@@ -23671,6 +24782,14 @@
       }
     },
     {
+      "name": "database-diff-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-diff-tool_20251020_060024"
+      }
+    },
+    {
       "name": "database-documentation-gen",
       "source": {
         "source": "git-subdir",
@@ -23692,6 +24811,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-documentation-gen"
+      }
+    },
+    {
+      "name": "database-documentation-gen-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-documentation-gen_20251020_055252"
       }
     },
     {
@@ -23727,6 +24854,14 @@
       }
     },
     {
+      "name": "database-health-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-health-monitor_20251020_054050"
+      }
+    },
+    {
       "name": "database-index-advisor",
       "source": {
         "source": "git-subdir",
@@ -23751,6 +24886,14 @@
       }
     },
     {
+      "name": "database-index-advisor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-index-advisor_20251020_060213"
+      }
+    },
+    {
       "name": "database-migration-manager",
       "source": {
         "source": "git-subdir",
@@ -23772,6 +24915,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-migration-manager"
+      }
+    },
+    {
+      "name": "database-migration-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-migration-manager_20251020_054521"
       }
     },
     {
@@ -23823,6 +24974,14 @@
       }
     },
     {
+      "name": "database-partition-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-partition-manager_20251020_053900"
+      }
+    },
+    {
       "name": "database-performance-optimizer",
       "source": {
         "source": "git-subdir",
@@ -23863,6 +25022,14 @@
       }
     },
     {
+      "name": "database-query-profiler-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-query-profiler_20251020_075309"
+      }
+    },
+    {
       "name": "database-recovery-manager",
       "source": {
         "source": "git-subdir",
@@ -23884,6 +25051,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-recovery-manager"
+      }
+    },
+    {
+      "name": "database-recovery-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-recovery-manager_20251020_061227"
       }
     },
     {
@@ -23919,6 +25094,14 @@
       }
     },
     {
+      "name": "database-replication-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-replication-manager_20251020_061617"
+      }
+    },
+    {
       "name": "database-schema-designer",
       "source": {
         "source": "git-subdir",
@@ -23940,6 +25123,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-schema-designer"
+      }
+    },
+    {
+      "name": "database-schema-designer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-schema-designer_20251020_055834"
       }
     },
     {
@@ -23967,6 +25158,14 @@
       }
     },
     {
+      "name": "database-security-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-security-scanner_20251020_053104"
+      }
+    },
+    {
       "name": "database-sharding-manager",
       "source": {
         "source": "git-subdir",
@@ -23988,6 +25187,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-sharding-manager"
+      }
+    },
+    {
+      "name": "database-sharding-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-sharding-manager_20251020_061029"
       }
     },
     {
@@ -24015,6 +25222,22 @@
       }
     },
     {
+      "name": "database-test-manager-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-test-manager_20251019_144422"
+      }
+    },
+    {
+      "name": "database-test-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-test-manager_20251020_002431"
+      }
+    },
+    {
       "name": "database-transaction-monitor",
       "source": {
         "source": "git-subdir",
@@ -24036,6 +25259,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/database-transaction-monitor"
+      }
+    },
+    {
+      "name": "database-transaction-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/database-transaction-monitor_20251020_054256"
       }
     },
     {
@@ -24134,6 +25365,13 @@
       }
     },
     {
+      "name": "dataforseo-skills",
+      "source": {
+        "source": "github",
+        "repo": "Starraider/dataforseo-skills"
+      }
+    },
+    {
       "name": "dataproduct-builder-dbt",
       "source": {
         "source": "github",
@@ -24177,6 +25415,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/dataset-splitter"
+      }
+    },
+    {
+      "name": "dataset-splitter-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dataset-splitter_20251019_191203"
+      }
+    },
+    {
+      "name": "dataset-splitter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dataset-splitter_20251020_024618"
       }
     },
     {
@@ -24261,6 +25515,13 @@
         "source": "git-subdir",
         "url": "suwa-sh/suwa-sh-claude-plugins",
         "path": "plugins/ddd"
+      }
+    },
+    {
+      "name": "ddiring",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/ddiring"
       }
     },
     {
@@ -24647,6 +25908,22 @@
       }
     },
     {
+      "name": "deep-learning-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/deep-learning-optimizer_20251019_182110"
+      }
+    },
+    {
+      "name": "deep-learning-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/deep-learning-optimizer_20251020_021913"
+      }
+    },
+    {
       "name": "deep-learning-scientist",
       "source": {
         "source": "git-subdir",
@@ -24762,6 +26039,14 @@
         "source": "git-subdir",
         "url": "Trapezohe/ghast-plugins",
         "path": "plugins/nvidia/upstream-signed/skills/deepstream-generate-pipeline"
+      }
+    },
+    {
+      "name": "deepstream-generate-pipeline-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "NVIDIA/skills",
+        "path": "skills/deepstream-generate-pipeline"
       }
     },
     {
@@ -24890,6 +26175,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/defi-yield-optimizer"
+      }
+    },
+    {
+      "name": "defi-yield-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/defi-yield-optimizer_20251019_230406"
+      }
+    },
+    {
+      "name": "defi-yield-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/defi-yield-optimizer_20251020_044847"
       }
     },
     {
@@ -25334,6 +26635,13 @@
       }
     },
     {
+      "name": "deno-skills",
+      "source": {
+        "source": "github",
+        "repo": "denoland/skills"
+      }
+    },
+    {
       "name": "denoizinator-net",
       "source": {
         "source": "git-subdir",
@@ -25387,6 +26695,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/dependency-checker"
+      }
+    },
+    {
+      "name": "dependency-checker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dependency-checker_20251019_121631"
+      }
+    },
+    {
+      "name": "dependency-checker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dependency-checker_20251019_122217"
+      }
+    },
+    {
+      "name": "dependency-checker-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dependency-checker_20251019_131744"
+      }
+    },
+    {
+      "name": "dependency-checker-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dependency-checker_20251019_233852"
       }
     },
     {
@@ -25542,6 +26882,14 @@
       }
     },
     {
+      "name": "deployment-pipeline-orchestrator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/deployment-pipeline-orchestrator_20251020_070554"
+      }
+    },
+    {
       "name": "deployment-rollback-manager",
       "source": {
         "source": "git-subdir",
@@ -25563,6 +26911,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/deployment-rollback-manager"
+      }
+    },
+    {
+      "name": "deployment-rollback-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/deployment-rollback-manager_20251020_070125"
       }
     },
     {
@@ -25932,6 +27288,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/mcp/design-to-code"
+      }
+    },
+    {
+      "name": "design-to-code-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/design-to-code_20251019_171215"
+      }
+    },
+    {
+      "name": "design-to-code-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/design-to-code_20251020_014244"
       }
     },
     {
@@ -26825,6 +28197,22 @@
       }
     },
     {
+      "name": "devops-automation-pack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/devops-automation-pack_20251019_163103"
+      }
+    },
+    {
+      "name": "devops-automation-pack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/devops-automation-pack_20251020_012013"
+      }
+    },
+    {
       "name": "devops-automator",
       "source": {
         "source": "git-subdir",
@@ -26978,6 +28366,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/dex-aggregator-router"
+      }
+    },
+    {
+      "name": "dex-aggregator-router-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dex-aggregator-router_20251019_224116"
+      }
+    },
+    {
+      "name": "dex-aggregator-router-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/dex-aggregator-router_20251020_043743"
       }
     },
     {
@@ -27272,6 +28676,14 @@
       }
     },
     {
+      "name": "disaster-recovery-planner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/disaster-recovery-planner_20251020_063740"
+      }
+    },
+    {
       "name": "discipline",
       "source": {
         "source": "git-subdir",
@@ -27410,6 +28822,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-agency/discovery-questionnaire"
+      }
+    },
+    {
+      "name": "discovery-questionnaire-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/discovery-questionnaire_20251019_175330"
+      }
+    },
+    {
+      "name": "discovery-questionnaire-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/discovery-questionnaire_20251020_020426"
       }
     },
     {
@@ -27586,6 +29014,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/distributed-tracing-setup"
+      }
+    },
+    {
+      "name": "distributed-tracing-setup-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/distributed-tracing-setup_20251020_073405"
       }
     },
     {
@@ -27823,6 +29259,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/docker-compose-generator"
+      }
+    },
+    {
+      "name": "docker-compose-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/docker-compose-generator_20251020_070739"
       }
     },
     {
@@ -28265,6 +29709,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/mcp/domain-memory-agent"
+      }
+    },
+    {
+      "name": "domain-memory-agent-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/domain-memory-agent_20251019_171758"
+      }
+    },
+    {
+      "name": "domain-memory-agent-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/domain-memory-agent_20251020_014542"
       }
     },
     {
@@ -29342,6 +30802,22 @@
       }
     },
     {
+      "name": "e2e-test-framework-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/e2e-test-framework_20251019_145520"
+      }
+    },
+    {
+      "name": "e2e-test-framework-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/e2e-test-framework_20251020_003040"
+      }
+    },
+    {
       "name": "e2eprobe",
       "source": {
         "source": "git-subdir",
@@ -30213,6 +31689,22 @@
       }
     },
     {
+      "name": "encryption-tool-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/encryption-tool_20251019_143026"
+      }
+    },
+    {
+      "name": "encryption-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/encryption-tool_20251020_001716"
+      }
+    },
+    {
       "name": "endocrinologist",
       "source": {
         "source": "git-subdir",
@@ -30712,6 +32204,14 @@
       }
     },
     {
+      "name": "environment-config-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/environment-config-manager_20251020_063452"
+      }
+    },
+    {
       "name": "environmental-chemist",
       "source": {
         "source": "git-subdir",
@@ -30945,6 +32445,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/error-rate-monitor"
+      }
+    },
+    {
+      "name": "error-rate-monitor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/error-rate-monitor_20251020_072624"
       }
     },
     {
@@ -31760,6 +33268,22 @@
       }
     },
     {
+      "name": "experiment-tracking-setup-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/experiment-tracking-setup_20251019_183219"
+      }
+    },
+    {
+      "name": "experiment-tracking-setup-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/experiment-tracking-setup_20251020_022501"
+      }
+    },
+    {
       "name": "experimental-physicist",
       "source": {
         "source": "git-subdir",
@@ -32116,6 +33640,14 @@
       }
     },
     {
+      "name": "fairdb-operations-kit-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fairdb-operations-kit_20251020_062708"
+      }
+    },
+    {
       "name": "fairdb-ops-manager",
       "source": {
         "source": "git-subdir",
@@ -32137,6 +33669,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/community/fairdb-ops-manager"
+      }
+    },
+    {
+      "name": "fairdb-ops-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fairdb-ops-manager_20251019_170130"
+      }
+    },
+    {
+      "name": "fairdb-ops-manager-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fairdb-ops-manager_20251020_013637"
       }
     },
     {
@@ -32396,6 +33944,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/feature-engineering-toolkit"
+      }
+    },
+    {
+      "name": "feature-engineering-toolkit-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/feature-engineering-toolkit_20251019_182437"
+      }
+    },
+    {
+      "name": "feature-engineering-toolkit-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/feature-engineering-toolkit_20251020_022103"
       }
     },
     {
@@ -32748,6 +34312,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/file-to-code"
+      }
+    },
+    {
+      "name": "file-to-code-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/file-to-code_20251020_081721"
       }
     },
     {
@@ -35176,6 +36748,22 @@
       }
     },
     {
+      "name": "formatter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/formatter_20251019_165025"
+      }
+    },
+    {
+      "name": "formatter-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/formatter_20251020_013047"
+      }
+    },
+    {
       "name": "formbro",
       "source": {
         "source": "git-subdir",
@@ -35882,6 +37470,22 @@
       }
     },
     {
+      "name": "fullstack-starter-pack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fullstack-starter-pack_20251019_162740"
+      }
+    },
+    {
+      "name": "fullstack-starter-pack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/fullstack-starter-pack_20251020_011817"
+      }
+    },
+    {
       "name": "functional-genomics-scientist",
       "source": {
         "source": "git-subdir",
@@ -36340,11 +37944,26 @@
       }
     },
     {
+      "name": "gas-fee-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gas-fee-optimizer_20251020_050503"
+      }
+    },
+    {
       "name": "gas-suite",
       "source": {
         "source": "git-subdir",
         "url": "whichguy/claude-craft",
         "path": "plugins/gas-suite"
+      }
+    },
+    {
+      "name": "gaseo",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/gaseo"
       }
     },
     {
@@ -36572,6 +38191,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/gdpr-compliance-scanner"
+      }
+    },
+    {
+      "name": "gdpr-compliance-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gdpr-compliance-scanner_20251019_134728"
+      }
+    },
+    {
+      "name": "gdpr-compliance-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gdpr-compliance-scanner_20251019_235407"
       }
     },
     {
@@ -37420,6 +39055,14 @@
       }
     },
     {
+      "name": "git-commit-smart-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/git-commit-smart_20251020_064411"
+      }
+    },
+    {
       "name": "git-commits",
       "source": {
         "source": "git-subdir",
@@ -38104,6 +39747,14 @@
       }
     },
     {
+      "name": "gitops-workflow-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/gitops-workflow-builder_20251020_062141"
+      }
+    },
+    {
       "name": "gizmoduck",
       "source": {
         "source": "git-subdir",
@@ -38341,6 +39992,13 @@
         "source": "git-subdir",
         "url": "trailofbits/skills",
         "path": "plugins/goal-prompt"
+      }
+    },
+    {
+      "name": "goal-setter",
+      "source": {
+        "source": "github",
+        "repo": "gotalab/goal-setter-skill"
       }
     },
     {
@@ -39086,6 +40744,22 @@
       }
     },
     {
+      "name": "graphql-server-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/graphql-server-builder_20251019_204140"
+      }
+    },
+    {
+      "name": "graphql-server-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/graphql-server-builder_20251020_033426"
+      }
+    },
+    {
       "name": "graphtime",
       "source": {
         "source": "git-subdir",
@@ -39539,6 +41213,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/grpc-service-generator"
+      }
+    },
+    {
+      "name": "grpc-service-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/grpc-service-generator_20251019_195535"
+      }
+    },
+    {
+      "name": "grpc-service-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/grpc-service-generator_20251020_030933"
       }
     },
     {
@@ -40928,6 +42618,14 @@
       }
     },
     {
+      "name": "hello-world-10",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hello-world_20251020_013340"
+      }
+    },
+    {
       "name": "hello-world-2",
       "source": {
         "source": "git-subdir",
@@ -40981,6 +42679,14 @@
         "source": "git-subdir",
         "url": "ivan-magda/claude-code-plugin-template",
         "path": "plugins/hello-world"
+      }
+    },
+    {
+      "name": "hello-world-9",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hello-world_20251019_165546"
       }
     },
     {
@@ -41053,6 +42759,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/helm-chart-generator"
+      }
+    },
+    {
+      "name": "helm-chart-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/helm-chart-generator_20251020_063108"
       }
     },
     {
@@ -41542,6 +43256,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/hipaa-compliance-checker"
+      }
+    },
+    {
+      "name": "hipaa-compliance-checker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hipaa-compliance-checker_20251019_142636"
+      }
+    },
+    {
+      "name": "hipaa-compliance-checker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hipaa-compliance-checker_20251020_001529"
       }
     },
     {
@@ -42835,6 +44565,22 @@
       }
     },
     {
+      "name": "hyperparameter-tuner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hyperparameter-tuner_20251019_191544"
+      }
+    },
+    {
+      "name": "hyperparameter-tuner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/hyperparameter-tuner_20251020_024814"
+      }
+    },
+    {
       "name": "hyperresearch",
       "source": {
         "source": "github",
@@ -43689,6 +45435,14 @@
       }
     },
     {
+      "name": "infrastructure-as-code-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/infrastructure-as-code-generator_20251020_064129"
+      }
+    },
+    {
       "name": "infrastructure-drift-detector",
       "source": {
         "source": "git-subdir",
@@ -43758,6 +45512,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/infrastructure-metrics-collector"
+      }
+    },
+    {
+      "name": "infrastructure-metrics-collector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/infrastructure-metrics-collector_20251020_073952"
       }
     },
     {
@@ -43867,6 +45629,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/input-validation-scanner"
+      }
+    },
+    {
+      "name": "input-validation-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/input-validation-scanner_20251019_120916"
+      }
+    },
+    {
+      "name": "input-validation-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/input-validation-scanner_20251019_121541"
+      }
+    },
+    {
+      "name": "input-validation-scanner-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/input-validation-scanner_20251019_131032"
+      }
+    },
+    {
+      "name": "input-validation-scanner-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/input-validation-scanner_20251019_233518"
       }
     },
     {
@@ -44140,6 +45934,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/integration-test-runner"
+      }
+    },
+    {
+      "name": "integration-test-runner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/integration-test-runner_20251019_151704"
+      }
+    },
+    {
+      "name": "integration-test-runner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/integration-test-runner_20251020_004130"
       }
     },
     {
@@ -47085,6 +48895,14 @@
       }
     },
     {
+      "name": "kubernetes-deployment-creator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/kubernetes-deployment-creator_20251020_070929"
+      }
+    },
+    {
       "name": "kubernetes-operations",
       "source": {
         "source": "git-subdir",
@@ -48781,6 +50599,14 @@
       }
     },
     {
+      "name": "liquidity-pool-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/liquidity-pool-analyzer_20251020_050309"
+      }
+    },
+    {
       "name": "listing-asset-studio",
       "source": {
         "source": "git-subdir",
@@ -49151,6 +50977,14 @@
       }
     },
     {
+      "name": "load-balancer-configurator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/load-balancer-configurator_20251020_061804"
+      }
+    },
+    {
       "name": "load-balancer-tester",
       "source": {
         "source": "git-subdir",
@@ -49164,6 +50998,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/load-balancer-tester"
+      }
+    },
+    {
+      "name": "load-balancer-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/load-balancer-tester_20251019_152530"
+      }
+    },
+    {
+      "name": "load-balancer-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/load-balancer-tester_20251020_004548"
       }
     },
     {
@@ -49188,6 +51038,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/load-test-runner"
+      }
+    },
+    {
+      "name": "load-test-runner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/load-test-runner_20251020_075641"
       }
     },
     {
@@ -49325,6 +51183,14 @@
       }
     },
     {
+      "name": "log-aggregation-setup-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/log-aggregation-setup_20251020_062406"
+      }
+    },
+    {
       "name": "log-analysis-tool",
       "source": {
         "source": "git-subdir",
@@ -49346,6 +51212,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/log-analysis-tool"
+      }
+    },
+    {
+      "name": "log-analysis-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/log-analysis-tool_20251020_080038"
       }
     },
     {
@@ -49378,6 +51252,13 @@
         "source": "git-subdir",
         "url": "K-Dense-AI/scientific-agents",
         "path": "scientific-agents/logician"
+      }
+    },
+    {
+      "name": "logo-designer-skill",
+      "source": {
+        "source": "github",
+        "repo": "neonwatty/logo-designer-skill"
       }
     },
     {
@@ -50457,6 +52338,22 @@
       }
     },
     {
+      "name": "make-scenario-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/make-scenario-builder_20251019_181052"
+      }
+    },
+    {
+      "name": "make-scenario-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/make-scenario-builder_20251020_021351"
+      }
+    },
+    {
       "name": "makoto",
       "source": {
         "source": "git-subdir",
@@ -50794,6 +52691,14 @@
       }
     },
     {
+      "name": "market-movers-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-movers-scanner_20251020_052430"
+      }
+    },
+    {
       "name": "market-price-tracker",
       "source": {
         "source": "git-subdir",
@@ -50818,6 +52723,22 @@
       }
     },
     {
+      "name": "market-price-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-price-tracker_20251019_221212"
+      }
+    },
+    {
+      "name": "market-price-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-price-tracker_20251020_042112"
+      }
+    },
+    {
       "name": "market-sentiment-analyzer",
       "source": {
         "source": "git-subdir",
@@ -50839,6 +52760,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/market-sentiment-analyzer"
+      }
+    },
+    {
+      "name": "market-sentiment-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-sentiment-analyzer_20251019_232057"
+      }
+    },
+    {
+      "name": "market-sentiment-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/market-sentiment-analyzer_20251020_045559"
       }
     },
     {
@@ -51240,6 +53177,13 @@
         "source": "git-subdir",
         "url": "BigStartByXuyb/test",
         "path": "plugins/mastergo-wpf-transcoder"
+      }
+    },
+    {
+      "name": "mastering-python-skill",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/mastering-python-skill-plugin"
       }
     },
     {
@@ -52307,6 +54251,14 @@
       }
     },
     {
+      "name": "memory-leak-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/memory-leak-detector_20251020_074417"
+      }
+    },
+    {
       "name": "memory-lens",
       "source": {
         "source": "git-subdir",
@@ -52407,6 +54359,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/mempool-analyzer"
+      }
+    },
+    {
+      "name": "mempool-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mempool-analyzer_20251020_051129"
       }
     },
     {
@@ -52868,6 +54828,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/metrics-aggregator"
+      }
+    },
+    {
+      "name": "metrics-aggregator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/metrics-aggregator_20251020_073800"
       }
     },
     {
@@ -53484,6 +55452,22 @@
       }
     },
     {
+      "name": "ml-model-trainer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ml-model-trainer_20251019_193315"
+      }
+    },
+    {
+      "name": "ml-model-trainer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ml-model-trainer_20251020_025716"
+      }
+    },
+    {
       "name": "ml-model-training",
       "source": {
         "source": "git-subdir",
@@ -53684,6 +55668,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/mobile-app-tester"
+      }
+    },
+    {
+      "name": "mobile-app-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mobile-app-tester_20251019_154341"
+      }
+    },
+    {
+      "name": "mobile-app-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mobile-app-tester_20251020_005446"
       }
     },
     {
@@ -53947,6 +55947,22 @@
       }
     },
     {
+      "name": "model-deployment-helper-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-deployment-helper_20251019_181423"
+      }
+    },
+    {
+      "name": "model-deployment-helper-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-deployment-helper_20251020_021543"
+      }
+    },
+    {
       "name": "model-evaluation-suite",
       "source": {
         "source": "git-subdir",
@@ -53968,6 +55984,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/model-evaluation-suite"
+      }
+    },
+    {
+      "name": "model-evaluation-suite-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-evaluation-suite_20251019_191902"
+      }
+    },
+    {
+      "name": "model-evaluation-suite-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-evaluation-suite_20251020_025005"
       }
     },
     {
@@ -54000,6 +56032,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/model-explainability-tool"
+      }
+    },
+    {
+      "name": "model-explainability-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-explainability-tool_20251019_185018"
+      }
+    },
+    {
+      "name": "model-explainability-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-explainability-tool_20251020_023430"
       }
     },
     {
@@ -54064,6 +56112,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/model-versioning-tracker"
+      }
+    },
+    {
+      "name": "model-versioning-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-versioning-tracker_20251019_183939"
+      }
+    },
+    {
+      "name": "model-versioning-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/model-versioning-tracker_20251020_022854"
       }
     },
     {
@@ -54279,6 +56343,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer"
+      }
+    },
+    {
+      "name": "monitoring-stack-deployer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/monitoring-stack-deployer_20251020_063938"
       }
     },
     {
@@ -54643,6 +56715,22 @@
       }
     },
     {
+      "name": "mutation-test-runner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mutation-test-runner_20251019_152905"
+      }
+    },
+    {
+      "name": "mutation-test-runner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/mutation-test-runner_20251020_004742"
+      }
+    },
+    {
       "name": "mutation-tester",
       "source": {
         "source": "git-subdir",
@@ -54939,6 +57027,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-agency/n8n-workflow-designer"
+      }
+    },
+    {
+      "name": "n8n-workflow-designer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/n8n-workflow-designer_20251019_174750"
+      }
+    },
+    {
+      "name": "n8n-workflow-designer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/n8n-workflow-designer_20251020_020144"
       }
     },
     {
@@ -55265,6 +57369,14 @@
       }
     },
     {
+      "name": "nemotron-customize-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "NVIDIA/skills",
+        "path": "skills/nemotron-customize"
+      }
+    },
+    {
       "name": "nemp",
       "source": {
         "source": "github",
@@ -55428,6 +57540,14 @@
       }
     },
     {
+      "name": "network-latency-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/network-latency-analyzer_20251020_072819"
+      }
+    },
+    {
       "name": "network-policy-manager",
       "source": {
         "source": "git-subdir",
@@ -55449,6 +57569,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/devops/network-policy-manager"
+      }
+    },
+    {
+      "name": "network-policy-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/network-policy-manager_20251020_063303"
       }
     },
     {
@@ -55504,6 +57632,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/neural-network-builder"
+      }
+    },
+    {
+      "name": "neural-network-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/neural-network-builder_20251019_185704"
+      }
+    },
+    {
+      "name": "neural-network-builder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/neural-network-builder_20251020_023815"
       }
     },
     {
@@ -55775,6 +57919,14 @@
       }
     },
     {
+      "name": "nft-rarity-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nft-rarity-analyzer_20251020_051934"
+      }
+    },
+    {
       "name": "nhimc-worktool",
       "source": {
         "source": "github",
@@ -55891,6 +58043,158 @@
       }
     },
     {
+      "name": "nixtla-airflow-operator",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-airflow-operator"
+      }
+    },
+    {
+      "name": "nixtla-anomaly-streaming-monitor",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-anomaly-streaming-monitor"
+      }
+    },
+    {
+      "name": "nixtla-baseline-lab",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-baseline-lab"
+      }
+    },
+    {
+      "name": "nixtla-bigquery-forecaster",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-bigquery-forecaster"
+      }
+    },
+    {
+      "name": "nixtla-cost-optimizer",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-cost-optimizer"
+      }
+    },
+    {
+      "name": "nixtla-dbt-package",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-dbt-package"
+      }
+    },
+    {
+      "name": "nixtla-defi-sentinel",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-defi-sentinel"
+      }
+    },
+    {
+      "name": "nixtla-docs-qa-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-docs-qa-generator"
+      }
+    },
+    {
+      "name": "nixtla-embedded-forecast-widget",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-embedded-forecast-widget"
+      }
+    },
+    {
+      "name": "nixtla-forecast-audit-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-forecast-audit-report"
+      }
+    },
+    {
+      "name": "nixtla-forecast-explainer",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-forecast-explainer"
+      }
+    },
+    {
+      "name": "nixtla-forecast-workflow-templates",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-forecast-workflow-templates"
+      }
+    },
+    {
+      "name": "nixtla-migration-assistant",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-migration-assistant"
+      }
+    },
+    {
+      "name": "nixtla-roi-calculator",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-roi-calculator"
+      }
+    },
+    {
+      "name": "nixtla-sales-demo-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-sales-demo-builder"
+      }
+    },
+    {
+      "name": "nixtla-search-to-slack",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-search-to-slack"
+      }
+    },
+    {
+      "name": "nixtla-snowflake-adapter",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-snowflake-adapter"
+      }
+    },
+    {
+      "name": "nixtla-support-deflector",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-support-deflector"
+      }
+    },
+    {
+      "name": "nixtla-vs-statsforecast-benchmark",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "005-plugins/nixtla-vs-statsforecast-benchmark"
+      }
+    },
+    {
       "name": "nl-ez-plugin",
       "source": {
         "source": "github",
@@ -55919,6 +58223,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/nlp-text-analyzer"
+      }
+    },
+    {
+      "name": "nlp-text-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nlp-text-analyzer_20251019_192935"
+      }
+    },
+    {
+      "name": "nlp-text-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nlp-text-analyzer_20251020_025527"
       }
     },
     {
@@ -56063,6 +58383,14 @@
       }
     },
     {
+      "name": "nomo",
+      "source": {
+        "source": "git-subdir",
+        "url": "KarrixLee/nomo",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "nonlinear-dynamics-chaos-scientist",
       "source": {
         "source": "git-subdir",
@@ -56123,6 +58451,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/nosql-data-modeler"
+      }
+    },
+    {
+      "name": "nosql-data-modeler-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/nosql-data-modeler_20251020_054905"
       }
     },
     {
@@ -56562,6 +58898,14 @@
       "source": {
         "source": "github",
         "repo": "NVIDIA/nvidia-kaggle"
+      }
+    },
+    {
+      "name": "nvidia-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "NVIDIA/skills",
+        "path": "plugins/nvidia-skills"
       }
     },
     {
@@ -57501,6 +59845,13 @@
       }
     },
     {
+      "name": "ohmyjev",
+      "source": {
+        "source": "github",
+        "repo": "Novacon/ohmyjev"
+      }
+    },
+    {
       "name": "oi-owarasero",
       "source": {
         "source": "github",
@@ -57725,6 +60076,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/on-chain-analytics"
+      }
+    },
+    {
+      "name": "on-chain-analytics-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/on-chain-analytics_20251020_045944"
       }
     },
     {
@@ -58088,6 +60447,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/finance/openbb-terminal"
+      }
+    },
+    {
+      "name": "openbb-terminal-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/openbb-terminal_20251020_071237"
       }
     },
     {
@@ -58551,6 +60918,22 @@
       }
     },
     {
+      "name": "options-flow-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/options-flow-analyzer_20251019_231505"
+      }
+    },
+    {
+      "name": "options-flow-analyzer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/options-flow-analyzer_20251020_045247"
+      }
+    },
+    {
       "name": "optoelectronics-engineer",
       "source": {
         "source": "git-subdir",
@@ -58887,6 +61270,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/orm-code-generator"
+      }
+    },
+    {
+      "name": "orm-code-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/orm-code-generator_20251020_053250"
       }
     },
     {
@@ -59237,6 +61628,46 @@
       }
     },
     {
+      "name": "overnight-dev-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/overnight-dev_20251019_115339"
+      }
+    },
+    {
+      "name": "overnight-dev-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/overnight-dev_20251019_115726"
+      }
+    },
+    {
+      "name": "overnight-dev-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/overnight-dev_20251019_120025"
+      }
+    },
+    {
+      "name": "overnight-dev-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/overnight-dev_20251019_125525"
+      }
+    },
+    {
+      "name": "overnight-dev-8",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/overnight-dev_20251019_232741"
+      }
+    },
+    {
       "name": "overseer",
       "source": {
         "source": "git-subdir",
@@ -59274,6 +61705,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/owasp-compliance-checker"
+      }
+    },
+    {
+      "name": "owasp-compliance-checker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/owasp-compliance-checker_20251019_141248"
+      }
+    },
+    {
+      "name": "owasp-compliance-checker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/owasp-compliance-checker_20251020_000814"
       }
     },
     {
@@ -60114,6 +62561,30 @@
       }
     },
     {
+      "name": "pci-dss-validator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/pci-dss-validator_20251019_122729"
+      }
+    },
+    {
+      "name": "pci-dss-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/pci-dss-validator_20251019_132902"
+      }
+    },
+    {
+      "name": "pci-dss-validator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/pci-dss-validator_20251019_234423"
+      }
+    },
+    {
       "name": "pdf-creator-jp",
       "source": {
         "source": "git-subdir",
@@ -60264,6 +62735,38 @@
       }
     },
     {
+      "name": "penetration-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/penetration-tester_20251019_121951"
+      }
+    },
+    {
+      "name": "penetration-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/penetration-tester_20251019_122535"
+      }
+    },
+    {
+      "name": "penetration-tester-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/penetration-tester_20251019_132135"
+      }
+    },
+    {
+      "name": "penetration-tester-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/penetration-tester_20251019_234043"
+      }
+    },
+    {
       "name": "penny-engine",
       "source": {
         "source": "github",
@@ -60411,6 +62914,14 @@
       }
     },
     {
+      "name": "performance-budget-validator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-budget-validator_20251020_071603"
+      }
+    },
+    {
       "name": "performance-engineer",
       "source": {
         "source": "git-subdir",
@@ -60467,6 +62978,14 @@
       }
     },
     {
+      "name": "performance-optimization-advisor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-optimization-advisor_20251020_072427"
+      }
+    },
+    {
       "name": "performance-optimizer",
       "source": {
         "source": "git-subdir",
@@ -60499,6 +63018,14 @@
       }
     },
     {
+      "name": "performance-regression-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-regression-detector_20251020_071415"
+      }
+    },
+    {
       "name": "performance-test-suite",
       "source": {
         "source": "git-subdir",
@@ -60512,6 +63039,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/performance-test-suite"
+      }
+    },
+    {
+      "name": "performance-test-suite-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-test-suite_20251019_145900"
+      }
+    },
+    {
+      "name": "performance-test-suite-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/performance-test-suite_20251020_003228"
       }
     },
     {
@@ -61125,6 +63668,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/examples/pi-pathfinder"
+      }
+    },
+    {
+      "name": "pi-pathfinder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/pi-pathfinder_20251019_164442"
+      }
+    },
+    {
+      "name": "pi-pathfinder-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/pi-pathfinder_20251020_012748"
       }
     },
     {
@@ -62256,6 +64815,13 @@
       "source": {
         "source": "github",
         "repo": "epicsagas/plugin-forge"
+      }
+    },
+    {
+      "name": "plugin-kit-ai-starter-claude-python",
+      "source": {
+        "source": "github",
+        "repo": "777genius/plugin-kit-ai-starter-claude-python"
       }
     },
     {
@@ -65940,6 +68506,22 @@
       }
     },
     {
+      "name": "project-health-auditor-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/project-health-auditor_20251019_172356"
+      }
+    },
+    {
+      "name": "project-health-auditor-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/project-health-auditor_20251020_014840"
+      }
+    },
+    {
       "name": "project-index",
       "source": {
         "source": "git-subdir",
@@ -67833,6 +70415,14 @@
       }
     },
     {
+      "name": "qa-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
+        "path": "plugins/qa-engineering"
+      }
+    },
+    {
       "name": "qa-kit",
       "source": {
         "source": "git-subdir",
@@ -67861,6 +70451,14 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/qa-test-automation"
+      }
+    },
+    {
+      "name": "qa-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
+        "path": "plugins/qa-toolkit"
       }
     },
     {
@@ -68136,6 +70734,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/query-performance-analyzer"
+      }
+    },
+    {
+      "name": "query-performance-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/query-performance-analyzer_20251020_053432"
       }
     },
     {
@@ -68952,6 +71558,14 @@
       }
     },
     {
+      "name": "real-user-monitoring-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/real-user-monitoring_20251020_075832"
+      }
+    },
+    {
       "name": "realequity-rapporter",
       "source": {
         "source": "git-subdir",
@@ -69068,6 +71682,13 @@
         "source": "git-subdir",
         "url": "cboone/agent-harness-plugins",
         "path": "plugins/rebase-onto-main"
+      }
+    },
+    {
+      "name": "rebeca-elmudesi",
+      "source": {
+        "source": "github",
+        "repo": "stromy-org/rebeca-elmudesi-plugin"
       }
     },
     {
@@ -69208,6 +71829,22 @@
         "source": "git-subdir",
         "url": "secondsky/claude-skills",
         "path": "plugins/recommendation-engine"
+      }
+    },
+    {
+      "name": "recommendation-engine-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/recommendation-engine_20251019_192612"
+      }
+    },
+    {
+      "name": "recommendation-engine-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/recommendation-engine_20251020_025333"
       }
     },
     {
@@ -69549,6 +72186,22 @@
       }
     },
     {
+      "name": "regression-analysis-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/regression-analysis-tool_20251019_184256"
+      }
+    },
+    {
+      "name": "regression-analysis-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/regression-analysis-tool_20251020_023049"
+      }
+    },
+    {
       "name": "regression-test-tracker",
       "source": {
         "source": "git-subdir",
@@ -69562,6 +72215,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/regression-test-tracker"
+      }
+    },
+    {
+      "name": "regression-test-tracker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/regression-test-tracker_20251019_160927"
+      }
+    },
+    {
+      "name": "regression-test-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/regression-test-tracker_20251020_010848"
       }
     },
     {
@@ -69833,6 +72502,14 @@
       }
     },
     {
+      "name": "release-notes-suite",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
+        "path": "plugins/release-notes-suite"
+      }
+    },
+    {
       "name": "release-pack",
       "source": {
         "source": "git-subdir",
@@ -69963,6 +72640,14 @@
         "source": "git-subdir",
         "url": "jongwony/cc-plugin",
         "path": "remote-tmux"
+      }
+    },
+    {
+      "name": "remotion-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "remotion-dev/remotion",
+        "path": "packages/claude-code-plugin"
       }
     },
     {
@@ -70676,6 +73361,14 @@
       }
     },
     {
+      "name": "research-to-deploy-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/research-to-deploy_20251020_080915"
+      }
+    },
+    {
       "name": "research-tools",
       "source": {
         "source": "git-subdir",
@@ -70814,6 +73507,14 @@
       }
     },
     {
+      "name": "resource-usage-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/resource-usage-tracker_20251020_080223"
+      }
+    },
+    {
       "name": "respeak",
       "source": {
         "source": "git-subdir",
@@ -70843,6 +73544,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/response-time-tracker"
+      }
+    },
+    {
+      "name": "response-time-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/response-time-tracker_20251020_074950"
       }
     },
     {
@@ -70891,6 +73600,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/api-development/rest-api-generator"
+      }
+    },
+    {
+      "name": "rest-api-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/rest-api-generator_20251019_201235"
+      }
+    },
+    {
+      "name": "rest-api-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/rest-api-generator_20251020_031852"
       }
     },
     {
@@ -71722,6 +74447,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-agency/roi-calculator"
+      }
+    },
+    {
+      "name": "roi-calculator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/roi-calculator_20251019_180508"
+      }
+    },
+    {
+      "name": "roi-calculator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/roi-calculator_20251020_021041"
       }
     },
     {
@@ -73635,6 +76376,14 @@
       }
     },
     {
+      "name": "search-to-slack-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/search-to-slack_20251020_080607"
+      }
+    },
+    {
       "name": "search-visibility",
       "source": {
         "source": "git-subdir",
@@ -73783,6 +76532,22 @@
       }
     },
     {
+      "name": "secret-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/secret-scanner_20251019_133635"
+      }
+    },
+    {
+      "name": "secret-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/secret-scanner_20251019_234851"
+      }
+    },
+    {
       "name": "secret-scanning",
       "source": {
         "source": "git-subdir",
@@ -73847,6 +76612,14 @@
       }
     },
     {
+      "name": "secrets-manager-integrator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/secrets-manager-integrator_20251020_064806"
+      }
+    },
+    {
       "name": "secrets-veil",
       "source": {
         "source": "git-subdir",
@@ -73900,6 +76673,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/examples/security-agent"
+      }
+    },
+    {
+      "name": "security-agent-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-agent_20251019_163445"
+      }
+    },
+    {
+      "name": "security-agent-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-agent_20251020_012159"
       }
     },
     {
@@ -73963,6 +76752,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-audit-reporter"
+      }
+    },
+    {
+      "name": "security-audit-reporter-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-audit-reporter_20251019_140138"
+      }
+    },
+    {
+      "name": "security-audit-reporter-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-audit-reporter_20251020_000142"
       }
     },
     {
@@ -74110,6 +76915,22 @@
       }
     },
     {
+      "name": "security-headers-analyzer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-headers-analyzer_20251019_143714"
+      }
+    },
+    {
+      "name": "security-headers-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-headers-analyzer_20251020_002102"
+      }
+    },
+    {
       "name": "security-headers-configuration",
       "source": {
         "source": "git-subdir",
@@ -74131,6 +76952,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/security-incident-responder"
+      }
+    },
+    {
+      "name": "security-incident-responder-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-incident-responder_20251019_134003"
+      }
+    },
+    {
+      "name": "security-incident-responder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-incident-responder_20251019_235040"
       }
     },
     {
@@ -74158,6 +76995,22 @@
       }
     },
     {
+      "name": "security-misconfiguration-finder-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-misconfiguration-finder_20251019_142251"
+      }
+    },
+    {
+      "name": "security-misconfiguration-finder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-misconfiguration-finder_20251020_001334"
+      }
+    },
+    {
       "name": "security-pro-pack",
       "source": {
         "source": "git-subdir",
@@ -74179,6 +77032,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/packages/security-pro-pack"
+      }
+    },
+    {
+      "name": "security-pro-pack-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-pro-pack_20251019_161642"
+      }
+    },
+    {
+      "name": "security-pro-pack-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-pro-pack_20251020_011228"
       }
     },
     {
@@ -74211,6 +77080,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/security-test-scanner"
+      }
+    },
+    {
+      "name": "security-test-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-test-scanner_20251019_144042"
+      }
+    },
+    {
+      "name": "security-test-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/security-test-scanner_20251020_002248"
       }
     },
     {
@@ -74548,6 +77433,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/sentiment-analysis-tool"
+      }
+    },
+    {
+      "name": "sentiment-analysis-tool-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sentiment-analysis-tool_20251019_190839"
+      }
+    },
+    {
+      "name": "sentiment-analysis-tool-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sentiment-analysis-tool_20251020_024426"
       }
     },
     {
@@ -74910,6 +77811,14 @@
       }
     },
     {
+      "name": "service-mesh-configurator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/service-mesh-configurator_20251020_065545"
+      }
+    },
+    {
       "name": "service-migration",
       "source": {
         "source": "git-subdir",
@@ -75246,6 +78155,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/session-security-checker"
+      }
+    },
+    {
+      "name": "session-security-checker-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/session-security-checker_20251019_134349"
+      }
+    },
+    {
+      "name": "session-security-checker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/session-security-checker_20251019_235217"
       }
     },
     {
@@ -76940,6 +79865,13 @@
       }
     },
     {
+      "name": "skillers-suda",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/skillers-suda"
+      }
+    },
+    {
       "name": "skilletor",
       "source": {
         "source": "github",
@@ -77099,6 +80031,22 @@
       }
     },
     {
+      "name": "skills-powerkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/skills-powerkit_20251019_164014"
+      }
+    },
+    {
+      "name": "skills-powerkit-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/skills-powerkit_20251020_012455"
+      }
+    },
+    {
       "name": "skills-registry",
       "source": {
         "source": "github",
@@ -77213,6 +80161,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/sla-sli-tracker"
+      }
+    },
+    {
+      "name": "sla-sli-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sla-sli-tracker_20251020_074609"
       }
     },
     {
@@ -77621,6 +80577,22 @@
       }
     },
     {
+      "name": "smoke-test-runner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/smoke-test-runner_20251019_155419"
+      }
+    },
+    {
+      "name": "smoke-test-runner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/smoke-test-runner_20251020_010032"
+      }
+    },
+    {
       "name": "snake",
       "source": {
         "source": "git-subdir",
@@ -77642,6 +80614,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/snapshot-test-manager"
+      }
+    },
+    {
+      "name": "snapshot-test-manager-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/snapshot-test-manager_20251019_153246"
+      }
+    },
+    {
+      "name": "snapshot-test-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/snapshot-test-manager_20251020_004929"
       }
     },
     {
@@ -77698,6 +80686,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/soc2-audit-helper"
+      }
+    },
+    {
+      "name": "soc2-audit-helper-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/soc2-audit-helper_20251019_140835"
+      }
+    },
+    {
+      "name": "soc2-audit-helper-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/soc2-audit-helper_20251020_000534"
       }
     },
     {
@@ -78116,6 +81120,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-agency/sow-generator"
+      }
+    },
+    {
+      "name": "sow-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sow-generator_20251019_175919"
+      }
+    },
+    {
+      "name": "sow-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sow-generator_20251020_020736"
       }
     },
     {
@@ -78919,6 +81939,38 @@
       }
     },
     {
+      "name": "sql-injection-detector-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-injection-detector_20251019_121248"
+      }
+    },
+    {
+      "name": "sql-injection-detector-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-injection-detector_20251019_121851"
+      }
+    },
+    {
+      "name": "sql-injection-detector-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-injection-detector_20251019_131404"
+      }
+    },
+    {
+      "name": "sql-injection-detector-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-injection-detector_20251019_233659"
+      }
+    },
+    {
       "name": "sql-query-optimizer",
       "source": {
         "source": "git-subdir",
@@ -78940,6 +81992,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/sql-query-optimizer"
+      }
+    },
+    {
+      "name": "sql-query-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/sql-query-optimizer_20251020_055446"
       }
     },
     {
@@ -79018,6 +82078,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/security/ssl-certificate-manager"
+      }
+    },
+    {
+      "name": "ssl-certificate-manager-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ssl-certificate-manager_20251019_141604"
+      }
+    },
+    {
+      "name": "ssl-certificate-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/ssl-certificate-manager_20251020_001007"
       }
     },
     {
@@ -79186,6 +82262,22 @@
       }
     },
     {
+      "name": "staking-rewards-optimizer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/staking-rewards-optimizer_20251019_222954"
+      }
+    },
+    {
+      "name": "staking-rewards-optimizer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/staking-rewards-optimizer_20251020_043134"
+      }
+    },
+    {
       "name": "stand",
       "source": {
         "source": "git-subdir",
@@ -79283,6 +82375,13 @@
         "source": "git-subdir",
         "url": "robsartin/claude-config",
         "path": "plugins/start-work"
+      }
+    },
+    {
+      "name": "starttoscale",
+      "source": {
+        "source": "github",
+        "repo": "stromy-org/starttoscale-plugin"
       }
     },
     {
@@ -79691,6 +82790,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/database/stored-procedure-generator"
+      }
+    },
+    {
+      "name": "stored-procedure-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/stored-procedure-generator_20251020_060847"
       }
     },
     {
@@ -80344,6 +83451,14 @@
       "source": {
         "source": "github",
         "repo": "smrafiz/claude-supercharger"
+      }
+    },
+    {
+      "name": "superclaude",
+      "source": {
+        "source": "git-subdir",
+        "url": "SuperClaude-Org/SuperClaude_Framework",
+        "path": "plugins/superclaude"
       }
     },
     {
@@ -81075,6 +84190,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/performance/synthetic-monitoring-setup"
+      }
+    },
+    {
+      "name": "synthetic-monitoring-setup-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/synthetic-monitoring-setup_20251020_071946"
       }
     },
     {
@@ -82527,6 +85650,14 @@
       }
     },
     {
+      "name": "terraform-module-builder-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/terraform-module-builder_20251020_065741"
+      }
+    },
+    {
       "name": "terraform-module-generation",
       "source": {
         "source": "git-subdir",
@@ -82647,6 +85778,22 @@
       }
     },
     {
+      "name": "test-coverage-analyzer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-coverage-analyzer_20251019_153640"
+      }
+    },
+    {
+      "name": "test-coverage-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-coverage-analyzer_20251020_005115"
+      }
+    },
+    {
       "name": "test-data-generator",
       "source": {
         "source": "git-subdir",
@@ -82671,6 +85818,22 @@
       }
     },
     {
+      "name": "test-data-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-data-generator_20251019_160202"
+      }
+    },
+    {
+      "name": "test-data-generator-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-data-generator_20251020_010452"
+      }
+    },
+    {
       "name": "test-doubles-generator",
       "source": {
         "source": "git-subdir",
@@ -82687,6 +85850,22 @@
       }
     },
     {
+      "name": "test-doubles-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-doubles-generator_20251019_154708"
+      }
+    },
+    {
+      "name": "test-doubles-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-doubles-generator_20251020_005635"
+      }
+    },
+    {
       "name": "test-environment-manager",
       "source": {
         "source": "git-subdir",
@@ -82700,6 +85879,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-environment-manager"
+      }
+    },
+    {
+      "name": "test-environment-manager-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-environment-manager_20251019_152100"
+      }
+    },
+    {
+      "name": "test-environment-manager-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-environment-manager_20251020_004310"
       }
     },
     {
@@ -82740,6 +85935,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-orchestrator"
+      }
+    },
+    {
+      "name": "test-orchestrator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-orchestrator_20251019_150248"
+      }
+    },
+    {
+      "name": "test-orchestrator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-orchestrator_20251020_003414"
       }
     },
     {
@@ -82788,6 +85999,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/test-report-generator"
+      }
+    },
+    {
+      "name": "test-report-generator-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-report-generator_20251019_144824"
+      }
+    },
+    {
+      "name": "test-report-generator-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/test-report-generator_20251020_002708"
       }
     },
     {
@@ -83223,6 +86450,14 @@
       }
     },
     {
+      "name": "throughput-analyzer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/throughput-analyzer_20251020_074801"
+      }
+    },
+    {
       "name": "thryx",
       "source": {
         "source": "git-subdir",
@@ -83368,6 +86603,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/ai-ml/time-series-forecaster"
+      }
+    },
+    {
+      "name": "time-series-forecaster-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/time-series-forecaster_20251019_181747"
+      }
+    },
+    {
+      "name": "time-series-forecaster-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/time-series-forecaster_20251020_021723"
       }
     },
     {
@@ -83746,6 +86997,22 @@
       }
     },
     {
+      "name": "token-launch-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/token-launch-tracker_20251019_221749"
+      }
+    },
+    {
+      "name": "token-launch-tracker-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/token-launch-tracker_20251020_042421"
+      }
+    },
+    {
       "name": "token-optimizator",
       "source": {
         "source": "github",
@@ -83811,6 +87078,14 @@
       "source": {
         "source": "github",
         "repo": "hybridlabor-api/heimdall-token-saver"
+      }
+    },
+    {
+      "name": "token-saver-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "hybridlabor-api/bdb-dev-tool-installer",
+        "path": "tools/token-saver"
       }
     },
     {
@@ -84408,6 +87683,14 @@
       }
     },
     {
+      "name": "trading-strategy-backtester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/trading-strategy-backtester_20251020_051623"
+      }
+    },
+    {
       "name": "tradingview",
       "source": {
         "source": "git-subdir",
@@ -84531,6 +87814,22 @@
       }
     },
     {
+      "name": "transfer-learning-adapter-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/transfer-learning-adapter_20251019_183602"
+      }
+    },
+    {
+      "name": "transfer-learning-adapter-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/transfer-learning-adapter_20251020_022656"
+      }
+    },
+    {
       "name": "transformations",
       "source": {
         "source": "git-subdir",
@@ -84607,6 +87906,38 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/productivity/travel-assistant"
+      }
+    },
+    {
+      "name": "travel-assistant-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/travel-assistant_20251019_120520"
+      }
+    },
+    {
+      "name": "travel-assistant-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/travel-assistant_20251019_121152"
+      }
+    },
+    {
+      "name": "travel-assistant-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/travel-assistant_20251019_130711"
+      }
+    },
+    {
+      "name": "travel-assistant-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/travel-assistant_20251019_233331"
       }
     },
     {
@@ -85483,6 +88814,14 @@
       }
     },
     {
+      "name": "ui-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "shironigun/claude-marketplace",
+        "path": "plugins/ui-testing"
+      }
+    },
+    {
       "name": "ui-text-pack",
       "source": {
         "source": "git-subdir",
@@ -85918,6 +89257,22 @@
       }
     },
     {
+      "name": "unit-test-generator-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/unit-test-generator_20251019_155749"
+      }
+    },
+    {
+      "name": "unit-test-generator-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/unit-test-generator_20251020_010223"
+      }
+    },
+    {
       "name": "unit-testing",
       "source": {
         "source": "git-subdir",
@@ -86287,6 +89642,14 @@
       "source": {
         "source": "github",
         "repo": "sanket-naik/usesignal-claude-plugin"
+      }
+    },
+    {
+      "name": "using-localstack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/using-localstack-plugin",
+        "path": "plugins/using-localstack-plugin"
       }
     },
     {
@@ -87202,6 +90565,13 @@
       }
     },
     {
+      "name": "vibe-sunsang",
+      "source": {
+        "source": "github",
+        "repo": "fivetaku/vibe-sunsang"
+      }
+    },
+    {
       "name": "vibe-testing",
       "source": {
         "source": "github",
@@ -87616,6 +90986,22 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/testing/visual-regression-tester"
+      }
+    },
+    {
+      "name": "visual-regression-tester-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/visual-regression-tester_20251019_160526"
+      }
+    },
+    {
+      "name": "visual-regression-tester-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/visual-regression-tester_20251020_010648"
       }
     },
     {
@@ -88275,6 +91661,22 @@
       }
     },
     {
+      "name": "vulnerability-scanner-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/vulnerability-scanner_20251019_135039"
+      }
+    },
+    {
+      "name": "vulnerability-scanner-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/vulnerability-scanner_20251019_235604"
+      }
+    },
+    {
       "name": "vulnerability-scanning",
       "source": {
         "source": "git-subdir",
@@ -88386,6 +91788,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/crypto/wallet-portfolio-tracker"
+      }
+    },
+    {
+      "name": "wallet-portfolio-tracker-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/wallet-portfolio-tracker_20251020_051436"
       }
     },
     {
@@ -89012,6 +92422,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-community/plugins/skill-enhancers/web-to-github-issue"
+      }
+    },
+    {
+      "name": "web-to-github-issue-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "jeremylongshore/plugins-nixtla",
+        "path": "010-archive/backups-20251108/plugin-enhancements/plugin-backups/web-to-github-issue_20251020_081058"
       }
     },
     {

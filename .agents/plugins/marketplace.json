@@ -2062,6 +2062,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ai4comms",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stromy-org/ai4comms-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "aiboarding",
       "source": {
         "source": "git-subdir",
@@ -4327,6 +4339,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/community-plugins.git",
         "path": "./plugins/autodesk-fusion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "automating-mac-apps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/automating-mac-apps-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8877,6 +8901,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claudesign",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Claudate/claudesign.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "clay",
       "source": {
         "source": "git-subdir",
@@ -9798,6 +9834,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/yujiachen-y/codebase-recon-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codebase-wizard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/codebase-mentor.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12042,6 +12090,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "creating-zola-static-sites",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/creating-zola-static-sites-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "creative-production",
       "source": {
         "source": "git-subdir",
@@ -12313,6 +12373,19 @@
         "source": "git-subdir",
         "url": "https://github.com/cyberuni/cyber-asana.git",
         "path": "./packages/cyber-asana"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cyber-figma",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyber-figma.git",
+        "path": "./packages/cyber-figma"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19701,6 +19774,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "gridgeist",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ohmiler/gridgeist.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "grill-with-docs",
       "source": {
         "source": "git-subdir",
@@ -25600,6 +25685,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mastering-python-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/mastering-python-skill-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "masterplan",
       "source": {
         "source": "url",
@@ -28147,6 +28244,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nomo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KarrixLee/nomo.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "noootwo-vibe",
       "source": {
         "source": "url",
@@ -28509,6 +28619,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NVIDIA/nvidia-kaggle.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nvidia-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NVIDIA/skills.git",
+        "path": "./plugins/nvidia-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29371,6 +29494,18 @@
         "source": "git-subdir",
         "url": "https://github.com/williamwue/oh-my-stack.git",
         "path": "./packages/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ohmyjev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Novacon/ohmyjev.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31164,6 +31299,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/picsart"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pigeon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dx-corp/pigeon.git",
+        "path": "./plugins/pigeon"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34310,6 +34458,18 @@
         "source": "git-subdir",
         "url": "https://github.com/trojanbox/agent-plugin-marketplace.git",
         "path": "./plugins/reasoning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rebeca-elmudesi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stromy-org/rebeca-elmudesi-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -43785,6 +43945,18 @@
         "source": "git-subdir",
         "url": "https://github.com/patrickdappollonio/claude-plugins.git",
         "path": "./plugins/use-premium-models-efficiently"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "using-localstack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/using-localstack-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1020,6 +1020,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-mail",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pauljunsukhan/codex-power-utils.git",
+        "path": "./plugins/agent-mail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-notifier",
       "source": {
         "source": "git-subdir",
@@ -3370,6 +3383,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "apple-agent-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/neonwatty/apple-agent-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "apple-calendar",
       "source": {
         "source": "git-subdir",
@@ -5131,6 +5156,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "azure-sql-database-container",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/microsoft/azure-sql-database-container.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "azure-tools",
       "source": {
         "source": "git-subdir",
@@ -5263,6 +5300,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Extelligence-ai/bagel.git",
         "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ballast",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/svy04/ballast.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -6780,6 +6829,30 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/build-web-data-visualization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "building-with-decision-models",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/building-with-decision-models.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "building-with-typesafe-jev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/building-with-typesafe-jev.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8622,6 +8695,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-agent-sdk-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/claude-agent-sdk-ager.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code",
       "source": {
         "source": "git-subdir",
@@ -8640,6 +8725,18 @@
         "source": "git-subdir",
         "url": "https://github.com/iicmaster/claude-plugin-for-codex.git",
         "path": "./plugins/claude-code-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-code-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/claude-code-ager.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8728,6 +8825,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Filip-Podstavec/claude-leverage.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "claude-managed-agents-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/claude-managed-agents-ager.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8968,6 +9077,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/scratchpad-ai/clearskies-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cli-agent-evals",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/cli-agent-evals.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10031,6 +10152,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/codex-ager.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-attachment-manager",
       "source": {
         "source": "git-subdir",
@@ -10061,6 +10194,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Vivswan/skills.git",
         "path": "./skills/codex-browser-fix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-build",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cathrynlavery/codex-build.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10316,6 +10461,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ifBars/codex-memory.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-memory-brain",
       "source": {
         "source": "url",
@@ -10410,6 +10567,19 @@
         "source": "git-subdir",
         "url": "https://github.com/detunized/codex-peasant.git",
         "path": "./plugins/codex-peasant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-pr-review-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/neonwatty/codex-pr-review-toolkit.git",
+        "path": "./plugins/codex-pr-review-toolkit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10959,6 +11129,18 @@
         "source": "git-subdir",
         "url": "https://github.com/cohesivity-org/cohesivity-plugin.git",
         "path": "./packages/codex/plugins/cohesivity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cometchat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cometchat/docs-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11602,6 +11784,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "contrarian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/contrarian.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "contribute",
       "source": {
         "source": "git-subdir",
@@ -12140,6 +12334,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "crewai-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/crewai-ager.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "crit",
       "source": {
         "source": "git-subdir",
@@ -12195,6 +12401,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/fusion-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "crucible",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/crucible.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12380,6 +12598,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cyber-agent-harness",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/agent-harness.git",
+        "path": "./packages/agent-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cyber-asana",
       "source": {
         "source": "git-subdir",
@@ -12419,6 +12650,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cyberfleet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cyberfleet.git",
+        "path": "./packages/cyberfleet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "cyberlegion",
       "source": {
         "source": "git-subdir",
@@ -12437,6 +12681,19 @@
         "source": "git-subdir",
         "url": "https://github.com/secondsky/claude-skills.git",
         "path": "./plugins/cybersecurity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cynapse",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cyberuni/cynapse.git",
+        "path": "./packages/cynapse"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14103,6 +14360,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "diagram-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cathrynlavery/diagram-design.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dibs",
       "source": {
         "source": "git-subdir",
@@ -14759,6 +15028,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/DooJ/doon-general.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dopamine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ujjwalredd/Dopamine.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17617,6 +17898,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "foundry-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/galaxyproject/foundry-pattern.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "foundry-skills",
       "source": {
         "source": "git-subdir",
@@ -17905,6 +18199,19 @@
         "source": "git-subdir",
         "url": "https://github.com/smartwatermelon/claude-code-workflows-agents.git",
         "path": "./plugins/functional-programming"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "funes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/huggingface/funes-integrations.git",
+        "path": "./codex/codex-plugin/plugins/funes"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19209,6 +19516,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "goal-setter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gotalab/goal-setter-skill.git",
+        "path": "./plugins/goal-setter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "goaljaby-codex",
       "source": {
         "source": "git-subdir",
@@ -19315,6 +19635,18 @@
         "source": "git-subdir",
         "url": "https://github.com/sumik5/sumik-llm-plugin.git",
         "path": "./plugins/google"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-adk-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/google-adk-ager.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19862,6 +20194,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "grok-build-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/grok-build-ager.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "grok-build-supervisor",
       "source": {
         "source": "git-subdir",
@@ -20378,6 +20722,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hei5enbug/hei5enbug-agent-setup.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "heliox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/heliohq/marketplace.git",
+        "path": "./heliox"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21467,6 +21824,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "idiolect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/idiolect.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "idle-skills",
       "source": {
         "source": "url",
@@ -22445,6 +22814,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "ix-flow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-ix/ix-flow.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "jam",
       "source": {
         "source": "git-subdir",
@@ -22787,6 +23168,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Falconiere/toolu.git",
         "path": "./plugins/jira"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "jitx-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JITx-Inc/jitx-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23765,11 +24158,35 @@
       "category": "Developer Tools"
     },
     {
+      "name": "langchain-deep-agents-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/langchain-deep-agents-ager.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "langfuse",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/avivsinai/skills-marketplace.git",
         "path": "./plugins/langfuse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "langgraph-ager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/langgraph-ager.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24725,6 +25142,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/J-ChenX/longtask.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "looker-conversational-analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/looker-conversational-analytics.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25782,6 +26211,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "mathtuber",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nagisanzenin/MathTuber.git",
+        "path": "./plugins/mathtuber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "matlab-agentic-toolkit",
       "source": {
         "source": "url",
@@ -26377,6 +26819,18 @@
         "source": "git-subdir",
         "url": "https://github.com/paat/claude-plugins.git",
         "path": "./plugins/merge-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mergify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Mergifyio/mergify-cli.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27020,6 +27474,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/moda-design/moda.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "modal-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/modal-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27759,6 +28225,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "nemo-relay-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NVIDIA/NeMo-Relay.git",
+        "path": "./integrations/coding-agents/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "neo4j-skills",
       "source": {
         "source": "url",
@@ -28349,6 +28828,18 @@
         "source": "git-subdir",
         "url": "https://github.com/udaysharmadev/Not-Ai.git",
         "path": "./plugins/not-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "notebooklm-ai-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/proyecto26/notebooklm-ai-plugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29666,6 +30157,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/ZXY1240/read-image"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "omniplugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/omniplugin.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -31132,6 +31635,18 @@
         "source": "git-subdir",
         "url": "https://github.com/Jamie-BitFlight/claude_skills.git",
         "path": "./plugins/perl-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "perplexity-platform",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perplexityai/api-platform-developers.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32868,6 +33383,18 @@
         "source": "git-subdir",
         "url": "https://github.com/alvis/.agents.git",
         "path": "./plugins/production"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "production-grade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/production-grade.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35926,6 +36453,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "rune",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rune-kit/rune.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "runtype-skills",
       "source": {
         "source": "git-subdir",
@@ -37068,6 +37607,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scripting-blender-scenes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aaddrick/scripting-blender-scenes.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scriptseen-codex",
       "source": {
         "source": "git-subdir",
@@ -37276,6 +37827,18 @@
         "source": "git-subdir",
         "url": "https://github.com/vouchington/vouchington-tooling.git",
         "path": "./plugins/security-triage"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "seed-protocol",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/seed-protocol.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38126,6 +38689,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "sherlock-ai-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/proyecto26/sherlock-ai-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "sherlock-report",
       "source": {
         "source": "git-subdir",
@@ -38687,6 +39262,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/jmqbataller/SiteProof.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sketch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sketch-hq/agents.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -39911,6 +40498,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spillwave-ui-guard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpillwaveSolutions/spillwave-ui-guard.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spine-platform-swift",
       "source": {
         "source": "url",
@@ -40080,6 +40679,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/danh121097/squad-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sre-extension",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gemini-cli-extensions/sre.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -40423,6 +41034,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/streak"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "strictlybetter",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nagisanzenin/strictlybetter.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -40787,6 +41410,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/superself"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "supply-chain-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kishorkukreja/awesome-supply-chain.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -43202,6 +43837,19 @@
         "source": "git-subdir",
         "url": "https://github.com/atheonxyz/trinity-capture.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "trtmc-agent-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NVIDIA/TensorRT-Model-Connect.git",
+        "path": "./plugins/trtmc-agent-skills"
       },
       "policy": {
         "installation": "AVAILABLE",

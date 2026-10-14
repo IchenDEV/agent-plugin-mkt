@@ -1533,6 +1533,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tyroneross/agent-builder-studio.git",
+        "path": "./apps/agent-builder/plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-bundle-codex-smoke",
       "source": {
         "source": "git-subdir",
@@ -1628,6 +1641,18 @@
         "source": "git-subdir",
         "url": "https://github.com/open-coder-ai/chock-codex-plugins.git",
         "path": "./codex/agent-discipline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-doe-engine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/agent-doe-engine.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1940,6 +1965,18 @@
         "source": "git-subdir",
         "url": "https://github.com/dashed/claude-marketplace.git",
         "path": "./plugins/agent-skill-init"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-skillopt",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/naipi11/Agent-SkillOpt.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2294,6 +2331,19 @@
         "source": "git-subdir",
         "url": "https://github.com/sickn33/agentic-awesome-skills.git",
         "path": "./plugins/agentic-awesome-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agentic-compact",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rycen7822/agentic-compact.git",
+        "path": "./plugins/agentic-compact"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4198,6 +4248,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "apple-a-day",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/apple-a-day"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "apple-agent-kit",
       "source": {
         "source": "url",
@@ -5173,6 +5236,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "autocad-cua",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BhaveshY/autocad-cua.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "autocad-tianzheng-tools",
       "source": {
         "source": "git-subdir",
@@ -5203,6 +5278,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SpillwaveSolutions/automating-mac-apps-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "automation-mining",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/n8n-io/automation-mining-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -7472,6 +7559,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "browser-autonomy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/browser-autonomy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "browser-extensions",
       "source": {
         "source": "git-subdir",
@@ -7981,6 +8081,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "canon",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/canon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "canva",
       "source": {
         "source": "git-subdir",
@@ -8075,6 +8188,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/carta-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cartwright",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/cartwright"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8420,6 +8546,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/majesticlabs-dev/ceo-personal-os.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cept",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/cept"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -9231,6 +9370,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "chip-contract",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lavallee/chip.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "chisle",
       "source": {
         "source": "url",
@@ -9583,6 +9734,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-bingo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lavallee/claude-bingo.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-code",
       "source": {
         "source": "git-subdir",
@@ -9783,6 +9946,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "claude-patent-creator-cn",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zhjnerv/claude-patent-creator-cn.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "claude-plus",
       "source": {
         "source": "git-subdir",
@@ -9902,6 +10077,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Claudate/claudesign.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "clawdflare",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/clawdflare"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -10604,6 +10792,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "cocos-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HappyLifeOk/cocos-mcp-gateway.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "code",
       "source": {
         "source": "git-subdir",
@@ -11165,6 +11365,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "codex-claude-desktop-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KeeVeeG/codex-claude-desktop-bridge.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "codex-codecollab",
       "source": {
         "source": "git-subdir",
@@ -11415,6 +11627,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ccycv/codex-memory-brain.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-meshy-multiview",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/KeeVeeG/codex-meshy-multiview.git",
+        "path": "./plugins/codex-meshy-multiview"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11983,6 +12208,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "coding-debugger",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/claude-code-debugger.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "coding-directive",
       "source": {
         "source": "git-subdir",
@@ -12364,6 +12601,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "computer-use",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mirsella/computer-use-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "concise",
       "source": {
         "source": "git-subdir",
@@ -12394,6 +12643,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Baelfyre/Orchestra.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "conduit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/conduit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -12784,6 +13046,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "converge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/converge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "convex",
       "source": {
         "source": "git-subdir",
@@ -12827,6 +13102,18 @@
         "source": "git-subdir",
         "url": "https://github.com/itsjavi/skills.git",
         "path": "./plugins/coolify"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "copilot-al-configs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hyzaDan/copilot-al-configs.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -14211,6 +14498,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "deepscientist-codex",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rycen7822/DeepScientist-hermes.git",
+        "path": "./DeepScientist-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "deepseek-minimal-anchor",
       "source": {
         "source": "git-subdir",
@@ -14307,6 +14607,18 @@
         "source": "git-subdir",
         "url": "https://github.com/vshulcz/deja-vu.git",
         "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dejared",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hqkh4nh/dejared-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16469,6 +16781,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "droptrack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/droptrack/droptrack-ai-integrations.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "dryforge",
       "source": {
         "source": "git-subdir",
@@ -16712,6 +17036,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/saibodafu/e-commerce-skill.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eai-gofer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eai-support/eai-gofer.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17041,6 +17377,71 @@
       "category": "Developer Tools"
     },
     {
+      "name": "eidos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/eidos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eidos-mail",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/eidos-mail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eidos-plugin-store",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/eidos-plugin-store"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eidos-skills-hub",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/eidos-skills-hub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eidos-storemetheus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/eidos-storemetheus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "ejentum",
       "source": {
         "source": "git-subdir",
@@ -17148,6 +17549,19 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/ohad6k/ditto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "emux",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/emux"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18150,6 +18564,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "felix",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/felix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "festival",
       "source": {
         "source": "git-subdir",
@@ -18860,6 +19287,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "forge-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/forge-forge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "forgekit",
       "source": {
         "source": "url",
@@ -18954,6 +19394,18 @@
         "source": "git-subdir",
         "url": "https://github.com/hashgraph-online/awesome-codex-plugins.git",
         "path": "./plugins/Dkm0315/frappe-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "freecontext",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rycen7822/FreeContext.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21559,6 +22011,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "happycodex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cch96/happycodex.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "harlan-agent-kit",
       "source": {
         "source": "git-subdir",
@@ -21855,6 +22319,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hephaestus",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/hephaestus.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hera-godot",
       "source": {
         "source": "git-subdir",
@@ -21886,6 +22362,18 @@
         "source": "git-subdir",
         "url": "https://github.com/FunnyQ/cc-plugins.git",
         "path": "./packages/herdr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "herdr-agent-messenger",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aashishd/herdr-agent-messenger.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22660,6 +23148,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "hvenvloader",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tanitta/hvenvloader.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "hxm",
       "source": {
         "source": "git-subdir",
@@ -22779,6 +23279,18 @@
         "source": "git-subdir",
         "url": "https://github.com/jongwony/epistemic-protocols.git",
         "path": "./hypotyposis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hypr-agent-portal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gfhdhytghd/Hypr-Agent-Portal.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -22976,6 +23488,19 @@
         "source": "git-subdir",
         "url": "https://github.com/firstdebug/iflytek-digital-human.git",
         "path": "./plugins/iflytek-digital-human"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ike",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/ike"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23292,6 +23817,18 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/infra-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "init-deep",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mzored/init-deep.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -23687,6 +24224,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/feder-cr/invisible_playwright_mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ioncache-ai-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ioncache/ioncache-ai-tools.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24601,6 +25150,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kai",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/kai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "kairos-forge",
       "source": {
         "source": "url",
@@ -24630,6 +25192,18 @@
         "source": "git-subdir",
         "url": "https://github.com/JoFe2/KaleidoSphere.git",
         "path": "./packages/codex/kaleidosphere"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kalinichenko",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kalinichenko88/agent-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -24965,6 +25539,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "knox",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/knox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "knuaf-doc",
       "source": {
         "source": "url",
@@ -25190,6 +25777,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "kristofferarn-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kristofferarn/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "krypton",
       "source": {
         "source": "git-subdir",
@@ -25221,6 +25820,18 @@
         "source": "git-subdir",
         "url": "https://github.com/wshobson/agents.git",
         "path": "./plugins/kubernetes-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kvasir-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rycen7822/Kvasir-agent.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -25705,6 +26316,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "lever",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/lever"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "levistack",
       "source": {
         "source": "url",
@@ -25838,6 +26462,19 @@
         "source": "git-subdir",
         "url": "https://github.com/k1-c/linear-tui.git",
         "path": "./agent-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linearplus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/linearplus"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -26174,6 +26811,54 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TokenRollAI/llmdoc.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loam",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vivshaw/loam.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loam-code",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vivshaw/loam-code.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loam-meta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vivshaw/loam-meta.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "loam-research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vivshaw/loam-research.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -27296,6 +27981,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "master-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sinhoneyy/master-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "mastering-aws-cdk",
       "source": {
         "source": "url",
@@ -27709,6 +28406,19 @@
         "source": "git-subdir",
         "url": "https://github.com/lukaskellerstein/codex-my-marketplace.git",
         "path": "./plugins/media-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "meeting2action",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/meeting2action"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -28262,6 +28972,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "minimal-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/naipi11/Agent-SkillOpt.git",
+        "path": "./tests/fixtures/minimal-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "minimax-design",
       "source": {
         "source": "url",
@@ -28620,6 +29343,18 @@
         "source": "git-subdir",
         "url": "https://github.com/secondsky/claude-skills.git",
         "path": "./plugins/mobile-offline-support"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mockup-gallery",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/mockup-gallery.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29333,6 +30068,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "navgator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/NavGator.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nax-spec-kit",
       "source": {
         "source": "url",
@@ -29897,6 +30644,18 @@
         "source": "git-subdir",
         "url": "https://github.com/machamp0714/nod.git",
         "path": "./plugins/nod"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nodal-analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nodal-data/nodal-context.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32548,6 +33307,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pavo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/pavo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "paws",
       "source": {
         "source": "url",
@@ -32675,6 +33447,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "pdf-plan-stamping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BhaveshY/pdf-plan-stamping.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pdf-skills",
       "source": {
         "source": "git-subdir",
@@ -32729,6 +33513,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/JinyangWang27/people-context.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "people-memory-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/michelgrolet/people-memory-mcp.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34431,6 +35227,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "probe-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/probe-forge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "probitas",
       "source": {
         "source": "git-subdir",
@@ -34590,6 +35399,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nagisanzenin/production-grade.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "profai-graph-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KlingofhustleGH/profai-graph-review.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -34871,6 +35692,18 @@
         "source": "git-subdir",
         "url": "https://github.com/whichguy/skill-craft.git",
         "path": "./plugins/prompt-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "prompt-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/prompt-builder.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35991,6 +36824,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "railguey",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/railguey.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "railway",
       "source": {
         "source": "git-subdir",
@@ -36716,6 +37561,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "replit-migrate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/replit-migrate.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "repo",
       "source": {
         "source": "git-subdir",
@@ -36954,6 +37811,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "research-md",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/research-md"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "research-skills",
       "source": {
         "source": "git-subdir",
@@ -37072,6 +37942,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/resume"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "resume-resume",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/resume-resume"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37247,11 +38130,37 @@
       "category": "Developer Tools"
     },
     {
+      "name": "revit-mcp-next",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BhaveshY/revit-mcp-next.git",
+        "path": "./plugins/codex/revit-mcp-next"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "rf",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/fab7hq/fab7.git",
         "path": "./products/ringframe/plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rhea",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/rhea"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -37468,6 +38377,18 @@
         "source": "git-subdir",
         "url": "https://github.com/robotcodedev/robotframework-agent-plugins.git",
         "path": "./plugins/robotcode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rombot-community-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/romiluz13/rombot-community-skill.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38861,6 +39782,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "scientific-research-scaffold",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/polarizetech/scientific-research-scaffold.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "scite",
       "source": {
         "source": "git-subdir",
@@ -38891,6 +39824,19 @@
         "source": "git-subdir",
         "url": "https://github.com/screenrig/plugin.git",
         "path": "./plugins/screenrig"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "scridos",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/scridos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -40157,6 +41103,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "shipr",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/shipr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "shipreport",
       "source": {
         "source": "git-subdir",
@@ -40289,6 +41248,18 @@
         "source": "git-subdir",
         "url": "https://github.com/fivetaku/gptaku-plugins-codex.git",
         "path": "./plugins/show-me-the-prd-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "showcase",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/showcase.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -40973,6 +41944,19 @@
         "source": "git-subdir",
         "url": "https://github.com/natejswenson/claude-skills.git",
         "path": "./skills/skillhelp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "skillopt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/skillopt"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -41864,6 +42848,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "spindle",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lavallee/spindle.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "spine-platform-swift",
       "source": {
         "source": "url",
@@ -42045,6 +43041,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/sre.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "srs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/michelgrolet/srs.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -42521,6 +43529,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "structured-artifact-viewer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rycen7822/Structured-Artifact-Viewer.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "structured-data-analysis",
       "source": {
         "source": "git-subdir",
@@ -42616,6 +43636,18 @@
         "source": "git-subdir",
         "url": "https://github.com/juew/subagent-orchestration.git",
         "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "subagent-pi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rycen7822/subagent-pi.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -44460,6 +45492,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "threat-modeler",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tyroneross/threat-modeler.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "three-axes-framework",
       "source": {
         "source": "git-subdir",
@@ -44868,6 +45913,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "tokut",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/tokut.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "tool-advisor",
       "source": {
         "source": "git-subdir",
@@ -45025,6 +46082,18 @@
         "source": "git-subdir",
         "url": "https://github.com/TracecatHQ/tracecat-plugins.git",
         "path": "./plugins/tracecat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tracecheck",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bmccarn/tracecheck.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -46319,6 +47388,19 @@
       "category": "Developer Tools"
     },
     {
+      "name": "vectorworks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/BhaveshY/vectorworks-mcp.git",
+        "path": "./plugins/vectorworks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "vekayinuvis",
       "source": {
         "source": "git-subdir",
@@ -46757,6 +47839,19 @@
         "source": "git-subdir",
         "url": "https://github.com/pleaseai/claude-code-plugins.git",
         "path": "./plugins/vinext"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "visionlog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/visionlog"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -47481,6 +48576,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-scraper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tyroneross/blog-content-scraper.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-search-dev",
       "source": {
         "source": "git-subdir",
@@ -47586,6 +48693,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Wefunder/agent-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "well-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/WellApp-ai/skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -47816,6 +48935,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/LilMGenius/win-hooks.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "windows-cua",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BhaveshY/windows-cua.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -48912,6 +50043,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "zine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/smilewilson1999/zine.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "zmem",
       "source": {
         "source": "url",
@@ -48942,6 +50085,19 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/zoho"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zoltar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eidos-agi/eidos-marketplace.git",
+        "path": "./plugins/zoltar"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -2008,6 +2008,22 @@
       }
     },
     {
+      "name": "aeo-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-ai-agent-builder/skills/aeo"
+      }
+    },
+    {
+      "name": "aeo-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "skills/aeo"
+      }
+    },
+    {
       "name": "aeo-geo-analyzer",
       "source": {
         "source": "git-subdir",
@@ -2250,6 +2266,30 @@
       }
     },
     {
+      "name": "agent-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/RossLabs-AI-Toolkit",
+        "path": "skills/agent-builder"
+      }
+    },
+    {
+      "name": "agent-builder-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/agent-builder-studio",
+        "path": "apps/agent-builder/plugin"
+      }
+    },
+    {
+      "name": "agent-builder-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/agent-builder",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "agent-bundle-native-smoke",
       "source": {
         "source": "git-subdir",
@@ -2464,6 +2504,13 @@
       "source": {
         "source": "github",
         "repo": "nahid-sparktales/agent-dispatcher"
+      }
+    },
+    {
+      "name": "agent-doe-engine",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/agent-doe-engine"
       }
     },
     {
@@ -2829,6 +2876,13 @@
       }
     },
     {
+      "name": "agent-rally-watcher",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/agent-rally-watcher"
+      }
+    },
+    {
       "name": "agent-reachout",
       "source": {
         "source": "github",
@@ -3026,6 +3080,13 @@
         "source": "git-subdir",
         "url": "hermes-labs-ai/agent-signage",
         "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "agent-skillopt",
+      "source": {
+        "source": "github",
+        "repo": "naipi11/Agent-SkillOpt"
       }
     },
     {
@@ -5638,6 +5699,13 @@
       }
     },
     {
+      "name": "amq-cli-3",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/agent-message-queue"
+      }
+    },
+    {
       "name": "analise-e-projetos",
       "source": {
         "source": "git-subdir",
@@ -6324,6 +6392,14 @@
         "source": "git-subdir",
         "url": "talas9/anti-hall",
         "path": "plugins/anti-hall"
+      }
+    },
+    {
+      "name": "anti-slop",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/anti-slop"
       }
     },
     {
@@ -7498,6 +7574,13 @@
       }
     },
     {
+      "name": "api-registry",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/api-registry"
+      }
+    },
+    {
       "name": "api-request-logger",
       "source": {
         "source": "git-subdir",
@@ -8233,6 +8316,14 @@
       }
     },
     {
+      "name": "apple-a-day",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/apple-a-day"
+      }
+    },
+    {
       "name": "apple-agent-kit",
       "source": {
         "source": "github",
@@ -8635,6 +8726,13 @@
         "source": "git-subdir",
         "url": "athola/claude-night-market",
         "path": "plugins/archetypes"
+      }
+    },
+    {
+      "name": "archfence",
+      "source": {
+        "source": "github",
+        "repo": "mushhzz/archfence"
       }
     },
     {
@@ -10265,6 +10363,13 @@
         "source": "git-subdir",
         "url": "SpillwaveSolutions/automating-mac-apps-plugin",
         "path": "plugins/automating-mac-apps-plugin"
+      }
+    },
+    {
+      "name": "automation-mining",
+      "source": {
+        "source": "github",
+        "repo": "n8n-io/automation-mining-skill"
       }
     },
     {
@@ -12553,6 +12658,13 @@
       }
     },
     {
+      "name": "bkt-3",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/bitbucket-cli"
+      }
+    },
+    {
       "name": "black-box-unlock",
       "source": {
         "source": "github",
@@ -13916,6 +14028,14 @@
       }
     },
     {
+      "name": "browser-autonomy",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/browser-autonomy"
+      }
+    },
+    {
       "name": "browser-bugs",
       "source": {
         "source": "git-subdir",
@@ -14203,6 +14323,14 @@
       "source": {
         "source": "github",
         "repo": "tyroneross/build-loop"
+      }
+    },
+    {
+      "name": "build-loop-auto-research",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/RossLabs-AI-Toolkit",
+        "path": "archive/build-loop-auto-research"
       }
     },
     {
@@ -15052,6 +15180,14 @@
       }
     },
     {
+      "name": "canon-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/canon"
+      }
+    },
+    {
       "name": "canva-4",
       "source": {
         "source": "git-subdir",
@@ -15418,6 +15554,14 @@
         "source": "git-subdir",
         "url": "athola/claude-night-market",
         "path": "plugins/cartograph"
+      }
+    },
+    {
+      "name": "cartwright",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/cartwright"
       }
     },
     {
@@ -15811,6 +15955,14 @@
       }
     },
     {
+      "name": "cc-p4p",
+      "source": {
+        "source": "git-subdir",
+        "url": "romiluz13/cc-p4p",
+        "path": "plugins/cc-p4p"
+      }
+    },
+    {
       "name": "cc-plugin",
       "source": {
         "source": "git-subdir",
@@ -15882,6 +16034,14 @@
       "source": {
         "source": "github",
         "repo": "xiaolai/cc-suite"
+      }
+    },
+    {
+      "name": "cc-teams",
+      "source": {
+        "source": "git-subdir",
+        "url": "romiluz13/cc-teams",
+        "path": "plugins/cc-teams"
       }
     },
     {
@@ -16062,6 +16222,14 @@
         "source": "git-subdir",
         "url": "ccplugins/awesome-claude-code-plugins",
         "path": "plugins/ceo-quality-controller-agent"
+      }
+    },
+    {
+      "name": "cept",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/cept"
       }
     },
     {
@@ -16959,6 +17127,13 @@
       }
     },
     {
+      "name": "chip-contract",
+      "source": {
+        "source": "github",
+        "repo": "lavallee/chip"
+      }
+    },
+    {
       "name": "chiropractic-practice",
       "source": {
         "source": "git-subdir",
@@ -17648,6 +17823,13 @@
         "source": "git-subdir",
         "url": "777genius/universal-agent-plugins",
         "path": "examples/plugins/claude-basic-prod"
+      }
+    },
+    {
+      "name": "claude-bingo",
+      "source": {
+        "source": "github",
+        "repo": "lavallee/claude-bingo"
       }
     },
     {
@@ -18346,6 +18528,14 @@
       }
     },
     {
+      "name": "claude-mem-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "Unity-Billal-mesloub/claude-Unity-Billal-mesloub",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "claude-mem-cowork",
       "source": {
         "source": "git-subdir",
@@ -18513,6 +18703,21 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/claude-pack"
+      }
+    },
+    {
+      "name": "claude-patent-creator-cn",
+      "source": {
+        "source": "github",
+        "repo": "zhjnerv/claude-patent-creator-cn"
+      }
+    },
+    {
+      "name": "claude-patent-creator-cn-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "zhjnerv/myskill",
+        "path": "vendor/claude-patent-creator-cn"
       }
     },
     {
@@ -19026,6 +19231,14 @@
         "source": "git-subdir",
         "url": "FunnyQ/cc-plugins",
         "path": "packages/clawd"
+      }
+    },
+    {
+      "name": "clawdflare",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/clawdflare"
       }
     },
     {
@@ -21075,6 +21288,21 @@
       }
     },
     {
+      "name": "codex-claude-desktop-bridge",
+      "source": {
+        "source": "github",
+        "repo": "KeeVeeG/codex-claude-desktop-bridge"
+      }
+    },
+    {
+      "name": "codex-claude-desktop-bridge-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "KeeVeeG/codex-claude-desktop-bridge",
+        "path": "compatibility/native"
+      }
+    },
+    {
       "name": "codex-consult",
       "source": {
         "source": "git-subdir",
@@ -21245,6 +21473,13 @@
         "source": "git-subdir",
         "url": "StudentSuite/awesome-skills-plugins-for-students",
         "path": "bundles/coding-cs-bundle"
+      }
+    },
+    {
+      "name": "coding-debugger",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/claude-code-debugger"
       }
     },
     {
@@ -22757,6 +22992,14 @@
       }
     },
     {
+      "name": "conduit",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/conduit"
+      }
+    },
+    {
       "name": "condukt",
       "source": {
         "source": "git-subdir",
@@ -23788,6 +24031,14 @@
       }
     },
     {
+      "name": "converge",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/converge"
+      }
+    },
+    {
       "name": "convergence-loops",
       "source": {
         "source": "github",
@@ -23916,6 +24167,13 @@
       "source": {
         "source": "github",
         "repo": "dbc-oduffy/coordinator-claude"
+      }
+    },
+    {
+      "name": "copilot-al-configs",
+      "source": {
+        "source": "github",
+        "repo": "hyzaDan/copilot-al-configs"
       }
     },
     {
@@ -28475,6 +28733,13 @@
       }
     },
     {
+      "name": "decentpowers",
+      "source": {
+        "source": "github",
+        "repo": "hqkh4nh/decentpowers"
+      }
+    },
+    {
       "name": "decidinator",
       "source": {
         "source": "git-subdir",
@@ -29020,6 +29285,13 @@
         "source": "git-subdir",
         "url": "vshulcz/deja-vu",
         "path": "claude-plugin"
+      }
+    },
+    {
+      "name": "dejared",
+      "source": {
+        "source": "github",
+        "repo": "hqkh4nh/dejared-mcp"
       }
     },
     {
@@ -33646,6 +33918,21 @@
       }
     },
     {
+      "name": "droptrack",
+      "source": {
+        "source": "github",
+        "repo": "droptrack/droptrack-ai-integrations"
+      }
+    },
+    {
+      "name": "droptrack-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "droptrack/droptrack-ai-integrations",
+        "path": "plugins/droptrack"
+      }
+    },
+    {
       "name": "dryforge-3",
       "source": {
         "source": "git-subdir",
@@ -33745,6 +34032,13 @@
         "source": "git-subdir",
         "url": "Sivan757/dsh-agent-plugins-market",
         "path": "tests/fixtures/dual-dialect-selfref"
+      }
+    },
+    {
+      "name": "duck-ppt",
+      "source": {
+        "source": "github",
+        "repo": "zhongkai/Duck-PPT"
       }
     },
     {
@@ -33939,6 +34233,45 @@
         "source": "git-subdir",
         "url": "dobachi/claude-skills-marketplace",
         "path": "plugins/ea-delivery"
+      }
+    },
+    {
+      "name": "eai-gofer",
+      "source": {
+        "source": "github",
+        "repo": "eai-support/eai-gofer"
+      }
+    },
+    {
+      "name": "eai-gofer-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "eai-support/eai-gofer",
+        "path": "docs-site/static/releases/plugins/eai-gofer"
+      }
+    },
+    {
+      "name": "eai-gofer-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "eai-support/eai-gofer",
+        "path": "docs-site/static/releases/plugins/eai-gofer/plugins/eai-gofer"
+      }
+    },
+    {
+      "name": "eai-gofer-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "eai-support/eai-gofer",
+        "path": "plugins/eai-gofer"
+      }
+    },
+    {
+      "name": "eai-gofer-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "eai-support/eai-gofer",
+        "path": "plugins/eai-gofer/plugins/eai-gofer"
       }
     },
     {
@@ -34387,6 +34720,38 @@
       }
     },
     {
+      "name": "eidos-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/eidos"
+      }
+    },
+    {
+      "name": "eidos-mail",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/eidos-mail"
+      }
+    },
+    {
+      "name": "eidos-plugin-store",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/eidos-plugin-store"
+      }
+    },
+    {
+      "name": "eidos-storemetheus",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/eidos-storemetheus"
+      }
+    },
+    {
       "name": "eigenthinking",
       "source": {
         "source": "git-subdir",
@@ -34785,6 +35150,14 @@
         "source": "git-subdir",
         "url": "pleaseai/claude-code-plugins",
         "path": "plugins/emulate"
+      }
+    },
+    {
+      "name": "emux",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/emux"
       }
     },
     {
@@ -37384,6 +37757,14 @@
       }
     },
     {
+      "name": "felix",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/felix"
+      }
+    },
+    {
       "name": "fence",
       "source": {
         "source": "git-subdir",
@@ -37895,6 +38276,13 @@
       "source": {
         "source": "github",
         "repo": "Neeeophytee/finding-unknowns-skills"
+      }
+    },
+    {
+      "name": "finding-unknowns-3",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/finding-unknowns"
       }
     },
     {
@@ -39116,6 +39504,14 @@
       }
     },
     {
+      "name": "flotilla-hooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "flotilla-org/marketplace",
+        "path": "plugins/flotilla-hooks"
+      }
+    },
+    {
       "name": "flow",
       "source": {
         "source": "git-subdir",
@@ -39649,6 +40045,14 @@
       }
     },
     {
+      "name": "foreman-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/foreman"
+      }
+    },
+    {
       "name": "forensic-chemist",
       "source": {
         "source": "git-subdir",
@@ -39747,6 +40151,14 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/ai-agency/tonone/skills/forge-diagnose"
+      }
+    },
+    {
+      "name": "forge-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/forge-forge"
       }
     },
     {
@@ -44776,11 +45188,27 @@
       }
     },
     {
+      "name": "grok-canopy",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/grok-canopy"
+      }
+    },
+    {
       "name": "grok-crew",
       "source": {
         "source": "git-subdir",
         "url": "sidkik/claude-plugins",
         "path": "grok-crew"
+      }
+    },
+    {
+      "name": "grok-goals",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/grok-goals"
       }
     },
     {
@@ -45662,6 +46090,13 @@
       }
     },
     {
+      "name": "handoff-19",
+      "source": {
+        "source": "github",
+        "repo": "AbdurRafay2004/handoff"
+      }
+    },
+    {
       "name": "handoff-2",
       "source": {
         "source": "git-subdir",
@@ -46106,10 +46541,26 @@
       }
     },
     {
+      "name": "hawkscan-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
+        "path": "plugins/hawkscan"
+      }
+    },
+    {
       "name": "hawkscan-ci",
       "source": {
         "source": "git-subdir",
         "url": "stackhawk/agent-skills",
+        "path": "plugins/hawkscan-ci"
+      }
+    },
+    {
+      "name": "hawkscan-ci-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
         "path": "plugins/hawkscan-ci"
       }
     },
@@ -46649,6 +47100,13 @@
         "source": "git-subdir",
         "url": "wshayes/devmo-skills",
         "path": "plugins/herdr"
+      }
+    },
+    {
+      "name": "herdr-agent-messenger",
+      "source": {
+        "source": "github",
+        "repo": "aashishd/herdr-agent-messenger"
       }
     },
     {
@@ -48762,6 +49220,14 @@
       }
     },
     {
+      "name": "ike",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/ike"
+      }
+    },
+    {
       "name": "im-mcp-codeagent",
       "source": {
         "source": "github",
@@ -49486,6 +49952,13 @@
       }
     },
     {
+      "name": "init-deep",
+      "source": {
+        "source": "github",
+        "repo": "mzored/init-deep"
+      }
+    },
+    {
       "name": "init-dev-project",
       "source": {
         "source": "git-subdir",
@@ -50178,6 +50651,13 @@
         "source": "git-subdir",
         "url": "integratedoperations/io",
         "path": "plugins/io"
+      }
+    },
+    {
+      "name": "ioncache-ai-tools",
+      "source": {
+        "source": "github",
+        "repo": "ioncache/ioncache-ai-tools"
       }
     },
     {
@@ -51899,6 +52379,14 @@
       }
     },
     {
+      "name": "kai",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/kai"
+      }
+    },
+    {
       "name": "kairos",
       "source": {
         "source": "github",
@@ -51921,11 +52409,25 @@
       }
     },
     {
+      "name": "kaizen",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Kaizen"
+      }
+    },
+    {
       "name": "kaleidosphere-agent-skill",
       "source": {
         "source": "git-subdir",
         "url": "JoFe2/KaleidoSphere",
         "path": "generated/claude/kaleidosphere"
+      }
+    },
+    {
+      "name": "kalinichenko",
+      "source": {
+        "source": "github",
+        "repo": "kalinichenko88/agent-skills"
       }
     },
     {
@@ -52681,6 +53183,14 @@
       }
     },
     {
+      "name": "knox",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/knox"
+      }
+    },
+    {
       "name": "knuaf-doc",
       "source": {
         "source": "github",
@@ -52861,6 +53371,13 @@
         "source": "git-subdir",
         "url": "whale-net/everything",
         "path": "krill/plugin/work"
+      }
+    },
+    {
+      "name": "kristofferarn-skills",
+      "source": {
+        "source": "github",
+        "repo": "kristofferarn/skills"
       }
     },
     {
@@ -53175,6 +53692,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/langchain-py-pack"
+      }
+    },
+    {
+      "name": "langfuse-4",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/langfuse-mcp"
       }
     },
     {
@@ -54042,6 +54566,14 @@
       }
     },
     {
+      "name": "lever",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/lever"
+      }
+    },
+    {
       "name": "levistack",
       "source": {
         "source": "github",
@@ -54533,6 +55065,14 @@
         "source": "git-subdir",
         "url": "k1-c/linear-tui",
         "path": "agent-plugin"
+      }
+    },
+    {
+      "name": "linearplus",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/linearplus"
       }
     },
     {
@@ -55225,6 +55765,34 @@
       }
     },
     {
+      "name": "loam",
+      "source": {
+        "source": "github",
+        "repo": "vivshaw/loam"
+      }
+    },
+    {
+      "name": "loam-code",
+      "source": {
+        "source": "github",
+        "repo": "vivshaw/loam-code"
+      }
+    },
+    {
+      "name": "loam-meta",
+      "source": {
+        "source": "github",
+        "repo": "vivshaw/loam-meta"
+      }
+    },
+    {
+      "name": "loam-research",
+      "source": {
+        "source": "github",
+        "repo": "vivshaw/loam-research"
+      }
+    },
+    {
       "name": "loanword",
       "source": {
         "source": "github",
@@ -55316,6 +55884,13 @@
         "source": "git-subdir",
         "url": "jtsternberg/claude-plugins",
         "path": "plugins/localwp-shell"
+      }
+    },
+    {
+      "name": "location-memory",
+      "source": {
+        "source": "github",
+        "repo": "michelgrolet/tars-location-mcp"
       }
     },
     {
@@ -57465,6 +58040,93 @@
       }
     },
     {
+      "name": "master-skills",
+      "source": {
+        "source": "github",
+        "repo": "sinhoneyy/master-skills"
+      }
+    },
+    {
+      "name": "master-skills-ai-agent-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-ai-agent-builder"
+      }
+    },
+    {
+      "name": "master-skills-backend-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-backend-engineer"
+      }
+    },
+    {
+      "name": "master-skills-devops-cloud",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-devops-cloud"
+      }
+    },
+    {
+      "name": "master-skills-frontend-designer",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-frontend-designer"
+      }
+    },
+    {
+      "name": "master-skills-integrations",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-integrations"
+      }
+    },
+    {
+      "name": "master-skills-marketing-growth",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-marketing-growth"
+      }
+    },
+    {
+      "name": "master-skills-mobile-developer",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-mobile-developer"
+      }
+    },
+    {
+      "name": "master-skills-productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-productivity"
+      }
+    },
+    {
+      "name": "master-skills-qa-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-qa-testing"
+      }
+    },
+    {
+      "name": "master-skills-security-engineer",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-security-engineer"
+      }
+    },
+    {
       "name": "mastergo-wpf-transcoder",
       "source": {
         "source": "git-subdir",
@@ -57712,6 +58374,13 @@
         "source": "git-subdir",
         "url": "PalionTech/palm",
         "path": "test/fixtures/mattpocock-like"
+      }
+    },
+    {
+      "name": "mattpocock-skills-11",
+      "source": {
+        "source": "github",
+        "repo": "flotilla-org/mattpocock-skills"
       }
     },
     {
@@ -59592,6 +60261,14 @@
       }
     },
     {
+      "name": "minimal-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "naipi11/Agent-SkillOpt",
+        "path": "tests/fixtures/minimal-skill"
+      }
+    },
+    {
       "name": "minimalist-code-review",
       "source": {
         "source": "git-subdir",
@@ -60272,6 +60949,13 @@
       }
     },
     {
+      "name": "mockup-gallery",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/mockup-gallery"
+      }
+    },
+    {
       "name": "mod-builder",
       "source": {
         "source": "git-subdir",
@@ -60891,6 +61575,13 @@
       }
     },
     {
+      "name": "monumenten",
+      "source": {
+        "source": "github",
+        "repo": "woonstadrotterdam/mcp-monumenten"
+      }
+    },
+    {
       "name": "morgan",
       "source": {
         "source": "git-subdir",
@@ -61481,6 +62172,14 @@
       }
     },
     {
+      "name": "n8n",
+      "source": {
+        "source": "git-subdir",
+        "url": "n8n-io/n8n",
+        "path": ".claude/plugins/n8n"
+      }
+    },
+    {
       "name": "n8n-autopilot",
       "source": {
         "source": "github",
@@ -61618,6 +62317,13 @@
         "source": "git-subdir",
         "url": "melodic-software/claude-code-plugins",
         "path": "plugins/naming"
+      }
+    },
+    {
+      "name": "naming-things",
+      "source": {
+        "source": "github",
+        "repo": "codingjoe/naming-things"
       }
     },
     {
@@ -61805,6 +62511,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/tons-of-skills-marketplace",
         "path": "plugins/saas-packs/navan-pack"
+      }
+    },
+    {
+      "name": "navgator",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/NavGator"
       }
     },
     {
@@ -62968,6 +63681,13 @@
       }
     },
     {
+      "name": "nodal-analytics",
+      "source": {
+        "source": "github",
+        "repo": "nodal-data/nodal-context"
+      }
+    },
+    {
       "name": "node",
       "source": {
         "source": "git-subdir",
@@ -63052,6 +63772,13 @@
         "source": "git-subdir",
         "url": "mcorbett51090/RavenClaude",
         "path": "plugins/nonprofit-fundraising"
+      }
+    },
+    {
+      "name": "noon",
+      "source": {
+        "source": "github",
+        "repo": "noon-ai/claude-plugin"
       }
     },
     {
@@ -67132,6 +67859,20 @@
       }
     },
     {
+      "name": "parallel-dag-execution",
+      "source": {
+        "source": "github",
+        "repo": "BrettNye/parallel-dag-execution"
+      }
+    },
+    {
+      "name": "parallel-dag-execution-stoa",
+      "source": {
+        "source": "github",
+        "repo": "BrettNye/parallel-dag-execution-stoa"
+      }
+    },
+    {
       "name": "parallel-worktrees",
       "source": {
         "source": "git-subdir",
@@ -67475,6 +68216,14 @@
         "source": "git-subdir",
         "url": "K-Dense-AI/scientific-agents",
         "path": "scientific-agents/pavement-engineer"
+      }
+    },
+    {
+      "name": "pavo",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/pavo"
       }
     },
     {
@@ -67851,6 +68600,13 @@
       "source": {
         "source": "github",
         "repo": "JinyangWang27/people-context"
+      }
+    },
+    {
+      "name": "people-memory-mcp",
+      "source": {
+        "source": "github",
+        "repo": "michelgrolet/people-memory-mcp"
       }
     },
     {
@@ -70113,6 +70869,14 @@
         "source": "git-subdir",
         "url": "robsartin/claude-config",
         "path": "plugins/plugin-sync"
+      }
+    },
+    {
+      "name": "plugin-sync-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/RossLabs-AI-Toolkit",
+        "path": "archive/orphan-plugins-2026-04-21/plugin-sync"
       }
     },
     {
@@ -72710,6 +73474,14 @@
       }
     },
     {
+      "name": "prd-builder",
+      "source": {
+        "source": "git-subdir",
+        "url": "cch96/claude-plugins",
+        "path": "plugins/prd-builder"
+      }
+    },
+    {
       "name": "prd-drafter",
       "source": {
         "source": "git-subdir",
@@ -72850,6 +73622,13 @@
       "source": {
         "source": "github",
         "repo": "gojiplus/preen"
+      }
+    },
+    {
+      "name": "preen-2",
+      "source": {
+        "source": "github",
+        "repo": "dcadolph/preen"
       }
     },
     {
@@ -73205,6 +73984,14 @@
         "source": "git-subdir",
         "url": "x-mesh/xm",
         "path": "x-probe"
+      }
+    },
+    {
+      "name": "probe-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/probe-forge"
       }
     },
     {
@@ -73639,6 +74426,20 @@
         "source": "git-subdir",
         "url": "nexika/nexika",
         "path": "plugins/prof"
+      }
+    },
+    {
+      "name": "prof-ai-motion",
+      "source": {
+        "source": "github",
+        "repo": "KlingofhustleGH/prof-ai-motion"
+      }
+    },
+    {
+      "name": "profai-graph-review",
+      "source": {
+        "source": "github",
+        "repo": "KlingofhustleGH/profai-graph-review"
       }
     },
     {
@@ -74188,6 +74989,13 @@
         "source": "git-subdir",
         "url": "whichguy/skill-craft",
         "path": "plugins/prompt-audit"
+      }
+    },
+    {
+      "name": "prompt-builder",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/prompt-builder"
       }
     },
     {
@@ -75850,6 +76658,14 @@
         "source": "git-subdir",
         "url": "issac-new/SwarmStudio",
         "path": "custom/qgate/plugin"
+      }
+    },
+    {
+      "name": "qit",
+      "source": {
+        "source": "git-subdir",
+        "url": "woocommerce/qit-cli",
+        "path": "plugins/qit"
       }
     },
     {
@@ -78321,6 +79137,13 @@
       }
     },
     {
+      "name": "replit-migrate",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/replit-migrate"
+      }
+    },
+    {
       "name": "replit-pack",
       "source": {
         "source": "git-subdir",
@@ -78651,6 +79474,13 @@
       }
     },
     {
+      "name": "research-14",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/research-plugin"
+      }
+    },
+    {
       "name": "research-2",
       "source": {
         "source": "git-subdir",
@@ -78791,6 +79621,14 @@
         "source": "git-subdir",
         "url": "jeongseokO/Research-Loop-Plugin",
         "path": "plugins/research-loop"
+      }
+    },
+    {
+      "name": "research-md",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/research-md"
       }
     },
     {
@@ -79266,6 +80104,14 @@
       }
     },
     {
+      "name": "resume-resume",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/resume-resume"
+      }
+    },
+    {
       "name": "resume-skill",
       "source": {
         "source": "github",
@@ -79663,6 +80509,14 @@
       }
     },
     {
+      "name": "revit-mcp-next",
+      "source": {
+        "source": "git-subdir",
+        "url": "BhaveshY/revit-mcp-next",
+        "path": "plugins/claude/revit-mcp-next"
+      }
+    },
+    {
       "name": "rewards-block",
       "source": {
         "source": "git-subdir",
@@ -79731,6 +80585,14 @@
         "source": "git-subdir",
         "url": "makewhatis/rhapsody",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "rhea",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/rhea"
       }
     },
     {
@@ -80149,6 +81011,13 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/plugins-ariff/rollback-planner"
+      }
+    },
+    {
+      "name": "rombot-community-skill",
+      "source": {
+        "source": "github",
+        "repo": "romiluz13/rombot-community-skill"
       }
     },
     {
@@ -81812,6 +82681,14 @@
         "source": "git-subdir",
         "url": "athola/claude-night-market",
         "path": "plugins/scribe"
+      }
+    },
+    {
+      "name": "scridos",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/scridos"
       }
     },
     {
@@ -84818,6 +85695,14 @@
       }
     },
     {
+      "name": "shipr",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/shipr"
+      }
+    },
+    {
       "name": "shipreport",
       "source": {
         "source": "git-subdir",
@@ -85118,6 +86003,13 @@
       "source": {
         "source": "github",
         "repo": "fivetaku/show-me-the-prd"
+      }
+    },
+    {
+      "name": "showcase",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/showcase"
       }
     },
     {
@@ -85542,6 +86434,14 @@
       }
     },
     {
+      "name": "skill-authoring-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "cch96/claude-plugins",
+        "path": "plugins/skill-authoring"
+      }
+    },
+    {
       "name": "skill-auto-installer",
       "source": {
         "source": "git-subdir",
@@ -85665,6 +86565,13 @@
         "source": "git-subdir",
         "url": "743v45/taevas-plugins",
         "path": "plugins/skill-fields-reviewer"
+      }
+    },
+    {
+      "name": "skill-finder",
+      "source": {
+        "source": "github",
+        "repo": "yya007/SkillFinder"
       }
     },
     {
@@ -85994,6 +86901,14 @@
         "source": "git-subdir",
         "url": "SkillBench-AI/skillmeter-claude-code-marketplace",
         "path": "skillmeter"
+      }
+    },
+    {
+      "name": "skillopt",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/skillopt"
       }
     },
     {
@@ -86570,6 +87485,13 @@
       }
     },
     {
+      "name": "slop-chop",
+      "source": {
+        "source": "github",
+        "repo": "dcadolph/slop-chop"
+      }
+    },
+    {
       "name": "slopsquat-guard",
       "source": {
         "source": "git-subdir",
@@ -86738,6 +87660,13 @@
         "source": "git-subdir",
         "url": "jeremylongshore/plugins-nixtla",
         "path": "010-archive/backups-20251108/skills-migration-20251108-070147/plugins/testing/smoke-test-runner"
+      }
+    },
+    {
+      "name": "snagline-2",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/snagline"
       }
     },
     {
@@ -87871,6 +88800,13 @@
       }
     },
     {
+      "name": "spindle",
+      "source": {
+        "source": "github",
+        "repo": "lavallee/spindle"
+      }
+    },
+    {
       "name": "spine-api",
       "source": {
         "source": "git-subdir",
@@ -88351,6 +89287,13 @@
       }
     },
     {
+      "name": "srs",
+      "source": {
+        "source": "github",
+        "repo": "michelgrolet/srs"
+      }
+    },
+    {
       "name": "ss13-byond",
       "source": {
         "source": "git-subdir",
@@ -88525,10 +89468,26 @@
       }
     },
     {
+      "name": "stackhawk-api-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
+        "path": "plugins/stackhawk-api"
+      }
+    },
+    {
       "name": "stackhawk-data-seed",
       "source": {
         "source": "git-subdir",
         "url": "stackhawk/agent-skills",
+        "path": "plugins/stackhawk-data-seed"
+      }
+    },
+    {
+      "name": "stackhawk-data-seed-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
         "path": "plugins/stackhawk-data-seed"
       }
     },
@@ -88538,6 +89497,14 @@
         "source": "git-subdir",
         "url": "stackhawk/agent-skills",
         "path": "plugins/optimize"
+      }
+    },
+    {
+      "name": "stackhawk-optimize-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
+        "path": "plugins/stackhawk-optimize"
       }
     },
     {
@@ -88778,6 +89745,13 @@
       "source": {
         "source": "github",
         "repo": "aniket-alt/camir-startup-pack"
+      }
+    },
+    {
+      "name": "startup-skills-2",
+      "source": {
+        "source": "github",
+        "repo": "dlmastery/startup-skills"
       }
     },
     {
@@ -89254,6 +90228,13 @@
         "source": "git-subdir",
         "url": "atman-33/workhub",
         "path": "plugins/strategy"
+      }
+    },
+    {
+      "name": "strategy-lab",
+      "source": {
+        "source": "github",
+        "repo": "dlmastery/option-strat-strategies"
       }
     },
     {
@@ -91178,6 +92159,13 @@
       }
     },
     {
+      "name": "tars",
+      "source": {
+        "source": "github",
+        "repo": "michelgrolet/tars"
+      }
+    },
+    {
       "name": "tarta-a3-harness",
       "source": {
         "source": "github",
@@ -93044,6 +94032,14 @@
       }
     },
     {
+      "name": "threat-modeler",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/threat-modeler",
+        "path": "plugin"
+      }
+    },
+    {
       "name": "three-role-model",
       "source": {
         "source": "github",
@@ -93830,6 +94826,13 @@
       }
     },
     {
+      "name": "tokut",
+      "source": {
+        "source": "github",
+        "repo": "eidos-agi/tokut"
+      }
+    },
+    {
       "name": "tome",
       "source": {
         "source": "git-subdir",
@@ -93914,6 +94917,13 @@
         "source": "git-subdir",
         "url": "yonatangross/orchestkit",
         "path": "tests/probes/tool-list-mod"
+      }
+    },
+    {
+      "name": "tool-picker",
+      "source": {
+        "source": "github",
+        "repo": "Shrey-Parikh31/tool-picker"
       }
     },
     {
@@ -94271,6 +95281,21 @@
       }
     },
     {
+      "name": "tracecheck",
+      "source": {
+        "source": "github",
+        "repo": "bmccarn/tracecheck"
+      }
+    },
+    {
+      "name": "tracecheck-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "bmccarn/tracecheck-plugins",
+        "path": "plugins/tracecheck"
+      }
+    },
+    {
       "name": "tracekit",
       "source": {
         "source": "git-subdir",
@@ -94338,6 +95363,14 @@
       "source": {
         "source": "git-subdir",
         "url": "sickn33/agentic-awesome-skills",
+        "path": "skills/hugging-face-trackio"
+      }
+    },
+    {
+      "name": "trackio-cli-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
         "path": "skills/hugging-face-trackio"
       }
     },
@@ -95262,6 +96295,14 @@
       }
     },
     {
+      "name": "ty-lsp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "tyroneross/RossLabs-LSP",
+        "path": "plugins/ty-lsp"
+      }
+    },
+    {
       "name": "tyamka",
       "source": {
         "source": "github",
@@ -95765,6 +96806,22 @@
       }
     },
     {
+      "name": "uk-employment-legal",
+      "source": {
+        "source": "git-subdir",
+        "url": "b1rdmania/claude-for-uk-legal",
+        "path": "uk-employment-legal"
+      }
+    },
+    {
+      "name": "uk-litigation-legal",
+      "source": {
+        "source": "git-subdir",
+        "url": "b1rdmania/claude-for-uk-legal",
+        "path": "uk-litigation-legal"
+      }
+    },
+    {
       "name": "ulazai-media",
       "source": {
         "source": "github",
@@ -95887,6 +96944,13 @@
         "source": "git-subdir",
         "url": "zot24/skills",
         "path": "skills/umami"
+      }
+    },
+    {
+      "name": "umbra",
+      "source": {
+        "source": "github",
+        "repo": "mushhzz/umbra"
       }
     },
     {
@@ -96631,6 +97695,13 @@
       }
     },
     {
+      "name": "uzbek-humanizer",
+      "source": {
+        "source": "github",
+        "repo": "xusnitdinov/uzbek-humanizer"
+      }
+    },
+    {
       "name": "v-marketing-kit",
       "source": {
         "source": "github",
@@ -96839,6 +97910,14 @@
         "source": "git-subdir",
         "url": "isocialPractice/napkin-sketch",
         "path": "ai-helper/vectors"
+      }
+    },
+    {
+      "name": "vectorworks",
+      "source": {
+        "source": "git-subdir",
+        "url": "BhaveshY/vectorworks-mcp",
+        "path": "plugins/vectorworks"
       }
     },
     {
@@ -97324,6 +98403,14 @@
       }
     },
     {
+      "name": "vibe-coding-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "cch96/claude-plugins",
+        "path": "plugins/vibe-coding"
+      }
+    },
+    {
       "name": "vibe-coding-course",
       "source": {
         "source": "git-subdir",
@@ -97750,6 +98837,14 @@
         "source": "git-subdir",
         "url": "rohitg00/awesome-claude-code-toolkit",
         "path": "plugins/vision-specialist"
+      }
+    },
+    {
+      "name": "visionlog",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/visionlog"
       }
     },
     {
@@ -99281,6 +100376,13 @@
       }
     },
     {
+      "name": "web-scraper",
+      "source": {
+        "source": "github",
+        "repo": "tyroneross/blog-content-scraper"
+      }
+    },
+    {
       "name": "web-scraping-data-extraction",
       "source": {
         "source": "git-subdir",
@@ -99680,6 +100782,21 @@
         "source": "git-subdir",
         "url": "K-Dense-AI/scientific-agents",
         "path": "scientific-agents/welding-joining-engineer"
+      }
+    },
+    {
+      "name": "well",
+      "source": {
+        "source": "git-subdir",
+        "url": "WellApp-ai/Well",
+        "path": "plugins/well"
+      }
+    },
+    {
+      "name": "well-skills",
+      "source": {
+        "source": "github",
+        "repo": "WellApp-ai/skills"
       }
     },
     {
@@ -100125,6 +101242,22 @@
       "source": {
         "source": "git-subdir",
         "url": "stackhawk/agent-skills",
+        "path": "plugins/wingman"
+      }
+    },
+    {
+      "name": "wingman-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
+        "path": "bundles/wingman"
+      }
+    },
+    {
+      "name": "wingman-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "stackhawk/agent-skills-marketplace",
         "path": "plugins/wingman"
       }
     },
@@ -102755,6 +103888,13 @@
       }
     },
     {
+      "name": "yoetz-2",
+      "source": {
+        "source": "github",
+        "repo": "avivsinai/yoetz"
+      }
+    },
+    {
       "name": "you",
       "source": {
         "source": "github",
@@ -102813,6 +103953,22 @@
         "source": "git-subdir",
         "url": "bestagentkits/agency-skills",
         "path": "skills/claude-skills/youtube-full"
+      }
+    },
+    {
+      "name": "youtube-full-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "plugins/master-skills-backend-engineer/skills/youtube-full"
+      }
+    },
+    {
+      "name": "youtube-full-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "sinhoneyy/master-skills",
+        "path": "skills/youtube-full"
       }
     },
     {
@@ -103188,6 +104344,13 @@
       }
     },
     {
+      "name": "zine",
+      "source": {
+        "source": "github",
+        "repo": "smilewilson1999/zine"
+      }
+    },
+    {
       "name": "zirkel",
       "source": {
         "source": "git-subdir",
@@ -103287,6 +104450,14 @@
         "source": "git-subdir",
         "url": "mySMB-AI-Studio/mysmb-marketplace",
         "path": "plugins/zoho-sign"
+      }
+    },
+    {
+      "name": "zoltar",
+      "source": {
+        "source": "git-subdir",
+        "url": "eidos-agi/eidos-marketplace",
+        "path": "plugins/zoltar"
       }
     },
     {

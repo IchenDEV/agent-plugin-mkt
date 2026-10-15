@@ -1936,6 +1936,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "agent-routing-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HarperZ9/agent-routing-kit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "agent-rules",
       "source": {
         "source": "url",
@@ -3479,6 +3491,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stromy-org/amaris-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "amazon",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/amazon.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -8216,6 +8240,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/eas4ai/cairn.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "calendar",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/calendar.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -17769,6 +17805,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "eidos-contracts-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/eidos-contracts-hub.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "eidos-mail",
       "source": {
         "source": "git-subdir",
@@ -17813,6 +17861,18 @@
         "source": "git-subdir",
         "url": "https://github.com/eidos-agi/eidos-marketplace.git",
         "path": "./plugins/eidos-storemetheus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "eidos-transcoders-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/eidos-transcoders-hub.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21752,6 +21812,18 @@
         "source": "git-subdir",
         "url": "https://github.com/google/skills.git",
         "path": "./plugins/cloud/google-cloud-well-architected"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "google-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/google-docs.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -29454,6 +29526,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "messages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/messages.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "messaging",
       "source": {
         "source": "git-subdir",
@@ -31526,6 +31610,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/proyecto26/notebooklm-ai-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "notes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/notes.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -38413,6 +38509,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "reminders",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/reminders.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "remote-workstation",
       "source": {
         "source": "git-subdir",
@@ -40576,6 +40684,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ujjwalredd/sarathi.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/sat.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -45038,6 +45158,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "surfari",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/surfari-v0.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "suxiaoqiang-cli",
       "source": {
         "source": "git-subdir",
@@ -46241,6 +46373,18 @@
         "source": "git-subdir",
         "url": "https://github.com/riekelt/technical-writer.git",
         "path": "./plugins/technical-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "telcel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/telcel.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -49756,6 +49900,18 @@
       "category": "Developer Tools"
     },
     {
+      "name": "web-legacy-compass",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cskwork/web-legacy-compass.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "web-performance-audit",
       "source": {
         "source": "git-subdir",
@@ -51428,6 +51584,18 @@
         "source": "git-subdir",
         "url": "https://github.com/openai/plugins.git",
         "path": "./plugins/zoom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "zoom-zra",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zoom/zoom-zra-plugin-codex.git"
       },
       "policy": {
         "installation": "AVAILABLE",

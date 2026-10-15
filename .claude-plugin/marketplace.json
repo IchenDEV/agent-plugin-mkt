@@ -1059,6 +1059,14 @@
       }
     },
     {
+      "name": "accessibility-compliance-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/accessibility-compliance"
+      }
+    },
+    {
       "name": "accessibility-engineering",
       "source": {
         "source": "git-subdir",
@@ -2810,6 +2818,14 @@
       }
     },
     {
+      "name": "agent-orchestration-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/agent-orchestration"
+      }
+    },
+    {
       "name": "agent-os-openspec",
       "source": {
         "source": "github",
@@ -3301,6 +3317,14 @@
       "source": {
         "source": "github",
         "repo": "kuan0808/openclaw-agent-teams-plugin"
+      }
+    },
+    {
+      "name": "agent-teams-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/agent-teams"
       }
     },
     {
@@ -4764,6 +4788,13 @@
       }
     },
     {
+      "name": "ai-shortfilm-prompts",
+      "source": {
+        "source": "github",
+        "repo": "yo-steven/ai-shortfilm-prompts-exploration-20260626"
+      }
+    },
+    {
       "name": "ai-skills-git",
       "source": {
         "source": "github",
@@ -5638,6 +5669,13 @@
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Amazon-Plugin"
+      }
+    },
+    {
+      "name": "amazon-2",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/amazon"
       }
     },
     {
@@ -7759,6 +7797,14 @@
       }
     },
     {
+      "name": "api-scaffolding-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/api-scaffolding"
+      }
+    },
+    {
       "name": "api-schema-validator",
       "source": {
         "source": "git-subdir",
@@ -8035,6 +8081,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/api-testing-observability"
+      }
+    },
+    {
+      "name": "api-testing-observability-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/api-testing-observability"
       }
     },
@@ -8484,6 +8538,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/application-performance"
+      }
+    },
+    {
+      "name": "application-performance-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/application-performance"
       }
     },
@@ -9079,6 +9141,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/arm-cortex-microcontrollers"
+      }
+    },
+    {
+      "name": "arm-cortex-microcontrollers-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/arm-cortex-microcontrollers"
       }
     },
@@ -11430,6 +11500,14 @@
       }
     },
     {
+      "name": "backend-api-security-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/backend-api-security"
+      }
+    },
+    {
       "name": "backend-architect",
       "source": {
         "source": "git-subdir",
@@ -11498,6 +11576,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/backend-development"
+      }
+    },
+    {
+      "name": "backend-development-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/backend-development"
       }
     },
@@ -13047,6 +13133,14 @@
       }
     },
     {
+      "name": "block-no-verify-14",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/block-no-verify"
+      }
+    },
+    {
       "name": "block-no-verify-2",
       "source": {
         "source": "git-subdir",
@@ -13195,6 +13289,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/blockchain-web3"
+      }
+    },
+    {
+      "name": "blockchain-web3-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/blockchain-web3"
       }
     },
@@ -13935,6 +14037,14 @@
       }
     },
     {
+      "name": "brand-landingpage-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/brand-landingpage"
+      }
+    },
+    {
       "name": "brand-strategy-framework",
       "source": {
         "source": "git-subdir",
@@ -14668,6 +14778,14 @@
       }
     },
     {
+      "name": "business-analytics-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/business-analytics"
+      }
+    },
+    {
       "name": "business-and-product-tools",
       "source": {
         "source": "git-subdir",
@@ -14944,6 +15062,14 @@
       }
     },
     {
+      "name": "c4-architecture-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/c4-architecture"
+      }
+    },
+    {
       "name": "ca",
       "source": {
         "source": "git-subdir",
@@ -15181,6 +15307,13 @@
         "source": "git-subdir",
         "url": "hicann/cannbot-skills",
         "path": "plugins-community/collaborative-agent-kernel-evolution"
+      }
+    },
+    {
+      "name": "calendar",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/calendar"
       }
     },
     {
@@ -17667,6 +17800,14 @@
       }
     },
     {
+      "name": "cicd-automation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/cicd-automation"
+      }
+    },
+    {
       "name": "cicero",
       "source": {
         "source": "git-subdir",
@@ -19993,6 +20134,14 @@
       }
     },
     {
+      "name": "cloud-infrastructure-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/cloud-infrastructure"
+      }
+    },
+    {
       "name": "cloud-native-kubernetes",
       "source": {
         "source": "git-subdir",
@@ -20674,6 +20823,14 @@
       }
     },
     {
+      "name": "code-documentation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/code-documentation"
+      }
+    },
+    {
       "name": "code-explainer",
       "source": {
         "source": "git-subdir",
@@ -20812,6 +20969,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/code-refactoring"
+      }
+    },
+    {
+      "name": "code-refactoring-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/code-refactoring"
       }
     },
@@ -21171,6 +21336,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/codebase-cleanup"
+      }
+    },
+    {
+      "name": "codebase-cleanup-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/codebase-cleanup"
       }
     },
@@ -22929,6 +23102,14 @@
       }
     },
     {
+      "name": "comprehensive-review-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/comprehensive-review"
+      }
+    },
+    {
       "name": "compro",
       "source": {
         "source": "github",
@@ -23194,6 +23375,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/conductor"
+      }
+    },
+    {
+      "name": "conductor-7",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/conductor"
       }
     },
@@ -23687,6 +23876,14 @@
       }
     },
     {
+      "name": "content-marketing-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/content-marketing"
+      }
+    },
+    {
       "name": "content-multiplier",
       "source": {
         "source": "git-subdir",
@@ -23890,6 +24087,14 @@
         "source": "git-subdir",
         "url": "markdlabrecque/personal-ai-plugins",
         "path": "context-management"
+      }
+    },
+    {
+      "name": "context-management-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/context-management"
       }
     },
     {
@@ -26338,6 +26543,14 @@
       }
     },
     {
+      "name": "customer-sales-automation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/customer-sales-automation"
+      }
+    },
+    {
       "name": "customer-sales-support",
       "source": {
         "source": "git-subdir",
@@ -26975,6 +27188,14 @@
       }
     },
     {
+      "name": "data-engineering-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/data-engineering"
+      }
+    },
+    {
       "name": "data-engineering-knowledge-capture",
       "source": {
         "source": "github",
@@ -27388,6 +27609,14 @@
       }
     },
     {
+      "name": "data-validation-suite-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/data-validation-suite"
+      }
+    },
+    {
       "name": "data-visualization-creator",
       "source": {
         "source": "git-subdir",
@@ -27668,6 +27897,14 @@
       }
     },
     {
+      "name": "database-cloud-optimization-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/database-cloud-optimization"
+      }
+    },
+    {
       "name": "database-connection-pooler",
       "source": {
         "source": "git-subdir",
@@ -27768,6 +28005,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/database-design"
+      }
+    },
+    {
+      "name": "database-design-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/database-design"
       }
     },
@@ -28032,6 +28277,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/database-migrations"
+      }
+    },
+    {
+      "name": "database-migrations-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/database-migrations"
       }
     },
@@ -28958,6 +29211,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/debugging-toolkit"
+      }
+    },
+    {
+      "name": "debugging-toolkit-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/debugging-toolkit"
       }
     },
@@ -30076,6 +30337,14 @@
       }
     },
     {
+      "name": "dependency-management-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/dependency-management"
+      }
+    },
+    {
       "name": "dependency-manager",
       "source": {
         "source": "git-subdir",
@@ -30300,6 +30569,14 @@
       }
     },
     {
+      "name": "deployment-strategies-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/deployment-strategies"
+      }
+    },
+    {
       "name": "deployment-validation",
       "source": {
         "source": "git-subdir",
@@ -30312,6 +30589,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/deployment-validation"
+      }
+    },
+    {
+      "name": "deployment-validation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/deployment-validation"
       }
     },
@@ -31306,6 +31591,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/developer-essentials"
+      }
+    },
+    {
+      "name": "developer-essentials-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/developer-essentials"
       }
     },
@@ -32508,6 +32801,14 @@
       }
     },
     {
+      "name": "distributed-debugging-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/distributed-debugging"
+      }
+    },
+    {
       "name": "distributed-systems-researcher",
       "source": {
         "source": "git-subdir",
@@ -33125,6 +33426,14 @@
       }
     },
     {
+      "name": "documentation-generation-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/documentation-generation"
+      }
+    },
+    {
       "name": "documentation-generator",
       "source": {
         "source": "git-subdir",
@@ -33177,6 +33486,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/documentation-standards"
+      }
+    },
+    {
+      "name": "documentation-standards-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/documentation-standards"
       }
     },
@@ -33632,6 +33949,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/dotnet-contribution"
+      }
+    },
+    {
+      "name": "dotnet-contribution-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/dotnet-contribution"
       }
     },
@@ -34995,6 +35320,13 @@
       }
     },
     {
+      "name": "eidos-contracts-hub",
+      "source": {
+        "source": "github",
+        "repo": "eidos-agi/eidos-contracts-hub"
+      }
+    },
+    {
       "name": "eidos-mail",
       "source": {
         "source": "git-subdir",
@@ -35023,6 +35355,13 @@
       "source": {
         "source": "github",
         "repo": "eidos-agi/eidos-storemetheus"
+      }
+    },
+    {
+      "name": "eidos-transcoders-hub",
+      "source": {
+        "source": "github",
+        "repo": "eidos-agi/eidos-transcoders-hub"
       }
     },
     {
@@ -36267,6 +36606,14 @@
       }
     },
     {
+      "name": "error-debugging-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/error-debugging"
+      }
+    },
+    {
       "name": "error-diagnostics",
       "source": {
         "source": "git-subdir",
@@ -36279,6 +36626,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/error-diagnostics"
+      }
+    },
+    {
+      "name": "error-diagnostics-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/error-diagnostics"
       }
     },
@@ -41179,6 +41534,14 @@
       }
     },
     {
+      "name": "framework-migration-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/framework-migration"
+      }
+    },
+    {
       "name": "francetravail",
       "source": {
         "source": "github",
@@ -41531,6 +41894,14 @@
       }
     },
     {
+      "name": "frontend-mobile-development-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/frontend-mobile-development"
+      }
+    },
+    {
       "name": "frontend-mobile-security",
       "source": {
         "source": "git-subdir",
@@ -41543,6 +41914,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/frontend-mobile-security"
+      }
+    },
+    {
+      "name": "frontend-mobile-security-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/frontend-mobile-security"
       }
     },
@@ -41680,6 +42059,14 @@
       }
     },
     {
+      "name": "full-stack-orchestration-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/full-stack-orchestration"
+      }
+    },
+    {
       "name": "full-team",
       "source": {
         "source": "git-subdir",
@@ -41788,6 +42175,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/functional-programming"
+      }
+    },
+    {
+      "name": "functional-programming-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/functional-programming"
       }
     },
@@ -42119,6 +42514,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/game-development"
+      }
+    },
+    {
+      "name": "game-development-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/game-development"
       }
     },
@@ -43568,6 +43971,14 @@
       }
     },
     {
+      "name": "git-pr-workflows-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/git-pr-workflows"
+      }
+    },
+    {
       "name": "git-pulse",
       "source": {
         "source": "git-subdir",
@@ -44273,6 +44684,13 @@
       }
     },
     {
+      "name": "gmail-7",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/gmail"
+      }
+    },
+    {
       "name": "gmail-manager",
       "source": {
         "source": "git-subdir",
@@ -44716,6 +45134,13 @@
         "source": "git-subdir",
         "url": "zapier/connectors",
         "path": "apps/google-docs"
+      }
+    },
+    {
+      "name": "google-docs-3",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/google-docs"
       }
     },
     {
@@ -48688,6 +49113,14 @@
       }
     },
     {
+      "name": "hr-legal-compliance-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/hr-legal-compliance"
+      }
+    },
+    {
       "name": "hrmos-timecard-check",
       "source": {
         "source": "git-subdir",
@@ -50063,6 +50496,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/incident-response"
+      }
+    },
+    {
+      "name": "incident-response-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/incident-response"
       }
     },
@@ -51710,6 +52151,14 @@
       }
     },
     {
+      "name": "javascript-typescript-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/javascript-typescript"
+      }
+    },
+    {
       "name": "jaysongcs-skills",
       "source": {
         "source": "github",
@@ -52691,6 +53140,14 @@
       }
     },
     {
+      "name": "julia-development-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/julia-development"
+      }
+    },
+    {
       "name": "julian",
       "source": {
         "source": "git-subdir",
@@ -52787,6 +53244,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/jvm-languages"
+      }
+    },
+    {
+      "name": "jvm-languages-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/jvm-languages"
       }
     },
@@ -54012,6 +54477,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/kubernetes-operations"
+      }
+    },
+    {
+      "name": "kubernetes-operations-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/kubernetes-operations"
       }
     },
@@ -56010,6 +56483,14 @@
       }
     },
     {
+      "name": "llm-application-dev-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/llm-application-dev"
+      }
+    },
+    {
       "name": "llm-box",
       "source": {
         "source": "git-subdir",
@@ -57353,6 +57834,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/machine-learning-ops"
+      }
+    },
+    {
+      "name": "machine-learning-ops-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/machine-learning-ops"
       }
     },
@@ -59611,6 +60100,14 @@
       }
     },
     {
+      "name": "meigen-ai-design-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/meigen-ai-design"
+      }
+    },
+    {
       "name": "melhoria-continua",
       "source": {
         "source": "git-subdir",
@@ -60324,6 +60821,13 @@
         "source": "git-subdir",
         "url": "paulhinz/LF-Marketing-OS",
         "path": "plugins/message-foundation-agent"
+      }
+    },
+    {
+      "name": "messages",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/messages"
       }
     },
     {
@@ -62463,6 +62967,14 @@
       }
     },
     {
+      "name": "multi-platform-apps-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/multi-platform-apps"
+      }
+    },
+    {
       "name": "multi-profile-plugins",
       "source": {
         "source": "git-subdir",
@@ -63327,6 +63839,13 @@
         "source": "git-subdir",
         "url": "777genius/universal-plugins-for-ai-agents",
         "path": "plugins/neon"
+      }
+    },
+    {
+      "name": "neon-5",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/neon"
       }
     },
     {
@@ -64572,6 +65091,13 @@
       }
     },
     {
+      "name": "notes-2",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/notes"
+      }
+    },
+    {
       "name": "notes-helper",
       "source": {
         "source": "git-subdir",
@@ -65186,6 +65712,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/observability-monitoring"
+      }
+    },
+    {
+      "name": "observability-monitoring-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/observability-monitoring"
       }
     },
@@ -68990,6 +69524,14 @@
       }
     },
     {
+      "name": "payment-processing-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/payment-processing"
+      }
+    },
+    {
       "name": "payments",
       "source": {
         "source": "git-subdir",
@@ -69655,6 +70197,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/performance-testing-review"
+      }
+    },
+    {
+      "name": "performance-testing-review-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/performance-testing-review"
       }
     },
@@ -71490,6 +72040,14 @@
       "source": {
         "source": "git-subdir",
         "url": "smartwatermelon/claude-code-workflows-agents",
+        "path": "plugins/plugin-eval"
+      }
+    },
+    {
+      "name": "plugin-eval-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/plugin-eval"
       }
     },
@@ -76311,6 +76869,14 @@
       }
     },
     {
+      "name": "protect-mcp-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/protect-mcp"
+      }
+    },
+    {
       "name": "protect-secrets",
       "source": {
         "source": "git-subdir",
@@ -77234,6 +77800,14 @@
       }
     },
     {
+      "name": "python-development-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/python-development"
+      }
+    },
+    {
       "name": "python-engineering",
       "source": {
         "source": "git-subdir",
@@ -77581,6 +78155,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/quantitative-trading"
+      }
+    },
+    {
+      "name": "quantitative-trading-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/quantitative-trading"
       }
     },
@@ -79743,6 +80325,13 @@
       }
     },
     {
+      "name": "reminders",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/reminders"
+      }
+    },
+    {
       "name": "remnawave-xray",
       "source": {
         "source": "github",
@@ -81032,6 +81621,14 @@
       }
     },
     {
+      "name": "reverse-engineering-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/reverse-engineering"
+      }
+    },
+    {
       "name": "review",
       "source": {
         "source": "git-subdir",
@@ -81092,6 +81689,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/review-agent-governance"
+      }
+    },
+    {
+      "name": "review-agent-governance-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/review-agent-governance"
       }
     },
@@ -83003,6 +83608,13 @@
       }
     },
     {
+      "name": "sat",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/sat"
+      }
+    },
+    {
       "name": "satchel",
       "source": {
         "source": "git-subdir",
@@ -84418,6 +85030,14 @@
       }
     },
     {
+      "name": "security-compliance-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/security-compliance"
+      }
+    },
+    {
       "name": "security-engineer",
       "source": {
         "source": "github",
@@ -84749,6 +85369,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/security-scanning"
+      }
+    },
+    {
+      "name": "security-scanning-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/security-scanning"
       }
     },
@@ -85332,10 +85960,26 @@
       }
     },
     {
+      "name": "seo-analysis-monitoring-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/seo-analysis-monitoring"
+      }
+    },
+    {
       "name": "seo-content-creation",
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/seo-content-creation"
+      }
+    },
+    {
+      "name": "seo-content-creation-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/seo-content-creation"
       }
     },
@@ -85405,6 +86049,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/seo-technical-optimization"
+      }
+    },
+    {
+      "name": "seo-technical-optimization-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/seo-technical-optimization"
       }
     },
@@ -86380,6 +87032,14 @@
       }
     },
     {
+      "name": "shell-scripting-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/shell-scripting"
+      }
+    },
+    {
       "name": "shellgate",
       "source": {
         "source": "git-subdir",
@@ -86533,6 +87193,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/ship-mate"
+      }
+    },
+    {
+      "name": "ship-mate-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/ship-mate"
       }
     },
@@ -87131,6 +87799,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/signed-audit-trails"
+      }
+    },
+    {
+      "name": "signed-audit-trails-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/signed-audit-trails"
       }
     },
@@ -88276,6 +88952,14 @@
       }
     },
     {
+      "name": "slack-to-zoom",
+      "source": {
+        "source": "git-subdir",
+        "url": "zoom/slack-to-zoom",
+        "path": "claude/skills/slack-to-zoom"
+      }
+    },
+    {
       "name": "slack-xoxc-session-client",
       "source": {
         "source": "git-subdir",
@@ -88779,6 +89463,13 @@
         "source": "git-subdir",
         "url": "paulhinz/LF-Marketing-OS",
         "path": "plugins/social-listening-report"
+      }
+    },
+    {
+      "name": "social-media-research-skills",
+      "source": {
+        "source": "github",
+        "repo": "yo-steven/social-media-research-skills-exploration-20260709"
       }
     },
     {
@@ -90704,6 +91395,14 @@
         "source": "git-subdir",
         "url": "Dicklesworthstone/pi_agent_rust",
         "path": "tests/ext_conformance/artifacts/agents-wshobson/startup-business-analyst"
+      }
+    },
+    {
+      "name": "startup-business-analyst-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/startup-business-analyst"
       }
     },
     {
@@ -92815,6 +93514,14 @@
       }
     },
     {
+      "name": "systems-programming-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/systems-programming"
+      }
+    },
+    {
       "name": "systemsmith",
       "source": {
         "source": "github",
@@ -93530,6 +94237,14 @@
       }
     },
     {
+      "name": "tdd-workflows-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/tdd-workflows"
+      }
+    },
+    {
       "name": "tdlp",
       "source": {
         "source": "git-subdir",
@@ -93594,6 +94309,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/team-collaboration"
+      }
+    },
+    {
+      "name": "team-collaboration-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/team-collaboration"
       }
     },
@@ -93871,6 +94594,13 @@
         "source": "git-subdir",
         "url": "ckaragitz/tekton",
         "path": "tekton-eval-kit/tekton-plugin"
+      }
+    },
+    {
+      "name": "telcel",
+      "source": {
+        "source": "github",
+        "repo": "PedroAVJ/telcel"
       }
     },
     {
@@ -97663,6 +98393,14 @@
       }
     },
     {
+      "name": "ui-design-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
+        "path": "plugins/ui-design"
+      }
+    },
+    {
       "name": "ui-design-system",
       "source": {
         "source": "github",
@@ -98235,6 +98973,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/unit-testing"
+      }
+    },
+    {
+      "name": "unit-testing-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/unit-testing"
       }
     },
@@ -98866,6 +99612,13 @@
         "source": "git-subdir",
         "url": "markdlabrecque/personal-ai-plugins",
         "path": "value-estimates"
+      }
+    },
+    {
+      "name": "value-for-fable",
+      "source": {
+        "source": "github",
+        "repo": "yo-steven/value-for-fable-exploration-20260621"
       }
     },
     {
@@ -101432,6 +102185,13 @@
       }
     },
     {
+      "name": "web-legacy-compass",
+      "source": {
+        "source": "github",
+        "repo": "cskwork/web-legacy-compass"
+      }
+    },
+    {
       "name": "web-monkey-qa",
       "source": {
         "source": "git-subdir",
@@ -101497,6 +102257,14 @@
       "source": {
         "source": "git-subdir",
         "url": "wshobson/agents",
+        "path": "plugins/web-scripting"
+      }
+    },
+    {
+      "name": "web-scripting-2",
+      "source": {
+        "source": "git-subdir",
+        "url": "yo-steven/agents-exploration-20260523",
         "path": "plugins/web-scripting"
       }
     },

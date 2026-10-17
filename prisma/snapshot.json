@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "snapshotId": "catalog-38933597284-1",
+  "snapshotId": "catalog-39002485685-1",
   "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
-  "createdAt": "2026-10-16T16:40:42.045Z",
+  "createdAt": "2026-10-17T04:26:44.457Z",
   "coverage": {
     "status": "partial",
     "cycleId": "37e41b25-02e8-46f0-bf7b-913e16ee9529",
@@ -21,14 +21,14 @@
       "waitedMs": 0,
       "buckets": {
         "core": {
-          "remaining": 4843,
-          "resetAt": 1792171881000
+          "remaining": 4798,
+          "resetAt": 1792211736000
         }
       }
     }
   },
   "database": {
-    "sha256": "291b8fdaf49688fd3da3c3a03ac1bd233584c43ad17fb2ae3ec1697feb270425",
+    "sha256": "35fd8df297ccd4a312f44523227971da4a210825b922d7052810011843967ea7",
     "bytes": 137846784,
     "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
     "counts": {
@@ -39,15 +39,15 @@
   },
   "source": {
     "kind": "github-release",
-    "tag": "catalog-38933597284-1",
-    "asset": "catalog-38933597284-1.db.gz",
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38933597284-1/catalog-38933597284-1.db.gz",
-    "sha256": "d3b47182f682920476ebd37badceb7fb07747bc0b394130b39acd7d522958d8a",
+    "tag": "catalog-39002485685-1",
+    "asset": "catalog-39002485685-1.db.gz",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-39002485685-1/catalog-39002485685-1.db.gz",
+    "sha256": "ab5b699845e3daa75bdfff3b15988261d6573eae2b9d4fd4fc06db5e93801054",
     "bytes": 24515642
   },
   "checkpoint": {
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-38933597284-1/catalog-38933597284-1.index-state.json",
-    "sha256": "563137e347bbb748051c90c6422b7c418f46c7c346a1a5b0a1d76d0477f992af",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-39002485685-1/catalog-39002485685-1.index-state.json",
+    "sha256": "bfe348f5e7f24d4c096747fc751faddfe93f4fd89d1c84286fb0b5c7486bf2bb",
     "bytes": 3331098
   },
   "catalogs": {

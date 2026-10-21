@@ -1,8 +1,10 @@
 import assert from "node:assert/strict";
-import { test } from "node:test";
-import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { test, type TestContext } from "node:test";
+import { createHash } from "node:crypto";
+import { mkdtempSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
+import { gzipSync } from "node:zlib";
 import { databaseUrl } from "../lib/database-location";
 
 test("production ignores a conflicting custom database while development retains it", () => {
@@ -10,22 +12,62 @@ test("production ignores a conflicting custom database while development retains
   assert.equal(databaseUrl({ env: { NODE_ENV: "development", DATABASE_URL: "file:/local.db" }, cwd: "/app" }), "file:/local.db");
 });
 
-test("Vercel always copies the pin to the existing runtime path and replaces old identity", () => {
+const pinned = Buffer.from("pinned bytes");
+const manifest = {
+  snapshotId: "catalog-test-runtime",
+  database: { bytes: pinned.length, sha256: createHash("sha256").update(pinned).digest("hex") },
+};
+
+function fixture(t: TestContext) {
   const root = mkdtempSync(path.join(tmpdir(), "database-location-"));
-  try {
-    mkdirSync(path.join(root, "prisma"));
-    const temporaryDirectory = path.join(root, "tmp");
-    mkdirSync(temporaryDirectory);
-    writeFileSync(path.join(root, "prisma/marketplace.db"), "pinned bytes");
-    const runtime = path.join(temporaryDirectory, "agent-plugin-marketplace.db");
-    writeFileSync(runtime, "old bytes");
-    writeFileSync(`${runtime}.snapshot`, "old identity");
-    assert.equal(databaseUrl({ env: { VERCEL: "1", DATABASE_URL: "file:./marketplace.db" }, cwd: root, temporaryDirectory }), `file:${runtime}`);
-    assert.equal(readFileSync(runtime, "utf8"), "pinned bytes");
-    assert.match(readFileSync(`${runtime}.snapshot`, "utf8"), /^catalog-/);
-    // A matching identity uses the existing writable copy.
-    writeFileSync(runtime, "warm bytes");
-    databaseUrl({ env: { VERCEL: "1" }, cwd: root, temporaryDirectory });
-    assert.equal(readFileSync(runtime, "utf8"), "warm bytes");
-  } finally { rmSync(root, { recursive: true, force: true }); }
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  mkdirSync(path.join(root, "prisma"));
+  const temporaryDirectory = path.join(root, "tmp");
+  mkdirSync(temporaryDirectory);
+  const packed = path.join(root, "prisma/marketplace.db.gz");
+  writeFileSync(packed, gzipSync(pinned));
+  const runtime = path.join(temporaryDirectory, "agent-plugin-marketplace.db");
+  const options = { env: { VERCEL: "1", DATABASE_URL: "file:/wrong.db" }, cwd: root, temporaryDirectory, manifest };
+  return { root, packed, runtime, temporaryDirectory, options };
+}
+
+test("Vercel expands gzip without a raw bundled database, then reuses the matching runtime copy", t => {
+  const f = fixture(t);
+  assert.equal(databaseUrl(f.options), `file:${f.runtime}`);
+  assert.deepEqual(readFileSync(f.runtime), pinned);
+  assert.equal(readFileSync(`${f.runtime}.snapshot`, "utf8"), `${manifest.snapshotId}:${manifest.database.sha256}`);
+  // Warm instances need neither the archive nor a second decompression.
+  rmSync(f.packed);
+  databaseUrl(f.options);
+  assert.deepEqual(readFileSync(f.runtime), pinned);
 });
+
+test("Vercel replaces an old snapshot identity and a missing runtime database", t => {
+  const f = fixture(t);
+  writeFileSync(f.runtime, "old bytes");
+  writeFileSync(`${f.runtime}.snapshot`, "old identity");
+  databaseUrl(f.options);
+  assert.deepEqual(readFileSync(f.runtime), pinned);
+  rmSync(f.runtime);
+  databaseUrl(f.options);
+  assert.deepEqual(readFileSync(f.runtime), pinned);
+});
+
+for (const [label, bytes] of [
+  ["invalid gzip", Buffer.from("not gzip")],
+  ["truncated gzip", gzipSync(pinned).subarray(0, 12)],
+  ["same-size wrong database", gzipSync(Buffer.from("wrong! bytes"))],
+  ["short database", gzipSync(Buffer.from("short"))],
+  ["oversized database", gzipSync(Buffer.alloc(pinned.length + 1))],
+] as const) {
+  test(`Vercel rejects ${label} without replacing the previous runtime snapshot`, t => {
+    const f = fixture(t);
+    writeFileSync(f.runtime, "old bytes");
+    writeFileSync(`${f.runtime}.snapshot`, "old identity");
+    writeFileSync(f.packed, bytes);
+    assert.throws(() => databaseUrl(f.options));
+    assert.equal(readFileSync(f.runtime, "utf8"), "old bytes");
+    assert.equal(readFileSync(`${f.runtime}.snapshot`, "utf8"), "old identity");
+    assert.deepEqual(readdirSync(f.temporaryDirectory).sort(), [path.basename(f.runtime), path.basename(`${f.runtime}.snapshot`)].sort());
+  });
+}

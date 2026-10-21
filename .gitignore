@@ -56,6 +56,7 @@ dev.db*
 
 # Immutable catalog snapshots are restored from prisma/snapshot.json
 /prisma/marketplace.db
+/prisma/marketplace.db.gz*
 /prisma/index-state.json
 /prisma/index-state.json.*
 /.snapshot/

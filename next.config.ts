@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // The deployable preview uses a bundled, read-only marketplace snapshot.
-  // Ensure every dynamic route that imports Prisma receives the database file.
+  // Ship gzip only; Vercel expands the verified pin into writable /tmp storage.
   outputFileTracingIncludes: {
-    "/*": ["./prisma/marketplace.db"],
+    "/*": ["./prisma/marketplace.db.gz"],
+  },
+  outputFileTracingExcludes: {
+    "/*": ["./prisma/marketplace.db", "./prisma/index-state.json"],
   },
 };
 

@@ -1,5 +1,6 @@
 import { resolve } from 'node:path';
-import { restoreSnapshot, verifyCatalogs, readManifest } from './snapshot/core.mjs';
+import { rename, rm } from 'node:fs/promises';
+import { restoreSnapshot, verifyCatalogs, readManifest, compressDatabase, DATABASE_PATH } from './snapshot/core.mjs';
 // Candidate validation is offline-capable, but uses exactly the manifest hashes.
 // Normal builds never set this; missing or corrupt pins always fail closed.
 await verifyCatalogs(await readManifest());
@@ -19,4 +20,11 @@ if (directory) {
 }
 const manifest = await restoreSnapshot(options);
 await verifyCatalogs(manifest);
+// Rebuild from the verified pin even on warm caches; only this gzip is deployed.
+const packedPath = `${DATABASE_PATH}.gz`;
+const temporary = `${packedPath}.${process.pid}.tmp`;
+try {
+  await compressDatabase(DATABASE_PATH, temporary);
+  await rename(temporary, packedPath);
+} finally { await rm(temporary, { force: true }); }
 console.log(`Restored ${manifest.snapshotId} (${manifest.coverage.status}); schema ${manifest.schemaId}`);

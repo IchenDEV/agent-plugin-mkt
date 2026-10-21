@@ -18,7 +18,8 @@
     "index:github": "node --import tsx scripts/index-github.mts",
     "test:mcp": "node --import tsx scripts/test-mcp.ts",
     "snapshot:restore": "node scripts/restore-snapshot.mjs",
-    "snapshot:prepare": "node scripts/prepare-snapshot.mjs"
+    "snapshot:prepare": "node scripts/prepare-snapshot.mjs",
+    "vercel:check": "node scripts/check-vercel-output.mjs"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",

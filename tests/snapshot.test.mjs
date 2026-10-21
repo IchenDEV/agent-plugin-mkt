@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { mkdtemp, mkdir, readFile, writeFile, readdir, rm, copyFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
-import { gzipSync } from 'node:zlib';
+import { gzipSync, gunzipSync } from 'node:zlib';
 import { DatabaseSync } from 'node:sqlite';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -261,6 +261,29 @@ test('restore CLI rejects mismatched catalogs before replacing an existing datab
   });
   assert.deepEqual(await readFile(join(prisma, 'marketplace.db')), previous);
   assert.deepEqual(await readFile(join(prisma, 'index-state.json')), previousState);
+});
+
+test('restore CLI creates and refreshes the deployable gzip from the verified pin on warm caches', async t => {
+  const f = await fixture(t);
+  const scripts = join(f.root, 'scripts');
+  const prisma = join(f.root, 'prisma');
+  await mkdir(join(scripts, 'snapshot'), { recursive: true });
+  await mkdir(prisma);
+  for (const name of ['restore-snapshot.mjs', 'snapshot/core.mjs']) {
+    await copyFile(fileURLToPath(new URL(`../scripts/${name}`, import.meta.url)), join(scripts, name));
+  }
+  await copyFile(f.schemaPath, join(prisma, 'schema.prisma'));
+  await copyFile(f.manifestPath, join(prisma, 'snapshot.json'));
+  await writeFile(join(f.root, f.manifest.source.asset), f.packed);
+  const options = { cwd: f.root, env: { ...process.env, SNAPSHOT_ASSET_DIRECTORY: f.root } };
+  const packedPath = join(prisma, 'marketplace.db.gz');
+  for (let run = 0; run < 2; run++) {
+    await writeFile(packedPath, 'stale archive');
+    await promisify(execFile)(process.execPath, [join(scripts, 'restore-snapshot.mjs')], options);
+    assert.deepEqual(gunzipSync(await readFile(packedPath)), f.raw);
+    assert.deepEqual(await readFile(join(prisma, 'marketplace.db')), f.raw);
+  }
+  assert.deepEqual((await readdir(prisma)).filter(name => name.endsWith('.tmp')), []);
 });
 
 for (const [label, sql, expected] of [

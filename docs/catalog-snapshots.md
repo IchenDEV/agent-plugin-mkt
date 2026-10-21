@@ -7,7 +7,7 @@
 - A pin contains the snapshot ID, Prisma schema SHA-256, SQLite schema fingerprint, byte lengths, SHA-256 hashes, counts, coverage, and exact immutable-version asset URLs. There is no `latest` lookup.
 - Production builds/runtimes always select the bundled pin, even if `DATABASE_URL` is set; Vercel always uses its writable copy. Custom `DATABASE_URL` remains supported in non-production development/indexer CLI runs.
 - A build restores the exact pin before Prisma generation. Missing assets, wrong hashes, incompatible schemas, corrupt SQLite, foreign-key errors, empty catalogs, and catalog-file mismatches fail the build. A warm file cache is checked too.
-- Node.js 24 is required for the built-in SQLite validator/compactor. Production bundles still include the uncompressed database. Release compression solves Git's file-size limit; it does **not** remove hosting bundle/storage limits.
+- Node.js 24 is required for the built-in SQLite validator/compactor. Production Vercel bundles include only the compressed database (`prisma/marketplace.db.gz`). The restore CLI verifies the exact pin/raw SQLite and catalogs as before, then atomically produces the ignored `prisma/marketplace.db.gz` even on a warm cache. At runtime on Vercel, the database is offline-decompressed into `/tmp/agent-plugin-marketplace.db` with an expected decompressed-size bound and SHA-256 check before atomic replacement. Development and non-Vercel environments continue using the raw SQLite database directly. There are no release format, schema, or publication changes.
 
 ## Bootstrap without a nonexistent Release
 
@@ -15,7 +15,7 @@ The first manifest uses `legacy-git` and pins the existing database at commit `1
 
 This compatibility pin is deliberate: implementation does not need to publish a Release, invent an asset URL, or change tokens. After code review and explicit rollout approval, the first authorized sync creates a real release and replaces this legacy source with `github-release`. No bootstrap database upload is required before that first sync. Production deployment/publishing is a separate approval from preparing these changes.
 
-Before rollout: configure the hosting build to use Node 24; verify its outbound access to the historical raw URL and GitHub Release download redirects; verify its uncompressed function bundle size limit. `MARKETPLACE_GITHUB_TOKEN` remains unchanged and may have its existing permissions. The workflow's repository `GITHUB_TOKEN` publishes Releases and commits; branch protection or token permissions may require the repository owner's intervention.
+Before rollout: configure the hosting build to use Node 24; verify its outbound access to the historical raw URL and GitHub Release download redirects; verify function bundle size limits. `MARKETPLACE_GITHUB_TOKEN` remains unchanged and may have its existing permissions. The workflow's repository `GITHUB_TOKEN` publishes Releases and commits; branch protection or token permissions may require the repository owner's intervention.
 
 ## Publication order
 
@@ -58,6 +58,22 @@ npm run build
 ```
 
 Do not run a production index or publisher just to test this migration. Mocked request/checkpoint tests cover interruption and quota paths. Normal `npm run build` restores the pin, replacing locally indexed unpinned database changes. To test a deliberate local candidate, run the generation/validation/prepare stages, copy its candidate manifest to the working tree, and set `SNAPSHOT_ASSET_DIRECTORY=.snapshot/<id>` for the build. Do not commit that candidate pin until the corresponding assets are published and independently verified.
+
+### Deployment check
+
+```sh
+NEXT_ENABLE_ADAPTER=0 vercel build --prod --standalone
+npm run vercel:check
+```
+
+`npm run vercel:check` inspects `.vercel/output`, resolving physical `.func` directories via `realpath` so shared route aliases count once. The gate rejects:
+- Function counts outside 1–12 physical bundles (`> 12` or `0`).
+- Missing compressed database (`prisma/marketplace.db.gz`).
+- Raw database (`prisma/marketplace.db`) or index checkpoint (`prisma/index-state.json`) bundled in any function.
+- Deferred function grouping (`experimentalAllowBundling: true`).
+- Any function bundle exceeding 250 MiB.
+
+A passing local preflight count is not proof that the remote deployment is healthy. Remote production verification requires a native Linux staged production deploy (`--skip-domain`), validating actual runtime function counts and SQLite endpoints, then promoting.
 
 ## Recovery and rollback
 

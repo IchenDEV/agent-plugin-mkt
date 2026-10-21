@@ -1,0 +1,9 @@
+.git/
+.vercel/
+.next/
+node_modules/
+.snapshot/
+.env*
+prisma/marketplace.db
+prisma/marketplace.db.gz*
+prisma/index-state.json*

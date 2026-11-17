@@ -30977,6 +30977,14 @@
       }
     },
     {
+      "name": "designdoc",
+      "source": {
+        "source": "git-subdir",
+        "url": "SpillwaveSolutions/docgen",
+        "path": "plugins/designdoc"
+      }
+    },
+    {
       "name": "designer",
       "source": {
         "source": "github",

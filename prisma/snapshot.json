@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "snapshotId": "catalog-45292493620-1",
+  "snapshotId": "catalog-45369398740-1",
   "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
-  "createdAt": "2026-11-23T23:55:04.806Z",
+  "createdAt": "2026-11-24T09:55:43.932Z",
   "coverage": {
     "status": "partial",
     "cycleId": "37e41b25-02e8-46f0-bf7b-913e16ee9529",
@@ -11,24 +11,24 @@
     "reason": "152 tasks need retry",
     "scope": "Configured bounded discovery cycle; not all of GitHub and not a guarantee of freshness",
     "requestMetrics": {
-      "requests": 153,
+      "requests": 152,
       "byResource": {
-        "core": 153,
+        "core": 152,
         "search": 0,
         "code_search": 0
       },
       "rateLimitResponses": 0,
-      "waitedMs": 1000,
+      "waitedMs": 0,
       "buckets": {
         "core": {
-          "remaining": 4697,
-          "resetAt": 1795480982000
+          "remaining": 4552,
+          "resetAt": 1795517103000
         }
       }
     }
   },
   "database": {
-    "sha256": "cf47c06b3b487429221dfa3177bdcf30b064630aa172750b3639a03ba812ab45",
+    "sha256": "aca1199f0aeb02ad8279c4414231535d76bed79a453395c2b1d27c2db07cf12b",
     "bytes": 137850880,
     "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
     "counts": {
@@ -39,16 +39,16 @@
   },
   "source": {
     "kind": "github-release",
-    "tag": "catalog-45292493620-1",
-    "asset": "catalog-45292493620-1.db.gz",
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45292493620-1/catalog-45292493620-1.db.gz",
-    "sha256": "2e17405df177c2edc1943be29a3c45ca9a2373a8de1d7f755285848d0eaa8044",
-    "bytes": 24516446
+    "tag": "catalog-45369398740-1",
+    "asset": "catalog-45369398740-1.db.gz",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45369398740-1/catalog-45369398740-1.db.gz",
+    "sha256": "6d0e79d9cbf9ed6c52a8cb2f0390064873cc3bc122c4d0b725339a3d2393df93",
+    "bytes": 24516436
   },
   "checkpoint": {
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45292493620-1/catalog-45292493620-1.index-state.json",
-    "sha256": "fdacb3d5747bb93d88fd354497faad2c18d1b10423e8b8f991f982e341ead84d",
-    "bytes": 3329892
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45369398740-1/catalog-45369398740-1.index-state.json",
+    "sha256": "720538f543820fb67dd072bfd336b8a73b500715b3f8daf3dbf19b700bc51e50",
+    "bytes": 3329889
   },
   "catalogs": {
     "codex": {

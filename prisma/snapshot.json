@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "snapshotId": "catalog-45966312260-1",
+  "snapshotId": "catalog-46069143831-1",
   "schemaId": "8291d5031c654e9bf418e829256116ffd3084ecb63cf558751fd23e6546a56c6",
-  "createdAt": "2026-11-27T08:34:00.857Z",
+  "createdAt": "2026-11-27T21:18:21.029Z",
   "coverage": {
     "status": "partial",
     "cycleId": "37e41b25-02e8-46f0-bf7b-913e16ee9529",
@@ -21,14 +21,14 @@
       "waitedMs": 0,
       "buckets": {
         "core": {
-          "remaining": 2868,
-          "resetAt": 1795769657000
+          "remaining": 4679,
+          "resetAt": 1795816639000
         }
       }
     }
   },
   "database": {
-    "sha256": "1e69eae2c0774fd0bad2a77e4faeacc1149bf2a1c8fdf0c49da07dbddf6872b5",
+    "sha256": "174e7db4e5cc50738a4885f9686ad789281e0be4edb56f8cd4c6b034abe658fd",
     "bytes": 137850880,
     "schemaSha256": "57f78992a41d3ce9382f426b22fa81b9ffc4292095aa88b92d9285ccca250e4a",
     "counts": {
@@ -39,15 +39,15 @@
   },
   "source": {
     "kind": "github-release",
-    "tag": "catalog-45966312260-1",
-    "asset": "catalog-45966312260-1.db.gz",
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45966312260-1/catalog-45966312260-1.db.gz",
-    "sha256": "c34bc5e6907ae7af75068eb4e3c78c66b64b46e5ec8d1b5df2faeec210b4be23",
-    "bytes": 24516441
+    "tag": "catalog-46069143831-1",
+    "asset": "catalog-46069143831-1.db.gz",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-46069143831-1/catalog-46069143831-1.db.gz",
+    "sha256": "b49d21548f9fa2b05997fff6b1296356d354aef2243cab5855847b989a6548f2",
+    "bytes": 24516444
   },
   "checkpoint": {
-    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-45966312260-1/catalog-45966312260-1.index-state.json",
-    "sha256": "0fa5f8a6669f4285ca3534bf9ac9a37987e8053f935655bccbeb33d09273050f",
+    "url": "https://github.com/IchenDEV/agent-plugin-mkt/releases/download/catalog-46069143831-1/catalog-46069143831-1.index-state.json",
+    "sha256": "0f8892a41ab5d27398b379ec1ce45b777bcadc8f01b219eec668e0fe1b05af4d",
     "bytes": 3329889
   },
   "catalogs": {
